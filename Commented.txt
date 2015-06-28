@@ -55,6 +55,7 @@
 !hi.baidu.com##SECTION[class="mod-side-item mod-side-tags"]
 !hi.baidu.com##SECTION[class="mod-side-item mod-side-xiangce"]
 !http://img.baidu.com/img/iknow/wenku/230x85*.jpg$domain=wenku.baidu.com
+!itbbs.pconline.com.cn##DIV[id="Jsurvey"]
 !memory.zol.com.cn##DIV[class="article-function clearfix article-function-fixed"]
 !money.163.com##A[class="cDRed js-tielink JS_NTES_LOG_FE"]
 !money.163.com##DIV[class="clearfix"]
@@ -87,6 +88,7 @@
 !product.dangdang.com##DIV[id="describe_0100001489"][class="section"]
 !product.dangdang.com##DIV[name="m1258984_pid0_t13162"]
 !product.pconline.com.cn##DIV[id="app-ewm-tg"]
+!product.pconline.com.cn##DIV[id="Jsurvey"]
 !review.cnfol.com##B[class="R"]
 !review.cnfol.com##CITE[class="KPopWr1304"]
 !review.cnfol.com##DIV[class="Fr Rn"]
