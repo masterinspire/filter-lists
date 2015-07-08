@@ -2,9 +2,9 @@
 ! Author: Master-Inspire
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: 28 Jun 2015
+! Last modified: Wed Jul 8 2015
 ! Title: Master-AdRules
-! Version: 20150628
+! Version: 20150708
 
 
 /letv-gug/*/ver_*.letv
@@ -18,9 +18,11 @@
 ||apis.google.com/js/api.js$third-party
 ||apis.google.com/js/plusone.js$third-party
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
+||baike.bdimg.com/static/mobile/widget/wiki/webapp/college/college_*.js$domain=wapbaike.baidu.com
 ||bing.com/AS/Suggestions$domain=bing.com
 ||bing.com/dict/SerpHoverTrans$domain=bing.com
 ||bing.com/qsonhs.aspx$domain=bing.com
+||cache.soso.com/post/img2/wxd150703.jpg$domain=baike.m.sogou.com
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/wenzhang.jpg$third-party
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js$third-party
@@ -33,22 +35,26 @@
 ||dict.hjenglish.com/services/simpleExplain/en_simpleExplain.ashx$domain=hjenglish.com
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||google-analytics.com$third-party
+||hm.baidu.com/hm.js$domain=wapbaike.baidu.com
 ||hm.baidu.com/hm.js$domain=zhidao.baidu.com
 ||img.baidu.com/img/iknow/qb/select-search.png$third-party
-||img.baidu.com/img/iknow/wenku/*230X85*.jpg$domain=wenku.baidu.com
+||img.baidu.com/img/iknow/wenku/*230X85*.*g$domain=wenku.baidu.com
 ||img.baidu.com/img/iknow/wenku/560X289.jpg
 ||img.baidu.com/img/iknow/wenku/ad/$domain=wenku.baidu.com
 ||img.baidu.com/img/iknow/wenku/img_miti_topbar_400x50.png$domain=wenku.baidu.com
 ||img.baidu.com/img/iknow/wenku/img_view_rightdown_200x170.png
 ||maps.google.com/maps/api/js$third-party
 ||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
+||modernizr.com/i/js/analytics.js$domain=modernizr.com
 ||openapi.baidu.com/cloudaapi/lightapp.js$domain=blog.csdn.net
 ||platform.twitter.com/widgets.js$third-party
+||s.weibo.com/ajax/jsonp/suggestion$domain=weibo.com
 ||ss1.bdstatic.com/*/www/cache/static/*/all_async_search_*.js|$domain=www.baidu.com
 ||ss1.bdstatic.com/*/www/cache/static/*/baiduia_*.js$domain=www.baidu.com
 ||ss1.bdstatic.com/*/www/cache/static/*/every_cookie_*.js$domain=www.baidu.com
 ||static.adzerk.net/ados.js$third-party
 ||static.wenku.bdimg.com/static/wkview/html_view/ico_fee_member_*.png$domain=wenku.baidu.com
+||static1.searchbox.baidu.com/static/searchbox/openjs/mp.js$domain=boscdn.bpc.baidu.com
 ||szhr.com.cn/ad_float/ad_move.js$domain=szhr.com.cn
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$third-party
 ||translate.google.com/translate_a/element.js$third-party
@@ -133,6 +139,9 @@ baike.baidu.com##DIV[id="bdshareside"]
 baike.baidu.com##DIV[id="bkDynamic"]
 baike.baidu.com##DIV[id="navbar-wrapper"][class="navbar-wrapper"]
 baike.com##DIV[class="qrcode"]
+baike.haosou.com##DIV[class="nc-box"]
+baike.haosou.com##DIV[id="J-mod-ranking"]
+baike.m.sogou.com##A[class="act_wrap"]
 baike.sogou.com##A[class="popularize_ad"]
 baike.sogou.com##A[class="top_adv_wrap"]
 baike.sogou.com##DIV[class="relevant_list_wrap border"]
@@ -213,6 +222,10 @@ ce.cn##DIV[class="youce"]
 ce.cn##DIV[id="ad_ce"]
 ce.cn##DIV[id="div1"]
 ce.cn##DIV[id="toprad"][class="topright"]
+child.rksec.com##A[href="http://child.rksec.com/baike/network/"]
+child.rksec.com##DIV[class="bd"]
+child.rksec.com##DIV[id="erweima"]
+child.rksec.com##TABLE[id="yyintro"]
 chinaz.com##DIV[class="m-picshow"]
 chinaz.com##DIV[class="usershare f-fl"]
 cn.bing.com##A[id="sh_shl"][class="sc_light"]
@@ -450,6 +463,7 @@ m1.mail.sina.com.cn##DIV[class="rightbottom"]
 m1.mail.sina.com.cn##DIV[id="huayi4sohubox"]
 mail.163.com##DIV[id^="_mail_popup"]
 mail.qq.com##DIV[id="returnMsg"][class="login_msg"]
+mail.sina.com.cn##div[class^="ad"]
 map.baidu.com##DIV[class="addrBottomImg"]
 map.baidu.com##DIV[id="defCityTip"][class="GR_Tip def_city_tip"]
 map.baidu.com##DIV[id="MaptoDown_tip"][class="search-tip"]
@@ -526,6 +540,7 @@ news.youth.cn##DIV[class="xwrd_d2"]
 news.youth.cn##DIV[id="identifier-pannel"]
 news.youth.cn##UL[class="tp tj2_pic"]
 niutuku.com##DIV[id="toptip"][class="toptip"]
+nlog-project.org##DIV[class="banner-item col-md-12 col-xs-12 col-sm-3"]
 nlog-project.org##DIV[id="banners-bottom"][class="ads"]
 nlog-project.org##DIV[id="banners-right"][class="ads row"]
 ourcrack.com##A[href="http://www.xiaobaixitong.com/?op "]
@@ -708,12 +723,14 @@ w3cplus.com##DIV[class="banner"]
 w3cplus.com##DIV[id="block-block-42"]
 w3cplus.com##DIV[id="block-block-43"][class="block block-block"]
 w3cschool.cc##DIV[class="share-box"]
+wapbaike.baidu.com##DIV.pad45 + div
 wapbaike.baidu.com##DIV[class="zhidaoImport"]
 webmap0.map.bdstatic.com/fwmap/upload/r/image/2013-07-16/6f90db9e61476f2cd8975c3fac3c70a8.jpg$domain=map.baidu.com
 webmap0.map.bdstatic.com/wolfman/static/common/images/login_8_9e79767.png$domain=map.baidu.com
 webmap0.map.bdstatic.com/wolfman/static/common/images/login_text_ba9f5a0.png$domain=map.baidu.com
 webmap2.map.bdstatic.com/wolfman/static/common/images/unloginSug_e5196cc.gif$domain=map.baidu.com
 weibo.com##DIV[class="apps_PCD_reco_detail_right"]
+weibo.com##DIV[class="gn_search "]
 weibo.com##DIV[class="nologin_profile"]
 weibo.com##DIV[class="PCD_nodelayer"]
 weibo.com##DIV[class="PCD_pictext_b"]
@@ -733,6 +750,7 @@ wenda.tianya.cn##A[href="http://wenda.tianya.cn/question/19iob5m08oma54q8a1fk7t6
 wenda.tianya.cn##DL[class="notLogin"]
 wenku.baidu.com##A[class="reader-feedback"]
 wenku.baidu.com##A[id="japanbanner"][class="logSend log-xsend"]
+wenku.baidu.com##A[id="tip-notice-new"][class="vip-free-auto"]
 wenku.baidu.com##DIV[class="down-btn-area mr20"]
 wenku.baidu.com##DIV[class="fix-searchbar-ad"]
 wenku.baidu.com##DIV[class="mod bottom-doc-list pt20 daily-recom-wrap small-wrap"]
@@ -747,6 +765,7 @@ wenku.baidu.com##DIV[id="bottom-download"][class="bd"]
 wenku.baidu.com##DIV[id="reader-helper-el"][class="ui-panel trg-bl"]
 wenku.baidu.com##DIV[id="wk-2d-bar-code"]
 wenku.baidu.com##SPAN[class="top-download-tip"]
+wenku.baidu.com##UL[class="side-nav clearfix"]
 wenku.it168.com##DIV[id="erweima_qiang"][class="it168_fl"]
 wenwen.sogou.com##DIV[id="float_window"]
 wenwen.sogou.com##DIV[id="wap_float_window"]
@@ -788,15 +807,21 @@ www.baidu.com##div#foot-blank~div
 www.baike.com##DIV[class="bklog"]
 www.baike.com##DIV[class="bk-weixin"]
 www.baike.com##DIV[class="rightdiv"]
+www.baike.com##DIV[class="yzct rightdiv"]
 www.baike.com##div[id^="hd_ad_doc"]
 www.baike.com##DIV[id="newsfix-on"][class="newsfix-on"]
 www.baike.com##DIV[id="relihelp"][class="l relihelp"]
 www.baike.com##DIV[id="wapDocCookie"]
 www.baike.com##DIV[id="youlike-on"][class="youlike-on"]
+www.baike.com##IFRAME
+www.baike.com##LI[id="sha"]
 www.bing.com##A[id="fbpgbt"][class="cbtn"]
 www.bing.com##A[id="sh_shl"][class="sc_light"]
 www.bing.com##DIV[class="b_suffix b_secondaryText nowrap"]
+www.bing.com##div[class="bm_ctn"]
+www.bing.com##DIV[class="bm_tab"]
 www.bing.com##DIV[class="sh_hto"]
+www.bing.com##DIV[id^="bnp.nid"]
 www.bing.com##DIV[id="carouselControls"]
 www.bing.com##DIV[id="cs_Story"]
 www.bing.com##DIV[id="hp_pgbar"]
@@ -850,6 +875,7 @@ www.grabsun.com##DIV[id="imbox"]
 www.gz-benet.com.cn##TD[class="neblack"]
 www.hunantv.com##P[class="i-floatbtn clearfix"]
 www.huomo.cn##DIV[id="postTopAd"]
+www.ibm.com##DIV[id="dw-regbar"][class="dw-home-band"]
 www.ihref.com##DIV[class="toptip"]
 www.it892.com##DIV[class="wumii-popup-hot"]
 www.ithome.com##DIV[id="hm_t_11511"]
@@ -910,6 +936,8 @@ www.wps.cn##A[class="school"]
 www.wps.cn##DIV[id="FOOT_BAR"][class="bar_foot"]
 www.wuleba.com##DIV[id="text-7"]
 www.wuleba.com##DIV[id="text-8"]
+www.yaolan.com##DIV[id="newExpertOldHtml"][class="new-expertOnlineOld"]
+www.yaolan.com##P[class="xiangguantuijian"]
 www.ydcbw.com##DIV[class="footer"]
 www.zhihu.com##DIV[class~="modal-dialog"]
 www.zhihu.com##DIV[class~="modal-dialog-bg"]
@@ -928,6 +956,8 @@ xpnow.cn##DIV[class="linkad"]
 xpnow.cn##DIV[class="topad"]
 xy.51job.com##DIV[class="ad_double"]
 xy.51job.com##DIV[id="SlipLay"]
+xyk.51credit.com##DIV[class="con_bor hidden h286 p1"]
+xyk.51credit.com##P[class="mb10 clearfix"]
 yingyu.100xuexi.com##DIV[class="fixed-bottom"]
 yingyu.100xuexi.com##DIV[class="Share"]
 yingyu.100xuexi.com##IFRAME[id="frmComment"]

@@ -1,4 +1,5 @@
 ﻿!@@||microsoft.com/library/svy/$domain=windows.microsoft.com
+!||img.baidu.com/img/iknow/wenku/*230X85*.jpg$domain=wenku.baidu.com
 !||s1.bdstatic.com/r/www/cache/static/sug/js/*.js$third-party
 !||ss0.bdstatic.com/*/tam-ogel/*-*-*-*-*.js$domain=www.baidu.com
 !||ss1.bdstatic.com/*/www/cache/static/*/env_*.swf|$domain=www.baidu.com
@@ -55,6 +56,7 @@
 !hi.baidu.com##SECTION[class="mod-side-item mod-side-tags"]
 !hi.baidu.com##SECTION[class="mod-side-item mod-side-xiangce"]
 !http://img.baidu.com/img/iknow/wenku/230x85*.jpg$domain=wenku.baidu.com
+!http://imgsrc.baidu.com/baike/pic/item/*.jpg$domain=wapbaike.baidu.com
 !itbbs.pconline.com.cn##DIV[id="Jsurvey"]
 !memory.zol.com.cn##DIV[class="article-function clearfix article-function-fixed"]
 !money.163.com##A[class="cDRed js-tielink JS_NTES_LOG_FE"]
@@ -106,6 +108,7 @@
 !tech.sina.com.cn##DIV[class="guess-view-list clearfix"]
 !tech.sina.com.cn##DIV[class="real-time-window"]
 !tech.sina.com.cn##DIV[id="wb_rec"][class="wb_rec"]
+!www.bing.com##DIV[class="sa_uc"]
 !www.csdn.net##DIV[class="ad_box"]
 !www.csdn.net##DIV[class="top_box"]
 !www.csdn.net##DIV[class="tracking-ad"]
