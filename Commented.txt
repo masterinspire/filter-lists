@@ -1,6 +1,9 @@
 ﻿!@@||microsoft.com/library/svy/$domain=windows.microsoft.com
+!||bing.com/dict/SerpHoverTrans$domain=bing.com
+!||cache.soso.com/wenwen/i/ad/app/pending.png$domain=wenwen.sogou.com
 !||getaninsight.com/id/wi/541/jq/1/b/46a3d2/p/r/t/y/$domain=entityframeworktutorial.net
 !||img.baidu.com/img/iknow/wenku/*230X85*.jpg$domain=wenku.baidu.com
+!||lianmeng.360.cn/so/inlay.js
 !||s1.bdstatic.com/r/www/cache/static/sug/js/*.js$third-party
 !||ss0.bdstatic.com/*/tam-ogel/*-*-*-*-*.js$domain=www.baidu.com
 !||ss1.bdstatic.com/*/www/cache/static/*/env_*.swf|$domain=www.baidu.com
@@ -10,6 +13,8 @@
 !||tcss.qq.com/ping.js$domain=bbs.pcbeta.com
 !||tcss.qq.com/ping_hotclick.js$domain=bbs.pcbeta.com
 !||use.typekit.net/wde1aof.js$third-party
+!||www.bing.com/s/ac/*/MsnJVData/HoverTranslation.css
+!||www.bing.com/s/as/*/MsnJVData/HoverTranslation.js
 !||www.google-analytics.com/collect$third-party
 !163.com##DIV[class="clearfix"]
 !218.76.*.*/*/*/*/letv-gug/*/ver*.letv
@@ -26,6 +31,15 @@
 !blog.163.com##IFRAME[id="morecontent_frame"]
 !blog.csdn.net##DIV[class~="tracking-ad"]
 !blog.csdn.net##DIV[class="notice tracking-ad"]
+!cn.bing.com##A[id="sh_shl"][class="sc_light"]
+!cn.bing.com##DIV[class="b_suffix b_secondaryText nowrap"]
+!cn.bing.com##DIV[id^="sc_hst"][class="sh_hst"]
+!cn.bing.com##DIV[id="carouselControls"]
+!cn.bing.com##DIV[id="hp_tbar"]
+!cn.bing.com##DIV[id="ht_pop"][class="hts_pop"]
+!cn.bing.com##DIV[id="sh_sh"]
+!cn.bing.com##DIV[id="share_b"][class="sh_block"]
+!cn.bing.com##OL[id="b_context"]
 !consumeprod.alipay.com##DIV[id="globalTopAD"]
 !dc.pconline.com.cn##DIV[id="app-ewm-tg"][class="app-ewm-tg"]
 !download.csdn.net##DIV[class="tracking-ad"]
@@ -54,6 +68,9 @@
 !gd.people.com.cn##DIV[class="rmshjb"]
 !gd.people.com.cn##DIV[class="rmwb_dragLayer"]
 !gd.people.com.cn##DIV[class="rmwb_fixDiv"]
+!global.bing.com##DIV[id="carouselControls"]
+!global.bing.com##DIV[id="hp_tbar"]
+!global.bing.com##OL[id="b_context"]
 !hi.baidu.com##SECTION[class="mod-side-item mod-side-tags"]
 !hi.baidu.com##SECTION[class="mod-side-item mod-side-xiangce"]
 !http://img.baidu.com/img/iknow/wenku/230x85*.jpg$domain=wenku.baidu.com
@@ -109,7 +126,26 @@
 !tech.sina.com.cn##DIV[class="guess-view-list clearfix"]
 !tech.sina.com.cn##DIV[class="real-time-window"]
 !tech.sina.com.cn##DIV[id="wb_rec"][class="wb_rec"]
+!www.bing.com##A[id="fbpgbt"][class="cbtn"]
+!www.bing.com##A[id="sh_shl"][class="sc_light"]
+!www.bing.com##DIV[class="b_suffix b_secondaryText nowrap"]
+!www.bing.com##div[class="bm_ctn"]
+!www.bing.com##DIV[class="bm_module"]
+!www.bing.com##DIV[class="bm_tab"]
+!www.bing.com##DIV[class="msn_sharingControl"]
 !www.bing.com##DIV[class="sa_uc"]
+!www.bing.com##DIV[class="sh_hto"]
+!www.bing.com##DIV[id^="bnp.nid"]
+!www.bing.com##DIV[id="carouselControls"]
+!www.bing.com##DIV[id="cs_Story"]
+!www.bing.com##DIV[id="hp_pgbar"]
+!www.bing.com##DIV[id="hp_tbar"]
+!www.bing.com##DIV[id="ht_pop"][class="hts_pop"]
+!www.bing.com##DIV[id="sb_foot"]
+!www.bing.com##DIV[id="share_b"][class="sh_block"]
+!www.bing.com##IMG[class="bvpButton rms_img"]
+!www.bing.com##IMG[id="bip_button"][class="rms_img"]
+!www.bing.com##OL[id="b_context"]
 !www.ccav1.com##DIV#wrapper~div
 !www.csdn.net##DIV[class="ad_box"]
 !www.csdn.net##DIV[class="top_box"]

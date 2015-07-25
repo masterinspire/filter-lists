@@ -2,9 +2,9 @@
 ! Author: Master-Inspire
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Wed Jul 23 2015
+! Last modified: Sat Jul 25 2015
 ! Title: Master-AdRules
-! Version: 201507023
+! Version: 20150725
 
 
 /letv-gug/*/ver_*.letv
@@ -20,13 +20,15 @@
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
 ||baike.bdimg.com/static/mobile/widget/wiki/webapp/college/college_*.js$domain=wapbaike.baidu.com
 ||bing.com/AS/Suggestions$domain=bing.com
-||bing.com/dict/SerpHoverTrans$domain=bing.com
 ||bing.com/qsonhs.aspx$domain=bing.com
 ||cache.soso.com/post/img2/wxd150703.jpg$domain=baike.m.sogou.com
+||cache.soso.com/wenwen/i/ad/$domain=wenwen.sogou.com
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/wenzhang.jpg$third-party
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js$third-party
 ||clouddn.com/embed_*_.js$domain=ccav1.com
+||cn.bing.net/th?*amp;pid=MSNJVFeeds|$domain=www.bing.com
+||cn.bing.net/th?*h=75&pid=MSNJVFeeds|$domain=www.bing.com
 ||connect.facebook.net/en_US/all.js$third-party
 ||connect.facebook.net/en_US/fbds.js$third-party
 ||connect.facebook.net/en_US/sdk.js$third-party
@@ -47,14 +49,15 @@
 ||img.baidu.com/img/iknow/wenku/img_miti_topbar_400x50.png$domain=wenku.baidu.com
 ||img.baidu.com/img/iknow/wenku/img_view_rightdown_200x170.png
 ||knewbi.com/app/banner/knewbi_index/*$domain=leiphone.com
-||lianmeng.360.cn/so/inlay.js
 ||maps.google.com/maps/api/js$third-party
 ||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
 ||modernizr.com/i/js/analytics.js$domain=modernizr.com
+||open.qzone.qq.com/like$third-party
 ||openapi.baidu.com/cloudaapi/lightapp.js$domain=blog.csdn.net
 ||pgdt.gtimg.cn/gdt/*.jpg/0$domain=user.qzone.qq.com
 ||platform.twitter.com/widgets.js$third-party
 ||push.my.tv.sohu.com/getwebpush_sohuHD.globalNewPushTrigger.json
+||s.cn.bing.net/th?*pid=News|$domain=www.bing.com
 ||s.weibo.com/ajax/jsonp/suggestion$domain=weibo.com
 ||siteapp.baidu.com/static/webappservice/uaredirect.js$third-party
 ||ss1.bdstatic.com/*/www/cache/static/*/all_async_search_*.js|$domain=www.baidu.com
@@ -73,6 +76,9 @@
 ||wenku.baidu.com/browse/widget/dailyrecom$domain=wenku.baidu.com
 ||widget.weibo.com/relationship/followbutton.php$third-party
 ||widget.weibo.com/weiboshow/index.php$third-party
+||www.bing.com/rms/Framework/jc/46a2ffcb/0d19230b.js
+||www.bing.com/rms/Framework/jc/67106a7d/b337e4a0.js
+||www.bing.com/rms/Framework/jc/b72ab4f8/035c3ebc.js
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.facebook.com/plugins/like.php$third-party
 ||www.google.com/coop/cse/brand$third-party
@@ -173,6 +179,13 @@ bbs.pcbeta.com##DIV[class="ejwzFMVW"]
 bbs.pcbeta.com##SPAN[id="weixinqr"]
 bcscdn.baidu.com/opnimg/520f1e497ddbe6682cde321ca2f34693.jpg$domain=map.baidu.com
 bcscdn.baidu.com/opnimg/6fa7524c3805b12e631d9a707e6312a8.jpg$domain=map.baidu.com
+bing.com##A[id="fbpgbt"][class="cbtn"]
+bing.com##A[id="sh_shl"][class="sc_light"]
+bing.com##DIV[class="b_suffix b_secondaryText nowrap"]
+bing.com##DIV[id^="sc_hst"][class="sh_hst"]
+bing.com##DIV[id="carouselControls"]
+bing.com##DIV[id="hp_tbar"]
+bing.com##OL[id="b_context"]
 bkjia.com##DIV[class="div_body head_box mt10"]
 bkjia.com##DIV[class="syzp mt10"]
 bkjia.com##DIV[id="changyan_floatbar_wrapper"]
@@ -242,15 +255,6 @@ child.rksec.com##DIV[id="erweima"]
 child.rksec.com##TABLE[id="yyintro"]
 chinaz.com##DIV[class="m-picshow"]
 chinaz.com##DIV[class="usershare f-fl"]
-cn.bing.com##A[id="sh_shl"][class="sc_light"]
-cn.bing.com##DIV[class="b_suffix b_secondaryText nowrap"]
-cn.bing.com##DIV[id^="sc_hst"][class="sh_hst"]
-cn.bing.com##DIV[id="carouselControls"]
-cn.bing.com##DIV[id="hp_tbar"]
-cn.bing.com##DIV[id="ht_pop"][class="hts_pop"]
-cn.bing.com##DIV[id="sh_sh"]
-cn.bing.com##DIV[id="share_b"][class="sh_block"]
-cn.bing.com##OL[id="b_context"]
 cnc.jscj.com##TABLE[id="Table_ad"]
 cnfol.com##B[class="R"]
 cnfol.com##CITE[class="KPopWr1304"]
@@ -366,9 +370,6 @@ geek.csdn.net##UL[class="scrolltop_bar list-unstyled data-offset-top in_viewer a
 gezida.com##DIV[id="box1"]
 gezila.com##IFRAME[id="f"]
 gl.ali213.net##DIV[id="GLDIV"][class="glqcode"]
-global.bing.com##DIV[id="carouselControls"]
-global.bing.com##DIV[id="hp_tbar"]
-global.bing.com##OL[id="b_context"]
 group.pcbeta.com##DIV[class="CGHJW"]
 gruntjs.com##DIV[class="advertisements"]
 h5.m.taobao.com##DIV[class="download-adv"]
@@ -834,25 +835,9 @@ www.baike.com##DIV[id="wapDocCookie"]
 www.baike.com##DIV[id="youlike-on"][class="youlike-on"]
 www.baike.com##IFRAME
 www.baike.com##LI[id="sha"]
-www.bing.com##A[id="fbpgbt"][class="cbtn"]
-www.bing.com##A[id="sh_shl"][class="sc_light"]
-www.bing.com##DIV[class="b_suffix b_secondaryText nowrap"]
-www.bing.com##div[class="bm_ctn"]
-www.bing.com##DIV[class="bm_tab"]
-www.bing.com##DIV[class="msn_sharingControl"]
-www.bing.com##DIV[class="sh_hto"]
-www.bing.com##DIV[id^="bnp.nid"]
-www.bing.com##DIV[id="carouselControls"]
-www.bing.com##DIV[id="cs_Story"]
-www.bing.com##DIV[id="hp_pgbar"]
-www.bing.com##DIV[id="hp_tbar"]
-www.bing.com##DIV[id="ht_pop"][class="hts_pop"]
-www.bing.com##DIV[id="sb_foot"]
-www.bing.com##DIV[id="share_b"][class="sh_block"]
+www.bing.com##DIV[class="bk_sidebar"]
+www.bing.com##DIV[id="hplas"]
 www.bing.com##DIV[id="TopApp"]
-www.bing.com##IMG[class="bvpButton rms_img"]
-www.bing.com##IMG[id="bip_button"][class="rms_img"]
-www.bing.com##OL[id="b_context"]
 www.bitscn.com##DIV[id="leftDiv"]
 www.buildapp.net##IMG[src="/adcaige.jpg"]
 www.c114.net##DIV[class="share"]
@@ -953,6 +938,8 @@ www.szjs.gov.cn##DIV[id="piaochuang"]
 www.taobao.com##DIV[class="dui"]
 www.taobao.com##DIV[id="J_Feedback"][class="feedback"]
 www.taobao.com##DIV[id="J_midyearAct"][class="midyear-act clearfix"]
+www.techweb.com.cn##A[href^="http://ads.techweb.cn"]
+www.techweb.com.cn##DIV[id="share_content"]
 www.th7.cn##DIV[id="ad_yx"]
 www.th7.cn##DIV[id="ujian-backtop"]
 www.th7.cn##DIV[id="ujian-side"]
