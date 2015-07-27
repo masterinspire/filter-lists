@@ -1,7 +1,10 @@
 ﻿!@@||microsoft.com/library/svy/$domain=windows.microsoft.com
 !||bing.com/dict/SerpHoverTrans$domain=bing.com
 !||cache.soso.com/wenwen/i/ad/app/pending.png$domain=wenwen.sogou.com
+!||cdn.sstatic.net/img/favicons-sprite16.png$domain=stackoverflow.com
 !||getaninsight.com/id/wi/541/jq/1/b/46a3d2/p/r/t/y/$domain=entityframeworktutorial.net
+!||googleusercontent.com$domain=stackoverflow.com
+!||i.stack.imgur.com/tKsDb.png$domain=stackoverflow.com
 !||img.baidu.com/img/iknow/wenku/*230X85*.jpg$domain=wenku.baidu.com
 !||lianmeng.360.cn/so/inlay.js
 !||s1.bdstatic.com/r/www/cache/static/sug/js/*.js$third-party
@@ -150,6 +153,7 @@
 !www.csdn.net##DIV[class="ad_box"]
 !www.csdn.net##DIV[class="top_box"]
 !www.csdn.net##DIV[class="tracking-ad"]
+!www.microsoft.com##DIV[class="translate_box"]
 !www.sina.com.cn##DIV[class="real-time-window"]
 !www.zol.com.cn##DIV[id="guideWidget"][class="guide-widget"]
 !zhidao.baidu.com##ASIDE[id="qb-side"][class="grid qb-side adjust-height"]

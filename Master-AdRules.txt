@@ -2,9 +2,9 @@
 ! Author: Master-Inspire
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Sat Jul 25 2015
+! Last modified: Mon Jul 27 2015
 ! Title: Master-AdRules
-! Version: 20150725
+! Version: 20150727
 
 
 /letv-gug/*/ver_*.letv
@@ -14,10 +14,11 @@
 @@||sinaimg.cn/unipro/pub/suda_s_*.js$domain=mail.sina.com.cn
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||analytics.163.com/ntes.js$third-party
-||api.github.com/_private/browser/stats$third-party
+||api.github.com/_private/browser/stats$domain=github.com
 ||apis.google.com/js/api.js$third-party
 ||apis.google.com/js/plusone.js$third-party
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
+||az416426.vo.msecnd.net/scripts/a/ai.0.js$domain=msdn.microsoft.com
 ||baike.bdimg.com/static/mobile/widget/wiki/webapp/college/college_*.js$domain=wapbaike.baidu.com
 ||bing.com/AS/Suggestions$domain=bing.com
 ||bing.com/qsonhs.aspx$domain=bing.com
@@ -40,8 +41,10 @@
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
 ||getaninsight.com$domain=entityframeworktutorial.net
 ||google-analytics.com$third-party
+||gravatar.com/avatar$third-party
 ||hm.baidu.com/hm.js
 ||i.gtimg.cn/open/app_icon/*.png$domain=user.qzone.qq.com
+||i.ytimg.com/vi/*.jpg$third-party
 ||img.baidu.com/img/iknow/qb/select-search.png$third-party
 ||img.baidu.com/img/iknow/wenku/*230X85*.*g$domain=wenku.baidu.com
 ||img.baidu.com/img/iknow/wenku/560X289.jpg
@@ -67,6 +70,8 @@
 ||static.duoshuo.com/embed.js$third-party
 ||static.wenku.bdimg.com/static/wkview/html_view/ico_fee_member_*.png$domain=wenku.baidu.com
 ||static1.searchbox.baidu.com/static/searchbox/openjs/mp.js$domain=boscdn.bpc.baidu.com
+||support2.microsoft.com/common/script/fx/surveystrapper.js
+||support2.microsoft.com/common/surveyscripthandler.ashx
 ||szhr.com.cn/ad_float/ad_move.js$domain=szhr.com.cn
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$third-party
 ||translate.google.com/translate_a/element.js$third-party
@@ -370,6 +375,7 @@ geek.csdn.net##UL[class="scrolltop_bar list-unstyled data-offset-top in_viewer a
 gezida.com##DIV[id="box1"]
 gezila.com##IFRAME[id="f"]
 gl.ali213.net##DIV[id="GLDIV"][class="glqcode"]
+graph.facebook.com/*/picture$domain=stackoverflow.com
 group.pcbeta.com##DIV[class="CGHJW"]
 gruntjs.com##DIV[class="advertisements"]
 h5.m.taobao.com##DIV[class="download-adv"]
@@ -899,6 +905,7 @@ www.jb51.net##DIV[id="bdshare"]
 www.jb51.net##DIV[id="shoucang"]
 www.jetbrains.com##DIV[id="bart_wrapper"][class="bart_bar bart_success"]
 www.jetbrains.com##DIV[id="country-offer-placeholder"]
+www.jetbrains.com##DIV[id="pseudo-footer"]
 www.kanzhun.com##A[class="left-feedback"]
 www.kanzhun.com##DIV[class="barrage"]
 www.lagou.com##DIV[class="main_con_backup"]
@@ -910,6 +917,7 @@ www.lmwlove.com##A[href="http://lmwlove.100xuexi.com/"]
 www.lmwlove.com##DIV[class="header"]
 www.lmwlove.com##UL[class="notice left"]
 www.med66.com##DIV[class="layout solid"]
+www.npmjs.com##DIV[id="notification-banner"]
 www.onlinedown.net##DIV[class="modBoxA mb10"]
 www.open-open.com##DIV[id="upload-box1"][class="box-blue angle"]
 www.oschina.net##DIV[id="project_ad_banner"]
@@ -952,6 +960,8 @@ www.uipower.com##TABLE[id="__01"]
 www.vista123.com##DIV[id="popupWin"]
 www.visualstudio.com##DIV[id="footerSock"]
 www.w3cplus.com##DIV[class="bdsharebuttonbox"]
+www.w3school.com.cn##DIV[id="ad"]
+www.w3school.com.cn##DIV[id="searchui"]
 www.webweb.com##DIV[class="bor-ccc m-t10 notes bg-gray bookmark"]
 www.win9cn.com##DIV[id="ad_cover"]
 www.win9cn.com##DIV[id="side_func"]

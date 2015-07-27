@@ -1,0 +1,4 @@
+@@||szhr.com.cn^$document,domain=szhr.com.cn
+@@||s7.addthis.com^*/addthis_widget.js*pubid=
+@@||static.adzerk.net/ados.js$domain=stackoverflow.com
+@@/share-sprite-$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
