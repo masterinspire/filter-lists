@@ -1,4 +1,5 @@
 ﻿!@@||microsoft.com/library/svy/$domain=windows.microsoft.com
+!||apis.google.com/js/client:plusone.js
 !||bing.com/dict/SerpHoverTrans$domain=bing.com
 !||cache.soso.com/wenwen/i/ad/app/pending.png$domain=wenwen.sogou.com
 !||cdn.sstatic.net/img/favicons-sprite16.png$domain=stackoverflow.com
@@ -29,8 +30,18 @@
 !baike.baidu.com##A[href^="http://baike.baidu.com/subview/"]
 !baike.baidu.com##A[href^="http://baike.baidu.com/wikitask/usertask?pagetype=taskinfo"]
 !baike.baidu.com##A[href="http://baike.baidu.com/operation/helloworld2014"]
+!baike.sogou.com##IMG[src="http://cache.soso.com/baike/i/search1212.jpg"]
 !bbs.pcbeta.com##DIV[id="sitefocus"][class="focus"]
+!blog.163.com##DIV[class~="ptc"]
+!blog.163.com##DIV[class="m-regGuideLayer f-trans js-show-regGuideLayer"]
+!blog.163.com##DIV[class="pright rightoperatebar rightoperatebar-new"]
 !blog.163.com##DIV[class="w-mobileadbanner"]
+!blog.163.com##DIV[class="zcnt zflg"]
+!blog.163.com##DIV[id="loftertextlinkad"]
+!blog.163.com##DIV[id="r_fixedNodesWrap"][class="fixedNodesWrap"]
+!blog.163.com##DIV[id="r_m163news"][class="m-163news"]
+!blog.163.com##DIV[id="r_mkaolaadv"][class="m-kaolaadv"]
+!blog.163.com##IFRAME
 !blog.163.com##IFRAME[id="morecontent_frame"]
 !blog.csdn.net##DIV[class~="tracking-ad"]
 !blog.csdn.net##DIV[class="notice tracking-ad"]
@@ -43,6 +54,7 @@
 !cn.bing.com##DIV[id="sh_sh"]
 !cn.bing.com##DIV[id="share_b"][class="sh_block"]
 !cn.bing.com##OL[id="b_context"]
+!column.caijing.com.cn##IMG[src="http://img2.caijing.com.cn/2014/0725/1406282187681.jpg"]
 !consumeprod.alipay.com##DIV[id="globalTopAD"]
 !dc.pconline.com.cn##DIV[id="app-ewm-tg"][class="app-ewm-tg"]
 !download.csdn.net##DIV[class="tracking-ad"]
@@ -63,6 +75,8 @@
 !finance.sina.com.cn##DIV[class="guess-view-list clearfix"]
 !finance.sina.com.cn##DIV[class="real-time-window"]
 !finance.sina.com.cn##DIV[id="wb_rec"][class="wb_rec"]
+!finance.sina.com.cn##IFRAME[src="http://finance.sina.com.cn/iframe/870/2012/1024/2.html?from=aFinance"]
+!finance.sina.com.cn##IFRAME[src="http://finance.sina.com.cn/iframe/876/20121225/11.html?from=aFinance"]
 !gd.people.com.cn##DIV[class="about"]
 !gd.people.com.cn##DIV[class="c_r fr"]
 !gd.people.com.cn##DIV[class="hot_day clear clearfix"]
@@ -103,6 +117,7 @@
 !news.cnfol.com##DIV[class="KikBrf1304 Cf"]
 !news.cnfol.com##DIV[id="ShrBar"][class="AddShrWrp"]
 !news.cnfol.com##P[class="GadTps"]
+!news.esnai.com##IMG[src="http://upload.news.esnai.com/2013/0315/1363326150594.gif"]
 !politics.caijing.com.cn##DIV[class="main_rt"]
 !politics.caijing.com.cn##DIV[class="sina_zan"]
 !politics.caijing.com.cn##IFRAME[id="sina_anywhere_iframe"]
@@ -126,9 +141,13 @@
 !sc.stock.cnfol.com##CITE[class="KPopWr1304"]
 !sc.stock.cnfol.com##DIV[class="KikBrf1304 Cf"]
 !stackoverflow.com##DIV[id="noscript-warning"]
+!tech.hexun.com##IFRAME[src="http://news.hexun.com/frag/106293970/10792_106293970.html"]
+!tech.hexun.com##IFRAME[src="http://news.hexun.com/frag/106293970/10793_106293970.html"]
+!tech.hexun.com##IFRAME[src="http://news.hexun.com/frag/106293970/10795_106293970.html"]
 !tech.sina.com.cn##DIV[class="guess-view-list clearfix"]
 !tech.sina.com.cn##DIV[class="real-time-window"]
 !tech.sina.com.cn##DIV[id="wb_rec"][class="wb_rec"]
+!wenda.tianya.cn##A[href="http://wenda.tianya.cn/question/19iob5m08oma54q8a1fk7t6h43i0c13koujdo"]
 !www.bing.com##A[id="fbpgbt"][class="cbtn"]
 !www.bing.com##A[id="sh_shl"][class="sc_light"]
 !www.bing.com##DIV[class="b_suffix b_secondaryText nowrap"]
@@ -159,3 +178,4 @@
 !zhidao.baidu.com##ASIDE[id="qb-side"][class="grid qb-side adjust-height"]
 !zhidao.baidu.com##DIV[class="wgt-xiaozhi xiaozhi-min"]
 !zhihu.com##DIV[class="modal-dialog-bg white"]
+!zol.com.cn##IMG[src="http://icon.zol-img.com.cn/article/weibosharebtn.png"]

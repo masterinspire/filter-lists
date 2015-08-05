@@ -1,4 +1,6 @@
-@@||szhr.com.cn^$document,domain=szhr.com.cn
+@@/share-sprite-$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
+@@||ajax.cloudflare.com/cdn-cgi/nexp/$script,third-party
+@@||analytics.163.com/ntes.js
 @@||s7.addthis.com^*/addthis_widget.js*pubid=
 @@||static.adzerk.net/ados.js$domain=stackoverflow.com
-@@/share-sprite-$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
+@@||szhr.com.cn^$document,domain=szhr.com.cn
