@@ -168,10 +168,12 @@
 !www.bing.com##IMG[class="bvpButton rms_img"]
 !www.bing.com##IMG[id="bip_button"][class="rms_img"]
 !www.bing.com##OL[id="b_context"]
+!www.buildapp.net##IMG[src="/adcaige.jpg"]
 !www.ccav1.com##DIV#wrapper~div
 !www.csdn.net##DIV[class="ad_box"]
 !www.csdn.net##DIV[class="top_box"]
 !www.csdn.net##DIV[class="tracking-ad"]
+!www.lmwlove.com##A[href="http://lmwlove.100xuexi.com/"]
 !www.microsoft.com##DIV[class="translate_box"]
 !www.sina.com.cn##DIV[class="real-time-window"]
 !www.zol.com.cn##DIV[id="guideWidget"][class="guide-widget"]

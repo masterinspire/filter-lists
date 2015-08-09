@@ -2,9 +2,9 @@
 ! Author: Master-Inspire
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Wed 5 Aug 2015
+! Last modified: Sun 9 Aug 2015
 ! Title: Master-AdRules
-! Version: 20150805
+! Version: 20150809
 
 
 /letv-gug/*/ver_*.letv
@@ -18,13 +18,16 @@
 ||apis.google.com/js/*plusone.js$third-party
 ||apis.google.com/js/api.js$third-party
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
-||apps.bdimg.com/cloudaapi/lightapp.js$domain=blog.csdn.net
+||apps.bdimg.com/cloudaapi/lightapp.js$domain=csdn.net
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
+||b1.bst.126.net/newpage/r/j/pc.js$domain=blog.163.com
 ||baike.bdimg.com/static/mobile/widget/wiki/webapp/college/college_*.js$domain=wapbaike.baidu.com
 ||bcscdn.baidu.com/opnimg/520f1e497ddbe6682cde321ca2f34693.jpg$domain=map.baidu.com
 ||bcscdn.baidu.com/opnimg/6fa7524c3805b12e631d9a707e6312a8.jpg$domain=map.baidu.com
 ||bing.com/AS/Suggestions$domain=bing.com
 ||bing.com/qsonhs.aspx$domain=bing.com
+||blog.163.com/bitMaxImageGen.do$domain=blog.163.com
+||buildapp.net/adcaige.jpg$domain=buildapp.net
 ||cache.soso.com/post/img2/wxd150703.jpg$domain=baike.m.sogou.com
 ||cache.soso.com/wenwen/i/ad/$domain=wenwen.sogou.com
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
@@ -38,16 +41,18 @@
 ||connect.facebook.net/en_US/fbds.js$third-party
 ||connect.facebook.net/en_US/sdk.js$third-party
 ||cpro.zhidao.baidu.com/cpro/ui/cm.js$domain=zhidao.baidu.com
+||cse.google.com/cse.js
 ||ctc.qzonestyle.gtimg.cn/qzone/v8/core/stat.js$domain=user.qzone.qq.com
-||dc*.csdn.net/track$domain=blog.csdn.net
+||dc*.csdn.net/track$domain=csdn.net
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
 ||dict.hjenglish.com/services/simpleExplain/en_simpleExplain.ashx$domain=hjenglish.com
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
-||getaninsight.com$domain=entityframeworktutorial.net
+||getaninsight.com$domain=entityframeworktutorial.net,tutorialsteacher.com
 ||google-analytics.com$third-party
 ||gravatar.com/avatar$third-party
+||gttp.co/v1.js$domain=vuejs.org
 ||hm.baidu.com/hm.js
 ||i.gtimg.cn/open/app_icon/*.png$domain=user.qzone.qq.com
 ||i.ytimg.com/vi/*.jpg$third-party
@@ -58,6 +63,8 @@
 ||img.baidu.com/img/iknow/wenku/img_miti_topbar_400x50.png$domain=wenku.baidu.com
 ||img.baidu.com/img/iknow/wenku/img_view_rightdown_200x170.png
 ||knewbi.com/app/banner/knewbi_index/*$domain=leiphone.com
+||lmwlove.com/ImageAd/$domain=lmwlove.com
+||lofter.com/recommendblog$domain=blog.163.com
 ||maps.google.com/maps/api/js$third-party
 ||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
 ||modernizr.com/i/js/analytics.js$domain=modernizr.com
@@ -96,6 +103,7 @@
 ||wenku.baidu.com/browse/widget/dailyrecom$domain=wenku.baidu.com
 ||widget.weibo.com/relationship/followbutton.php$third-party
 ||widget.weibo.com/weiboshow/index.php$third-party
+||widget.wumii.com/ext/relatedItemsWidget.htm$domain=blog.163.com
 ||wjdiy.cn/logo/dew.jpg$domain=www.wjdiy.cn
 ||wjdiy.cn/logo/zew.jpg$domain=www.wjdiy.cn
 ||www.bing.com/rms/Framework/jc/46a2ffcb/0d19230b.js
@@ -169,7 +177,6 @@ angularjs.org##UL[class="quick-links"]
 ankhsvn.open.collab.net##DIV[id="collabnet-products"]
 ankhsvn.open.collab.net##DIV[id="uvTab"][class="uv-tab uv-slide-right "]
 app.techweb.com.cn##DIV[id="share_content"]
-apps.bdimg.com/cloudaapi/lightapp.js
 aq.qq.com##DIV[id="ad_app_priv"]
 baidu.com##DIV[class="hint_toprq_tips f13 se_common_hint"]
 baidu.com##DIV[class="res_top_banner"]
@@ -331,6 +338,7 @@ favorite.taobao.com##DIV[class="J_Tuijian_Modules_item_collect_list"]
 favorite.taobao.com##DIV[id="zuanshiAds"]
 finance.ce.cn##DIV[class="mdy_yw"]
 finance.china.com.cn##DIV[class="banner"]
+finance.china.com.cn##DIV[class="blog"]
 finance.china.com.cn##DIV[class="column_four"]
 finance.china.com.cn##DIV[class="Content_Three"]
 finance.china.com.cn##DIV[class="Content_Two"]
@@ -583,6 +591,9 @@ pan.baidu.com##DIV[class="b-panel b-dialog module-mboxDialog alert-dialog"]
 pan.baidu.com##DIV[class="clearfix center buyvip-pack"]
 pan.baidu.com##DIV[class="welcome-footer"]
 pan.baidu.com##DIV[id="activateGuidePopupOuter"][class="activate-outer activate-qq"]
+pan.baidu.com##DIV[id="passport-accRealName-pop"][class="tang-pass-pop-accRealName-color-blue tang-pass-pop-accRealName"]
+pan.baidu.com##DIV[id="TANGRAM__PSP_3__"]
+pan.baidu.com##DIV[id="TANGRAM__PSP_31__"]
 pan.baidu.com##DIV[node-type="upload-bar"]
 pan.baidu.com##DL[class="hotrec-ele hot interestrec-tit"]
 pan.baidu.com##DL[class="module-hot-rec"]
@@ -859,7 +870,6 @@ www.bing.com##DIV[class="bk_sidebar"]
 www.bing.com##DIV[id="hplas"]
 www.bing.com##DIV[id="TopApp"]
 www.bitscn.com##DIV[id="leftDiv"]
-www.buildapp.net##IMG[src="/adcaige.jpg"]
 www.c114.net##DIV[class="share"]
 www.ccav1.com##DIV[class="MXLHiIxeDcFm-bg"]
 www.ccav1.com##DIV[id="OqhPW3eD3C3r"][class="MXLHiIxeDcFm"]
@@ -927,9 +937,9 @@ www.leiphone.com##DIV[class="lp-proCard clr"]
 www.leiphone.com##DIV[class="pageActive clr"]
 www.leiphone.com##DIV[id="lph-footer-gotoBar"][class="gotoBar"]
 www.letv.com##UL[id="towCode"]
-www.lmwlove.com##A[href="http://lmwlove.100xuexi.com/"]
 www.lmwlove.com##DIV[class="header"]
 www.lmwlove.com##UL[class="notice left"]
+www.lol520.cc##DIV[id="yeei-login-Top"]
 www.med66.com##DIV[class="layout solid"]
 www.npmjs.com##DIV[id="notification-banner"]
 www.onlinedown.net##DIV[class="modBoxA mb10"]
