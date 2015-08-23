@@ -1,10 +1,12 @@
 ﻿!@@||microsoft.com/library/svy/$domain=windows.microsoft.com
 !||apis.google.com/js/client:plusone.js
+!||assets.changyan.sohu.com/upload/changyan.js
 !||bing.com/dict/SerpHoverTrans$domain=bing.com
 !||cache.soso.com/wenwen/i/ad/app/pending.png$domain=wenwen.sogou.com
 !||cdn.sstatic.net/img/favicons-sprite16.png$domain=stackoverflow.com
 !||getaninsight.com/id/wi/541/jq/1/b/46a3d2/p/r/t/y/$domain=entityframeworktutorial.net
 !||googleusercontent.com$domain=stackoverflow.com
+!||gravatar.com/avatar$third-party
 !||i.stack.imgur.com/tKsDb.png$domain=stackoverflow.com
 !||img.baidu.com/img/iknow/wenku/*230X85*.jpg$domain=wenku.baidu.com
 !||lianmeng.360.cn/so/inlay.js
@@ -32,6 +34,10 @@
 !baike.baidu.com##A[href="http://baike.baidu.com/operation/helloworld2014"]
 !baike.sogou.com##IMG[src="http://cache.soso.com/baike/i/search1212.jpg"]
 !bbs.pcbeta.com##DIV[id="sitefocus"][class="focus"]
+!bkjia.com##DIV[id="changyan_floatbar_wrapper"]
+!bkjia.com##DIV[id="rel18"][class="mobileContent clearfix"]
+!bkjia.com##DIV[id="rel3"][class="carsContent clearfix"]
+!bkjia.com##UL[id="rediantuijian"][class="clearfix tab_ul switch"]
 !blog.163.com##DIV[class~="ptc"]
 !blog.163.com##DIV[class="m-regGuideLayer f-trans js-show-regGuideLayer"]
 !blog.163.com##DIV[class="pright rightoperatebar rightoperatebar-new"]
@@ -57,6 +63,7 @@
 !column.caijing.com.cn##IMG[src="http://img2.caijing.com.cn/2014/0725/1406282187681.jpg"]
 !consumeprod.alipay.com##DIV[id="globalTopAD"]
 !dc.pconline.com.cn##DIV[id="app-ewm-tg"][class="app-ewm-tg"]
+!dl.pconline.com.cn##DIV[class="modBoxB"]
 !download.csdn.net##DIV[class="tracking-ad"]
 !finance.ce.cn##DIV[class="qt_center"]
 !finance.ce.cn##DIV[class="youce"]
@@ -141,6 +148,7 @@
 !sc.stock.cnfol.com##CITE[class="KPopWr1304"]
 !sc.stock.cnfol.com##DIV[class="KikBrf1304 Cf"]
 !stackoverflow.com##DIV[id="noscript-warning"]
+!stock.sohu.com##DIV[id="changyan_floatbar_wrapper"]
 !tech.hexun.com##IFRAME[src="http://news.hexun.com/frag/106293970/10792_106293970.html"]
 !tech.hexun.com##IFRAME[src="http://news.hexun.com/frag/106293970/10793_106293970.html"]
 !tech.hexun.com##IFRAME[src="http://news.hexun.com/frag/106293970/10795_106293970.html"]
@@ -173,10 +181,12 @@
 !www.csdn.net##DIV[class="ad_box"]
 !www.csdn.net##DIV[class="top_box"]
 !www.csdn.net##DIV[class="tracking-ad"]
+!www.educity.cn##DIV[id="xhdiv"]
 !www.lmwlove.com##A[href="http://lmwlove.100xuexi.com/"]
 !www.microsoft.com##DIV[class="translate_box"]
 !www.sina.com.cn##DIV[class="real-time-window"]
 !www.zol.com.cn##DIV[id="guideWidget"][class="guide-widget"]
+!xiazaiba.com##DIV[id="changyan_floatbar_wrapper"]
 !zhidao.baidu.com##ASIDE[id="qb-side"][class="grid qb-side adjust-height"]
 !zhidao.baidu.com##DIV[class="wgt-xiaozhi xiaozhi-min"]
 !zhihu.com##DIV[class="modal-dialog-bg white"]

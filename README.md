@@ -32,7 +32,6 @@ Some websites may have strange behaviour or looks strange.
 
 For example, to block [Baidu][baidu] right column advertisement, `all_async_search_*.js` is blocked, than some functionalities also is down.
 
-Avatars from [Gravatar][Gravatar] have been blocked. Obviously too many web request will slow down the speed, especially in China, *your country*.
 
 ##Contribution
 
@@ -48,4 +47,3 @@ Feel free to use and share.
 [baidu]:https://www.baidu.com
 [AdBlock]:https://getadblock.com
 [license]:https://creativecommons.org/licenses/by-nc/4.0/
-[Gravatar]:https://en.gravatar.com/
