@@ -2,9 +2,9 @@
 ! Author: Master-Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Sun 23 Aug 2015
+! Last modified: Tu 8 Sep 2015
 ! Title: Master-AdRules
-! Version: 20150823
+! Version: 20150908
 
 
 /letv-gug/*/ver_*.letv
@@ -13,6 +13,7 @@
 @@||img.jb51.net/jslib/jquery/jquery-1.8.3.min.js$domain=jb51.net
 @@||localhost$document
 @@||sinaimg.cn/unipro/pub/suda_s_*.js$domain=mail.sina.com.cn
+||a.fsdn.com/con/js/madmen.js
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||analytics.163.com/ntes.js$third-party
 ||api.github.com/_private/browser/stats$domain=github.com
@@ -24,6 +25,8 @@
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||b1.bst.126.net/newpage/r/j/pc.js$domain=blog.163.com
 ||baike.baidu.com/cms/lemmaconfig/navbarAd.json$domain=baike.baidu.com
+||baike.baidu.com/cms/rc/shuhuabanner.png
+||baike.bdimg.com/cms/static/lemmaIframe
 ||baike.bdimg.com/static/mobile/widget/wiki/webapp/college/college_*.js$domain=wapbaike.baidu.com
 ||bcscdn.baidu.com/opnimg/520f1e497ddbe6682cde321ca2f34693.jpg$domain=map.baidu.com
 ||bcscdn.baidu.com/opnimg/6fa7524c3805b12e631d9a707e6312a8.jpg$domain=map.baidu.com
@@ -40,13 +43,14 @@
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
-||clouddn.com/embed_*_.js$domain=ccav1.com
+||clouddn.com/embed_*_.js$domain=cnav.club
 ||cmt.pconline.com.cn/intf/cmtCount.jsp$domain=dl.pconline.com.cn
 ||cn.bing.net/th?*amp;pid=MSNJVFeeds|$domain=www.bing.com
 ||cn.bing.net/th?*h=75&pid=MSNJVFeeds|$domain=www.bing.com
 ||connect.facebook.net/en_US/all.js$third-party
 ||connect.facebook.net/en_US/fbds.js$third-party
 ||connect.facebook.net/en_US/sdk.js$third-party
+||consent-st.truste.com/get
 ||cpro.zhidao.baidu.com/cpro/ui/cm.js$domain=zhidao.baidu.com
 ||cse.google.com/cse.js
 ||ctc.qzonestyle.gtimg.cn/qzone/v8/core/stat.js$domain=user.qzone.qq.com
@@ -75,12 +79,14 @@
 ||js.bkjia.com/bkjia/js/bkjiatongji.js$domain=bkjia.com
 ||js.bkjia.com/bkjia/js/right_ad5.js$domain=bkjia.com
 ||knewbi.com/app/banner/knewbi_index/*$domain=leiphone.com
+||like.baidu.com/get$domain=baike.baidu.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||lofter.com/recommendblog$domain=blog.163.com
 ||maps.google.com/maps/api/js$third-party
 ||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
 ||modernizr.com/i/js/analytics.js$domain=modernizr.com
 ||mt*.baidu.com/timg$domain=zhidao.baidu.com
+||nsclick.baidu.com/u.gif
 ||open.qzone.qq.com/like$third-party
 ||openapi.baidu.com/cloudaapi/lightapp.js$domain=blog.csdn.net
 ||partners.npmjs.com/hiring$domain=npmjs.com
@@ -113,10 +119,13 @@
 ||use.typekit.net$third-party
 ||v.gdt.qq.com/gdt_stats.fcg
 ||v.t.qq.com/follow/widget.js$third-party
+||wapbaike.baidu.com/api/advtip
+||wapiknow.bdimg.com/static/m-common/widget/lib/gmu/slider/slider_*.js$domain=zhidao.baidu.com
 ||webmap0.map.bdstatic.com/fwmap/upload/r/image/2013-07-16/6f90db9e61476f2cd8975c3fac3c70a8.jpg$domain=map.baidu.com
 ||webmap0.map.bdstatic.com/wolfman/static/common/images/login_8_9e79767.png$domain=map.baidu.com
 ||webmap0.map.bdstatic.com/wolfman/static/common/images/login_text_ba9f5a0.png$domain=map.baidu.com
 ||webmap2.map.bdstatic.com/wolfman/static/common/images/unloginSug_e5196cc.gif$domain=map.baidu.com
+||weirenwu.weibo.com/adshow/
 ||wenku.baidu.com/browse/widget/dailyrecom$domain=wenku.baidu.com
 ||widget.weibo.com/relationship/followbutton.php$third-party
 ||widget.weibo.com/weiboshow/index.php$third-party
@@ -128,6 +137,10 @@
 ||www.bing.com/rms/Framework/jc/b72ab4f8/035c3ebc.js
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.facebook.com/plugins/like.php$third-party
+||www.fanli7.net/my/common.js
+||www.fanli7.net/my/fload_ads/fload_ads_style.css
+||www.fanli7.net/my/right_down_float_add/rightDownTipFloat.css
+||www.fanli7.net/plus/feedback_ajax.php
 ||www.google.com/coop/cse/brand$third-party
 ||www.google.com/coop/intl/en/images/google_custom_search_watermark.gif$third-party
 ||www.google.com/cse/brand$third-party
@@ -137,6 +150,8 @@
 ||www.gstatic.com/feedback/api.js$third-party
 ||www.microsofttranslator.com/ajax/v3/WidgetV3.ashx$third-party
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
+||www.vcoo.cc/web/pet/spig.js
+||www.vcoo.cc/web/pet/spig.png
 ||www.youtube.com/embed/*$third-party
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zurb.com/jobs/widgets/jobs.js$domain=foundation.zurb.com
@@ -203,7 +218,6 @@ baidu.com##DIV[id="content_right"][class="cr-offset"]
 baike.baidu.com##A[class="authority-flag "]
 baike.baidu.com##A[class="help"]
 baike.baidu.com##DD[class="BKdynamic-img"]
-baike.baidu.com##DIV#help+A
 baike.baidu.com##DIV[class="baike-dynamic-wrapper side-box"]
 baike.baidu.com##DIV[class="bdsharebuttonbox side-share"]
 baike.baidu.com##DIV[class="lemma-guide"]
@@ -670,7 +684,9 @@ search.dangdang.com##DIV[class="con "][name^="m"]
 search.dangdang.com##DIV[class="cont"]
 search.dangdang.com##DIV[class="fix_left_box"]
 search.dangdang.com##DIV[id="cpc_tab"][class="hot_sale hot_sale_no_page"]
+segmentfault.com##DIV[class~="widget-register widget-welcome-question"]
 segmentfault.com##DIV[class="alert alert-warning topframe js-alert"]
+segmentfault.com##DIV[class="app-promotion-bar"]
 service.taobao.com##DIV[class="ue-survey"]
 shanghai.kankanews.com##DIV[class="qrcode"]
 shanghai.kankanews.com##DIV[class="ranknew marb20"]
@@ -792,11 +808,14 @@ voc.com.cn##DIV[id="xgxw"][class="xgxw_bt"]
 w3cplus.com##DIV[class="banner"]
 w3cplus.com##DIV[id="block-block-42"]
 w3cplus.com##DIV[id="block-block-43"][class="block block-block"]
-w3cschool.cc##DIV[class="share-box"]
 wapbaike.baidu.com##DIV.pad45 + div
+wapbaike.baidu.com##DIV[class="before-content-wrapper"]
+wapbaike.baidu.com##DIV[class="share-dl"]
+wapbaike.baidu.com##DIV[class="ui-add2desktop"]
 wapbaike.baidu.com##DIV[class="zhidaoImport"]
 wapbaike.baidu.com##SPAN[class="set-tips"]
 weibo.com##DIV[class="apps_PCD_reco_detail_right"]
+weibo.com##DIV[class="feed_app_ads"]
 weibo.com##DIV[class="gn_search "]
 weibo.com##DIV[class="nologin_profile"]
 weibo.com##DIV[class="PCD_nodelayer"]
@@ -900,8 +919,6 @@ www.bkjia.com##DIV[id="expert-panel"]
 www.bkjia.com##DIV[id="focus_look"][class="instant-focus mt10"]
 www.bkjia.com##DIV[id="rank-panel"]
 www.c114.net##DIV[class="share"]
-www.ccav1.com##DIV[class="MXLHiIxeDcFm-bg"]
-www.ccav1.com##DIV[id="OqhPW3eD3C3r"][class="MXLHiIxeDcFm"]
 www.chachaba.com##DIV[id="ahua"][class="ahua"]
 www.china.com.cn##DIV[class="chinaJZG"]
 www.china.com.cn##DIV[class="chinaWX"]
@@ -914,6 +931,8 @@ www.chinaacc.com##DIV[class="banner fl"]
 www.chinaacc.com##DIV[class="qt-big"]
 www.china-pub.com##DIV[class="aa"]
 www.china-pub.com##DIV[class="go_back"]
+www.cnav.club##DIV[class="MXLHiIxeDcFm-bg"]
+www.cnav.club##DIV[id="OqhPW3eD3C3r"][class="MXLHiIxeDcFm"]
 www.cnbeta.com##DIV[id="left_art"][class="left_art"]
 www.cnblogs.com##DIV[id="blog_post_info"]
 www.cnd8.com##DIV[class="ad"]
@@ -923,6 +942,9 @@ www.dewen.io##DIV[class="poprecommend"]
 www.divcss5.com##DIV[class="if1200 ws"]
 www.doc88.com##DIV[class="skintips"]
 www.douban.com##DIV[class="qrcode-app"]
+www.douban.com##DIV[class="ui-overlay-anchor"]
+www.douban.com##DIV[class="ui-overlay-mask"]
+www.douban.com##DIV[id="doubanapp-tip"]
 www.douban.com##DIV[id="landing-bar"]
 www.downg.com##DIV[class="col1"]
 www.duote.com##DIV[class="bd_box bd_box4"]
@@ -937,6 +959,7 @@ www.economicdaily.com.cn##DIV[class="wz3"]
 www.educity.cn##DIV[class="main-im"]
 www.enet.com.cn##DIV[class="partake_btn"]
 www.entityframeworktutorial.net##A[id="ffb_feedback"]
+www.experts-exchange.com##DIV[class="verifiedSolution-B"]
 www.fooao.com##UL[class="index_img_list"]
 www.ftchinese.com##DIV[class="app-download-container"]
 www.fydisk.com##DIV[class="widget-header widget-header-flat"]
@@ -974,6 +997,7 @@ www.lol520.cc##DIV[id="yeei-login-Top"]
 www.med66.com##DIV[class="layout solid"]
 www.npmjs.com##DIV[id="notification-banner"]
 www.onlinedown.net##DIV[class="modBoxA mb10"]
+www.onlinedown.net##DIV[class="modBoxC"]
 www.open-open.com##DIV[id="upload-box1"][class="box-blue angle"]
 www.oschina.net##DIV[id="project_ad_banner"]
 www.pc6.com##P[id="gotoBox"]
@@ -984,6 +1008,7 @@ www.qq.com##DIV[id="erweimaWeishiBeta"]
 www.quora.com##DIV[class*="hover_menu quote_hover_menu"]
 www.ralfebert.de##DIV[id="sharepanel"]
 www.romzj.com##DIV[class="xzSearch box1Right"]
+www.runoob.com##DIV[class="share-box"]
 www.sdbeta.com##IFRAME[id^="QIHOO_UNION"]
 www.stepday.com##DIV[class="nextTopic"]
 www.stepday.com##DIV[class="preTopic"]
@@ -1026,6 +1051,9 @@ www.wps.cn##A[class="school"]
 www.wps.cn##DIV[id="FOOT_BAR"][class="bar_foot"]
 www.wuleba.com##DIV[id="text-7"]
 www.wuleba.com##DIV[id="text-8"]
+www.xuebuyuan.com##DIV[class="ad_h"]
+www.xuebuyuan.com##DIV[class="entry_box_b"]
+www.xuebuyuan.com##UL[class="scroll"]
 www.yaolan.com##DIV[id="newExpertOldHtml"][class="new-expertOnlineOld"]
 www.yaolan.com##P[class="xiangguantuijian"]
 www.ydcbw.com##DIV[class="footer"]
@@ -1054,18 +1082,25 @@ yingyu.100xuexi.com##IFRAME[id="frmComment"]
 yingyu.100xuexi.com##IFRAME[id="frmUpload"]
 zhannei.baidu.com##DIV[class="extra"]
 zhannei.baidu.com##DIV[id="bd-feedback"]
+zhidao.baidu.com##A[class^="ld"]
+zhidao.baidu.com##A[class~="share"]
 zhidao.baidu.com##A[class="adTopImg"]
 zhidao.baidu.com##A[class="ldab10b"]
 zhidao.baidu.com##ASIDE[class="grid qb-side "]
 zhidao.baidu.com##ASIDE[id="qb-side"]
+zhidao.baidu.com##DIV[class^="lpp55ddb"]
+zhidao.baidu.com##DIV[class^="rjk55ddb"]
+zhidao.baidu.com##DIV[class^="wm-"]
 zhidao.baidu.com##DIV[class~="wgt-xiaozhi"]
 zhidao.baidu.com##DIV[class="jump-top-box"]
 zhidao.baidu.com##DIV[class="wgt-push mt-5"]
+zhidao.baidu.com##DIV[id^="__elm__"]
 zhidao.baidu.com##DIV[id^="jev"]
 zhidao.baidu.com##DIV[id="act-link-banner"]
 zhidao.baidu.com##DIV[id="act-link-banner-wp"]
 zhidao.baidu.com##DIV[id="answer-level-banner"]
 zhidao.baidu.com##DIV[id="torch-trigger"]
+zhidao.baidu.com##DIV[id="youx"][class="ecom-ads"]
 zhidao.baidu.com##IMG[class="task-guide-image"]
 zhidao.baidu.com##IMG[id="selectsearch-icon"]
 zol.com.cn##A[class="download"]
