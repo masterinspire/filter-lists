@@ -2,9 +2,9 @@
 ! Author: Master-Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Th 10 Sep 2015
+! Last modified: Su 13 Sep 2015
 ! Title: Master-AdRules
-! Version: 20150910
+! Version: 20150913
 
 
 /letv-gug/*/ver_*.letv
@@ -52,8 +52,10 @@
 ||connect.facebook.net/en_US/sdk.js$third-party
 ||consent-st.truste.com/get
 ||cpro.zhidao.baidu.com/cpro/ui/cm.js$domain=zhidao.baidu.com
+||csdnimg.cn/pubfooter/js/tracking.js
 ||cse.google.com/cse.js
 ||ctc.qzonestyle.gtimg.cn/qzone/v8/core/stat.js$domain=user.qzone.qq.com
+||d.pcs.baidu.com/rest/2.0/pcs/manage
 ||dc*.csdn.net/track$domain=csdn.net
 ||dc.pconline.com.cn/jt/$domain=dl.pconline.com.cn
 ||developer.chrome.com/static/js/search.js
@@ -90,7 +92,14 @@
 ||nsclick.baidu.com/u.gif
 ||open.qzone.qq.com/like$third-party
 ||openapi.baidu.com/cloudaapi/lightapp.js$domain=blog.csdn.net
+||pan.baidu.com/disk/cmsdata?do=piece&ad=$domain=pan.baidu.com
+||pan.baidu.com/ppres/static/thirdparty/header/src/notice_head.js$domain=pan.baidu.com
+||pan.baidu.com/share/autoincre$domain=pan.baidu.com
+||pan.baidu.com/share/count$domain=pan.baidu.com
+||pan.baidu.com/share/hotrec
+||pan.baidu.com/yun-static/common/js/asideAdapter_nomd5_nomod.js
 ||partners.npmjs.com/hiring$domain=npmjs.com
+||passport.csdn.net/js/apps/ga.js
 ||pconline.com.cn/*/intf*.html$domain=dl.pconline.com.cn
 ||pconline.com.cn/*/intf*.js$domain=dl.pconline.com.cn
 ||pgdt.gtimg.cn/gdt/*.jpg/0$domain=user.qzone.qq.com
@@ -103,6 +112,8 @@
 ||s.cn.bing.net/th?*pid=News|$domain=www.bing.com
 ||s.weibo.com/ajax/jsonp/suggestion$domain=weibo.com
 ||s1.adm.72zx.com/hj/js/ad_soft_*.js
+||s1.pan.bdstatic.com/yun-static/common-cdn/js/baidu-tongji_*.js$domain=pan.baidu.com
+||s1.pan.bdstatic.com/yun-static/common-cdn/widget/adTips/*
 ||siteapp.baidu.com/static/webappservice/uaredirect.js$third-party
 ||ss1.bdstatic.com/*/www/cache/static/*/all_async_search_*.js|$domain=www.baidu.com
 ||ss1.bdstatic.com/*/www/cache/static/*/baiduia_*.js$domain=www.baidu.com
@@ -623,21 +634,14 @@ nlog-project.org##DIV[id="banners-bottom"][class="ads"]
 nlog-project.org##DIV[id="banners-right"][class="ads row"]
 ourcrack.com##A[href="http://www.xiaobaixitong.com/?op "]
 p.t.qq.com##DIV[class="banner"]
-pan.baidu.com##DIV[class="b-panel b-canvas"]
-pan.baidu.com##DIV[class="b-panel b-dialog module-mboxDialog alert-dialog"]
-pan.baidu.com##DIV[class="clearfix center buyvip-pack"]
-pan.baidu.com##DIV[class="welcome-footer"]
-pan.baidu.com##DIV[id="activateGuidePopupOuter"][class="activate-outer activate-qq"]
-pan.baidu.com##DIV[id="passport-accRealName-pop"][class="tang-pass-pop-accRealName-color-blue tang-pass-pop-accRealName"]
-pan.baidu.com##DIV[id="TANGRAM__PSP_3__"]
-pan.baidu.com##DIV[id="TANGRAM__PSP_31__"]
-pan.baidu.com##DIV[node-type="upload-bar"]
-pan.baidu.com##DL[class="hotrec-ele hot interestrec-tit"]
+pan.baidu.com##DIV[class="funcs-share"]
+pan.baidu.com##DIV[id^="TANGRAM__PSP_3"]
+pan.baidu.com##DIV[id="activateGuidePopupOuter"]
+pan.baidu.com##DIV[id="passport-accRealName-pop"]
+pan.baidu.com##DIV[id="TANGRAM__PSP_19__"]
+pan.baidu.com##DIV[id="toast"]
 pan.baidu.com##DL[class="module-hot-rec"]
-pan.baidu.com##DL[class="module-hot-user"]
-pan.baidu.com##DL[id="interestRect"]
-pan.baidu.com##LI[class="info-i gg-content show-item"]
-pan.baidu.com##SPAN[class="evtRedPackGuide"]
+passport.baidu.com##DIV[class="app-download-link"]
 pc.17173.com##DIV[class="app17173-load"]
 pcbeta.com##DIV[class="bm"]
 pcbeta.com##DIV[id="sitefocus"][class="focus"]
@@ -687,9 +691,10 @@ search.dangdang.com##DIV[class="con "][name^="m"]
 search.dangdang.com##DIV[class="cont"]
 search.dangdang.com##DIV[class="fix_left_box"]
 search.dangdang.com##DIV[id="cpc_tab"][class="hot_sale hot_sale_no_page"]
-segmentfault.com##DIV[class~="widget-register widget-welcome-question"]
+segmentfault.com##DIV[class~="widget-welcome-question"]
 segmentfault.com##DIV[class="alert alert-warning topframe js-alert"]
 segmentfault.com##DIV[class="app-promotion-bar"]
+segmentfault.com##DIV[class="qrcodeWraper"]
 service.taobao.com##DIV[class="ue-survey"]
 shanghai.kankanews.com##DIV[class="qrcode"]
 shanghai.kankanews.com##DIV[class="ranknew marb20"]
