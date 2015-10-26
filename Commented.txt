@@ -1,7 +1,6 @@
 ﻿!@@||microsoft.com/library/svy/$domain=windows.microsoft.com
 !||apis.google.com/js/client:plusone.js
 !||assets.changyan.sohu.com/upload/changyan.js
-!||bing.com/dict/SerpHoverTrans$domain=bing.com
 !||cache.soso.com/wenwen/i/ad/app/pending.png$domain=wenwen.sogou.com
 !||cdn.sstatic.net/img/favicons-sprite16.png$domain=stackoverflow.com
 !||getaninsight.com/id/wi/541/jq/1/b/46a3d2/p/r/t/y/$domain=entityframeworktutorial.net
@@ -19,8 +18,6 @@
 !||tcss.qq.com/ping.js$domain=bbs.pcbeta.com
 !||tcss.qq.com/ping_hotclick.js$domain=bbs.pcbeta.com
 !||use.typekit.net/wde1aof.js$third-party
-!||www.bing.com/s/ac/*/MsnJVData/HoverTranslation.css
-!||www.bing.com/s/as/*/MsnJVData/HoverTranslation.js
 !||www.google-analytics.com/collect$third-party
 !163.com##DIV[class="clearfix"]
 !218.76.*.*/*/*/*/letv-gug/*/ver*.letv
