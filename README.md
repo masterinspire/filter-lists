@@ -1,7 +1,5 @@
 # Master AdRules
 
-> Fast and Clean!
-
 * * *
 
 ## About
@@ -12,8 +10,6 @@ Block all floating windows, social buttons, tracks and google-analysis, etc.
 
 Those rules can be used in *[AdBlock][AdBlock]*, *Adblock Plus* or *[uBlock][uBlock]*, etc.
   * `Master-AdRules.txt`: main file.
-  * `Commented.txt`: useless.
-  * `Disabled.txt`: disabled filters.
 
 * * *
 

@@ -2,9 +2,9 @@
 ! Author: Master-Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Fr 25 Dec 2015
+! Last modified: Tu 26 Jan 2016
 ! Title: Master-AdRules
-! Version: 20151225
+! Version: 20160126
 
 
 /letv-gug/*/ver_*.letv
@@ -68,6 +68,7 @@
 ||checkout.stripe.com/v3/checkout.js
 ||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
 ||cmt.pconline.com.cn/intf/cmtCount.jsp$domain=dl.pconline.com.cn
+||cn.bing.com###shareview
 ||cn.bing.net/th?*amp;pid=MSNJVFeeds|$domain=www.bing.com
 ||cn.bing.net/th?*h=75&pid=MSNJVFeeds|$domain=www.bing.com
 ||cnstrc.com/js/ac.js
@@ -125,6 +126,7 @@
 ||img.kuai.xunlei.com/js/thunderbatch.js
 ||imgcdn.pconline.com.cn/show$domain=dl.pconline.com.cn
 ||ixueyi.com/xiaohua/*$domain=educity.cn
+||jiathis.com$third-party
 ||js.bkjia.com/bkjia/js/bkjiatongji.js$domain=bkjia.com
 ||js.bkjia.com/bkjia/js/right_ad5.js$domain=bkjia.com
 ||knewbi.com/app/banner/knewbi_index/*$domain=leiphone.com
@@ -139,6 +141,7 @@
 ||nsclick.baidu.com/u.gif
 ||open.qzone.qq.com/like$third-party
 ||openapi.baidu.com/cloudaapi/lightapp.js$domain=blog.csdn.net
+||outofmemory.cn/static/js/h.js
 ||pan.baidu.com/disk/cmsdata?do=piece&ad=$domain=pan.baidu.com
 ||pan.baidu.com/ppres/static/thirdparty/header/src/notice_head.js$domain=pan.baidu.com
 ||pan.baidu.com/share/autoincre$domain=pan.baidu.com
@@ -217,6 +220,7 @@
 ||www.bing.com/*/MsnJVData/HoverTranslation.css
 ||www.bing.com/*/MsnJVData/HoverTranslation.js
 ||www.bing.com/dict/SerpHoverTrans
+||www.bing.com/globallife/OverseaAds.json
 ||www.bing.com/rms/Framework/jc/46a2ffcb/0d19230b.js
 ||www.bing.com/rms/Framework/jc/67106a7d/b337e4a0.js
 ||www.bing.com/rms/Framework/jc/b72ab4f8/035c3ebc.js
@@ -256,6 +260,7 @@
 ||www.xiazaiba.com/data/xzb_haha.js
 ||www.xiazaiba.com/static/js/stat.js
 ||www.youtube.com/embed/*$third-party
+||www.zhihu.com/node/Banner
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zhidao.baidu.com/question/api/recommend
 ||zhidao.baidu.com/s/toutu/promotion.js
@@ -751,6 +756,10 @@ nlog-project.org##DIV[class="banner-item col-md-12 col-xs-12 col-sm-3"]
 nlog-project.org##DIV[id="banners-bottom"][class="ads"]
 nlog-project.org##DIV[id="banners-right"][class="ads row"]
 ourcrack.com##A[href="http://www.xiaobaixitong.com/?op "]
+outofmemory.cn###imgQqShare
+outofmemory.cn###imgSinaShare
+outofmemory.cn##.pop_win
+outofmemory.cn##.pop_win_bg
 p.t.qq.com##DIV[class="banner"]
 pan.baidu.com##DIV[class="funcs-share"]
 pan.baidu.com##DIV[id^="TANGRAM__PSP_3"]
@@ -930,6 +939,7 @@ user.qzone.qq.com##LI[class="f-single feed-hot"]
 user.qzone.qq.com##SPAN[class="user-vip-info"]
 v.qq.com###hover_right
 v.qq.com###mod_float_box
+v.qq.com###zhuiju_hint
 v.youku.com###ab_pip
 v.youku.com##div.fn-share
 v.youku.com##DIV[class="qwindow"]
@@ -1101,6 +1111,11 @@ www.douban.com##DIV[class="ui-overlay-anchor"]
 www.douban.com##DIV[class="ui-overlay-mask"]
 www.douban.com##DIV[id="doubanapp-tip"]
 www.douban.com##DIV[id="landing-bar"]
+www.douyutv.com###clear_show_watch
+www.douyutv.com###js_share
+www.douyutv.com###live_userinfo > .focus
+www.douyutv.com###live_videobar > .giftbox
+www.douyutv.com###right_col
 www.downg.com##DIV[class="col1"]
 www.duote.com##DIV[class="bd_box bd_box4"]
 www.duote.com##DIV[class="dl_banner"]
@@ -1159,6 +1174,7 @@ www.onlinedown.net##DIV[class="lay1038 clearfix"]
 www.onlinedown.net##DIV[class="modBoxA mb10"]
 www.onlinedown.net##DIV[class="modBoxC"]
 www.open-open.com##DIV[id="upload-box1"][class="box-blue angle"]
+www.oschina.net###OSC_Content > table > tbody > tr a[href^="http://www.oschina.net/action/visit/ad"]
 www.oschina.net###toolbar_wrapper
 www.oschina.net###upprev_box
 www.oschina.net##.banner4
@@ -1193,6 +1209,7 @@ www.studa.net##DIV[class="ad_1000"]
 www.studa.net##DIV[class="ad_side_1"]
 www.studa.net##DIV[id="bdshare"]
 www.studa.net##UL[class="feedback_new_bg"]
+www.syntevo.com##.cookie
 www.szjs.gov.cn##DIV[id="float_banner"]
 www.szjs.gov.cn##DIV[id="piaochuang"]
 www.taobao.com##DIV[class="dui"]
@@ -1237,6 +1254,8 @@ www.youku.com###sideTool
 www.youku.com##.main-link
 www.youku.com##DIV[class="yk-notice"]
 www.youku.com##DIV[id="infomation_vip"]
+www.zhanqi.tv###js-chat-panel
+www.zhanqi.tv###js-flash-layer > .js-area-layer.clearfix.liveMessage
 www.zhihu.com##DIV[class~="modal-dialog"]
 www.zhihu.com##DIV[class~="modal-dialog-bg"]
 www.zhihu.com##DIV[class="app-promotion-bar"]
