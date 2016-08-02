@@ -2,9 +2,9 @@
 ! Author: Master-Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Mo 20 June 2016
+! Last modified: Tuesday, 2 August, 2016
 ! Title: Master-AdRules
-! Version: 20160620
+! Version: 20160802
 
 
 /letv-gug$domain=le.com
@@ -78,11 +78,14 @@
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengda.jpg
 ||cdn.ccav1.me/jquery.js
 ||cdn.livechatinc.com/tracking.js
+||cdn.livefyre.com/Livefyre.js$domain=docs.microsoft.com
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/wenzhang.jpg$third-party
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js$third-party
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
+||cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js$domain=www.pronouncekiwi.com
+||cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css$domain=www.pronouncekiwi.com
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
 ||checkout.stripe.com/v3/checkout.js
@@ -93,6 +96,7 @@
 ||cn.bing.com###shareview
 ||cn.bing.net/th?*amp;pid=MSNJVFeeds|$domain=www.bing.com
 ||cn.bing.net/th?*h=75&pid=MSNJVFeeds|$domain=www.bing.com
+||cn.bing.net/th?id=*pid=MSNJVFeeds|$domain=www.bing.com
 ||cnstrc.com/js/ac.js
 ||concat.lietou-static.com/core/pc/revs/js/common/stat_*.js
 ||connect.facebook.net/de_DE/all.js$third-party
@@ -209,6 +213,7 @@
 ||pan.baidu.com/share/count$domain=pan.baidu.com
 ||pan.baidu.com/share/hotrec
 ||pan.baidu.com/yun-static/common/js/asideAdapter_nomd5_nomod.js
+||pan.bdstatic.com/box-static/interface-widget-1-cdn/mainSmallBanner/util/img/gift_banner_*.png
 ||partners.npmjs.com/hiring$domain=npmjs.com
 ||passport.csdn.net/js/apps/ga.js
 ||pconline.com.cn/*/intf*.html$domain=dl.pconline.com.cn
@@ -242,6 +247,7 @@
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
 ||s3.qhimg.com/static/*/MMPlugin.js
 ||s3-us-west-2.amazonaws.com/ad-maven-public-cdn/notT/clipconverter.js
+||s7.addthis.com^*/addthis_widget.js$important
 ||sax.sina.cn/native/impress$domain=blog.sina.cn
 ||sharethis.com$third-party
 ||simg.sinajs.cn/blog7style/images/blog_editor/ten_182_48.png
@@ -295,6 +301,7 @@
 ||use.typekit.net$third-party
 ||v.gdt.qq.com/gdt_stats.fcg
 ||v.t.qq.com/follow/widget.js$third-party
+||vo.msecnd.net/scripts/jsll-3.3.1.js$domain=docs.microsoft.com
 ||wapbaike.baidu.com/api/advtip
 ||wapiknow.bdimg.com/static/m-common/widget/lib/gmu/slider/slider_*.js$domain=zhidao.baidu.com
 ||web.ali213.net/kf/web-ali213-json.js
@@ -326,6 +333,7 @@
 ||www.bing.com/fd/ls/GLinkPingPost.aspx
 ||www.bing.com/fd/ls/l
 ||www.bing.com/globallife/OverseaAds.json
+||www.bing.com/th?id=*pid=MSNJVFeeds
 ||www.ccav1.com/wp-admin/admin-ajax.php
 ||www.ccav1.com/wp-content/uploads/an-temp/9t6CxBPEbmC7.js
 ||www.ccav1.com/wp-content/uploads/fuck-adblock/
@@ -492,6 +500,7 @@ blog.163.com##DIV[id="blog-163-com-topbar"]
 blog.163.com##DIV[id="r_mlofteriframe"]
 blog.163.com##H4[class="bdwb bds2 bdc0 fc07 fs0"]
 blog.163.com##span.pright
+blog.51cto.com###f_close_box
 blog.const.net.cn##DIV[class="divSide"]
 blog.csdn.net##DIV[id="job_blog_reco"]
 blog.csdn.net##DIV[id="tag-suggest-pop"]
@@ -592,6 +601,7 @@ dl.pconline.com.cn##DIV[class="commBox"]
 dl.pconline.com.cn##DIV[id="popapp1"][class="pop-app"]
 dl.vmall.com##DIV[id="side"][class="panel-recommended"]
 docs.asp.net###helpful
+docs.microsoft.com###openFeedbackContainer
 down.51cto.com##DIV[id="f_close_box"]
 down.51cto.com##DIV[id="sogou_se_tgbar"]
 download.csdn.net##DIV[id="tag-suggest-pop"]
@@ -922,6 +932,7 @@ outofmemory.cn###imgSinaShare
 outofmemory.cn##.pop_win
 outofmemory.cn##.pop_win_bg
 p.t.qq.com##DIV[class="banner"]
+pan.baidu.com###layoutMain > .gift-banner.banner-active
 pan.baidu.com##DIV[class="funcs-share"]
 pan.baidu.com##DIV[id^="TANGRAM__PSP_3"]
 pan.baidu.com##DIV[id="activateGuidePopupOuter"]
@@ -1065,6 +1076,7 @@ tech.sina.com.cn##DIV[id="J_Comment_Wrap"]
 tech.sina.com.cn##DIV[id="lcs_wrap"]
 tech.sina.com.cn##SPAN[class="content-tools-share-label"]
 technet.microsoft.com###skinnyRating
+technet.microsoft.com###standardRating
 tianjinwe.com##DIV[class="column_dtts"]
 tianjinwe.com##DIV[class="recommendnews"]
 tianjinwe.com##DIV[id="div_main"]
@@ -1116,6 +1128,7 @@ v.youku.com###ab_pip
 v.youku.com###questionnaire
 v.youku.com###relationshow_async
 v.youku.com###yk-player-curtain
+v.youku.com##.window .s_body > .s_main > .sideCol
 v.youku.com##div.fn-share
 v.youku.com##DIV[class="qwindow"]
 v.youku.com##DIV[class="qwindow_mask"]
@@ -1155,6 +1168,9 @@ wenda.haosou.com##DIV[class="access"]
 wenda.haosou.com##DIV[class="js-panels"]
 wenda.haosou.com##DIV[class="mod-lift g-mod-fixed"]
 wenda.haosou.com##DIV[class="mod-score-mall"]
+wenda.so.com###doc4 > .js-panels
+wenda.so.com###js-detail > .clearfix
+wenda.so.com###mod-search > .clearfix.search > .top-search-banner
 wenda.so.com##DIV[class="access"]
 wenda.tianya.cn##DL[class="notLogin"]
 wenku.baidu.com###docBubble
@@ -1396,6 +1412,7 @@ www.makaidong.com###c_db_qq > .c_db_bq > .Telescopic
 www.med66.com##DIV[class="layout solid"]
 www.newtonsoft.com###footerNotice
 www.npmjs.com##DIV[id="notification-banner"]
+www.nuget.org###sideColumn > .stat
 www.onlinedown.net##DIV[class="lay1038 clearfix"]
 www.onlinedown.net##DIV[class="modBoxA mb10"]
 www.onlinedown.net##DIV[class="modBoxC"]
