@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Monday, 26 June, 2017
+! Last modified: Sunday, 10 Septemper, 2017
 ! Title: Master-AdRules
-! Version: 20170626
+! Version: 20170910
 
 
 
@@ -43,6 +43,8 @@
 ||apis.google.com/js/*plusone.js$third-party
 ||apis.google.com/js/api.js$third-party
 ||apis.google.com/js/platform.js$third-party
+||apkmirror.disqus.com/count.js
+||apkmirror.disqus.com/embed.js
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
 ||apple.www.letv.com
 ||apps.bdimg.com/cloudaapi/lightapp.js$domain=csdn.net
@@ -132,6 +134,7 @@
 ||ctj.wenku.baidu.com/click.gif
 ||ctj.wenku.baidu.com/dv.gif
 ||d.pcs.baidu.com/rest/2.0/pcs/manage
+||data.services.jetbrains.com//geo
 ||data.v.qq.com/videocms/getNewsvideoList.php
 ||datatables.net/media/js/dynamic.php
 ||dc*.csdn.net/track$domain=csdn.net
@@ -140,6 +143,7 @@
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
 ||dict.hjenglish.com/services/simpleExplain/en_simpleExplain.ashx$domain=hjenglish.com
+||dl-oss-wanju.youku.com/msg/chuda_message.js
 ||dm.codeproject.com/dm?r=
 ||dp3.qq.com/qqcom/?
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
@@ -148,6 +152,8 @@
 ||exp.bdstatic.com/static/article/lib/share/logger_*.js
 ||exp.bdstatic.com/static/article/widget/left-promo/left-promo_*.js
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
+||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
+||g.alicdn.com/security/umscript/*/um.js$domain=youku.com
 ||g.s8dj.com$domain=gamersky.com
 ||getadblock.com/css/stripeButton.css
 ||getadblock.com/js/log.js
@@ -158,6 +164,8 @@
 ||getadblock.com/js/payment/paypal.js
 ||getadblock.com/js/payment/stripe.js
 ||getaninsight.com$domain=entityframeworktutorial.net|tutorialsteacher.com
+||gitee.com/index/ent_poster/banner_*.png
+||googleads.g.doubleclick.net$important
 ||google-analytics.com$third-party
 ||graph.facebook.com/*/picture$domain=stackoverflow.com
 ||gttp.co/v1.js$domain=vuejs.org
@@ -202,6 +210,8 @@
 ||jqmt.qq.com/cdn_dianjiliu.js
 ||js.bkjia.com/bkjia/js/bkjiatongji.js$domain=bkjia.com
 ||js.bkjia.com/bkjia/js/right_ad5.js$domain=bkjia.com
+||js.lhzfood.com/baidu/dix.js
+||js.lhzfood.com/baidu/dixpc.js
 ||knewbi.com/app/banner/knewbi_index/*$domain=leiphone.com
 ||like.baidu.com/get$domain=baike.baidu.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
@@ -230,9 +240,12 @@
 ||p.l.youku.com/sokubox
 ||p.l.youku.com/web_cms_module_pv
 ||p.l.youku.com/ykclickjm
+||pagead2.googlesyndication.com$important
+||pan.baidu.com/box-static/disk-share/js/baidu-tongji_*
+||pan.baidu.com/box-static/disk-share/js/log_*
 ||pan.baidu.com/box-static/function-widget-1/coupon/util/img/coupon_360_55c6417.png
-||pan.baidu.com/disk/cmsdata?do=piece&ad=$domain=pan.baidu.com
-||pan.baidu.com/ppres/static/thirdparty/header/src/notice_head.js$domain=pan.baidu.com
+||pan.baidu.com/disk/cmsdata?do=piece&ad=
+||pan.baidu.com/ppres/static/thirdparty/header/src/notice_head.js
 ||pan.baidu.com/share/autoincre$domain=pan.baidu.com
 ||pan.baidu.com/share/count$domain=pan.baidu.com
 ||pan.baidu.com/share/hotrec
@@ -263,6 +276,7 @@
 ||r1.ykimg.com/051000005947372DADC0AEA97A0A2A1D
 ||rc.vrs.sohu.com/56/home
 ||record.kuai.xunlei.com/r
+||referrer.disqus.com/juggler/event.gif
 ||report.b.qq.com/crmReport/accesslog
 ||s.cn.bing.net/th?*pid=News|$domain=www.bing.com
 ||s.lianmeng.360.cn/so/inlay.js
@@ -312,6 +326,7 @@
 ||static.wenku.bdimg.com/static/wkview/widget/commerce/flow/images/198X140_*.jpg
 ||static.wenku.bdimg.com/static/wkview/widget/html_view/html_reader/img/fenxiang_tips_*.png
 ||static.wenwo.com/*/js/common/snsShare.min.js
+||static.ykimg.com/youku/dist/js/page/iku/callIku/ikuAdapterNew.js
 ||static.youku.com/lvip/msg/chuda_message.js
 ||static.youku.com/v1.0.0951/index/js/tdstat.js
 ||static.youku.com/v1.0.116/index/js/ikuAdapterNew.js
@@ -358,7 +373,9 @@
 ||wjdiy.cn/logo/zew.jpg$domain=www.wjdiy.cn
 ||wpa.b.qq.com/cgi/wpa.php
 ||www.360doc.com/ajax/clickStatics.ashx$domain=360doc.com
+||www.3837.cc/*960-90-12.gif
 ||www.56.com/sp/api/sp_32_1.phtml?callback=jsonpLogoAds
+||www.77dvd.com/js/w_admin.js
 ||www.aiyiweb.com/Scripts/AdContentPage300_*.js
 ||www.aiyiweb.com/Scripts/AdContentPageMiddem250.js
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js
@@ -377,6 +394,7 @@
 ||www.ccav1.com/wp-content/uploads/fuck-adblock/
 ||www.ccav1.me/block.js
 ||www.clipconverter.cc/qr.php
+||www.cmdy.tv/js/lishijl.js
 ||www.cnav.club/wp-content/uploads/an-temp/9t6CxBPEbmC7.js
 ||www.codeproject.com/dm/recovery.min.js
 ||www.dropbox.com/static/api/1/dropins.js$third-party
@@ -411,7 +429,9 @@
 ||www.oschina.net/action/trace/record
 ||www.oschina.net/js/bdshare_api/share.js
 ||www.oschina.net/public/javascripts/cjl/ga.js
+||www.qiyipic.com/common/fix/dianying-indexImgV1/dyhy_ktBtnBg.png
 ||www.qiyipic.com/common/fix/site/app-download-*.gif
+||www.qiyipic.com/common/fix/vip_dyr/vipDyr_wyf.jpg
 ||www.vcoo.cc/web/pet/spig.js
 ||www.vcoo.cc/web/pet/spig.png
 ||www.xiazaiba.com/data/ads/jst.js
@@ -428,6 +448,7 @@
 ||zhidao.baidu.com/s/toutu/promotion.js
 ||zhidao.baidu.com/s/toutu/questionnaire.js
 ||zurb.com/jobs/widgets/jobs.js$domain=foundation.zurb.com
+||zz.bdstatic.com/linksubmit/push.js
 110.alipay.com##DIV[class="ui-uservoice"]
 115.com##DIV[class="bottom-hint"]
 115.com##DIV[class="top-banner"]
@@ -648,6 +669,7 @@ devework.com##ASIDE[id="sidebar-primary"]
 dianying.2345.com##.v_rightScroll
 dianying.2345.com##.wrapper > .mainMiddleBg > .main > .clearfix.mt20.row > .col_b > .clearfix.mt20.rowIvy:nth-of-type(3)
 disqus.com##.login-overlay__wrapper
+dl.pconline.com.cn##.navi-bottom
 dl.pconline.com.cn##DIV[class="commBox"]
 dl.pconline.com.cn##DIV[id="popapp1"][class="pop-app"]
 dl.vmall.com##DIV[id="side"][class="panel-recommended"]
@@ -748,6 +770,7 @@ getbootstrap.com###carbonads-container
 gezida.com##DIV[id="box1"]
 gezila.com##IFRAME[id="f"]
 git.oschina.net##.bdshare-slide-button
+gitee.com##.git-project-download-panel > a[href^="/enterprises"]
 gl.ali213.net##DIV[id="GLDIV"][class="glqcode"]
 group.pcbeta.com##DIV[class="CGHJW"]
 gruntjs.com##DIV[class="advertisements"]
@@ -906,6 +929,7 @@ movie.mtime.com###divRelatedGoods
 movie.youku.com###sideBar
 movie.youku.com###sideTool
 movie.youku.com###ykOlympicMedal
+msdn.itellyou.cn##.shang_box
 msdn.microsoft.com###standardRating
 msdn.microsoft.com##DIV[class="NetReflectorMain"]
 msdn.microsoft.com##DIV[id="footerSock"]
@@ -1299,6 +1323,7 @@ www.3987.com##P[class="skey clearfix"]
 www.51bi.com##DIV[id="login_guide"][class="login_guide_pos"]
 www.51zxw.net###idSlider
 www.51zxw.net###wx
+www.77dvd.com###cs_right_bottom
 www.aiyiweb.com###AdPageRight1_AdPageRight
 www.ali213.net##DIV[class="ali-jctj"]
 www.ali213.net##DIV[class="fenxiang"]
@@ -1310,6 +1335,7 @@ www.ali213.net##DIV[class="tkyl"]
 www.ali213.net##DIV[class="web_news_middle"]
 www.ali213.net##DIV[id="ali-photo-slide"]
 www.ali213.net##DIV[id="right_nav"][class="ali-float-nav"]
+www.androiddevtools.cn###auto-scroll-ad-box
 www.anqu.com##DIV[class="axing_add_ad"]
 www.anqu.com##DIV[class="correlative fc fx t20"]
 www.anqu.com##DIV[class="correlative2 fc fx t20"]
@@ -1342,8 +1368,11 @@ www.baofeng.com##.play-ad-box
 www.baofeng.com##.play-scenes-list
 www.bing.com###b_results > .b_top.b_ans
 www.bing.com###bnp_cont
+www.bing.com###ev_trans_btn_group
 www.bing.com###flwn
 www.bing.com##.mal_oc
+www.bing.com##.tipContainer
+www.bing.com##.tipContainer-hoverTrans
 www.bing.com##DIV[class="bk_sidebar"]
 www.bing.com##div[id$="notificationContainer"]
 www.bing.com##DIV[id="hplas"]
@@ -1376,6 +1405,7 @@ www.china.com.cn##IFRAME[id="cl"]
 www.chinaacc.com##DIV[class="ban"]
 www.chinaacc.com##DIV[class="banner fl"]
 www.chinaacc.com##DIV[class="qt-big"]
+www.chinapiwei.com##.ui-sponsor
 www.china-pub.com##DIV[class="aa"]
 www.china-pub.com##DIV[class="go_back"]
 www.cnbeta.com##DIV[id="left_art"]
@@ -1425,7 +1455,9 @@ www.experts-exchange.com##DIV[class="verifiedSolution-B"]
 www.fooao.com##UL[class="index_img_list"]
 www.ftchinese.com##DIV[class="app-download-container"]
 www.fydisk.com##DIV[class="widget-header widget-header-flat"]
+www.gamersky.com###ADback
 www.gamersky.com##.Mid > .Mid2 > .Mid2_L > .block.Mid2L_ctt > .Mid2L_con > .adnone
+www.gamersky.com##.Mid7
 www.gocheck.cn##DIV[id="box1"][class="box"]
 www.gocheck.cn##DIV[id="iconDivMain1"]
 www.grabsun.com##DIV[id="doctips"]
@@ -1441,6 +1473,7 @@ www.ibm.com##DIV[id="dw-regbar"][class="dw-home-band"]
 www.iciba.com##.home-app-sponsor
 www.ihref.com##DIV[class="toptip"]
 www.iqiyi.com###bottomfix-login-reg
+www.iqiyi.com##.hy_ydBox
 www.it892.com##DIV[class="wumii-popup-hot"]
 www.it-ebooks.info##.main > tbody > tr:nth-of-type(2) > .top > div:nth-of-type(2) > .ebook_view > tbody > tr > td:nth-of-type(3)
 www.ithome.com##DIV[id="hm_t_11511"]
@@ -1495,6 +1528,7 @@ www.open-open.com##DIV[id="upload-box1"][class="box-blue angle"]
 www.oschina.net###OSC_Content > table > tbody > tr a[href^="http://www.oschina.net/action/visit/ad"]
 www.oschina.net###toolbar_wrapper
 www.oschina.net###upprev_box
+www.oschina.net##.aside-topjj
 www.oschina.net##.banner4
 www.oschina.net##.news_detai_above_ad
 www.oschina.net##[id^="OSChina_News_"] > p:nth-of-type(1)
