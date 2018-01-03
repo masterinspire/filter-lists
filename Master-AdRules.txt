@@ -2,13 +2,14 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Tuesday, 5 December, 2017
+! Last modified: Tuesday, 2 January, 2018
 ! Title: Master-AdRules
-! Version: 20171205
+! Version: 20180102
 
 
 
 /letv-gug$domain=le.com
+/videos/other/*.f4v$domain=www.iqiyi.com
 @@/ad_images/*$domain=szhr.com.cn
 @@||800cdn.com$domain=lmwlove.com
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
@@ -127,7 +128,9 @@
 ||cpro.zhidao.baidu.com/cpro/ui/cm.js
 ||creatim.qtmojo.cn/td/AllyesDeliver.min.js
 ||csdnimg.cn/pubfooter/js/repoAddr2.js
+||csdnimg.cn/pubfooter/js/tracking-*.js
 ||csdnimg.cn/pubfooter/js/tracking.js
+||csdnimg.cn/rabbit/exposure-click/main-*.js
 ||cse.google.com/cse.js
 ||css.tudouui.com/v3/dist/img/play/itudou_*.png
 ||ctc.qzonestyle.gtimg.cn/qzone/v8/core/stat.js$domain=user.qzone.qq.com
@@ -137,6 +140,8 @@
 ||d.pcs.baidu.com/rest/2.0/pcs/manage
 ||data.services.jetbrains.com//geo
 ||data.v.qq.com/videocms/getNewsvideoList.php
+||databack.dangdang.com/collect.js
+||databack.dangdang.com/dde.php?platform=
 ||datatables.net/media/js/dynamic.php
 ||dc*.csdn.net/track$domain=csdn.net
 ||dc.pconline.com.cn/jt/$domain=dl.pconline.com.cn
@@ -155,6 +160,7 @@
 ||exp.bdstatic.com/static/article/lib/share/bds_s_v2_*.js
 ||exp.bdstatic.com/static/article/lib/share/logger_*.js
 ||exp.bdstatic.com/static/article/widget/left-promo/left-promo_*.js
+||flume.csdn.net/csdnbi
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
 ||g.alicdn.com/security/umscript/*/um.js$domain=youku.com
@@ -288,9 +294,11 @@
 ||readthedocs.org/api/v2/footer_html/?callback
 ||readthedocs.org/sustainability/view
 ||record.kuai.xunlei.com/r
+||recosys.dangdang.com/realdata/js/bookhome/collect.js
 ||referrer.disqus.com/juggler/event.gif
 ||report.b.qq.com/crmReport/accesslog
 ||s.cn.bing.net/th?*pid=News|$domain=www.bing.com
+||s.cn.bing.net/th?id=*&pid=MsnJVFeeds$domain=bing.com
 ||s.lianmeng.360.cn/so/inlay.js
 ||s.weibo.com/ajax/jsonp/suggestion$domain=weibo.com
 ||s1.adm.72zx.com/hj/js/ad_soft_*.js
@@ -339,6 +347,7 @@
 ||static.wenku.bdimg.com/static/wkview/widget/html_view/html_reader/img/fenxiang_tips_*.png
 ||static.wenwo.com/*/js/common/snsShare.min.js
 ||static.ykimg.com/youku/dist/js/page/iku/callIku/ikuAdapterNew.js
+||static.youku.com/index/js/ikuAdapterNew.js
 ||static.youku.com/lvip/msg/chuda_message.js
 ||static.youku.com/v1.0.0951/index/js/tdstat.js
 ||static.youku.com/v1.0.116/index/js/ikuAdapterNew.js
@@ -404,6 +413,7 @@
 ||www.bing.com/fd/ls/l
 ||www.bing.com/globallife/OverseaAds.json
 ||www.bing.com/rms/rms%20answers%20WebResult%20InfoBubbleMalwareLoader/cj,nj/*/*.js
+||www.bing.com/s/*/MsnJVData/HoverTranslationV2.css
 ||www.bing.com/th?id=*pid=MSNJVFeeds
 ||www.btrenren.com/js/foot.js
 ||www.ccav1.com/wp-admin/admin-ajax.php
@@ -416,6 +426,8 @@
 ||www.codeproject.com/dm/recovery.min.js
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
+||www.erlang.org/css/twitterl.css
+||www.erlang.org/js/twitterl.min.js
 ||www.facebook.com/plugins/like.php$third-party
 ||www.fanli7.net/my/common.js
 ||www.fanli7.net/my/fload_ads/fload_ads_style.css
@@ -452,9 +464,11 @@
 ||www.qiyipic.com/common/fix/dianying-indexImgV1/dyhy_ktBtnBg.png
 ||www.qiyipic.com/common/fix/site/app-download-*.gif
 ||www.qiyipic.com/common/fix/vip_dyr/vipDyr_wyf.jpg
+||www.rabbitmq.com/img/banner-s1p.png
 ||www.vcoo.cc/web/pet/spig.js
 ||www.vcoo.cc/web/pet/spig.png
 ||www.vmware.com/ciovantage/wp-content/themes/smart-mag/js/AdobeAnalyticsPlugin.js
+||www.vmware.com/content/dam/digitalmarketing/vmware/en/files/include/vmf/module/core/js/log.js
 ||www.vmware.com/content/dam/vmwaredesigns/geoip/configs/country-mapping.json
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/clientlib-geoip
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/main/js/utag_data.js
@@ -466,6 +480,7 @@
 ||www.youtube.com/embed/*$third-party
 ||www.youtube.com/iframe_api$domain=developer.mozilla.org,important
 ||www.zhihu.com/node/Banner
+||www2.bing.com/ipv6test/test
 ||zdw.w8.com.cn/p.ht$domain=bbs.zol.com.cn
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zhidao.baidu.com/question/api/recommend
@@ -596,6 +611,10 @@ blog.163.com##H4[class="bdwb bds2 bdc0 fc07 fs0"]
 blog.163.com##span.pright
 blog.51cto.com###f_close_box
 blog.const.net.cn##DIV[class="divSide"]
+blog.csdn.net##.left_fixed
+blog.csdn.net##.pulllog-box
+blog.csdn.net##.right_fixed
+blog.csdn.net##.switchDOM
 blog.csdn.net##DIV[id="job_blog_reco"]
 blog.csdn.net##DIV[id="tag-suggest-pop"]
 blog.renren.com##DIV[class="banner-bottom"]
@@ -701,6 +720,7 @@ docs.asp.net###helpful
 docs.microsoft.com###openFeedbackContainer
 down.51cto.com##DIV[id="f_close_box"]
 down.51cto.com##DIV[id="sogou_se_tgbar"]
+down.gamersky.com##.ngg_down
 download.csdn.net##DIV[id="tag-suggest-pop"]
 download.pchome.net##DIV[class="dl-piclist dl-piclist-soft"]
 download.pchome.net##DIV[class="dl-piclist"]
@@ -1435,6 +1455,7 @@ www.chinaacc.com##DIV[class="qt-big"]
 www.chinapiwei.com##.ui-sponsor
 www.china-pub.com##DIV[class="aa"]
 www.china-pub.com##DIV[class="go_back"]
+www.cloudamqp.com##.dark-bg.signup
 www.cnbeta.com##DIV[id="left_art"]
 www.cnblogs.com###myRewards
 www.cnblogs.com##DIV[id="blog_post_info"]
@@ -1573,6 +1594,9 @@ www.quora.com##DIV[class*="hover_menu quote_hover_menu"]
 www.ralfebert.de##DIV[id="sharepanel"]
 www.romjd.com##.con > .clearfix.inner > .con-side > .box.funapp
 www.romzj.com##DIV[class="xzSearch box1Right"]
+www.runoob.com###respond
+www.runoob.com##.feedback-btn-gray
+www.runoob.com##.fixed-btn
 www.runoob.com##.right-column
 www.runoob.com##DIV[class="share-box"]
 www.runoob.com##DIV[id="ads"]
@@ -1668,8 +1692,8 @@ www.zhanqi.tv###js-room-ads-panel
 www.zhanqi.tv##.js-area-layer.clearfix.liveMessage
 www.zhanqi.tv##.js-up-area.up-area
 www.zhanqi.tv##a[href^="http://analytics.bfun.cn/ad.click"]
-www.zhihu.com##DIV[class~="modal-dialog"]
-www.zhihu.com##DIV[class~="modal-dialog-bg"]
+www.zhihu.com##.AppBanner-link
+www.zhihu.com##.HitQrcode
 www.zhihu.com##DIV[class="app-promotion-bar"]
 www.zhihu.com##DIV[id^="shameimaru-question-down-noauth"]
 www.zhuce100.cn##DIV[id="iconDiv1"]
