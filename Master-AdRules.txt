@@ -1,12 +1,12 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Wednesday, 28 March, 2018
+! Last modified: Saturday, 7 April, 2018
 ! Title: Master-AdRules
-! Version: 20180328
-
-
-
+! Version: 20180407
+!
+!
+!
 /letv-gug$domain=le.com
 /videos/other/*.f4v$domain=www.iqiyi.com
 @@/ad_images/*$domain=szhr.com.cn
@@ -50,6 +50,7 @@
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
 ||apple.www.letv.com
 ||apps.bdimg.com/cloudaapi/lightapp.js$domain=csdn.net
+||app-sj05.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com
 ||aq.xunlei.com/v1.3/js/aq_bm.js
 ||ark.le.com/s
 ||ark.letv.com/t
@@ -67,6 +68,7 @@
 ||b1.bst.126.net/newpage/r/j/nts.js
 ||b1.bst.126.net/newpage/r/j/pc.js$domain=blog.163.com
 ||baike.baidu.com/api/wikiad
+||baike.baidu.com/api/wikiui/getasp
 ||baike.baidu.com/cms/lemmaconfig/navbarAd.json$domain=baike.baidu.com
 ||baike.baidu.com/cms/rc/shuhuabanner.png
 ||baike.bdimg.com/cms/static/lemmaIframe
@@ -82,8 +84,26 @@
 ||bdimg.share.baidu.com/static/api/js/share.js
 ||bdimg.share.baidu.com/static/js/like_shell.js
 ||bdimg.share.baidu.com/static/js/shell_v2.js
-||bing.com/AS/Suggestions$domain=bing.com
-||bing.com/qsonhs.aspx$domain=bing.com
+||bing.com###shareview
+||bing.com/*/MsnJVData/HoverTranslation*
+||bing.com/AS/Suggestions
+||bing.com/dict/SerpHoverTrans
+||bing.com/fd/ls/GLinkPingPost.aspx
+||bing.com/fd/ls/l
+||bing.com/fd/ls/lsp.aspx
+||bing.com/globallife/OverseaAds.json
+||bing.com/ipv6test/test
+||bing.com/msnjv/counting
+||bing.com/qsonhs.aspx
+||bing.com/rewardsapp/reportActivity
+||bing.com/rms/rms%20answers%20WebResult%20InfoBubbleMalwareLoader
+||bing.com/s/*/MsnJVData/HoverTranslationV2.css
+||bing.com/s/ac/*/MsnJVData/HoverTranslationV2.css
+||bing.com/s/as/*/MsnJVData/HoverTranslation.js
+||bing.com/th?id=*&pid=MSNJVFeeds
+||bing.net/th?&pid=MSNJVFeeds
+||bing.net/th?*h=75&pid=MSNJVFeeds|
+||bing.net/th?id=*pid=MSNJVFeeds|
 ||blog.163.com/bitMaxImageGen.do$domain=blog.163.com
 ||blog.163.com/newpage/images/analyse.png
 ||btrace.video.qq.com/collect
@@ -101,6 +121,7 @@
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/wenzhang.jpg$third-party
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js$third-party
+||cdn.segment.com/analytics.js/v1/*/analytics.min.js$important,domain=docs.docker.com
 ||cdn2.jianshu.io/assets/web/web-note-ad-*.png
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
@@ -113,11 +134,6 @@
 ||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
 ||cm.dmp.sina.cn/cm/sinaads_ck_wap.js
 ||cmt.pconline.com.cn/intf/cmtCount.jsp$domain=dl.pconline.com.cn
-||cn.bing.com###shareview
-||cn.bing.com/th?id=*&pid=MSNJVFeeds
-||cn.bing.net/th?*amp;pid=MSNJVFeeds|$domain=www.bing.com
-||cn.bing.net/th?*h=75&pid=MSNJVFeeds|$domain=www.bing.com
-||cn.bing.net/th?id=*pid=MSNJVFeeds|$domain=www.bing.com
 ||cnstrc.com/js/ac.js
 ||concat.lietou-static.com/core/pc/revs/js/common/stat_*.js
 ||connect.facebook.net/de_DE/all.js$third-party
@@ -186,7 +202,8 @@
 ||googleads.g.doubleclick.net$important
 ||google-analytics.com$third-party
 ||graph.facebook.com/*/picture$domain=stackoverflow.com
-||gsp*.baidu.com/*/v.gif?pid=
+||gsp0.baidu.com/*/tb/pms/img/st.gif
+||gsp0.baidu.com/*/v.gif
 ||gttp.co/v1.js$domain=vuejs.org
 ||hiphotos.baidu.com/baidu/pic/item/b3119313b07eca80a77a9272962397dda144832c.jpg
 ||hm.baidu.com/hm.js
@@ -243,6 +260,7 @@
 ||mail.sina.com.cn/images/index/tjBombing20150813.jpg
 ||maps.google.com/maps/api/js$third-party
 ||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
+||microsofttranslator.com/ajax/v3/WidgetV3.ashx$domain=bing.com
 ||misc.360buyimg.com/product/home/1.0.0/js/banner.js
 ||mjs.sinajs.cn/blog/ria/h5/v1/js/lithe.js
 ||modernizr.com/i/js/analytics.js
@@ -253,9 +271,11 @@
 ||msg.video.qiyi.com/vodpb.gif
 ||mssplus.mcafee.com/mssplus.txt$domain=adobe.com
 ||mt*.baidu.com/timg$domain=zhidao.baidu.com
+||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||n-cdn.areyouahuman.com/kitten
 ||nl.notice.iqiyi.com/apis/msg/lego/get_msg.action
 ||nsclick.baidu.com/u.gif
+||nsclick.baidu.com/v.gif
 ||open.qzone.qq.com/like$third-party
 ||openapi.baidu.com/cloudaapi/lightapp.js$domain=blog.csdn.net
 ||outofmemory.cn/static/js/h.js
@@ -274,13 +294,16 @@
 ||pan.baidu.com/yun-static/common/js/asideAdapter_nomd5_nomod.js
 ||pan.bdstatic.com/box-static/interface-widget-1-cdn/mainSmallBanner/util/img/gift_banner_*.png
 ||partners.npmjs.com/hiring$domain=npmjs.com
+||passport.baidu.com/img/v.gif
 ||passport.csdn.net/js/apps/ga.js
 ||pconline.com.cn/*/intf*.html$domain=dl.pconline.com.cn
 ||pconline.com.cn/*/intf*.js$domain=dl.pconline.com.cn
 ||pgdt.gtimg.cn/gdt/*.jpg/0$domain=user.qzone.qq.com
 ||pgdt.gtimg.cn/gdt/0/*.jpg/0?ck=*
+||pingtas.qq.com/webview/pingd$domain=baike.baidu.com
 ||pk.56.com/shipai/api/api.albumList.php$domain=56.com
 ||platform.twitter.com/widgets.js$third-party
+||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||prom.b.qq.com/se/r.gif
 ||prom.b.qq.com/wpadisplay/r.gif
 ||pstatic.xunlei.com/js/offlineThunderDetect.js
@@ -304,8 +327,8 @@
 ||recosys.dangdang.com/realdata/js/bookhome/collect.js
 ||referrer.disqus.com/juggler/event.gif
 ||report.b.qq.com/crmReport/accesslog
-||s.cn.bing.net/th?*pid=News|$domain=www.bing.com
-||s.cn.bing.net/th?id=*&pid=MsnJVFeeds$domain=bing.com
+||s.cn.bing.net/th?*pid=News
+||s.cn.bing.net/th?id=*&pid=MsnJVFeeds
 ||s.lianmeng.360.cn/so/inlay.js
 ||s.weibo.com/ajax/jsonp/suggestion$domain=weibo.com
 ||s1.adm.72zx.com/hj/js/ad_soft_*.js
@@ -371,6 +394,7 @@
 ||szhr.com.cn/ad_float/ad_move.js$domain=szhr.com.cn
 ||t7z.cupid.iqiyi.com/track2
 ||tags.tiqcdn.com/utag/*/prod/utag
+||tajs.qq.com/qc.php$domain=baike.baidu.com
 ||tip.soku.com/searches/soku/kubox/v4/sideads.json
 ||tip.tv.sohu.com/s
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$third-party
@@ -409,23 +433,11 @@
 ||www.56.com/sp/api/sp_32_1.phtml?callback=jsonpLogoAds
 ||www.77dvd.com/js/w_admin.js
 ||www.77evd.com/template/77yy/ads
-||www.987.cm/pic/cp.gif
-||www.987.cm/pic/cp.png
 ||www.aiyiweb.com/Scripts/AdContentPage300_*.js
 ||www.aiyiweb.com/Scripts/AdContentPageMiddem250.js
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js
 ||www.aiyiweb.com/Scripts/baiduShare.js
 ||www.ali213.net/news/images/newsnybn.jpg
-||www.bing.com/*/MsnJVData/HoverTranslation.css
-||www.bing.com/*/MsnJVData/HoverTranslation.js
-||www.bing.com/dict/SerpHoverTrans
-||www.bing.com/fd/ls/GLinkPingPost.aspx
-||www.bing.com/fd/ls/l
-||www.bing.com/globallife/OverseaAds.json
-||www.bing.com/ipv6test/test
-||www.bing.com/rms/rms%20answers%20WebResult%20InfoBubbleMalwareLoader/cj,nj/*/*.js
-||www.bing.com/s/*/MsnJVData/HoverTranslationV2.css
-||www.bing.com/th?id=*pid=MSNJVFeeds
 ||www.btrenren.com/js/foot.js
 ||www.ccav1.com/wp-admin/admin-ajax.php
 ||www.ccav1.com/wp-content/uploads/an-temp/9t6CxBPEbmC7.js
@@ -501,7 +513,6 @@
 ||www.youtube.com/embed/*$third-party
 ||www.youtube.com/iframe_api$domain=developer.mozilla.org,important
 ||www.zhihu.com/node/Banner
-||www2.bing.com/ipv6test/test
 ||zdw.w8.com.cn/p.ht$domain=bbs.zol.com.cn
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zhidao.baidu.com/question/api/recommend
@@ -692,6 +703,8 @@ china.findlaw.cn##div[id^="adshow"]
 china.findlaw.cn##div[id^="adtop"]
 chinaz.com##DIV[class="m-picshow"]
 chinaz.com##DIV[class="usershare f-fl"]
+cn.bing.com###ev_trans_btn_group
+cn.bing.com##.tipContainer
 cnblogs.com##div[id^="dictHc"]
 cnc.jscj.com##TABLE[id="Table_ad"]
 cnfol.com##B[class="R"]
