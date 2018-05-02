@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Saturday, 7 April, 2018
+! Last modified: Wednesday, 2 May, 2018
 ! Title: Master-AdRules
-! Version: 20180407
+! Version: 20180502
 !
 !
 !
@@ -146,10 +146,14 @@
 ||cpro.baidustatic.com/cpro/ui/i.js
 ||cpro.zhidao.baidu.com/cpro/ui/cm.js
 ||creatim.qtmojo.cn/td/AllyesDeliver.min.js
+||csdnimg.cn/asdf/tracking-*.*.*.js
 ||csdnimg.cn/pubfooter/js/repoAddr2.js
 ||csdnimg.cn/pubfooter/js/tracking-*.js
 ||csdnimg.cn/pubfooter/js/tracking.js
 ||csdnimg.cn/rabbit/exposure-click/main-*.js
+||csdnimg.cn/search/baidu_opensug-*.js
+||csdnimg.cn/static/api/js/share.js
+||csdnimg.cn/static/api/js/view/share_view.js
 ||cse.google.com/cse.js
 ||css.tudouui.com/v3/dist/img/play/itudou_*.png
 ||ctc.qzonestyle.gtimg.cn/qzone/v8/core/stat.js$domain=user.qzone.qq.com
@@ -180,6 +184,7 @@
 ||exp.bdstatic.com/static/article/lib/share/bds_s_v2_*.js
 ||exp.bdstatic.com/static/article/lib/share/logger_*.js
 ||exp.bdstatic.com/static/article/widget/left-promo/left-promo_*.js
+||experiment.appadhoc.com/get_flags_async$domain=csdn.net
 ||flume.csdn.net/csdnbi
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
@@ -240,6 +245,10 @@
 ||isdspeed.qq.com/cgi-bin/r.cgi
 ||iteye.com$domain=blog.csdn.net
 ||ixueyi.com/xiaohua/*$domain=educity.cn
+||j.gamersky.com/common/tg/allsite.tg.monitor.js
+||j.gamersky.com/common/tg/allsite.tg.monitor.pc.js
+||ja2.gamersky.com/gs.common.income.js
+||ja2.gamersky.com/gs.tg.all.js
 ||jiaoyu.baidu.com/wenku/index
 ||jiathis.com$third-party
 ||jingyan.baidu.com/event/img/fsyxlyqy.gif
@@ -321,6 +330,7 @@
 ||r1.ykimg.com/051000005943AEBEADC0AE06C507CFAA
 ||r1.ykimg.com/051000005947372DADC0AEA97A0A2A1D
 ||rc.vrs.sohu.com/56/home
+||re.csdn.net/csdnbi
 ||readthedocs.org/api/v2/footer_html/?callback
 ||readthedocs.org/sustainability/view
 ||record.kuai.xunlei.com/r
@@ -341,7 +351,8 @@
 ||s3-us-west-2.amazonaws.com/ad-maven-public-cdn/notT/clipconverter.js
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sax.sina.cn/native/impress$domain=blog.sina.cn
-||shared.ydstatic.com/js/yadk/1.0.0.js
+||shared.ydstatic.com/js/yadk/*.*.*.js$domain=csdn.net
+||shared.ydstatic.com/js/yatdk/*/stream.js$domain=csdn.net
 ||sharethis.com$third-party
 ||simg.sinajs.cn/blog7style/images/blog_editor/ten_182_48.png
 ||simg.sinajs.cn/blog7style/images/blog_editor/ten_map.png
@@ -647,6 +658,7 @@ blog.csdn.net##.left_fixed
 blog.csdn.net##.pulllog-box
 blog.csdn.net##.right_fixed
 blog.csdn.net##.switchDOM
+blog.csdn.net##.tool-box
 blog.csdn.net##DIV[id="job_blog_reco"]
 blog.csdn.net##DIV[id="tag-suggest-pop"]
 blog.renren.com##DIV[class="banner-bottom"]
