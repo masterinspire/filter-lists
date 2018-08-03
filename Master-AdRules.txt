@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Sunday, 8 July, 2018
+! Last modified: Friday, 3 August, 2018
 ! Title: Master-AdRules
-! Version: 20180708
+! Version: 20180803
 !
 !
 !
@@ -256,6 +256,7 @@ dl.pconline.com.cn##DIV[id="popapp1"][class="pop-app"]
 dl.vmall.com##DIV[id="side"][class="panel-recommended"]
 docs.asp.net###helpful
 docs.microsoft.com###openFeedbackContainer
+docs.ti-net.com.cn##body > div:nth-of-type(7)
 down.51cto.com##DIV[id="f_close_box"]
 down.51cto.com##DIV[id="sogou_se_tgbar"]
 down.gamersky.com##.ngg_down
@@ -650,6 +651,7 @@ qtcn.org##DIV[class="pw_all_tip"]
 qun.qzone.qq.com##DIV[id="feeds_body"][class="qz_mod_bd"]
 read.douban.com###desktop-app-ad
 read.douban.com##.btns-tip.tooltip
+readthedocs.io##.keep-us-sustainable
 research.microsoft.com###shareShelf
 review.cnfol.com##A[class="VcBtn"]
 review.cnfol.com##A[href="http://p.cnfol.com/index.php?t=mobile"]
@@ -1115,6 +1117,7 @@ www.lol520.cc##DIV[id="yeei-login-Top"]
 www.makaidong.com###bdcs
 www.makaidong.com###c_db_qq > .c_db_bq > .Telescopic
 www.med66.com##DIV[class="layout solid"]
+www.merriam-webster.com###social-sidebar-container
 www.newtonsoft.com###footerNotice
 www.npmjs.com##DIV[id="notification-banner"]
 www.nuget.org###sideColumn > .stat
@@ -1130,6 +1133,7 @@ www.oschina.net##.banner4
 www.oschina.net##.float_adbox
 www.oschina.net##.index_520
 www.oschina.net##.news_detai_above_ad
+www.oschina.net##.sc-tool-backtop.sc
 www.oschina.net##DIV[id="project_ad_banner"]
 www.oschina.net##[id="p_fullcontent"] p:nth-of-type(1)
 www.oschina.net##[id^="OSChina_News_"] > p:nth-of-type(1)
@@ -1319,6 +1323,7 @@ zuoye.baidu.com###aside
 ||analytics.syncfusion.com/log/documentation
 ||api.geetest.com/get.php$domain=blog.sina.com.cn
 ||api.github.com/_private/browser/stats$domain=github.com
+||api.growingio.com/v2/*/web/pv
 ||api.hudong.com/ajaxHotDocCountApi.do$domain=baike.com
 ||apis.google.com/js/*plusone.js$third-party
 ||apis.google.com/js/api.js$third-party
@@ -1335,6 +1340,7 @@ zuoye.baidu.com###aside
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
+||az725175.vo.msecnd.net/scripts/jsll-4.js
 ||b.haoqq.me/0.js
 ||b.haoqq.me/1.js
 ||b.haoqq.me/3v.js
@@ -1388,6 +1394,7 @@ zuoye.baidu.com###aside
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg$domain=buildapp.net
 ||c.microsoft.com/ms.js
+||c1.microsoft.com/c.gif
 ||cache.soso.com/baike/js/sgbk_for_qq_news.js
 ||cache.soso.com/post/img2/wxd150703.jpg$domain=baike.m.sogou.com
 ||cache.soso.com/wenwen/i/ad/$domain=wenwen.sogou.com
@@ -1414,6 +1421,7 @@ zuoye.baidu.com###aside
 ||cmt.pconline.com.cn/intf/cmtCount.jsp$domain=dl.pconline.com.cn
 ||cnstrc.com/js/ac.js
 ||collector-medium.lightstep.com/api/v0/reports
+||collector.githubapp.com/github/page_view
 ||concat.lietou-static.com/core/pc/revs/js/common/stat_*.js
 ||connect.facebook.net/de_DE/all.js$third-party
 ||connect.facebook.net/en_US/all.js$third-party
@@ -1455,6 +1463,7 @@ zuoye.baidu.com###aside
 ||dl-oss-wanju.youku.com/msg/chuda_message.js
 ||dm.codeproject.com/dm?r=
 ||do.xiazaiba.com/route.php?ct=stat&ac=show_ads
+||docs.ti-net.com.cn/count.php
 ||down.lytml.com/js/webThunderDetect_20130524.js
 ||dp3.qq.com/qqcom/?
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
@@ -1701,6 +1710,7 @@ zuoye.baidu.com###aside
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$third-party
 ||trace.qq.com/collect
 ||translate.google.com/translate_a/element.js$third-party
+||uhf.microsoft.com/_log
 ||update.pan.baidu.com/statistics
 ||use.typekit.com/*.js$third-party
 ||use.typekit.net$third-party
@@ -1714,6 +1724,7 @@ zuoye.baidu.com###aside
 ||wapiknow.bdimg.com/static/m-common/widget/lib/gmu/slider/slider_*.js$domain=zhidao.baidu.com
 ||web.ali213.net/kf/web-ali213-json.js
 ||web.houyi.baofeng.net/Consultation/web.php$domain=baofeng.com
+||web.vortex.data.microsoft.com/collect
 ||web.vortex.data.microsoft.com/collect/v1/t.gif
 ||webmap0.map.bdstatic.com/fwmap/upload/r/image/2013-07-16/6f90db9e61476f2cd8975c3fac3c70a8.jpg$domain=map.baidu.com
 ||webmap0.map.bdstatic.com/wolfman/static/common/images/login_8_9e79767.png$domain=map.baidu.com
@@ -1789,6 +1800,7 @@ zuoye.baidu.com###aside
 ||www.lagou.com/js/mobile/dep/analytics.js
 ||www.liaoxuefeng.com/files/attachments/0014447742522842243a5dcedc5487b93a44d9c716bb0b6000/0
 ||www.liaoxuefeng.com/files/attachments/00144740613977908cd44c42bad4d568baa261d726a88ad000/0
+||www.merriam-webster.com/lapi/1/mwol-video/play/count
 ||www.microsoft.com/net/bundles/js/survey-popup.min.js
 ||www.microsofttranslator.com/Ajax/V2/Widget.aspx
 ||www.microsofttranslator.com/ajax/v2/toolkit.ashx
@@ -1797,6 +1809,7 @@ zuoye.baidu.com###aside
 ||www.msdn.hk/templets/msdn/css/index.js
 ||www.msdn.hk/templets/msdn/css/viewads.js
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
+||www.oschina.net/action/itags/pushRead
 ||www.oschina.net/action/trace/record
 ||www.oschina.net/js/bdshare_api/share.js
 ||www.oschina.net/public/javascripts/cjl/ga.js
