@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Friday, 3 August, 2018
+! Last modified: Tuesday, 25 September, 2018
 ! Title: Master-AdRules
-! Version: 20180803
+! Version: 20180925
 !
 !
 !
@@ -209,6 +209,9 @@ china.findlaw.cn##div[id^="adshow"]
 china.findlaw.cn##div[id^="adtop"]
 chinaz.com##DIV[class="m-picshow"]
 chinaz.com##DIV[class="usershare f-fl"]
+club.huawei.com##.hbwi-right.sd
+cn.club.vmall.com##.hbwi-right.sd
+cn.ui.vmall.com##.hbwi-right.sd
 cnblogs.com##div[id^="dictHc"]
 cnc.jscj.com##TABLE[id="Table_ad"]
 cnfol.com##B[class="R"]
@@ -1321,8 +1324,10 @@ zuoye.baidu.com###aside
 ||analytics.163.com/ntes.js$important
 ||analytics.bfun.cn/analytics.js
 ||analytics.syncfusion.com/log/documentation
-||api.geetest.com/get.php$domain=blog.sina.com.cn
-||api.github.com/_private/browser/stats$domain=github.com
+||api-iam.intercom.io/messenger/web/metrics
+||api-iam.intercom.io/messenger/web/ping
+||api.geetest.com/get.php
+||api.github.com/_private/browser/stats
 ||api.growingio.com/v2/*/web/pv
 ||api.hudong.com/ajaxHotDocCountApi.do$domain=baike.com
 ||apis.google.com/js/*plusone.js$third-party
@@ -1340,17 +1345,10 @@ zuoye.baidu.com###aside
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
-||az725175.vo.msecnd.net/scripts/jsll-4.js
-||b.haoqq.me/0.js
-||b.haoqq.me/1.js
-||b.haoqq.me/3v.js
-||b.haoqq.me/aa1.js
-||b.haoqq.me/aa2.js
-||b.haoqq.me/d1.js
-||b.haoqq.me/logo.js
-||b.haoqq.me/vv.js
+||az725175.vo.msecnd.net/scripts/jsll-*.js$important
 ||b1.bst.126.net/newpage/r/j/nts.js
 ||b1.bst.126.net/newpage/r/j/pc.js$domain=blog.163.com
+||baike.baidu.com/api/common/bkclick
 ||baike.baidu.com/api/wikiad
 ||baike.baidu.com/api/wikiui/getasp
 ||baike.baidu.com/cms/lemmaconfig/navbarAd.json$domain=baike.baidu.com
@@ -1410,8 +1408,9 @@ zuoye.baidu.com###aside
 ||cdn.segment.com/analytics.js/v1/*/analytics.min.js$important,domain=docs.docker.com
 ||cdn2.jianshu.io/assets/web/web-note-ad-*.png
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
-||cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js$domain=www.pronouncekiwi.com
-||cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css$domain=www.pronouncekiwi.com
+||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=notepad-plus-plus.org
+||cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/*/jquery.magnific-popup.js$domain=www.pronouncekiwi.com
+||cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/*/magnific-popup.css$domain=www.pronouncekiwi.com
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
 ||checkout.stripe.com/v3/checkout.js
@@ -1452,6 +1451,7 @@ zuoye.baidu.com###aside
 ||data.v.qq.com/videocms/getNewsvideoList.php
 ||databack.dangdang.com/collect.js
 ||databack.dangdang.com/dde.php?platform=
+||datacollect.vmall.com:18443$third-party
 ||datatables.net/media/js/dynamic.php
 ||dc*.csdn.net/track$domain=csdn.net
 ||dc.pconline.com.cn/jt/$domain=dl.pconline.com.cn
@@ -1530,6 +1530,7 @@ zuoye.baidu.com###aside
 ||imgcache.qq.com/tencentvideo_v1/player/plugins/RelevanceAd.swf
 ||imgcdn.pconline.com.cn/show$domain=dl.pconline.com.cn
 ||imgwx1.2345.com/dypcimg/js/baiduTongji.js
+||ipinfo.io$third-party
 ||isdspeed.qq.com/cgi-bin/r.cgi
 ||iteye.com$domain=blog.csdn.net
 ||ixueyi.com/xiaohua/*$domain=educity.cn
@@ -1544,7 +1545,9 @@ zuoye.baidu.com###aside
 ||jqmt.qq.com/cdn_dianjiliu.js
 ||js.bkjia.com/bkjia/js/bkjiatongji.js$domain=bkjia.com
 ||js.bkjia.com/bkjia/js/right_ad5.js$domain=bkjia.com
+||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com$domain=redislabs.com
+||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
 ||knewbi.com/app/banner/knewbi_index/*$domain=leiphone.com
@@ -1554,7 +1557,9 @@ zuoye.baidu.com###aside
 ||log.houyi.baofeng.net/logger.php$domain=www.baofeng.com
 ||log.mix.sina.com.cn/lua/cre.lua
 ||log.soku.com/sak.gif
+||logifyjs.devexpress.com/logifyAlert.min.js$domain=js.devexpress.com
 ||m.baidu.com/static/searchbox/openjs/share.js
+||m.servedby-buysellads.com/monetization.js
 ||mail.sina.com.cn/images/index/tjBombing20150813.jpg
 ||maps.google.com/maps/api/js$third-party
 ||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
@@ -1574,6 +1579,9 @@ zuoye.baidu.com###aside
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com
 ||n-cdn.areyouahuman.com/kitten
+||nebula-collector.huawei.com
+||nexus-websocket-a.intercom.io/client-test
+||nexus-websocket-b.intercom.io/client-test
 ||nl.notice.iqiyi.com/apis/msg/lego/get_msg.action
 ||nsclick.baidu.com/u.gif
 ||nsclick.baidu.com/v.gif
@@ -1656,6 +1664,8 @@ zuoye.baidu.com###aside
 ||simg.sinajs.cn/blog7style/images/blog_editor/ten_map.png
 ||simg.sinajs.cn/blog7style/images/common/share.gif
 ||siteapp.baidu.com/static/webappservice/uaredirect.js$third-party
+||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
+||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
 ||sp.qf.56.com/v56/albumDetailPage.do?callback
 ||ss1.bdstatic.com/*/www/cache/static/*/all_async_search_*.js|$domain=www.baidu.com
 ||ss1.bdstatic.com/*/www/cache/static/*/baiduia_*.js$domain=www.baidu.com
@@ -1663,6 +1673,7 @@ zuoye.baidu.com###aside
 ||ssl.gstatic.com/feedback/api.js
 ||ssl.gstatic.com/support/content/gpf/gpf_stats.js
 ||ssl.microsofttranslator.com/ajax/v3/WidgetV3.ashx
+||sstats.adobe.com$third-party
 ||st.360buyimg.com/common/commonH_B/images/2015/tryme.png
 ||st.360buyimg.com/m/js/2014/module/plugIn/downloadAppPlugIn_imk2.js
 ||stackoverflow.com/gps/event
@@ -1701,6 +1712,7 @@ zuoye.baidu.com###aside
 ||support.office.com/bundles/stickyFeedback
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
 ||support2.microsoft.com/common/surveyscripthandler.ashx
+||syndication.twitter.com/settings$domain=thedivision.wikia.com
 ||szhr.com.cn/ad_float/ad_move.js$domain=szhr.com.cn
 ||t7z.cupid.iqiyi.com/track2
 ||tags.tiqcdn.com/utag/*/prod/utag
@@ -1734,6 +1746,7 @@ zuoye.baidu.com###aside
 ||wenda.so.com/search/getdata4baike$domain=baike.so.com
 ||wenku.baidu.com/browse/widget/dailyrecom$domain=wenku.baidu.com
 ||wenku.baidu.com/xpage/form/getform
+||widget.intercom.io/widget/*$domain=reactiveui.net
 ||widget.weibo.com/relationship/followbutton.php$third-party
 ||widget.weibo.com/weiboshow/index.php$third-party
 ||widget.wumii.com/ext/relatedItemsWidget.htm$domain=blog.163.com
