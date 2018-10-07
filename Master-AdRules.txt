@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
 ! Last modified: Sunday, 7 October, 2018
 ! Title: Master-AdRules
-! Version: 20181007
+! Version: 20181007.2
 !
 !
 !
@@ -39,18 +39,13 @@
 3dmgame.com##DIV[class="QZmainR"]
 3dmgame.com##DIV[class="tuwen"]
 3dmgame.com##UL[class="htTw-1"]
-3g.163.com##A[id="appnewsbarQr"]
 400gb.com##DIV[class="widget-box collapsed help-dialog"]
-51test.net##A[href="http://wangmeng.baidu.com"]
-51test.net##DIV[class="ads"]
-51test.net##DIV[class="daohang-search"]
 58.com##A[id="erweimaAd"][class="erweima"]
 58.com##DIV[class="bottom_bar"]
 58.com##DIV[id="guajian"]
 58.com##DIV[id="im_div"]
 58.com##DIV[id="listBottomBar"][class="bottom-bar"]
 58.com##LI[class="gSuggest"]
-987hd.cc##div[class^="ADTOPLB_"]
 @@/ad_images/*$domain=szhr.com.cn
 @@||800cdn.com$domain=lmwlove.com
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
@@ -91,14 +86,7 @@ baike.com##.pop-wbwx
 baike.com##DIV[class="qrcode"]
 baike.haosou.com##DIV[class="nc-box"]
 baike.haosou.com##DIV[id="J-mod-ranking"]
-baike.m.sogou.com##A[class="act_wrap"]
-baike.sogou.com##A[class="popularize_ad"]
-baike.sogou.com##A[class="top_adv_wrap"]
-baike.sogou.com##DIV[class="relevant_list_wrap border"]
-baike.sogou.com##DIV[class="side_adv_wrap adv_large"]
-baike.sogou.com##DIV[class="side_adv_wrap adv_small"]
 bbs.csdn.net##DIV[class="ad_l"]
-bbs.csdn.net##DIV[id="tag-suggest-pop"]
 bbs.csdn.net##IFRAME[id="frm_tt1"]
 bbs.smartisan.com##.tips-download
 bing.com###TopApp
@@ -130,10 +118,6 @@ blog.csdn.net##.right_fixed
 blog.csdn.net##.switchDOM
 blog.csdn.net##.tool-box
 blog.csdn.net##DIV[id="job_blog_reco"]
-blog.csdn.net##DIV[id="tag-suggest-pop"]
-blog.renren.com##DIV[class="banner-bottom"]
-blog.renren.com##DIV[id="mask_layer"]
-blog.renren.com##DIV[id="regcontent"]
 blog.sina.cn###pl-blog-related
 blog.sina.cn###pl-float-bar > .bl_openApp
 blog.sina.com.cn##A[href="http://blog.sina.com.cn/lm/ten"]
@@ -164,6 +148,7 @@ cn.ui.vmall.com##.hbwi-right.sd
 cnblogs.com##div[id^="dictHc"]
 cr173.com##DIV[class="c_hot_pic c_box"]
 csdn.net##DIV[class="tracking-ad"]
+csdn.net##DIV[id="tag-suggest-pop"]
 css88.com##DIV[class="amazeui-link"]
 ctc.qzs.qq.com##DIV[class="word_spread side_panel"]
 ctc.qzs.qq.com##div#bottom-sponsor.say-bottom-ad
@@ -189,7 +174,6 @@ docs.ti-net.com.cn##body > div:nth-of-type(7)
 down.51cto.com##DIV[id="f_close_box"]
 down.51cto.com##DIV[id="sogou_se_tgbar"]
 down.gamersky.com##.ngg_down
-download.csdn.net##DIV[id="tag-suggest-pop"]
 download.pchome.net##DIV[class="dl-piclist dl-piclist-soft"]
 download.pchome.net##DIV[class="dl-piclist"]
 download.pchome.net##DIV[class="dl-rightbtns wrapper"]
@@ -459,6 +443,7 @@ software.intel.com###survey_container
 sou.zhaopin.com##DIV[class="newlist_right_code fr"]
 sou.zhaopin.com##DIV[class="wechat"]
 stackblitz.com$domain=ng.ant.design
+stackexchange.com###js-gdpr-consent-banner
 stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com##.js-dismissable-hero._fixed.hero-container.old-hero
 stackoverflow.com##DIV[id="hireme"]
@@ -658,7 +643,6 @@ www.cnblogs.com###myRewards
 www.cnblogs.com##DIV[id="blog_post_info"]
 www.cnblogs.com##DIV[id="sildebarRight"]
 www.codeproject.com##.page-background > .overlay.alert-bar
-www.csdn.net##DIV[id="tag-suggest-pop"]
 www.dangdang.com##DIV[id="returntop"]
 www.divcss5.com##DIV[class="if1200 ws"]
 www.doc88.com##DIV[class="skintips"]
@@ -908,11 +892,11 @@ zuoye.baidu.com###aside
 ||bing.net/th?&pid=MSNJVFeeds
 ||bing.net/th?*h=75&pid=MSNJVFeeds|
 ||bing.net/th?id=*pid=MSNJVFeeds|
-||blog.163.com/bitMaxImageGen.do$domain=blog.163.com
+||blog.163.com/bitMaxImageGen.do
 ||blog.163.com/newpage/images/analyse.png
 ||btrace.video.qq.com/collect
 ||btrace.video.qq.com/kvcollect
-||buildapp.net/adcaige.jpg$domain=buildapp.net
+||buildapp.net/adcaige.jpg
 ||c.microsoft.com/ms.js
 ||c1.microsoft.com/c.gif
 ||cache.soso.com/baike/js/sgbk_for_qq_news.js
@@ -944,10 +928,9 @@ zuoye.baidu.com###aside
 ||collector-medium.lightstep.com/api/v0/reports
 ||collector.githubapp.com/github/page_view
 ||concat.lietou-static.com/core/pc/revs/js/common/stat_*.js
-||connect.facebook.net/de_DE/all.js$third-party
-||connect.facebook.net/en_US/all.js$third-party
-||connect.facebook.net/en_US/fbds.js$third-party
-||connect.facebook.net/en_US/sdk.js$third-party
+||connect.facebook.net/*/all.js$third-party
+||connect.facebook.net/*/fbds.js$third-party
+||connect.facebook.net/*/sdk.js$third-party
 ||consent-st.truste.com/get
 ||cpro.baidustatic.com/cpro/ui/c.js
 ||cpro.baidustatic.com/cpro/ui/f.js
@@ -1200,6 +1183,8 @@ zuoye.baidu.com###aside
 ||sstats.adobe.com$third-party
 ||st.360buyimg.com/common/commonH_B/images/2015/tryme.png
 ||st.360buyimg.com/m/js/2014/module/plugIn/downloadAppPlugIn_imk2.js
+||stackexchange.com/gps/event
+||stackoverflow.com/_/client-timings
 ||stackoverflow.com/gps/event
 ||star.tag.webdev.com/api/page
 ||stat.56.com/album/count.php$domain=56.com
@@ -1338,7 +1323,7 @@ zuoye.baidu.com###aside
 ||www.microsoft.com/net/bundles/js/survey-popup.min.js
 ||www.microsofttranslator.com/Ajax/V2/Widget.aspx
 ||www.microsofttranslator.com/ajax/v2/toolkit.ashx
-||www.microsofttranslator.com/ajax/v3/WidgetV3.ashx$third-party
+||www.microsofttranslator.com/ajax/v3/WidgetV3.ashx
 ||www.msdn.hk/plus/count.php
 ||www.msdn.hk/templets/msdn/css/index.js
 ||www.msdn.hk/templets/msdn/css/viewads.js
@@ -1364,7 +1349,6 @@ zuoye.baidu.com###aside
 ||www.youtube.com/embed/*$third-party
 ||www.youtube.com/iframe_api$domain=developer.mozilla.org,important
 ||www.zhihu.com/node/Banner
-||zdw.w8.com.cn/p.ht$domain=bbs.zol.com.cn
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zhidao.baidu.com/question/api/recommend
 ||zhidao.baidu.com/s/toutu/promotion.js
