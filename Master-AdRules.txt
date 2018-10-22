@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Thursday, 11 October, 2018
+! Last modified: Sunday, 21 October, 2018
 ! Title: Master-AdRules
-! Version: 20181011
+! Version: 20181021
 !
 !
 !
@@ -164,6 +164,7 @@ detail.tmall.com##DIV[id="J_MUIMallbar"][class="mui-mbar-outer j_Mallbar_2.4.0"]
 detail.tmall.com##LI[class="tm-qrcode-icon "]
 developer.microsoft.com##.sockWrapper
 developer.mozilla.org##.notification-tray
+developercommunity.visualstudio.com###epb
 disqus.com##.login-overlay__wrapper
 dl.pconline.com.cn##.navi-bottom
 dl.pconline.com.cn##DIV[class="commBox"]
@@ -629,6 +630,7 @@ www.bing.com##.mal_oc
 www.bing.com##DIV[class="bk_sidebar"]
 www.bing.com##DIV[id="hplas"]
 www.bing.com##div[id$="notificationContainer"]
+www.c-sharpcorner.com##.cotent-share-icon
 www.ccav1.com###widget_da
 www.ccav1.com###wrapper-inner > a[href="http://www.meidebi.com"]
 www.ccav1.com##DIV[class="MXLHiIxeDcFm-bg"]
@@ -729,6 +731,8 @@ www.oschina.net##[name="detail_show_footer"]
 www.oschina.net##a[data-traceid$="_ad"]
 www.oschina.net##section[class^=banner_wrapper]
 www.quora.com##DIV[class*="hover_menu quote_hover_menu"]
+www.reddit.com##.NavFrame .pulse.TopButton
+www.reddit.com##.NavFrame > .xpromoMinimal.DualPartInterstitial
 www.romjd.com##.con > .clearfix.inner > .con-side > .box.funapp
 www.romzj.com##DIV[class="xzSearch box1Right"]
 www.runoob.com###respond
@@ -758,6 +762,7 @@ www.taobao.com##DIV[id="J_midyearAct"]
 www.techonthenet.com##.adsblocked
 www.techweb.com.cn##A[href^="http://ads.techweb.cn"]
 www.techweb.com.cn##DIV[id="share_content"]
+www.tldrgames.com###catapult-cookie-bar
 www.tudou.com###downloadItudou
 www.tudou.com###player > .player_box > .itudou
 www.tudou.com##DIV[class="tui_dialog tudou_dialog ugc_dialog login_dialog"]
@@ -773,6 +778,8 @@ www.visualstudio.com##DIV[id="footerSock"]
 www.w3cplus.com##DIV[class="bdsharebuttonbox"]
 www.w3school.com.cn##DIV[id="ad"]
 www.w3school.com.cn##DIV[id="searchui"]
+www.wpf-tutorial.com###divArticleAvailableLanguages
+www.wpf-tutorial.com##div.codebox_bar
 www.wps.cn##A[class="school"]
 www.wps.cn##DIV[id="FOOT_BAR"][class="bar_foot"]
 www.wuleba.com###bdshare
@@ -825,6 +832,7 @@ zuoye.baidu.com###aside
 ||a.lagou.com/json?lt=trackshow
 ||a.lagou.com/show?t=hot
 ||a.yunshipei.com/csdnnet/allmobilize.min.js
+||aaxads.com$domain=reddit.com
 ||abc11900.cdn.bcebos.com/shouji/js/config.js$domain=abc99.cc
 ||abc11900.cdn.bcebos.com/shouji/js/gd1.js$domain=abc99.cc
 ||abc11900.cdn.bcebos.com/shouji/js/gd2.js$domain=abc99.cc
@@ -986,6 +994,7 @@ zuoye.baidu.com###aside
 ||exp.bdstatic.com/static/article/lib/share/logger_*.js
 ||exp.bdstatic.com/static/article/widget/left-promo/left-promo_*.js
 ||experiment.appadhoc.com/get_flags_async$domain=csdn.net
+||fe-go.letv.com/ds
 ||flume.csdn.net/csdnbi
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
@@ -1063,6 +1072,7 @@ zuoye.baidu.com###aside
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
+||jstatic.letvcdn.com/sdk/apcsdk.js
 ||knewbi.com/app/banner/knewbi_index/*$domain=leiphone.com
 ||like.baidu.com/get$domain=baike.baidu.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
@@ -1111,10 +1121,12 @@ zuoye.baidu.com###aside
 ||pan.baidu.com/box-static/disk-share/js/log_*
 ||pan.baidu.com/box-static/function-widget-1/coupon/util/img/coupon_360_55c6417.png
 ||pan.baidu.com/disk/cmsdata?do=piece&ad=
+||pan.baidu.com/pcloud/counter/refreshcount
 ||pan.baidu.com/ppres/static/thirdparty/header/src/notice_head.js
 ||pan.baidu.com/share/autoincre
 ||pan.baidu.com/share/count
 ||pan.baidu.com/share/hotrec
+||pan.baidu.com/sns/box-static/disk-share/js/baidu-tongji.js
 ||pan.baidu.com/yun-static/common/js/asideAdapter_nomd5_nomod.js
 ||pan.bdstatic.com/box-static/interface-widget-1-cdn/mainSmallBanner/util/img/gift_banner_*.png
 ||partners.npmjs.com/hiring$domain=npmjs.com
@@ -1159,6 +1171,7 @@ zuoye.baidu.com###aside
 ||reload.getsentry.net/page/
 ||report.b.qq.com/crmReport/accesslog
 ||res.wx.qq.com/open/js/jweixin-*.*.*.js$domain=gitee.com
+||rum.xdy-cdn.cn/probe/download/_xdy_cdn_rum.js
 ||s-nfa.jd.com/bd
 ||s.cn.bing.net/th?*pid=News
 ||s.cn.bing.net/th?id=*&pid=MsnJVFeeds
@@ -1175,6 +1188,7 @@ zuoye.baidu.com###aside
 ||s3.qhimg.com/static/*/MMPlugin.js
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sax.sina.cn/native/impress$domain=blog.sina.cn
+||sdk-m.le.com/report/report_sdk.js
 ||shared.ydstatic.com/js/yadk/*.*.*.js$domain=csdn.net
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=csdn.net
 ||sharethis.com$third-party
@@ -1241,6 +1255,7 @@ zuoye.baidu.com###aside
 ||tip.soku.com/searches/soku/kubox/v4/sideads.json
 ||tip.tv.sohu.com/s
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$third-party
+||tldrgames.disqus.com/count.js
 ||trace.qq.com/collect
 ||translate.google.com/translate_a/element.js$third-party
 ||uhf.microsoft.com/_log
@@ -1342,12 +1357,16 @@ zuoye.baidu.com###aside
 ||www.oschina.net/action/itags/pushRead
 ||www.oschina.net/action/trace/record
 ||www.oschina.net/js/bdshare_api/share.js
+||www.oschina.net/new-osc/js/utils/jweixin-1.2.0.js
+||www.oschina.net/new-osc/js/utils/plugins/bdshare_api/share.js
 ||www.oschina.net/public/javascripts/cjl/ga.js
 ||www.qiyipic.com/common/fix/dianying-indexImgV1/dyhy_ktBtnBg.png
 ||www.qiyipic.com/common/fix/site/app-download-*.gif
 ||www.qiyipic.com/common/fix/vip_dyr/vipDyr_wyf.jpg
 ||www.rabbitmq.com/img/banner-s1p.png
 ||www.rabbitmq.com/js/ga-bootstrap.js
+||www.reddit.com/error
+||www.reddit.com/timings
 ||www.vcoo.cc/web/pet/spig.js
 ||www.vcoo.cc/web/pet/spig.png
 ||www.vmware.com/ciovantage/wp-content/themes/smart-mag/js/AdobeAnalyticsPlugin.js
