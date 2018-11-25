@@ -1,12 +1,16 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Friday, 9 November, 2018
+! Last modified: Saturday, 24 November, 2018
 ! Title: Master-AdRules
-! Version: 20181109
+! Version: 20181124
 !
 !
 !
+###epb
+###js-gdpr-consent-banner
+/_/client-timings$domain=stackexchange.com|stackoverflow.com|serverfault.com
+/gps/event$domain=stackexchange.com|stackoverflow.com|serverfault.com
 /letv-gug$domain=le.com
 /videos/other/*.f4v$domain=www.iqiyi.com
 110.alipay.com##DIV[class="ui-uservoice"]
@@ -166,7 +170,6 @@ detail.tmall.com##DIV[id="J_MUIMallbar"][class="mui-mbar-outer j_Mallbar_2.4.0"]
 detail.tmall.com##LI[class="tm-qrcode-icon "]
 developer.microsoft.com##.sockWrapper
 developer.mozilla.org##.notification-tray
-developercommunity.visualstudio.com###epb
 disqus.com##.login-overlay__wrapper
 dl.pconline.com.cn##.navi-bottom
 dl.pconline.com.cn##DIV[class="commBox"]
@@ -213,6 +216,7 @@ geek.csdn.net##div.ad
 geek.csdn.net##span.share
 git.oschina.net##.bdshare-slide-button
 gitee.com###act-worldcup-widget
+gitee.com###git-bulletin
 gitee.com##.float-people
 gitee.com##.git-project-download-panel > a[href^="/enterprises"]
 gitee.com##.gitee-stars-banner
@@ -375,7 +379,6 @@ nlog-project.org##DIV[class="banner-item col-md-12 col-xs-12 col-sm-3"]
 nlog-project.org##DIV[id="banners-bottom"][class="ads"]
 nlog-project.org##DIV[id="banners-right"][class="ads row"]
 nz.qq.com##.v_tips
-office.com###epb
 ourcrack.com##A[href="http://www.xiaobaixitong.com/?op "]
 outofmemory.cn###imgQqShare
 outofmemory.cn###imgSinaShare
@@ -451,8 +454,6 @@ software.intel.com###survey_container
 sou.zhaopin.com##DIV[class="newlist_right_code fr"]
 sou.zhaopin.com##DIV[class="wechat"]
 stackblitz.com$domain=ng.ant.design
-stackexchange.com###js-gdpr-consent-banner
-stackoverflow.com###js-gdpr-consent-banner
 stackoverflow.com##.js-dismissable-hero._fixed.hero-container.old-hero
 stackoverflow.com##DIV[id="hireme"]
 stackoverflow.com##DIV[id^="careers"][class="everyonelovesstackoverflow"]
@@ -683,6 +684,7 @@ www.google.com##.og-pdp
 www.haosou.com###side
 www.iqiyi.com###bottomfix-login-reg
 www.iqiyi.com##.hy_ydBox
+www.iqiyi.com##.iqp-box-integral
 www.it-ebooks.info##.main > tbody > tr:nth-of-type(2) > .top > div:nth-of-type(2) > .ebook_view > tbody > tr > td:nth-of-type(3)
 www.jb51.net##DIV[class="comment"]
 www.jb51.net##DIV[class="ewm"]
@@ -725,6 +727,7 @@ www.oschina.net###toolbar_wrapper
 www.oschina.net###upprev_box
 www.oschina.net##.aside-topjj
 www.oschina.net##.banner4
+www.oschina.net##.detail_banner_ad
 www.oschina.net##.float_adbox
 www.oschina.net##.index_520
 www.oschina.net##.news_detai_above_ad
@@ -811,6 +814,7 @@ xiazaiba.com##DIV[id="cmt_mm_box"][class="bot-mm-box"]
 xiazaiba.com##DIV[id="float_qr"]
 xiazaiba.com##DIV[id="j_index_focus_img"]
 xiazaiba.com##DIV[id="powerby_sohu"]
+youku.com###bt-banner
 youku.com###qheader_msg_box
 youku.com###qheader_notice
 zhannei.baidu.com##DIV[class="extra"]
@@ -865,6 +869,7 @@ zuoye.baidu.com###aside
 ||api.github.com/_private/browser/stats
 ||api.growingio.com/v2/*/web/pv
 ||api.hudong.com/ajaxHotDocCountApi.do$domain=baike.com
+||api.pinterest.com/v1/urls/count.json
 ||apis.google.com/js/*plusone.js$third-party
 ||apis.google.com/js/api.js$third-party
 ||apis.google.com/js/platform.js$third-party
@@ -926,9 +931,11 @@ zuoye.baidu.com###aside
 ||blackhole.m.jd.com/getinfo
 ||blog.163.com/bitMaxImageGen.do
 ||blog.163.com/newpage/images/analyse.png
+||blogs.msdn.microsoft.com/*/wp-content/plugins/eu-cookie-law/eucookielaw-searchbox-script.js
+||blogs.msdn.microsoft.com/*/wp-content/plugins/simple-follow-me-social-buttons-widget/assets/js/front-widget.js
+||blogs.msdn.microsoft.com/*/wp-content/themes/msdn-network-parent/js/social-counts.min.js
 ||blogs.msdn.microsoft.com/dotnet/wp-admin/admin-ajax.php?action=track_page_view
-||blogs.msdn.microsoft.com/dotnet/wp-content/plugins/simple-follow-me-social-buttons-widget/assets/js/front-widget.js
-||blogs.msdn.microsoft.com/dotnet/wp-content/themes/msdn-network-parent/js/social-counts.min.js
+||blogs.msdn.microsoft.com/webdev/wp-content/mu-plugins/wedcs-script/ms2_blogs.js
 ||btrace.video.qq.com/collect
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
@@ -1050,6 +1057,7 @@ zuoye.baidu.com###aside
 ||h5.360buyimg.com/ws_js/jdwebm.js
 ||hiphotos.baidu.com/baidu/pic/item/b3119313b07eca80a77a9272962397dda144832c.jpg
 ||hm.baidu.com/hm.js
+||howtogeek.disqus.com/count.js
 ||hs.qhupdate.com/sou/srp.gif
 ||hudong.alicdn.com/api/data/v2/*.js
 ||i.cdnxiazai.com/img/xzq.png$image
@@ -1119,12 +1127,15 @@ zuoye.baidu.com###aside
 ||mail.sina.com.cn/images/index/tjBombing20150813.jpg
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
 ||maps.google.com/maps/api/js$third-party
+||marketplace.visualstudio.com/_apis/customerintelligence/Events
+||marketplace.visualstudio.com/_apis/public/gallery/publishers/VisualStudioPlatformTeam/extensions/*/*/stats?statType=pageview
 ||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
 ||medium.com/_/batch
 ||medium.com/_/stat
 ||medium.com/p/*/upvotes
+||mem.gfx.ms/meversion?partner=mssoftware-download
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx$domain=bing.com
 ||misc.360buyimg.com/product/home/1.0.0/js/banner.js
 ||misc.360buyimg.com/product/list/*/css/i/u-ad.gif
@@ -1196,6 +1207,7 @@ zuoye.baidu.com###aside
 ||pv.hd.sohu.com/txd.gif$domain=56.com
 ||pvlog.hd.baofeng.com/logger.php$domain=www.baofeng.com
 ||q.baike.so.com/stat/click$domain=baike.so.com
+||query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1r2ij
 ||qzonestyle.gtimg.cn/qzone/space_item/boss_pic/*
 ||r.l.youku.com/trecommendshow
 ||r1.ykimg.com/0510000058588E5B67BC3D3AE607A1FC
@@ -1252,9 +1264,6 @@ zuoye.baidu.com###aside
 ||sstats.adobe.com$third-party
 ||st.360buyimg.com/common/commonH_B/images/2015/tryme.png
 ||st.360buyimg.com/m/js/2014/module/plugIn/downloadAppPlugIn_imk2.js
-||stackexchange.com/gps/event
-||stackoverflow.com/_/client-timings
-||stackoverflow.com/gps/event
 ||star.tag.webdev.com/api/page
 ||stat.56.com/album/count.php$domain=56.com
 ||stat.baike.com/js/webstat_manage.js
@@ -1356,6 +1365,8 @@ zuoye.baidu.com###aside
 ||www.ccav1.me/block.js
 ||www.clipconverter.cc/qr.php
 ||www.cmdy.tv/js/lishijl.js
+||www.cmdy.tv/templets/cmmov/images/js/xunlei.js
+||www.cmdy.tv/templets/cmmov/images/xunlei.css
 ||www.cnav.club/wp-content/uploads/an-temp/9t6CxBPEbmC7.js
 ||www.codeproject.com/dm/recovery.min.js
 ||www.dropbox.com/static/api/1/dropins.js$third-party
@@ -1414,6 +1425,8 @@ zuoye.baidu.com###aside
 ||www.rabbitmq.com/js/ga-bootstrap.js
 ||www.reddit.com/error
 ||www.reddit.com/timings
+||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
+||www.typescriptlang.org/assets/js/cc.min.*.js
 ||www.vcoo.cc/web/pet/spig.js
 ||www.vcoo.cc/web/pet/spig.png
 ||www.vmware.com/ciovantage/wp-content/themes/smart-mag/js/AdobeAnalyticsPlugin.js
