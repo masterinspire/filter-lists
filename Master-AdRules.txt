@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Saturday, 24 November, 2018
+! Last modified: Friday, 21 December, 2018
 ! Title: Master-AdRules
-! Version: 20181124
+! Version: 20181221
 !
 !
 !
@@ -179,6 +179,7 @@ docs.asp.net###helpful
 docs.microsoft.com###openFeedbackContainer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
+dotnet.microsoft.com###uhfCookieAlert
 down.51cto.com##DIV[id="f_close_box"]
 down.51cto.com##DIV[id="sogou_se_tgbar"]
 down.gamersky.com##.ngg_down
@@ -214,12 +215,12 @@ geek.csdn.net##DIV[class="info"]
 geek.csdn.net##UL[class="scrolltop_bar list-unstyled data-offset-top in_viewer affix"]
 geek.csdn.net##div.ad
 geek.csdn.net##span.share
-git.oschina.net##.bdshare-slide-button
 gitee.com###act-worldcup-widget
 gitee.com###git-bulletin
 gitee.com##.float-people
 gitee.com##.git-project-download-panel > a[href^="/enterprises"]
 gitee.com##.gitee-stars-banner
+gitee.com##.side-toolbar
 gitee.com##.wallet-banner
 gl.ali213.net##DIV[id="GLDIV"][class="glqcode"]
 group.pcbeta.com##DIV[class="CGHJW"]
@@ -692,7 +693,8 @@ www.jb51.net##DIV[id="baidutj"]
 www.jb51.net##DIV[id="bdshare"]
 www.jb51.net##DIV[id="shoucang"]
 www.jd.com###inter-enter
-www.jetbrains.com##.id_cookies.jb-slideup-promotion.jb-promotion
+www.jetbrains.com##.cookies-banner
+www.jetbrains.com##.id_cookies
 www.jetbrains.com##DIV[id="bart_wrapper"]
 www.jetbrains.com##DIV[id="country-offer-placeholder"]
 www.jetbrains.com##DIV[id="pseudo-footer"]
@@ -711,6 +713,7 @@ www.le.com##.banner_ad
 www.le.com##.column_right > .lh_box
 www.le.com##.j_user_bar.user_bar > .login_speed1_left.j-ub-tips.login_speed1
 www.le.com##.le_head.column > .column_center > .H-tv
+www.learnrazorpages.com###cookie-warning
 www.leiphone.com##DIV[class="lp-proCard clr"]
 www.leiphone.com##DIV[class="pageActive clr"]
 www.leiphone.com##DIV[id="lph-footer-gotoBar"][class="gotoBar"]
@@ -718,6 +721,8 @@ www.letv.com###towCode
 www.liaoxuefeng.com##.x-wiki-content~div
 www.liaoxuefeng.com##.x-wiki-content~h3
 www.liaoxuefeng.com##.x-wiki-content~p
+www.linuxjournal.com##.cc_banner-wrapper
+www.linuxjournal.com##.shariff
 www.merriam-webster.com###social-sidebar-container
 www.newtonsoft.com###footerNotice
 www.npmjs.com##DIV[id="notification-banner"]
@@ -764,6 +769,8 @@ www.sysgeek.cn##.social
 www.szjs.gov.cn##DIV[id="float_banner"]
 www.szjs.gov.cn##DIV[id="piaochuang"]
 www.szjzz.gov.cn###adfloat1
+www.talkingdotnet.com###dvBottomContent
+www.talkingdotnet.com##.sd-sharing-enabled.sharedaddy
 www.taobao.com##DIV[class="dui"]
 www.taobao.com##DIV[id="J_Feedback"]
 www.taobao.com##DIV[id="J_midyearAct"]
@@ -890,6 +897,7 @@ zuoye.baidu.com###aside
 ||az725175.vo.msecnd.net/scripts/jsll-*.js$important
 ||b1.bst.126.net/newpage/r/j/nts.js
 ||b1.bst.126.net/newpage/r/j/pc.js$domain=blog.163.com
+||baidu.qitete.cn/js/baiduhm.js
 ||baike.baidu.com/api/common/bkclick
 ||baike.baidu.com/api/wikiad
 ||baike.baidu.com/api/wikiui/getasp
@@ -965,6 +973,7 @@ zuoye.baidu.com###aside
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
 ||checkout.stripe.com/v3/checkout.js
+||cjie.baidu.com/cj.gif
 ||click.ali213.net$domain=ali213.net
 ||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
 ||cm.dmp.sina.cn/cm/sinaads_ck_wap.js
@@ -1027,6 +1036,8 @@ zuoye.baidu.com###aside
 ||exp.bdstatic.com/static/article/widget/left-promo/left-promo_*.js
 ||experiment.appadhoc.com/get_flags_async$domain=csdn.net
 ||fe-go.letv.com/ds
+||feed.baidu.com/feed/api/tab/gettabinfo
+||feed.baidu.com/feed/api/wise/feedlist
 ||flume.csdn.net/csdnbi
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
@@ -1052,6 +1063,7 @@ zuoye.baidu.com###aside
 ||graph.facebook.com/*/picture$domain=stackoverflow.com
 ||gsp0.baidu.com/*/tb/pms/img/st.gif
 ||gsp0.baidu.com/*/v.gif
+||gss0.bdstatic.com/*/static/wiseindex/js/lib/invoke/component/btmBanner_*.js
 ||gttp.co/v1.js$domain=vuejs.org
 ||h5.360buyimg.com/ws_js/gatherInfo.js
 ||h5.360buyimg.com/ws_js/jdwebm.js
@@ -1116,13 +1128,20 @@ zuoye.baidu.com###aside
 ||knewbi.com/app/banner/knewbi_index/*$domain=leiphone.com
 ||knicks.jd.com/log/server
 ||like.baidu.com/get$domain=baike.baidu.com
+||linuxjournal.disqus.com/count.js
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||lofter.com/recommendblog$domain=blog.163.com
 ||log.houyi.baofeng.net/logger.php$domain=www.baofeng.com
 ||log.mix.sina.com.cn/lua/cre.lua
 ||log.soku.com/sak.gif
 ||logifyjs.devexpress.com/logifyAlert.min.js$domain=js.devexpress.com
+||m.baidu.com/rec?
+||m.baidu.com/s?word
+||m.baidu.com/se/static/js/fusion/b-share/b-share_*.js
 ||m.baidu.com/static/searchbox/openjs/share.js
+||m.baidu.com/su
+||m.baidu.com/tc
+||m.baidu.com/tcbox
 ||m.servedby-buysellads.com/monetization.js
 ||mail.sina.com.cn/images/index/tjBombing20150813.jpg
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
@@ -1155,6 +1174,7 @@ zuoye.baidu.com###aside
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com
 ||myvisitorcounter.com$third-party
 ||n-cdn.areyouahuman.com/kitten
+||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
 ||nexus-websocket-a.intercom.io/client-test
 ||nexus-websocket-b.intercom.io/client-test
@@ -1353,6 +1373,7 @@ zuoye.baidu.com###aside
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js
 ||www.aiyiweb.com/Scripts/baiduShare.js
 ||www.ali213.net/news/images/newsnybn.jpg
+||www.baidu.com/rec
 ||www.btrenren.com/js/foot.js
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetHeaderAd
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetMultipleLinkAds
@@ -1371,6 +1392,7 @@ zuoye.baidu.com###aside
 ||www.codeproject.com/dm/recovery.min.js
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
+||www.entityframeworktutorial.net/cdn-cgi/
 ||www.erlang.org/css/twitterl.css
 ||www.erlang.org/js/twitterl.min.js
 ||www.facebook.com/plugins/like.php$third-party
@@ -1391,6 +1413,8 @@ zuoye.baidu.com###aside
 ||www.googletagservices.com/tag/js/gpt.js$third-party
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js$domain=www.pcgamer.com
 ||www.gstatic.com/feedback/api.js$third-party
+||www.haorenshuo.com/index.php?s=home-barrage-index-t-undefined-id
+||www.haorenshuo.com/js/di.js
 ||www.huimg.cn/stat/js/XBKClickMonitor.js
 ||www.it-ebooks.info/js/feedburner.js
 ||www.jianshu.com/notes/*/mark_viewed.json
@@ -1403,6 +1427,7 @@ zuoye.baidu.com###aside
 ||www.liaoxuefeng.com/files/attachments/0014447742522842243a5dcedc5487b93a44d9c716bb0b6000/0
 ||www.liaoxuefeng.com/files/attachments/00144740613977908cd44c42bad4d568baa261d726a88ad000/0
 ||www.linkedin.com/countserv/count/share
+||www.linuxjournal.com/core/modules/statistics/statistics.php
 ||www.merriam-webster.com/lapi/1/mwol-video/play/count
 ||www.microsoft.com/net/bundles/js/survey-popup.min.js
 ||www.microsofttranslator.com/Ajax/V2/Widget.aspx
