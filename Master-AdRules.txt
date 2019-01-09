@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Friday, 21 December, 2018
+! Last modified: Tuesday, 8 January, 2019
 ! Title: Master-AdRules
-! Version: 20181221
+! Version: 20190108
 !
 !
 !
@@ -217,6 +217,7 @@ geek.csdn.net##div.ad
 geek.csdn.net##span.share
 gitee.com###act-worldcup-widget
 gitee.com###git-bulletin
+gitee.com##.ent-poster
 gitee.com##.float-people
 gitee.com##.git-project-download-panel > a[href^="/enterprises"]
 gitee.com##.gitee-stars-banner
@@ -479,6 +480,8 @@ tech.sina.com.cn##DIV[id="lcs_wrap"]
 tech.sina.com.cn##SPAN[class="content-tools-share-label"]
 technet.microsoft.com###skinnyRating
 technet.microsoft.com###standardRating
+techxposer.com###icon_wrapper
+techxposer.com##.sharedaddy
 tieba.baidu.com##.pb_bright_share.p_share_ding
 tieba.baidu.com##A[class="arrow arrow_right arrow_line arrow_position_right top_ext_li"]
 tieba.baidu.com##A[class="client_ghost_icon j_client_ghost_icon"]
@@ -777,6 +780,7 @@ www.taobao.com##DIV[id="J_midyearAct"]
 www.techonthenet.com##.adsblocked
 www.techweb.com.cn##A[href^="http://ads.techweb.cn"]
 www.techweb.com.cn##DIV[id="share_content"]
+www.telerik.com##.optanon-alert-box-wrapper
 www.tldrgames.com###catapult-cookie-bar
 www.tudou.com###downloadItudou
 www.tudou.com###player > .player_box > .itudou
@@ -871,6 +875,7 @@ zuoye.baidu.com###aside
 ||api-iam.intercom.io/messenger/web/ping
 ||api.branch.io$domain=medium.com
 ||api.cdnbye.com/v1/channel/*/stats
+||api.dec.sitefinity.com/collect/
 ||api.geetest.com/get.php
 ||api.github.com/_private/browser/errors
 ||api.github.com/_private/browser/stats
@@ -947,6 +952,7 @@ zuoye.baidu.com###aside
 ||btrace.video.qq.com/collect
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
+||c.disquscdn.com/next/embed/alfalfa_min.*.js
 ||c.evidon.com/geo/country.js$domain=vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
 ||c.microsoft.com/ms.js
@@ -1005,6 +1011,7 @@ zuoye.baidu.com###aside
 ||ctj.wenku.baidu.com/baize.gif
 ||ctj.wenku.baidu.com/click.gif
 ||ctj.wenku.baidu.com/dv.gif
+||customer.api.drift.com/geo
 ||d.pcs.baidu.com/rest/2.0/pcs/manage
 ||data.services.jetbrains.com//geo
 ||data.services.jetbrains.com/geo
@@ -1015,6 +1022,7 @@ zuoye.baidu.com###aside
 ||datatables.net/media/js/dynamic.php
 ||dc*.csdn.net/track$domain=csdn.net
 ||dc.pconline.com.cn/jt/$domain=dl.pconline.com.cn
+||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
 ||delivery.vidible.tv/jsonp/pid=555a31a3e4b04a592de5de35/51b6b137e4b024cd0d33d90c.js$domain=tech-recipes.com
 ||demandbase.com^*/ip.json
 ||developer.chrome.com/static/js/search.js
@@ -1057,6 +1065,7 @@ zuoye.baidu.com###aside
 ||gitee.com/assets/my_wallet/banner*.png
 ||gitee.com/bd_share
 ||gitee.com/index/ent_poster/banner_*.png
+||glitter.services.disqus.com/urls/?callback=dsqGlitterResponseHandler&forum_shortname=techxposer
 ||gold-cdn.xitu.io/v3/static/img/extension.1dbaf43.png
 ||google-analytics.com$third-party
 ||googleads.g.doubleclick.net$important
@@ -1118,7 +1127,7 @@ zuoye.baidu.com###aside
 ||js.bkjia.com/bkjia/js/bkjiatongji.js$domain=bkjia.com
 ||js.bkjia.com/bkjia/js/right_ad5.js$domain=bkjia.com
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
-||js.driftt.com$domain=redislabs.com
+||js.driftt.com/include/*/*.js$third-party
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
@@ -1260,6 +1269,7 @@ zuoye.baidu.com###aside
 ||s13.cnzz.com/z_stat.php
 ||s3-us-west-2.amazonaws.com/ad-maven-public-cdn/notT/clipconverter.js
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
+||s3.amazonaws.com/collectchat/launcher.js$domain=techxposer.com
 ||s3.qhimg.com/static/*/MMPlugin.js
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sax.sina.cn/native/impress$domain=blog.sina.cn
@@ -1324,6 +1334,10 @@ zuoye.baidu.com###aside
 ||t7z.cupid.iqiyi.com/track2
 ||tags.tiqcdn.com/utag/*/prod/utag
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
+||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
+||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
+||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
+||techxposer.disqus.com/count.js
 ||tip.soku.com/searches/soku/kubox/v4/sideads.json
 ||tip.tv.sohu.com/s
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$third-party
@@ -1396,6 +1410,7 @@ zuoye.baidu.com###aside
 ||www.erlang.org/css/twitterl.css
 ||www.erlang.org/js/twitterl.min.js
 ||www.facebook.com/plugins/like.php$third-party
+||www.facebook.com/plugins/page.php$third-party
 ||www.ffdy.cc/ffdy/pc/js/history.js
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
@@ -1450,6 +1465,8 @@ zuoye.baidu.com###aside
 ||www.rabbitmq.com/js/ga-bootstrap.js
 ||www.reddit.com/error
 ||www.reddit.com/timings
+||www.ssh.com/api/content/v1/dynamic
+||www.ssh.com/trk
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
 ||www.typescriptlang.org/assets/js/cc.min.*.js
 ||www.vcoo.cc/web/pet/spig.js
@@ -1465,7 +1482,7 @@ zuoye.baidu.com###aside
 ||www.xiazaiba.com/static/js/stat.js
 ||www.youtube.com/api/stats$important
 ||www.youtube.com/embed/*$third-party
-||www.youtube.com/iframe_api$domain=developer.mozilla.org,important
+||www.youtube.com/iframe_api$domain=developer.mozilla.org|www.ssh.com,important
 ||www.zhihu.com/node/Banner
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zhidao.baidu.com/question/api/recommend
