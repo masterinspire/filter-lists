@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Tuesday, 8 January, 2019
+! Last modified: Thursday, 31 January, 2019
 ! Title: Master-AdRules
-! Version: 20190108
+! Version: 20190131
 !
 !
 !
@@ -116,6 +116,7 @@ blog.163.com##span.pright
 blog.51cto.com###f_close_box
 blog.angular.io##.highlightMenu
 blog.const.net.cn##DIV[class="divSide"]
+blog.csdn.net##.fourth_column
 blog.csdn.net##.left_fixed
 blog.csdn.net##.pulllog-box
 blog.csdn.net##.right_fixed
@@ -325,6 +326,7 @@ medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
 member1.taobao.com##DIV[class="zhx-anquan-poptip  "]
 member1.taobao.com##DIV[id="immediate-help-trigger"]
+minecraft.gamepedia.com##div[class^="app_gdpr"]
 mobile.zol.com.cn##DIV[class="module mobile-app"]
 money.163.com##DIV[class="atleLP"]
 money.163.com##DIV[id="js-ep-reletag"][class="ep-keywords-side"]
@@ -482,6 +484,7 @@ technet.microsoft.com###skinnyRating
 technet.microsoft.com###standardRating
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
+telerik.com##.optanon-alert-box-wrapper
 tieba.baidu.com##.pb_bright_share.p_share_ding
 tieba.baidu.com##A[class="arrow arrow_right arrow_line arrow_position_right top_ext_li"]
 tieba.baidu.com##A[class="client_ghost_icon j_client_ghost_icon"]
@@ -660,6 +663,7 @@ www.cnblogs.com##DIV[id="sildebarRight"]
 www.codeproject.com##.cc-bottom.cc-theme-edgeless.cc-type-opt-in.cc-banner.cc-window
 www.codeproject.com##.page-background > .overlay.alert-bar
 www.dangdang.com##DIV[id="returntop"]
+www.digitalocean.com###newsletter-signup-dialog
 www.divcss5.com##DIV[class="if1200 ws"]
 www.doc88.com##DIV[class="skintips"]
 www.dotnet-tricks.com###sticky-footer
@@ -746,6 +750,7 @@ www.oschina.net##[id^="OSChina_News_"] > p:nth-of-type(1)
 www.oschina.net##[name="detail_show_footer"]
 www.oschina.net##a[data-traceid$="_ad"]
 www.oschina.net##section[class^=banner_wrapper]
+www.pornhub.com###js-abContainterMain
 www.quora.com##DIV[class*="hover_menu quote_hover_menu"]
 www.reddit.com##.NavFrame .pulse.TopButton
 www.reddit.com##.NavFrame > .xpromoMinimal.DualPartInterstitial
@@ -828,6 +833,7 @@ xiazaiba.com##DIV[id="powerby_sohu"]
 youku.com###bt-banner
 youku.com###qheader_msg_box
 youku.com###qheader_notice
+youtrack.jetbrains.com##.alertContainer_ebe
 zhannei.baidu.com##DIV[class="extra"]
 zhannei.baidu.com##DIV[id="bd-feedback"]
 zhidao.baidu.com##.answer-share-widget
@@ -897,6 +903,7 @@ zuoye.baidu.com###aside
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
+||assets.digitalocean.com/cookieConsent/cookieConsent
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
 ||az725175.vo.msecnd.net/scripts/jsll-*.js$important
@@ -1002,6 +1009,7 @@ zuoye.baidu.com###aside
 ||csdnimg.cn/pubfooter/js/repoAddr2.js
 ||csdnimg.cn/pubfooter/js/tracking
 ||csdnimg.cn/rabbit/exposure-click/main-*.js
+||csdnimg.cn/release/phoenix/vendor/tingyun/tingyun-rum-blog.js
 ||csdnimg.cn/search/baidu_opensug-*.js
 ||csdnimg.cn/static/api/js/share.js
 ||csdnimg.cn/static/api/js/view/share_view.js
@@ -1037,6 +1045,7 @@ zuoye.baidu.com###aside
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
 ||ems.youku.com/imp
+||entry.baidu.com/rp/bwordcom
 ||eventlog.hd.baofeng.com/logger.php$domain=www.baofeng.com
 ||events.jianshu.io:4006/sa.gif
 ||exp.bdstatic.com/static/article/lib/share/bds_s_v2_*.js
@@ -1050,6 +1059,7 @@ zuoye.baidu.com###aside
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
 ||g.alicdn.com/security/umscript/*/um.js$domain=youku.com
+||g.csdnimg.cn/baidu-search/*/baidu-search.js
 ||g.s8dj.com$domain=gamersky.com
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
@@ -1066,6 +1076,7 @@ zuoye.baidu.com###aside
 ||gitee.com/bd_share
 ||gitee.com/index/ent_poster/banner_*.png
 ||glitter.services.disqus.com/urls/?callback=dsqGlitterResponseHandler&forum_shortname=techxposer
+||go.digitalocean.com/js/forms2/js/forms2.min.js
 ||gold-cdn.xitu.io/v3/static/img/extension.1dbaf43.png
 ||google-analytics.com$third-party
 ||googleads.g.doubleclick.net$important
@@ -1172,6 +1183,7 @@ zuoye.baidu.com###aside
 ||ms0.meituan.net/mywww/stat.*.js
 ||msg.56.com/notify
 ||msg.71.am$domain=iqiyi.com
+||msg.csdn.net/v1/chrome/notification/view
 ||msg.iqiyi.com/vpb.gif
 ||msg.qy.net/*.gif
 ||msg.qy.net/b
@@ -1184,6 +1196,8 @@ zuoye.baidu.com###aside
 ||myvisitorcounter.com$third-party
 ||n-cdn.areyouahuman.com/kitten
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
+||nbrecsys.4paradigm.com/resource/cus/csdn/sdk-csdn-render.js
+||nbrecsys.4paradigm.com/resource/cus/csdn/static/csdn-*-ads.js
 ||nebula-collector.huawei.com
 ||nexus-websocket-a.intercom.io/client-test
 ||nexus-websocket-b.intercom.io/client-test
@@ -1321,6 +1335,7 @@ zuoye.baidu.com###aside
 ||static.youku.com/v1.0.0951/index/js/tdstat.js
 ||static.youku.com/v1.0.116/index/js/ikuAdapterNew.js
 ||static1.searchbox.baidu.com/static/searchbox/openjs/mp.js$domain=boscdn.bpc.baidu.com
+||statistic.csdn.net/storage_baidu_exist?keyword=
 ||statistic.liepin.com/statVisit.do
 ||statistic.liepin.com/statisticPlatform/tLog
 ||stripe.com$domain=gitbook.com
