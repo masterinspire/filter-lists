@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Thursday, 31 January, 2019
+! Last modified: Wednesday, 13 February, 2019
 ! Title: Master-AdRules
-! Version: 20190131
+! Version: 20190213
 !
 !
 !
@@ -177,6 +177,7 @@ dl.pconline.com.cn##DIV[class="commBox"]
 dl.pconline.com.cn##DIV[id="popapp1"][class="pop-app"]
 dl.vmall.com##DIV[id="side"][class="panel-recommended"]
 docs.asp.net###helpful
+docs.influxdata.com###support-ad
 docs.microsoft.com###openFeedbackContainer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
@@ -216,6 +217,7 @@ geek.csdn.net##DIV[class="info"]
 geek.csdn.net##UL[class="scrolltop_bar list-unstyled data-offset-top in_viewer affix"]
 geek.csdn.net##div.ad
 geek.csdn.net##span.share
+get.videolan.org###uecookies
 gitee.com###act-worldcup-widget
 gitee.com###git-bulletin
 gitee.com##.ent-poster
@@ -225,6 +227,8 @@ gitee.com##.gitee-stars-banner
 gitee.com##.side-toolbar
 gitee.com##.wallet-banner
 gl.ali213.net##DIV[id="GLDIV"][class="glqcode"]
+grafana.com##.sticky-footer--dark.sticky-footer
+grafana.com##.sticky-footer--grafanacon-la.sticky-footer
 group.pcbeta.com##DIV[class="CGHJW"]
 gruntjs.com##DIV[class="advertisements"]
 h5.m.taobao.com##DIV[class="download-adv"]
@@ -666,6 +670,7 @@ www.dangdang.com##DIV[id="returntop"]
 www.digitalocean.com###newsletter-signup-dialog
 www.divcss5.com##DIV[class="if1200 ws"]
 www.doc88.com##DIV[class="skintips"]
+www.docs.influxdata.com###support-ad
 www.dotnet-tricks.com###sticky-footer
 www.dotnettricks.com###sidebarbatchesdetail
 www.dotnettricks.com##.sticky-footer
@@ -690,6 +695,8 @@ www.gamersky.com##.Mid7
 www.google.com##.gb_g.gb_0c.gb_Ad
 www.google.com##.og-pdp
 www.haosou.com###side
+www.influxdata.com##.contact_sale
+www.influxdata.com##.cookieterms
 www.iqiyi.com###bottomfix-login-reg
 www.iqiyi.com##.hy_ydBox
 www.iqiyi.com##.iqp-box-integral
@@ -861,6 +868,7 @@ zuoye.baidu.com###aside
 ||a.lagou.com/show?t=hot
 ||a.yunshipei.com/csdnnet/allmobilize.min.js
 ||aaxads.com$domain=reddit.com
+||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||abc11900.cdn.bcebos.com/shouji/js/config.js$domain=abc99.cc
 ||abc11900.cdn.bcebos.com/shouji/js/gd1.js$domain=abc99.cc
 ||abc11900.cdn.bcebos.com/shouji/js/gd2.js$domain=abc99.cc
@@ -973,6 +981,7 @@ zuoye.baidu.com###aside
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
 ||cdn.ccav1.me/jquery.js
+||cdn.cookielaw.org/consent/*.js
 ||cdn.livechatinc.com/tracking.js
 ||cdn.livefyre.com/Livefyre.js$domain=docs.microsoft.com
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
@@ -986,6 +995,7 @@ zuoye.baidu.com###aside
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
 ||checkout.stripe.com/v3/checkout.js
+||ci.phncdn.com/www-static/js/ph-tracking.js
 ||cjie.baidu.com/cj.gif
 ||click.ali213.net$domain=ali213.net
 ||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
@@ -1413,6 +1423,7 @@ zuoye.baidu.com###aside
 ||www.ccav1.com/wp-content/uploads/an-temp/9t6CxBPEbmC7.js
 ||www.ccav1.com/wp-content/uploads/fuck-adblock/
 ||www.ccav1.me/block.js
+||www.ccleaner.com/Umbraco/Api/LocationApi/GetLocation
 ||www.clipconverter.cc/qr.php
 ||www.cmdy.tv/js/lishijl.js
 ||www.cmdy.tv/templets/cmmov/images/js/xunlei.js
