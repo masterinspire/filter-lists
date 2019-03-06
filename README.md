@@ -9,7 +9,7 @@ Custom Ad Filters. Can be used in *[uBlock Origin][uBlock Origin]*.
 
 Enter this url to your **filter lists**:
 
-> https://raw.githubusercontent.com/Master-Inspire/Master-AdRules/master/Master-AdRules.txt
+> https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/Master-AdRules.txt
 
 ## Contribution
 

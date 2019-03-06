@@ -1,6 +1,6 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
-! Homepage: https://github.com/Master-Inspire/Master-AdRules
+! Homepage: https://github.com/masterinspire/Master-AdRules
 ! Last modified: Tuesday, 5 March, 2019
 ! Title: Master-AdRules
 ! Version: 20190305
