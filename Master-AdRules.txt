@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/Master-Inspire/Master-AdRules
-! Last modified: Wednesday, 13 February, 2019
+! Last modified: Tuesday, 5 March, 2019
 ! Title: Master-AdRules
-! Version: 20190213
+! Version: 20190305
 !
 !
 !
@@ -320,6 +320,7 @@ m1.mail.sina.com.cn##DIV[id="huayi4sohubox"]
 mail.163.com##DIV[id^="_mail_popup"]
 mail.qq.com##DIV[id="returnMsg"][class="login_msg"]
 mail.sina.com.cn##div[class^="ad"]
+map.baidu.com###ui3_springfestival_data
 map.baidu.com##DIV[class="addrBottomImg"]
 map.baidu.com##DIV[id="MaptoDown_tip"][class="search-tip"]
 map.baidu.com##DIV[id="defCityTip"][class="GR_Tip def_city_tip"]
@@ -539,6 +540,7 @@ v.youku.com##DIV[class="qwindow_mask"]
 v.youku.com##DIV[id="sideTool"]
 v.youku.com##div.fn-share
 v.youku.com##div[id^="ab_"]
+visualstudio.microsoft.com###usabilla-button
 vswebessentials.com###main > a[href="http://www.winhost.com/a/benet_b_127"]
 w3cplus.com##DIV[class="banner"]
 w3cplus.com##DIV[id="block-block-42"]
@@ -801,6 +803,7 @@ www.tudou.com##DIV[class="tui_mask"]
 www.tuicool.com##DIV[class="operate_zone"]
 www.tutorialrepublic.com##.affiliate.segment
 www.tutorialrepublic.com##ul:nth-of-type(6)
+www.tutorialspoint.com###privacy-banner
 www.ubuntu.com##.cookie-policy
 www.visualstudio.com###openFeedbackContainer
 www.visualstudio.com###ops-rating-container
@@ -883,6 +886,7 @@ zuoye.baidu.com###aside
 ||analytics-union.xunlei.com/PV
 ||analytics.163.com/ntes.js$important
 ||analytics.bfun.cn/analytics.js
+||analytics.icons8.com
 ||analytics.syncfusion.com/log/documentation
 ||answers.microsoft.com/en-us/contentstatisticsspark/addthreadviewcountasync
 ||api-iam.intercom.io/messenger/web/metrics
@@ -1369,6 +1373,7 @@ zuoye.baidu.com###aside
 ||tldrgames.disqus.com/count.js
 ||trace.qq.com/collect
 ||translate.google.com/translate_a/element.js$third-party
+||ubistatic2-a.akamaihd.net/worldwide_analytics
 ||uhf.microsoft.com/*/shell/api/mscc$domain=www.typescriptlang.org
 ||uhf.microsoft.com/_log
 ||update.pan.baidu.com/statistics
@@ -1389,6 +1394,7 @@ zuoye.baidu.com###aside
 ||webmap0.map.bdstatic.com/fwmap/upload/r/image/2013-07-16/6f90db9e61476f2cd8975c3fac3c70a8.jpg$domain=map.baidu.com
 ||webmap0.map.bdstatic.com/wolfman/static/common/images/login_8_9e79767.png$domain=map.baidu.com
 ||webmap0.map.bdstatic.com/wolfman/static/common/images/login_text_ba9f5a0.png$domain=map.baidu.com
+||webmap1.bdimg.com/wolfman/static/common/images/new/download-newqrcode*.png
 ||webmap2.map.bdstatic.com/wolfman/static/common/images/unloginSug_e5196cc.gif$domain=map.baidu.com
 ||weirenwu.weibo.com/adshow/
 ||wenda.so.com/search/getdata4baike$domain=baike.so.com
@@ -1489,6 +1495,7 @@ zuoye.baidu.com###aside
 ||www.qiyipic.com/common/fix/vip_dyr/vipDyr_wyf.jpg
 ||www.rabbitmq.com/img/banner-s1p.png
 ||www.rabbitmq.com/js/ga-bootstrap.js
+||www.rarlab.com/js/ckrule.js
 ||www.reddit.com/error
 ||www.reddit.com/timings
 ||www.ssh.com/api/content/v1/dynamic
@@ -1503,6 +1510,8 @@ zuoye.baidu.com###aside
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/cclamp/js/AdobeAnalyticsPlugin.js
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/clientlib-geoip
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/main/js/utag_data.js
+||www.wpf-tutorial.com/Content/Local/1.css
+||www.wpf-tutorial.com/Content/Local/1.js
 ||www.wpf-tutorial.com/Ping
 ||www.xiazaiba.com/data/ads/jst.js
 ||www.xiazaiba.com/static/js/stat.js
