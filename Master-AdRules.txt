@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, 5 March, 2019
+! Last modified: Thursday, 28 March, 2019
 ! Title: Master-AdRules
-! Version: 20190305
+! Version: 20190328
 !
 !
 !
@@ -44,7 +44,7 @@
 3dmgame.com##DIV[class="tuwen"]
 3dmgame.com##UL[class="htTw-1"]
 400gb.com##DIV[class="widget-box collapsed help-dialog"]
-58.com##A[id="erweimaAd"][class="erweima"]
+58.com##A[id="erweimaAd"]
 58.com##DIV[class="bottom_bar"]
 58.com##DIV[id="guajian"]
 58.com##DIV[id="im_div"]
@@ -243,8 +243,6 @@ i.taobao.com##DIV[id="J_MtFixInBottom"][class="mt-fix-in-bottom"]
 i.taobao.com##DIV[id="mt-top-banner"]
 i.youku.com###qrcode-container
 i.youku.com###toolbarservice
-i.zhaopin.com##A[class="fFeedback_right_fixed"]
-i.zhaopin.com##IMG[class="weixin1"]
 item.m.jd.com##.tryme
 item.taobao.com##DIV[class="tb-doctor"]
 itlab.idcquan.com##IFRAME[src="http://windows.chinaitlab.com/cio_new.html"]
@@ -268,8 +266,6 @@ jingyan.baidu.com##DIV[id="blue-book-ads"]
 jingyan.baidu.com##DIV[id="exp-msgbox"][class="exp-msgbox"]
 jingyan.baidu.com##DIV[id="wgt-exp-share"][class="wgt-exp-share"]
 jingyan.baidu.com##P[class="share-text"]
-jobs.zhaopin.com##DIV[class="layer-01"]
-jobs.zhaopin.com##DIV[class="top-fixed-box"]
 jrj.com.cn##DIV[class="fc_iphone_dc_2014"]
 ju.outofmemory.cn##DIV[class="pop_win"]
 ju.outofmemory.cn##DIV[class="pop_win_bg"]
@@ -460,8 +456,6 @@ social.msdn.microsoft.com###footerSock
 social.msdn.microsoft.com##DIV[id="nrSurvey"]
 software.intel.com###page > .l-footer-second
 software.intel.com###survey_container
-sou.zhaopin.com##DIV[class="newlist_right_code fr"]
-sou.zhaopin.com##DIV[class="wechat"]
 stackblitz.com$domain=ng.ant.design
 stackoverflow.com##.js-dismissable-hero._fixed.hero-container.old-hero
 stackoverflow.com##DIV[id="hireme"]
@@ -835,6 +829,7 @@ www.zhihu.com##.HitQrcode
 www.zhihu.com##.KanshanDiversion
 www.zhihu.com##DIV[class="app-promotion-bar"]
 www.zhihu.com##DIV[id^="shameimaru-question-down-noauth"]
+www4.bing.com##.mchild_content
 xiazaiba.com##DIV[class="search-keys"]
 xiazaiba.com##DIV[id="cmt_mm_box"][class="bot-mm-box"]
 xiazaiba.com##DIV[id="float_qr"]
@@ -888,6 +883,7 @@ zuoye.baidu.com###aside
 ||analytics.bfun.cn/analytics.js
 ||analytics.icons8.com
 ||analytics.syncfusion.com/log/documentation
+||analytics.zhaopin.cn
 ||answers.microsoft.com/en-us/contentstatisticsspark/addthreadviewcountasync
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-iam.intercom.io/messenger/web/ping
@@ -916,6 +912,7 @@ zuoye.baidu.com###aside
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
 ||assets.digitalocean.com/cookieConsent/cookieConsent
+||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
 ||az725175.vo.msecnd.net/scripts/jsll-*.js$important
@@ -1066,6 +1063,7 @@ zuoye.baidu.com###aside
 ||exp.bdstatic.com/static/article/lib/share/logger_*.js
 ||exp.bdstatic.com/static/article/widget/left-promo/left-promo_*.js
 ||experiment.appadhoc.com/get_flags_async$domain=csdn.net
+||fe-api.zhaopin.com/c/i/adv
 ||fe-go.letv.com/ds
 ||feed.baidu.com/feed/api/tab/gettabinfo
 ||feed.baidu.com/feed/api/wise/feedlist
@@ -1131,6 +1129,7 @@ zuoye.baidu.com###aside
 ||img.baidu.com/img/iknow/wenku/wap*banner_720X150.jpg
 ||img.kuai.xunlei.com/js/statistics.js
 ||img.kuai.xunlei.com/js/thunderbatch.js
+||img05.zhaopin.cn/2014/common/js/za/ga.js
 ||img1.gamersky.com/image2016/11/20161123_zyf_267_2/1.jpg
 ||imgcache.qq.com/tencentvideo_v1/player/plugins/RelevanceAd.swf
 ||imgcdn.pconline.com.cn/show$domain=dl.pconline.com.cn
@@ -1310,6 +1309,7 @@ zuoye.baidu.com###aside
 ||simg.sinajs.cn/blog7style/images/common/share.gif
 ||siteapp.baidu.com/static/webappservice/uaredirect.js$third-party
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
+||slot1-images.wikia.nocookie.net/__am/*/group/-/search_tracking_js
 ||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
 ||smetrics.ubi.com
 ||sp.qf.56.com/v56/albumDetailPage.do?callback
@@ -1330,6 +1330,7 @@ zuoye.baidu.com###aside
 ||stat.it168.com/pv.js
 ||stat.pc.letv.com/op
 ||stat.pchome.net/stat.js
+||static-cf.cleverbridge.com/mycontent/1/cleverAnalytics.js
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/buttonLite.js
 ||static.duoshuo.com/embed.js$third-party
@@ -1352,6 +1353,8 @@ zuoye.baidu.com###aside
 ||statistic.csdn.net/storage_baidu_exist?keyword=
 ||statistic.liepin.com/statVisit.do
 ||statistic.liepin.com/statisticPlatform/tLog
+||statistic.zhaopin.cn/sdk/sa/
+||statistic.zhaopin.cn/sdk/zhaopin_tracker.js
 ||stripe.com$domain=gitbook.com
 ||sug.so.360.cn/suggest
 ||support.google.com/apis/gpf_metrics
@@ -1413,6 +1416,7 @@ zuoye.baidu.com###aside
 ||www.77evd.com/inc/timming.php
 ||www.77evd.com/template/77yy/ads
 ||www.77evd.com/template/77yy/js/xunlei
+||www.80ys.net/index.php/ajax/hits
 ||www.aiyiweb.com/Scripts/AdContentPage300_*.js
 ||www.aiyiweb.com/Scripts/AdContentPageMiddem250.js
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js
@@ -1518,6 +1522,7 @@ zuoye.baidu.com###aside
 ||www.youtube.com/api/stats$important
 ||www.youtube.com/embed/*$third-party
 ||www.youtube.com/iframe_api$domain=developer.mozilla.org|www.ssh.com,important
+||www.zhaopin.com/static/analytics.js
 ||www.zhihu.com/node/Banner
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zhidao.baidu.com/question/api/recommend
