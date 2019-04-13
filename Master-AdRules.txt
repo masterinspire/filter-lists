@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, 28 March, 2019
+! Last modified: Saturday, 13 April, 2019
 ! Title: Master-AdRules
-! Version: 20190328
+! Version: 20190413
 !
 !
 !
@@ -383,6 +383,7 @@ niutuku.com##DIV[id="toptip"][class="toptip"]
 nlog-project.org##DIV[class="banner-item col-md-12 col-xs-12 col-sm-3"]
 nlog-project.org##DIV[id="banners-bottom"][class="ads"]
 nlog-project.org##DIV[id="banners-right"][class="ads row"]
+npm.taobao.org###fork
 nz.qq.com##.v_tips
 ourcrack.com##A[href="http://www.xiaobaixitong.com/?op "]
 outofmemory.cn###imgQqShare
@@ -890,7 +891,6 @@ zuoye.baidu.com###aside
 ||api.branch.io$domain=medium.com
 ||api.cdnbye.com/v1/channel/*/stats
 ||api.dec.sitefinity.com/collect/
-||api.geetest.com/get.php
 ||api.github.com/_private/browser/errors
 ||api.github.com/_private/browser/stats
 ||api.growingio.com/v2/*/web/pv
@@ -996,6 +996,7 @@ zuoye.baidu.com###aside
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
 ||checkout.stripe.com/v3/checkout.js
+||chocolatey.org/cassette.axd/script/*/Scripts/CookiesNotice
 ||ci.phncdn.com/www-static/js/ph-tracking.js
 ||cjie.baidu.com/cj.gif
 ||click.ali213.net$domain=ali213.net
@@ -1004,8 +1005,10 @@ zuoye.baidu.com###aside
 ||cmstool.youku.com/cms/playlog/get
 ||cmt.pconline.com.cn/intf/cmtCount.jsp$domain=dl.pconline.com.cn
 ||cnstrc.com/js/ac.js
+||cnt.zhaopin.com/Market/whole_counter.jsp
 ||collector-medium.lightstep.com/api/v0/reports
 ||collector.githubapp.com/github/page_view
+||common-bucket.zhaopin.cn/passport/js/zhaopin/analytics.js
 ||concat.lietou-static.com/core/pc/revs/js/common/stat_*.js
 ||connect.facebook.net/*/all.js$third-party
 ||connect.facebook.net/*/fbds.js$third-party
@@ -1103,6 +1106,7 @@ zuoye.baidu.com###aside
 ||hm.baidu.com/hm.js
 ||howtogeek.disqus.com/count.js
 ||hs.qhupdate.com/sou/srp.gif
+||huatuospeed.weiyun.com/cgi-bin/r.cgi
 ||hudong.alicdn.com/api/data/v2/*.js
 ||i.cdnxiazai.com/img/xzq.png$image
 ||i.gtimg.cn/open/app_icon/*.png$domain=user.qzone.qq.com
@@ -1281,6 +1285,7 @@ zuoye.baidu.com###aside
 ||reload.getsentry.net/page/
 ||report.b.qq.com/crmReport/accesslog
 ||res.wx.qq.com/open/js/jweixin-*.*.*.js$domain=gitee.com
+||rl.mail.qq.com/cgi-bin/getinvestigate
 ||rum.xdy-cdn.cn/probe/download/_xdy_cdn_rum.js
 ||s-nfa.jd.com/bd
 ||s.360kan.com/clk.gif
@@ -1297,6 +1302,7 @@ zuoye.baidu.com###aside
 ||s3-us-west-2.amazonaws.com/ad-maven-public-cdn/notT/clipconverter.js
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
 ||s3.amazonaws.com/collectchat/launcher.js$domain=techxposer.com
+||s3.amazonaws.com/github/ribbons/forkme_*.png$image,domain=npm.taobao.org
 ||s3.qhimg.com/static/*/MMPlugin.js
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sax.sina.cn/native/impress$domain=blog.sina.cn
