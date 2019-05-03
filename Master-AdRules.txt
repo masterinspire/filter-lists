@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, 13 April, 2019
+! Last modified: Friday, 3 May, 2019
 ! Title: Master-AdRules
-! Version: 20190413
+! Version: 20190503
 !
 !
 !
@@ -151,6 +151,7 @@ cashierzui.alipay.com##DIV[class="alipay-xbox-1_1_5"]
 category.dangdang.com##DIV[class="returntop_area"]
 category.dangdang.com##DIV[name="AD_topb"]
 club.huawei.com##.hbwi-right.sd
+cn.bing.com##.adsblock
 cn.club.vmall.com##.hbwi-right.sd
 cn.ui.vmall.com##.hbwi-right.sd
 cnblogs.com##div[id^="dictHc"]
@@ -1243,6 +1244,7 @@ zuoye.baidu.com###aside
 ||pan.bdstatic.com/box-static/interface-widget-1-cdn/mainSmallBanner/util/img/gift_banner_*.png
 ||partners.npmjs.com/hiring$domain=npmjs.com
 ||passport.baidu.com/img/v.gif
+||passport.baidu.com/viewlog
 ||passport.csdn.net/js/apps/ga.js
 ||pconline.com.cn/*/intf*.html$domain=dl.pconline.com.cn
 ||pconline.com.cn/*/intf*.js$domain=dl.pconline.com.cn
@@ -1408,6 +1410,7 @@ zuoye.baidu.com###aside
 ||weirenwu.weibo.com/adshow/
 ||wenda.so.com/search/getdata4baike$domain=baike.so.com
 ||wenku.baidu.com/browse/widget/dailyrecom$domain=wenku.baidu.com
+||wenku.baidu.com/shifen/get
 ||wenku.baidu.com/xpage/form/getform
 ||widget.intercom.io/widget/*$domain=reactiveui.net
 ||widget.pushbullet.com/dynamic.js$third-party
@@ -1415,6 +1418,9 @@ zuoye.baidu.com###aside
 ||widget.weibo.com/weiboshow/index.php$third-party
 ||widget.wumii.com/ext/relatedItemsWidget.htm$domain=blog.163.com
 ||widgets.services.microsoft.com$domain=blogs.msdn.microsoft.com
+||wkctj.baidu.com/click.gif
+||wkstatic.bdimg.com/static/wkcommon/widget/vipNoAdDialog
+||wkstatic.bdimg.com/static/wkcore/widget/newasideAd/newasideAd_*.js
 ||wpa.b.qq.com/cgi/wpa.php
 ||wreport.meituan.net
 ||www.360doc.com/ajax/clickStatics.ashx$domain=360doc.com
@@ -1497,7 +1503,6 @@ zuoye.baidu.com###aside
 ||www.oschina.net/action/itags/pushRead
 ||www.oschina.net/action/trace/record
 ||www.oschina.net/js/bdshare_api/share.js
-||www.oschina.net/new-osc/js/utils/jweixin-1.2.0.js
 ||www.oschina.net/new-osc/js/utils/plugins/bdshare_api/share.js
 ||www.oschina.net/public/javascripts/cjl/ga.js
 ||www.qiyipic.com/common/fix/dianying-indexImgV1/dyhy_ktBtnBg.png
