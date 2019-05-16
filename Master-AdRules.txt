@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, 3 May, 2019
+! Last modified: Wednesday, 15 May, 2019
 ! Title: Master-AdRules
-! Version: 20190503
+! Version: 20190515
 !
 !
 !
@@ -123,6 +123,7 @@ blog.csdn.net##.right_fixed
 blog.csdn.net##.switchDOM
 blog.csdn.net##.tool-box
 blog.csdn.net##DIV[id="job_blog_reco"]
+blog.jetbrains.com###post_footer_banner
 blog.magnusmontin.net###eu-cookie-law
 blog.sentry.io##.tracking-banner.banner
 blog.sina.cn###pl-blog-related
@@ -271,8 +272,10 @@ jrj.com.cn##DIV[class="fc_iphone_dc_2014"]
 ju.outofmemory.cn##DIV[class="pop_win"]
 ju.outofmemory.cn##DIV[class="pop_win_bg"]
 ju.outofmemory.cn##DIV[class="sidebarISO"]
+juejin.im##.article-suspended-panel
 juejin.im##.banner-section
 juejin.im##.extension
+juejin.im##.request-health-alert
 kyfw.12306.cn##DIV[class="fix-yh"]
 lagou.com##DIV[id="loginToolBar"]
 le.com###towCode
@@ -787,6 +790,7 @@ www.talkingdotnet.com##.sd-sharing-enabled.sharedaddy
 www.taobao.com##DIV[class="dui"]
 www.taobao.com##DIV[id="J_Feedback"]
 www.taobao.com##DIV[id="J_midyearAct"]
+www.tapd.cn##.bind-phone-tips
 www.techonthenet.com##.adsblocked
 www.techweb.com.cn##A[href^="http://ads.techweb.cn"]
 www.techweb.com.cn##DIV[id="share_content"]
@@ -1223,6 +1227,7 @@ zuoye.baidu.com###aside
 ||nohost/query
 ||nsclick.baidu.com/u.gif
 ||nsclick.baidu.com/v.gif
+||open.jss.com.cn/interplatform/getOaDoc.do
 ||open.qzone.qq.com/like$third-party
 ||openapi.baidu.com/cloudaapi/lightapp.js$domain=blog.csdn.net
 ||outofmemory.cn/static/js/h.js
@@ -1256,6 +1261,7 @@ zuoye.baidu.com###aside
 ||platform.linkedin.com/in.js
 ||platform.linkedin.com/js/framework?v
 ||platform.twitter.com/widgets.js$third-party
+||play.google.com/log
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||prom.b.qq.com/se/r.gif
@@ -1286,6 +1292,7 @@ zuoye.baidu.com###aside
 ||referrer.disqus.com/juggler/event.gif
 ||reload.getsentry.net/page/
 ||report.b.qq.com/crmReport/accesslog
+||report.huatuo.qq.com/report.cgi
 ||res.wx.qq.com/open/js/jweixin-*.*.*.js$domain=gitee.com
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 ||rum.xdy-cdn.cn/probe/download/_xdy_cdn_rum.js
@@ -1339,6 +1346,7 @@ zuoye.baidu.com###aside
 ||stat.pc.letv.com/op
 ||stat.pchome.net/stat.js
 ||static-cf.cleverbridge.com/mycontent/1/cleverAnalytics.js
+||static.addtoany.com/menu/sm.21.html
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/buttonLite.js
 ||static.duoshuo.com/embed.js$third-party
@@ -1366,6 +1374,7 @@ zuoye.baidu.com###aside
 ||stripe.com$domain=gitbook.com
 ||sug.so.360.cn/suggest
 ||support.google.com/apis/gpf_metrics
+||support.google.com/chrome/apis/metrics
 ||support.office.com/bundles/stickyFeedback
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
 ||support2.microsoft.com/common/surveyscripthandler.ashx
@@ -1383,6 +1392,7 @@ zuoye.baidu.com###aside
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$third-party
 ||tldrgames.disqus.com/count.js
 ||trace.qq.com/collect
+||tracker.klink.tech
 ||translate.google.com/translate_a/element.js$third-party
 ||ubistatic2-a.akamaihd.net/worldwide_analytics
 ||uhf.microsoft.com/*/shell/api/mscc$domain=www.typescriptlang.org
@@ -1451,6 +1461,7 @@ zuoye.baidu.com###aside
 ||www.cmdy.tv/templets/cmmov/images/js/xunlei.js
 ||www.cmdy.tv/templets/cmmov/images/xunlei.css
 ||www.cnav.club/wp-content/uploads/an-temp/9t6CxBPEbmC7.js
+||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
@@ -1499,6 +1510,7 @@ zuoye.baidu.com###aside
 ||www.msdn.hk/plus/count.php
 ||www.msdn.hk/templets/msdn/css/index.js
 ||www.msdn.hk/templets/msdn/css/viewads.js
+||www.muguadyy.com/Public/images/load.gif
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.oschina.net/action/itags/pushRead
 ||www.oschina.net/action/trace/record
@@ -1535,6 +1547,7 @@ zuoye.baidu.com###aside
 ||www.youtube.com/iframe_api$domain=developer.mozilla.org|www.ssh.com,important
 ||www.zhaopin.com/static/analytics.js
 ||www.zhihu.com/node/Banner
+||www.zk113.com/inc/timming.php
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zhidao.baidu.com/question/api/recommend
 ||zhidao.baidu.com/s/toutu/promotion.js
