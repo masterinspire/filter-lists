@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, 15 May, 2019
+! Last modified: Saturday, 25 May, 2019
 ! Title: Master-AdRules
-! Version: 20190515
+! Version: 20190525
 !
 !
 !
@@ -60,6 +60,7 @@
 @@||localhost$document
 @@||pingjs.qq.com/tcss.ping.js
 @@||sinaimg.cn/unipro/pub/suda_s_*.js$domain=mail.sina.com.cn
+ai.baidu.com##.doc-feedback
 alipay.com##DIV[id="J-global-notice-container"]
 alipay.com##DIV[id="globalTopAD"]
 alipay.com##DIV[id="onlineService"]
@@ -96,6 +97,7 @@ bbs.smartisan.com##.tips-download
 bing.com###TopApp
 bing.com###b_opalpers
 bing.com###ev_trans_btn_group
+bing.com##.mchild_content
 bing.com##.tipContainer
 bing.com##.tipContainer-hoverTrans
 bing.com##A[id="fbpgbt"]
@@ -115,6 +117,8 @@ blog.163.com##div[class^=lofteriframewrap]
 blog.163.com##span.pright
 blog.51cto.com###f_close_box
 blog.angular.io##.highlightMenu
+blog.angular.io##.js-postShareWidget
+blog.angular.io##.js-stickyFooter
 blog.const.net.cn##DIV[class="divSide"]
 blog.csdn.net##.fourth_column
 blog.csdn.net##.left_fixed
@@ -326,7 +330,7 @@ map.baidu.com##DIV[id="MaptoDown_tip"][class="search-tip"]
 map.baidu.com##DIV[id="defCityTip"][class="GR_Tip def_city_tip"]
 map.baidu.com##DIV[id="showPanoPage"][class="stOccupyPic"]
 map.baidu.com##SPAN[id="moText"][class="help_list"]
-medium.com##.highlightMenu--active.highlightMenu
+medium.com##.highlightMenu
 medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
 member1.taobao.com##DIV[class="zhx-anquan-poptip  "]
@@ -414,6 +418,7 @@ pcbeta.com##DIV[id="sitefocus"][class="focus"]
 pcbeta.com##SPAN[id="weixinqr"]
 pconline.com.cn##DIV[id="Jsurvey"]
 pconline.com.cn##DIV[id="app-ewm-tg"]
+play.google.com##.gb_9b.gb_zc.gb_fd
 product.dangdang.com##DIV[class="app_quan big_sale"]
 product.dangdang.com##DIV[class="aside"]
 product.dangdang.com##DIV[class="reco_wrap"]
@@ -835,7 +840,6 @@ www.zhihu.com##.HitQrcode
 www.zhihu.com##.KanshanDiversion
 www.zhihu.com##DIV[class="app-promotion-bar"]
 www.zhihu.com##DIV[id^="shameimaru-question-down-noauth"]
-www4.bing.com##.mchild_content
 xiazaiba.com##DIV[class="search-keys"]
 xiazaiba.com##DIV[id="cmt_mm_box"][class="bot-mm-box"]
 xiazaiba.com##DIV[id="float_qr"]
@@ -915,6 +919,7 @@ zuoye.baidu.com###aside
 ||ark.letv.com/t
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
+||ask.dcloud.net.cn/crond/run/
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
 ||assets.digitalocean.com/cookieConsent/cookieConsent
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
@@ -1019,6 +1024,7 @@ zuoye.baidu.com###aside
 ||connect.facebook.net/*/fbds.js$third-party
 ||connect.facebook.net/*/sdk.js$third-party
 ||consent-st.truste.com/get
+||cordova.apache.org/static/js/twitter.js
 ||cpro.baidustatic.com/cpro/ui/c.js
 ||cpro.baidustatic.com/cpro/ui/f.js
 ||cpro.baidustatic.com/cpro/ui/i.js
@@ -1080,6 +1086,7 @@ zuoye.baidu.com###aside
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
 ||g.alicdn.com/security/umscript/*/um.js$domain=youku.com
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js
+||g.csdnimg.cn/check-adb/*/check-adb.js
 ||g.s8dj.com$domain=gamersky.com
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
@@ -1164,6 +1171,7 @@ zuoye.baidu.com###aside
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
+||js.peng2s.com:2003/baidu/dix.js
 ||js.ykimg.com/youku/dist/js/lib/ikuAdapterNew.js
 ||js.zol.com.cn/pvn/z.pv
 ||jstatic.letvcdn.com/sdk/apcsdk.js
@@ -1261,6 +1269,7 @@ zuoye.baidu.com###aside
 ||platform.linkedin.com/in.js
 ||platform.linkedin.com/js/framework?v
 ||platform.twitter.com/widgets.js$third-party
+||play.google.com/_/PlayStoreUi/browserinfo
 ||play.google.com/log
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
@@ -1301,6 +1310,7 @@ zuoye.baidu.com###aside
 ||s.cn.bing.net/th?*pid=News
 ||s.cn.bing.net/th?id=*&pid=MsnJVFeeds
 ||s.lianmeng.360.cn/so/inlay.js
+||s.po.st/static/v4/js/plugins/shareQuote.js
 ||s.weibo.com/ajax/jsonp/suggestion$domain=weibo.com
 ||s1.adm.72zx.com/hj/js/ad_soft_*.js
 ||s1.bild.me/bilder/240416/3119149728x90_1line.gif
@@ -1323,6 +1333,7 @@ zuoye.baidu.com###aside
 ||simg.sinajs.cn/blog7style/images/blog_editor/ten_map.png
 ||simg.sinajs.cn/blog7style/images/common/share.gif
 ||siteapp.baidu.com/static/webappservice/uaredirect.js$third-party
+||slack-cordova-io.herokuapp.com/slackin.js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/search_tracking_js
 ||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
@@ -1433,7 +1444,7 @@ zuoye.baidu.com###aside
 ||wkstatic.bdimg.com/static/wkcore/widget/newasideAd/newasideAd_*.js
 ||wpa.b.qq.com/cgi/wpa.php
 ||wreport.meituan.net
-||www.360doc.com/ajax/clickStatics.ashx$domain=360doc.com
+||www.360doc.com/ajax/clickStatics.ashx
 ||www.56.com/sp/api/sp_32_1.phtml?callback=jsonpLogoAds
 ||www.77evd.com/inc/timming.php
 ||www.77evd.com/template/77yy/ads
@@ -1451,15 +1462,10 @@ zuoye.baidu.com###aside
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewPremiumSponsorsTextAd
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleAd
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleLargeAd
-||www.ccav1.com/wp-admin/admin-ajax.php
-||www.ccav1.com/wp-content/uploads/an-temp/9t6CxBPEbmC7.js
-||www.ccav1.com/wp-content/uploads/fuck-adblock/
-||www.ccav1.me/block.js
 ||www.ccleaner.com/Umbraco/Api/LocationApi/GetLocation
 ||www.clipconverter.cc/qr.php
-||www.cmdy.tv/js/lishijl.js
-||www.cmdy.tv/templets/cmmov/images/js/xunlei.js
-||www.cmdy.tv/templets/cmmov/images/xunlei.css
+||www.cmdyy.tv/templets/cmmov/images/js/xunlei
+||www.cmdyy.tv/templets/cmmov/images/xunlei
 ||www.cnav.club/wp-content/uploads/an-temp/9t6CxBPEbmC7.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
@@ -1537,6 +1543,7 @@ zuoye.baidu.com###aside
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/cclamp/js/AdobeAnalyticsPlugin.js
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/clientlib-geoip
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/main/js/utag_data.js
+||www.wmmz.cn/data/admin/ver.js
 ||www.wpf-tutorial.com/Content/Local/1.css
 ||www.wpf-tutorial.com/Content/Local/1.js
 ||www.wpf-tutorial.com/Ping
