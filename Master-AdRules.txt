@@ -1,23 +1,18 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, 9 June, 2019
+! Last modified: Friday, 21 June, 2019
 ! Title: Master-AdRules
-! Version: 20190609
+! Version: 20190621
 !
 !
 !
 ###epb
 ###js-gdpr-consent-banner
+##cloudflare-app
 /_/client-timings$domain=stackexchange.com|stackoverflow.com|serverfault.com
 /gps/event$domain=stackexchange.com|stackoverflow.com|serverfault.com
-110.alipay.com##DIV[class="ui-uservoice"]
-21shipin.com##DIV[id="QQFloat"]
-2cto.com##A[href="http://www.2cto.com/peixun2014/luxiang/"]
-2cto.com##DIV[class="adv980two"]
-2cto.com##DIV[class="divTitleGG"]
-2cto.com##DIV[class="divTitleGGr"]
-2cto.com##DIV[class="tadv"]
+21shipin.com###QQFloat
 360.cn##DIV[id="support360-fixedbox"]
 360.cn##DIV[id="weishi-alert"]
 360doc.com##DIV[id="dialog"]
@@ -98,13 +93,17 @@ blog.angular.io##.highlightMenu
 blog.angular.io##.js-postShareWidget
 blog.angular.io##.js-stickyFooter
 blog.const.net.cn##DIV[class="divSide"]
+blog.csdn.net###btn-app
+blog.csdn.net##.article_content:style(max-height: inherit !important; overflow: inherit !important; height: inherit !important;)
+blog.csdn.net##.csdn-side-toolbar
 blog.csdn.net##.fourth_column
+blog.csdn.net##.hide-article-box
 blog.csdn.net##.left_fixed
 blog.csdn.net##.pulllog-box
+blog.csdn.net##.readall_box
 blog.csdn.net##.right_fixed
 blog.csdn.net##.switchDOM
 blog.csdn.net##.tool-box
-blog.csdn.net##DIV[id="job_blog_reco"]
 blog.jetbrains.com###post_footer_banner
 blog.magnusmontin.net###eu-cookie-law
 blog.sentry.io##.tracking-banner.banner
@@ -650,6 +649,10 @@ www.cnblogs.com##DIV[id="blog_post_info"]
 www.cnblogs.com##DIV[id="sildebarRight"]
 www.codeproject.com##.cc-bottom.cc-theme-edgeless.cc-type-opt-in.cc-banner.cc-window
 www.codeproject.com##.page-background > .overlay.alert-bar
+www.csdn.net###feedlist_id > li[data-type="ad"]
+www.csdn.net##.banner-ad-box
+www.csdn.net##.csdn-side-toolbar
+www.csdn.net##.indexSuperise
 www.dangdang.com##DIV[id="returntop"]
 www.digitalocean.com###newsletter-signup-dialog
 www.divcss5.com##DIV[class="if1200 ws"]
@@ -762,8 +765,10 @@ www.soku.com##.sk_header_tip.sk_header_w.sk_header > .sk_wrap > .sk_promotion
 www.soku.com##.sk_header_tip.sk_header_w.sk_header > .sk_wrap > .sk_promotion > .code
 www.syntevo.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.syntevo.com##.cookie
+www.sysgeek.cn##.action-share
 www.sysgeek.cn##.bdsharebuttonbox.action-share
 www.sysgeek.cn##.container > .speedbar
+www.sysgeek.cn##.post-actions
 www.sysgeek.cn##.rollbar
 www.sysgeek.cn##.social
 www.szjs.gov.cn##DIV[id="float_banner"]
@@ -1003,6 +1008,7 @@ zuoye.baidu.com###aside
 ||csdnimg.cn/asdf/tracking-*.*.*.js
 ||csdnimg.cn/pubfooter/js/repoAddr2.js
 ||csdnimg.cn/pubfooter/js/tracking
+||csdnimg.cn/public/common/indexSuperise/
 ||csdnimg.cn/rabbit/exposure-click/main-*.js
 ||csdnimg.cn/release/phoenix/vendor/tingyun/tingyun-rum-blog.js
 ||csdnimg.cn/search/baidu_opensug-*.js
@@ -1055,8 +1061,11 @@ zuoye.baidu.com###aside
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
 ||g.alicdn.com/security/umscript/*/um.js$domain=youku.com
+||g.csdnimg.cn/*track.js
+||g.csdnimg.cn/asdf/*/counter.js
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js
 ||g.csdnimg.cn/check-adb/*/check-adb.js
+||g.csdnimg.cn/side-toolbar/
 ||g.s8dj.com$domain=gamersky.com
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
@@ -1077,7 +1086,9 @@ zuoye.baidu.com###aside
 ||gold-cdn.xitu.io/v3/static/img/extension.1dbaf43.png
 ||google-analytics.com$third-party
 ||googleads.g.doubleclick.net$important
+||gradle.org/js/event-tracker.js
 ||graph.facebook.com/*/picture$domain=stackoverflow.com
+||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=csdn.net
 ||gsp0.baidu.com/*/tb/pms/img/st.gif
 ||gsp0.baidu.com/*/v.gif
 ||gss0.bdstatic.com/*/static/wiseindex/js/lib/invoke/component/btmBanner_*.js
@@ -1273,7 +1284,8 @@ zuoye.baidu.com###aside
 ||reload.getsentry.net/page/
 ||report.b.qq.com/crmReport/accesslog
 ||report.huatuo.qq.com/report.cgi
-||res.wx.qq.com/open/js/jweixin-*.*.*.js$domain=gitee.com
+||res.cdn.openinstall.io/openinstall.js$domain=csdn.net
+||res.wx.qq.com/open/js/jweixin-*.js$domain=csdn.net|gitee.com
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 ||rum.xdy-cdn.cn/probe/download/_xdy_cdn_rum.js
 ||s-nfa.jd.com/bd
@@ -1282,6 +1294,7 @@ zuoye.baidu.com###aside
 ||s.cn.bing.net/th?id=*&pid=MsnJVFeeds
 ||s.lianmeng.360.cn/so/inlay.js
 ||s.po.st/static/v4/js/plugins/shareQuote.js
+||s.ssl.qhimg.com/static/*/monitor_analytic.js
 ||s.weibo.com/ajax/jsonp/suggestion$domain=weibo.com
 ||s1.adm.72zx.com/hj/js/ad_soft_*.js
 ||s1.bild.me/bilder/240416/3119149728x90_1line.gif
@@ -1296,6 +1309,7 @@ zuoye.baidu.com###aside
 ||s3.qhimg.com/static/*/MMPlugin.js
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sax.sina.cn/native/impress$domain=blog.sina.cn
+||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||sdk-m.le.com/report/report_sdk.js
 ||shared.ydstatic.com/js/yadk/*.*.*.js$domain=csdn.net
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=csdn.net
@@ -1348,6 +1362,8 @@ zuoye.baidu.com###aside
 ||static.youku.com/v1.0.0951/index/js/tdstat.js
 ||static.youku.com/v1.0.116/index/js/ikuAdapterNew.js
 ||static1.searchbox.baidu.com/static/searchbox/openjs/mp.js$domain=boscdn.bpc.baidu.com
+||statics.2cto.com/js/baidu_js_push.js
+||statics.2cto.com/js/tj.js
 ||statistic.csdn.net/storage_baidu_exist?keyword=
 ||statistic.liepin.com/statVisit.do
 ||statistic.liepin.com/statisticPlatform/tLog
@@ -1415,6 +1431,7 @@ zuoye.baidu.com###aside
 ||wkstatic.bdimg.com/static/wkcore/widget/newasideAd/newasideAd_*.js
 ||wpa.b.qq.com/cgi/wpa.php
 ||wreport.meituan.net
+||www.2cto.com/api.php?op=count
 ||www.360doc.com/ajax/clickStatics.ashx
 ||www.56.com/sp/api/sp_32_1.phtml?callback=jsonpLogoAds
 ||www.77evd.com/inc/timming.php
@@ -1451,6 +1468,7 @@ zuoye.baidu.com###aside
 ||www.erlang.org/js/twitterl.min.js
 ||www.facebook.com/plugins/like.php$third-party
 ||www.facebook.com/plugins/page.php$third-party
+||www.flash.cn/support/statistics
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
 ||www.google.cn/domainless/read
@@ -1490,6 +1508,7 @@ zuoye.baidu.com###aside
 ||www.msdn.hk/templets/msdn/css/viewads.js
 ||www.muguadyy.com/Public/images/load.gif
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
+||www.nokia.com/phones/*/external/cookie_consent
 ||www.oschina.net/action/itags/pushRead
 ||www.oschina.net/action/trace/record
 ||www.oschina.net/js/bdshare_api/share.js
@@ -1526,6 +1545,7 @@ zuoye.baidu.com###aside
 ||www.youtube.com/iframe_api$domain=developer.mozilla.org|www.ssh.com,important
 ||www.zhaopin.com/static/analytics.js
 ||www.zhihu.com/node/Banner
+||zhannei-dm.csdn.net/recommend/baidu_zhannei_search
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zhidao.baidu.com/question/api/recommend
 ||zhidao.baidu.com/s/toutu/promotion.js
