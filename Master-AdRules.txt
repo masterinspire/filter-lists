@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, 21 June, 2019
+! Last modified: Monday, 24 June, 2019
 ! Title: Master-AdRules
-! Version: 20190621
+! Version: 20190624
 !
 !
 !
@@ -102,6 +102,7 @@ blog.csdn.net##.left_fixed
 blog.csdn.net##.pulllog-box
 blog.csdn.net##.readall_box
 blog.csdn.net##.right_fixed
+blog.csdn.net##.search_btn.floatL
 blog.csdn.net##.switchDOM
 blog.csdn.net##.tool-box
 blog.jetbrains.com###post_footer_banner
@@ -124,11 +125,7 @@ blogs.msdn.microsoft.com###msccBanner
 book.dangdang.com##DIV[class="con storey_seven"]
 book.dangdang.com##DIV[class="con top_ad_banner"]
 book.dangdang.com##DIV[class^="pic_top_"]
-buyer.trade.taobao.com##DIV[class="J_Tuijian_Modules_BoughtItem"]
-buyertrade.taobao.com##DIV[class="J_guess-you-like gul-w-order"]
 c.itcast.cn##DIV[id="floatTools"]
-cart.taobao.com###interested
-cart.taobao.com##.tb-doctor
 cashierzui.alipay.com##DIV[class="alipay-xbox-1_1_5"]
 category.dangdang.com##DIV[class="returntop_area"]
 category.dangdang.com##DIV[name="AD_topb"]
@@ -183,9 +180,6 @@ drivers.mydrivers.com##DIV[class="down_in_url_right"]
 drivers.mydrivers.com##DIV[class="title_center_t"]
 drivers.mydrivers.com##DIV[class="title_t_right"]
 embed.plnkr.co##.plunker-ad-wrap
-favorite.taobao.com##DIV[class="J_Tuijian_Modules_item_collect_list"]
-favorite.taobao.com##DIV[class="fav-zuanshi"]
-favorite.taobao.com##DIV[id="zuanshiAds"]
 film.sohu.com##.J_pop_operates.pop-operates
 film.sohu.com##.player-content-info > .J_act_operation
 fontawesome.io###banner
@@ -215,20 +209,13 @@ grafana.com##.sticky-footer--dark.sticky-footer
 grafana.com##.sticky-footer--grafanacon-la.sticky-footer
 group.pcbeta.com##DIV[class="CGHJW"]
 gruntjs.com##DIV[class="advertisements"]
-h5.m.taobao.com##DIV[class="download-adv"]
 help.163.com##DIV[id="pc"][class="pc"]
 help.163.com##DIV[id^="AD_"][class="ad"]
 help.3g.163.com##DIV[class="ep-content-side"]
 help.weibo.com##DIV[class="layer_search"]
-i.taobao.com##DIV[class="i-toobar-con m-suniverse J_SUniverse"]
-i.taobao.com##DIV[class="m-guess-you-like"]
-i.taobao.com##DIV[class="m-someone-like-you m-someone-like-you-extend"]
-i.taobao.com##DIV[id="J_MtFixInBottom"][class="mt-fix-in-bottom"]
-i.taobao.com##DIV[id="mt-top-banner"]
 i.youku.com###qrcode-container
 i.youku.com###toolbarservice
 item.m.jd.com##.tryme
-item.taobao.com##DIV[class="tb-doctor"]
 itlab.idcquan.com##IFRAME[src="http://windows.chinaitlab.com/cio_new.html"]
 jd.com###top-banner
 jd.com##.J-trigger.jdm-tbar-act
@@ -293,7 +280,6 @@ m.jd.com##DIV[id="index_banner"]
 m.oschina.net##IMG[src^="/img/weibo_share.gif"]
 m.qzone.com##DIV[id="J_guide"]
 m.qzone.com##P[class="hotkey"]
-m.taobao.com##DIV[class$="dsk"]
 m.tapd.cn##.bind-phone-tips
 m.youdao.com##a[href^="http://c.youdao.com/dict/download.html"]
 m1.mail.sina.com.cn##DIV[class="insertAd"]
@@ -312,8 +298,6 @@ map.baidu.com##SPAN[id="moText"][class="help_list"]
 medium.com##.highlightMenu
 medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
-member1.taobao.com##DIV[class="zhx-anquan-poptip  "]
-member1.taobao.com##DIV[id="immediate-help-trigger"]
 minecraft.gamepedia.com##div[class^="app_gdpr"]
 mobile.zol.com.cn##DIV[class="module mobile-app"]
 money.163.com##DIV[class="atleLP"]
@@ -378,19 +362,6 @@ outofmemory.cn###imgSinaShare
 outofmemory.cn##.pop_win
 outofmemory.cn##.pop_win_bg
 p.t.qq.com##DIV[class="banner"]
-pan.baidu.com###layoutMain > .cent-banner
-pan.baidu.com###layoutMain > .gift-banner
-pan.baidu.com##.coupon-banner.coupon-banner-active
-pan.baidu.com##.discount-banner.banner-active
-pan.baidu.com##.welcome-box
-pan.baidu.com##.welcome-mask
-pan.baidu.com##DIV[class="funcs-share"]
-pan.baidu.com##DIV[id="TANGRAM__PSP_19__"]
-pan.baidu.com##DIV[id="activateGuidePopupOuter"]
-pan.baidu.com##DIV[id="passport-accRealName-pop"]
-pan.baidu.com##DIV[id="toast"]
-pan.baidu.com##DIV[id^="TANGRAM__PSP_3"]
-pan.baidu.com##DL[class="module-hot-rec"]
 passport.baidu.com##DIV[class="app-download-link"]
 pcbeta.com##DIV[class="bm"]
 pcbeta.com##DIV[id="sitefocus"][class="focus"]
@@ -416,8 +387,6 @@ read.douban.com##.btns-tip.tooltip
 readthedocs.io##.keep-us-sustainable
 research.microsoft.com###shareShelf
 rj.baidu.com###softAbs > .fast_download
-s.taobao.com##DIV[class="tb-wrapper-sub"]
-s.taobao.com##DIV[id="mainsrp-feedback"]
 s.yanghao.org##A[href="http://www.tebtc.com/"]
 sass-lang.com##DIV[class="alert stickers"]
 search.51job.com##A[id="fans_company_url"]
@@ -434,9 +403,6 @@ segmentfault.com##DIV[class="app-promotion-bar"]
 segmentfault.com##DIV[class="qrcodeWraper"]
 segmentfault.com##DIV[class~="widget-welcome-question"]
 semantic-ui.com##.visible.transition.segment.beg.vertical.ui
-service.taobao.com##DIV[class="ue-survey"]
-shoucang.taobao.com##DIV[class="tuijian-module tuijian-module-item-collect"]
-shoucang.taobao.com##DIV[id="zuanshiAds"]
 shouji.360.cn##A[id="bannar-ad"]
 sina.com.cn##DIV[class="guess-view-list clearfix"]
 sina.com.cn##DIV[class="real-time-window"]
@@ -454,8 +420,6 @@ support.office.com###supWrapperToPreventFeedbackFlickering
 sz.58.com###right_gj
 szhr.com.cn##DIV[id="newAdDiv01"]
 szhr.com.cn##DIV[id^="fixedAdContainer"]
-taobao.com##DIV[class="top-banner"]
-taobao.com##DIV[id="J_Qr"][class="qr"]
 tech.it168.com###huaci
 tech.it168.com##DIV[class="article_layer1"]
 tech.it168.com##DIV[class="it168_fl"]
@@ -488,11 +452,6 @@ tortoisesvn.net##FIELDSET[class="adgroup"]
 train.qunar.com##A[class="q_header_app_logo"]
 travel.china.com.cn##IFRAME[id="bottomIfr"]
 tuicool.com##IFRAME[id="YOUDAO_SELECTOR_IFRAME"]
-unit.buy.tmall.com##DIV[class="banner-ext"]
-unit.buy.tmall.com##DIV[class="col-sub"]
-unit.buyer.trade.taobao.com##DIV[id^="J_tm_fixtm"]
-unit.buyer.trade.taobao.com##P[class="consume-tip"]
-unit.cart.taobao.com##DIV[id="J_Auctions"][class="con"]
 user.qzone.qq.com##A[id="site_hot_btn"]
 user.qzone.qq.com##DIV[class="ck-act"]
 user.qzone.qq.com##DIV[class="fn_accessLog_tips bg2 bor2"]
@@ -585,7 +544,6 @@ www.360doc.com##DIV[id="goTop2"]
 www.360doc.com##DIV[id="shareweixinabove"][class="rt360"]
 www.360kan.com##A[id="erweima"]
 www.360kan.com##A[id="feedback_btn"][class="feedback"]
-www.abc99.cc##body > .movie-wrap > div:nth-of-type(1)
 www.ali213.net##DIV[class="ali-jctj"]
 www.ali213.net##DIV[class="fenxiang"]
 www.ali213.net##DIV[class="lieb_feli_lei1"]
@@ -639,10 +597,8 @@ www.ccav1.com##DIV[id="widget_25060ad"]
 www.ccav1.com##DIV[id="widget_ada"]
 www.ccav1.com##DIV[id="widget_default"]
 www.ccav1.com##div[id^="adsense"]
-www.china-pub.com##DIV[class="aa"]
-www.china-pub.com##DIV[class="go_back"]
 www.cloudamqp.com##.dark-bg.signup
-www.cmdyy.tv##.win
+www.cmdyz.cc##.win
 www.cnbeta.com##DIV[id="left_art"]
 www.cnblogs.com###myRewards
 www.cnblogs.com##DIV[id="blog_post_info"]
@@ -776,9 +732,6 @@ www.szjs.gov.cn##DIV[id="piaochuang"]
 www.szjzz.gov.cn###adfloat1
 www.talkingdotnet.com###dvBottomContent
 www.talkingdotnet.com##.sd-sharing-enabled.sharedaddy
-www.taobao.com##DIV[class="dui"]
-www.taobao.com##DIV[id="J_Feedback"]
-www.taobao.com##DIV[id="J_midyearAct"]
 www.tapd.cn##.bind-phone-tips
 www.techonthenet.com##.adsblocked
 www.techweb.com.cn##A[href^="http://ads.techweb.cn"]
@@ -1225,18 +1178,6 @@ zuoye.baidu.com###aside
 ||p.l.youku.com/web_cms_module_pv
 ||p.l.youku.com/ykclickjm
 ||pagead2.googlesyndication.com$important
-||pan.baidu.com/box-static/disk-share/js/baidu-tongji*
-||pan.baidu.com/box-static/disk-share/js/log_*
-||pan.baidu.com/box-static/function-widget-1/coupon/util/img/coupon_360_55c6417.png
-||pan.baidu.com/disk/cmsdata?do=piece&ad=
-||pan.baidu.com/pcloud/counter/refreshcount
-||pan.baidu.com/ppres/static/thirdparty/header/src/notice_head.js
-||pan.baidu.com/share/autoincre
-||pan.baidu.com/share/count
-||pan.baidu.com/share/hotrec
-||pan.baidu.com/sns/box-static/disk-share/js/baidu-tongji.js
-||pan.baidu.com/yun-static/common/js/asideAdapter_nomd5_nomod.js
-||pan.bdstatic.com/box-static/interface-widget-1-cdn/mainSmallBanner/util/img/gift_banner_*.png
 ||partners.npmjs.com/hiring$domain=npmjs.com
 ||passport.baidu.com/img/v.gif
 ||passport.baidu.com/viewlog
@@ -1298,9 +1239,6 @@ zuoye.baidu.com###aside
 ||s.weibo.com/ajax/jsonp/suggestion$domain=weibo.com
 ||s1.adm.72zx.com/hj/js/ad_soft_*.js
 ||s1.bild.me/bilder/240416/3119149728x90_1line.gif
-||s1.pan.bdstatic.com/box-static/interface-widget-1-cdn/mainSmallBanner/util/img/middle-right_*.png
-||s1.pan.bdstatic.com/yun-static/common-cdn/js/baidu-tongji_*.js$domain=pan.baidu.com
-||s1.pan.bdstatic.com/yun-static/common-cdn/widget/adTips/*
 ||s13.cnzz.com/z_stat.php
 ||s3-us-west-2.amazonaws.com/ad-maven-public-cdn/notT/clipconverter.js
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
@@ -1391,11 +1329,11 @@ zuoye.baidu.com###aside
 ||tldrgames.disqus.com/count.js
 ||trace.qq.com/collect
 ||tracker.klink.tech
+||tracking.epicgames.com
 ||translate.google.com/translate_a/element.js$third-party
 ||ubistatic2-a.akamaihd.net/worldwide_analytics
 ||uhf.microsoft.com/*/shell/api/mscc$domain=www.typescriptlang.org
 ||uhf.microsoft.com/_log
-||update.pan.baidu.com/statistics
 ||use.typekit.com/*.js$third-party
 ||use.typekit.net/*.js$third-party
 ||v.gdt.qq.com/gdt_stats.fcg
@@ -1455,9 +1393,9 @@ zuoye.baidu.com###aside
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleLargeAd
 ||www.ccleaner.com/Umbraco/Api/LocationApi/GetLocation
 ||www.clipconverter.cc/qr.php
-||www.cmdyy.tv/include/ajax.php?action=hit
-||www.cmdyy.tv/templets/cmmov/images/js/xunlei
-||www.cmdyy.tv/templets/cmmov/images/xunlei
+||www.cmdyz.cc/include/ajax.php?action=hit
+||www.cmdyz.cc/templets/cmmov/images/js/xunlei
+||www.cmdyz.cc/templets/cmmov/images/xunlei
 ||www.cnav.club/wp-content/uploads/an-temp/9t6CxBPEbmC7.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
