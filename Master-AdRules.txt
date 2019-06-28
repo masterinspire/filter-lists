@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, 24 June, 2019
+! Last modified: Thursday, 27 June, 2019
 ! Title: Master-AdRules
-! Version: 20190624
+! Version: 20190627
 !
 !
 !
@@ -94,16 +94,14 @@ blog.angular.io##.js-postShareWidget
 blog.angular.io##.js-stickyFooter
 blog.const.net.cn##DIV[class="divSide"]
 blog.csdn.net###btn-app
-blog.csdn.net##.article_content:style(max-height: inherit !important; overflow: inherit !important; height: inherit !important;)
+blog.csdn.net###recommend
+blog.csdn.net##.article_content:style(padding-bottom: 2rem !important; max-height: inherit !important; overflow: inherit !important; height: inherit !important;)
 blog.csdn.net##.csdn-side-toolbar
-blog.csdn.net##.fourth_column
 blog.csdn.net##.hide-article-box
-blog.csdn.net##.left_fixed
+blog.csdn.net##.jump_comment_page_button
 blog.csdn.net##.pulllog-box
 blog.csdn.net##.readall_box
-blog.csdn.net##.right_fixed
 blog.csdn.net##.search_btn.floatL
-blog.csdn.net##.switchDOM
 blog.csdn.net##.tool-box
 blog.jetbrains.com###post_footer_banner
 blog.magnusmontin.net###eu-cookie-law
@@ -412,7 +410,8 @@ social.msdn.microsoft.com##DIV[id="nrSurvey"]
 software.intel.com###page > .l-footer-second
 software.intel.com###survey_container
 stackblitz.com$domain=ng.ant.design
-stackoverflow.com##.js-dismissable-hero._fixed.hero-container.old-hero
+stackoverflow.com##.js-dismissable-hero
+stackoverflow.com##.js-product-notice
 stackoverflow.com##DIV[id="hireme"]
 stackoverflow.com##DIV[id^="careers"]
 stackoverflow.com##DIV[id^="noscript"]
@@ -483,6 +482,7 @@ v.youku.com##DIV[id="sideTool"]
 v.youku.com##div.fn-share
 v.youku.com##div[id^="ab_"]
 visualstudio.microsoft.com###usabilla-button
+vivaldi.com###social-share
 vswebessentials.com###main > a[href="http://www.winhost.com/a/benet_b_127"]
 wangyou.pcgames.com.cn###fixedNav
 wapbaike.baidu.com##DIV.pad45 + div
@@ -544,6 +544,7 @@ www.360doc.com##DIV[id="goTop2"]
 www.360doc.com##DIV[id="shareweixinabove"][class="rt360"]
 www.360kan.com##A[id="erweima"]
 www.360kan.com##A[id="feedback_btn"][class="feedback"]
+www.80ys.net###jndqp
 www.ali213.net##DIV[class="ali-jctj"]
 www.ali213.net##DIV[class="fenxiang"]
 www.ali213.net##DIV[class="lieb_feli_lei1"]
@@ -575,10 +576,6 @@ www.baike.com##DIV[id="youlike-on"]
 www.baike.com##IFRAME
 www.baike.com##LI[id="sha"]
 www.baike.com##div[id^="hd_ad_doc"]
-www.baofeng.com###play_tabs > .menu-tab > dt:nth-of-type(2)
-www.baofeng.com##.mplay-bottom > .mplay-state .mplay-bottom-right
-www.baofeng.com##.play-ad-box
-www.baofeng.com##.play-scenes-list
 www.bing.com###b_results > .b_top.b_ans
 www.bing.com###bnp_cont
 www.bing.com###flwn
@@ -793,7 +790,6 @@ zuoye.baidu.com###aside
 ||123.56.76.32/cfkj/apps/baidushurufa.jpg$domain=wk.baidu.com
 ||127.0.0.1$domain=youku.com|www.iqiyi.com
 ||180.76.181.213/xay/10716.js$domain=www.dotnettricks.com
-||58.83.217.230/v.gif$domain=www.baofeng.com
 ||7b1foz.com1.z0.glb.clouddn.com$domain=cnblogs.com
 ||975-jox-769.mktoresp.com/webevents/visitWebPage
 ||a.clipconverter.cc/www/d/fr.php
@@ -1000,7 +996,6 @@ zuoye.baidu.com###aside
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
 ||ems.youku.com/imp
 ||entry.baidu.com/rp/bwordcom
-||eventlog.hd.baofeng.com/logger.php$domain=www.baofeng.com
 ||events.jianshu.io:4006/sa.gif
 ||exp.bdstatic.com/static/article/lib/share/bds_s_v2_*.js
 ||exp.bdstatic.com/static/article/lib/share/logger_*.js
@@ -1116,7 +1111,6 @@ zuoye.baidu.com###aside
 ||linuxjournal.disqus.com/count.js
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||lofter.com/recommendblog$domain=blog.163.com
-||log.houyi.baofeng.net/logger.php$domain=www.baofeng.com
 ||log.mix.sina.com.cn/lua/cre.lua
 ||log.soku.com/sak.gif
 ||logifyjs.devexpress.com/logifyAlert.min.js$domain=js.devexpress.com
@@ -1205,7 +1199,6 @@ zuoye.baidu.com###aside
 ||push.zhanzhang.baidu.com/push.js
 ||pv.csdn.net/csdnbi
 ||pv.hd.sohu.com/txd.gif$domain=56.com
-||pvlog.hd.baofeng.com/logger.php$domain=www.baofeng.com
 ||q.baike.so.com/stat/click$domain=baike.so.com
 ||query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1r2ij
 ||qzonestyle.gtimg.cn/qzone/space_item/boss_pic/*
@@ -1272,9 +1265,8 @@ zuoye.baidu.com###aside
 ||st.360buyimg.com/common/commonH_B/images/2015/tryme.png
 ||st.360buyimg.com/m/js/2014/module/plugIn/downloadAppPlugIn_imk2.js
 ||star.tag.webdev.com/api/page
-||stat.56.com/album/count.php$domain=56.com
-||stat.baike.com/js/webstat_manage.js
-||stat.baike.com/js/webstat_manage_hdga.js
+||stat.56.com/album/count.php
+||stat.baike.com/js/webstat_manage
 ||stat.it168.com/ClickPv.js
 ||stat.it168.com/pv.js
 ||stat.pc.letv.com/op
@@ -1284,11 +1276,11 @@ zuoye.baidu.com###aside
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/buttonLite.js
 ||static.duoshuo.com/embed.js$third-party
-||static.hd.baofeng.com/script/baidu_*.js
 ||static.iqiyi.com/js/pingback/qa.js
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
 ||static.oschina.net/uploads/cooperation/*_banner_*.jpg
 ||static.oschina.net/uploads/space/2017/0602/161905_o3Ng_2982602.jpg
+||static.pgyer.com/static-*/assets/js/adAdsense.js
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
 ||static.wenku.bdimg.com/static/wkview/html_view/ico_fee_member_*.png$domain=wenku.baidu.com
 ||static.wenku.bdimg.com/static/wkview/widget/commerce/flow/images/198X140_*.jpg
@@ -1338,6 +1330,7 @@ zuoye.baidu.com###aside
 ||use.typekit.net/*.js$third-party
 ||v.gdt.qq.com/gdt_stats.fcg
 ||v.t.qq.com/follow/widget.js$third-party
+||vivaldi.com/rep/rep
 ||vlscppe.microsoft.com/tags
 ||vo.msecnd.net/scripts/jsll-3.3.1.js$domain=docs.microsoft.com
 ||vortex.data.microsoft.com/collect
@@ -1345,9 +1338,7 @@ zuoye.baidu.com###aside
 ||wapbaike.baidu.com/api/wapui/getyouxuan
 ||wapiknow.bdimg.com/static/m-common/widget/lib/gmu/slider/slider_*.js$domain=zhidao.baidu.com
 ||web.ali213.net/kf/web-ali213-json.js
-||web.houyi.baofeng.net/Consultation/web.php$domain=baofeng.com
 ||web.vortex.data.microsoft.com/collect
-||web.vortex.data.microsoft.com/collect/v1/t.gif
 ||webmap0.map.bdstatic.com/fwmap/upload/r/image/2013-07-16/6f90db9e61476f2cd8975c3fac3c70a8.jpg$domain=map.baidu.com
 ||webmap0.map.bdstatic.com/wolfman/static/common/images/login_8_9e79767.png$domain=map.baidu.com
 ||webmap0.map.bdstatic.com/wolfman/static/common/images/login_text_ba9f5a0.png$domain=map.baidu.com
@@ -1372,10 +1363,8 @@ zuoye.baidu.com###aside
 ||www.2cto.com/api.php?op=count
 ||www.360doc.com/ajax/clickStatics.ashx
 ||www.56.com/sp/api/sp_32_1.phtml?callback=jsonpLogoAds
-||www.77evd.com/inc/timming.php
-||www.77evd.com/template/77yy/ads
-||www.77evd.com/template/77yy/js/xunlei
 ||www.80ys.net/index.php/ajax/hits
+||www.80ys.net/template/vfed*/asset/fed/create.php
 ||www.aiyiweb.com/Scripts/AdContentPage300_*.js
 ||www.aiyiweb.com/Scripts/AdContentPageMiddem250.js
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js
@@ -1452,6 +1441,7 @@ zuoye.baidu.com###aside
 ||www.oschina.net/js/bdshare_api/share.js
 ||www.oschina.net/new-osc/js/utils/plugins/bdshare_api/share.js
 ||www.oschina.net/public/javascripts/cjl/ga.js
+||www.pgyer.com/app/getAdAdsense
 ||www.qiyipic.com/common/fix/dianying-indexImgV1/dyhy_ktBtnBg.png
 ||www.qiyipic.com/common/fix/site/app-download-*.gif
 ||www.qiyipic.com/common/fix/vip_dyr/vipDyr_wyf.jpg
