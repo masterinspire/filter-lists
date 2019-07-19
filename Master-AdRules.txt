@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, 7 July, 2019
+! Last modified: Friday, 19 July, 2019
 ! Title: Master-AdRules
-! Version: 20190707
+! Version: 20190719
 !
 !
 !
@@ -132,7 +132,9 @@ category.dangdang.com##DIV[name="AD_topb"]
 club.huawei.com##.hbwi-right.sd
 cn.bing.com###b_pole
 cn.bing.com##.adsblock
-cn.bing.com##.b_topborder.b_top.b_ans
+cn.bing.com##.b_topborder.b_top
+cn.bing.com##.opal_serpftrc
+cn.bing.com##.usrlc_bpc
 cn.club.vmall.com##.hbwi-right.sd
 cn.ui.vmall.com##.hbwi-right.sd
 cnblogs.com##div[id^="dictHc"]
@@ -153,6 +155,7 @@ detail.tmall.com##DIV[id="J_MUIMallbar"][class="mui-mbar-outer j_Mallbar_2.4.0"]
 detail.tmall.com##LI[class="tm-qrcode-icon "]
 developer.android.com##devsite-snackbar
 developer.microsoft.com##.sockWrapper
+developer.mozilla.org###developer_needs
 developer.mozilla.org##.notification-tray
 disqus.com##.login-overlay__wrapper
 dl.pconline.com.cn##.navi-bottom
@@ -318,6 +321,7 @@ msdn.microsoft.com##DIV[id="footerSock"]
 msdn.microsoft.com##DIV[id="footerSockInner"]
 msdn.microsoft.com##DIV[id="popup0"]
 msdn.microsoft.com##DIV[id="skinnyRating"]
+music.taihe.com##.__qianqian_qrcode
 my.58.com##A[class="bbad"]
 my.alipay.com##DIV[id="J-ads-corner"][class="ad-cornerbox"]
 my.alipay.com##DIV[id="J-cooperant-banner"][class="i-cooperant-banner"]
@@ -721,6 +725,7 @@ www.tudou.com##DIV[class="tui_mask"]
 www.tutorialrepublic.com##.affiliate.segment
 www.tutorialrepublic.com##ul:nth-of-type(6)
 www.tutorialspoint.com###privacy-banner
+www.tutorialspoint.com###rightbar
 www.ubuntu.com##.cookie-policy
 www.w3school.com.cn##DIV[id="ad"]
 www.w3school.com.cn##DIV[id="searchui"]
@@ -886,6 +891,7 @@ zuoye.baidu.com###aside
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
 ||cdn.ccav1.me/jquery.js
 ||cdn.cookielaw.org/consent/*.js
+||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.livechatinc.com/tracking.js
 ||cdn.livefyre.com/Livefyre.js$domain=docs.microsoft.com
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
@@ -960,7 +966,7 @@ zuoye.baidu.com###aside
 ||do.xiazaiba.com/route.php?ct=stat&ac=show_ads
 ||docs.ti-net.com.cn/count.php
 ||down.lytml.com/js/webThunderDetect_20130524.js
-||dp3.qq.com/qqcom/?
+||dp3.qq.com/qqcom/
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
 ||ems.youku.com/imp
@@ -974,6 +980,7 @@ zuoye.baidu.com###aside
 ||fe-go.letv.com/ds
 ||feed.baidu.com/feed/api/tab/gettabinfo
 ||feed.baidu.com/feed/api/wise/feedlist
+||fls-na.amazon.com/1/batch/1/OE/
 ||flume.csdn.net/csdnbi
 ||forms.convertkit.com
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
@@ -1022,9 +1029,6 @@ zuoye.baidu.com###aside
 ||huatuospeed.weiyun.com/cgi-bin/r.cgi
 ||hudong.alicdn.com/api/data/v2/*.js
 ||i.cdnxiazai.com/img/xzq.png$image
-||iask.sina.com.cn/t/cnxh
-||iask.sina.com.cn/t/dfh
-||iask.sina.com.cn/t/fl
 ||images0.cnblogs.com/news/*/*/*.gif$domain=www.cnblogs.com
 ||img.baidu.com/hunter/m/zhidao-mobilemonkey-*.js
 ||img.kuai.xunlei.com/js/statistics.js
@@ -1043,19 +1047,16 @@ zuoye.baidu.com###aside
 ||ja2.gamersky.com/gs.tg.all.js
 ||jiaoyu.baidu.com/wenku/index
 ||jiathis.com$third-party
+||jingyan.baidu.com/asyncreq/log
 ||jingyan.baidu.com/event/img/fsyxlyqy.gif
-||jingyan.baidu.com/z/nyf/120x180.gif
 ||jqmt.qq.com/cdn_dianjiliu.js
 ||js-agent.newrelic.com/$domain=bitbucket.org
-||js.bkjia.com/bkjia/js/bkjiatongji.js$domain=bkjia.com
-||js.bkjia.com/bkjia/js/right_ad5.js$domain=bkjia.com
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
-||js.peng2s.com:2003/baidu/dix.js
-||js.peng2s.com:2003/baidu/m_shouji_down.js
+||js.peng2s.com:2003/baidu/
 ||js.ykimg.com/youku/dist/js/lib/ikuAdapterNew.js
 ||js.zol.com.cn/pvn/z.pv
 ||jstatic.letvcdn.com/sdk/apcsdk.js
@@ -1094,6 +1095,7 @@ zuoye.baidu.com###aside
 ||mt*.baidu.com/timg$domain=zhidao.baidu.com
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com
+||music.taihe.com/cms/mobile.gif
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nbrecsys.4paradigm.com/resource/cus/csdn/sdk-csdn-render.js
@@ -1200,12 +1202,12 @@ zuoye.baidu.com###aside
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
 ||static.wenku.bdimg.com/static/wkview/widget/html_view/html_reader/img/fenxiang_tips_*.png
-||static.wenwo.com/*/js/common/snsShare.min.js
 ||static.ykimg.com/youku/dist/js/page/iku/callIku/ikuAdapterNew.js
 ||static.youku.com/index/js/ikuAdapterNew.js
 ||static.youku.com/lvip/msg/chuda_message.js
 ||static.youku.com/v1.0.0951/index/js/tdstat.js
 ||static.youku.com/v1.0.116/index/js/ikuAdapterNew.js
+||static1.qianqian.com/web/static/js/ting/logger
 ||static1.searchbox.baidu.com/static/searchbox/openjs/mp.js$domain=boscdn.bpc.baidu.com
 ||statics.2cto.com/js/baidu_js_push.js
 ||statics.2cto.com/js/tj.js
@@ -1233,6 +1235,7 @@ zuoye.baidu.com###aside
 ||tip.tv.sohu.com/s
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$third-party
 ||tldrgames.disqus.com/count.js
+||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
 ||tracker.klink.tech
 ||tracking.epicgames.com
@@ -1240,6 +1243,7 @@ zuoye.baidu.com###aside
 ||ubistatic2-a.akamaihd.net/worldwide_analytics
 ||uhf.microsoft.com/*/shell/api/mscc$domain=www.typescriptlang.org
 ||uhf.microsoft.com/_log
+||update.vivaldi.com/stats/rep
 ||use.typekit.com/*.js$third-party
 ||use.typekit.net/*.js$third-party
 ||vivaldi.com/rep/rep
@@ -1379,6 +1383,7 @@ zuoye.baidu.com###aside
 ||www.youtube.com/iframe_api$domain=developer.mozilla.org|www.ssh.com,important
 ||www.zhaopin.com/static/analytics.js
 ||www.zhihu.com/node/Banner
+||youtrack.jetbrains.com/api/analytics
 ||zhannei-dm.csdn.net/recommend/baidu_zhannei_search
 ||zhannei.baidu.com/static/js/iframe.js$domain=news.52pk.com
 ||zhidao.baidu.com/question/api/recommend
