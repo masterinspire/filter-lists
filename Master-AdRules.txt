@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, 21 July, 2019
+! Last modified: Saturday, 27 July, 2019
 ! Title: Master-AdRules
-! Version: 20190721
+! Version: 20190727
 !
 !
 !
@@ -122,13 +122,8 @@ blog.sina.com.cn##SPAN[id="commAd_1"]
 blog.sina.com.cn##TABLE[id$="_panel"][class="CP_w"]
 blogs.msdn.com##DIV[id="MicrosoftTranslatorWidget"]
 blogs.msdn.microsoft.com###msccBanner
-book.dangdang.com##DIV[class="con storey_seven"]
-book.dangdang.com##DIV[class="con top_ad_banner"]
-book.dangdang.com##DIV[class^="pic_top_"]
 c.itcast.cn##DIV[id="floatTools"]
 cashierzui.alipay.com##DIV[class="alipay-xbox-1_1_5"]
-category.dangdang.com##DIV[class="returntop_area"]
-category.dangdang.com##DIV[name="AD_topb"]
 club.huawei.com##.hbwi-right.sd
 cn.bing.com###b_pole
 cn.bing.com##.adsblock
@@ -144,12 +139,7 @@ csdn.net##DIV[id="tag-suggest-pop"]
 css88.com##DIV[class="amazeui-link"]
 ctc.qzs.qq.com##DIV[class="word_spread side_panel"]
 ctc.qzs.qq.com##div#bottom-sponsor.say-bottom-ad
-customer.dangdang.com##DIV[id="fp_ads"]
 d9soft.com##DIV[class="soft-beinter clearboth"]
-dangdang.com##DIV[class="ad_bar_b ad_bar_top"]
-dangdang.com##DIV[class="logo"]
-dangdang.com##DIV[id="headererweima"]
-dangdang.com##DIV[id="sidebar_629_id"]
 datatables.net##.fw-container > .fw-body > .content > .comments_title
 detail.tmall.com##DIV[id="J_MUIMallbar"][class="mui-mbar-outer j_Mallbar_2.4.0"]
 detail.tmall.com##LI[class="tm-qrcode-icon "]
@@ -269,7 +259,6 @@ ltesting.net##DIV[class="col-sm-3 sec_topimg_1"]
 ltesting.net##DIV[class="col-sm-3 sec_topimg_2"]
 ltesting.net##DIV[id="hid_cs_pannel"]
 m.csdn.net###iphone_adverting
-m.dangdang.com##DIV[id="app_download"][class="app_list"]
 m.iqiyi.com##DIV[class="mod-qq-browser-fix"]
 m.iqiyi.com##DIV[id="bottomNativePopup"][class="mod-appBar"]
 m.iqiyi.com##DIV[id="sideBar"][class="mod-sideBar"]
@@ -356,32 +345,18 @@ nlog-project.org##DIV[id="banners-bottom"][class="ads"]
 nlog-project.org##DIV[id="banners-right"][class="ads row"]
 npm.taobao.org###fork
 nz.qq.com##.v_tips
-ourcrack.com##A[href="http://www.xiaobaixitong.com/?op "]
 outofmemory.cn###imgQqShare
 outofmemory.cn###imgSinaShare
 outofmemory.cn##.pop_win
 outofmemory.cn##.pop_win_bg
 p.t.qq.com##DIV[class="banner"]
 passport.baidu.com##DIV[class="app-download-link"]
-pcbeta.com##DIV[class="bm"]
-pcbeta.com##DIV[id="sitefocus"][class="focus"]
-pcbeta.com##SPAN[id="weixinqr"]
 pconline.com.cn##DIV[id="Jsurvey"]
 pconline.com.cn##DIV[id="app-ewm-tg"]
 play.google.com##.gb_9b.gb_zc.gb_fd
-product.dangdang.com##DIV[class="app_quan big_sale"]
-product.dangdang.com##DIV[class="aside"]
-product.dangdang.com##DIV[class="reco_wrap"]
-product.dangdang.com##DIV[class="topbanner_all"]
-product.dangdang.com##DIV[id="hot_products"][name="Hot_products_pub"]
-product.dangdang.com##DIV[id="return_top"][class="fix_box"]
-product.dangdang.com##DIV[id^="ad_cpt_top_"][class="topbanner_all"]
-product.dangdang.com##DIV[id^="describe_"]
-product.dangdang.com##SPAN[class="icon_n"]
 qidian.com##DIV[id="down_3g_20130621"][class="qdRead_client"]
 qidian.com##SPAN[id="qdass_sysnews"][class="time_news"]
 qtcn.org##DIV[class="pw_all_tip"]
-qun.qzone.qq.com##DIV[id="feeds_body"][class="qz_mod_bd"]
 read.douban.com###desktop-app-ad
 read.douban.com##.btns-tip.tooltip
 readthedocs.io##.keep-us-sustainable
@@ -392,12 +367,6 @@ sass-lang.com##DIV[class="alert stickers"]
 search.51job.com##A[id="fans_company_url"]
 search.51job.com##DIV[id="adTonglan"]
 search.51job.com##DIV[id="search_robot_layer"]
-search.dangdang.com##A[class="fix_box_yjfk"][name="feedback"]
-search.dangdang.com##DIV[class="col good_right"]
-search.dangdang.com##DIV[class="con "][name^="m"]
-search.dangdang.com##DIV[class="cont"]
-search.dangdang.com##DIV[class="fix_left_box"]
-search.dangdang.com##DIV[id="cpc_tab"]
 segmentfault.com##DIV[class="alert alert-warning topframe js-alert"]
 segmentfault.com##DIV[class="app-promotion-bar"]
 segmentfault.com##DIV[class="qrcodeWraper"]
@@ -411,6 +380,8 @@ social.msdn.microsoft.com###footerSock
 social.msdn.microsoft.com##DIV[id="nrSurvey"]
 software.intel.com###page > .l-footer-second
 software.intel.com###survey_container
+sourceforge.net###newsletter-floating
+sourceforge.net###project-nel
 stackblitz.com$domain=ng.ant.design
 stackoverflow.com##.js-dismissable-hero
 stackoverflow.com##.js-product-notice
@@ -560,6 +531,7 @@ www.baike.com##LI[id="sha"]
 www.baike.com##div[id^="hd_ad_doc"]
 www.bing.com###b_results > .b_top.b_ans
 www.bing.com###bnp_cont
+www.bing.com###bnp_hfly
 www.bing.com###flwn
 www.bing.com###lb_widget
 www.bing.com##.mal_oc
@@ -588,7 +560,6 @@ www.csdn.net###feedlist_id > li[data-type="ad"]
 www.csdn.net##.banner-ad-box
 www.csdn.net##.csdn-side-toolbar
 www.csdn.net##.indexSuperise
-www.dangdang.com##DIV[id="returntop"]
 www.digitalocean.com###newsletter-signup-dialog
 www.divcss5.com##DIV[class="if1200 ws"]
 www.doc88.com##DIV[class="skintips"]
@@ -776,6 +747,7 @@ zuoye.baidu.com###aside
 ||975-jox-769.mktoresp.com/webevents/visitWebPage
 ||a.clipconverter.cc/www/d/fr.php
 ||a.fsdn.com/con/js/madmen.js
+||a.fsdn.com/con/js/sftheme/cmp.js$domain=sourceforge.net
 ||a.lagou.com/collect
 ||a.lagou.com/js/a.js
 ||a.lagou.com/json?lt=trackshow
@@ -951,8 +923,6 @@ zuoye.baidu.com###aside
 ||data.services.jetbrains.com//geo
 ||data.services.jetbrains.com/geo
 ||data.v.qq.com/videocms/getNewsvideoList.php
-||databack.dangdang.com/collect.js
-||databack.dangdang.com/dde.php?platform=
 ||datacollect.vmall.com:18443$third-party
 ||datatables.net/media/js/dynamic.php
 ||dc*.csdn.net/track$domain=csdn.net
@@ -1142,7 +1112,6 @@ zuoye.baidu.com###aside
 ||readthedocs.org/api/v2/footer_html/?callback
 ||readthedocs.org/sustainability/view
 ||record.kuai.xunlei.com/r
-||recosys.dangdang.com/realdata/js/bookhome/collect.js
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/jquery-for-marketo-opt-in.js
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/marketo-opt-in-2.js
 ||referrer.disqus.com/juggler/event.gif
@@ -1197,15 +1166,14 @@ zuoye.baidu.com###aside
 ||static.iqiyi.com/js/pingback/qa.js
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
 ||static.oschina.net/uploads/cooperation/*_banner_*.jpg
-||static.oschina.net/uploads/space/2017/0602/161905_o3Ng_2982602.jpg
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
 ||static.wenku.bdimg.com/static/wkview/widget/html_view/html_reader/img/fenxiang_tips_*.png
 ||static.ykimg.com/youku/dist/js/page/iku/callIku/ikuAdapterNew.js
 ||static.youku.com/index/js/ikuAdapterNew.js
 ||static.youku.com/lvip/msg/chuda_message.js
-||static.youku.com/v1.0.0951/index/js/tdstat.js
-||static.youku.com/v1.0.116/index/js/ikuAdapterNew.js
+||static.youku.com/v1.*/index/js/ikuAdapterNew.js
+||static.youku.com/v1.*/index/js/tdstat.js
 ||static1.qianqian.com/web/static/js/ting/logger
 ||static1.searchbox.baidu.com/static/searchbox/openjs/mp.js$domain=boscdn.bpc.baidu.com
 ||statics.2cto.com/js/baidu_js_push.js
@@ -1316,7 +1284,7 @@ zuoye.baidu.com###aside
 ||www.google.com/gen_204
 ||www.google.com/insights/consumersurveys/
 ||www.google.com/jsapi$third-party
-||www.google.com/recaptcha/api.js$domain=gitlab.com|www.memurai.com,important
+||www.google.com/recaptcha/api.js$domain=gitlab.com,important
 ||www.googleadservices.com/pagead
 ||www.googletagmanager.com/gtag/js
 ||www.googletagmanager.com/gtm.js
