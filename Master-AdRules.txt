@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, 27 July, 2019
+! Last modified: Sunday, 11 August, 2019
 ! Title: Master-AdRules
-! Version: 20190727
+! Version: 20190811
 !
 !
 !
@@ -41,6 +41,11 @@ alipay.com##DIV[id="onlineService"]
 angularjs.org##UL[class="quick-links"]
 ankhsvn.open.collab.net##DIV[id="collabnet-products"]
 ankhsvn.open.collab.net##DIV[id="uvTab"]
+apkpure.com###ad-aegon-side
+apkpure.com###policy-info
+apkpure.com##.adsbypure
+apkpure.com##.left > .ad-box-auto
+apkpure.com##.share-fixed
 baidu.com##DIV[class="hint_toprq_tips f13 se_common_hint"]
 baidu.com##DIV[class="res_top_banner"]
 baidu.com##DIV[class="tools"]
@@ -212,9 +217,6 @@ jd.com###top-banner
 jd.com##.J-trigger.jdm-tbar-act
 jd.com##.fixed.jTdCode
 jianshu.com##UL[class="popline"]
-jinfuzi.com##DIV[class="gc_gxq_dl_wrap"]
-jinfuzi.com##DIV[class="qa_ask_notify"]
-jinfuzi.com##DIV[id="head-da"][class="mod_idx_da"]
 jingyan.baidu.com##.rightSide_ad
 jingyan.baidu.com##.wgt-shifu
 jingyan.baidu.com##ASIDE[id="aside"][class="main-aside"]
@@ -242,8 +244,6 @@ le.com###towCode
 liepin.com##.app-download
 liepin.com##.fixed-feed-back
 liepin.com##div[id^="NTGUID__"] > .guider
-life.china.com.cn##DIV[class="box9"]
-life.china.com.cn##IFRAME[id="zuoxia"]
 linux.cn##DIV[class="hm"]
 linux.cn##DIV[class="linuxcnad"]
 linux.cn##DIV[id="scrolltop"]
@@ -582,6 +582,7 @@ www.enterprisedb.com##.outer-content > .content_bottom > .chat-wrap,.contactus1
 www.enterprisedb.com##.outer-content > .content_middle > .chat-wrap
 www.entityframeworktutorial.net##A[id="ffb_feedback"]
 www.experts-exchange.com##DIV[class="verifiedSolution-B"]
+www.fanbyte.com###check-also-box
 www.gamersky.com###ADback
 www.gamersky.com##.Mid > .Mid2 > .Mid2_L > .block.Mid2L_ctt > .Mid2L_con > .adnone
 www.gamersky.com##.Mid7
@@ -653,8 +654,10 @@ www.oschina.net##a[data-traceid$="_ad"]
 www.oschina.net##section[class^=banner_wrapper]
 www.pornhub.com###js-abContainterMain
 www.quora.com##DIV[class*="hover_menu quote_hover_menu"]
-www.reddit.com##.NavFrame .pulse.TopButton
-www.reddit.com##.NavFrame > .xpromoMinimal.DualPartInterstitial
+www.reddit.com##.TopButton
+www.reddit.com##.XPromoAdFeed
+www.reddit.com##.active.XPromoPopup
+www.reddit.com##.xPromoAppStoreFooter
 www.romjd.com##.con > .clearfix.inner > .con-side > .box.funapp
 www.romzj.com##DIV[class="xzSearch box1Right"]
 www.runoob.com###respond
@@ -664,11 +667,6 @@ www.runoob.com##.right-column
 www.runoob.com##DIV[class="share-box"]
 www.runoob.com##DIV[id="ads"]
 www.shushu8.com##.readmidad
-www.soku.com###_xbox_ad
-www.soku.com###sideBar
-www.soku.com##.sk_header_min.sk_header_w.sk_header > .sk_wrap > .sk_promotion > .app_minbox
-www.soku.com##.sk_header_tip.sk_header_w.sk_header > .sk_wrap > .sk_promotion
-www.soku.com##.sk_header_tip.sk_header_w.sk_header > .sk_wrap > .sk_promotion > .code
 www.syntevo.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.syntevo.com##.cookie
 www.sysgeek.cn##.action-share
@@ -698,6 +696,7 @@ www.tutorialrepublic.com##ul:nth-of-type(6)
 www.tutorialspoint.com###privacy-banner
 www.tutorialspoint.com###rightbar
 www.ubuntu.com##.cookie-policy
+www.vg247.com##.newsletter-signup-wrapper
 www.w3school.com.cn##DIV[id="ad"]
 www.w3school.com.cn##DIV[id="searchui"]
 www.wilderssecurity.com##.bottomFixer
@@ -746,6 +745,7 @@ zuoye.baidu.com###aside
 ||7b1foz.com1.z0.glb.clouddn.com$domain=cnblogs.com
 ||975-jox-769.mktoresp.com/webevents/visitWebPage
 ||a.clipconverter.cc/www/d/fr.php
+||a.disquscdn.com/count.js
 ||a.fsdn.com/con/js/madmen.js
 ||a.fsdn.com/con/js/sftheme/cmp.js$domain=sourceforge.net
 ||a.lagou.com/collect
@@ -861,7 +861,6 @@ zuoye.baidu.com###aside
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengda.jpg
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
-||cdn.ccav1.me/jquery.js
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.livechatinc.com/tracking.js
@@ -981,6 +980,7 @@ zuoye.baidu.com###aside
 ||gold-cdn.xitu.io/v3/static/img/extension.1dbaf43.png
 ||google-analytics.com$third-party
 ||googleads.g.doubleclick.net$important
+||gql.reddit.com/?request_timestamp
 ||gradle.org/js/event-tracker.js
 ||graph.facebook.com/*/picture$domain=stackoverflow.com
 ||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=csdn.net
@@ -1096,6 +1096,8 @@ zuoye.baidu.com###aside
 ||platform.linkedin.com/js/framework?v
 ||platform.twitter.com/widgets.js$third-party
 ||play.google.com/_/PlayStoreUi/browserinfo
+||play.google.com/_/PlayStoreUi/gen204
+||play.google.com/_/PlayStoreUi/jserror
 ||play.google.com/log
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
@@ -1333,6 +1335,7 @@ zuoye.baidu.com###aside
 ||www.ssh.com/trk
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
 ||www.typescriptlang.org/assets/js/cc.min.*.js
+||www.vg247.com/wp-content/themes/vg247/scripts/CookieGDPR.js
 ||www.vmware.com/ciovantage/wp-content/themes/smart-mag/js/AdobeAnalyticsPlugin.js
 ||www.vmware.com/content/dam/digitalmarketing/vmware/en/files/include/vmf/module/core/js/log.js
 ||www.vmware.com/content/dam/vmwaredesigns/geoip/configs/country-mapping.json
