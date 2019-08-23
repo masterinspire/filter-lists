@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, 11 August, 2019
+! Last modified: Friday, 23 August, 2019
 ! Title: Master-AdRules
-! Version: 20190811
+! Version: 20190823
 !
 !
 !
@@ -148,7 +148,9 @@ d9soft.com##DIV[class="soft-beinter clearboth"]
 datatables.net##.fw-container > .fw-body > .content > .comments_title
 detail.tmall.com##DIV[id="J_MUIMallbar"][class="mui-mbar-outer j_Mallbar_2.4.0"]
 detail.tmall.com##LI[class="tm-qrcode-icon "]
+devblogs.microsoft.com##.a2a_kit
 developer.android.com##devsite-snackbar
+developer.microsoft.com###uhfCookieAlert
 developer.microsoft.com##.sockWrapper
 developer.mozilla.org###developer_needs
 developer.mozilla.org##.notification-tray
@@ -258,6 +260,8 @@ lol.qq.com##EMBED[id="_playerswf"]
 ltesting.net##DIV[class="col-sm-3 sec_topimg_1"]
 ltesting.net##DIV[class="col-sm-3 sec_topimg_2"]
 ltesting.net##DIV[id="hid_cs_pannel"]
+m.baidu.com###tab_news_1
+m.baidu.com##.square-banner-bgicon.index-banner
 m.csdn.net###iphone_adverting
 m.iqiyi.com##DIV[class="mod-qq-browser-fix"]
 m.iqiyi.com##DIV[id="bottomNativePopup"][class="mod-appBar"]
@@ -390,17 +394,6 @@ stackoverflow.com##DIV[id^="careers"]
 stackoverflow.com##DIV[id^="noscript"]
 support.office.com###supWrapperToPreventFeedbackFlickering
 sz.58.com###right_gj
-tech.it168.com###huaci
-tech.it168.com##DIV[class="article_layer1"]
-tech.it168.com##DIV[class="it168_fl"]
-tech.it168.com##DIV[class="it168_fl2"]
-tech.it168.com##img#selectsearch-icon
-tech.sina.com.cn##DIV[class="blkContentSearchCont"]
-tech.sina.com.cn##DIV[class="content_print content-tools-wrap"]
-tech.sina.com.cn##DIV[id="J_Comment_Wrap"]
-tech.sina.com.cn##DIV[id="bdshare"]
-tech.sina.com.cn##DIV[id="content-tools-share"]
-tech.sina.com.cn##DIV[id="lcs_wrap"]
 tech.sina.com.cn##SPAN[class="content-tools-share-label"]
 technet.microsoft.com###skinnyRating
 technet.microsoft.com###standardRating
@@ -446,19 +439,6 @@ wapbaike.baidu.com##DIV[class="zhidaoImport"]
 wapbaike.baidu.com##SPAN[class="set-tips"]
 webpack.js.org##.notification-bar
 webpack.js.org##.sponsors
-weibo.com##DIV[class="PCD_nodelayer"]
-weibo.com##DIV[class="PCD_pictext_b"]
-weibo.com##DIV[class="PCD_pictext_g"]
-weibo.com##DIV[class="WB_cardwrap WB_feed_type S_bg2"][node-type="feed_spread"]
-weibo.com##DIV[class="WB_right_module"]
-weibo.com##DIV[class="W_tips tips_warn clearfix"]
-weibo.com##DIV[class="apps_PCD_reco_detail_right"]
-weibo.com##DIV[class="feed_app_ads"]
-weibo.com##DIV[class="gn_search "]
-weibo.com##DIV[class="nologin_profile"]
-weibo.com##DIV[id="v6_pl_content_hometip"]
-weibo.com##DIV[id="v6_pl_rightmod_hongbaoentrance"]
-weibo.com##DIV[node-type="recommendTopic"]
 wenda.haosou.com##DIV[class="access"]
 wenda.haosou.com##DIV[class="js-panels"]
 wenda.haosou.com##DIV[class="mod-lift g-mod-fixed"]
@@ -512,6 +492,8 @@ www.androiddevtools.cn###auto-scroll-ad-box
 www.apress.com##.wrapper > .page > .col3-layout.main > .col-wrapper > .straddle-1-2 > .col-main > div:nth-of-type(1)
 www.asp.net###helpful
 www.asp.net##DIV[id="survey-container"]
+www.baidu.com##.qrcodeCon
+www.baidu.com##.unsafe_content
 www.baidu.com##DIV[class="fixed"]
 www.baidu.com##div#foot-blank~div
 www.baike.com###sha
@@ -582,6 +564,7 @@ www.enterprisedb.com##.outer-content > .content_bottom > .chat-wrap,.contactus1
 www.enterprisedb.com##.outer-content > .content_middle > .chat-wrap
 www.entityframeworktutorial.net##A[id="ffb_feedback"]
 www.experts-exchange.com##DIV[class="verifiedSolution-B"]
+www.fanbyte.com###PopupSignupForm_0
 www.fanbyte.com###check-also-box
 www.gamersky.com###ADback
 www.gamersky.com##.Mid > .Mid2 > .Mid2_L > .block.Mid2L_ctt > .Mid2L_con > .adnone
@@ -653,7 +636,7 @@ www.oschina.net##[name="detail_show_footer"]
 www.oschina.net##a[data-traceid$="_ad"]
 www.oschina.net##section[class^=banner_wrapper]
 www.pornhub.com###js-abContainterMain
-www.quora.com##DIV[class*="hover_menu quote_hover_menu"]
+www.quora.com##.ViewInAppLink
 www.reddit.com##.TopButton
 www.reddit.com##.XPromoAdFeed
 www.reddit.com##.active.XPromoPopup
@@ -687,10 +670,6 @@ www.techweb.com.cn##A[href^="http://ads.techweb.cn"]
 www.techweb.com.cn##DIV[id="share_content"]
 www.telerik.com##.optanon-alert-box-wrapper
 www.tldrgames.com###catapult-cookie-bar
-www.tudou.com###downloadItudou
-www.tudou.com###player > .player_box > .itudou
-www.tudou.com##DIV[class="tui_dialog tudou_dialog ugc_dialog login_dialog"]
-www.tudou.com##DIV[class="tui_mask"]
 www.tutorialrepublic.com##.affiliate.segment
 www.tutorialrepublic.com##ul:nth-of-type(6)
 www.tutorialspoint.com###privacy-banner
@@ -949,6 +928,7 @@ zuoye.baidu.com###aside
 ||fe-go.letv.com/ds
 ||feed.baidu.com/feed/api/tab/gettabinfo
 ||feed.baidu.com/feed/api/wise/feedlist
+||feed.baidu.com/feed/api/wise/getwiseafdads
 ||fls-na.amazon.com/1/batch/1/OE/
 ||flume.csdn.net/csdnbi
 ||forms.convertkit.com
@@ -1035,6 +1015,7 @@ zuoye.baidu.com###aside
 ||linuxjournal.disqus.com/count.js
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||lofter.com/recommendblog$domain=blog.163.com
+||log.quora.com/ajax/batched_log_POST
 ||m.baidu.com/rec?
 ||m.baidu.com/s?word
 ||m.baidu.com/se/static/js/base/ala/invokeApp_*.js
@@ -1143,12 +1124,11 @@ zuoye.baidu.com###aside
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/search_tracking_js
 ||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
+||sm.bdimg.com/static/wiseindex/js/lib/transfer/common/Carousel_*.js
 ||smetrics.ubi.com
 ||sp1.baidu.com/*/mwb.gif
+||sp1.baidu.com/*/v.gif
 ||sp1.baidu.com/*/webb.gif
-||ss1.bdstatic.com/*/www/cache/static/*/all_async_search_*.js|$domain=www.baidu.com
-||ss1.bdstatic.com/*/www/cache/static/*/baiduia_*.js$domain=www.baidu.com
-||ss1.bdstatic.com/*/www/cache/static/*/every_cookie_*.js$domain=www.baidu.com
 ||ssl.gstatic.com/feedback/api.js
 ||ssl.gstatic.com/support/content/gpf/gpf_stats.js
 ||ssl.microsofttranslator.com/ajax/v3/WidgetV3.ashx
@@ -1251,6 +1231,7 @@ zuoye.baidu.com###aside
 ||www.aiyiweb.com/Scripts/baiduShare.js
 ||www.ali213.net/news/images/newsnybn.jpg
 ||www.baidu.com/rec
+||www.baidu.com/sugrec
 ||www.bing.com/images/sbi?mmasync=1
 ||www.bing.com/perfawareness
 ||www.bing.com/web/xls.aspx
