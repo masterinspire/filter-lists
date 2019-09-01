@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, 23 August, 2019
+! Last modified: Sunday, 1 September, 2019
 ! Title: Master-AdRules
-! Version: 20190823
+! Version: 20190901
 !
 !
 !
@@ -261,6 +261,7 @@ ltesting.net##DIV[class="col-sm-3 sec_topimg_1"]
 ltesting.net##DIV[class="col-sm-3 sec_topimg_2"]
 ltesting.net##DIV[id="hid_cs_pannel"]
 m.baidu.com###tab_news_1
+m.baidu.com##.se-ft-promlink
 m.baidu.com##.square-banner-bgicon.index-banner
 m.csdn.net###iphone_adverting
 m.iqiyi.com##DIV[class="mod-qq-browser-fix"]
@@ -287,17 +288,11 @@ map.baidu.com##DIV[id="MaptoDown_tip"][class="search-tip"]
 map.baidu.com##DIV[id="defCityTip"][class="GR_Tip def_city_tip"]
 map.baidu.com##DIV[id="showPanoPage"][class="stOccupyPic"]
 map.baidu.com##SPAN[id="moText"][class="help_list"]
-medium.com##.highlightMenu
 medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
+medium.com##script:last-of-type + div
 minecraft.gamepedia.com##div[class^="app_gdpr"]
 mobile.zol.com.cn##DIV[class="module mobile-app"]
-money.163.com##DIV[class="atleLP"]
-money.163.com##DIV[id="js-ep-reletag"][class="ep-keywords-side"]
-money.163.com##DIV[id="side_video_wrap"]
-money.21cbh.com##A[class="goindex"]
-money.21cbh.com##DIV[id="bottom"]
-money.21cbh.com##SPAN.blank15+a
 movie.le.com###moviebottomad
 movie.le.com###popFix_tool
 movie.le.com###popFix_userInfo
@@ -320,18 +315,6 @@ my.alipay.com##DIV[id="J-ads-corner"][class="ad-cornerbox"]
 my.alipay.com##DIV[id="J-cooperant-banner"][class="i-cooperant-banner"]
 my.oschina.net###OSC_Content > .SpaceList:nth-of-type(2) > .BlogEntity > .BlogShare
 my.oschina.net###OSC_Content > .SpaceList:nth-of-type(2) > .BlogEntity > p
-my.paipai.com##DIV[id="msgBoard"][class="pp-topmessage"]
-mydown.yesky.com##DIV[class="mgt0"]
-mydown.yesky.com##DIV[class="mlp_yesky_download_column_1"]
-mydown.yesky.com##DIV[class="mlp_yesky_download_column_2"]
-mydown.yesky.com##DIV[class="mlp_yesky_download_rbutton"]
-mydown.yesky.com##DIV[class="mlp_yesky_inner_bottom_banner"]
-mydown.yesky.com##DIV[class="mlp_yesy_inner_column_1"]
-mydown.yesky.com##DIV[class="mlp_yesy_inner_column_2"]
-mydown.yesky.com##DIV[class="mlp_yseky_inner_button2"]
-mydown.yesky.com##DIV[class="mlp_yseky_inner_button3"]
-mydown.yesky.com##DIV[class="rimg"]
-mydown.yesky.com##P[class="bdtj"]
 myexception.cn##DIV[class="c_a_6"]
 myexception.cn##DIV[class="c_a_7"]
 myexception.cn##DIV[class="c_a_8"]
@@ -492,7 +475,9 @@ www.androiddevtools.cn###auto-scroll-ad-box
 www.apress.com##.wrapper > .page > .col3-layout.main > .col-wrapper > .straddle-1-2 > .col-main > div:nth-of-type(1)
 www.asp.net###helpful
 www.asp.net##DIV[id="survey-container"]
+www.baidu.com###tab_news_1
 www.baidu.com##.qrcodeCon
+www.baidu.com##.square-banner-bgicon.index-banner
 www.baidu.com##.unsafe_content
 www.baidu.com##DIV[class="fixed"]
 www.baidu.com##div#foot-blank~div
@@ -1035,6 +1020,7 @@ zuoye.baidu.com###aside
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
 ||medium.com/_/batch
+||medium.com/_/lite/performance/
 ||medium.com/_/stat
 ||medium.com/p/*/upvotes
 ||mem.gfx.ms/meversion?partner=mssoftware-download
@@ -1124,6 +1110,7 @@ zuoye.baidu.com###aside
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/search_tracking_js
 ||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
+||sm.bdimg.com/static/wiseindex/js/lib/transfer/a4/carousel_*.js
 ||sm.bdimg.com/static/wiseindex/js/lib/transfer/common/Carousel_*.js
 ||smetrics.ubi.com
 ||sp1.baidu.com/*/mwb.gif
