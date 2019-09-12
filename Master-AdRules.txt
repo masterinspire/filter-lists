@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, 1 September, 2019
+! Last modified: Thursday, 12 September, 2019
 ! Title: Master-AdRules
-! Version: 20190901
+! Version: 20190912
 !
 !
 !
@@ -30,14 +30,14 @@
 58.com##DIV[id="listBottomBar"][class="bottom-bar"]
 58.com##LI[class="gSuggest"]
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
-@@||azureedge.net^$third-party,important
 @@||localhost$document
-@@||pingjs.qq.com/tcss.ping.js
-@@||sinaimg.cn/unipro/pub/suda_s_*.js$domain=mail.sina.com.cn
 ai.baidu.com##.doc-feedback
 alipay.com##DIV[id="J-global-notice-container"]
 alipay.com##DIV[id="globalTopAD"]
 alipay.com##DIV[id="onlineService"]
+amp.reddit.com###dismissOverlay
+amp.reddit.com##.AppSelectorModal__body
+amp.reddit.com##.SiteHeader__AppBtn.upsell_banner.TopButton
 angularjs.org##UL[class="quick-links"]
 ankhsvn.open.collab.net##DIV[id="collabnet-products"]
 ankhsvn.open.collab.net##DIV[id="uvTab"]
@@ -544,6 +544,7 @@ www.duote.com##DIV[class="bd_box bd_box4"]
 www.duote.com##DIV[class="dl_banner"]
 www.duote.com##DIV[id="2345_ad"][class="top top_soft_part"]
 www.duote.com##DIV[id="J_ipo_banner_close"]
+www.echartsjs.com###apache-banner
 www.enterprisedb.com###promoWrapper
 www.enterprisedb.com##.outer-content > .content_bottom > .chat-wrap,.contactus1
 www.enterprisedb.com##.outer-content > .content_middle > .chat-wrap
@@ -648,7 +649,6 @@ www.szjs.gov.cn##DIV[id="piaochuang"]
 www.szjzz.gov.cn###adfloat1
 www.talkingdotnet.com###dvBottomContent
 www.talkingdotnet.com##.sd-sharing-enabled.sharedaddy
-www.tapd.cn###new_nav_avatar_div
 www.tapd.cn##.bind-phone-tips
 www.techonthenet.com##.adsblocked
 www.techweb.com.cn##A[href^="http://ads.techweb.cn"]
@@ -666,8 +666,6 @@ www.w3school.com.cn##DIV[id="searchui"]
 www.wilderssecurity.com##.bottomFixer
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
-www.wps.cn##A[class="school"]
-www.wps.cn##DIV[id="FOOT_BAR"][class="bar_foot"]
 www.xiazaiba.com##div.bdsharebuttonbox
 www.youku.com###FixMod
 www.youku.com###_xbox_ad
@@ -824,6 +822,7 @@ zuoye.baidu.com###aside
 ||cache.tv.qq.com/bigportal/xml/text_tips/msgtips.xml
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengda.jpg
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
+||cdn.ampproject.org/v0/amp-social-share-*.js
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
@@ -988,6 +987,8 @@ zuoye.baidu.com###aside
 ||js-agent.newrelic.com/$domain=bitbucket.org
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
+||js.hs-scripts.com^$domain=stenciljs.com
+||js.hsforms.net/forms/v2.js$domain=stenciljs.com
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
@@ -1026,12 +1027,17 @@ zuoye.baidu.com###aside
 ||mem.gfx.ms/meversion?partner=mssoftware-download
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx
 ||modernizr.com/i/js/analytics.js
+||mp.weixin.qq.com/mp/appmsgreport
+||mp.weixin.qq.com/mp/getappmsgad
+||mp.weixin.qq.com/mp/report
 ||msg.csdn.net/v1/chrome/notification/view
 ||mssplus.mcafee.com/mssplus.txt$domain=adobe.com
 ||mt*.baidu.com/timg$domain=zhidao.baidu.com
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com
 ||music.taihe.com/cms/mobile.gif
+||myaccount.google.com/_/AccountSettingsUi/browserinfo
+||myaccount.google.com/_/AccountSettingsUi/jserror
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nbrecsys.4paradigm.com/resource/cus/csdn/sdk-csdn-render.js
@@ -1102,6 +1108,7 @@ zuoye.baidu.com###aside
 ||s7.addthis.com^*/addthis_widget.js$important
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||sdk-m.le.com/report/report_sdk.js
+||sentry.io/api/*$domain=medium.com
 ||shared.ydstatic.com/js/yadk/*.*.*.js$domain=csdn.net
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=csdn.net
 ||sharethis.com$third-party
@@ -1112,6 +1119,7 @@ zuoye.baidu.com###aside
 ||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
 ||sm.bdimg.com/static/wiseindex/js/lib/transfer/a4/carousel_*.js
 ||sm.bdimg.com/static/wiseindex/js/lib/transfer/common/Carousel_*.js
+||smartlock.google.com^$domain=medium.com
 ||smetrics.ubi.com
 ||sp1.baidu.com/*/mwb.gif
 ||sp1.baidu.com/*/v.gif
