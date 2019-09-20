@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, 12 September, 2019
+! Last modified: Friday, 20 September, 2019
 ! Title: Master-AdRules
-! Version: 20190912
+! Version: 20190920
 !
 !
 !
@@ -146,8 +146,6 @@ ctc.qzs.qq.com##DIV[class="word_spread side_panel"]
 ctc.qzs.qq.com##div#bottom-sponsor.say-bottom-ad
 d9soft.com##DIV[class="soft-beinter clearboth"]
 datatables.net##.fw-container > .fw-body > .content > .comments_title
-detail.tmall.com##DIV[id="J_MUIMallbar"][class="mui-mbar-outer j_Mallbar_2.4.0"]
-detail.tmall.com##LI[class="tm-qrcode-icon "]
 devblogs.microsoft.com##.a2a_kit
 developer.android.com##devsite-snackbar
 developer.microsoft.com###uhfCookieAlert
@@ -158,7 +156,6 @@ disqus.com##.login-overlay__wrapper
 dl.pconline.com.cn##.navi-bottom
 dl.pconline.com.cn##DIV[class="commBox"]
 dl.pconline.com.cn##DIV[id="popapp1"][class="pop-app"]
-dl.vmall.com##DIV[id="side"][class="panel-recommended"]
 docs.asp.net###helpful
 docs.influxdata.com###support-ad
 docs.microsoft.com###openFeedbackContainer
@@ -182,8 +179,6 @@ drivers.mydrivers.com##DIV[class="down_in_url_right"]
 drivers.mydrivers.com##DIV[class="title_center_t"]
 drivers.mydrivers.com##DIV[class="title_t_right"]
 embed.plnkr.co##.plunker-ad-wrap
-film.sohu.com##.J_pop_operates.pop-operates
-film.sohu.com##.player-content-info > .J_act_operation
 fontawesome.io###banner
 forums.asp.net##.all-content > div:nth-of-type(1)
 foundation.zurb.com##SECTION[id="jobs"]
@@ -207,8 +202,8 @@ gitee.com##.gitee-stars-banner
 gitee.com##.side-toolbar
 gitee.com##.wallet-banner
 gl.ali213.net##DIV[id="GLDIV"][class="glqcode"]
-grafana.com##.sticky-footer--dark.sticky-footer
-grafana.com##.sticky-footer--grafanacon-la.sticky-footer
+grafana.com##.sticky-footer--dark
+grafana.com##.sticky-footer--grafanacon-la
 group.pcbeta.com##DIV[class="CGHJW"]
 gruntjs.com##DIV[class="advertisements"]
 i.youku.com###qrcode-container
@@ -284,10 +279,6 @@ mail.qq.com##DIV[id="returnMsg"][class="login_msg"]
 mail.sina.com.cn##div[class^="ad"]
 map.baidu.com###ui3_springfestival_data
 map.baidu.com##DIV[class="addrBottomImg"]
-map.baidu.com##DIV[id="MaptoDown_tip"][class="search-tip"]
-map.baidu.com##DIV[id="defCityTip"][class="GR_Tip def_city_tip"]
-map.baidu.com##DIV[id="showPanoPage"][class="stOccupyPic"]
-map.baidu.com##SPAN[id="moText"][class="help_list"]
 medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
 medium.com##script:last-of-type + div
@@ -315,16 +306,7 @@ my.alipay.com##DIV[id="J-ads-corner"][class="ad-cornerbox"]
 my.alipay.com##DIV[id="J-cooperant-banner"][class="i-cooperant-banner"]
 my.oschina.net###OSC_Content > .SpaceList:nth-of-type(2) > .BlogEntity > .BlogShare
 my.oschina.net###OSC_Content > .SpaceList:nth-of-type(2) > .BlogEntity > p
-myexception.cn##DIV[class="c_a_6"]
-myexception.cn##DIV[class="c_a_7"]
-myexception.cn##DIV[class="c_a_8"]
-myexception.cn##DIV[class="m_t_a"]
-myexception.cn##DIV[class="r"]
 news.cnblogs.com##DIV[id="article_A4area"]
-news.mydrivers.com##.news_box > .news_left > .news_n > .news_bt1:nth-of-type(7) > .news_bt1_left
-news.mydrivers.com##.news_box > .news_right
-news.mydrivers.com##.weixin
-news.mydrivers.com##body > div:nth-of-type(7) > table:nth-of-type(2)
 nginx.org##DIV[id="banner"]
 niutuku.com##DIV[id="toptip"][class="toptip"]
 nlog-project.org##DIV[class="banner-item col-md-12 col-xs-12 col-sm-3"]
@@ -360,9 +342,6 @@ segmentfault.com##DIV[class="qrcodeWraper"]
 segmentfault.com##DIV[class~="widget-welcome-question"]
 semantic-ui.com##.visible.transition.segment.beg.vertical.ui
 shouji.360.cn##A[id="bannar-ad"]
-sina.com.cn##DIV[class="guess-view-list clearfix"]
-sina.com.cn##DIV[class="real-time-window"]
-sina.com.cn##DIV[id="wb_rec"][class="wb_rec"]
 social.msdn.microsoft.com###footerSock
 social.msdn.microsoft.com##DIV[id="nrSurvey"]
 software.intel.com###page > .l-footer-second
@@ -535,15 +514,6 @@ www.dotnet-tricks.com###sticky-footer
 www.dotnettricks.com###sidebarbatchesdetail
 www.dotnettricks.com##.sticky-footer
 www.dotnettricks.com##^#ads$important
-www.douban.com##DIV[class="qrcode-app"]
-www.douban.com##DIV[class="ui-overlay-anchor"]
-www.douban.com##DIV[class="ui-overlay-mask"]
-www.douban.com##DIV[id="doubanapp-tip"]
-www.douban.com##DIV[id="landing-bar"]
-www.duote.com##DIV[class="bd_box bd_box4"]
-www.duote.com##DIV[class="dl_banner"]
-www.duote.com##DIV[id="2345_ad"][class="top top_soft_part"]
-www.duote.com##DIV[id="J_ipo_banner_close"]
 www.echartsjs.com###apache-banner
 www.enterprisedb.com###promoWrapper
 www.enterprisedb.com##.outer-content > .content_bottom > .chat-wrap,.contactus1
@@ -563,7 +533,6 @@ www.influxdata.com##.cookieterms
 www.iqiyi.com###bottomfix-login-reg
 www.iqiyi.com##.hy_ydBox
 www.iqiyi.com##.iqp-box-integral
-www.it-ebooks.info##.main > tbody > tr:nth-of-type(2) > .top > div:nth-of-type(2) > .ebook_view > tbody > tr > td:nth-of-type(3)
 www.jb51.net##DIV[class="comment"]
 www.jb51.net##DIV[class="ewm"]
 www.jb51.net##DIV[id="baidutj"]
@@ -750,12 +719,14 @@ zuoye.baidu.com###aside
 ||apkmirror.disqus.com/embed.js
 ||app-sj05.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
+||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||apps.bdimg.com/cloudaapi/lightapp.js$domain=csdn.net
 ||aq.xunlei.com/v1.3/js/aq_bm.js
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||ask.dcloud.net.cn/crond/run/
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
+||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
@@ -939,12 +910,14 @@ zuoye.baidu.com###aside
 ||gitee.com/assets/my_wallet/banner*.png
 ||gitee.com/bd_share
 ||gitee.com/index/ent_poster/banner_*.png
-||glitter.services.disqus.com/urls/?callback=dsqGlitterResponseHandler&forum_shortname=techxposer
+||glitter.services.disqus.com/urls/?callback=dsqGlitterResponseHandler
 ||go.digitalocean.com/js/forms2/js/forms2.min.js
+||go.pardot.com/js/piUtils.js$domain=gradle.com|gradle.org
 ||gold-cdn.xitu.io/v3/static/img/extension.1dbaf43.png
 ||google-analytics.com$third-party
 ||googleads.g.doubleclick.net$important
 ||gql.reddit.com/?request_timestamp
+||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
 ||graph.facebook.com/*/picture$domain=stackoverflow.com
 ||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=csdn.net
@@ -1093,6 +1066,7 @@ zuoye.baidu.com###aside
 ||reload.getsentry.net/page/
 ||res.cdn.openinstall.io/openinstall.js$domain=csdn.net
 ||res.wx.qq.com/open/js/jweixin-*.js$domain=csdn.net|gitee.com
+||resources.jetbrains.com/storage/help-app/v3/analytics.js
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 ||s-nfa.jd.com/bd
 ||s.cn.bing.net/th?*pid=News
@@ -1108,7 +1082,7 @@ zuoye.baidu.com###aside
 ||s7.addthis.com^*/addthis_widget.js$important
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||sdk-m.le.com/report/report_sdk.js
-||sentry.io/api/*$domain=medium.com
+||sentry.io/api$domain=jetbrains.com|medium.com
 ||shared.ydstatic.com/js/yadk/*.*.*.js$domain=csdn.net
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=csdn.net
 ||sharethis.com$third-party
@@ -1121,6 +1095,7 @@ zuoye.baidu.com###aside
 ||sm.bdimg.com/static/wiseindex/js/lib/transfer/common/Carousel_*.js
 ||smartlock.google.com^$domain=medium.com
 ||smetrics.ubi.com
+||solo41.biz$domain=www.tutorialspoint.com
 ||sp1.baidu.com/*/mwb.gif
 ||sp1.baidu.com/*/v.gif
 ||sp1.baidu.com/*/webb.gif
