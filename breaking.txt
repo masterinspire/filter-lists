@@ -1,0 +1,13 @@
+! Author: Master Inspire
+! Expires: 7 days (update frequency)
+! Homepage: https://github.com/masterinspire/Master-AdRules
+! Last modified: Friday, 20 September, 2019
+! Title: Master-AdRules Breaking
+! Version: 20190920
+!
+!
+!
+||res.wx.qq.com/open/js/jweixin-*.js
+||i.stack.imgur.com$domain=stackoverflow.com
+||lh3.googleusercontent.com$domain=stackoverflow.com
+||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org,important
