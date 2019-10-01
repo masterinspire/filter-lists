@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, 20 September, 2019
+! Last modified: Tuesday, 1 October, 2019
 ! Title: Master-AdRules
-! Version: 20190920
+! Version: 20191001
 !
 !
 !
@@ -46,6 +46,8 @@ apkpure.com###policy-info
 apkpure.com##.adsbypure
 apkpure.com##.left > .ad-box-auto
 apkpure.com##.share-fixed
+auth0.com###popup
+auth0.com###selectionSharerPopover
 baidu.com##DIV[class="hint_toprq_tips f13 se_common_hint"]
 baidu.com##DIV[class="res_top_banner"]
 baidu.com##DIV[class="tools"]
@@ -153,31 +155,12 @@ developer.microsoft.com##.sockWrapper
 developer.mozilla.org###developer_needs
 developer.mozilla.org##.notification-tray
 disqus.com##.login-overlay__wrapper
-dl.pconline.com.cn##.navi-bottom
-dl.pconline.com.cn##DIV[class="commBox"]
-dl.pconline.com.cn##DIV[id="popapp1"][class="pop-app"]
 docs.asp.net###helpful
 docs.influxdata.com###support-ad
 docs.microsoft.com###openFeedbackContainer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
 dotnet.microsoft.com###uhfCookieAlert
-down.51cto.com##DIV[id="f_close_box"]
-down.51cto.com##DIV[id="sogou_se_tgbar"]
-down.gamersky.com##.ngg_down
-download.pchome.net##DIV[class="dl-piclist dl-piclist-soft"]
-download.pchome.net##DIV[class="dl-piclist"]
-download.pchome.net##DIV[class="dl-rightbtns wrapper"]
-download.pchome.net##DIV[class="dl-sidebar-kw mg-btm20"]
-download.pchome.net##DIV[class="dl-title-side mg-btm10"]
-download.pchome.net##DIV[class="dl-title2 mg-btm20"]
-download.pchome.net##DIV[id="modGroupC"]
-downza.cn##DIV[class="side_banner mb_15"]
-drivers.mydrivers.com##DIV[class="baidu_box"]
-drivers.mydrivers.com##DIV[class="down_in_url_left"]
-drivers.mydrivers.com##DIV[class="down_in_url_right"]
-drivers.mydrivers.com##DIV[class="title_center_t"]
-drivers.mydrivers.com##DIV[class="title_t_right"]
 embed.plnkr.co##.plunker-ad-wrap
 fontawesome.io###banner
 forums.asp.net##.all-content > div:nth-of-type(1)
@@ -344,11 +327,13 @@ semantic-ui.com##.visible.transition.segment.beg.vertical.ui
 shouji.360.cn##A[id="bannar-ad"]
 social.msdn.microsoft.com###footerSock
 social.msdn.microsoft.com##DIV[id="nrSurvey"]
+soft.shouji.com.cn##.ggzs_bottom
 software.intel.com###page > .l-footer-second
 software.intel.com###survey_container
 sourceforge.net###newsletter-floating
 sourceforge.net###project-nel
-stackblitz.com$domain=ng.ant.design
+stackify.com##.cta-contain
+stackoverflow.com##.js-announcement-banner
 stackoverflow.com##.js-dismissable-hero
 stackoverflow.com##.js-product-notice
 stackoverflow.com##DIV[id="hireme"]
@@ -628,6 +613,8 @@ www.tutorialrepublic.com##.affiliate.segment
 www.tutorialrepublic.com##ul:nth-of-type(6)
 www.tutorialspoint.com###privacy-banner
 www.tutorialspoint.com###rightbar
+www.tutorialspoint.com##.google-bottom-ads
+www.tutorialspoint.com##.top-ad-heading
 www.ubuntu.com##.cookie-policy
 www.vg247.com##.newsletter-signup-wrapper
 www.w3school.com.cn##DIV[id="ad"]
@@ -831,6 +818,7 @@ zuoye.baidu.com###aside
 ||connect.ubisoft.com/api/default/location
 ||consent-st.truste.com/get
 ||consent.cookiebot.com/uc.js
+||consent.trustarc.com/notice?domain=auth0.com
 ||cordova.apache.org/static/js/twitter.js
 ||cpro.baidustatic.com/cpro/ui/c.js
 ||cpro.baidustatic.com/cpro/ui/f.js
@@ -896,6 +884,7 @@ zuoye.baidu.com###aside
 ||g.csdnimg.cn/check-adb/*/check-adb.js
 ||g.csdnimg.cn/side-toolbar/
 ||g.s8dj.com$domain=gamersky.com
+||gdpr-service.herokuapp.com/is-gdpr
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
 ||getadblock.com/css/stripeButton.css
@@ -1055,6 +1044,7 @@ zuoye.baidu.com###aside
 ||push.zhanzhang.baidu.com/push.js
 ||pv.csdn.net/csdnbi
 ||r.l.youku.com/trecommendshow
+||rating-widget.com/js/api/rating/get.php
 ||rc.vrs.sohu.com/56/home
 ||re.csdn.net/csdnbi
 ||readthedocs.org/api/v2/footer_html/?callback
@@ -1165,6 +1155,7 @@ zuoye.baidu.com###aside
 ||update.vivaldi.com/stats/rep
 ||use.typekit.com/*.js$third-party
 ||use.typekit.net/*.js$third-party
+||va.tawk.to/register/$domain=www.sswug.org
 ||vivaldi.com/rep/rep
 ||vlscppe.microsoft.com/tags
 ||vo.msecnd.net/scripts/jsll-3.3.1.js$domain=docs.microsoft.com
@@ -1236,8 +1227,7 @@ zuoye.baidu.com###aside
 ||www.google.com/cse/cse.js$third-party
 ||www.google.com/gen_204
 ||www.google.com/insights/consumersurveys/
-||www.google.com/jsapi$third-party
-||www.google.com/recaptcha/api.js$domain=gitlab.com,important
+||www.google.com/jsapi$third-party,important
 ||www.googleadservices.com/pagead
 ||www.googletagmanager.com/gtag/js
 ||www.googletagmanager.com/gtm.js
