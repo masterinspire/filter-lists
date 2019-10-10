@@ -1,14 +1,19 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, 1 October, 2019
+! Last modified: Thursday, 10 October, 2019
 ! Title: Master-AdRules Breaking
-! Version: 20191001
+! Version: 20191010
 !
 !
 !
-||i.stack.imgur.com$domain=stackoverflow.com
-||lh3.googleusercontent.com$domain=stackoverflow.com
+||i.stack.imgur.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
+||lh3.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
+||lh4.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
+||lh5.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
+||lh6.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||stackblitz.com$domain=ng.ant.design
 ||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com,important
+||www.youtube.com/embed/*$third-party
+||www.youtube.com/iframe_api$domain=developer.mozilla.org|www.ssh.com,important

@@ -1,17 +1,17 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, 1 October, 2019
+! Last modified: Thursday, 10 October, 2019
 ! Title: Master-AdRules
-! Version: 20191001
+! Version: 20191010
 !
 !
 !
 ###epb
 ###js-gdpr-consent-banner
 ##cloudflare-app
-/_/client-timings$domain=stackexchange.com|stackoverflow.com|serverfault.com
-/gps/event$domain=stackexchange.com|stackoverflow.com|serverfault.com
+/_/client-timings$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
+/gps/event$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
 /inc/timming.php
 21shipin.com###QQFloat
 360.cn##DIV[id="support360-fixedbox"]
@@ -155,6 +155,7 @@ developer.microsoft.com##.sockWrapper
 developer.mozilla.org###developer_needs
 developer.mozilla.org##.notification-tray
 disqus.com##.login-overlay__wrapper
+doc.qt.io###cookie-confirm
 docs.asp.net###helpful
 docs.influxdata.com###support-ad
 docs.microsoft.com###openFeedbackContainer
@@ -510,6 +511,7 @@ www.fanbyte.com###check-also-box
 www.gamersky.com###ADback
 www.gamersky.com##.Mid > .Mid2 > .Mid2_L > .block.Mid2L_ctt > .Mid2L_con > .adnone
 www.gamersky.com##.Mid7
+www.gamersky.com##.side_nav
 www.google.com##.gb_g.gb_0c.gb_Ad
 www.google.com##.og-pdp
 www.haosou.com###side
@@ -598,6 +600,7 @@ www.sysgeek.cn##.container > .speedbar
 www.sysgeek.cn##.post-actions
 www.sysgeek.cn##.rollbar
 www.sysgeek.cn##.social
+www.sysgeek.cn##.widget_ui_asb2.widget
 www.szjs.gov.cn##DIV[id="float_banner"]
 www.szjs.gov.cn##DIV[id="piaochuang"]
 www.szjzz.gov.cn###adfloat1
@@ -860,6 +863,8 @@ zuoye.baidu.com###aside
 ||dp3.qq.com/qqcom/
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
+||edu-wenku.bdimg.com/v1/pc/bdshare
+||edu-wenku.bdimg.com/v1/usergrowth/seo.online.js
 ||ems.youku.com/imp
 ||entry.baidu.com/rp/bwordcom
 ||events.jianshu.io:4006/sa.gif
@@ -939,6 +944,8 @@ zuoye.baidu.com###aside
 ||ixueyi.com/xiaohua/*$domain=educity.cn
 ||j.gamersky.com/common/tg/allsite.tg.monitor.js
 ||j.gamersky.com/common/tg/allsite.tg.monitor.pc.js
+||j.gamersky.com/static/api/js/share/share_api.js
+||j.gamersky.com/static/api/js/view/share_view.js
 ||ja2.gamersky.com/gs.common.income.js
 ||ja2.gamersky.com/gs.tg.all.js
 ||jiaoyu.baidu.com/wenku/index
@@ -987,6 +994,7 @@ zuoye.baidu.com###aside
 ||medium.com/_/stat
 ||medium.com/p/*/upvotes
 ||mem.gfx.ms/meversion?partner=mssoftware-download
+||miaowu-edge.baidu.com/abdr
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx
 ||modernizr.com/i/js/analytics.js
 ||mp.weixin.qq.com/mp/appmsgreport
@@ -1178,6 +1186,7 @@ zuoye.baidu.com###aside
 ||widget.wumii.com/ext/relatedItemsWidget.htm$domain=blog.163.com
 ||widgets.services.microsoft.com$domain=blogs.msdn.microsoft.com
 ||wkctj.baidu.com/click.gif
+||wkctj.baidu.com/dv.gif
 ||wkstatic.bdimg.com/static/wkcommon/widget/vipNoAdDialog
 ||wkstatic.bdimg.com/static/wkcore/widget/newasideAd/newasideAd_*.js
 ||wpa.b.qq.com/cgi/wpa.php
@@ -1263,6 +1272,7 @@ zuoye.baidu.com###aside
 ||www.oschina.net/js/bdshare_api/share.js
 ||www.oschina.net/new-osc/js/utils/plugins/bdshare_api/share.js
 ||www.oschina.net/public/javascripts/cjl/ga.js
+||www.paypal.com/xoplatform/logger/api/logger
 ||www.pgyer.com/app/getAdAdsense
 ||www.qiyipic.com/common/fix/dianying-indexImgV1/dyhy_ktBtnBg.png
 ||www.qiyipic.com/common/fix/site/app-download-*.gif
@@ -1290,8 +1300,6 @@ zuoye.baidu.com###aside
 ||www.xiazaiba.com/data/ads/jst.js
 ||www.xiazaiba.com/static/js/stat.js
 ||www.youtube.com/api/stats$important
-||www.youtube.com/embed/*$third-party
-||www.youtube.com/iframe_api$domain=developer.mozilla.org|www.ssh.com,important
 ||www.zhaopin.com/static/analytics.js
 ||www.zhihu.com/node/Banner
 ||youtrack.jetbrains.com/api/analytics
