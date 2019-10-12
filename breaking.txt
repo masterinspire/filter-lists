@@ -1,17 +1,21 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, 10 October, 2019
+! Last modified: Sunday, 13 October, 2019
 ! Title: Master-AdRules Breaking
-! Version: 20191010
+! Version: 20191013
 !
 !
 !
-||i.stack.imgur.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
-||lh3.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
-||lh4.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
-||lh5.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
-||lh6.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
+cn.bing.com###b_footer
+cn.bing.com###b_header .b_searchboxForm:before:style(background:none !important;)
+cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
+cn.bing.com###est_switch
+||i.stack.imgur.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||lh3.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||lh4.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||lh5.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||lh6.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||stackblitz.com$domain=ng.ant.design
 ||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com,important

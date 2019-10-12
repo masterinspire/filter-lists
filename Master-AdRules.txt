@@ -1,17 +1,17 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, 10 October, 2019
+! Last modified: Sunday, 13 October, 2019
 ! Title: Master-AdRules
-! Version: 20191010
+! Version: 20191013
 !
 !
 !
 ###epb
 ###js-gdpr-consent-banner
 ##cloudflare-app
-/_/client-timings$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
-/gps/event$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com
+/_/client-timings$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+/gps/event$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 /inc/timming.php
 21shipin.com###QQFloat
 360.cn##DIV[id="support360-fixedbox"]
@@ -139,6 +139,8 @@ cn.bing.com##.opal_serpftrc
 cn.bing.com##.usrlc_bpc
 cn.club.vmall.com##.hbwi-right.sd
 cn.ui.vmall.com##.hbwi-right.sd
+cnbeta.com##.article-share-code
+cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 cnblogs.com##div[id^="dictHc"]
 cr173.com##DIV[class="c_hot_pic c_box"]
 csdn.net##DIV[class="tracking-ad"]
@@ -148,6 +150,7 @@ ctc.qzs.qq.com##DIV[class="word_spread side_panel"]
 ctc.qzs.qq.com##div#bottom-sponsor.say-bottom-ad
 d9soft.com##DIV[class="soft-beinter clearboth"]
 datatables.net##.fw-container > .fw-body > .content > .comments_title
+devblogs.microsoft.com###uhfCookieAlert
 devblogs.microsoft.com##.a2a_kit
 developer.android.com##devsite-snackbar
 developer.microsoft.com###uhfCookieAlert
@@ -482,7 +485,6 @@ www.ccav1.com##DIV[id="widget_default"]
 www.ccav1.com##div[id^="adsense"]
 www.cloudamqp.com##.dark-bg.signup
 www.cmdyz.cc##.win
-www.cnbeta.com##DIV[id="left_art"]
 www.cnblogs.com###myRewards
 www.cnblogs.com##DIV[id="blog_post_info"]
 www.cnblogs.com##DIV[id="sildebarRight"]
@@ -662,6 +664,9 @@ zhidao.baidu.com##IMG[id="selectsearch-icon"]
 zhidao.baidu.com##[class^="arw56619"]
 zuoye.baidu.com###aside
 ||*.cloudfront.net/keys/medium.com/p.js$domain=medium.com
+||*.cnbeta.com/static/api/js/share.js
+||*.cnbeta.com/static/api/js/share/share_api.js
+||*.cnbeta.com/static/api/js/view/share_view.js
 ||127.0.0.1$domain=youku.com|www.iqiyi.com
 ||7b1foz.com1.z0.glb.clouddn.com$domain=cnblogs.com
 ||975-jox-769.mktoresp.com/webevents/visitWebPage
@@ -772,6 +777,7 @@ zuoye.baidu.com###aside
 ||btrace.video.qq.com/collect
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
+||bundler.io/javascripts/analytics.js
 ||c.disquscdn.com/next/embed/alfalfa_min.*.js
 ||c.evidon.com/geo/country.js$domain=vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
@@ -973,6 +979,7 @@ zuoye.baidu.com###aside
 ||log.quora.com/ajax/batched_log_POST
 ||m.baidu.com/rec?
 ||m.baidu.com/s?word
+||m.baidu.com/se/static/atom/atom_*.js
 ||m.baidu.com/se/static/js/base/ala/invokeApp_*.js
 ||m.baidu.com/se/static/js/fusion/b-share/b-share_*.js
 ||m.baidu.com/se/static/js/log/taiji
@@ -1282,6 +1289,7 @@ zuoye.baidu.com###aside
 ||www.rarlab.com/js/ckrule.js
 ||www.reddit.com/error
 ||www.reddit.com/timings
+||www.seedanddew.com/static/embed.min.js$domain=bundler.io
 ||www.ssh.com/api/content/v1/dynamic
 ||www.ssh.com/trk
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
