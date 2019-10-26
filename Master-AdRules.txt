@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, 18 October, 2019
-! Title: Master-AdRules Breaking
-! Version: 20191018
+! Last modified: Saturday, 26 October, 2019
+! Title: Master-AdRules
+! Version: 20191026
 !
 !
 !
@@ -180,8 +180,6 @@ grafana.com##.sticky-footer--dark
 grafana.com##.sticky-footer--grafanacon-la
 group.pcbeta.com##DIV[class="CGHJW"]
 gruntjs.com##DIV[class="advertisements"]
-i.youku.com###qrcode-container
-i.youku.com###toolbarservice
 item.m.jd.com##.tryme
 itlab.idcquan.com##IFRAME[src="http://windows.chinaitlab.com/cio_new.html"]
 jd.com###top-banner
@@ -223,7 +221,6 @@ linuxso.com##DIV[class="ad right_bot"]
 linuxso.com##DIV[class="box_xgimg"]
 linuxso.com##DIV[class="text_tag"]
 linuxso.com##UL[class="ad"]
-list.youku.com###sideBar
 ltesting.net##DIV[class="col-sm-3 sec_topimg_1"]
 ltesting.net##DIV[class="col-sm-3 sec_topimg_2"]
 ltesting.net##DIV[id="hid_cs_pannel"]
@@ -263,9 +260,6 @@ movie.le.com###popFix_userInfo
 movie.le.com##.head_nav > a[href^="http://zhifu.le.com/tobuy/regular"]
 movie.le.com##.j_user_action > .lh_box.j-ub-gift.user_bar_item
 movie.mtime.com###divRelatedGoods
-movie.youku.com###sideBar
-movie.youku.com###sideTool
-movie.youku.com###ykOlympicMedal
 msdn.itellyou.cn##.shang_box
 msdn.microsoft.com###standardRating
 msdn.microsoft.com##DIV[class="NetReflectorMain"]
@@ -293,6 +287,7 @@ passport.baidu.com##DIV[class="app-download-link"]
 pconline.com.cn##DIV[id="Jsurvey"]
 pconline.com.cn##DIV[id="app-ewm-tg"]
 play.google.com##.gb_9b.gb_zc.gb_fd
+plugins.jetbrains.com###legal-user-acceptance-plugins
 qidian.com##DIV[id="down_3g_20130621"][class="qdRead_client"]
 qidian.com##SPAN[id="qdass_sysnews"][class="time_news"]
 qtcn.org##DIV[class="pw_all_tip"]
@@ -348,22 +343,8 @@ tieba.baidu.com##UL[class="tbui_aside_float_bar"]
 tortoisesvn.net##FIELDSET[class="adgroup"]
 train.qunar.com##A[class="q_header_app_logo"]
 travel.china.com.cn##IFRAME[id="bottomIfr"]
-v.youku.com###ab_pip
-v.youku.com###module_basic_double11
-v.youku.com###module_basic_relation
-v.youku.com###questionnaire
-v.youku.com###relationshow_async
-v.youku.com###sMain > .sideCol
-v.youku.com###yk-player-curtain
-v.youku.com##.window .s_body > .s_main > .sideCol
-v.youku.com##DIV[class="qwindow"]
-v.youku.com##DIV[class="qwindow_mask"]
-v.youku.com##DIV[id="sideTool"]
-v.youku.com##div.fn-share
-v.youku.com##div[id^="ab_"]
 visualstudio.microsoft.com###usabilla-button
 vivaldi.com###social-share
-vswebessentials.com###main > a[href="http://www.winhost.com/a/benet_b_127"]
 wangyou.pcgames.com.cn###fixedNav
 wapbaike.baidu.com##DIV.pad45 + div
 wapbaike.baidu.com##DIV[class="before-content-wrapper"]
@@ -422,6 +403,7 @@ www.ali213.net##DIV[class="tkyl"]
 www.ali213.net##DIV[class="web_news_middle"]
 www.ali213.net##DIV[id="ali-photo-slide"]
 www.ali213.net##DIV[id="right_nav"][class="ali-float-nav"]
+www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
 www.apress.com##.wrapper > .page > .col3-layout.main > .col-wrapper > .straddle-1-2 > .col-main > div:nth-of-type(1)
 www.asp.net###helpful
@@ -541,6 +523,7 @@ www.liaoxuefeng.com##.x-wiki-content~p
 www.linuxjournal.com##.cc_banner-wrapper
 www.linuxjournal.com##.shariff
 www.merriam-webster.com###social-sidebar-container
+www.namegeneratorfun.com###consent
 www.newtonsoft.com###footerNotice
 www.npmjs.com##DIV[id="notification-banner"]
 www.nuget.org###sideColumn > .stat
@@ -608,14 +591,6 @@ www.wilderssecurity.com##.bottomFixer
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
 www.xiazaiba.com##div.bdsharebuttonbox
-www.youku.com###FixMod
-www.youku.com###_xbox_ad
-www.youku.com###sideTool
-www.youku.com##.bt-banner
-www.youku.com##.feedback
-www.youku.com##.main-link
-www.youku.com##DIV[class="yk-notice"]
-www.youku.com##DIV[id="infomation_vip"]
 www.youtube.com##.video-annotations
 www.zhihu.com##.AppBanner-link
 www.zhihu.com##.HitQrcode
@@ -627,9 +602,6 @@ xiazaiba.com##DIV[id="cmt_mm_box"][class="bot-mm-box"]
 xiazaiba.com##DIV[id="float_qr"]
 xiazaiba.com##DIV[id="j_index_focus_img"]
 xiazaiba.com##DIV[id="powerby_sohu"]
-youku.com###bt-banner
-youku.com###qheader_msg_box
-youku.com###qheader_notice
 youtrack.jetbrains.com##.alertContainer_ebe
 zhannei.baidu.com##DIV[class="extra"]
 zhannei.baidu.com##DIV[id="bd-feedback"]
@@ -793,7 +765,6 @@ zuoye.baidu.com###aside
 ||click.ali213.net$domain=ali213.net
 ||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
 ||cm.dmp.sina.cn/cm/sinaads_ck_wap.js
-||cmstool.youku.com/cms/playlog/get
 ||cmt.pconline.com.cn/intf/cmtCount.jsp$domain=dl.pconline.com.cn
 ||cn.bing.com/english/zochatv2
 ||cnstrc.com/js/ac.js
@@ -831,7 +802,6 @@ zuoye.baidu.com###aside
 ||ctj.wenku.baidu.com/dv.gif
 ||customer.api.drift.com/geo
 ||d.pcs.baidu.com/rest/2.0/pcs/manage
-||data.services.jetbrains.com//geo
 ||data.services.jetbrains.com/geo
 ||data.v.qq.com/videocms/getNewsvideoList.php
 ||datacollect.vmall.com:18443$third-party
@@ -842,7 +812,6 @@ zuoye.baidu.com###aside
 ||demandbase.com^*/ip.json
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
-||dl-oss-wanju.youku.com/msg/chuda_message.js
 ||dm.codeproject.com/dm?r=
 ||do.xiazaiba.com/route.php?ct=stat&ac=show_ads
 ||docs.ti-net.com.cn/count.php
@@ -853,7 +822,6 @@ zuoye.baidu.com###aside
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
 ||edu-wenku.bdimg.com/v1/pc/bdshare
 ||edu-wenku.bdimg.com/v1/usergrowth/seo.online.js
-||ems.youku.com/imp
 ||entry.baidu.com/rp/bwordcom
 ||events.jianshu.io:4006/sa.gif
 ||exp.bdstatic.com/static/article/lib/share/bds_s_v2_*.js
@@ -869,8 +837,6 @@ zuoye.baidu.com###aside
 ||flume.csdn.net/csdnbi
 ||forms.convertkit.com
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
-||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
-||g.alicdn.com/security/umscript/*/um.js$domain=youku.com
 ||g.csdnimg.cn/*track.js
 ||g.csdnimg.cn/asdf/*/counter.js
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js
@@ -954,7 +920,6 @@ zuoye.baidu.com###aside
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
 ||js.peng2s.com:2003/baidu/
-||js.ykimg.com/youku/dist/js/lib/ikuAdapterNew.js
 ||js.zol.com.cn/pvn/z.pv
 ||jstatic.letvcdn.com/sdk/apcsdk.js
 ||karumiblog.disqus.com/embed.js
@@ -1017,9 +982,6 @@ zuoye.baidu.com###aside
 ||open.qzone.qq.com/like$third-party
 ||openapi.baidu.com/cloudaapi/lightapp.js$domain=blog.csdn.net
 ||outofmemory.cn/static/js/h.js
-||p.l.youku.com/sokubox
-||p.l.youku.com/web_cms_module_pv
-||p.l.youku.com/ykclickjm
 ||pagead2.googlesyndication.com$important
 ||partners.npmjs.com/hiring$domain=npmjs.com
 ||passport.baidu.com/img/v.gif
@@ -1045,7 +1007,6 @@ zuoye.baidu.com###aside
 ||push.my.tv.sohu.com/getwebpush_sohuHD.globalNewPushTrigger.json
 ||push.zhanzhang.baidu.com/push.js
 ||pv.csdn.net/csdnbi
-||r.l.youku.com/trecommendshow
 ||rating-widget.com/js/api/rating/get.php
 ||rc.vrs.sohu.com/56/home
 ||re.csdn.net/csdnbi
@@ -1113,11 +1074,6 @@ zuoye.baidu.com###aside
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
 ||static.wenku.bdimg.com/static/wkview/widget/html_view/html_reader/img/fenxiang_tips_*.png
-||static.ykimg.com/youku/dist/js/page/iku/callIku/ikuAdapterNew.js
-||static.youku.com/index/js/ikuAdapterNew.js
-||static.youku.com/lvip/msg/chuda_message.js
-||static.youku.com/v1.*/index/js/ikuAdapterNew.js
-||static.youku.com/v1.*/index/js/tdstat.js
 ||static1.qianqian.com/web/static/js/ting/logger
 ||static1.searchbox.baidu.com/static/searchbox/openjs/mp.js$domain=boscdn.bpc.baidu.com
 ||statics.2cto.com/js/baidu_js_push.js
@@ -1195,6 +1151,8 @@ zuoye.baidu.com###aside
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js
 ||www.aiyiweb.com/Scripts/baiduShare.js
 ||www.ali213.net/news/images/newsnybn.jpg
+||www.androidcentral.com/_gap/_module.js
+||www.androidcentral.com/_gap/cyhtvaf/hn/linkid.js
 ||www.baidu.com/rec
 ||www.baidu.com/sugrec
 ||www.bing.com/images/sbi?mmasync=1
@@ -1225,7 +1183,6 @@ zuoye.baidu.com###aside
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
 ||www.google.cn/domainless/read
-||www.google.com/coop/intl/en/images/google_custom_search_watermark.gif$third-party
 ||www.google.com/gen_204
 ||www.google.com/insights/consumersurveys/
 ||www.google.com/jsapi$third-party,important
@@ -1245,6 +1202,7 @@ zuoye.baidu.com###aside
 ||www.lagou.com/js/mobile/dep/analytics.js
 ||www.liaoxuefeng.com/files/attachments/0014447742522842243a5dcedc5487b93a44d9c716bb0b6000/0
 ||www.liaoxuefeng.com/files/attachments/00144740613977908cd44c42bad4d568baa261d726a88ad000/0
+||www.lightboxcdn.com/vendor/*/lightbox_inline.js$domain=www.androidcentral.com
 ||www.linkedin.com/countserv/count/share
 ||www.linuxjournal.com/core/modules/statistics/statistics.php
 ||www.merriam-webster.com/lapi/1/mwol-video/play/count

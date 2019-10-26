@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, 18 October, 2019
+! Last modified: Saturday, 26 October, 2019
 ! Title: Master-AdRules Breaking
-! Version: 20191018
+! Version: 20191026
 !
 !
 !
@@ -11,6 +11,8 @@ cn.bing.com###b_footer
 cn.bing.com###b_header .b_searchboxForm:before:style(background:none !important;)
 cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
 cn.bing.com###est_switch
+docs.microsoft.com##.feedback-section
+||api.github.com/search/issues$domain=docs.microsoft.com
 ||i.stack.imgur.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||lh3.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||lh4.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
@@ -22,5 +24,6 @@ cn.bing.com###est_switch
 ||www.google.com/cse/brand$third-party,important
 ||www.google.com/cse/cse.js$third-party,important
 ||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com,important
+||www.youtube-nocookie.com/embed/*$third-party
 ||www.youtube.com/embed/*$third-party
-||www.youtube.com/iframe_api$domain=developer.mozilla.org|www.ssh.com,important
+||www.youtube.com/iframe_api$third-party,important
