@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, 26 October, 2019
+! Last modified: Thurday, 31 October, 2019
 ! Title: Master-AdRules
-! Version: 20191026
+! Version: 20191031
 !
 !
 !
@@ -35,6 +35,7 @@ ai.baidu.com##.doc-feedback
 amp.reddit.com###dismissOverlay
 amp.reddit.com##.AppSelectorModal__body
 amp.reddit.com##.SiteHeader__AppBtn.upsell_banner.TopButton
+androidwave.com##.onp-sl-overlap-box
 angularjs.org##UL[class="quick-links"]
 ankhsvn.open.collab.net##DIV[id="collabnet-products"]
 ankhsvn.open.collab.net##DIV[id="uvTab"]
@@ -126,7 +127,6 @@ blog.sina.com.cn##TABLE[id$="_panel"][class="CP_w"]
 blogs.msdn.com##DIV[id="MicrosoftTranslatorWidget"]
 blogs.msdn.microsoft.com###msccBanner
 c.itcast.cn##DIV[id="floatTools"]
-cashierzui.alipay.com##DIV[class="alipay-xbox-1_1_5"]
 club.huawei.com##.hbwi-right.sd
 cn.bing.com###b_pole
 cn.bing.com##.adsblock
@@ -146,7 +146,11 @@ ctc.qzs.qq.com##div#bottom-sponsor.say-bottom-ad
 d9soft.com##DIV[class="soft-beinter clearboth"]
 datatables.net##.fw-container > .fw-body > .content > .comments_title
 devblogs.microsoft.com##.a2a_kit
+devdactic.com###cookie-notice
+devdactic.com##.nc_wrapper
 developer.android.com##devsite-snackbar
+developer.android.google.cn##devsite-footer-promos
+developer.android.google.cn##devsite-page-rating
 developer.microsoft.com##.sockWrapper
 developer.mozilla.org###developer_needs
 developer.mozilla.org##.notification-tray
@@ -590,6 +594,7 @@ www.w3school.com.cn##DIV[id="searchui"]
 www.wilderssecurity.com##.bottomFixer
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
+www.xda-developers.com##.et_social_inline
 www.xiazaiba.com##div.bdsharebuttonbox
 www.youtube.com##.video-annotations
 www.zhihu.com##.AppBanner-link
@@ -679,6 +684,7 @@ zuoye.baidu.com###aside
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
 ||az725175.vo.msecnd.net/scripts/jsll-*.js$important
+||azure.microsoft.com/api/v2/ue/
 ||b1.bst.126.net/newpage/r/j/nts.js
 ||b1.bst.126.net/newpage/r/j/pc.js$domain=blog.163.com
 ||baidu.qitete.cn/js/baiduhm.js
@@ -743,6 +749,7 @@ zuoye.baidu.com###aside
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn.ampproject.org/v0/amp-social-share-*.js
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
+||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.livechatinc.com/tracking.js
@@ -869,7 +876,7 @@ zuoye.baidu.com###aside
 ||gql.reddit.com/?request_timestamp
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
-||graph.facebook.com/*/picture$domain=stackoverflow.com
+||graph.facebook.com/$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=csdn.net
 ||gsp0.baidu.com/*/tb/pms/img/st.gif
 ||gsp0.baidu.com/*/v.gif
@@ -1039,6 +1046,7 @@ zuoye.baidu.com###aside
 ||shared.ydstatic.com/js/yadk/*.*.*.js$domain=csdn.net
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=csdn.net
 ||sharethis.com$third-party
+||signup.azure.com/api/clientlog
 ||siteapp.baidu.com/static/webappservice/uaredirect.js$third-party
 ||slack-cordova-io.herokuapp.com/slackin.js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
@@ -1111,9 +1119,8 @@ zuoye.baidu.com###aside
 ||uhf.microsoft.com/*/shell/api/mscc$domain=www.typescriptlang.org
 ||uhf.microsoft.com/_log
 ||update.vivaldi.com/stats/rep
-||use.typekit.com/*.js$third-party
-||use.typekit.net/*.js$third-party
 ||va.tawk.to/register/$domain=www.sswug.org
+||va.v.liveperson.net/api/js$domain=azure.com
 ||vivaldi.com/rep/rep
 ||vlscppe.microsoft.com/tags
 ||vo.msecnd.net/scripts/jsll-3.3.1.js$domain=docs.microsoft.com

@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, 26 October, 2019
+! Last modified: Thurday, 31 October, 2019
 ! Title: Master-AdRules Breaking
-! Version: 20191026
+! Version: 20191031
 !
 !
 !
@@ -11,19 +11,22 @@ cn.bing.com###b_footer
 cn.bing.com###b_header .b_searchboxForm:before:style(background:none !important;)
 cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
 cn.bing.com###est_switch
+developer.android.google.cn##devsite-youtube
 docs.microsoft.com##.feedback-section
+||*.bp.blogspot.com$domain=developer.android.google.cn
+||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
 ||api.github.com/search/issues$domain=docs.microsoft.com
+||cdn-images-*.medium.com$domain=developer.android.google.cn
 ||i.stack.imgur.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
-||lh3.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
-||lh4.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
-||lh5.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
-||lh6.googleusercontent.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||i.ytimg.com$domain=developer.android.google.cn
+||lh*.googleusercontent.com$domain=developer.android.google.cn|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||stackblitz.com$domain=ng.ant.design
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/cse/brand$third-party,important
 ||www.google.com/cse/cse.js$third-party,important
-||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com,important
+||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com,important
 ||www.youtube-nocookie.com/embed/*$third-party
 ||www.youtube.com/embed/*$third-party
 ||www.youtube.com/iframe_api$third-party,important
+||xdaportal.disqus.com$domain=xda-developers.com
