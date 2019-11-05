@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thurday, 31 October, 2019
+! Last modified: Tuesday, 5 November, 2019
 ! Title: Master-AdRules Breaking
-! Version: 20191031
+! Version: 20191105
 !
 !
 !
@@ -14,6 +14,7 @@ cn.bing.com###est_switch
 developer.android.google.cn##devsite-youtube
 docs.microsoft.com##.feedback-section
 ||*.bp.blogspot.com$domain=developer.android.google.cn
+||*.disqus.com/embed.js
 ||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
 ||api.github.com/search/issues$domain=docs.microsoft.com
 ||cdn-images-*.medium.com$domain=developer.android.google.cn
@@ -22,6 +23,7 @@ docs.microsoft.com##.feedback-section
 ||lh*.googleusercontent.com$domain=developer.android.google.cn|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||stackblitz.com$domain=ng.ant.design
+||survival-mastery.com/wp-content/plugins/disqus-comment-system/
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/cse/brand$third-party,important
 ||www.google.com/cse/cse.js$third-party,important
@@ -29,4 +31,3 @@ docs.microsoft.com##.feedback-section
 ||www.youtube-nocookie.com/embed/*$third-party
 ||www.youtube.com/embed/*$third-party
 ||www.youtube.com/iframe_api$third-party,important
-||xdaportal.disqus.com$domain=xda-developers.com
