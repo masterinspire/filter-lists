@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, 5 November, 2019
+! Last modified: Sunday, 10 November, 2019
 ! Title: Master-AdRules Breaking
-! Version: 20191105
+! Version: 20191110
 !
 !
 !
@@ -12,11 +12,9 @@ cn.bing.com###b_header .b_searchboxForm:before:style(background:none !important;
 cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
 cn.bing.com###est_switch
 developer.android.google.cn##devsite-youtube
-docs.microsoft.com##.feedback-section
 ||*.bp.blogspot.com$domain=developer.android.google.cn
 ||*.disqus.com/embed.js
 ||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
-||api.github.com/search/issues$domain=docs.microsoft.com
 ||cdn-images-*.medium.com$domain=developer.android.google.cn
 ||i.stack.imgur.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||i.ytimg.com$domain=developer.android.google.cn
