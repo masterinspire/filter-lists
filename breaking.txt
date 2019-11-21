@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, 10 November, 2019
+! Last modified: Thursday, 21 November, 2019
 ! Title: Master-AdRules Breaking
-! Version: 20191110
+! Version: 20191121
 !
 !
 !
@@ -11,14 +11,15 @@ cn.bing.com###b_footer
 cn.bing.com###b_header .b_searchboxForm:before:style(background:none !important;)
 cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
 cn.bing.com###est_switch
-developer.android.google.cn##devsite-youtube
 ||*.bp.blogspot.com$domain=developer.android.google.cn
 ||*.disqus.com/embed.js
 ||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
+||apis.google.com$domain=translate.google.cn
 ||cdn-images-*.medium.com$domain=developer.android.google.cn
 ||i.stack.imgur.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||i.ytimg.com$domain=developer.android.google.cn
 ||lh*.googleusercontent.com$domain=developer.android.google.cn|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||ogs.google.com$domain=translate.google.cn
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||stackblitz.com$domain=ng.ant.design
 ||survival-mastery.com/wp-content/plugins/disqus-comment-system/
@@ -27,5 +28,5 @@ developer.android.google.cn##devsite-youtube
 ||www.google.com/cse/cse.js$third-party,important
 ||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com,important
 ||www.youtube-nocookie.com/embed/*$third-party
-||www.youtube.com/embed/*$third-party
-||www.youtube.com/iframe_api$third-party,important
+||youtube.com/embed/*$third-party
+||youtube.com/iframe_api$third-party,important
