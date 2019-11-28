@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, 23 November, 2019
+! Last modified: Thursday, 28 November, 2019
 ! Title: Master-AdRules
-! Version: 20191123
+! Version: 20191128
 !
 !
 !
@@ -104,6 +104,7 @@ blog.magnusmontin.net###eu-cookie-law
 blog.sentry.io##.tracking-banner.banner
 blogs.msdn.com##DIV[id="MicrosoftTranslatorWidget"]
 c.itcast.cn##DIV[id="floatTools"]
+ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
 cn.bing.com###b_pole
 cn.bing.com##.adsblock
 cn.bing.com##.b_topborder.b_top
@@ -139,6 +140,7 @@ docs.microsoft.com##.feedback-verbatim
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
 embed.plnkr.co##.plunker-ad-wrap
+entityframeworkcore.com##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
 forums.asp.net##.all-content > div:nth-of-type(1)
 gamersky.com##.Mid > .Mid2 > .Mid2_R
 gamersky.com##.fenxiang
@@ -362,6 +364,7 @@ www.bing.com###bnp_hfly
 www.bing.com###flwn
 www.bing.com###lb_widget
 www.bing.com##.mal_oc
+www.bing.com##.sidebar
 www.bing.com##DIV[class="bk_sidebar"]
 www.bing.com##DIV[id="hplas"]
 www.bing.com##div[id$="notificationContainer"]
@@ -527,6 +530,7 @@ zuoye.baidu.com###aside
 ||*.cnbeta.com/static/api/js/view/share_view.js
 ||*.disqus.com/count.js
 ||127.0.0.1$domain=youku.com|www.iqiyi.com
+||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||7b1foz.com1.z0.glb.clouddn.com$domain=cnblogs.com
 ||975-jox-769.mktoresp.com/webevents/visitWebPage
 ||a.clipconverter.cc/www/d/fr.php
@@ -678,6 +682,7 @@ zuoye.baidu.com###aside
 ||collector.githubapp.com/github/page_view
 ||common-bucket.zhaopin.cn/passport/js/zhaopin/analytics.js
 ||concat.lietou-static.com/core/pc/revs/js/common/stat_*.js
+||connect.emojics.com/dist/sdk.js$domain=ckeditor.com
 ||connect.facebook.net/*/all.js$third-party
 ||connect.facebook.net/*/fbds.js$third-party
 ||connect.facebook.net/*/sdk.js$third-party
@@ -731,6 +736,7 @@ zuoye.baidu.com###aside
 ||earlymonitoring.firebaseapp.com/index.min.js$domain=www.gatsbyjs.org
 ||edu-wenku.bdimg.com/v1/pc/bdshare
 ||edu-wenku.bdimg.com/v1/usergrowth/seo.online.js
+||embed.typeform.com/embed.js$domain=vivaldi.com
 ||entry.baidu.com/rp/bwordcom
 ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track
 ||events.jianshu.io:4006/sa.gif
@@ -942,7 +948,6 @@ zuoye.baidu.com###aside
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=npm.taobao.org
 ||s7.addthis.com^*/addthis_widget.js$important
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
-||sdk-m.le.com/report/report_sdk.js
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
 ||shared.ydstatic.com/js/yadk/*.*.*.js$domain=csdn.net
@@ -972,12 +977,11 @@ zuoye.baidu.com###aside
 ||stat.baike.com/js/webstat_manage
 ||stat.it168.com/ClickPv.js
 ||stat.it168.com/pv.js
-||stat.pc.letv.com/op
 ||stat.pchome.net/stat.js
 ||static-cf.cleverbridge.com/mycontent/1/cleverAnalytics.js
 ||static.addtoany.com/menu/sm.21.html
 ||static.adzerk.net/ados.js$third-party
-||static.bshare.cn/b/buttonLite.js
+||static.bshare.cn/b/button*
 ||static.duoshuo.com/embed.js$third-party
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
 ||static.oschina.net/uploads/cooperation/*_banner_*.jpg
