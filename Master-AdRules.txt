@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, 28 November, 2019
+! Last modified: Saturday, 7 December, 2019
 ! Title: Master-AdRules
-! Version: 20191128
+! Version: 20191207
 !
 !
 !
@@ -133,6 +133,7 @@ developers.google.cn##devsite-youtube
 disqus.com##.login-overlay__wrapper
 doc.qt.io###cookie-confirm
 docs.asp.net###helpful
+docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
 docs.microsoft.com###openFeedbackContainer
 docs.microsoft.com##.feedback-section
@@ -162,6 +163,7 @@ grafana.com##.sticky-footer--dark
 grafana.com##.sticky-footer--grafanacon-la
 group.pcbeta.com##DIV[class="CGHJW"]
 gruntjs.com##DIV[class="advertisements"]
+help.aliyun.com##.aliyun-delivery-view-container
 item.m.jd.com##.tryme
 itlab.idcquan.com##IFRAME[src="http://windows.chinaitlab.com/cio_new.html"]
 jd.com###top-banner
@@ -636,6 +638,7 @@ zuoye.baidu.com###aside
 ||blogs.msdn.microsoft.com/*/wp-content/themes/msdn-network-parent/js/social-counts.min.js
 ||blogs.msdn.microsoft.com/dotnet/wp-admin/admin-ajax.php?action=track_page_view
 ||blogs.msdn.microsoft.com/webdev/wp-content/mu-plugins/wedcs-script/ms2_blogs.js
+||browser.sentry-cdn.com/*/bundle.min.js$domain=www.jetbrains.com
 ||btrace.video.qq.com/collect
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
@@ -753,6 +756,9 @@ zuoye.baidu.com###aside
 ||flume.csdn.net/csdnbi
 ||forms.convertkit.com
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
+||g.alicdn.com/alilog/oneplus/entry.js$domain=help.aliyun.com
+||g.alicdn.com/aliyun/util/*/module/Promotion.js$domain=help.aliyun.com
+||g.alicdn.com/aliyun/www-dpl/*/knight/js/data-statistics.js$domain=help.aliyun.com
 ||g.csdnimg.cn/*track.js
 ||g.csdnimg.cn/asdf/*/counter.js
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js
@@ -963,9 +969,11 @@ zuoye.baidu.com###aside
 ||sm.bdimg.com/static/wiseindex/js/lib/transfer/common/Carousel_*.js
 ||smartlock.google.com^$domain=medium.com
 ||smetrics.ubi.com
+||socket.jisuan.mobi/$domain=bianma.supfree.net
 ||solo41.biz$domain=www.tutorialspoint.com
 ||sp1.baidu.com/*/mwb.gif
 ||sp1.baidu.com/*/mwb2.gif
+||sp1.baidu.com/*/sensearch/selecttext
 ||sp1.baidu.com/*/v.gif
 ||sp1.baidu.com/*/webb.gif
 ||ssl.gstatic.com/feedback/api.js
@@ -1160,3 +1168,4 @@ zuoye.baidu.com###aside
 ||yastatic.net/s3/chat/1.16.0/widget_ya.js
 ||youtrack.jetbrains.com/api/analytics
 ||znsv.baidu.com/customer_search/api/js$third-party
+||zz.bdstatic.com/linksubmit/push.js
