@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, 7 December, 2019
+! Last modified: Tuesday, 10 December, 2019
 ! Title: Master-AdRules
-! Version: 20191207
+! Version: 20191210
 !
 !
 !
@@ -276,6 +276,7 @@ stackoverflow.com##DIV[id="hireme"]
 stackoverflow.com##DIV[id^="careers"]
 stackoverflow.com##DIV[id^="noscript"]
 support.microsoft.com###smc-survey-external-feedback-button
+support.mozilla.org###announcements
 support.office.com###supWrapperToPreventFeedbackFlickering
 sz.58.com###right_gj
 technet.microsoft.com###skinnyRating
@@ -283,6 +284,7 @@ technet.microsoft.com###standardRating
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
+tieba.baidu.com###selectsearch-icon
 tortoisesvn.net##FIELDSET[class="adgroup"]
 visualstudio.com###epb
 visualstudio.com###mscc-cookie-container
@@ -531,7 +533,7 @@ zuoye.baidu.com###aside
 ||*.cnbeta.com/static/api/js/share/share_api.js
 ||*.cnbeta.com/static/api/js/view/share_view.js
 ||*.disqus.com/count.js
-||127.0.0.1$domain=youku.com|www.iqiyi.com
+||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||7b1foz.com1.z0.glb.clouddn.com$domain=cnblogs.com
 ||975-jox-769.mktoresp.com/webevents/visitWebPage
@@ -551,6 +553,7 @@ zuoye.baidu.com###aside
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn
 ||adservex.media.net/videoAds.js$important
+||adss.video.qq.com/report$domain=v.qq.com
 ||aeu.alicdn.com/ctl/ctl.js
 ||aeu.alicdn.com/js/awsc.js
 ||ag.csdn.net/common/getcmsad.ashx
@@ -733,7 +736,7 @@ zuoye.baidu.com###aside
 ||docs.ti-net.com.cn/count.php
 ||down.lytml.com/js/webThunderDetect_20130524.js
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com
-||dp3.qq.com/qqcom/
+||dp3.qq.com/stdlog$domain=v.qq.com
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
 ||earlymonitoring.firebaseapp.com/index.min.js$domain=www.gatsbyjs.org
@@ -760,6 +763,7 @@ zuoye.baidu.com###aside
 ||g.alicdn.com/aliyun/util/*/module/Promotion.js$domain=help.aliyun.com
 ||g.alicdn.com/aliyun/www-dpl/*/knight/js/data-statistics.js$domain=help.aliyun.com
 ||g.csdnimg.cn/*track.js
+||g.csdnimg.cn/??sharewx/*/sharewx.js
 ||g.csdnimg.cn/asdf/*/counter.js
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js
 ||g.csdnimg.cn/check-adb/*/check-adb.js
@@ -848,6 +852,7 @@ zuoye.baidu.com###aside
 ||knicks.jd.com/log/server
 ||like.baidu.com/get$domain=baike.baidu.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
+||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
 ||log.quora.com/ajax/batched_log_POST
 ||m.2015tv.cc/g/b.php
@@ -910,6 +915,7 @@ zuoye.baidu.com###aside
 ||passport.baidu.com/viewlog
 ||passport.csdn.net/js/apps/ga.js
 ||pc.weixin.qq.com/cgi/report-web
+||pingjs.qq.com/h5/stats.js$important
 ||pixel.wp.com/g.gif
 ||platform.linkedin.com/in.js
 ||platform.linkedin.com/js/framework?v
@@ -938,9 +944,11 @@ zuoye.baidu.com###aside
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/marketo-opt-in-2.js
 ||referrer.disqus.com/juggler/event.gif
 ||reload.getsentry.net/page/
+||report.huatuo.qq.com/report.cgi
 ||res.cdn.openinstall.io/openinstall.js$domain=csdn.net
 ||resources.jetbrains.com/storage/help-app/v3/analytics.js
 ||rl.mail.qq.com/cgi-bin/getinvestigate
+||routertips.video.qq.com/tips_heartbeat$domain=v.qq.com
 ||runkit.com/s/timing
 ||s-nfa.jd.com/bd
 ||s.cn.bing.net/th?*pid=News
@@ -1000,7 +1008,8 @@ zuoye.baidu.com###aside
 ||static1.searchbox.baidu.com/static/searchbox/openjs/mp.js$domain=boscdn.bpc.baidu.com
 ||statics.2cto.com/js/baidu_js_push.js
 ||statics.2cto.com/js/tj.js
-||statistic.csdn.net/storage_baidu_exist?keyword=
+||statistic.csdn.net/baidu_search_error
+||statistic.csdn.net/storage_baidu_exist
 ||statistic.liepin.com/statVisit.do
 ||statistic.liepin.com/statisticPlatform/tLog
 ||statistic.zhaopin.cn/sdk/sa/
@@ -1056,6 +1065,7 @@ zuoye.baidu.com###aside
 ||work.weixin.qq.com/wework_admin/report
 ||work.weixin.qq.com/wwopen/common/kvReport
 ||wreport.meituan.net
+||wuji.video.qq.com/fcgi-bin/wuji$domain=v.qq.com
 ||www.2cto.com/api.php?op=count
 ||www.360doc.com/ajax/clickStatics.ashx
 ||www.aiyiweb.com/Scripts/AdContentPage300_*.js
