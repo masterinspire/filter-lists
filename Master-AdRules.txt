@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, 16 December, 2019
+! Last modified: Tuesday, 17 December, 2019
 ! Title: Master-AdRules
-! Version: 20191216
+! Version: 20191217
 !
 !
 !
@@ -47,10 +47,10 @@ auth0.com###popup
 auth0.com###selectionSharerPopover
 baike.baidu.com###J-spark-icon
 baike.baidu.com###J-tashuo-button-fixed
+baike.baidu.com###side-share
 baike.baidu.com###tashuo_bottom
-baike.baidu.com##.BK-after-content-wrapper > #J-attach-bottom-image + ul
-baike.baidu.com##.BK-before-content-wrapper > #J-declare + div
 baike.baidu.com##.topA
+baike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
 bbs.csdn.net###answer_btn
 bbs.csdn.net##.topic_wrap > .post_info.topic_r > .post_recommend
 bbs.smartisan.com##.tips-download
@@ -68,7 +68,12 @@ bing.com##DIV[id="hp_tbar"]
 bing.com##DIV[id^="sc_hst"]
 bing.com##OL[id="b_context"]
 bing.msn.cn##DIV[id="actions"]
-blog.51cto.com###f_close_box
+blog.51cto.com##.appreciate-box
+blog.51cto.com##.group_img_box
+blog.51cto.com##.hot-column-wrapper.column-wrapper
+blog.51cto.com##.special-column .column-1
+blog.51cto.com##[id^="topbanner"]
+blog.51cto.com##a.zhiCustomBtn
 blog.angular.io##.highlightMenu
 blog.angular.io##.js-postShareWidget
 blog.angular.io##.js-stickyFooter
@@ -96,7 +101,6 @@ cn.bing.com##.opal_serpftrc
 cn.bing.com##.usrlc_bpc
 cnbeta.com##.article-share-code
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
-cnblogs.com##div[id^="dictHc"]
 css88.com##DIV[class="amazeui-link"]
 devblogs.microsoft.com##.a2a_kit
 devdactic.com###cookie-notice
@@ -146,25 +150,16 @@ grafana.com##.sticky-footer--grafanacon-la
 group.pcbeta.com##DIV[class="CGHJW"]
 gruntjs.com##DIV[class="advertisements"]
 help.aliyun.com##.aliyun-delivery-view-container
-item.m.jd.com##.tryme
 itlab.idcquan.com##IFRAME[src="http://windows.chinaitlab.com/cio_new.html"]
-jd.com###top-banner
-jd.com##.J-trigger.jdm-tbar-act
-jd.com##.fixed.jTdCode
 jianshu.com##UL[class="popline"]
 jingyan.baidu.com###fresh-share-exp-e
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.wrp-exp-share
-jrj.com.cn##DIV[class="fc_iphone_dc_2014"]
-ju.outofmemory.cn##DIV[class="pop_win"]
-ju.outofmemory.cn##DIV[class="pop_win_bg"]
-ju.outofmemory.cn##DIV[class="sidebarISO"]
 juejin.im##.article-suspended-panel
 juejin.im##.banner-section
 juejin.im##.extension
 juejin.im##.request-health-alert
 lagou.com##DIV[id="loginToolBar"]
-le.com###towCode
 liepin.com##.app-download
 liepin.com##.fixed-feed-back
 liepin.com##div[id^="NTGUID__"] > .guider
@@ -184,9 +179,6 @@ m.baidu.com###copyright ~ div[style^="position: fixed"]
 m.baidu.com###hotwordlist
 m.baidu.com###tab_news_1
 m.baidu.com##.square-banner-bgicon.index-banner
-m.jd.com###download_banner
-m.jd.com###layout_appdown
-m.jd.com##DIV[id="index_banner"]
 m.oschina.net##IMG[src^="/img/weibo_share.gif"]
 m.tapd.cn##.bind-phone-tips
 m.youdao.com##a[href^="http://c.youdao.com/dict/download.html"]
@@ -205,13 +197,14 @@ msdn.itellyou.cn##.shang_box
 music.taihe.com##.__qianqian_qrcode
 my.oschina.net###OSC_Content > .SpaceList:nth-of-type(2) > .BlogEntity > .BlogShare
 my.oschina.net###OSC_Content > .SpaceList:nth-of-type(2) > .BlogEntity > p
-news.cnblogs.com##DIV[id="article_A4area"]
 nginx.org##DIV[id="banner"]
 niutuku.com##DIV[id="toptip"][class="toptip"]
 nlog-project.org##DIV[class="banner-item col-md-12 col-xs-12 col-sm-3"]
 nlog-project.org##DIV[id="banners-bottom"][class="ads"]
 nlog-project.org##DIV[id="banners-right"][class="ads row"]
 npm.taobao.org###fork
+os.51cto.com##.footer_mask
+os.51cto.com##.share5 > dl
 osdn.net###cookie-bar
 outofmemory.cn###imgQqShare
 outofmemory.cn###imgSinaShare
@@ -264,6 +257,9 @@ visualstudio.com###mscc-cookie-container
 visualstudio.com###uhfCookieAlert
 visualstudio.microsoft.com###usabilla-button
 vivaldi.com###social-share
+wapbaike.baidu.com###J-spark-icon
+wapbaike.baidu.com###J-tashuo-button-fixed
+wapbaike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
 webpack.js.org##.notification-bar
 webpack.js.org##.sponsors
 wenku.baidu.com###activity-tg
@@ -331,9 +327,6 @@ www.ccav1.com##DIV[id="widget_default"]
 www.ccav1.com##div[id^="adsense"]
 www.cloudamqp.com##.dark-bg.signup
 www.cmdyz.cc##.win
-www.cnblogs.com###myRewards
-www.cnblogs.com##DIV[id="blog_post_info"]
-www.cnblogs.com##DIV[id="sildebarRight"]
 www.codeproject.com##.cc-bottom.cc-theme-edgeless.cc-type-opt-in.cc-banner.cc-window
 www.codeproject.com##.page-background > .overlay.alert-bar
 www.digitalocean.com###newsletter-signup-dialog
@@ -470,8 +463,6 @@ zhidao.baidu.com##.task-list-button
 ||*.disqus.com/count.js
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
-||7b1foz.com1.z0.glb.clouddn.com$domain=cnblogs.com
-||975-jox-769.mktoresp.com/webevents/visitWebPage
 ||a.clipconverter.cc/www/d/fr.php
 ||a.disquscdn.com/count.js
 ||a.fsdn.com/con/js/madmen.js
@@ -480,6 +471,7 @@ zhidao.baidu.com##.task-list-button
 ||a.lagou.com/js/a.js
 ||a.lagou.com/json?lt=trackshow
 ||a.lagou.com/show?t=hot
+||a1.cnblogs.com/group/T2$domain=www.cnblogs.com
 ||aaxads.com$domain=reddit.com
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||account.jetbrains.com/services/consentOptions
@@ -560,7 +552,7 @@ zhidao.baidu.com##.task-list-button
 ||bing.net/th?id=*pid=MSNJVFeeds|
 ||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_*.css$domain=baike.baidu.com
 ||bkssl.bdimg.com/static/wiki-m-lemma/widget/loadMoreContent-n/invokeBaiduApp/invokeBaiduApp_*.js$domain=baike.baidu.com
-||blackhole.m.jd.com/getinfo
+||blog.51cto.com/static/api/js/share.js
 ||blogs.msdn.microsoft.com/*/wp-content/plugins/eu-cookie-law/eucookielaw-searchbox-script.js
 ||blogs.msdn.microsoft.com/*/wp-content/plugins/simple-follow-me-social-buttons-widget/assets/js/front-widget.js
 ||blogs.msdn.microsoft.com/*/wp-content/themes/msdn-network-parent/js/social-counts.min.js
@@ -618,6 +610,7 @@ zhidao.baidu.com##.task-list-button
 ||consent.cookiebot.com/uc.js
 ||consent.trustarc.com/notice$domain=auth0.com
 ||consent.truste.com/notice$domain=docker.com
+||constid.dingxiang-inc.com/udid/c1$domain=www.cnblogs.com
 ||cordova.apache.org/static/js/twitter.js
 ||creatim.qtmojo.cn/td/AllyesDeliver.min.js
 ||csdnimg.cn/rabbit/exposure-click/block.js$domain=csdn.net
@@ -648,6 +641,7 @@ zhidao.baidu.com##.task-list-button
 ||embed.typeform.com/embed.js$domain=vivaldi.com
 ||entry.baidu.com/rp/wordner$domain=zhidao.baidu.com
 ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track$domain=csdn.net
+||eventreport.dingxiang-inc.com/api/webErrReport$domain=www.cnblogs.com
 ||events.jianshu.io:4006/sa.gif
 ||fe-api.zhaopin.com/c/i/adv
 ||feed.baidu.com/feed/api/tab/gettabinfo$domain=www.baidu.com
@@ -710,8 +704,8 @@ zhidao.baidu.com##.task-list-button
 ||iknowwap.bdimg.com/static/m-question-new/pkg/qb-ad.*.css$domain=zhidao.baidu.com
 ||iknowwap.bdimg.com/static/m-question-new/pkg/qb-ad.*.js$domain=zhidao.baidu.com
 ||iknowwap.bdimg.com/static/m-question-new/widget/ad-union-new/ad-union-new-async.*.js$domain=zhidao.baidu.com
+||image.51cto.com/images/home/js/ad*.js$domain=www.51cto.com
 ||image.baidu.com/httpsjsonp/pc?callback=imageCheckHttps$domain=www.baidu.com
-||images0.cnblogs.com/news/*/*/*.gif$domain=www.cnblogs.com
 ||img.kuai.xunlei.com/js/statistics.js
 ||img.kuai.xunlei.com/js/thunderbatch.js
 ||img05.zhaopin.cn/2014/common/js/za/ga.js
@@ -741,7 +735,6 @@ zhidao.baidu.com##.task-list-button
 ||js.peng2s.com:2003/baidu/
 ||js.zol.com.cn/pvn/z.pv
 ||jstatic.letvcdn.com/sdk/apcsdk.js
-||knicks.jd.com/log/server
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
@@ -749,6 +742,8 @@ zhidao.baidu.com##.task-list-button
 ||m.2015tv.cc/g/b.php
 ||m.baidu.com/rec
 ||m.baidu.com/se/static/amd_modules/@baidu/se-video-ad_*.js
+||m.baidu.com/se/static/js/log/taiji_behavior_*.js
+||m.baidu.com/se/static/js/log/taiji_device_*.js
 ||m.baidu.com/se/static/sf/app/amd_modules/@baidu/invoker-app_*.js
 ||m.baidu.com/static/searchbox/openjs/share.js
 ||m.baidu.com/tc
@@ -817,7 +812,6 @@ zhidao.baidu.com##.task-list-button
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 ||routertips.video.qq.com/tips_heartbeat$domain=v.qq.com
 ||runkit.com/s/timing
-||s-nfa.jd.com/bd
 ||s.cn.bing.net/th?*pid=News
 ||s.cn.bing.net/th?id=*&pid=MsnJVFeeds
 ||s.lianmeng.360.cn/so/inlay.js
@@ -868,6 +862,9 @@ zhidao.baidu.com##.task-list-button
 ||static.oschina.net/uploads/cooperation/*_banner_*.jpg
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
+||static1.51cto.com/51cto/cms/static/api/js/share.js$domain=51cto.com
+||static1.51cto.com/edu/blog/js/pvlog.js$domain=blog.51cto.com
+||static1.51cto.com/edu/blog/mobile/js/lib/share.js$domain=blog.51cto.com
 ||static1.qianqian.com/web/static/js/ting/logger
 ||statics.2cto.com/js/baidu_js_push.js
 ||statics.2cto.com/js/tj.js
@@ -890,6 +887,7 @@ zhidao.baidu.com##.task-list-button
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
+||tongji.51cto.com/frontend/index$domain=51cto.com
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
 ||tracker.klink.tech
@@ -908,6 +906,8 @@ zhidao.baidu.com##.task-list-button
 ||vivaldi.com/rep/rep
 ||vlscppe.microsoft.com/tags
 ||vortex.data.microsoft.com/collect
+||wapbaike.baidu.com/api/wapui/getbaiketurboqmrs
+||wapbaike.baidu.com/sfproxy.html
 ||web.vortex.data.microsoft.com/collect
 ||wenku.baidu.com/browse/widget/viewrecom
 ||wenku.baidu.com/shifen/get
@@ -1012,6 +1012,7 @@ zhidao.baidu.com##.task-list-button
 ||www.redditstatic.com/button/button3.js$domain=goalkicker.com
 ||www.ruanyifeng.com/blog/stats.js
 ||www.seedanddew.com/static/embed.min.js$domain=bundler.io
+||www.sobot.com/chat/frame/js/entrance.js$domain=51cto.com
 ||www.ssh.com/api/content/v1/dynamic
 ||www.ssh.com/trk
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
@@ -1038,4 +1039,4 @@ zhidao.baidu.com##.task-list-button
 ||youtrack.jetbrains.com/api/analytics
 ||zhannei-dm.csdn.net/recommend/baidu_zhannei_search$domain=blog.csdn.net
 ||zhidao.baidu.com/business/submit/dailystatistics
-||zz.bdstatic.com/linksubmit/push.js$domain=csdn.net
+||zz.bdstatic.com/linksubmit/push.js$domain=blog.51cto.com|csdn.net
