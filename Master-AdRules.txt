@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, 17 December, 2019
+! Last modified: Wednesday, 18 December, 2019
 ! Title: Master-AdRules
-! Version: 20191217
+! Version: 20191218
 !
 !
 !
@@ -30,7 +30,7 @@
 58.com##LI[class="gSuggest"]
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
 @@||localhost$document
-ai.baidu.com##.doc-feedback
+ai.baidu.com##.ai-aside
 amp.reddit.com###dismissOverlay
 amp.reddit.com##.AppSelectorModal__body
 amp.reddit.com##.SiteHeader__AppBtn.upsell_banner.TopButton
@@ -452,8 +452,11 @@ xiazaiba.com##DIV[id="j_index_focus_img"]
 xiazaiba.com##DIV[id="powerby_sohu"]
 yandex.com##.content__right
 youtrack.jetbrains.com##.alertContainer_ebe
+zhidao.baidu.com###selectsearch-icon
+zhidao.baidu.com##.activity-entry.menu-right-list-item
 zhidao.baidu.com##.icon-bdad
 zhidao.baidu.com##.jump-top-box
+zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
 ||*.cloudfront.net/keys/medium.com/p.js$domain=medium.com
@@ -761,6 +764,7 @@ zhidao.baidu.com##.task-list-button
 ||medium.com/p/*/upvotes
 ||mem.gfx.ms/meversion?partner=mssoftware-download
 ||miao.baidu.com/abdr$domain=baike.baidu.com|wenku.baidu.com|jingyan.baidu.com|wapbaike.baidu.com|zhidao.baidu.com
+||miaowu.baidu.com/abdr$domain=zhidao.baidu.com
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx
 ||modernizr.com/i/js/analytics.js
 ||mp.weixin.qq.com/mp/appmsgreport
@@ -1038,5 +1042,7 @@ zhidao.baidu.com##.task-list-button
 ||yastatic.net/s3/chat/1.16.0/widget_ya.js
 ||youtrack.jetbrains.com/api/analytics
 ||zhannei-dm.csdn.net/recommend/baidu_zhannei_search$domain=blog.csdn.net
+||zhidao.baidu.com/api/httpscheck
 ||zhidao.baidu.com/business/submit/dailystatistics
+||zhidao.baidu.com/question/api/recommend
 ||zz.bdstatic.com/linksubmit/push.js$domain=blog.51cto.com|csdn.net
