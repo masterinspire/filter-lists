@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, 15 December, 2019
+! Last modified: Sunday, 22 December, 2019
 ! Title: Master-AdRules Breaking
-! Version: 20191215
+! Version: 20191222
 !
 !
 !
@@ -20,6 +20,7 @@ cn.bing.com###est_switch
 ||i.ytimg.com$domain=developer.android.google.cn
 ||lh*.googleusercontent.com$domain=developer.android.google.cn|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||ogs.google.com$domain=translate.google.cn
+||pbs.twimg.com/profile_images$domain=stackoverflow.blog
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||stackblitz.com$domain=ng.ant.design
 ||survival-mastery.com/wp-content/plugins/disqus-comment-system/

@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, 18 December, 2019
+! Last modified: Sunday, 22 December, 2019
 ! Title: Master-AdRules
-! Version: 20191218
+! Version: 20191222
 !
 !
 !
@@ -95,6 +95,7 @@ blogs.msdn.com##DIV[id="MicrosoftTranslatorWidget"]
 c.itcast.cn##DIV[id="floatTools"]
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
 cn.bing.com###b_pole
+cn.bing.com###searchBoxOuter
 cn.bing.com##.adsblock
 cn.bing.com##.b_topborder.b_top
 cn.bing.com##.opal_serpftrc
@@ -159,6 +160,7 @@ juejin.im##.article-suspended-panel
 juejin.im##.banner-section
 juejin.im##.extension
 juejin.im##.request-health-alert
+konvajs.org###mc_embed_signup
 lagou.com##DIV[id="loginToolBar"]
 liepin.com##.app-download
 liepin.com##.fixed-feed-back
@@ -730,8 +732,9 @@ zhidao.baidu.com##.task-list-button
 ||js-agent.newrelic.com/$domain=bitbucket.org
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
-||js.hs-scripts.com^$domain=stenciljs.com
+||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com
 ||js.hsforms.net/forms/v2.js$domain=stenciljs.com
+||js.hsleadflows.net/leadflows.js$domain=stackoverflow.blog
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
@@ -831,6 +834,7 @@ zhidao.baidu.com##.task-list-button
 ||sentry.io/api$domain=jetbrains.com|medium.com
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=www.csdn.net
 ||sharethis.com$third-party
+||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org
 ||signup.azure.com/api/clientlog
 ||slack-cordova-io.herokuapp.com/slackin.js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
