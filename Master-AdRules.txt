@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, 22 December, 2019
+! Last modified: Saturday, January 4, 2019
 ! Title: Master-AdRules
-! Version: 20191222
+! Version: 20200104
 !
 !
 !
@@ -187,6 +187,7 @@ m.youdao.com##a[href^="http://c.youdao.com/dict/download.html"]
 map.baidu.com###leadDownloadCard
 map.baidu.com###message-panel
 map.baidu.com##.container.styleguide.index-widget-guidebanner
+mdap.alipay.com/loggw/dwcookieLogGet.do$domain=www.yuque.com
 medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
 medium.com##script:last-of-type + div
@@ -212,6 +213,7 @@ outofmemory.cn###imgQqShare
 outofmemory.cn###imgSinaShare
 outofmemory.cn##.pop_win
 outofmemory.cn##.pop_win_bg
+pastebin.com###float-box-frame
 pconline.com.cn##DIV[id="Jsurvey"]
 pconline.com.cn##DIV[id="app-ewm-tg"]
 play.google.com##.gb_9b.gb_zc.gb_fd
@@ -241,6 +243,7 @@ stackoverflow.com##.js-product-notice
 stackoverflow.com##DIV[id="hireme"]
 stackoverflow.com##DIV[id^="careers"]
 stackoverflow.com##DIV[id^="noscript"]
+statistic.csdn.net/www
 support.microsoft.com###smc-survey-external-feedback-button
 support.microsoft.com##.article-container[content-survey]
 support.microsoft.com##.right-rail.content-media
@@ -254,6 +257,7 @@ techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
 tieba.baidu.com###selectsearch-icon
 tortoisesvn.net##FIELDSET[class="adgroup"]
+tracert.alipay.com/cross.html$domain=www.yuque.com
 visualstudio.com###epb
 visualstudio.com###mscc-cookie-container
 visualstudio.com###uhfCookieAlert
@@ -442,6 +446,7 @@ www.wpf-tutorial.com##div.codebox_bar
 www.xda-developers.com##.et_social_inline
 www.xiazaiba.com##div.bdsharebuttonbox
 www.youtube.com##.video-annotations
+www.yuque.com##div[class^="reward___"]
 www.zhihu.com##.AppBanner-link
 www.zhihu.com##.HitQrcode
 www.zhihu.com##.KanshanDiversion
@@ -582,6 +587,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
+||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
 ||cdn.livechatinc.com/tracking.js
 ||cdn.livefyre.com/Livefyre.js$domain=docs.microsoft.com
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
@@ -598,6 +604,7 @@ zhidao.baidu.com##.task-list-button
 ||checkout.stripe.com/v3/checkout.js
 ||chocolatey.org/cassette.axd/script/*/Scripts/CookiesNotice
 ||ci.phncdn.com/www-static/js/ph-tracking.js
+||click.fanyi.baidu.com/
 ||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
 ||cn.bing.com/english/zochatv2
 ||cnstrc.com/js/ac.js
@@ -716,6 +723,7 @@ zhidao.baidu.com##.task-list-button
 ||img05.zhaopin.cn/2014/common/js/za/ga.js
 ||imgcache.qq.com/tencentvideo_v1/player/plugins/RelevanceAd.swf
 ||imgcdn.pconline.com.cn/show$domain=dl.pconline.com.cn
+||intellij-support.jetbrains.com/api/v2/help_center/community/posts/*/stats/view.json
 ||ipinfo.io$third-party
 ||isdspeed.qidian.com/cgi-bin/r.cgi
 ||isdspeed.qq.com/cgi-bin/r.cgi
@@ -742,6 +750,7 @@ zhidao.baidu.com##.task-list-button
 ||js.zol.com.cn/pvn/z.pv
 ||jstatic.letvcdn.com/sdk/apcsdk.js
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
+||localhost.ptlogin2.qq.com:*/pt_get_uins$domain=xui.ptlogin2.qq.com
 ||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
 ||log.quora.com/ajax/batched_log_POST
@@ -774,6 +783,8 @@ zhidao.baidu.com##.task-list-button
 ||mp.weixin.qq.com/mp/getappmsgad
 ||mp.weixin.qq.com/mp/report
 ||msg.csdn.net/v1/chrome/notification/view$domain=csdn.net
+||mss0.bdstatic.com/se/static/js/iphone/globalB_*.js$domain=baidu.com
+||mss0.bdstatic.com/se/static/js/iphone/globalT_*.js$domain=baidu.com
 ||mssplus.mcafee.com/mssplus.txt$domain=adobe.com
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com
@@ -1040,6 +1051,8 @@ zhidao.baidu.com##.task-list-button
 ||www.xiazaiba.com/static/js/stat.js
 ||www.youtube.com/api/stats$important
 ||www.zhaopin.com/static/analytics.js
+||xui.ptlogin2.qq.com/ptui_ver.js
+||xunit-slackin.herokuapp.com/slackin.js$domain=xunit.net
 ||yandex.com/clck/safeclick
 ||yandex.com/ick/r
 ||yandex.com/suggest-spok/suggest-ya.cgi
