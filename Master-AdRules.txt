@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, January 4, 2019
+! Last modified: Wednesday, January 8, 2019
 ! Title: Master-AdRules
-! Version: 20200104
+! Version: 20200108
 !
 !
 !
@@ -154,6 +154,7 @@ help.aliyun.com##.aliyun-delivery-view-container
 itlab.idcquan.com##IFRAME[src="http://windows.chinaitlab.com/cio_new.html"]
 jianshu.com##UL[class="popline"]
 jingyan.baidu.com###fresh-share-exp-e
+jingyan.baidu.com##.wgt-feeds-video
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.wrp-exp-share
 juejin.im##.article-suspended-panel
@@ -581,6 +582,8 @@ zhidao.baidu.com##.task-list-button
 ||c1.microsoft.com/c.gif
 ||cache.tv.qq.com/bigportal/xml/text_tips/msgtips.xml
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengda.jpg
+||cdid.c-ctrip.com/chloro-device/v2/d$domain=ctrip.com
+||cdid.c-ctrip.com/model-poc2/h$domain=ctrip.com
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn.ampproject.org/v0/amp-social-share-*.js
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
@@ -655,8 +658,10 @@ zhidao.baidu.com##.task-list-button
 ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track$domain=csdn.net
 ||eventreport.dingxiang-inc.com/api/webErrReport$domain=www.cnblogs.com
 ||events.jianshu.io:4006/sa.gif
+||exmail.qq.com/qy_mng_logic/reportKV
 ||fe-api.zhaopin.com/c/i/adv
 ||feed.baidu.com/feed/api/tab/gettabinfo$domain=www.baidu.com
+||flights.ctrip.com/itinerary/api/*/records
 ||fls-na.amazon.com/1/batch/1/OE/
 ||forms.convertkit.com
 ||fydisk.com/images/showvip.gif$domain=fydisk.com
@@ -762,6 +767,8 @@ zhidao.baidu.com##.task-list-button
 ||m.baidu.com/se/static/sf/app/amd_modules/@baidu/invoker-app_*.js
 ||m.baidu.com/static/searchbox/openjs/share.js
 ||m.baidu.com/tc
+||m.ctrip.com/restapi/soa2/*/adexchange.json$domain=ctrip.com
+||m.ctrip.com/restapi/soa2/*/json/GetFloatUI$domain=ctrip.com
 ||m.servedby-buysellads.com/monetization.js
 ||map.baidu.com/mobile/img/transparent.gif
 ||maps.google.com/maps/api/js$third-party
@@ -928,6 +935,7 @@ zhidao.baidu.com##.task-list-button
 ||wapbaike.baidu.com/api/wapui/getbaiketurboqmrs
 ||wapbaike.baidu.com/sfproxy.html
 ||web.vortex.data.microsoft.com/collect
+||webresource.c-ctrip.com/ResUnionOnline/R1/remarketing/js/remarketing.js$domain=ctrip.com
 ||wenku.baidu.com/browse/widget/viewrecom
 ||wenku.baidu.com/shifen/get
 ||wenku.baidu.com/xpage/form/getform?id=pc_right_sidebar
