@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, January 8, 2019
+! Last modified: Tuesday, January 14, 2019
 ! Title: Master-AdRules
-! Version: 20200108
+! Version: 20200114
 !
 !
 !
@@ -92,6 +92,12 @@ blog.karumi.com##.socialsidebar
 blog.magnusmontin.net###eu-cookie-law
 blog.sentry.io##.tracking-banner.banner
 blogs.msdn.com##DIV[id="MicrosoftTranslatorWidget"]
+boxnovel.baidu.com###afd
+boxnovel.baidu.com##.ChapterContent:style(max-height: inherit !important; overflow: inherit !important;)
+boxnovel.baidu.com##.Operate
+boxnovel.baidu.com##.Wechat
+boxnovel.baidu.com##.copytoken.listen-book
+boxnovel.baidu.com##.intercept-wrap
 c.itcast.cn##DIV[id="floatTools"]
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
 cn.bing.com###b_pole
@@ -495,7 +501,7 @@ zhidao.baidu.com##.task-list-button
 ||aeu.alicdn.com/ctl/ctl.js
 ||aeu.alicdn.com/js/awsc.js
 ||ajax.cloudflare.com/cdn-cgi/nexp/*/cloudflare.min.js
-||als.baidu.com/clog/glog$domain=wk.baidu.com
+||als.baidu.com/clog/$domain=baidu.com
 ||analytics-union.xunlei.com/PV
 ||analytics.163.com/ntes.js$important
 ||analytics.bfun.cn/analytics.js
@@ -569,18 +575,21 @@ zhidao.baidu.com##.task-list-button
 ||blogs.msdn.microsoft.com/*/wp-content/themes/msdn-network-parent/js/social-counts.min.js
 ||blogs.msdn.microsoft.com/dotnet/wp-admin/admin-ajax.php?action=track_page_view
 ||blogs.msdn.microsoft.com/webdev/wp-content/mu-plugins/wedcs-script/ms2_blogs.js
+||boxnovel.baidu.com/boxnovel/wiseapi/getContentExtra
+||boxnovel.baidu.com/boxnovel/wiseapi/getFengchao
 ||browser.sentry-cdn.com/*/bundle.min.js$domain=www.jetbrains.com
 ||btrace.video.qq.com/collect
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
 ||bundler.io/javascripts/analytics.js
 ||c.disquscdn.com/next/embed/alfalfa_min.*.js
-||c.evidon.com/geo/country.js$domain=vmware.com
+||c.evidon.com/geo/country.js$domain=helpx.adobe.com|vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
 ||c.microsoft.com/ms.js
 ||c.s-microsoft.com/mscc/statics/mscc
 ||c1.microsoft.com/c.gif
 ||cache.tv.qq.com/bigportal/xml/text_tips/msgtips.xml
+||cc-api-data.adobe.io/ingest/$domain=helpx.adobe.com
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengda.jpg
 ||cdid.c-ctrip.com/chloro-device/v2/d$domain=ctrip.com
 ||cdid.c-ctrip.com/model-poc2/h$domain=ctrip.com
@@ -680,6 +689,7 @@ zhidao.baidu.com##.task-list-button
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js$domain=csdn.net
 ||g.s8dj.com$domain=gamersky.com
 ||gdpr-service.herokuapp.com/is-gdpr
+||geo2.adobe.com/json/
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
 ||getadblock.com/css/stripeButton.css
@@ -867,6 +877,7 @@ zhidao.baidu.com##.task-list-button
 ||sp1.baidu.com/*/mwb2.gif$domain=m.baidu.com|www.baidu.com
 ||sp1.baidu.com/*/owb.gif$domain=m.baidu.com|www.baidu.com
 ||sp1.baidu.com/*/sensearch/selecttext$domain=www.baidu.com
+||sp1.baidu.com/*/v.gif$domain=baidu.com
 ||sp1.baidu.com/*/wbcj.gif$domain=m.baidu.com|www.baidu.com
 ||spdytest*.baidu.com/static/clientcon_test.gif$domain=m.baidu.com|www.baidu.com
 ||ss*.baidu.com/*/ps_default.gif$domain=www.baidu.com
@@ -1059,6 +1070,7 @@ zhidao.baidu.com##.task-list-button
 ||www.xiazaiba.com/static/js/stat.js
 ||www.youtube.com/api/stats$important
 ||www.zhaopin.com/static/analytics.js
+||xiongzhang.baidu.com/xzhstatistics/rp
 ||xui.ptlogin2.qq.com/ptui_ver.js
 ||xunit-slackin.herokuapp.com/slackin.js$domain=xunit.net
 ||yandex.com/clck/safeclick
