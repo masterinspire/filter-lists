@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, January 24, 2019
+! Last modified: Saturday, February 8, 2019
 ! Title: Master-AdRules
-! Version: 20200124
+! Version: 20200208
 !
 !
 !
@@ -83,6 +83,7 @@ boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
+club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_pole
 cn.bing.com###searchBoxOuter
 cn.bing.com##.adsblock
@@ -142,6 +143,7 @@ m.58.com##input[data-uuid="58app-slot-index-top"] + div
 m.baidu.com###copyright ~ div[style^="position: fixed"]
 m.baidu.com###hotwordlist
 m.baidu.com###tab_news_1
+m.baidu.com##.egg-red-envelope
 m.baidu.com##.square-banner-bgicon.index-banner
 m.lagou.com###push_bottom
 m.liepin.com###app-download-for-top
@@ -233,6 +235,7 @@ wk.baidu.com##.guidetowkOperationwg-root
 wk.baidu.com##.guidetowkappwg-root
 wk.baidu.com##.reader-pop-manager-view-containter
 wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
+wk.baidu.com##.wk-container.gain-doc-block-root
 wk.baidu.com##.wk-join-years
 wk.baidu.com/view/proxy/xpage/form/getform?id=wap_right_fixed_ad
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
@@ -259,6 +262,7 @@ www.baidu.com###content_right
 www.baidu.com###copyright ~ div[style^="position: fixed"]
 www.baidu.com###hotwordlist
 www.baidu.com###tab_news_1
+www.baidu.com##.egg-red-envelope
 www.baidu.com##.qrcodeCon
 www.baidu.com##.square-banner-bgicon.index-banner
 www.baike.com##.search-recom
@@ -429,6 +433,7 @@ zhidao.baidu.com##.task-list-button
 ||az416426.vo.msecnd.net/scripts/b/ai.2.min.js
 ||az725175.vo.msecnd.net/scripts/jsll-*.js$important
 ||azure.microsoft.com/api/v2/ue/
+||badjs.qidian.qq.com/badjs$domain=webpage.qidian.qq.com
 ||badjs.weixinbridge.com/frontend/reportspeed
 ||badjs2.qq.com/badjs$domain=tapd.cn
 ||baidu.com/sugrec
@@ -674,7 +679,7 @@ zhidao.baidu.com##.task-list-button
 ||medium.com/_/stat
 ||medium.com/p/*/upvotes
 ||mem.gfx.ms/meversion?partner=mssoftware-download
-||miao.baidu.com/abdr$domain=baike.baidu.com|wenku.baidu.com|jingyan.baidu.com|wapbaike.baidu.com|zhidao.baidu.com
+||miao.baidu.com/abdr
 ||miaowu.baidu.com/abdr$domain=zhidao.baidu.com
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx
 ||modernizr.com/i/js/analytics.js
@@ -683,8 +688,6 @@ zhidao.baidu.com##.task-list-button
 ||mp.weixin.qq.com/mp/getappmsgad
 ||mp.weixin.qq.com/mp/report
 ||msg.csdn.net/v1/chrome/notification/view$domain=csdn.net
-||mss0.bdstatic.com/se/static/js/iphone/globalB_*.js$domain=baidu.com
-||mss0.bdstatic.com/se/static/js/iphone/globalT_*.js$domain=baidu.com
 ||mssplus.mcafee.com/mssplus.txt$domain=adobe.com
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com
@@ -704,6 +707,7 @@ zhidao.baidu.com##.task-list-button
 ||pc.weixin.qq.com/cgi/report-web
 ||pingjs.qq.com/h5/stats.js$important
 ||pixel.wp.com/g.gif
+||platform.instagram.com/en_US/embeds.js
 ||platform.linkedin.com/in.js
 ||platform.linkedin.com/js/framework?v
 ||platform.twitter.com/widgets.js$third-party
@@ -820,6 +824,7 @@ zhidao.baidu.com##.task-list-button
 ||tracker.klink.tech
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
+||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js
 ||ubistatic2-a.akamaihd.net/worldwide_analytics
 ||ubistatic2-a.akamaihd.net/worldwide_analytics/*$important
 ||uedas.qidian.com/stat*.txt
@@ -931,6 +936,7 @@ zhidao.baidu.com##.task-list-button
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_GoogleTagManager/
 ||www.paypal.com/xoplatform/logger/api/logger
 ||www.pgyer.com/app/getAdAdsense
+||www.qt.io/_hcms/perf
 ||www.rabbitmq.com/img/banner-s1p.png
 ||www.rabbitmq.com/js/ga-bootstrap.js
 ||www.rarlab.com/js/ckrule.js
