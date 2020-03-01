@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, January 4, 2019
+! Last modified: Sunday, March 1, 2019
 ! Title: Master-AdRules Breaking
-! Version: 20200104
+! Version: 20200301
 !
 !
 !
@@ -17,6 +17,7 @@ stackexchange.com##div[data-sid="chinese.stackexchange.com"],div[data-sid="japan
 ||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
 ||apis.google.com$domain=translate.google.cn
 ||cdn-images-*.medium.com$domain=developer.android.google.cn
+||i.imgur.com$domain=create-react-app.dev
 ||i.stack.imgur.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 ||i.ytimg.com$domain=developer.android.google.cn
 ||lh*.googleusercontent.com$domain=developer.android.google.cn|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com

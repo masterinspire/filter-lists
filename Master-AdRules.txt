@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, February 8, 2019
+! Last modified: Sunday, March 1, 2019
 ! Title: Master-AdRules
-! Version: 20200208
+! Version: 20200301
 !
 !
 !
@@ -92,6 +92,7 @@ cn.bing.com##.opal_serpftrc
 cn.bing.com##.usrlc_bpc
 cnbeta.com##.article-share-code
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
+dev.to###html-variant-article-show-sidebar
 devblogs.microsoft.com##.a2a_kit
 devdactic.com###cookie-notice
 devdactic.com##.nc_wrapper
@@ -100,6 +101,7 @@ devdocs.io##._notice
 devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
 developer.android.google.cn##devsite-footer-promos
 developer.android.google.cn##devsite-page-rating
+developer.android.google.cn##devsite-snackbar
 developer.android.google.cn##devsite-youtube
 developer.microsoft.com##.sockWrapper
 developer.mozilla.org###developer_needs
@@ -718,6 +720,7 @@ zhidao.baidu.com##.task-list-button
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
+||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qdp.qidian.com/qreport
 ||qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js$domain=wk.baidu.com
 ||rating-widget.com/js/api/rating/get.php
@@ -854,6 +857,7 @@ zhidao.baidu.com##.task-list-button
 ||wkctj.baidu.com/baize.gif$domain=wenku.baidu.com
 ||wkretype.bdimg.com/retype/pipe/$domain=wenku.baidu.com
 ||work.3dmgame.com/statistics
+||work.weixin.qq.com/api/kvReport
 ||work.weixin.qq.com/wework_admin/report
 ||work.weixin.qq.com/wwopen/common/kvReport
 ||wreport.meituan.net
