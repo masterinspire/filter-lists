@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, March 1, 2019
+! Last modified: Saturday, March 7, 2020
 ! Title: Master-AdRules
-! Version: 20200301
+! Version: 20200307
 !
 !
 !
@@ -70,6 +70,7 @@ blog.csdn.net##.box-shadow.csdn-tracking-statistics
 blog.csdn.net##.hide-article-pos.hide-article-box
 blog.csdn.net##.hljs-button.signin
 blog.csdn.net##.jump_comment_page_button
+blog.csdn.net##.leftPop
 blog.csdn.net##.readall_box
 blog.csdn.net##.vertical.tool-box
 blog.jetbrains.com###post_footer_banner
@@ -111,6 +112,7 @@ developers.google.cn##.devsite-back-to-top-link
 developers.google.cn##devsite-page-rating
 developers.google.cn##devsite-tracking-question
 developers.google.cn##devsite-youtube
+ding-doc.dingtalk.com##.styles-float
 disqus.com##.login-overlay__wrapper
 doc.qt.io###cookie-confirm
 docs.asp.net###helpful
@@ -130,6 +132,8 @@ gitee.com##.side-toolbar
 grafana.com##.sticky-footer--dark
 grafana.com##.sticky-footer--grafanacon-la
 help.aliyun.com##.aliyun-delivery-view-container
+help.aliyun.com##.doc-feedback
+help.aliyun.com##.select-widFeedback
 jingyan.baidu.com###fresh-share-exp-e
 jingyan.baidu.com##.wgt-feeds-video
 jingyan.baidu.com##.wgt-income-money
@@ -653,6 +657,7 @@ zhidao.baidu.com##.task-list-button
 ||localhost.ptlogin2.qq.com:*/pt_get_uins$domain=xui.ptlogin2.qq.com
 ||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
+||log.dingtalk.com/log/loghttp
 ||log.quora.com/ajax/batched_log_POST
 ||m.2015tv.cc/g/b.php
 ||m.58.com/ipservice/
@@ -749,6 +754,7 @@ zhidao.baidu.com##.task-list-button
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=npm.taobao.org
 ||s7.addthis.com^*/addthis_widget.js$important
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
+||screenshots.codesandbox.io/*.png
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_test.html$domain=youdao.com
