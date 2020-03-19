@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 11, 2020
+! Last modified: Thursday, March 19, 2020
 ! Title: Master-AdRules
-! Version: 20200311
+! Version: 20200319
 !
 !
 !
@@ -13,6 +13,7 @@
 /gps/event$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
 /inc/timming.php
 21shipin.com###QQFloat
+4sysops.com##div[id^="div-test-"]
 58.com###home_open_fl_wrap
 58.com###rightSideBar
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
@@ -86,6 +87,7 @@ boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
 club.ubisoft.com###footer_tc_privacy
+cn.bing.com###b_notificationContainer_bop
 cn.bing.com###b_pole
 cn.bing.com###searchBoxOuter
 cn.bing.com##.adsblock
@@ -204,6 +206,7 @@ support.microsoft.com###smc-survey-external-feedback-button
 support.microsoft.com##.article-container[content-survey]
 support.microsoft.com##.right-rail.content-media
 support.mozilla.org###announcements
+support.office.com###epb
 support.office.com###supWrapperToPreventFeedbackFlickering
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
@@ -289,6 +292,7 @@ www.cloudamqp.com##.dark-bg.signup
 www.cmdyz.cc##.win
 www.codeproject.com##.cc-bottom.cc-theme-edgeless.cc-type-opt-in.cc-banner.cc-window
 www.codeproject.com##.page-background > .overlay.alert-bar
+www.computerworld.com##aside[id^="fsb-"]
 www.digitalocean.com###newsletter-signup-dialog
 www.divcss5.com##DIV[class="if1200 ws"]
 www.doc88.com##DIV[class="skintips"]
@@ -320,6 +324,8 @@ www.learnrazorpages.com###cookie-warning
 www.liepin.com##.guider
 www.linuxeden.com##.bdsharebuttonbox.action-share
 www.merriam-webster.com###social-sidebar-container
+www.mssqltips.com###slideboxtop
+www.mssqltips.com##.columns.hide-for-print.large-3
 www.namegeneratorfun.com###consent
 www.newtonsoft.com###footerNotice
 www.npmjs.com##DIV[id="notification-banner"]
@@ -471,6 +477,7 @@ zhidao.baidu.com##.task-list-button
 ||bing.net/th?&pid=MSNJVFeeds
 ||bing.net/th?*h=75&pid=MSNJVFeeds|
 ||bing.net/th?id=*pid=MSNJVFeeds|
+||bj.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_*.css$domain=baike.baidu.com
 ||bkssl.bdimg.com/static/wiki-m-lemma/widget/loadMoreContent-n/invokeBaiduApp/invokeBaiduApp_*.js$domain=baike.baidu.com
 ||blog.51cto.com/static/api/js/share.js
@@ -711,6 +718,7 @@ zhidao.baidu.com##.task-list-button
 ||nohost/query
 ||outofmemory.cn/static/js/h.js
 ||pagead2.googlesyndication.com$important
+||pan.baidu.com/rest/2.0/pcs/adx
 ||partnerresources.azureedge.net/public/*/scripts/ai.min.js
 ||partners.npmjs.com/hiring$domain=npmjs.com
 ||passport.baidu.com/viewlog$domain=wenku.baidu.com
@@ -729,6 +737,7 @@ zhidao.baidu.com##.task-list-button
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
+||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
 ||qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js$domain=wk.baidu.com
 ||rating-widget.com/js/api/rating/get.php
@@ -754,7 +763,7 @@ zhidao.baidu.com##.task-list-button
 ||s3-us-west-2.amazonaws.com/ad-maven-public-cdn/notT/clipconverter.js
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
 ||s3.amazonaws.com/collectchat/launcher.js$domain=techxposer.com
-||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=npm.taobao.org
+||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=npm.taobao.org|mahapps.com
 ||s7.addthis.com^*/addthis_widget.js$important
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||screenshots.codesandbox.io/*.png
@@ -764,7 +773,6 @@ zhidao.baidu.com##.task-list-button
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_top.html$domain=youdao.com
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=www.csdn.net
 ||sharethis.com$third-party
-||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org
 ||signup.azure.com/api/clientlog
 ||slack-cordova-io.herokuapp.com/slackin.js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
@@ -871,6 +879,7 @@ zhidao.baidu.com##.task-list-button
 ||work.weixin.qq.com/wwopen/common/kvReport
 ||wreport.meituan.net
 ||wuji.video.qq.com/fcgi-bin/wuji$domain=v.qq.com
+||www.2btjia.com/service/clickd/
 ||www.2cto.com/api.php?op=count
 ||www.360doc.com/ajax/clickStatics.ashx
 ||www.3dmgame.com/static/api/js/share.js
@@ -882,6 +891,7 @@ zhidao.baidu.com##.task-list-button
 ||www.androidcentral.com/_gap/_module.js
 ||www.androidcentral.com/_gap/cyhtvaf/hn/linkid.js
 ||www.baidu.com/rec
+||www.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||www.bing.com/images/sbi?mmasync=1
 ||www.bing.com/perfawareness
 ||www.bing.com/web/xls.aspx
@@ -900,6 +910,7 @@ zhidao.baidu.com##.task-list-button
 ||www.cmdyz.cc/templets/cmmov/images/xunlei
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
+||www.cr173.com/count/count.txt
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
 ||www.entityframeworktutorial.net/cdn-cgi/

@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 11, 2020
+! Last modified: Thursday, March 19, 2020
 ! Title: Master-AdRules Breaking
-! Version: 20200311
+! Version: 20200319
 !
 !
 !
@@ -25,12 +25,13 @@ stackexchange.com##div[data-sid="chinese.stackexchange.com"],div[data-sid="japan
 ||ogs.google.com$domain=translate.google.cn
 ||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com
 ||res.wx.qq.com/open/js/jweixin-*.js
+||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com
 ||stackblitz.com$domain=ng.ant.design
 ||survival-mastery.com/wp-content/plugins/disqus-comment-system/
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/cse/brand$third-party,important
 ||www.google.com/cse/cse.js$third-party,important
-||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com,important
+||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com|www.mssqltips.com,important
 ||www.youtube-nocookie.com/embed/*$third-party
 ||youtube.com/embed/*$third-party
 ||youtube.com/iframe_api$third-party,important
