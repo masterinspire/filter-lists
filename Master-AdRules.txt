@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, March 19, 2020
+! Last modified: Friday, March 27, 2020
 ! Title: Master-AdRules
-! Version: 20200319
+! Version: 20200327
 !
 !
 !
@@ -204,6 +204,7 @@ stackoverflow.com##DIV[id^="noscript"]
 statistic.csdn.net/www
 support.microsoft.com###smc-survey-external-feedback-button
 support.microsoft.com##.article-container[content-survey]
+support.microsoft.com##.banner-image.notification-banner
 support.microsoft.com##.right-rail.content-media
 support.mozilla.org###announcements
 support.office.com###epb
@@ -211,6 +212,7 @@ support.office.com###supWrapperToPreventFeedbackFlickering
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
+thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tortoisesvn.net##FIELDSET[class="adgroup"]
 tracert.alipay.com/cross.html$domain=www.yuque.com
@@ -313,6 +315,8 @@ www.gamersky.com##.Mid2_R
 www.google.com##.gb_g.gb_0c.gb_Ad
 www.google.com##.og-pdp
 www.haosou.com###side
+www.howtogeek.com##.email-overlay
+www.howtogeek.com##.overlay-wrapper
 www.influxdata.com##.contact_sale
 www.influxdata.com##.cookieterms
 www.jetbrains.com##.cookies-banner
@@ -354,6 +358,7 @@ www.sysgeek.cn##.widget_ui_asb2.widget
 www.talkingdotnet.com###dvBottomContent
 www.talkingdotnet.com##.sd-sharing-enabled.sharedaddy
 www.tapd.cn##.bind-phone-tips
+www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked
 www.telerik.com##.optanon-alert-box-wrapper
 www.tldrgames.com###catapult-cookie-bar
@@ -408,6 +413,8 @@ zhidao.baidu.com##.task-list-button
 ||aeu.alicdn.com/ctl/ctl.js
 ||aeu.alicdn.com/js/awsc.js
 ||ajax.cloudflare.com/cdn-cgi/nexp/*/cloudflare.min.js
+||alioth.alicdn.com/adPlan-default-position-*$domain=developer.aliyun.com
+||aliyun-page.cn-hangzhou.log.aliyuncs.com/logstores/web/track$domain=aliyun.com
 ||als.baidu.com/clog/$domain=baidu.com
 ||analytics-union.xunlei.com/PV
 ||analytics.163.com/ntes.js$important
@@ -523,6 +530,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent$third-party
 ||cdnssl.clicktale.net$domain=answers.microsoft.com
+||cf.aliyun.com/scratchCardSlide/dataReport.jsonp$domain=aliyun.com
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
 ||checkout.stripe.com/v3/checkout.js
@@ -547,6 +555,8 @@ zhidao.baidu.com##.task-list-button
 ||consent.cookiebot.com/uc.js
 ||consent.trustarc.com/notice$domain=auth0.com
 ||consent.truste.com/notice$domain=docker.com
+||console-base-cn-hangzhou.cn-hangzhou.log.aliyuncs.com/logstores/the-base/track$domain=aliyun.com
+||consolebench.cn-hangzhou.log.aliyuncs.com/logstores/accesslog/track$domain=aliyun.com
 ||constid.dingxiang-inc.com/udid/c1$domain=www.cnblogs.com
 ||cordova.apache.org/static/js/twitter.js
 ||creatim.qtmojo.cn/td/AllyesDeliver.min.js
@@ -575,6 +585,7 @@ zhidao.baidu.com##.task-list-button
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
 ||earlymonitoring.firebaseapp.com/index.min.js$domain=www.gatsbyjs.org
+||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
 ||embed.typeform.com/embed.js$domain=vivaldi.com
 ||entry.baidu.com/rp/wordner$domain=zhidao.baidu.com
 ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track$domain=csdn.net
@@ -588,9 +599,12 @@ zhidao.baidu.com##.task-list-button
 ||foundation.youdao.com/ip/ipinfo$domain=youdao.com
 ||fourier.taobao.com/ts
 ||g.alicdn.com/AWSC/AWSC/awsc.js$domain=download.csdn.net
+||g.alicdn.com/alilog/mlog/aplus_v2.js$domain=aliyun.com
 ||g.alicdn.com/alilog/oneplus/entry.js$domain=help.aliyun.com
 ||g.alicdn.com/aliyun/util/*/module/Promotion.js$domain=help.aliyun.com
-||g.alicdn.com/aliyun/www-dpl/*/knight/js/data-statistics.js$domain=help.aliyun.com
+||g.alicdn.com/aliyun/www-dpl/*/knight/js/data-statistics.js$domain=aliyun.com
+||g.alicdn.com/axdata/yunlog/yunlog.js$domain=aliyun.com
+||g.alicdn.com/sd/pointman/js/pt2.js$domain=aliyun.com
 ||g.csdnimg.cn//side-toolbar/*/side-toolbar.js$domain=csdn.net
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js$domain=csdn.net
 ||g.csdnimg.cn/check-adb/*/check-adb.js$domain=csdn.net
@@ -717,6 +731,7 @@ zhidao.baidu.com##.task-list-button
 ||nexus-websocket-*.intercom.io/client-test
 ||nohost/query
 ||outofmemory.cn/static/js/h.js
+||page.aliyun.com/delivery/plan/list$domain=developer.aliyun.com
 ||pagead2.googlesyndication.com$important
 ||pan.baidu.com/rest/2.0/pcs/adx
 ||partnerresources.azureedge.net/public/*/scripts/ai.min.js
@@ -733,6 +748,7 @@ zhidao.baidu.com##.task-list-button
 ||play.google.com/_/PlayStoreUi/gen204
 ||play.google.com/_/PlayStoreUi/jserror
 ||play.google.com/log
+||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
@@ -865,6 +881,7 @@ zhidao.baidu.com##.task-list-button
 ||wenku.baidu.com/browse/widget/viewrecom
 ||wenku.baidu.com/shifen/get
 ||wenku.baidu.com/xpage/form/getform?id=pc_right_sidebar
+||widget-log.cn-hangzhou.log.aliyuncs.com/logstores/$domain=aliyun.com
 ||widget.intercom.io/widget/*$domain=reactiveui.net
 ||widget.pushbullet.com/dynamic.js$third-party
 ||widget.uservoice.com/*.js$domain=dotnetfiddle.net
