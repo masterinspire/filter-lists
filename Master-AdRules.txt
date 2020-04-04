@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, March 27, 2020
+! Last modified: Saturday, April 4, 2020
 ! Title: Master-AdRules
-! Version: 20200327
+! Version: 20200404
 !
 !
 !
@@ -45,6 +45,7 @@ bbs.smartisan.com##.tips-download
 bing.com###TopApp
 bing.com###b_opalpers
 bing.com###ev_trans_btn_group
+bing.com###shareview
 bing.com##.mchild_content
 bing.com##.tipContainer
 bing.com##.tipContainer-hoverTrans
@@ -85,6 +86,7 @@ boxnovel.baidu.com##.Operate
 boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
+chocolatey.org##.cookies-popup
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
 club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_notificationContainer_bop
@@ -96,6 +98,7 @@ cn.bing.com##.opal_serpftrc
 cn.bing.com##.usrlc_bpc
 cnbeta.com##.article-share-code
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
+dapper-tutorial.net##.container-fluid.page-header-calltoaction
 dev.to###html-variant-article-show-sidebar
 devblogs.microsoft.com##.a2a_kit
 devdactic.com###cookie-notice
@@ -127,6 +130,7 @@ docs.microsoft.com##.feedback-verbatim
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
 dotnetfiddle.net##.container-sponsor
+dxr.mozilla.org###context-menu
 embed.plnkr.co##.plunker-ad-wrap
 entityframeworkcore.com##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
 forums.asp.net##.all-content > div:nth-of-type(1)
@@ -161,7 +165,6 @@ map.baidu.com###leadDownloadCard
 map.baidu.com###message-panel
 map.baidu.com##.container.styleguide.index-widget-guidebanner
 material-ui.com##.ad.description
-mdap.alipay.com/loggw/dwcookieLogGet.do$domain=www.yuque.com
 medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
 medium.com##script:last-of-type + div
@@ -201,7 +204,6 @@ stackoverflow.com##.js-product-notice
 stackoverflow.com##DIV[id="hireme"]
 stackoverflow.com##DIV[id^="careers"]
 stackoverflow.com##DIV[id^="noscript"]
-statistic.csdn.net/www
 support.microsoft.com###smc-survey-external-feedback-button
 support.microsoft.com##.article-container[content-survey]
 support.microsoft.com##.banner-image.notification-banner
@@ -215,7 +217,6 @@ telerik.com##.optanon-alert-box-wrapper
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tortoisesvn.net##FIELDSET[class="adgroup"]
-tracert.alipay.com/cross.html$domain=www.yuque.com
 visualstudio.com###epb
 visualstudio.com###mscc-cookie-container
 visualstudio.com###uhfCookieAlert
@@ -250,9 +251,7 @@ wk.baidu.com##.reader-pop-manager-view-containter
 wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
 wk.baidu.com##.wk-container.gain-doc-block-root
 wk.baidu.com##.wk-join-years
-wk.baidu.com/view/proxy/xpage/form/getform?id=wap_right_fixed_ad
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
-wp.qiye.qq.com/qidian/*/*$domain=tapd.cn
 www.360doc.com###btn_freeread
 www.360doc.com###goTop2
 www.360doc.com##.docsharelist
@@ -464,7 +463,6 @@ zhidao.baidu.com##.task-list-button
 ||baike.baidu.com/api/wikiui/getasp
 ||baike.baidu.com/sfproxy.html
 ||bdimg.share.baidu.com/static/api/js/share.js
-||bing.com###shareview
 ||bing.com/*/MsnJVData/HoverTranslation*
 ||bing.com/AS/Suggestions
 ||bing.com/dict/SerpHoverTrans
@@ -599,6 +597,7 @@ zhidao.baidu.com##.task-list-button
 ||foundation.youdao.com/ip/ipinfo$domain=youdao.com
 ||fourier.taobao.com/ts
 ||g.alicdn.com/AWSC/AWSC/awsc.js$domain=download.csdn.net
+||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
 ||g.alicdn.com/alilog/mlog/aplus_v2.js$domain=aliyun.com
 ||g.alicdn.com/alilog/oneplus/entry.js$domain=help.aliyun.com
 ||g.alicdn.com/aliyun/util/*/module/Promotion.js$domain=help.aliyun.com
@@ -704,6 +703,7 @@ zhidao.baidu.com##.task-list-button
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
 ||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
+||mdap.alipay.com/loggw/dwcookieLogGet.do$domain=www.yuque.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
 ||medium.com/_/batch
 ||medium.com/_/lite/performance/
@@ -835,6 +835,7 @@ zhidao.baidu.com##.task-list-button
 ||statics.2cto.com/js/tj.js
 ||statistic.csdn.net/baidu_search_success$domain=www.csdn.net|blog.csdn.net
 ||statistic.csdn.net/seo/spiderfriendly$domain=csdn.net
+||statistic.csdn.net/www
 ||statistic.liepin.com/statVisit.do
 ||statistic.liepin.com/statisticPlatform/tLog
 ||statistic.zhaopin.cn/sdk/sa/
@@ -857,6 +858,7 @@ zhidao.baidu.com##.task-list-button
 ||tongji.51cto.com/frontend/index$domain=51cto.com
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
+||tracert.alipay.com/cross.html$domain=www.yuque.com
 ||tracker.klink.tech
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
@@ -888,12 +890,14 @@ zhidao.baidu.com##.task-list-button
 ||widget.weibo.com/weiboshow/index.php$domain=www.ltesting.net|www.liaoxuefeng.com
 ||wk.baidu.com/view/api/fcnew
 ||wk.baidu.com/view/api/xpage?formId=wk_wap_ad_tmp
+||wk.baidu.com/view/proxy/xpage/form/getform?id=wap_right_fixed_ad
 ||wkctj.baidu.com/baize.gif$domain=wenku.baidu.com
 ||wkretype.bdimg.com/retype/pipe/$domain=wenku.baidu.com
 ||work.3dmgame.com/statistics
 ||work.weixin.qq.com/api/kvReport
 ||work.weixin.qq.com/wework_admin/report
 ||work.weixin.qq.com/wwopen/common/kvReport
+||wp.qiye.qq.com/qidian/$domain=tapd.cn
 ||wreport.meituan.net
 ||wuji.video.qq.com/fcgi-bin/wuji$domain=v.qq.com
 ||www.2btjia.com/service/clickd/
