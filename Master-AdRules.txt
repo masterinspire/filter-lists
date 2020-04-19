@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, April 12, 2020
+! Last modified: Sunday, April 19, 2020
 ! Title: Master-AdRules
-! Version: 20200412
+! Version: 20200419
 !
 !
 !
@@ -148,6 +148,7 @@ jingyan.baidu.com##.wgt-feeds-video
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.wrp-exp-share
 konvajs.org###mc_embed_signup
+letsencrypt.org##.donate-footer
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
 m.3dmgame.com##.tuiguang_3dm
@@ -344,8 +345,10 @@ www.namegeneratorfun.com###consent
 www.newtonsoft.com###footerNotice
 www.npmjs.com##DIV[id="notification-banner"]
 www.nuget.org###sideColumn > .stat
+www.nuget.org###usabilla-button
 www.online-tech-tips.com##div[id^="snhb-In_content_"]
 www.oschina.net##.float-adbox
+www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com###packt_gdpr_container
 www.pornhub.com###js-abContainterMain
 www.quora.com##.ViewInAppLink
@@ -643,7 +646,7 @@ zhidao.baidu.com##.task-list-button
 ||gql.reddit.com/?request_timestamp
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
-||graph.facebook.com/$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||graph.facebook.com/$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com|www.ostechnix.com
 ||gsp*.baidu.com/*/tb/pms/img/st.gif$domain=wapbaike.baidu.com
 ||gsp*.baidu.com/*/v.gif$domain=baike.baidu.com|wapbaike.baidu.com
 ||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=blog.csdn.net
