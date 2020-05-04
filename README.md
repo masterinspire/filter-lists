@@ -15,17 +15,29 @@ Enter this url to your **filter lists**:
 
 > https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/breaking.txt
 
-or with [gitlab](https://gitlab.com/masterinspire/Master-AdRules):
+or with [RawGit](https://rawgit.org/):
 
-> https://gitlab.com/masterinspire/Master-AdRules/raw/master/Master-AdRules.txt
+> https://ghcdn.rawgit.org/masterinspire/Master-AdRules/master/Master-AdRules.txt
 
-> https://gitlab.com/masterinspire/Master-AdRules/raw/master/breaking.txt
+> https://ghcdn.rawgit.org/masterinspire/Master-AdRules/master/breaking.txt
 
-or with [gitcdn](https://www.gitcdn.xyz):
+or with [jsDelivr](https://www.jsdelivr.com/?docs=gh):
+
+> https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/Master-AdRules.txt
+
+> https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/breaking.txt
+
+or with [GitCDN](https://www.gitcdn.xyz):
 
 > https://www.gitcdn.xyz/cdn/masterinspire/Master-AdRules/master/Master-AdRules.txt
 
 > https://www.gitcdn.xyz/cdn/masterinspire/Master-AdRules/master/breaking.txt
+
+or with [GitLab](https://gitlab.com/masterinspire/Master-AdRules):
+
+> https://gitlab.com/masterinspire/Master-AdRules/raw/master/Master-AdRules.txt
+
+> https://gitlab.com/masterinspire/Master-AdRules/raw/master/breaking.txt
 
 ## Contribution
 
