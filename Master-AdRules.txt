@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, April 30, 2020
+! Last modified: Tuesday, May 5, 2020
 ! Title: Master-AdRules
-! Version: 20200430
+! Version: 20200505
 !
 !
 !
@@ -34,6 +34,7 @@ apkpure.com##.share-fixed
 arcanecode.com##.widget_eu_cookie_law_widget.widget
 auth0.com###popup
 auth0.com###selectionSharerPopover
+aws.amazon.com##.aws-cn-optin
 baike.baidu.com###J-spark-icon
 baike.baidu.com###J-tashuo-button-fixed
 baike.baidu.com###side-share
@@ -611,7 +612,7 @@ zhidao.baidu.com##.task-list-button
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
 ||earlymonitoring.firebaseapp.com/index.min.js$domain=www.gatsbyjs.org
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
-||embed.typeform.com/embed.js$domain=vivaldi.com
+||embed.typeform.com/embed.js$domain=vivaldi.com|fontawesome.com
 ||entry.baidu.com/rp/wordner$domain=zhidao.baidu.com
 ||epnclick.ru/$domain=forum.ru-board.com
 ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track$domain=csdn.net
@@ -706,6 +707,7 @@ zhidao.baidu.com##.task-list-button
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
 ||js.peng2s.com:2003$domain=www.cmdyz.cc
+||js.stripe.com/v3/$domain=fontawesome.com
 ||jstatic.letvcdn.com/sdk/apcsdk.js
 ||jzdisplay.58.com/js/gjad_show.js$domain=m.58.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
@@ -881,6 +883,7 @@ zhidao.baidu.com##.task-list-button
 ||statistic2.liepin.com$domain=www.liepin.com
 ||stripe.com$domain=gitbook.com
 ||sug.so.360.cn/suggest
+||sugar.zhihu.com/plutus_adreaper$domain=www.zhihu.com
 ||support.google.com/apis/gpf_metrics
 ||support.google.com/chrome/apis/metrics
 ||support.office.com/bundles/stickyFeedback
@@ -903,8 +906,7 @@ zhidao.baidu.com##.task-list-button
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js
-||ubistatic2-a.akamaihd.net/worldwide_analytics
-||ubistatic2-a.akamaihd.net/worldwide_analytics/*$important
+||ubistatic2-a.akamaihd.net/worldwide_analytics$important
 ||uedas.qidian.com/stat*.txt
 ||uedas.qidian.com/statajax.aspx
 ||uhf.microsoft.com/*/shell/api/mscc$domain=www.typescriptlang.org
