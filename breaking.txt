@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, April 4, 2020
+! Last modified: Sunday, May 10, 2020
 ! Title: Master-AdRules Breaking
-! Version: 20200404
+! Version: 20200510
 !
 !
 !
@@ -31,7 +31,7 @@ stackexchange.com##div[data-sid="chinese.stackexchange.com"],div[data-sid="japan
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/cse/brand$third-party,important
 ||www.google.com/cse/cse.js$third-party,important
-||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com|www.mssqltips.com,important
+||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com|www.mssqltips.com|www.experts-exchange.com,important
 ||www.youtube-nocookie.com/embed/*$third-party
 ||youtube.com/embed/*$third-party
 ||youtube.com/iframe_api$third-party,important

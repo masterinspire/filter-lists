@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, May 5, 2020
+! Last modified: Sunday, May 10, 2020
 ! Title: Master-AdRules
-! Version: 20200505
+! Version: 20200510
 !
 !
 !
@@ -327,7 +327,12 @@ www.enterprisedb.com###promoWrapper
 www.enterprisedb.com##.outer-content > .content_bottom > .chat-wrap,.contactus1
 www.enterprisedb.com##.outer-content > .content_middle > .chat-wrap
 www.entityframeworktutorial.net##A[id="ffb_feedback"]
-www.experts-exchange.com##DIV[class="verifiedSolution-B"]
+www.experts-exchange.com###bottomBarSignup
+www.experts-exchange.com###pageShareAndManage-id2
+www.experts-exchange.com###textComponent-id18
+www.experts-exchange.com##.afterFirstSolution
+www.experts-exchange.com##.getAccessContainer
+www.experts-exchange.com##.weHelpBanner
 www.fanbyte.com###PopupSignupForm_0
 www.fanbyte.com###check-also-box
 www.gamersky.com##.Mid2_R
@@ -591,6 +596,7 @@ zhidao.baidu.com##.task-list-button
 ||csdnimg.cn/static/api/js/share.js$domain=csdn.net
 ||cse.google.com/cse.js
 ||csp.yandex.net/csp$domain=yandex.com
+||cstm.baidu.com/baike/log$domain=baike.baidu.com
 ||customer.api.drift.com/geo
 ||data.services.jetbrains.com/geo
 ||data.v.qq.com/videocms/getNewsvideoList.php
@@ -601,6 +607,7 @@ zhidao.baidu.com##.task-list-button
 ||demandbase.com^*/ip.json
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
+||discord.com/api/v6/science
 ||dlog.liepin.com/dlog$domain=liepin.com
 ||docs.microsoft.com/api/privacy/cookieConsent
 ||docs.ti-net.com.cn/count.php
@@ -611,6 +618,7 @@ zhidao.baidu.com##.task-list-button
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
 ||earlymonitoring.firebaseapp.com/index.min.js$domain=www.gatsbyjs.org
+||ebank.spdb.com.cn/etrack/
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
 ||embed.typeform.com/embed.js$domain=vivaldi.com|fontawesome.com
 ||entry.baidu.com/rp/wordner$domain=zhidao.baidu.com
