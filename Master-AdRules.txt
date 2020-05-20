@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, May 14, 2020
+! Last modified: Wednesday, May 20, 2020
 ! Title: Master-AdRules
-! Version: 20200514
+! Version: 20200520
 !
 !
 !
@@ -150,9 +150,11 @@ gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.trial-link
 grafana.com##.sticky-footer--dark
 grafana.com##.sticky-footer--grafanacon-la
+gtaforums.com##.ipsComment_inlineQuoteTooltip.ipsTooltip_bottom.ipsTooltip
 help.aliyun.com##.aliyun-delivery-view-container
 help.aliyun.com##.doc-feedback
 help.aliyun.com##.select-widFeedback
+ironsoftware.com##.fixed-support-bar
 jd.com###toolbar-qrcode
 jd.com##.J-video-view-wrap
 jd.com##.fixed.jTdCode
@@ -205,6 +207,7 @@ packagecloud.io##.logged-out-links
 pastebin.com###float-box-frame
 play.google.com##.gb_9b.gb_zc.gb_fd
 plugins.jetbrains.com###legal-user-acceptance-plugins
+plugins.jetbrains.com##.acceptance-popup
 qtcn.org##DIV[class="pw_all_tip"]
 read.douban.com###desktop-app-ad
 read.douban.com##.btns-tip.tooltip
@@ -374,7 +377,8 @@ www.mssqltips.com###slideboxtop
 www.mssqltips.com##.columns.hide-for-print.large-3
 www.namegeneratorfun.com###consent
 www.newtonsoft.com###footerNotice
-www.nokia.com##.bg-nokia-blue.nokia-cookies-wrapper
+www.nokia.com###block-nokialocalesuggestionblock
+www.nokia.com##.nokia-cookies-wrapper
 www.npmjs.com##DIV[id="notification-banner"]
 www.nuget.org###sideColumn > .stat
 www.nuget.org###usabilla-button
@@ -431,6 +435,9 @@ www.wilderssecurity.com##.bottomFixer
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
 www.xda-developers.com##.et_social_inline
+www.xda-developers.com##.et_social_sidebar_networks
+www.xda-developers.com##.widget.widget-2.widget_text
+www.xda-developers.com##.widget.widget-3.widget_text
 www.youtube.com##.video-annotations
 www.yuque.com##div[class^="reward___"]
 yandex.com##.content__right
@@ -445,6 +452,7 @@ zhidao.baidu.com##.jump-top-box
 zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
+||*.amazon-adsystem.com/widgets/$important
 ||*.cloudfront.net/keys/medium.com/p.js$domain=medium.com
 ||*.cnbeta.com/static/api/js/share.js
 ||*.cnbeta.com/static/api/js/share/share_api.js
@@ -620,6 +628,7 @@ zhidao.baidu.com##.task-list-button
 ||consolebench.cn-hangzhou.log.aliyuncs.com/logstores/accesslog/track$domain=aliyun.com
 ||constid.dingxiang-inc.com/udid/c1$domain=www.cnblogs.com
 ||cordova.apache.org/static/js/twitter.js
+||countly.mail.163.com/countly/i$domain=mail.163.com
 ||crash.data.v2.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||creatim.qtmojo.cn/td/AllyesDeliver.min.js
 ||csdnimg.cn/rabbit/exposure-click/block.js$domain=csdn.net
@@ -686,6 +695,8 @@ zhidao.baidu.com##.task-list-button
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
 ||getaninsight.com$domain=entityframeworktutorial.net|tutorialsteacher.com
+||gia.jd.com/fcf.html
+||gia.jd.com/y.html
 ||gitee.com/*/*/widget_preview$domain=www.oschina.net
 ||gitee.com/bd_share/static/api/js/share.js
 ||gitter.im/api/private/statsc
@@ -809,6 +820,7 @@ zhidao.baidu.com##.task-list-button
 ||nebula-collector.huawei.com
 ||nexus-websocket-*.intercom.io/client-test
 ||nohost/query
+||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||outofmemory.cn/static/js/h.js
 ||page.aliyun.com/delivery/plan/list$domain=developer.aliyun.com
 ||page.gitlab.com/js/forms2/js/forms2.min.js$domain=about.gitlab.com
@@ -837,6 +849,7 @@ zhidao.baidu.com##.task-list-button
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
+||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com
 ||qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js$domain=wk.baidu.com
 ||rating-widget.com/js/api/rating/get.php
 ||readthedocs.org/api/v2/footer_html/?callback
@@ -904,6 +917,7 @@ zhidao.baidu.com##.task-list-button
 ||ssl.gstatic.com/feedback/api.js
 ||ssl.gstatic.com/support/content/gpf/gpf_stats.js
 ||ssl.microsofttranslator.com/ajax/v3/WidgetV3.ashx
+||sstat.jd.com/scslog
 ||sstats.adobe.com$third-party
 ||star.tag.webdev.com/api/page
 ||stat-api.20hn.cn/jf.gif$domain=pc6.com
