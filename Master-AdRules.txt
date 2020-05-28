@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, May 20, 2020
+! Last modified: Thursday, May 28, 2020
 ! Title: Master-AdRules
-! Version: 20200520
+! Version: 20200528
 !
 !
 !
@@ -24,6 +24,7 @@ amp.reddit.com###dismissOverlay
 amp.reddit.com##.AppSelectorModal__body
 amp.reddit.com##.SiteHeader__AppBtn.upsell_banner.TopButton
 androidwave.com##.onp-sl-overlap-box
+angular-academy.com##.share
 ankhsvn.open.collab.net###collabnet-products
 ankhsvn.open.collab.net###uvTab
 answers.microsoft.com###threadfooter
@@ -403,6 +404,7 @@ www.runoob.com##.fixed-btn
 www.samsung.com##.cm-cookie-geo
 www.samsung.com##.iparsys.ipar.parsys
 www.smartsvn.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
+www.sohu.com###float-btn
 www.sqlshack.com###cookiesWarning
 www.syntevo.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.syntevo.com##.cookie
@@ -509,6 +511,7 @@ zhidao.baidu.com##.task-list-button
 ||app-sj05.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
+||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
 ||aq.xunlei.com/v1.3/js/aq_bm.js
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
@@ -638,6 +641,7 @@ zhidao.baidu.com##.task-list-button
 ||csp.yandex.net/csp$domain=yandex.com
 ||cstm.baidu.com/baike/log$domain=baike.baidu.com
 ||customer.api.drift.com/geo
+||da.qiyukf.com/webda/da.gif$domain=qiye.163.com
 ||data.services.jetbrains.com/geo
 ||data.v.qq.com/videocms/getNewsvideoList.php
 ||datacollect.vmall.com:18443$third-party
@@ -653,7 +657,7 @@ zhidao.baidu.com##.task-list-button
 ||docs.ti-net.com.cn/count.php
 ||down.58.com/js/58appLaunch.js$domain=m.58.com
 ||down.58.com/js/launchPop.js$domain=m.58.com
-||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com
+||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com|angular-academy.com
 ||dp3.qq.com/stdlog$domain=v.qq.com
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
@@ -884,6 +888,7 @@ zhidao.baidu.com##.task-list-button
 ||screenshots.codesandbox.io/*.png
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
+||services.qiye.163.com/service/static/js/access.js$domain=qiye.163.com
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_test.html$domain=youdao.com
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_top.html$domain=youdao.com
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=www.csdn.net
@@ -914,6 +919,7 @@ zhidao.baidu.com##.task-list-button
 ||sp1.baidu.com/*/webb.gif
 ||spdytest*.baidu.com/static/clientcon_test.gif$domain=m.baidu.com|www.baidu.com
 ||ss*.baidu.com/*/ps_default.gif$domain=www.baidu.com
+||ssl.captcha.qq.com/dfpReg$important
 ||ssl.gstatic.com/feedback/api.js
 ||ssl.gstatic.com/support/content/gpf/gpf_stats.js
 ||ssl.microsofttranslator.com/ajax/v3/WidgetV3.ashx
@@ -943,6 +949,7 @@ zhidao.baidu.com##.task-list-button
 ||static1.qianqian.com/web/static/js/ting/logger
 ||statics.2cto.com/js/baidu_js_push.js
 ||statics.2cto.com/js/tj.js
+||statics.itc.cn/iwtReport/iwt1.0.1.js$domain=www.sohu.com
 ||statistic.csdn.net/baidu_search_success$domain=www.csdn.net|blog.csdn.net
 ||statistic.csdn.net/seo/spiderfriendly$domain=csdn.net
 ||statistic.csdn.net/www
@@ -984,6 +991,9 @@ zhidao.baidu.com##.task-list-button
 ||uhf.microsoft.com/mscc/statics/mscc-*
 ||unpkg.pstatp.com/byted/sec_sdk_build/*/dist/captcha.js$domain=www.toutiao.com
 ||update.vivaldi.com/stats/rep
+||v2.sohu.com/api/pc-home-city/home-data/ip2location
+||v2.sohu.com/integration-api/batch/web
+||v2.sohu.com/integration-api/mix/region/$important
 ||va.tawk.to/register/$domain=www.sswug.org
 ||va.v.liveperson.net/api/js$third-party
 ||vip.log.mgtv.com/dynamic_entry.html$domain=www.mgtv.com
