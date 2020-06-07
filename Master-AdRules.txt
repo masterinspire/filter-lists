@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, May 28, 2020
+! Last modified: Sunday, June 7, 2020
 ! Title: Master-AdRules
-! Version: 20200528
+! Version: 20200607
 !
 !
 !
@@ -138,6 +138,7 @@ docs.microsoft.com##.feedback-verbatim
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
 dotnetfiddle.net##.container-sponsor
+downzen.com###amp-user-notification1
 dxr.mozilla.org###context-menu
 embed.plnkr.co##.plunker-ad-wrap
 entityframeworkcore.com##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
@@ -194,6 +195,7 @@ microsoft.com###epb
 microsoft.com###msccBanner
 microsoft.com###uhfCookieAlert
 minecraft.gamepedia.com##div[class^="app_gdpr"]
+mobile.softpedia.com###cookienotif
 movie.mtime.com###divRelatedGoods
 msdn.itellyou.cn##.shang_box
 music.taihe.com##.__qianqian_qrcode
@@ -238,6 +240,7 @@ support.microsoft.com##.article-container[content-survey]
 support.microsoft.com##.banner-image.notification-banner
 support.microsoft.com##.right-rail.content-media
 support.mozilla.org###announcements
+support.mozilla.org##.document-vote--sidebar-wrap
 support.office.com###epb
 support.office.com###supWrapperToPreventFeedbackFlickering
 techxposer.com###icon_wrapper
@@ -281,8 +284,6 @@ wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
 wk.baidu.com##.wk-container.gain-doc-block-root
 wk.baidu.com##.wk-join-years
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
-www.345dyy.com##.fed-goto-info
-www.345dyy.com##.fed-tabr-advs
 www.360doc.com###btn_freeread
 www.360doc.com###goTop2
 www.360doc.com##.docsharelist
@@ -298,6 +299,7 @@ www.ali213.net##DIV[id="ali-photo-slide"]
 www.ali213.net##DIV[id="right_nav"][class="ali-float-nav"]
 www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
+www.androidpure.com###selectShareContainer
 www.apress.com##.wrapper > .page > .col3-layout.main > .col-wrapper > .straddle-1-2 > .col-main > div:nth-of-type(1)
 www.asp.net###helpful
 www.asp.net##DIV[id="survey-container"]
@@ -588,6 +590,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
 ||cdn.livechatinc.com/tracking.js
@@ -626,7 +629,7 @@ zhidao.baidu.com##.task-list-button
 ||consent-st.truste.com/get
 ||consent.cookiebot.com/uc.js
 ||consent.trustarc.com/notice$domain=auth0.com
-||consent.truste.com/notice$domain=docker.com
+||consent.truste.com/notice$domain=docker.com|dev.mysql.com
 ||console-base-cn-hangzhou.cn-hangzhou.log.aliyuncs.com/logstores/the-base/track$domain=aliyun.com
 ||consolebench.cn-hangzhou.log.aliyuncs.com/logstores/accesslog/track$domain=aliyun.com
 ||constid.dingxiang-inc.com/udid/c1$domain=www.cnblogs.com
@@ -842,6 +845,7 @@ zhidao.baidu.com##.task-list-button
 ||platform.linkedin.com/in.js
 ||platform.linkedin.com/js/framework?v
 ||platform.twitter.com/widgets.js$third-party
+||platform.twitter.com/widgets/follow_button.html$domain=www.techspot.com
 ||play.google.com/_/PlayStoreUi/browserinfo
 ||play.google.com/_/PlayStoreUi/gen204
 ||play.google.com/_/PlayStoreUi/jserror
@@ -853,7 +857,7 @@ zhidao.baidu.com##.task-list-button
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
-||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com
+||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
 ||qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js$domain=wk.baidu.com
 ||rating-widget.com/js/api/rating/get.php
 ||readthedocs.org/api/v2/footer_html/?callback
@@ -917,6 +921,7 @@ zhidao.baidu.com##.task-list-button
 ||sp1.baidu.com/*/v.gif$domain=baidu.com
 ||sp1.baidu.com/*/wbcj.gif$domain=m.baidu.com|www.baidu.com
 ||sp1.baidu.com/*/webb.gif
+||sp3.baidu.com/*/ps_fp.htm$domain=www.baidu.com
 ||spdytest*.baidu.com/static/clientcon_test.gif$domain=m.baidu.com|www.baidu.com
 ||ss*.baidu.com/*/ps_default.gif$domain=www.baidu.com
 ||ssl.captcha.qq.com/dfpReg$important
@@ -1072,6 +1077,7 @@ zhidao.baidu.com##.task-list-button
 ||www.flash.cn/support/statistics
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
+||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
 ||www.google.cn/domainless/read
 ||www.google.com/gen_204
 ||www.google.com/insights/consumersurveys/
@@ -1110,6 +1116,7 @@ zhidao.baidu.com##.task-list-button
 ||www.msdn.hk/templets/msdn/css/viewads.js
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
+||www.oracle.com/assets/truste-oraclelib.js$domain=dev.mysql.com
 ||www.oschina.net/view/news?id=
 ||www.oschina.net/view/project?id=
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Magento_GoogleTagManager/
