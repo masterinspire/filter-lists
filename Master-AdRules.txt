@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, June 7, 2020
+! Last modified: Friday, June 12, 2020
 ! Title: Master-AdRules
-! Version: 20200607
+! Version: 20200612
 !
 !
 !
@@ -18,6 +18,7 @@
 58.com###rightSideBar
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
 @@||localhost$document
+@@||oss.suning.com/csidiss/shumei-sdk/fpv2.js$domain=suning.com
 about.gitlab.com###sticky-banner
 ai.baidu.com##.ai-aside
 amp.reddit.com###dismissOverlay
@@ -145,6 +146,7 @@ entityframeworkcore.com##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-
 forums.asp.net##.all-content > div:nth-of-type(1)
 freecommander.com###cookie-notice
 get.videolan.org###uecookies
+gitee.com##.pendan-widget.gitee-stars-main-widget
 gitee.com##.side-toolbar
 gitee.com##.wechat-banner
 github.com##.signup-prompt-bg
@@ -227,12 +229,7 @@ sourceforge.net###project-nel
 stackblitz.com###sponsad-wrapper
 stackblitz.com##a[class^="index-module__EmphasizedLinks"]
 stackify.com##.cta-contain
-stackoverflow.com##.js-announcement-banner
-stackoverflow.com##.js-dismissable-hero
-stackoverflow.com##.js-product-notice
-stackoverflow.com##DIV[id="hireme"]
-stackoverflow.com##DIV[id^="careers"]
-stackoverflow.com##DIV[id^="noscript"]
+stackoverflow.com###hireme
 staxmanade.com##.jj-signup-form
 support.microsoft.com###bannerAboveUHF
 support.microsoft.com###smc-survey-external-feedback-button
@@ -262,6 +259,7 @@ wap.gamersky.com##.ymw-rel-mgame
 wapbaike.baidu.com###J-spark-icon
 wapbaike.baidu.com###J-tashuo-button-fixed
 wapbaike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
+weblogs.asp.net###msccBanner
 webpack.js.org##.notification-bar
 webpack.js.org##.sponsors
 wenku.baidu.com###activity-tg
@@ -287,6 +285,7 @@ work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opin
 www.360doc.com###btn_freeread
 www.360doc.com###goTop2
 www.360doc.com##.docsharelist
+www.88ys.com##.main > [href="https://www.88ys.app"]
 www.ali213.net##DIV[class="ali-jctj"]
 www.ali213.net##DIV[class="fenxiang"]
 www.ali213.net##DIV[class="lieb_feli_lei1"]
@@ -419,6 +418,7 @@ www.sysgeek.cn##.social
 www.sysgeek.cn##.widget_ui_asb2.widget
 www.talkingdotnet.com###dvBottomContent
 www.talkingdotnet.com##.sd-sharing-enabled.sharedaddy
+www.tapd.cn###notice_count
 www.tapd.cn##.bind-phone-tips
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked
@@ -432,6 +432,7 @@ www.tutorialspoint.com###rightbar
 www.tutorialspoint.com##.google-bottom-ads
 www.tutorialspoint.com##.top-ad-heading
 www.ubuntu.com##.cookie-policy
+www.usatoday.com##.gnt_em_vp__tavp.gnt_em
 www.vg247.com##.newsletter-signup-wrapper
 www.w3school.com.cn##DIV[id="ad"]
 www.w3school.com.cn##DIV[id="searchui"]
@@ -443,6 +444,7 @@ www.xda-developers.com##.et_social_sidebar_networks
 www.xda-developers.com##.widget.widget-2.widget_text
 www.xda-developers.com##.widget.widget-3.widget_text
 www.youtube.com##.video-annotations
+www.yuque.com##.yuque-doc-content:style(min-height: inherit !important;;max-height: 100% !important;)
 www.yuque.com##div[class^="reward___"]
 yandex.com##.content__right
 youdao.com###ads
@@ -505,10 +507,13 @@ zhidao.baidu.com##.task-list-button
 ||api.ipfind.com/me
 ||api.lilver.cn$domain=www.345dyy.com
 ||api.m.jd.com/api?*functionId=queryMaterialAdverts
+||api.pinduoduo.com/api/server/_stm
 ||api.pinterest.com/v1/urls/count.json
 ||apis.google.com/js/*plusone.js$third-party
 ||apis.google.com/js/api.js$third-party
 ||apis.google.com/js/platform.js$third-party
+||apiv2.pinduoduo.com/api/server/_stm
+||apiv2.pinduoduo.net/api/server/_stm
 ||apiwmda.58.com.cn/web/report$domain=58.com
 ||app-sj05.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
@@ -590,7 +595,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
-||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
 ||cdn.livechatinc.com/tracking.js
@@ -614,6 +619,8 @@ zhidao.baidu.com##.task-list-button
 ||click.gamersky.com/Common/GetHits.aspx
 ||cloud.tencent.com/act/common/report
 ||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
+||cmtw.pinduoduo.com/api/cmt/mms_page
+||cmtw.pinduoduo.com/api/mms
 ||cn.bing.com/english/zochatv2
 ||cnstrc.com/js/ac.js
 ||cnt.zhaopin.com/Market/whole_counter.jsp
@@ -641,6 +648,7 @@ zhidao.baidu.com##.task-list-button
 ||csdnimg.cn/search/baidu_opensug-*.js$domain=csdn.net
 ||csdnimg.cn/static/api/js/share.js$domain=csdn.net
 ||cse.google.com/cse.js
+||csmobiledata.alipay.com/spmRecord.json
 ||csp.yandex.net/csp$domain=yandex.com
 ||cstm.baidu.com/baike/log$domain=baike.baidu.com
 ||customer.api.drift.com/geo
@@ -654,12 +662,14 @@ zhidao.baidu.com##.task-list-button
 ||demandbase.com^*/ip.json
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
+||dfp.suning.com/dfprs-collect
 ||discord.com/api/v6/science
 ||dlog.liepin.com/dlog$domain=liepin.com
 ||docs.microsoft.com/api/privacy/cookieConsent
 ||docs.ti-net.com.cn/count.php
 ||down.58.com/js/58appLaunch.js$domain=m.58.com
 ||down.58.com/js/launchPop.js$domain=m.58.com
+||downloadmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com|angular-academy.com
 ||dp3.qq.com/stdlog$domain=v.qq.com
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
@@ -699,6 +709,8 @@ zhidao.baidu.com##.task-list-button
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js$domain=csdn.net
 ||gdpr-service.herokuapp.com/is-gdpr
 ||geo2.adobe.com/json/
+||geolocation.1trust.app/cookieconsentpub/v1/geo/location/gnt.otgc$domain=www.usatoday.com
+||geolocation.onetrust.com/cookieconsentpub/v1/geo/location/gnt.otgc$domain=www.usatoday.com
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
 ||getaninsight.com$domain=entityframeworktutorial.net|tutorialsteacher.com
@@ -726,7 +738,9 @@ zhidao.baidu.com##.task-list-button
 ||h5.360buyimg.com/ws_js/gatherInfo.js
 ||h5.360buyimg.com/ws_js/jdwebm.js
 ||hcl.baidu.com/h.gif$domain=www.hao123.com
+||hlsmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||hm.baidu.com/hm.js
+||home-api.pinduoduo.com/home/catUrlLog
 ||huatuospeed.weiyun.com/cgi-bin/r.cgi
 ||hudong.alicdn.com/api/data/v2/*.js
 ||i.snssdk.com/slardar/sdk.js$domain=www.toutiao.com
@@ -734,6 +748,7 @@ zhidao.baidu.com##.task-list-button
 ||iknowwap.bdimg.com/static/m-question-new/widget/ad-union-new/ad-union-new-async.*.js$domain=zhidao.baidu.com
 ||image.51cto.com/images/home/js/ad*.js$domain=www.51cto.com
 ||image.baidu.com/httpsjsonp/pc?callback=imageCheckHttps$domain=www.baidu.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.usatoday.com,important
 ||img.kuai.xunlei.com/js/statistics.js
 ||img.kuai.xunlei.com/js/thunderbatch.js
 ||img05.zhaopin.cn/2014/common/js/za/ga.js
@@ -755,6 +770,8 @@ zhidao.baidu.com##.task-list-button
 ||jiathis.com$third-party
 ||jingyan.baidu.com/article/ajax/relatefeed
 ||jqmt.qq.com/cdn_dianjiliu.js
+||jrclick.jd.com/qd/qidian-*.*.*.js$domain=biz.jd.com
+||jrclick.jd.com/qidian.js$domain=passport.jdpay.com
 ||js-agent.newrelic.com/$domain=bitbucket.org
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
@@ -775,6 +792,7 @@ zhidao.baidu.com##.task-list-button
 ||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
 ||log.dingtalk.com/log/loghttp
+||log.mogu.com/log
 ||log.quora.com/ajax/batched_log_POST
 ||m.2015tv.cc/g/b.php
 ||m.58.com/ipservice/
@@ -809,6 +827,7 @@ zhidao.baidu.com##.task-list-button
 ||miao.baidu.com/abdr
 ||miaowu.baidu.com/abdr$domain=zhidao.baidu.com
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx
+||mmstk.pinduoduo.com/t.gif
 ||modernizr.com/i/js/analytics.js
 ||monitor.liepin.com/$domain=liepin.com
 ||mp.weixin.qq.com/mp/appmsgreport
@@ -887,12 +906,16 @@ zhidao.baidu.com##.task-list-button
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=npm.taobao.org|mahapps.com
 ||s3.pstatp.com/pgc/tech/collect/collect-v.*.js$domain=www.toutiao.com
 ||s7.addthis.com^*/addthis_widget.js$important
+||sa.suning.cn/hotClick.gif
 ||samsungchina.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com,important
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||screenshots.codesandbox.io/*.png
+||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
+||seq.jd.com/jseqf.html$domain=passport.jdpay.com|passport.jd.com
 ||services.qiye.163.com/service/static/js/access.js$domain=qiye.163.com
+||sgm-static.jd.com/sgm.js$domain=biz.jd.com|passport.jdpay.com|ims.jdpay.com
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_test.html$domain=youdao.com
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_top.html$domain=youdao.com
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=www.csdn.net
@@ -1077,11 +1100,11 @@ zhidao.baidu.com##.task-list-button
 ||www.flash.cn/support/statistics
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
+||www.gannett-cdn.com/gannett-web/apps/teal/dist$domain=www.usatoday.com
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
 ||www.google.cn/domainless/read
 ||www.google.com/gen_204
 ||www.google.com/insights/consumersurveys/
-||www.google.com/jsapi$third-party,important
 ||www.googleadservices.com/pagead
 ||www.googletagmanager.com/gtag/js
 ||www.googletagmanager.com/gtm.js
@@ -1125,6 +1148,7 @@ zhidao.baidu.com##.task-list-button
 ||www.pc6.com/public/images/softad*.*
 ||www.pc6.com/static/api/js/share.js
 ||www.pgyer.com/app/getAdAdsense
+||www.pinduoduo.com/icp
 ||www.qt.io/_hcms/perf
 ||www.rabbitmq.com/img/banner-s1p.png
 ||www.rabbitmq.com/js/ga-bootstrap.js
@@ -1156,6 +1180,7 @@ zhidao.baidu.com##.task-list-button
 ||www.xiazaiba.com/route.php?ct=stat&ac=show_detail_ads
 ||www.youtube.com/api/stats$important
 ||www.zhaopin.com/static/analytics.js
+||x.jr.jd.com/flow/bid$domain=biz.jd.com
 ||xiongzhang.baidu.com/xzhstatistics/rp
 ||xui.ptlogin2.qq.com/ptui_ver.js
 ||xunit-slackin.herokuapp.com/slackin.js$domain=xunit.net

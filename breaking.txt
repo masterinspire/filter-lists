@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, June 7, 2020
+! Last modified: Friday, June 12, 2020
 ! Title: Master-AdRules Breaking
-! Version: 20200607
+! Version: 20200612
 !
 !
 !
@@ -23,6 +23,7 @@ stackexchange.com##div[data-sid="chinese.stackexchange.com"],div[data-sid="japan
 ||i.ytimg.com$domain=developer.android.google.cn
 ||img.youtube.com$domain=testing-library.com
 ||lh*.googleusercontent.com$domain=developer.android.google.cn|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
 ||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com
 ||res.wx.qq.com/open/js/jweixin-*.js
@@ -32,7 +33,8 @@ stackexchange.com##div[data-sid="chinese.stackexchange.com"],div[data-sid="japan
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/cse/brand$third-party,important
 ||www.google.com/cse/cse.js$third-party,important
-||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com|www.mssqltips.com|www.experts-exchange.com|ubuntu.com,important
+||www.google.com/jsapi$third-party,important
+||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com|www.mssqltips.com|www.experts-exchange.com|ubuntu.com|webchat.freenode.net|weblogs.asp.net,important
 ||www.youtube-nocookie.com/embed/*$third-party
 ||youtube.com/embed/*$third-party
 ||youtube.com/iframe_api$third-party,important
