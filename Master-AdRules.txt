@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, June 12, 2020
+! Last modified: Thursday, June 18, 2020
 ! Title: Master-AdRules
-! Version: 20200612
+! Version: 20200618
 !
 !
 !
@@ -121,6 +121,7 @@ developer.android.google.cn##devsite-snackbar
 developer.android.google.cn##devsite-youtube
 developer.microsoft.com##.sockWrapper
 developer.mozilla.org###developer_needs
+developer.mozilla.org##.notification
 developer.mozilla.org##.notification-tray
 developers.google.cn###feedback
 developers.google.cn##.devsite-back-to-top-link
@@ -226,6 +227,9 @@ software.intel.com###survey_container
 softwareok.com###cookiebar
 sourceforge.net###newsletter-floating
 sourceforge.net###project-nel
+stackabuse.com##.sidebar
+stackabuse.com##.text-center.newsletter
+stackabuse.com##.widget-sticky
 stackblitz.com###sponsad-wrapper
 stackblitz.com##a[class^="index-module__EmphasizedLinks"]
 stackify.com##.cta-contain
@@ -314,6 +318,7 @@ www.baidu.com##.qrcodeCon
 www.baidu.com##.s-top-right.s-isindex-wrap > .s-top-right-text.c-font-normal.c-color-red
 www.baidu.com##.se-ft-promlink
 www.baidu.com##.square-banner-bg.index-banner
+www.baidu.com##.under-tips 
 www.baike.com##.search-recom
 www.bing.com###b_results > .b_top.b_ans
 www.bing.com###bnp_cont
@@ -418,6 +423,7 @@ www.sysgeek.cn##.social
 www.sysgeek.cn##.widget_ui_asb2.widget
 www.talkingdotnet.com###dvBottomContent
 www.talkingdotnet.com##.sd-sharing-enabled.sharedaddy
+www.tapd.cn###msg_count
 www.tapd.cn###notice_count
 www.tapd.cn##.bind-phone-tips
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
@@ -690,6 +696,7 @@ zhidao.baidu.com##.task-list-button
 ||forms.convertkit.com
 ||foundation.youdao.com/ip/ipinfo$domain=youdao.com
 ||fourier.taobao.com/ts
+||fp.suning.com/bennu-collector/fp/porto.json
 ||g.alicdn.com/AWSC/AWSC/awsc.js$domain=download.csdn.net
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
 ||g.alicdn.com/alilog/mlog/aplus_v2.js$domain=aliyun.com
@@ -796,6 +803,7 @@ zhidao.baidu.com##.task-list-button
 ||log.quora.com/ajax/batched_log_POST
 ||m.2015tv.cc/g/b.php
 ||m.58.com/ipservice/
+||m.88ys.com/template/wap88ysw/jk/toubu.js
 ||m.baidu.com/rec
 ||m.baidu.com/se/static/amd_modules/@baidu/se-video-ad_*.js
 ||m.baidu.com/se/static/js/log/taiji_behavior_*.js
@@ -810,6 +818,8 @@ zhidao.baidu.com##.task-list-button
 ||m.mi.com/v1/apkversion/download_guide
 ||m.pc6.com/ajax.asp?action=894
 ||m.servedby-buysellads.com/monetization.js
+||m.vivibb.com/index.php/user/ajax_ulog/
+||m.vivibb.com/statics/api/js/share.js
 ||m.weibo.cn/h5logs/actionLog
 ||map.baidu.com/mobile/img/transparent.gif
 ||maps.google.com/maps/api/js$third-party
@@ -817,7 +827,7 @@ zhidao.baidu.com##.task-list-button
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
 ||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
-||mdap.alipay.com/loggw/dwcookieLogGet.do$domain=www.yuque.com
+||mdap.alipay.com/loggw/dwcookieLogGet.do$domain=www.yuque.com|alipay.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
 ||medium.com/_/batch
 ||medium.com/_/lite/performance/
@@ -1006,10 +1016,11 @@ zhidao.baidu.com##.task-list-button
 ||tongji.pc6.com/statistics.php
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
-||tracert.alipay.com/cross.html$domain=www.yuque.com
+||tracert.alipay.com/cross.html$domain=www.yuque.com|alipay.com
 ||tracker.klink.tech
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
+||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
 ||uedas.qidian.com/stat*.txt
@@ -1017,6 +1028,7 @@ zhidao.baidu.com##.task-list-button
 ||uhf.microsoft.com/*/shell/api/mscc$domain=www.typescriptlang.org
 ||uhf.microsoft.com/_log
 ||uhf.microsoft.com/mscc/statics/mscc-*
+||ui.ptlogin2.qq.com/cgi-bin/report
 ||unpkg.pstatp.com/byted/sec_sdk_build/*/dist/captcha.js$domain=www.toutiao.com
 ||update.vivaldi.com/stats/rep
 ||v2.sohu.com/api/pc-home-city/home-data/ip2location
@@ -1031,6 +1043,7 @@ zhidao.baidu.com##.task-list-button
 ||w.irs03.com/iwt/a.gif$domain=www.mgtv.com
 ||wapbaike.baidu.com/api/wapui/getbaiketurboqmrs
 ||wapbaike.baidu.com/sfproxy.html
+||wdf.mogu.com/jsonp/featureUpload/2$domain=portal.mogu.com
 ||web.vortex.data.microsoft.com/collect
 ||webresource.c-ctrip.com/ResUnionOnline/R1/remarketing/js/remarketing.js$domain=ctrip.com
 ||wenku.baidu.com/browse/widget/viewrecom
@@ -1092,6 +1105,7 @@ zhidao.baidu.com##.task-list-button
 ||www.cr173.com/count/count.txt
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
+||www.dy025.com/style/pic/load.gif
 ||www.entityframeworktutorial.net/cdn-cgi/
 ||www.erlang.org/css/twitterl.css
 ||www.erlang.org/js/twitterl.min.js
@@ -1165,6 +1179,8 @@ zhidao.baidu.com##.task-list-button
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
 ||www.uqe.net/1.js$domain=www.cmdyz.cc
 ||www.vg247.com/wp-content/themes/vg247/scripts/CookieGDPR.js
+||www.vivibb.com/index.php/ajax/hits
+||www.vivibb.com/statics/api/js/share.js
 ||www.vmware.com/ciovantage/wp-content/themes/smart-mag/js/AdobeAnalyticsPlugin.js
 ||www.vmware.com/content/dam/digitalmarketing/vmware/en/files/include/vmf/module/core/js/log.js
 ||www.vmware.com/content/dam/vmwaredesigns/geoip/configs/country-mapping.json
