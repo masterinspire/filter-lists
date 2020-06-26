@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, June 18, 2020
+! Last modified: Friday, June 26, 2020
 ! Title: Master-AdRules
-! Version: 20200618
+! Version: 20200626
 !
 !
 !
@@ -156,6 +156,9 @@ gitlab.com##.trial-link
 grafana.com##.sticky-footer--dark
 grafana.com##.sticky-footer--grafanacon-la
 gtaforums.com##.ipsComment_inlineQuoteTooltip.ipsTooltip_bottom.ipsTooltip
+heimdalsecurity.com##.affixed.social-share-wrapper > .social-share-fixed
+heimdalsecurity.com##.tm-click-to-tweet
+heimdalsecurity.com##div.shortcode.blog-action
 help.aliyun.com##.aliyun-delivery-view-container
 help.aliyun.com##.doc-feedback
 help.aliyun.com##.select-widFeedback
@@ -191,6 +194,7 @@ map.baidu.com###leadDownloadCard
 map.baidu.com###message-panel
 map.baidu.com##.container.styleguide.index-widget-guidebanner
 material-ui.com##.ad.description
+mbillexprod.alipay.com###pc-merchant-onlineService
 medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
 medium.com##script:last-of-type + div
@@ -200,6 +204,7 @@ microsoft.com###uhfCookieAlert
 minecraft.gamepedia.com##div[class^="app_gdpr"]
 mobile.softpedia.com###cookienotif
 movie.mtime.com###divRelatedGoods
+mrchportalweb.alipay.com###pc-merchant-onlineService
 msdn.itellyou.cn##.shang_box
 music.taihe.com##.__qianqian_qrcode
 my.oschina.net###floatMenu
@@ -745,6 +750,7 @@ zhidao.baidu.com##.task-list-button
 ||h5.360buyimg.com/ws_js/gatherInfo.js
 ||h5.360buyimg.com/ws_js/jdwebm.js
 ||hcl.baidu.com/h.gif$domain=www.hao123.com
+||heimdalsecurity.com/blog/wp-content/plugins/heimdal-social-sharing-buttons/js/social.js
 ||hlsmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||hm.baidu.com/hm.js
 ||home-api.pinduoduo.com/home/catUrlLog
