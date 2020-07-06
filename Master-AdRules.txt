@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, June 26, 2020
+! Last modified: Monday, July 6, 2020
 ! Title: Master-AdRules
-! Version: 20200626
+! Version: 20200706
 !
 !
 !
@@ -83,6 +83,7 @@ blog.csdn.net##.leftPop
 blog.csdn.net##.readall_box
 blog.csdn.net##.vertical.tool-box
 blog.jetbrains.com###post_footer_banner
+blog.jetbrains.com##.newsletter
 blog.karumi.com##.socialsidebar
 blog.magnusmontin.net###eu-cookie-law
 blog.sentry.io##.tracking-banner.banner
@@ -94,6 +95,7 @@ boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
 chocolatey.org###package-disclaimer
 chocolatey.org##.cookies-popup
+chocolatey.org##.notice-text.text-center.alert
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
 club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_notificationContainer_bop
@@ -210,12 +212,14 @@ music.taihe.com##.__qianqian_qrcode
 my.oschina.net###floatMenu
 nginx.org###banner
 npm.taobao.org###fork
+office.com###epb
 os.51cto.com##.footer_mask
 os.51cto.com##.share5 > dl
 osdn.net###cookie-bar
 packagecloud.io###cookie-popover
 packagecloud.io##.logged-out-links
 pastebin.com###float-box-frame
+paymerchant.mogu.com##[class^="src-components-BulletinBoard-BulletinBoard__BulletinBoard--"]
 play.google.com##.gb_9b.gb_zc.gb_fd
 plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
@@ -247,7 +251,6 @@ support.microsoft.com##.banner-image.notification-banner
 support.microsoft.com##.right-rail.content-media
 support.mozilla.org###announcements
 support.mozilla.org##.document-vote--sidebar-wrap
-support.office.com###epb
 support.office.com###supWrapperToPreventFeedbackFlickering
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
@@ -295,16 +298,6 @@ www.360doc.com###btn_freeread
 www.360doc.com###goTop2
 www.360doc.com##.docsharelist
 www.88ys.com##.main > [href="https://www.88ys.app"]
-www.ali213.net##DIV[class="ali-jctj"]
-www.ali213.net##DIV[class="fenxiang"]
-www.ali213.net##DIV[class="lieb_feli_lei1"]
-www.ali213.net##DIV[class="new_xg"]
-www.ali213.net##DIV[class="new_xglei"]
-www.ali213.net##DIV[class="so_bd"]
-www.ali213.net##DIV[class="tkyl"]
-www.ali213.net##DIV[class="web_news_middle"]
-www.ali213.net##DIV[id="ali-photo-slide"]
-www.ali213.net##DIV[id="right_nav"][class="ali-float-nav"]
 www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
@@ -394,6 +387,7 @@ www.nokia.com##.nokia-cookies-wrapper
 www.npmjs.com##DIV[id="notification-banner"]
 www.nuget.org###sideColumn > .stat
 www.nuget.org###usabilla-button
+www.nvidia.com###cookiePolicy-layer
 www.online-tech-tips.com##div[id^="snhb-In_content_"]
 www.oschina.net##.action.segment.aligned.center.basic.ui
 www.oschina.net##.app-download-banner-box
@@ -447,6 +441,7 @@ www.usatoday.com##.gnt_em_vp__tavp.gnt_em
 www.vg247.com##.newsletter-signup-wrapper
 www.w3school.com.cn##DIV[id="ad"]
 www.w3school.com.cn##DIV[id="searchui"]
+www.wikihow.com###contribute_footer
 www.wilderssecurity.com##.bottomFixer
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
@@ -455,7 +450,9 @@ www.xda-developers.com##.et_social_sidebar_networks
 www.xda-developers.com##.widget.widget-2.widget_text
 www.xda-developers.com##.widget.widget-3.widget_text
 www.youtube.com##.video-annotations
-www.yuque.com##.yuque-doc-content:style(min-height: inherit !important;;max-height: 100% !important;)
+www.yuque.com##.social-share
+www.yuque.com##.yuque-doc-content:style(min-height: inherit !important; max-height: 100% !important;)
+www.yuque.com##div[class^="loginCard___"]
 www.yuque.com##div[class^="reward___"]
 yandex.com##.content__right
 youdao.com###ads
@@ -740,7 +737,7 @@ zhidao.baidu.com##.task-list-button
 ||gql.reddit.com/?request_timestamp
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
-||graph.facebook.com/$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com|www.ostechnix.com
+||graph.facebook.com/$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com|www.ostechnix.com|leastprivilege.com
 ||gsp*.baidu.com/*/tb/pms/img/st.gif$domain=wapbaike.baidu.com
 ||gsp*.baidu.com/*/v.gif$domain=baike.baidu.com|wapbaike.baidu.com
 ||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=blog.csdn.net
@@ -798,6 +795,9 @@ zhidao.baidu.com##.task-list-button
 ||js.stripe.com/v3/$domain=fontawesome.com
 ||jstatic.letvcdn.com/sdk/apcsdk.js
 ||jzdisplay.58.com/js/gjad_show.js$domain=m.58.com
+||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=1
+||kb.vmware.com/s/sfsites/aura?r=*&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
+||kcart.alipay.com/web/bi.do
 ||knicks.jd.com/log/server
 ||layer.bz.mgtv.com/layer/selfreport$domain=www.mgtv.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
@@ -806,6 +806,7 @@ zhidao.baidu.com##.task-list-button
 ||log.clarity.ms$third-party
 ||log.dingtalk.com/log/loghttp
 ||log.mogu.com/log
+||log.mogujie.com/log
 ||log.quora.com/ajax/batched_log_POST
 ||m.2015tv.cc/g/b.php
 ||m.58.com/ipservice/
@@ -1018,6 +1019,7 @@ zhidao.baidu.com##.task-list-button
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$domain=www.liaoxuefeng.com
+||tldas.pinduoduo.com/e.gif
 ||tongji.51cto.com/frontend/index$domain=51cto.com
 ||tongji.pc6.com/statistics.php
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
@@ -1037,6 +1039,7 @@ zhidao.baidu.com##.task-list-button
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||unpkg.pstatp.com/byted/sec_sdk_build/*/dist/captcha.js$domain=www.toutiao.com
 ||update.vivaldi.com/stats/rep
+||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
 ||v2.sohu.com/api/pc-home-city/home-data/ip2location
 ||v2.sohu.com/integration-api/batch/web
 ||v2.sohu.com/integration-api/mix/region/$important
