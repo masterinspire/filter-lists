@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, July 6, 2020
+! Last modified: Saturday, July 11, 2020
 ! Title: Master-AdRules
-! Version: 20200706
+! Version: 20200711
 !
 !
 !
@@ -245,10 +245,13 @@ stackify.com##.cta-contain
 stackoverflow.com###hireme
 staxmanade.com##.jj-signup-form
 support.microsoft.com###bannerAboveUHF
+support.microsoft.com###notification-banner-container
 support.microsoft.com###smc-survey-external-feedback-button
+support.microsoft.com###supWrapperToPreventFeedbackFlickering
 support.microsoft.com##.article-container[content-survey]
 support.microsoft.com##.banner-image.notification-banner
 support.microsoft.com##.right-rail.content-media
+support.microsoft.com##.supArticleContentFooterWrapper
 support.mozilla.org###announcements
 support.mozilla.org##.document-vote--sidebar-wrap
 support.office.com###supWrapperToPreventFeedbackFlickering
@@ -535,6 +538,7 @@ zhidao.baidu.com##.task-list-button
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
+||auth.services.adobe.com/signin/v1/audit
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
 ||az416426.vo.msecnd.net/scripts/b/ai.2.min.js
@@ -603,7 +607,9 @@ zhidao.baidu.com##.task-list-button
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
-||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com
+||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org
+||cdn.cqtnfs.com/maizhan/js/$domain=m.88ys.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
 ||cdn.livechatinc.com/tracking.js
@@ -986,6 +992,7 @@ zhidao.baidu.com##.task-list-button
 ||static.oschina.net/new-osc/js/utils/jweixin-1.2.0.js
 ||static.oschina.net/new-osc/js/utils/plugins/bdshare_api/share.js
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
+||static.scroll.com/js/scroll.js$domain=tvtropes.org
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
 ||static.youku.com/index/js/ikuAdapterNew.js
 ||static1.51cto.com/51cto/cms/static/api/js/share.js$domain=51cto.com
@@ -1114,7 +1121,6 @@ zhidao.baidu.com##.task-list-button
 ||www.cr173.com/count/count.txt
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
-||www.dy025.com/style/pic/load.gif
 ||www.entityframeworktutorial.net/cdn-cgi/
 ||www.erlang.org/css/twitterl.css
 ||www.erlang.org/js/twitterl.min.js
@@ -1163,6 +1169,7 @@ zhidao.baidu.com##.task-list-button
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
 ||www.oracle.com/assets/truste-oraclelib.js$domain=dev.mysql.com
+||www.oschina.net/action/trace/record
 ||www.oschina.net/view/news?id=
 ||www.oschina.net/view/project?id=
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Magento_GoogleTagManager/

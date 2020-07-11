@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, June 18, 2020
+! Last modified: Saturday, July 11, 2020
 ! Title: Master-AdRules Breaking
-! Version: 20200618
+! Version: 20200711
 !
 !
 !
@@ -12,6 +12,8 @@ cn.bing.com###b_header .b_searchboxForm:before:style(background:none !important;
 cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
 cn.bing.com###est_switch
 stackexchange.com##div[data-sid="chinese.stackexchange.com"],div[data-sid="japanese.stackexchange.com"]
+www.oschina.net###commentsContainer
+www.oschina.net##.index-tweets-widget.tweets-container.section
 ||*.bp.blogspot.com$domain=developer.android.google.cn
 ||*.disqus.com/embed.js
 ||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
