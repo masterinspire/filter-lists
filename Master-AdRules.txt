@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, July 11, 2020
+! Last modified: Tuesday, July 14, 2020
 ! Title: Master-AdRules
-! Version: 20200711
+! Version: 20200714
 !
 !
 !
@@ -107,6 +107,7 @@ cn.bing.com##.opal_serpftrc
 cn.bing.com##.usrlc_bpc
 cnbeta.com##.article-share-code
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
+community.spiceworks.com###zdprivacy-content
 config.office.com##.helpTitle.ms-Button--command.ms-Button--action.ms-Button
 config.office.com##.unAuthPrivacyFooter
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
@@ -453,6 +454,8 @@ www.xda-developers.com##.et_social_sidebar_networks
 www.xda-developers.com##.widget.widget-2.widget_text
 www.xda-developers.com##.widget.widget-3.widget_text
 www.youtube.com##.video-annotations
+www.ypojie.com##.action-share
+www.ypojie.com##.orbui-post-footer
 www.yuque.com##.social-share
 www.yuque.com##.yuque-doc-content:style(min-height: inherit !important; max-height: 100% !important;)
 www.yuque.com##div[class^="loginCard___"]
@@ -489,6 +492,7 @@ zhidao.baidu.com##.task-list-button
 ||ada.baidu.com/udpl/exp$domain=zhidao.baidu.com
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn
+||adobe.tt.omtrdc.net/rest/v1/delivery$domain=www.adobe.com,important
 ||adservex.media.net/videoAds.js$important
 ||adss.video.qq.com/report$domain=v.qq.com
 ||aeu.alicdn.com/ctl/ctl.js
@@ -554,6 +558,7 @@ zhidao.baidu.com##.task-list-button
 ||baike.baidu.com/api/wikiui/getasp
 ||baike.baidu.com/sfproxy.html
 ||bdimg.share.baidu.com/static/api/js/share.js
+||bdimg.share.baidu.com/static/js/shell_v2.js
 ||bing.com/*/MsnJVData/HoverTranslation*
 ||bing.com/AS/Suggestions
 ||bing.com/dict/SerpHoverTrans
@@ -596,7 +601,7 @@ zhidao.baidu.com##.task-list-button
 ||c.youdao.com/www/banner.html$domain=youdao.com
 ||c1.microsoft.com/c.gif
 ||cache.tv.qq.com/bigportal/xml/text_tips/msgtips.xml
-||cc-api-data.adobe.io/ingest/$domain=helpx.adobe.com
+||cc-api-data.adobe.io/ingest/
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengda.jpg
 ||cd.jd.com/promotion/v2
 ||cdata.58.com/api/v1/pcm/report$domain=58.com
@@ -626,9 +631,11 @@ zhidao.baidu.com##.task-list-button
 ||cf.aliyun.com/scratchCardSlide/dataReport.jsonp$domain=aliyun.com
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
+||chat-commerce.adobe.com/checkout/log
 ||checkout.stripe.com/v3/checkout.js
 ||chocolatey.org/cassette.axd/script/*/Scripts/CookiesNotice
 ||ci.phncdn.com/www-static/js/ph-tracking.js
+||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||click.fanyi.baidu.com/
 ||click.gamersky.com/Common/GetHits.aspx
 ||cloud.tencent.com/act/common/report
@@ -640,6 +647,7 @@ zhidao.baidu.com##.task-list-button
 ||cnt.zhaopin.com/Market/whole_counter.jsp
 ||collector-medium.lightstep.com/api/v0/reports
 ||collector.githubapp.com/github/page_view
+||commerce.adobe.com/checkout/log
 ||common-bucket.zhaopin.cn/passport/js/zhaopin/analytics.js
 ||concat.lietou-static.com/core/pc/revs/js/common/stat_*.js
 ||connect.emojics.com/dist/sdk.js$domain=ckeditor.com
@@ -705,6 +713,7 @@ zhidao.baidu.com##.task-list-button
 ||foundation.youdao.com/ip/ipinfo$domain=youdao.com
 ||fourier.taobao.com/ts
 ||fp.suning.com/bennu-collector/fp/porto.json
+||fraud-ai.azurewebsites.net/api/v1/fingerprint
 ||g.alicdn.com/AWSC/AWSC/awsc.js$domain=download.csdn.net
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
 ||g.alicdn.com/alilog/mlog/aplus_v2.js$domain=aliyun.com
@@ -754,12 +763,14 @@ zhidao.baidu.com##.task-list-button
 ||h5.360buyimg.com/ws_js/jdwebm.js
 ||hcl.baidu.com/h.gif$domain=www.hao123.com
 ||heimdalsecurity.com/blog/wp-content/plugins/heimdal-social-sharing-buttons/js/social.js
+||herald.spiceworks.com/events/javascript$domain=community.spiceworks.com
 ||hlsmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||hm.baidu.com/hm.js
 ||home-api.pinduoduo.com/home/catUrlLog
 ||huatuospeed.weiyun.com/cgi-bin/r.cgi
 ||hudong.alicdn.com/api/data/v2/*.js
 ||i.snssdk.com/slardar/sdk.js$domain=www.toutiao.com
+||icon.zol-img.com.cn/public/js/web_foot.js$domain=xiazai.zol.com.cn
 ||iknowwap.bdimg.com/static/m-question-new/pkg/qb-ad.*$domain=zhidao.baidu.com
 ||iknowwap.bdimg.com/static/m-question-new/widget/ad-union-new/ad-union-new-async.*.js$domain=zhidao.baidu.com
 ||image.51cto.com/images/home/js/ad*.js$domain=www.51cto.com
@@ -912,6 +923,7 @@ zhidao.baidu.com##.task-list-button
 ||report.huatuo.qq.com/report.cgi
 ||res.cdn.openinstall.io/openinstall.js$domain=blog.csdn.net
 ||resources.jetbrains.com/storage/help-app/v3/analytics.js
+||revertservice.com/eucookies.js
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 ||rlogs.youdao.com/rlog.php$domain=youdao.com
 ||routertips.video.qq.com/tips_heartbeat$domain=v.qq.com
@@ -937,6 +949,7 @@ zhidao.baidu.com##.task-list-button
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
 ||seq.jd.com/jseqf.html$domain=passport.jdpay.com|passport.jd.com
+||server.messaging.adobe.com/core/v1/messaging/init$domain=commerce.adobe.com
 ||services.qiye.163.com/service/static/js/access.js$domain=qiye.163.com
 ||sgm-static.jd.com/sgm.js$domain=biz.jd.com|passport.jdpay.com|ims.jdpay.com
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_test.html$domain=youdao.com
