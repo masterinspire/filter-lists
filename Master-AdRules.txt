@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, July 22, 2020
+! Last modified: Thursday, July 30, 2020
 ! Title: Master-AdRules
-! Version: 20200722
+! Version: 20200730
 !
 !
 !
@@ -147,6 +147,7 @@ downzen.com###amp-user-notification1
 dxr.mozilla.org###context-menu
 edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
+edu.aliyun.com##.tcbox
 embed.plnkr.co##.plunker-ad-wrap
 entityframeworkcore.com##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
 forums.asp.net##.all-content > div:nth-of-type(1)
@@ -504,7 +505,7 @@ zhidao.baidu.com##.task-list-button
 ||agility.cnn.com/turner/cnn-prod/serverComponent.php$domain=edition.cnn.com
 ||ajax.cloudflare.com/cdn-cgi/nexp/*/cloudflare.min.js
 ||aliexpress-internet.ru$domain=forum.ru-board.com
-||alioth.alicdn.com/adPlan-default-position-*$domain=developer.aliyun.com
+||alioth.alicdn.com/adPlan-default-position-*$domain=aliyun.com
 ||aliyun-page.cn-hangzhou.log.aliyuncs.com/logstores/web/track$domain=aliyun.com
 ||als.baidu.com/clog/$domain=baidu.com
 ||analytics-union.xunlei.com/PV
@@ -825,6 +826,7 @@ zhidao.baidu.com##.task-list-button
 ||kongpao.com/template/m1938pc/images/js/history.js
 ||layer.bz.mgtv.com/layer/selfreport$domain=www.mgtv.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
+||localhost$domain=plugins.jetbrains.com
 ||localhost.ptlogin2.qq.com:*/pt_get_uins$domain=xui.ptlogin2.qq.com
 ||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
@@ -889,7 +891,7 @@ zhidao.baidu.com##.task-list-button
 ||nohost/query
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||outofmemory.cn/static/js/h.js
-||page.aliyun.com/delivery/plan/list$domain=developer.aliyun.com
+||page.aliyun.com/delivery/plan/list$domain=aliyun.com
 ||page.gitlab.com/js/forms2/js/forms2.min.js$domain=about.gitlab.com
 ||pagead2.googlesyndication.com$important
 ||pan.baidu.com/rest/2.0/pcs/adx
@@ -918,6 +920,9 @@ zhidao.baidu.com##.task-list-button
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
 ||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
+||query.aliyun.com/rest/delivery.config.customRules.ambassor-delivery-topbar$domain=aliyun.com
+||query.aliyun.com/rest/delivery.config.customRules.floatWindowWhiteList$domain=aliyun.com
+||query.aliyun.com/rest/delivery.service.engine$domain=aliyun.com
 ||qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js$domain=wk.baidu.com
 ||rating-widget.com/js/api/rating/get.php
 ||readthedocs.org/api/v2/footer_html/?callback
@@ -1116,6 +1121,7 @@ zhidao.baidu.com##.task-list-button
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js
 ||www.aiyiweb.com/Scripts/baiduShare.js
 ||www.aliyun.com/core/real-time-iframe$domain=developer.aliyun.com
+||www.aliyun.com/smarter-engine
 ||www.androidcentral.com/_gap/_module.js
 ||www.androidcentral.com/_gap/cyhtvaf/hn/linkid.js
 ||www.baidu.com/home/msg/data/personalcontent
