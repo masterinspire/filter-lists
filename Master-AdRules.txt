@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, July 30, 2020
+! Last modified: Saturday, August 8, 2020
 ! Title: Master-AdRules
-! Version: 20200730
+! Version: 20200808
 !
 !
 !
@@ -42,6 +42,7 @@ baike.baidu.com###J-spark-icon
 baike.baidu.com###J-tashuo-button-fixed
 baike.baidu.com###side-share
 baike.baidu.com###tashuo_bottom
+baike.baidu.com##.J-secondsknow-large-container.secondsknow-large-container
 baike.baidu.com##.topA
 baike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
 bbs.csdn.net###answer_btn
@@ -113,6 +114,7 @@ config.office.com##.unAuthPrivacyFooter
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
 dev.to###html-variant-article-show-sidebar
 devblogs.microsoft.com##.a2a_kit
+devblogs.microsoft.com##.social-icon-bar
 devdactic.com###cookie-notice
 devdactic.com##.nc_wrapper
 devdocs.io##._in._notif
@@ -145,6 +147,9 @@ docs.ti-net.com.cn##body > div:nth-of-type(7)
 dotnetfiddle.net##.container-sponsor
 downzen.com###amp-user-notification1
 dxr.mozilla.org###context-menu
+dzone.com###adtoniq-msgr-bar
+dzone.com##.partner-resources-block.widget-top-border
+dzone.com##.signin-prompt
 edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
 edu.aliyun.com##.tcbox
@@ -168,6 +173,7 @@ heimdalsecurity.com##div.shortcode.blog-action
 help.aliyun.com##.aliyun-delivery-view-container
 help.aliyun.com##.doc-feedback
 help.aliyun.com##.select-widFeedback
+helpx.adobe.com###helpful-pod
 ironsoftware.com##.fixed-support-bar
 jd.com###toolbar-qrcode
 jd.com##.J-video-view-wrap
@@ -228,6 +234,7 @@ paymerchant.mogu.com##[class^="src-components-BulletinBoard-BulletinBoard__Bulle
 play.google.com##.gb_9b.gb_zc.gb_fd
 plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
+prodesigntools.com###wpfront-notification-bar-spacer
 qtcn.org##DIV[class="pw_all_tip"]
 read.douban.com###desktop-app-ad
 read.douban.com##.btns-tip.tooltip
@@ -478,6 +485,7 @@ zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
 ||*.amazon-adsystem.com/widgets/$important
+||*.cloudfront.net/f/$domain=dzone.com
 ||*.cloudfront.net/keys/medium.com/p.js$domain=medium.com
 ||*.cnbeta.com/static/api/js/share.js
 ||*.cnbeta.com/static/api/js/share/share_api.js
@@ -497,7 +505,7 @@ zhidao.baidu.com##.task-list-button
 ||ada.baidu.com/udpl/exp$domain=zhidao.baidu.com
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn
-||adobe.tt.omtrdc.net/rest/v1/delivery$domain=www.adobe.com,important
+||adobe.tt.omtrdc.net/rest/v1/delivery$domain=adobe.com,important
 ||adservex.media.net/videoAds.js$important
 ||adss.video.qq.com/report$domain=v.qq.com
 ||aeu.alicdn.com/ctl/ctl.js
@@ -561,6 +569,7 @@ zhidao.baidu.com##.task-list-button
 ||baike.baidu.com/api/tashuo/gettashuolist
 ||baike.baidu.com/api/wapui/getbaiketurboqmrs
 ||baike.baidu.com/api/wikiad/getsquirrels
+||baike.baidu.com/api/wikisecond/playurl?secondId=
 ||baike.baidu.com/api/wikiui/getasp
 ||baike.baidu.com/sfproxy.html
 ||bdimg.share.baidu.com/static/api/js/share.js
@@ -596,7 +605,7 @@ zhidao.baidu.com##.task-list-button
 ||buildapp.net/adcaige.jpg
 ||bundler.io/javascripts/analytics.js
 ||c.disquscdn.com/next/embed/alfalfa_min.*.js
-||c.evidon.com/geo/country.js$domain=helpx.adobe.com|vmware.com
+||c.evidon.com/geo/country.js$domain=adobe.com|vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
 ||c.microsoft.com/ms.js
 ||c.s-microsoft.com/mscc/statics/mscc
@@ -607,7 +616,7 @@ zhidao.baidu.com##.task-list-button
 ||c.youdao.com/www/banner.html$domain=youdao.com
 ||c1.microsoft.com/c.gif
 ||cache.tv.qq.com/bigportal/xml/text_tips/msgtips.xml
-||cc-api-data.adobe.io/ingest/
+||cc-api-data.adobe.io/ingest
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengda.jpg
 ||cd.jd.com/promotion/v2
 ||cdata.58.com/api/v1/pcm/report$domain=58.com
@@ -656,6 +665,7 @@ zhidao.baidu.com##.task-list-button
 ||commerce.adobe.com/checkout/log
 ||common-bucket.zhaopin.cn/passport/js/zhaopin/analytics.js
 ||concat.lietou-static.com/core/pc/revs/js/common/stat_*.js
+||confiant.msn.com/*/msn/config.js
 ||connect.emojics.com/dist/sdk.js$domain=ckeditor.com
 ||connect.facebook.net/*/all.js$third-party
 ||connect.facebook.net/*/fbds.js$third-party
@@ -672,6 +682,7 @@ zhidao.baidu.com##.task-list-button
 ||countly.mail.163.com/countly/i$domain=mail.163.com
 ||crash.data.v2.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||creatim.qtmojo.cn/td/AllyesDeliver.min.js
+||creativecloud.adobe.com/browser_mon.js
 ||csdnimg.cn/rabbit/exposure-click/block.js$domain=csdn.net
 ||csdnimg.cn/search/baidu_opensug-*.js$domain=csdn.net
 ||csdnimg.cn/static/api/js/share.js$domain=csdn.net
@@ -809,7 +820,7 @@ zhidao.baidu.com##.task-list-button
 ||js-agent.newrelic.com/$domain=bitbucket.org
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
-||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com
+||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com
 ||js.hsforms.net/forms/v2.js$domain=stenciljs.com
 ||js.hsleadflows.net/leadflows.js$domain=stackoverflow.blog
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
@@ -824,6 +835,7 @@ zhidao.baidu.com##.task-list-button
 ||kcart.alipay.com/web/bi.do
 ||knicks.jd.com/log/server
 ||kongpao.com/template/m1938pc/images/js/history.js
+||kunpeng.csdn.net/ad/
 ||layer.bz.mgtv.com/layer/selfreport$domain=www.mgtv.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||localhost$domain=plugins.jetbrains.com
@@ -877,6 +889,7 @@ zhidao.baidu.com##.task-list-button
 ||mp.weixin.qq.com/mp/getappmsgad
 ||mp.weixin.qq.com/mp/report
 ||msg.csdn.net/v1/chrome/notification/view$domain=csdn.net
+||mssl.fwmrm.net/p/msn_live/AdManager.js$domain=www.msn.com,important
 ||mssplus.mcafee.com/mssplus.txt$domain=adobe.com
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com|about.gitlab.com,important
@@ -907,7 +920,7 @@ zhidao.baidu.com##.task-list-button
 ||platform.linkedin.com/in.js
 ||platform.linkedin.com/js/framework?v
 ||platform.twitter.com/widgets.js$third-party
-||platform.twitter.com/widgets/follow_button.html$domain=www.techspot.com
+||platform.twitter.com/widgets/follow_button.html$domain=www.techspot.com|www.msn.com
 ||play.google.com/_/PlayStoreUi/browserinfo
 ||play.google.com/_/PlayStoreUi/gen204
 ||play.google.com/_/PlayStoreUi/jserror
@@ -915,6 +928,7 @@ zhidao.baidu.com##.task-list-button
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
+||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
@@ -961,7 +975,7 @@ zhidao.baidu.com##.task-list-button
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
 ||seq.jd.com/jseqf.html$domain=passport.jdpay.com|passport.jd.com
-||server.messaging.adobe.com/core/v1/messaging/init$domain=commerce.adobe.com
+||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
 ||services.qiye.163.com/service/static/js/access.js$domain=qiye.163.com
 ||sgm-static.jd.com/sgm.js$domain=biz.jd.com|passport.jdpay.com|ims.jdpay.com
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_test.html$domain=youdao.com
@@ -1054,6 +1068,7 @@ zhidao.baidu.com##.task-list-button
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$domain=www.liaoxuefeng.com
 ||tldas.pinduoduo.com/e.gif
 ||tongji.51cto.com/frontend/index$domain=51cto.com
+||tongji.flash.cn/hm3.gif
 ||tongji.pc6.com/statistics.php
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
@@ -1194,6 +1209,8 @@ zhidao.baidu.com##.task-list-button
 ||www.msdn.hk/plus/count.php
 ||www.msdn.hk/templets/msdn/css/index.js
 ||www.msdn.hk/templets/msdn/css/viewads.js
+||www.msn.com/en-us/*/irisbannerajax?position=top
+||www.msn.com/en-us/autos/_log
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
 ||www.oracle.com/assets/truste-oraclelib.js$domain=dev.mysql.com
@@ -1240,6 +1257,7 @@ zhidao.baidu.com##.task-list-button
 ||www.xiazaiba.com/route.php?ct=stat&ac=show_detail_ads
 ||www.youtube.com/api/stats$important
 ||www.zhaopin.com/static/analytics.js
+||www138.civicscience.com/jspoll/4/civicscience-widget.js$domain=www.msn.com
 ||x.jr.jd.com/flow/bid$domain=biz.jd.com
 ||xfeedback.oss-cn-hangzhou.aliyuncs.com/$domain=market.aliyun.com
 ||xiongzhang.baidu.com/xzhstatistics/rp

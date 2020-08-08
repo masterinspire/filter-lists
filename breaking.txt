@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, July 22, 2020
+! Last modified: Saturday, August 8, 2020
 ! Title: Master-AdRules Breaking
-! Version: 20200722
+! Version: 20200808
 !
 !
 !
@@ -31,6 +31,7 @@ www.oschina.net##.index-tweets-widget.tweets-container.section
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
 ||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com
+||play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png$domain=www.msn.com
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design
