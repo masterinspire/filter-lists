@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, August 8, 2020
+! Last modified: Thursday, August 20, 2020
 ! Title: Master-AdRules
-! Version: 20200808
+! Version: 20200820
 !
 !
 !
@@ -94,6 +94,7 @@ boxnovel.baidu.com##.Operate
 boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
+chocolatey.org###mc_embed_signup
 chocolatey.org###package-disclaimer
 chocolatey.org##.cookies-popup
 chocolatey.org##.notice-text.text-center.alert
@@ -255,7 +256,9 @@ stackabuse.com##.widget-sticky
 stackblitz.com###sponsad-wrapper
 stackblitz.com##a[class^="index-module__EmphasizedLinks"]
 stackify.com##.cta-contain
-stackoverflow.com###hireme
+stackoverflow.com###announcement-banner
+stackoverflow.com##.js-announcement-sidebar.js-announcement-banner
+stackoverflow.com##.js-sidebar-zone
 staxmanade.com##.jj-signup-form
 support.microsoft.com###bannerAboveUHF
 support.microsoft.com###notification-banner-container
@@ -383,6 +386,7 @@ www.howtogeek.com##.email-overlay
 www.howtogeek.com##.overlay-wrapper
 www.influxdata.com##.contact_sale
 www.influxdata.com##.cookieterms
+www.infoworld.com##aside.fakesidebar
 www.jd.com##.promotional-top
 www.jetbrains.com##.cookies-banner
 www.jetbrains.com##.id_cookies
@@ -628,7 +632,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org
-||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com
 ||cdn.cqtnfs.com/maizhan/js/$domain=m.88ys.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
@@ -638,6 +642,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js$third-party
 ||cdn.playwire.com/plugins/docky.min.js$domain=www.slant.co
 ||cdn.segment.com/analytics.js/v1/*/analytics.min.js$important
+||cdn.subscribers.com/assets/subscribers.js$domain=www.infoworld.com
 ||cdn.syncfusion.com/scripts/albacross/track-new.js
 ||cdn2.jianshu.io/assets/web/web-note-ad-*.png
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
@@ -655,6 +660,7 @@ zhidao.baidu.com##.task-list-button
 ||click.gamersky.com/Common/GetHits.aspx
 ||cloud.tencent.com/act/common/report
 ||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
+||cmpv2.infoworld.com/wrapperMessagingWithoutDetection.js
 ||cmtw.pinduoduo.com/api/cmt/mms_page
 ||cmtw.pinduoduo.com/api/mms
 ||cn.bing.com/english/zochatv2
@@ -750,8 +756,8 @@ zhidao.baidu.com##.task-list-button
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js$domain=csdn.net
 ||gdpr-service.herokuapp.com/is-gdpr
 ||geo2.adobe.com/json/
-||geolocation.1trust.app/cookieconsentpub/v1/geo/location/gnt.otgc$domain=www.usatoday.com
-||geolocation.onetrust.com/cookieconsentpub/v1/geo/location/gnt.otgc$domain=www.usatoday.com
+||geolocation.1trust.app/cookieconsentpub/v1/geo/location/
+||geolocation.onetrust.com/cookieconsentpub/v1/geo/location/
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
 ||getaninsight.com$domain=entityframeworktutorial.net|tutorialsteacher.com
@@ -1073,6 +1079,7 @@ zhidao.baidu.com##.task-list-button
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
 ||tracert.alipay.com/cross.html$domain=www.yuque.com|alipay.com
+||tracker.hdtvcdn.com:9988/v1/channel
 ||tracker.klink.tech
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
@@ -1162,6 +1169,7 @@ zhidao.baidu.com##.task-list-button
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.cr173.com/count/count.txt
+||www.diogonunes.com/blog/wp-content/plugins/cookie-law-info
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
 ||www.entityframeworktutorial.net/cdn-cgi/
@@ -1187,6 +1195,8 @@ zhidao.baidu.com##.task-list-button
 ||www.huimg.cn/public/js/doc-pc-monintor-20170308.js$domain=baike.com
 ||www.huimg.cn/sns/js/share20121203.js$domain=baike.com
 ||www.huimg.cn/stat/js/hd_product_monitor.js$domain=baike.com
+||www.infoworld.com/napi/tile
+||www.infoworld.com/www/js/ads$important
 ||www.it-ebooks.info/js/feedburner.js
 ||www.jianshu.com/notes/*/mark_viewed.json
 ||www.jianshu.com/notes/*/recommendations
