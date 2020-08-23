@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, August 20, 2020
+! Last modified: Sunday, August 23, 2020
 ! Title: Master-AdRules
-! Version: 20200820
+! Version: 20200823
 !
 !
 !
@@ -348,6 +348,7 @@ www.bing.com##DIV[class="bk_sidebar"]
 www.bing.com##DIV[id="hplas"]
 www.bing.com##div[id$="notificationContainer"]
 www.c-sharpcorner.com##.cotent-share-icon
+www.ccleaner.com###GTM__link--CCBR-browser-ad
 www.cloudamqp.com##.dark-bg.signup
 www.cmdyz.cc##.win
 www.cnblogs.com###div_digg
@@ -659,6 +660,8 @@ zhidao.baidu.com##.task-list-button
 ||click.fanyi.baidu.com/
 ||click.gamersky.com/Common/GetHits.aspx
 ||cloud.tencent.com/act/common/report
+||cloud.tencent.com/document/ajax/?action=report
+||cloud.tencent.com/tool/screenshot?action=capture
 ||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
 ||cmpv2.infoworld.com/wrapperMessagingWithoutDetection.js
 ||cmtw.pinduoduo.com/api/cmt/mms_page
