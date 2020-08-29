@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, August 23, 2020
+! Last modified: Saturday, August 29, 2020
 ! Title: Master-AdRules
-! Version: 20200823
+! Version: 20200829
 !
 !
 !
@@ -96,6 +96,7 @@ boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
 chocolatey.org###mc_embed_signup
 chocolatey.org###package-disclaimer
+chocolatey.org##.btn-announcement-notifications.btn-collapsing-right-sidebar
 chocolatey.org##.cookies-popup
 chocolatey.org##.notice-text.text-center.alert
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
@@ -429,6 +430,7 @@ www.runoob.com##.feedback-btn
 www.runoob.com##.fixed-btn
 www.samsung.com##.cm-cookie-geo
 www.samsung.com##.iparsys.ipar.parsys
+www.sitepoint.com##.roller-door-placeholder
 www.smartsvn.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.sohu.com###float-btn
 www.sqlshack.com###cookiesWarning
@@ -633,7 +635,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org
-||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com|www.vmware.com
 ||cdn.cqtnfs.com/maizhan/js/$domain=m.88ys.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
@@ -1101,6 +1103,8 @@ zhidao.baidu.com##.task-list-button
 ||v2.sohu.com/api/pc-home-city/home-data/ip2location
 ||v2.sohu.com/integration-api/batch/web
 ||v2.sohu.com/integration-api/mix/region/$important
+||v2.zopim.com$domain=intellipaat.com
+||v20200617-gap.freecodecamp.org/$domain=www.freecodecamp.org,important
 ||va.tawk.to/register/$domain=www.sswug.org
 ||va.v.liveperson.net/api/js$third-party
 ||vip.log.mgtv.com/dynamic_entry.html$domain=www.mgtv.com
@@ -1246,6 +1250,7 @@ zhidao.baidu.com##.task-list-button
 ||www.redditstatic.com/button/button3.js$domain=goalkicker.com
 ||www.ruanyifeng.com/blog/stats.js
 ||www.seedanddew.com/static/embed.min.js$domain=bundler.io
+||www.sitepoint.com/ads.js
 ||www.slant.co/geolocation
 ||www.sobot.com/chat/frame/js/entrance.js$domain=51cto.com
 ||www.ssh.com/api/content/v1/dynamic
