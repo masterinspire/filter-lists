@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, August 29, 2020
+! Last modified: Friday, September 4, 2020
 ! Title: Master-AdRules
-! Version: 20200829
+! Version: 20200904
 !
 !
 !
@@ -515,6 +515,7 @@ zhidao.baidu.com##.task-list-button
 ||adobe.tt.omtrdc.net/rest/v1/delivery$domain=adobe.com,important
 ||adservex.media.net/videoAds.js$important
 ||adss.video.qq.com/report$domain=v.qq.com
+||aegis.qq.com/speed/performance
 ||aeu.alicdn.com/ctl/ctl.js
 ||aeu.alicdn.com/js/awsc.js
 ||agility.cnn.com/turner/cnn-prod/serverComponent.php$domain=edition.cnn.com
@@ -800,6 +801,8 @@ zhidao.baidu.com##.task-list-button
 ||i.cdn.turner.com/ads/adfuel/$domain=edition.cnn.com
 ||i.snssdk.com/slardar/sdk.js$domain=www.toutiao.com
 ||icon.zol-img.com.cn/public/js/web_foot.js$domain=xiazai.zol.com.cn
+||id1.cloud.huawei.com/CAS/IDM_W/ajaxHandler/analysisHealth
+||id1.cloud.huawei.com/CAS/IDM_W/ajaxHandler/getIPCountry
 ||iknowwap.bdimg.com/static/m-question-new/pkg/qb-ad.*$domain=zhidao.baidu.com
 ||iknowwap.bdimg.com/static/m-question-new/widget/ad-union-new/ad-union-new-async.*.js$domain=zhidao.baidu.com
 ||image.51cto.com/images/home/js/ad*.js$domain=www.51cto.com
@@ -890,6 +893,7 @@ zhidao.baidu.com##.task-list-button
 ||medium.com/_/stat
 ||medium.com/p/*/upvotes
 ||mem.gfx.ms/meversion?partner=mssoftware-download
+||metrics-drcn.dt.hicloud.com:6447/webv1$domain=id1.cloud.huawei.com
 ||miao.baidu.com/abdr
 ||miaowu.baidu.com/abdr$domain=zhidao.baidu.com
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx
@@ -941,6 +945,7 @@ zhidao.baidu.com##.task-list-button
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
+||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
@@ -970,7 +975,7 @@ zhidao.baidu.com##.task-list-button
 ||s.cn.bing.net/th?id=*&pid=MsnJVFeeds
 ||s.lianmeng.360.cn/so/inlay.js
 ||s.ssl.qhimg.com/static/*/monitor_analytic.js
-||s1.mi.com/stat/18/xmst.js$domain=m.mi.com
+||s1.mi.com/stat/18/xmst.js
 ||s13.cnzz.com/z_stat.php
 ||s3-us-west-2.amazonaws.com/ad-maven-public-cdn/notT/clipconverter.js
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
@@ -985,6 +990,7 @@ zhidao.baidu.com##.task-list-button
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
+||sentry.micloud.d.xiaomi.net/api/31/store/
 ||seq.jd.com/jseqf.html$domain=passport.jdpay.com|passport.jd.com
 ||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
 ||services.qiye.163.com/service/static/js/access.js$domain=qiye.163.com
@@ -1021,6 +1027,7 @@ zhidao.baidu.com##.task-list-button
 ||spdytest*.baidu.com/static/clientcon_test.gif$domain=m.baidu.com|www.baidu.com
 ||srv.realpython.net/call/$domain=realpython.com
 ||ss*.baidu.com/*/ps_default.gif$domain=www.baidu.com
+||ssl-cdn.static.browser.mi-img.com/mistat-data/onetrack/onetrack.js$domain=xiaomi.com
 ||ssl.captcha.qq.com/dfpReg$important
 ||ssl.gstatic.com/feedback/api.js
 ||ssl.gstatic.com/support/content/gpf/gpf_stats.js
@@ -1070,9 +1077,11 @@ zhidao.baidu.com##.task-list-button
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
 ||support2.microsoft.com/common/surveyscripthandler.ashx
 ||syndication.twitter.com/settings$domain=thedivision.wikia.com
+||t.captcha.qq.com/caplog
 ||tags.tiqcdn.com/utag/*/prod/utag
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
 ||tajs.qq.com/stats$important
+||target.microsoft.com/rest/v1/delivery
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
