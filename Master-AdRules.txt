@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, September 9, 2020
+! Last modified: Wednesday, September 16, 2020
 ! Title: Master-AdRules
-! Version: 20200909
+! Version: 20200916
 !
 !
 !
@@ -83,6 +83,7 @@ blog.csdn.net##.jump_comment_page_button
 blog.csdn.net##.leftPop
 blog.csdn.net##.readall_box
 blog.csdn.net##.vertical.tool-box
+blog.encyro.com###PopupSignupForm_0
 blog.jetbrains.com###post_footer_banner
 blog.jetbrains.com##.newsletter
 blog.karumi.com##.socialsidebar
@@ -175,8 +176,11 @@ gtaforums.com##.ipsComment_inlineQuoteTooltip.ipsTooltip_bottom.ipsTooltip
 heimdalsecurity.com##.affixed.social-share-wrapper > .social-share-fixed
 heimdalsecurity.com##.tm-click-to-tweet
 heimdalsecurity.com##div.shortcode.blog-action
+help.aliyun.com##.ace-common-floor
 help.aliyun.com##.aliyun-delivery-view-container
 help.aliyun.com##.doc-feedback
+help.aliyun.com##.help-detail-feedback-wrapper
+help.aliyun.com##.recommendation-area-fixed
 help.aliyun.com##.select-widFeedback
 helpx.adobe.com###helpful-pod
 ironsoftware.com##.fixed-support-bar
@@ -234,6 +238,7 @@ os.51cto.com##.share5 > dl
 osdn.net###cookie-bar
 packagecloud.io###cookie-popover
 packagecloud.io##.logged-out-links
+pan.baidu.com##.phone-banner
 pastebin.com###float-box-frame
 paymerchant.mogu.com##[class^="src-components-BulletinBoard-BulletinBoard__BulletinBoard--"]
 play.google.com##.gb_9b.gb_zc.gb_fd
@@ -455,6 +460,7 @@ www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked
 www.telerik.com##.optanon-alert-box-wrapper
 www.tenforums.com###cookiescript_injected
+www.tenforums.com###snigel-cmp-framework
 www.tldrgames.com###catapult-cookie-bar
 www.tutorialrepublic.com##.affiliate.segment
 www.tutorialrepublic.com##ul:nth-of-type(6)
@@ -628,7 +634,6 @@ zhidao.baidu.com##.task-list-button
 ||c1.microsoft.com/c.gif
 ||cache.tv.qq.com/bigportal/xml/text_tips/msgtips.xml
 ||cc-api-data.adobe.io/ingest
-||ccav1.com/wp-content/themes/BYMT/images/mengmengda.jpg
 ||cd.jd.com/promotion/v2
 ||cdata.58.com/api/v1/pcm/report$domain=58.com
 ||cdid.c-ctrip.com/chloro-device/v2/d$domain=ctrip.com
@@ -639,7 +644,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org
-||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com|www.vmware.com
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com|vmware.com
 ||cdn.cqtnfs.com/maizhan/js/$domain=m.88ys.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
@@ -668,7 +673,6 @@ zhidao.baidu.com##.task-list-button
 ||cloud.tencent.com/act/common/report
 ||cloud.tencent.com/document/ajax/?action=report
 ||cloud.tencent.com/tool/screenshot?action=capture
-||clouddn.com/embed_*_.js$domain=ccav1.com|cnav.club
 ||cmpv2.infoworld.com/wrapperMessagingWithoutDetection.js
 ||cmtw.pinduoduo.com/api/cmt/mms_page
 ||cmtw.pinduoduo.com/api/mms
@@ -928,6 +932,7 @@ zhidao.baidu.com##.task-list-button
 ||page.aliyun.com/delivery/plan/list$domain=aliyun.com
 ||page.gitlab.com/js/forms2/js/forms2.min.js$domain=about.gitlab.com
 ||pagead2.googlesyndication.com$important
+||pan.baidu.com/bpapi/analytics
 ||pan.baidu.com/rest/2.0/pcs/adx
 ||partnerresources.azureedge.net/public/*/scripts/ai.min.js
 ||partners.npmjs.com/hiring$domain=npmjs.com
@@ -1098,7 +1103,7 @@ zhidao.baidu.com##.task-list-button
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$domain=www.liaoxuefeng.com
 ||tldas.pinduoduo.com/e.gif
 ||tongji.51cto.com/frontend/index$domain=51cto.com
-||tongji.flash.cn/hm3.gif
+||tongji.flash.cn/hm*.gif
 ||tongji.pc6.com/statistics.php
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
@@ -1248,6 +1253,9 @@ zhidao.baidu.com##.task-list-button
 ||www.msn.com/en-us/*/irisbannerajax?position=top
 ||www.msn.com/en-us/autos/_log
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
+||www.nocmd.com/statics/js/ad.js
+||www.nocmd.com/statics/pos_js/a1d.js
+||www.nocmd.com/statics/tt_gb/skin_js/gb.js
 ||www.nokia.com/phones/*/external/cookie_consent
 ||www.oracle.com/assets/truste-oraclelib.js$domain=dev.mysql.com
 ||www.oschina.net/action/trace/record
@@ -1263,6 +1271,7 @@ zhidao.baidu.com##.task-list-button
 ||www.qqfby.com/js/baidufoot.js
 ||www.qqfby.com/js/baidumid.js
 ||www.qqfby.com/js/baidutop.js
+||www.qqfby.com/js/dh.js
 ||www.qt.io/_hcms/perf
 ||www.rabbitmq.com/img/banner-s1p.png
 ||www.rabbitmq.com/js/ga-bootstrap.js
