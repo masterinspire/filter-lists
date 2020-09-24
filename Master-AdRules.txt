@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, September 16, 2020
+! Last modified: Thursday, September 24, 2020
 ! Title: Master-AdRules
-! Version: 20200916
+! Version: 20200924
 !
 !
 !
@@ -18,6 +18,7 @@
 58.com###rightSideBar
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
 @@||localhost$document
+@@||munchkin.marketo.net$script,domain=www.red-gate.com
 @@||oss.suning.com/csidiss/shumei-sdk/fpv2.js$domain=suning.com
 about.gitlab.com###sticky-banner
 ai.baidu.com##.ai-aside
@@ -143,6 +144,7 @@ doc.qt.io###cookie-confirm
 docs.asp.net###helpful
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
+docs.microsoft.com###ignite-banner-holder
 docs.microsoft.com###openFeedbackContainer
 docs.microsoft.com##.feedback-section
 docs.microsoft.com##.feedback-verbatim
@@ -430,6 +432,7 @@ www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com###packt_gdpr_container
 www.quora.com##.ViewInAppLink
 www.realvnc.com###cookie-notice
+www.red-gate.com##[src^="https://pubads.g.doubleclick.net/activity"]
 www.reddit.com##.TopButton
 www.reddit.com##.XPromoAdFeed
 www.reddit.com##.active.XPromoPopup
@@ -919,6 +922,7 @@ zhidao.baidu.com##.task-list-button
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com|about.gitlab.com,important
 ||music.taihe.com/cms/mobile.gif
+||mvnrepository.com/assets/images/p.gif
 ||my.oschina.net/timing/timing
 ||myaccount.google.com/_/AccountSettingsUi/browserinfo
 ||myaccount.google.com/_/AccountSettingsUi/jserror
