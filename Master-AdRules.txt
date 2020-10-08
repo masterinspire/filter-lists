@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, September 24, 2020
+! Last modified: Thursday, October 8, 2020
 ! Title: Master-AdRules
-! Version: 20200924
+! Version: 20201008
 !
 !
 !
@@ -124,12 +124,13 @@ devdactic.com##.nc_wrapper
 devdocs.io##._in._notif
 devdocs.io##._notice
 devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
+developer.android.google.cn##.devsite-banner-announcement.devsite-banner
 developer.android.google.cn##devsite-footer-promos
 developer.android.google.cn##devsite-page-rating
 developer.android.google.cn##devsite-snackbar
 developer.android.google.cn##devsite-youtube
 developer.microsoft.com##.sockWrapper
-developer.mozilla.org###developer_needs
+developer.mozilla.org##.developer-needs
 developer.mozilla.org##.newsletter-container
 developer.mozilla.org##.notification
 developer.mozilla.org##.notification-tray
@@ -847,7 +848,7 @@ zhidao.baidu.com##.task-list-button
 ||js-agent.newrelic.com/$domain=bitbucket.org
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
-||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com
+||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com|www.axure.com
 ||js.hsforms.net/forms/v2.js$domain=stenciljs.com
 ||js.hsleadflows.net/leadflows.js$domain=stackoverflow.blog
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
