@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, October 8, 2020
+! Last modified: Monday, October 12, 2020
 ! Title: Master-AdRules
-! Version: 20201008
+! Version: 20201012
 !
 !
 !
@@ -269,6 +269,7 @@ stackblitz.com###sponsad-wrapper
 stackblitz.com##a[class^="index-module__EmphasizedLinks"]
 stackify.com##.cta-contain
 stackoverflow.com###announcement-banner
+stackoverflow.com###left-sidebar > .js-sticky-leftnav.left-sidebar--sticky-container > nav > .nav-links > li:nth-of-type(3)
 stackoverflow.com##.js-announcement-sidebar.js-announcement-banner
 stackoverflow.com##.js-sidebar-zone
 staxmanade.com##.jj-signup-form
@@ -806,6 +807,7 @@ zhidao.baidu.com##.task-list-button
 ||h5.360buyimg.com/ws_js/jdwebm.js
 ||hcl.baidu.com/h.gif$domain=www.hao123.com
 ||heimdalsecurity.com/blog/wp-content/plugins/heimdal-social-sharing-buttons/js/social.js
+||help.aliyun.com/api/v2/survey/current
 ||herald.spiceworks.com/events/javascript$domain=community.spiceworks.com
 ||hlsmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||hm.baidu.com/hm.js
