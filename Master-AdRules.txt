@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, October 12, 2020
+! Last modified: Sunday, October 18, 2020
 ! Title: Master-AdRules
-! Version: 20201012
+! Version: 20201018
 !
 !
 !
@@ -513,6 +513,7 @@ zhidao.baidu.com##.task-list-button
 ||*.cnbeta.com/static/api/js/view/share_view.js
 ||*.disqus.com/count.js
 ||*.log.mgtv.com/info.php$domain=www.mgtv.com
+||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|adobe.com,important
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.clipconverter.cc/www/d/fr.php
@@ -526,7 +527,6 @@ zhidao.baidu.com##.task-list-button
 ||ada.baidu.com/udpl/exp$domain=zhidao.baidu.com
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn
-||adobe.tt.omtrdc.net/rest/v1/delivery$domain=adobe.com,important
 ||adservex.media.net/videoAds.js$important
 ||adss.video.qq.com/report$domain=v.qq.com
 ||aegis.qq.com/speed/performance
@@ -556,7 +556,6 @@ zhidao.baidu.com##.task-list-button
 ||api.growingio.com/v2/*/web/pv
 ||api.hudong.com/ajaxHotDocCountApi.do$domain=baike.com
 ||api.ipfind.com/me
-||api.lilver.cn$domain=www.345dyy.com
 ||api.m.jd.com/api?*functionId=queryMaterialAdverts
 ||api.pinduoduo.com/api/server/_stm
 ||api.pinterest.com/v1/urls/count.json
@@ -684,6 +683,7 @@ zhidao.baidu.com##.task-list-button
 ||cn.bing.com/english/zochatv2
 ||cnstrc.com/js/ac.js
 ||cnt.zhaopin.com/Market/whole_counter.jsp
+||col.csbops.io/data/sandpack
 ||collector-medium.lightstep.com/api/v0/reports
 ||collector.githubapp.com/github/page_view
 ||commerce.adobe.com/checkout/log
@@ -832,6 +832,7 @@ zhidao.baidu.com##.task-list-button
 ||imgcdn.pconline.com.cn/show$domain=dl.pconline.com.cn
 ||insight.cloud.tencent.com/event$domain=cloud.tencent.com
 ||intellij-support.jetbrains.com/api/v2/help_center/community/posts/*/stats/view.json
+||ionicframeworkcom.prismic.io/api/v2$domain=capacitorjs.com
 ||ipinfo.io$third-party
 ||isdspeed.qidian.com/cgi-bin/r.cgi
 ||isdspeed.qq.com/cgi-bin/r.cgi
@@ -850,7 +851,7 @@ zhidao.baidu.com##.task-list-button
 ||js-agent.newrelic.com/$domain=bitbucket.org
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
-||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com|www.axure.com
+||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com|www.axure.com|capacitorjs.com
 ||js.hsforms.net/forms/v2.js$domain=stenciljs.com
 ||js.hsleadflows.net/leadflows.js$domain=stackoverflow.blog
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
@@ -1002,7 +1003,6 @@ zhidao.baidu.com##.task-list-button
 ||s3.pstatp.com/pgc/tech/collect/collect-v.*.js$domain=www.toutiao.com
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sa.suning.cn/hotClick.gif
-||samsungchina.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com,important
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||screenshots.codesandbox.io/*.png
 ||search.10086.cn/log_collecter/collecter.do
@@ -1168,10 +1168,8 @@ zhidao.baidu.com##.task-list-button
 ||wp.qiye.qq.com/qidian/$domain=tapd.cn
 ||wreport.meituan.net
 ||wuji.video.qq.com/fcgi-bin/wuji$domain=v.qq.com
-||www.2btjia.com/service/clickd/
+||www.5btjia.com/service/clickd/
 ||www.2cto.com/api.php?op=count
-||www.345dyy.com/index.php/comment/ajax
-||www.345dyy.com/template/vfed/asset/js/sidebar.js
 ||www.360doc.com/ajax/clickStatics.ashx
 ||www.3dmgame.com/static/api/js/share.js
 ||www.8131478.com:3721/baiduad/$domain=kongpao.com
