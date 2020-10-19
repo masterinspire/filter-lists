@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, October 18, 2020
+! Last modified: Monday, October 19, 2020
 ! Title: Master-AdRules
-! Version: 20201018
+! Version: 20201019
 !
 !
 !
@@ -110,6 +110,7 @@ cn.bing.com##.adsblock
 cn.bing.com##.b_topborder.b_top
 cn.bing.com##.opal_serpftrc
 cn.bing.com##.usrlc_bpc
+cn.bing.com##a[href^="http://www.microsofttranslator.com"]
 cnbeta.com##.article-share-code
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 community.spiceworks.com###zdprivacy-content
@@ -1168,10 +1169,10 @@ zhidao.baidu.com##.task-list-button
 ||wp.qiye.qq.com/qidian/$domain=tapd.cn
 ||wreport.meituan.net
 ||wuji.video.qq.com/fcgi-bin/wuji$domain=v.qq.com
-||www.5btjia.com/service/clickd/
 ||www.2cto.com/api.php?op=count
 ||www.360doc.com/ajax/clickStatics.ashx
 ||www.3dmgame.com/static/api/js/share.js
+||www.5btjia.com/service/clickd/
 ||www.8131478.com:3721/baiduad/$domain=kongpao.com
 ||www.88ys.com/inc/ajax.php?ac=hits
 ||www.aiyiweb.com/Scripts/AdContentPage300_*.js
@@ -1199,6 +1200,7 @@ zhidao.baidu.com##.task-list-button
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-ga/plugin.js
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-sharing/buttons.js
 ||www.clipconverter.cc/qr.php
+||www.cloudflare.com/cdn-cgi/trace
 ||www.cmdyz.cc/include/ajax.php?action=hit
 ||www.cmdyz.cc/templets/cmmov/images/js/xunlei
 ||www.cmdyz.cc/templets/cmmov/images/xunlei

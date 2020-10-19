@@ -9,29 +9,17 @@ Custom Ad Filters. Can be used in [uBlock Origin](https://github.com/gorhill/uBl
 
 ## Usages
 
-Enter this url to your **filter lists**:
+Add to your **filter lists**:
 
 > https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/Master-AdRules.txt
 
 > https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/breaking.txt
-
-or with [RawGit](https://rawgit.org/):
-
-> https://ghcdn.rawgit.org/masterinspire/Master-AdRules/master/Master-AdRules.txt
-
-> https://ghcdn.rawgit.org/masterinspire/Master-AdRules/master/breaking.txt
 
 or with [jsDelivr](https://www.jsdelivr.com/?docs=gh):
 
 > https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/Master-AdRules.txt
 
 > https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/breaking.txt
-
-or with [GitCDN](https://www.gitcdn.xyz):
-
-> https://www.gitcdn.xyz/cdn/masterinspire/Master-AdRules/master/Master-AdRules.txt
-
-> https://www.gitcdn.xyz/cdn/masterinspire/Master-AdRules/master/breaking.txt
 
 or with [GitLab](https://gitlab.com/masterinspire/Master-AdRules):
 
