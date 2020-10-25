@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, October 19, 2020
+! Last modified: Sunday, October 25, 2020
 ! Title: Master-AdRules
-! Version: 20201019
+! Version: 20201025
 !
 !
 !
@@ -1010,7 +1010,8 @@ zhidao.baidu.com##.task-list-button
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
-||sentry.micloud.d.xiaomi.net/api/31/store/
+||sentry.matrix.org$domain=gitter.im
+||sentry.micloud.d.xiaomi.net/api/
 ||seq.jd.com/jseqf.html$domain=passport.jdpay.com|passport.jd.com
 ||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
 ||services.qiye.163.com/service/static/js/access.js$domain=qiye.163.com
