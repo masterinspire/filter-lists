@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, October 25, 2020
+! Last modified: Saturday, October 31, 2020
 ! Title: Master-AdRules
-! Version: 20201025
+! Version: 20201031
 !
 !
 !
@@ -141,6 +141,7 @@ developers.google.cn##devsite-page-rating
 developers.google.cn##devsite-tracking-question
 developers.google.cn##devsite-youtube
 ding-doc.dingtalk.com##.styles-float
+discourse.mozilla.org##.quote-button
 disqus.com##.login-overlay__wrapper
 doc.qt.io###cookie-confirm
 docs.asp.net###helpful
@@ -193,6 +194,7 @@ jd.com##.J-video-view-wrap
 jd.com##.fixed.jTdCode
 jd.com##.qrcode-container
 jingyan.baidu.com###fresh-share-exp-e
+jingyan.baidu.com###task-panel-wrap
 jingyan.baidu.com##.wgt-feeds-video
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.wrp-exp-share
@@ -403,6 +405,7 @@ www.howtogeek.com##.overlay-wrapper
 www.influxdata.com##.contact_sale
 www.influxdata.com##.cookieterms
 www.infoworld.com##aside.fakesidebar
+www.jb51.net###right-share
 www.jd.com##.promotional-top
 www.jetbrains.com##.cookies-banner
 www.jetbrains.com##.id_cookies
@@ -931,6 +934,7 @@ zhidao.baidu.com##.task-list-button
 ||my.oschina.net/timing/timing
 ||myaccount.google.com/_/AccountSettingsUi/browserinfo
 ||myaccount.google.com/_/AccountSettingsUi/jserror
+||mypage.w3schools.com/mypage/beta.php
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
@@ -1095,6 +1099,7 @@ zhidao.baidu.com##.task-list-button
 ||support.google.com/apis/gpf_metrics
 ||support.google.com/chrome/apis/metrics
 ||support.office.com/bundles/stickyFeedback
+||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
 ||support2.microsoft.com/common/surveyscripthandler.ashx
 ||syndication.twitter.com/settings$domain=thedivision.wikia.com
@@ -1105,6 +1110,7 @@ zhidao.baidu.com##.task-list-button
 ||tajs.qq.com/stats$important
 ||target.microsoft.com/rest/v1/delivery
 ||tb1.bdstatic.com/tb/img/hg/hg.gif$domain=tieba.baidu.com
+||techcommunity.microsoft.com/beacon/*.gif
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
@@ -1121,6 +1127,7 @@ zhidao.baidu.com##.task-list-button
 ||tracker.klink.tech
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
+||translate.google.com/$domain=www.w3schools.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
@@ -1209,6 +1216,7 @@ zhidao.baidu.com##.task-list-button
 ||www.codeproject.com/dm/recovery.min.js
 ||www.cr173.com/count/count.txt
 ||www.diogonunes.com/blog/wp-content/plugins/cookie-law-info
+||www.douban.com/stat.html
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
 ||www.entityframeworktutorial.net/cdn-cgi/
