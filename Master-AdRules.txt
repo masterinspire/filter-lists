@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, October 31, 2020
+! Last modified: Thursday, November 5, 2020
 ! Title: Master-AdRules
-! Version: 20201031
+! Version: 20201105
 !
 !
 !
@@ -74,6 +74,7 @@ blog.angular.io##.highlightMenu
 blog.angular.io##.js-postShareWidget
 blog.angular.io##.js-stickyFooter
 blog.csdn.net###btn-detail
+blog.csdn.net###passportbox
 blog.csdn.net###writeGuide
 blog.csdn.net##.app-open-box
 blog.csdn.net##.article_content:style(padding-bottom: 2rem !important; max-height: inherit !important; overflow: inherit !important; height: inherit !important;)
@@ -82,8 +83,10 @@ blog.csdn.net##.hide-article-pos.hide-article-box
 blog.csdn.net##.hljs-button.signin
 blog.csdn.net##.jump_comment_page_button
 blog.csdn.net##.leftPop
+blog.csdn.net##.login-mark
 blog.csdn.net##.readall_box
 blog.csdn.net##.vertical.tool-box
+blog.csdn.net#.more-toolbox
 blog.encyro.com###PopupSignupForm_0
 blog.jetbrains.com###post_footer_banner
 blog.jetbrains.com##.newsletter
@@ -168,6 +171,7 @@ eslint.org##.eslint-ad
 eslint.org##main.blog > article > footer
 forums.asp.net##.all-content > div:nth-of-type(1)
 freecommander.com###cookie-notice
+fujian.chinatax.gov.cn##.subnav
 get.videolan.org###uecookies
 gitee.com##.pendan-widget.gitee-stars-main-widget
 gitee.com##.side-toolbar
@@ -177,7 +181,11 @@ gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.trial-link
 grafana.com##.sticky-footer--dark
 grafana.com##.sticky-footer--grafanacon-la
+gta.fandom.com###WikiaBarWrapper
+gtaforums.com###elGuestTerms > .ipsLayout_container
 gtaforums.com##.ipsComment_inlineQuoteTooltip.ipsTooltip_bottom.ipsTooltip
+hainan.chinatax.gov.cn###wxtp
+hainan.chinatax.gov.cn##.youcelan
 heimdalsecurity.com##.affixed.social-share-wrapper > .social-share-fixed
 heimdalsecurity.com##.tm-click-to-tweet
 heimdalsecurity.com##div.shortcode.blog-action
@@ -258,6 +266,9 @@ readthedocs.io##.keep-us-sustainable
 research.microsoft.com###shareShelf
 riptutorial.com##.section-aside.col-lg-2
 segmentfault.com##.float-ads
+share.weiyun.com##.layout-sider-bar
+shenzhen.chinatax.gov.cn###fb
+shenzhen.chinatax.gov.cn##.easybtn
 social.msdn.microsoft.com###footerSock
 soft.shouji.com.cn##.ggzs_bottom
 software.intel.com###page > .l-footer-second
@@ -365,6 +376,8 @@ www.bing.com##DIV[id="hplas"]
 www.bing.com##div[id$="notificationContainer"]
 www.c-sharpcorner.com##.cotent-share-icon
 www.ccleaner.com###GTM__link--CCBR-browser-ad
+www.chinatax.gov.cn##.fixed-right-box
+www.chinatax.gov.cn##.paiochuang
 www.cloudamqp.com##.dark-bg.signup
 www.cmdyz.cc##.caomin-notice
 www.cmdyz.cc##.win
@@ -762,6 +775,7 @@ zhidao.baidu.com##.task-list-button
 ||fourier.taobao.com/ts
 ||fp.suning.com/bennu-collector/fp/porto.json
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
+||fxsjcj2.kaipuyun.cn/count/$domain=hainan.chinatax.gov.cn
 ||g.alicdn.com/AWSC/AWSC/awsc.js$domain=download.csdn.net
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
 ||g.alicdn.com/alilog/mlog/aplus_v2.js$domain=aliyun.com
@@ -809,6 +823,7 @@ zhidao.baidu.com##.task-list-button
 ||gttp.co/v1.js$domain=vuejs.org
 ||h5.360buyimg.com/ws_js/gatherInfo.js
 ||h5.360buyimg.com/ws_js/jdwebm.js
+||h5.qzone.qq.com/wspeed.qq.com/w.cgi$domain=share.weiyun.com
 ||hcl.baidu.com/h.gif$domain=www.hao123.com
 ||heimdalsecurity.com/blog/wp-content/plugins/heimdal-social-sharing-buttons/js/social.js
 ||help.aliyun.com/api/v2/survey/current
@@ -1020,6 +1035,7 @@ zhidao.baidu.com##.task-list-button
 ||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
 ||services.qiye.163.com/service/static/js/access.js$domain=qiye.163.com
 ||sgm-static.jd.com/sgm.js$domain=biz.jd.com|passport.jdpay.com|ims.jdpay.com
+||share.weiyun.com/weiyun/compass
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_test.html$domain=youdao.com
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_top.html$domain=youdao.com
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=www.csdn.net
@@ -1314,6 +1330,7 @@ zhidao.baidu.com##.task-list-button
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/clientlib-geoip
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/forms/js/progressiveProfiling.js
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/main/js/utag_data.js
+||www.winhelponline.com/blog/wp-content/plugins/cookie-notice/
 ||www.wpf-tutorial.com/Content/Local/1.css
 ||www.wpf-tutorial.com/Content/Local/1.js
 ||www.wpf-tutorial.com/Ping
