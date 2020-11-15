@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, November 5, 2020
+! Last modified: Sunday, November 15, 2020
 ! Title: Master-AdRules
-! Version: 20201105
+! Version: 20201115
 !
 !
 !
@@ -343,7 +343,6 @@ work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opin
 www.360doc.com###btn_freeread
 www.360doc.com###goTop2
 www.360doc.com##.docsharelist
-www.88ys.com##.main > [href="https://www.88ys.app"]
 www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
@@ -666,7 +665,6 @@ zhidao.baidu.com##.task-list-button
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org
 ||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com|vmware.com
-||cdn.cqtnfs.com/maizhan/js/$domain=m.88ys.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
 ||cdn.livechatinc.com/tracking.js
@@ -896,9 +894,7 @@ zhidao.baidu.com##.task-list-button
 ||log.mogu.com/log
 ||log.mogujie.com/log
 ||log.quora.com/ajax/batched_log_POST
-||m.2015tvv.com/g/b.php
 ||m.58.com/ipservice/
-||m.88ys.com/template/wap88ysw/jk/toubu.js
 ||m.baidu.com/rec
 ||m.baidu.com/se/static/amd_modules/@baidu/se-video-ad_*.js
 ||m.baidu.com/se/static/js/log/taiji_behavior_*.js
@@ -1120,7 +1116,6 @@ zhidao.baidu.com##.task-list-button
 ||support2.microsoft.com/common/surveyscripthandler.ashx
 ||syndication.twitter.com/settings$domain=thedivision.wikia.com
 ||t.captcha.qq.com/caplog
-||t.dianyingtupian.com/2015.gif$domain=www.2015tvv.com
 ||tags.tiqcdn.com/utag/*/prod/utag
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
 ||tajs.qq.com/stats$important
@@ -1198,7 +1193,6 @@ zhidao.baidu.com##.task-list-button
 ||www.3dmgame.com/static/api/js/share.js
 ||www.5btjia.com/service/clickd/
 ||www.8131478.com:3721/baiduad/$domain=kongpao.com
-||www.88ys.com/inc/ajax.php?ac=hits
 ||www.aiyiweb.com/Scripts/AdContentPage300_*.js
 ||www.aiyiweb.com/Scripts/AdContentPageMiddem250.js
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js
