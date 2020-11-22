@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, November 15, 2020
+! Last modified: Sunday, November 22, 2020
 ! Title: Master-AdRules
-! Version: 20201115
+! Version: 20201122
 !
 !
 !
@@ -158,6 +158,8 @@ docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
 dotnetfiddle.net##.container-sponsor
 downzen.com###amp-user-notification1
+dragablz.net##.sharedaddy
+dragablz.net##.widget_eu_cookie_law_widget.widget
 dxr.mozilla.org###context-menu
 dzone.com###adtoniq-msgr-bar
 dzone.com##.partner-resources-block.widget-top-border
@@ -513,7 +515,6 @@ yandex.com##.content__right
 youdao.com###ads
 youdao.com###wljb
 youdao.com##.win-download.dialog-guide-download
-youtrack.jetbrains.com##.alertContainer_ebe
 zhidao.baidu.com###selectsearch-icon
 zhidao.baidu.com##.activity-entry.menu-right-list-item
 zhidao.baidu.com##.icon-bdad
@@ -812,7 +813,7 @@ zhidao.baidu.com##.task-list-button
 ||gql.reddit.com/?request_timestamp
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
-||graph.facebook.com/$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com|www.ostechnix.com|leastprivilege.com
+||graph.facebook.com/$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com|www.ostechnix.com|leastprivilege.com|dragablz.net
 ||gsp*.baidu.com/*/tb/pms/img/st.gif$domain=wapbaike.baidu.com
 ||gsp*.baidu.com/*/v.gif$domain=baike.baidu.com|wapbaike.baidu.com
 ||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=blog.csdn.net
@@ -1053,6 +1054,7 @@ zhidao.baidu.com##.task-list-button
 ||smetrics.ubi.com
 ||socket.jisuan.mobi/$domain=bianma.supfree.net
 ||solo41.biz$domain=www.tutorialspoint.com
+||sp0.baidu.com/*/su?wd=$domain=www.baidu.com
 ||sp1.baidu.com/*/mwb.gif$domain=m.baidu.com|www.baidu.com
 ||sp1.baidu.com/*/mwb2.gif$domain=m.baidu.com|www.baidu.com
 ||sp1.baidu.com/*/owb.gif$domain=m.baidu.com|www.baidu.com
@@ -1162,6 +1164,7 @@ zhidao.baidu.com##.task-list-button
 ||vivaldi.com/rep/rep
 ||vlscppe.microsoft.com/tags
 ||vortex.data.microsoft.com/collect
+||w.appzi.io/bootstrap/bundle.js$domain=www.electronjs.org
 ||w.irs03.com/iwt/a.gif$domain=www.mgtv.com
 ||wapbaike.baidu.com/api/wapui/getbaiketurboqmrs
 ||wapbaike.baidu.com/sfproxy.html
