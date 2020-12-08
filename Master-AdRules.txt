@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, November 22, 2020
+! Last modified: Tuesday, December 8, 2020
 ! Title: Master-AdRules
-! Version: 20201122
+! Version: 20201208
 !
 !
 !
@@ -99,11 +99,11 @@ boxnovel.baidu.com##.Operate
 boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
+chocolatey.org###cookieNoticeAlert
 chocolatey.org###mc_embed_signup
 chocolatey.org###package-disclaimer
+chocolatey.org###topNoticeAlert
 chocolatey.org##.btn-announcement-notifications.btn-collapsing-right-sidebar
-chocolatey.org##.cookies-popup
-chocolatey.org##.notice-text.text-center.alert
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
 club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_notificationContainer_bop
@@ -145,6 +145,7 @@ developers.google.cn##devsite-tracking-question
 developers.google.cn##devsite-youtube
 ding-doc.dingtalk.com##.styles-float
 discourse.mozilla.org##.quote-button
+discuss.atom.io##.quote-button.ember-view
 disqus.com##.login-overlay__wrapper
 doc.qt.io###cookie-confirm
 docs.asp.net###helpful
@@ -450,6 +451,8 @@ www.oschina.net##.news-links
 www.oschina.net##.source-info
 www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com###packt_gdpr_container
+www.pdfforge.org##.gdpr-cookieconsent-overlay
+www.pdfforge.org##.gdpr-cookieconsent-settings
 www.quora.com##.ViewInAppLink
 www.realvnc.com###cookie-notice
 www.red-gate.com##[src^="https://pubads.g.doubleclick.net/activity"]
@@ -697,6 +700,7 @@ zhidao.baidu.com##.task-list-button
 ||cmtw.pinduoduo.com/api/cmt/mms_page
 ||cmtw.pinduoduo.com/api/mms
 ||cn.bing.com/english/zochatv2
+||cn.bing.com/hptr/
 ||cnstrc.com/js/ac.js
 ||cnt.zhaopin.com/Market/whole_counter.jsp
 ||col.csbops.io/data/sandpack
@@ -783,6 +787,7 @@ zhidao.baidu.com##.task-list-button
 ||g.alicdn.com/aliyun/www-dpl/*/knight/js/data-statistics.js$domain=aliyun.com
 ||g.alicdn.com/axdata/yunlog/yunlog.js$domain=aliyun.com
 ||g.alicdn.com/sd/pointman/js/pt2.js$domain=aliyun.com
+||g.alicdn.com/sj/securesdk/*/securesdk_v2.js$domain=v2.guanyierp.com
 ||g.csdnimg.cn//side-toolbar/*/side-toolbar.js$domain=csdn.net
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js$domain=csdn.net
 ||g.csdnimg.cn/check-adb/*/check-adb.js$domain=csdn.net
@@ -1024,6 +1029,7 @@ zhidao.baidu.com##.task-list-button
 ||screenshots.codesandbox.io/*.png
 ||search.10086.cn/log_collecter/collecter.do
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
+||secure.make6pain.com/js/$domain=chocolatey.org
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
 ||sentry.matrix.org$domain=gitter.im
