@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, December 8, 2020
+! Last modified: Monday, December 14, 2020
 ! Title: Master-AdRules
-! Version: 20201208
+! Version: 20201214
 !
 !
 !
@@ -271,6 +271,7 @@ riptutorial.com##.section-aside.col-lg-2
 segmentfault.com##.float-ads
 share.weiyun.com##.layout-sider-bar
 shenzhen.chinatax.gov.cn###fb
+shenzhen.chinatax.gov.cn##.content_share
 shenzhen.chinatax.gov.cn##.easybtn
 social.msdn.microsoft.com###footerSock
 soft.shouji.com.cn##.ggzs_bottom
@@ -381,8 +382,6 @@ www.ccleaner.com###GTM__link--CCBR-browser-ad
 www.chinatax.gov.cn##.fixed-right-box
 www.chinatax.gov.cn##.paiochuang
 www.cloudamqp.com##.dark-bg.signup
-www.cmdyz.cc##.caomin-notice
-www.cmdyz.cc##.win
 www.cnblogs.com###div_digg
 www.codeproject.com##.cc-bottom.cc-theme-edgeless.cc-type-opt-in.cc-banner.cc-window
 www.codeproject.com##.page-background > .overlay.alert-bar
@@ -410,6 +409,7 @@ www.experts-exchange.com##.weHelpBanner
 www.fanbyte.com###PopupSignupForm_0
 www.fanbyte.com###check-also-box
 www.gamersky.com##.Mid2_R
+www.geeksforgeeks.org##.ad_course_banner
 www.geeksforgeeks.org##.hireWithUs.practiceButton
 www.geeksforgeeks.org##.widget_text.widget
 www.google.com##.gb_g.gb_0c.gb_Ad
@@ -778,6 +778,8 @@ zhidao.baidu.com##.task-list-button
 ||fourier.taobao.com/ts
 ||fp.suning.com/bennu-collector/fp/porto.json
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
+||fxgate.baidu.com/angelia/fcagl.js
+||fxsjcj.kaipuyun.cn/count$domain=shenzhen.chinatax.gov.cn
 ||fxsjcj2.kaipuyun.cn/count/$domain=hainan.chinatax.gov.cn
 ||g.alicdn.com/AWSC/AWSC/awsc.js$domain=download.csdn.net
 ||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
@@ -880,7 +882,6 @@ zhidao.baidu.com##.task-list-button
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
-||js.peng2s.com:2003$domain=www.cmdyz.cc
 ||js.stripe.com/v3/$domain=fontawesome.com
 ||jstatic.letvcdn.com/sdk/apcsdk.js
 ||jzdisplay.58.com/js/gjad_show.js$domain=m.58.com
@@ -892,7 +893,7 @@ zhidao.baidu.com##.task-list-button
 ||kunpeng.csdn.net/ad/
 ||layer.bz.mgtv.com/layer/selfreport$domain=www.mgtv.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
-||localhost$domain=plugins.jetbrains.com
+||localhost$domain=plugins.jetbrains.com|chinatax.gov.cn
 ||localhost.ptlogin2.qq.com:*/pt_get_uins$domain=xui.ptlogin2.qq.com
 ||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
@@ -1043,6 +1044,7 @@ zhidao.baidu.com##.task-list-button
 ||shared.ydstatic.com/dsp_website/webdict/ad_dict_web_top.html$domain=youdao.com
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=www.csdn.net
 ||sharethis.com$third-party
+||shenzhen.chinatax.gov.cn/static/api/js/share
 ||signup.azure.com/api/clientlog
 ||slack-cordova-io.herokuapp.com/slackin.js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
@@ -1228,9 +1230,6 @@ zhidao.baidu.com##.task-list-button
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-sharing/buttons.js
 ||www.clipconverter.cc/qr.php
 ||www.cloudflare.com/cdn-cgi/trace
-||www.cmdyz.cc/include/ajax.php?action=hit
-||www.cmdyz.cc/templets/cmmov/images/js/xunlei
-||www.cmdyz.cc/templets/cmmov/images/xunlei
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.cr173.com/count/count.txt
@@ -1322,7 +1321,6 @@ zhidao.baidu.com##.task-list-button
 ||www.ssh.com/api/content/v1/dynamic
 ||www.ssh.com/trk
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
-||www.uqe.net/1.js$domain=www.cmdyz.cc
 ||www.vg247.com/wp-content/themes/vg247/scripts/CookieGDPR.js
 ||www.vivibb.com/index.php/ajax/hits
 ||www.vivibb.com/statics/api/js/share.js
