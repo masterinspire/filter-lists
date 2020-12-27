@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, December 14, 2020
+! Last modified: Sunday, December 27, 2020
 ! Title: Master-AdRules
-! Version: 20201214
+! Version: 20201227
 !
 !
 !
@@ -396,6 +396,7 @@ www.dotnettricks.com###sidebarbatchesdetail
 www.dotnettricks.com##.sticky-footer
 www.dotnettricks.com##^#ads$important
 www.echartsjs.com###apache-banner
+www.electronjs.org##.announcement-banner
 www.enterprisedb.com###promoWrapper
 www.enterprisedb.com##.outer-content > .content_bottom > .chat-wrap,.contactus1
 www.enterprisedb.com##.outer-content > .content_middle > .chat-wrap
@@ -453,6 +454,7 @@ www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com###packt_gdpr_container
 www.pdfforge.org##.gdpr-cookieconsent-overlay
 www.pdfforge.org##.gdpr-cookieconsent-settings
+www.positronx.io###cookie
 www.quora.com##.ViewInAppLink
 www.realvnc.com###cookie-notice
 www.red-gate.com##[src^="https://pubads.g.doubleclick.net/activity"]
@@ -487,6 +489,7 @@ www.techonthenet.com##.adsblocked
 www.telerik.com##.optanon-alert-box-wrapper
 www.tenforums.com###cookiescript_injected
 www.tenforums.com###snigel-cmp-framework
+www.thetechlounge.com###cookie-law-info-bar
 www.tldrgames.com###catapult-cookie-bar
 www.tutorialrepublic.com##.affiliate.segment
 www.tutorialrepublic.com##ul:nth-of-type(6)
