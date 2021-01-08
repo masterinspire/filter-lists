@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, December 27, 2020
+! Last modified: Friday, January 8, 2021
 ! Title: Master-AdRules
-! Version: 20201227
+! Version: 20210108
 !
 !
 !
@@ -176,9 +176,6 @@ forums.asp.net##.all-content > div:nth-of-type(1)
 freecommander.com###cookie-notice
 fujian.chinatax.gov.cn##.subnav
 get.videolan.org###uecookies
-gitee.com##.pendan-widget.gitee-stars-main-widget
-gitee.com##.side-toolbar
-gitee.com##.wechat-banner
 github.com##.signup-prompt-bg
 gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.trial-link
@@ -246,7 +243,6 @@ movie.mtime.com###divRelatedGoods
 mrchportalweb.alipay.com###pc-merchant-onlineService
 msdn.itellyou.cn##.shang_box
 music.taihe.com##.__qianqian_qrcode
-my.oschina.net###floatMenu
 nginx.org###banner
 npm.taobao.org###fork
 office.com###epb
@@ -289,6 +285,7 @@ stackify.com##.cta-contain
 stackoverflow.com###announcement-banner
 stackoverflow.com###left-sidebar > .js-sticky-leftnav.left-sidebar--sticky-container > nav > .nav-links > li:nth-of-type(3)
 stackoverflow.com##.js-announcement-sidebar.js-announcement-banner
+stackoverflow.com##.js-dismissable-hero.z-nav.ps-fixed
 stackoverflow.com##.js-sidebar-zone
 staxmanade.com##.jj-signup-form
 support.microsoft.com###bannerAboveUHF
@@ -444,12 +441,6 @@ www.nuget.org###sideColumn > .stat
 www.nuget.org###usabilla-button
 www.nvidia.com###cookiePolicy-layer
 www.online-tech-tips.com##div[id^="snhb-In_content_"]
-www.oschina.net##.action.segment.aligned.center.basic.ui
-www.oschina.net##.app-download-banner-box
-www.oschina.net##.detail_banner_ad
-www.oschina.net##.float-adbox
-www.oschina.net##.news-links
-www.oschina.net##.source-info
 www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com###packt_gdpr_container
 www.pdfforge.org##.gdpr-cookieconsent-overlay
@@ -537,7 +528,7 @@ zhidao.baidu.com##.task-list-button
 ||*.disqus.com/count.js
 ||*.log.mgtv.com/info.php$domain=www.mgtv.com
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|adobe.com,important
-||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com
+||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|chinatax.gov.cn
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.clipconverter.cc/www/d/fr.php
 ||a.disquscdn.com/count.js
@@ -763,6 +754,7 @@ zhidao.baidu.com##.task-list-button
 ||earlymonitoring.firebaseapp.com/index.min.js$domain=www.gatsbyjs.org
 ||ebank.spdb.com.cn/etrack/
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
+||embed.runkit.com/$domain=lodash.com
 ||embed.typeform.com/embed.js$domain=vivaldi.com|fontawesome.com
 ||entry.baidu.com/rp/wordner$domain=zhidao.baidu.com
 ||epnclick.ru/$domain=forum.ru-board.com
@@ -811,7 +803,6 @@ zhidao.baidu.com##.task-list-button
 ||getaninsight.com$domain=entityframeworktutorial.net|tutorialsteacher.com
 ||gia.jd.com/fcf.html
 ||gia.jd.com/y.html
-||gitee.com/*/*/widget_preview$domain=www.oschina.net
 ||gitee.com/bd_share/static/api/js/share.js
 ||gitter.im/api/private/statsc
 ||glitter.services.disqus.com/urls/?callback=dsqGlitterResponseHandler
@@ -952,7 +943,6 @@ zhidao.baidu.com##.task-list-button
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com|about.gitlab.com,important
 ||music.taihe.com/cms/mobile.gif
 ||mvnrepository.com/assets/images/p.gif
-||my.oschina.net/timing/timing
 ||myaccount.google.com/_/AccountSettingsUi/browserinfo
 ||myaccount.google.com/_/AccountSettingsUi/jserror
 ||mypage.w3schools.com/mypage/beta.php
@@ -1097,8 +1087,7 @@ zhidao.baidu.com##.task-list-button
 ||static.duoshuo.com/embed.js$third-party
 ||static.hitv.com/cms/v/2018/pcweb_top_navi$domain=www.mgtv.com
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
-||static.oschina.net/new-osc/js/utils/jweixin-1.2.0.js
-||static.oschina.net/new-osc/js/utils/plugins/bdshare_api/share.js
+||static.oschina.net/new-osc/js/utils/jweixin-*.*.*.js
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
 ||static.scroll.com/js/scroll.js$domain=tvtropes.org
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
@@ -1260,6 +1249,7 @@ zhidao.baidu.com##.task-list-button
 ||www.gstatic.com/feedback/api.js$third-party
 ||www.hao123.com/h.gif
 ||www.hao123.com/images-ab/h.gif
+||www.huawei.com/pepp4_lakers
 ||www.huimg.cn/public/js/doc-pc-monintor-20170308.js$domain=baike.com
 ||www.huimg.cn/sns/js/share20121203.js$domain=baike.com
 ||www.huimg.cn/stat/js/hd_product_monitor.js$domain=baike.com
@@ -1296,8 +1286,6 @@ zhidao.baidu.com##.task-list-button
 ||www.nokia.com/phones/*/external/cookie_consent
 ||www.oracle.com/assets/truste-oraclelib.js$domain=dev.mysql.com
 ||www.oschina.net/action/trace/record
-||www.oschina.net/view/news?id=
-||www.oschina.net/view/project?id=
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Magento_GoogleTagManager/
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_GoogleTagManager/
 ||www.paypal.com/xoplatform/logger/api/log
