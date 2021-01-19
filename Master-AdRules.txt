@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, January 8, 2021
+! Last modified: Tuesday, January 19, 2021
 ! Title: Master-AdRules
-! Version: 20210108
+! Version: 20210119
 !
 !
 !
@@ -288,6 +288,7 @@ stackoverflow.com##.js-announcement-sidebar.js-announcement-banner
 stackoverflow.com##.js-dismissable-hero.z-nav.ps-fixed
 stackoverflow.com##.js-sidebar-zone
 staxmanade.com##.jj-signup-form
+superuser.com##.js-consent-banner
 support.microsoft.com###bannerAboveUHF
 support.microsoft.com###notification-banner-container
 support.microsoft.com###smc-survey-external-feedback-button
@@ -412,6 +413,9 @@ www.geeksforgeeks.org##.hireWithUs.practiceButton
 www.geeksforgeeks.org##.widget_text.widget
 www.google.com##.gb_g.gb_0c.gb_Ad
 www.google.com##.og-pdp
+www.gtabase.com###ja-current-content > h3.module + div.custom ~ div.custom
+www.gtabase.com###ja-current-content > script ~ div.custom
+www.gtabase.com##.wbl-social-button
 www.haosou.com###side
 www.howtogeek.com##.email-overlay
 www.howtogeek.com##.overlay-wrapper
@@ -428,7 +432,30 @@ www.jetbrains.com##DIV[id="pseudo-footer"]
 www.learnrazorpages.com###cookie-warning
 www.liepin.com##.guider
 www.linuxeden.com##.bdsharebuttonbox.action-share
+www.merriam-webster.com###cite-anchor
+www.merriam-webster.com###definition-right-rail
+www.merriam-webster.com###podcast-anchor
+www.merriam-webster.com###recirc-bar-footer
+www.merriam-webster.com###register-promo
 www.merriam-webster.com###social-sidebar-container
+www.merriam-webster.com###subscribe-unabridged
+www.merriam-webster.com###unabridged-promo
+www.merriam-webster.com###wotd-promo-sub-box
+www.merriam-webster.com##.ads + .heavy-break
+www.merriam-webster.com##.art-social-share
+www.merriam-webster.com##.article-share-slide
+www.merriam-webster.com##.article-social-sidebar
+www.merriam-webster.com##.did-you-know-wrapper > #wotd-right-content-box
+www.merriam-webster.com##.footer-mast
+www.merriam-webster.com##.game-recirc-widget
+www.merriam-webster.com##.mw-ad
+www.merriam-webster.com##.recirc-bar
+www.merriam-webster.com##.share-icons
+www.merriam-webster.com##.wgt-games-side.wgt-side
+www.merriam-webster.com##.wod-activity-container
+www.merriam-webster.com##.wod-podcast-player-block.podcast-player-block
+www.merriam-webster.com##.wotd-side__subscribe
+www.merriam-webster.com##div.hide-mobile.rail-abl-box
 www.microsoft.com##.row-fluid.end-social
 www.mssqltips.com###slideboxtop
 www.mssqltips.com##.columns.hide-for-print.large-3
@@ -597,6 +624,7 @@ zhidao.baidu.com##.task-list-button
 ||az416426.vo.msecnd.net/scripts/b/ai.2.min.js
 ||az725175.vo.msecnd.net/scripts/jsll-*.js$important
 ||azure.microsoft.com/api/v2/ue/
+||b2b.baidu.com/slog/*.gif
 ||badjs.qidian.qq.com/badjs$domain=webpage.qidian.qq.com
 ||badjs.weixinbridge.com/frontend/reportspeed
 ||badjs2.qq.com/badjs$domain=tapd.cn
@@ -740,6 +768,7 @@ zhidao.baidu.com##.task-list-button
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
 ||dfp.suning.com/dfprs-collect
+||dictionary.cambridge.org/external/scripts/ads.min.js
 ||discord.com/api/v6/science
 ||dlog.liepin.com/dlog$domain=liepin.com
 ||docs.microsoft.com/api/privacy/cookieConsent
@@ -1056,8 +1085,8 @@ zhidao.baidu.com##.task-list-button
 ||socket.jisuan.mobi/$domain=bianma.supfree.net
 ||solo41.biz$domain=www.tutorialspoint.com
 ||sp0.baidu.com/*/su?wd=$domain=www.baidu.com
-||sp1.baidu.com/*/mwb.gif$domain=m.baidu.com|www.baidu.com
-||sp1.baidu.com/*/mwb2.gif$domain=m.baidu.com|www.baidu.com
+||sp1.baidu.com/*/mwb.gif
+||sp1.baidu.com/*/mwb2.gif
 ||sp1.baidu.com/*/owb.gif$domain=m.baidu.com|www.baidu.com
 ||sp1.baidu.com/*/sensearch/selecttext$domain=www.baidu.com
 ||sp1.baidu.com/*/v.gif$domain=baidu.com
@@ -1169,6 +1198,7 @@ zhidao.baidu.com##.task-list-button
 ||wapbaike.baidu.com/api/wapui/getbaiketurboqmrs
 ||wapbaike.baidu.com/sfproxy.html
 ||wdf.mogu.com/jsonp/featureUpload/2$domain=portal.mogu.com
+||web-player.art19.com/assets/current.js$domain=www.merriam-webster.com
 ||web.vortex.data.microsoft.com/collect
 ||webresource.c-ctrip.com/ResUnionOnline/R1/remarketing/js/remarketing.js$domain=ctrip.com
 ||wenku.baidu.com/browse/widget/viewrecom
@@ -1268,7 +1298,7 @@ zhidao.baidu.com##.task-list-button
 ||www.lightboxcdn.com/vendor/*/lightbox_inline.js$domain=www.androidcentral.com
 ||www.linkedin.com/countserv/count/share
 ||www.linuxjournal.com/core/modules/statistics/statistics.php
-||www.merriam-webster.com/lapi/1/mwol-video/play/count
+||www.merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 ||www.microsoft.com/net/bundles/js/survey-popup.min.js
 ||www.microsofttranslator.com/Ajax/V2/Widget.aspx
 ||www.microsofttranslator.com/ajax/v2/toolkit.ashx
