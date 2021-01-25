@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, January 19, 2021
+! Last modified: Monday, January 25, 2021
 ! Title: Master-AdRules
-! Version: 20210119
+! Version: 20210125
 !
 !
 !
@@ -293,6 +293,7 @@ support.microsoft.com###bannerAboveUHF
 support.microsoft.com###notification-banner-container
 support.microsoft.com###smc-survey-external-feedback-button
 support.microsoft.com###supWrapperToPreventFeedbackFlickering
+support.microsoft.com###uhf-upgrade-banner
 support.microsoft.com##.article-container[content-survey]
 support.microsoft.com##.banner-image.notification-banner
 support.microsoft.com##.right-rail.content-media
@@ -306,6 +307,7 @@ telerik.com##.optanon-alert-box-wrapper
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tortoisesvn.net##FIELDSET[class="adgroup"]
+ubuntu.com##.cookie-policy
 visualstudio.com###epb
 visualstudio.com###mscc-cookie-container
 visualstudio.com###uhfCookieAlert
@@ -415,6 +417,7 @@ www.google.com##.gb_g.gb_0c.gb_Ad
 www.google.com##.og-pdp
 www.gtabase.com###ja-current-content > h3.module + div.custom ~ div.custom
 www.gtabase.com###ja-current-content > script ~ div.custom
+www.gtabase.com##.mailing-list-bottom
 www.gtabase.com##.wbl-social-button
 www.haosou.com###side
 www.howtogeek.com##.email-overlay
@@ -755,7 +758,7 @@ zhidao.baidu.com##.task-list-button
 ||cse.google.com/cse.js
 ||csmobiledata.alipay.com/spmRecord.json
 ||csp.yandex.net/csp$domain=yandex.com
-||cstm.baidu.com/baike/log$domain=baike.baidu.com
+||cstm.baidu.com$domain=baike.baidu.com
 ||customer.api.drift.com/geo
 ||da.qiyukf.com/webda/da.gif$domain=qiye.163.com
 ||data.services.jetbrains.com/geo
