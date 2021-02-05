@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, January 25, 2021
+! Last modified: Friday, February 5, 2021
 ! Title: Master-AdRules
-! Version: 20210125
+! Version: 20210205
 !
 !
 !
@@ -286,6 +286,7 @@ stackoverflow.com###announcement-banner
 stackoverflow.com###left-sidebar > .js-sticky-leftnav.left-sidebar--sticky-container > nav > .nav-links > li:nth-of-type(3)
 stackoverflow.com##.js-announcement-sidebar.js-announcement-banner
 stackoverflow.com##.js-dismissable-hero.z-nav.ps-fixed
+stackoverflow.com##.js-notice-sidebar-popover
 stackoverflow.com##.js-sidebar-zone
 staxmanade.com##.jj-signup-form
 superuser.com##.js-consent-banner
@@ -347,6 +348,7 @@ work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opin
 www.360doc.com###btn_freeread
 www.360doc.com###goTop2
 www.360doc.com##.docsharelist
+www.allitebooks.in##.td-post-sharing
 www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
@@ -387,6 +389,7 @@ www.codeproject.com##.cc-bottom.cc-theme-edgeless.cc-type-opt-in.cc-banner.cc-wi
 www.codeproject.com##.page-background > .overlay.alert-bar
 www.computerworld.com##aside[id^="fsb-"]
 www.cplusplus.com##body > div:nth-of-type(1)
+www.dictionary.com###marketingBanner-right
 www.digitalocean.com###newsletter-signup-dialog
 www.divcss5.com##DIV[class="if1200 ws"]
 www.doc88.com##DIV[class="skintips"]
@@ -415,6 +418,7 @@ www.geeksforgeeks.org##.hireWithUs.practiceButton
 www.geeksforgeeks.org##.widget_text.widget
 www.google.com##.gb_g.gb_0c.gb_Ad
 www.google.com##.og-pdp
+www.gtabase.com###ja-current-content > .item-page + div.custom + div.custom
 www.gtabase.com###ja-current-content > h3.module + div.custom ~ div.custom
 www.gtabase.com###ja-current-content > script ~ div.custom
 www.gtabase.com##.mailing-list-bottom
@@ -476,6 +480,10 @@ www.packtpub.com###packt_gdpr_container
 www.pdfforge.org##.gdpr-cookieconsent-overlay
 www.pdfforge.org##.gdpr-cookieconsent-settings
 www.positronx.io###cookie
+www.qt.io##.b-article__share-footer
+www.qt.io##.fixed.c-floating-contact
+www.qt.io##.instagram-media
+www.qt.io##div.c-article-list-promotion
 www.quora.com##.ViewInAppLink
 www.realvnc.com###cookie-notice
 www.red-gate.com##[src^="https://pubads.g.doubleclick.net/activity"]
@@ -490,6 +498,7 @@ www.samsung.com##.iparsys.ipar.parsys
 www.sitepoint.com##.roller-door-placeholder
 www.smartsvn.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.sohu.com###float-btn
+www.sqlitetutorial.net##.ad
 www.sqlshack.com###cookiesWarning
 www.syntevo.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.syntevo.com##.cookie
@@ -692,8 +701,8 @@ zhidao.baidu.com##.task-list-button
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
-||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org
-||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com|vmware.com
+||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org|www.dictionary.com
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com|vmware.com|www.dictionary.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
 ||cdn.livechatinc.com/tracking.js
@@ -747,6 +756,7 @@ zhidao.baidu.com##.task-list-button
 ||console-base-cn-hangzhou.cn-hangzhou.log.aliyuncs.com/logstores/the-base/track$domain=aliyun.com
 ||consolebench.cn-hangzhou.log.aliyuncs.com/logstores/accesslog/track$domain=aliyun.com
 ||constid.dingxiang-inc.com/udid/c1$domain=www.cnblogs.com
+||content.cdntwrk.com/components/website-widget/v1/*/widget.js$domain=www.qt.io
 ||cordova.apache.org/static/js/twitter.js
 ||countly.mail.163.com/countly/i$domain=mail.163.com
 ||crash.data.v2.mgtv.com/dispatcher.do$domain=www.mgtv.com
@@ -1185,6 +1195,7 @@ zhidao.baidu.com##.task-list-button
 ||unpkg.pstatp.com/byted/sec_sdk_build/*/dist/captcha.js$domain=www.toutiao.com
 ||update.vivaldi.com/stats/rep
 ||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
+||ux.21cn.com/api/htmlReportRest
 ||v2.sohu.com/api/pc-home-city/home-data/ip2location
 ||v2.sohu.com/integration-api/batch/web
 ||v2.sohu.com/integration-api/mix/region/$important
@@ -1235,6 +1246,7 @@ zhidao.baidu.com##.task-list-button
 ||www.aiyiweb.com/Scripts/baiduShare.js
 ||www.aliyun.com/core/real-time-iframe$domain=developer.aliyun.com
 ||www.aliyun.com/smarter-engine
+||www.amazon.com/cross_border_interstitial/render
 ||www.androidcentral.com/_gap/_module.js
 ||www.androidcentral.com/_gap/cyhtvaf/hn/linkid.js
 ||www.baidu.com/home/msg/data/personalcontent
@@ -1288,7 +1300,7 @@ zhidao.baidu.com##.task-list-button
 ||www.huimg.cn/stat/js/hd_product_monitor.js$domain=baike.com
 ||www.infoworld.com/napi/tile
 ||www.infoworld.com/www/js/ads$important
-||www.it-ebooks.info/js/feedburner.js
+||www.instagram.com/embed.js$domain=www.qt.io
 ||www.jianshu.com/notes/*/mark_viewed.json
 ||www.jianshu.com/notes/*/recommendations
 ||www.jianshu.com/notes/*/rewards
@@ -1331,6 +1343,7 @@ zhidao.baidu.com##.task-list-button
 ||www.qqfby.com/js/baidutop.js
 ||www.qqfby.com/js/dh.js
 ||www.qt.io/_hcms/perf
+||www.qt.io/hs/scriptloader/*.js
 ||www.rabbitmq.com/img/banner-s1p.png
 ||www.rabbitmq.com/js/ga-bootstrap.js
 ||www.rarlab.com/js/ckrule.js
