@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, February 5, 2021
+! Last modified: Sunday, February 14, 2021
 ! Title: Master-AdRules
-! Version: 20210205
+! Version: 20210214
 !
 !
 !
@@ -143,6 +143,7 @@ developers.google.cn##.devsite-back-to-top-link
 developers.google.cn##devsite-page-rating
 developers.google.cn##devsite-tracking-question
 developers.google.cn##devsite-youtube
+diezhan.me###player-left .col-md-wide-3
 ding-doc.dingtalk.com##.styles-float
 discourse.mozilla.org##.quote-button
 discuss.atom.io##.quote-button.ember-view
@@ -348,6 +349,7 @@ work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opin
 www.360doc.com###btn_freeread
 www.360doc.com###goTop2
 www.360doc.com##.docsharelist
+www.88ysw.com##.gotop
 www.allitebooks.in##.td-post-sharing
 www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
@@ -390,6 +392,7 @@ www.codeproject.com##.page-background > .overlay.alert-bar
 www.computerworld.com##aside[id^="fsb-"]
 www.cplusplus.com##body > div:nth-of-type(1)
 www.dictionary.com###marketingBanner-right
+www.diezhan.me###c-help
 www.digitalocean.com###newsletter-signup-dialog
 www.divcss5.com##DIV[class="if1200 ws"]
 www.doc88.com##DIV[class="skintips"]
@@ -618,7 +621,7 @@ zhidao.baidu.com##.task-list-button
 ||apiv2.pinduoduo.com/api/server/_stm
 ||apiv2.pinduoduo.net/api/server/_stm
 ||apiwmda.58.com.cn/web/report$domain=58.com
-||app-sj05.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com
+||app-*.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com|docs.conan.io,important
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
@@ -771,6 +774,7 @@ zhidao.baidu.com##.task-list-button
 ||cstm.baidu.com$domain=baike.baidu.com
 ||customer.api.drift.com/geo
 ||da.qiyukf.com/webda/da.gif$domain=qiye.163.com
+||dalog.shimo.im/logservice/web/coll.jpg
 ||data.services.jetbrains.com/geo
 ||data.v.qq.com/videocms/getNewsvideoList.php
 ||datacollect.vmall.com:18443$third-party
@@ -904,6 +908,7 @@ zhidao.baidu.com##.task-list-button
 ||j1.58cdn.com.cn/resource/xxzl/tracker/tracker.sp.min_v*.js$domain=58.com
 ||j1.58cdn.com.cn/wmda/js/statistic.js$domain=58.com
 ||j2.58cdn.com.cn/zt/appdown/js/m_invoke_app.js$domain=m.58.com
+||j2s.lsaeb.com:344$domain=diezhan.me
 ||jiathis.com$third-party
 ||jingyan.baidu.com/article/ajax/relatefeed
 ||jqmt.qq.com/cdn_dianjiliu.js
@@ -937,6 +942,7 @@ zhidao.baidu.com##.task-list-button
 ||log.mogu.com/log
 ||log.mogujie.com/log
 ||log.quora.com/ajax/batched_log_POST
+||login.microsoftonline.com/common/instrumentation/reportstaticmecontroltelemetry
 ||m.58.com/ipservice/
 ||m.baidu.com/rec
 ||m.baidu.com/se/static/amd_modules/@baidu/se-video-ad_*.js
@@ -1289,7 +1295,7 @@ zhidao.baidu.com##.task-list-button
 ||www.google.com/insights/consumersurveys/
 ||www.googleadservices.com/pagead
 ||www.googletagmanager.com/gtag/js
-||www.googletagmanager.com/gtm.js
+||www.googletagmanager.com/gtm.js$important
 ||www.googletagservices.com/tag/js/gpt.js$third-party
 ||www.gstatic.com/feedback/api.js$third-party
 ||www.hao123.com/h.gif
@@ -1358,6 +1364,7 @@ zhidao.baidu.com##.task-list-button
 ||www.ssh.com/api/content/v1/dynamic
 ||www.ssh.com/trk
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
+||www.ttshitu.com/js/baidu.js
 ||www.vg247.com/wp-content/themes/vg247/scripts/CookieGDPR.js
 ||www.vivibb.com/index.php/ajax/hits
 ||www.vivibb.com/statics/api/js/share.js
