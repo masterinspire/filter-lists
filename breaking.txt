@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, January 25, 2021
+! Last modified: Monday, February 22, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20210125
+! Version: 20210222
 !
 !
 !
@@ -16,10 +16,10 @@
 ||cefsharp.github.io/images/top-header.png
 ||feedburner.google.com$domain=chocolatey.org
 ||i.imgur.com$domain=create-react-app.dev|chocolatey.org
-||i.stack.imgur.com$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||i.stack.imgur.com$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 ||i.ytimg.com$domain=developer.android.google.cn|www.telegraph.co.uk
 ||img.youtube.com$domain=testing-library.com
-||lh*.googleusercontent.com$domain=developer.android.google.cn|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com
+||lh*.googleusercontent.com$domain=developer.android.google.cn|askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
 ||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com|gitter.im
@@ -32,7 +32,7 @@
 ||www.google.com/cse/brand$third-party,important
 ||www.google.com/cse/cse.js$third-party,important
 ||www.google.com/jsapi$third-party,important
-||www.google.com/recaptcha/api.js$domain=gradle.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com|www.mssqltips.com|www.experts-exchange.com|ubuntu.com|webchat.freenode.net|weblogs.asp.net|www.softwaretestinghelp.com|www.ccleaner.com,important
+||www.google.com/recaptcha/api.js$domain=gradle.com|www.exceltip.com|gradle.org|gitlab.com|www.packtpub.com|xda-developers.com|www.mssqltips.com|www.experts-exchange.com|ubuntu.com|webchat.freenode.net|weblogs.asp.net|www.softwaretestinghelp.com|www.ccleaner.com,important
 ||www.youtube-nocookie.com/embed/*$third-party
 ||youtube.com/embed/*$third-party
 ||youtube.com/iframe_api$third-party,important
