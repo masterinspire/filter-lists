@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, February 22, 2021
+! Last modified: Wednesday, March 3, 2021
 ! Title: Master-AdRules
-! Version: 20210222
+! Version: 20210303
 !
 !
 !
@@ -307,6 +307,7 @@ support.office.com###supWrapperToPreventFeedbackFlickering
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
+thedivision.fandom.com###WikiaBar
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tortoisesvn.net##FIELDSET[class="adgroup"]
@@ -416,6 +417,7 @@ www.experts-exchange.com##.getAccessContainer
 www.experts-exchange.com##.weHelpBanner
 www.fanbyte.com###PopupSignupForm_0
 www.fanbyte.com###check-also-box
+www.forbes.com##.seo.recirc-module
 www.gamersky.com##.Mid2_R
 www.geeksforgeeks.org##.ad_course_banner
 www.geeksforgeeks.org##.hireWithUs.practiceButton
@@ -572,6 +574,7 @@ zhidao.baidu.com##.task-list-button
 ||*.disqus.com/count.js
 ||*.log.mgtv.com/info.php$domain=www.mgtv.com
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|adobe.com,important
+||12366.chinatax.gov.cn/znzx/arlog/access
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|chinatax.gov.cn
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.clipconverter.cc/www/d/fr.php
@@ -758,7 +761,7 @@ zhidao.baidu.com##.task-list-button
 ||connect.ubisoft.com/api/default/location
 ||consent-st.truste.com/get
 ||consent.cookiebot.com/uc.js
-||consent.trustarc.com/notice$domain=auth0.com
+||consent.trustarc.com/notice$domain=auth0.com|jwt.io
 ||consent.truste.com/notice$domain=docker.com|dev.mysql.com
 ||console-base-cn-hangzhou.cn-hangzhou.log.aliyuncs.com/logstores/the-base/track$domain=aliyun.com
 ||consolebench.cn-hangzhou.log.aliyuncs.com/logstores/accesslog/track$domain=aliyun.com
@@ -792,6 +795,7 @@ zhidao.baidu.com##.task-list-button
 ||dictionary.cambridge.org/external/scripts/ads.min.js
 ||discord.com/api/v6/science
 ||dlog.liepin.com/dlog$domain=liepin.com
+||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
 ||docs.microsoft.com/api/privacy/cookieConsent
 ||docs.ti-net.com.cn/count.php
 ||down.58.com/js/58appLaunch.js$domain=m.58.com
@@ -1343,9 +1347,6 @@ zhidao.baidu.com##.task-list-button
 ||www.msn.com/en-us/*/irisbannerajax?position=top
 ||www.msn.com/en-us/autos/_log
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
-||www.nocmd.com/statics/js/ad.js
-||www.nocmd.com/statics/pos_js/a1d.js
-||www.nocmd.com/statics/tt_gb/skin_js/gb.js
 ||www.nokia.com/phones/*/external/cookie_consent
 ||www.oracle.com/assets/truste-oraclelib.js$domain=dev.mysql.com
 ||www.oschina.net/action/trace/record
@@ -1356,9 +1357,12 @@ zhidao.baidu.com##.task-list-button
 ||www.pc6.com/static/api/js/share.js
 ||www.pgyer.com/app/getAdAdsense
 ||www.pinduoduo.com/icp
+||www.qqfby.com/baidu/baidudibu.js
 ||www.qqfby.com/js/baidufoot.js
 ||www.qqfby.com/js/baidumid.js
 ||www.qqfby.com/js/baidutop.js
+||www.qqfby.com/js/cnzz2.js
+||www.qqfby.com/js/cnzzd.js
 ||www.qqfby.com/js/dh.js
 ||www.qt.io/_hcms/perf
 ||www.qt.io/hs/scriptloader/*.js
