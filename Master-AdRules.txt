@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 3, 2021
+! Last modified: Wednesday, March 10, 2021
 ! Title: Master-AdRules
-! Version: 20210303
+! Version: 20210310
 !
 !
 !
@@ -406,6 +406,7 @@ www.dotnettricks.com##^#ads$important
 www.echartsjs.com###apache-banner
 www.electronjs.org##.announcement-banner
 www.enterprisedb.com###promoWrapper
+www.enterprisedb.com##.eu-cookie-compliance-banner
 www.enterprisedb.com##.outer-content > .content_bottom > .chat-wrap,.contactus1
 www.enterprisedb.com##.outer-content > .content_middle > .chat-wrap
 www.entityframeworktutorial.net##A[id="ffb_feedback"]
@@ -507,6 +508,7 @@ www.smartsvn.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.sohu.com###float-btn
 www.sqlitetutorial.net##.ad
 www.sqlshack.com###cookiesWarning
+www.ssh.com##[class^="sidenav__SidenavPromoContainer"]
 www.syntevo.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.syntevo.com##.cookie
 www.sysgeek.cn##.action-share
@@ -573,7 +575,7 @@ zhidao.baidu.com##.task-list-button
 ||*.cnbeta.com/static/api/js/view/share_view.js
 ||*.disqus.com/count.js
 ||*.log.mgtv.com/info.php$domain=www.mgtv.com
-||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|adobe.com,important
+||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
 ||12366.chinatax.gov.cn/znzx/arlog/access
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|chinatax.gov.cn
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
@@ -689,6 +691,7 @@ zhidao.baidu.com##.task-list-button
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
 ||bundler.io/javascripts/analytics.js
+||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com,important
 ||c.disquscdn.com/next/embed/alfalfa_min.*.js
 ||c.evidon.com/geo/country.js$domain=adobe.com|vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
@@ -726,6 +729,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn2.jianshu.io/assets/web/web-note-ad-*.png
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent$third-party
+||cdns.gigya.com/JS/gigya.js$domain=www.history.com
 ||cdnssl.clicktale.net$domain=answers.microsoft.com
 ||cf.aliyun.com/scratchCardSlide/dataReport.jsonp$domain=aliyun.com
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
@@ -811,6 +815,7 @@ zhidao.baidu.com##.task-list-button
 ||embed.runkit.com/$domain=lodash.com
 ||embed.tawk.to$domain=www.partitionwizard.com
 ||embed.typeform.com/embed.js$domain=vivaldi.com|fontawesome.com
+||entitlement.auth.adobe.com/entitlement/v4/AccessEnabler.js$domain=history.com
 ||entry.baidu.com/rp/wordner$domain=zhidao.baidu.com
 ||epnclick.ru/$domain=forum.ru-board.com
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data.min.js
@@ -847,6 +852,7 @@ zhidao.baidu.com##.task-list-button
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js$domain=csdn.net
 ||g.csdnimg.cn/check-adb/*/check-adb.js$domain=csdn.net
 ||g.csdnimg.cn/check-adb/*/css/check-adb.css$domain=csdn.net
+||g.csdnimg.cn/common/csdn-report/report.js
 ||g.csdnimg.cn/lib/blockadblock/*/blockadblock.min.js$domain=csdn.net
 ||g.csdnimg.cn/report/*/report.js$domain=csdn.net
 ||g.csdnimg.cn/share/*/css/share.css$domain=csdn.net
@@ -930,7 +936,7 @@ zhidao.baidu.com##.task-list-button
 ||js-agent.newrelic.com/$domain=bitbucket.org
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
-||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com|www.axure.com|capacitorjs.com
+||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com|www.axure.com|capacitorjs.com|www.ssh.com
 ||js.hsforms.net/forms/v2.js$domain=stenciljs.com
 ||js.hsleadflows.net/leadflows.js$domain=stackoverflow.blog
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
@@ -1036,6 +1042,7 @@ zhidao.baidu.com##.task-list-button
 ||play.google.com/_/PlayStoreUi/gen204
 ||play.google.com/_/PlayStoreUi/jserror
 ||play.google.com/log
+||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
@@ -1080,6 +1087,7 @@ zhidao.baidu.com##.task-list-button
 ||s3.pstatp.com/pgc/tech/collect/collect-v.*.js$domain=www.toutiao.com
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sa.suning.cn/hotClick.gif
+||sc.appvipshop.com/vips-mobile-tracker/router.do?service=vip.monitor.logger
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||screenshots.codesandbox.io/*.png
 ||sdk.51.la/js-sdk-pro.min.js$domain=www.luhu.co
@@ -1203,7 +1211,7 @@ zhidao.baidu.com##.task-list-button
 ||tracker.klink.tech
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
-||translate.google.com/$domain=www.w3schools.com
+||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
@@ -1316,6 +1324,7 @@ zhidao.baidu.com##.task-list-button
 ||www.gstatic.com/feedback/api.js$third-party
 ||www.hao123.com/h.gif
 ||www.hao123.com/images-ab/h.gif
+||www.history.com/vendor/adobe-target.js
 ||www.huawei.com/pepp4_lakers
 ||www.huimg.cn/public/js/doc-pc-monintor-20170308.js$domain=baike.com
 ||www.huimg.cn/sns/js/share20121203.js$domain=baike.com
