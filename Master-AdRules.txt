@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 10, 2021
+! Last modified: Saturday, March 13, 2021
 ! Title: Master-AdRules
-! Version: 20210310
+! Version: 20210313
 !
 !
 !
@@ -39,11 +39,13 @@ askubuntu.com##.js-consent-banner
 auth0.com###popup
 auth0.com###selectionSharerPopover
 aws.amazon.com##.aws-cn-optin
+baike.baidu.com###J-declare
 baike.baidu.com###J-spark-icon
 baike.baidu.com###J-tashuo-button-fixed
 baike.baidu.com###side-share
 baike.baidu.com###tashuo_bottom
 baike.baidu.com##.J-secondsknow-large-container.secondsknow-large-container
+baike.baidu.com##.appdownload
 baike.baidu.com##.topA
 baike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
 bbs.csdn.net###answer_btn
@@ -421,6 +423,7 @@ www.fanbyte.com###check-also-box
 www.forbes.com##.seo.recirc-module
 www.gamersky.com##.Mid2_R
 www.geeksforgeeks.org##.ad_course_banner
+www.geeksforgeeks.org##.cookie-consent
 www.geeksforgeeks.org##.hireWithUs.practiceButton
 www.geeksforgeeks.org##.widget_text.widget
 www.google.com##.gb_g.gb_0c.gb_Ad
@@ -585,6 +588,7 @@ zhidao.baidu.com##.task-list-button
 ||aaxads.com$domain=reddit.com
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||account.jetbrains.com/services/consentOptions
+||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org
 ||ad.liepin.com/adremote/recordingcnt$domain=liepin.com
 ||ada.baidu.com/udpl$domain=m.baidu.com|www.baidu.com
 ||ada.baidu.com/udpl/exp$domain=zhidao.baidu.com
@@ -637,6 +641,7 @@ zhidao.baidu.com##.task-list-button
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||ask.dcloud.net.cn/crond/run/
+||assets.adobedtm.com/*/satelliteLib-*.js$domain=www.mathworks.com
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
@@ -1052,6 +1057,7 @@ zhidao.baidu.com##.task-list-button
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
+||quantcast.mgr.consensu.org/choice/*/mathworks.com/choice.js$domain=www.mathworks.com
 ||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
 ||query.aliyun.com/rest/delivery.config.customRules.ambassor-delivery-topbar$domain=aliyun.com
 ||query.aliyun.com/rest/delivery.config.customRules.floatWindowWhiteList$domain=aliyun.com
@@ -1145,6 +1151,7 @@ zhidao.baidu.com##.task-list-button
 ||sstat.jd.com/scslog
 ||sstats.adobe.com$third-party
 ||star.tag.webdev.com/api/page
+||starget.mathworks.com/rest/v1/delivery
 ||stat-api.20hn.cn/jf.gif$domain=pc6.com
 ||stat.56.com/album/count.php
 ||stat.it168.com/ClickPv.js
@@ -1344,6 +1351,8 @@ zhidao.baidu.com##.task-list-button
 ||www.lightboxcdn.com/vendor/*/lightbox_inline.js$domain=www.androidcentral.com
 ||www.linkedin.com/countserv/count/share
 ||www.linuxjournal.com/core/modules/statistics/statistics.php
+||www.mathworks.com/includes_content/domainSelect/akamai-country-code.js
+||www.mathworks.com/matlabcentral/profile/api/v1/active/ping
 ||www.merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 ||www.microsoft.com/net/bundles/js/survey-popup.min.js
 ||www.microsofttranslator.com/Ajax/V2/Widget.aspx
