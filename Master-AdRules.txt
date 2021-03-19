@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, March 13, 2021
+! Last modified: Friday, March 19, 2021
 ! Title: Master-AdRules
-! Version: 20210313
+! Version: 20210319
 !
 !
 !
@@ -36,6 +36,7 @@ apkpure.com##.left > .ad-box-auto
 apkpure.com##.share-fixed
 arcanecode.com##.widget_eu_cookie_law_widget.widget
 askubuntu.com##.js-consent-banner
+askubuntu.com##.js-freemium-cta
 auth0.com###popup
 auth0.com###selectionSharerPopover
 aws.amazon.com##.aws-cn-optin
@@ -106,6 +107,10 @@ chocolatey.org###mc_embed_signup
 chocolatey.org###topNoticeAlert
 chocolatey.org##.btn-announcement-notifications.btn-collapsing-right-sidebar
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
+cloud.tencent.com##.com-event-panel
+cloud.tencent.com##.document-feedback-container
+cloud.tencent.com##.rno-documents-tools.rno-scrollbar-tools
+cloud.tencent.com##.select-feedback-tip
 club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_notificationContainer_bop
 cn.bing.com###b_pole
@@ -200,6 +205,7 @@ help.aliyun.com##.recommendation-area-fixed
 help.aliyun.com##.select-widFeedback
 helpx.adobe.com###helpful-pod
 ironsoftware.com##.fixed-support-bar
+itextpdf.com##.eu-cookie-compliance-banner
 jd.com###toolbar-qrcode
 jd.com##.J-video-view-wrap
 jd.com##.fixed.jTdCode
@@ -210,6 +216,7 @@ jingyan.baidu.com##.wgt-feeds-video
 jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.wrp-exp-share
 konvajs.org###mc_embed_signup
+kotlinlang.org##.feedback
 letsencrypt.org##.donate-footer
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
@@ -268,6 +275,7 @@ readthedocs.io##.keep-us-sustainable
 research.microsoft.com###shareShelf
 riptutorial.com##.section-aside.col-lg-2
 segmentfault.com##.float-ads
+serverfault.com##.js-freemium-cta
 share.weiyun.com##.layout-sider-bar
 shenzhen.chinatax.gov.cn###fb
 shenzhen.chinatax.gov.cn##.content_share
@@ -282,9 +290,11 @@ sourceforge.net###project-nel
 stackabuse.com##.sidebar
 stackabuse.com##.text-center.newsletter
 stackabuse.com##.widget-sticky
+stackapps.com##.js-freemium-cta
 stackblitz.com###sponsad-wrapper
 stackblitz.com##a[class^="index-module__EmphasizedLinks"]
 stackexchange.com###js-gdpr-consent-banner
+stackexchange.com##.js-freemium-cta
 stackify.com##.cta-contain
 stackoverflow.com###announcement-banner
 stackoverflow.com###left-sidebar > .js-sticky-leftnav.left-sidebar--sticky-container > nav > .nav-links > li:nth-of-type(3)
@@ -294,6 +304,7 @@ stackoverflow.com##.js-notice-sidebar-popover
 stackoverflow.com##.js-sidebar-zone
 staxmanade.com##.jj-signup-form
 superuser.com##.js-consent-banner
+superuser.com##.js-freemium-cta
 support.microsoft.com###bannerAboveUHF
 support.microsoft.com###notification-banner-container
 support.microsoft.com###smc-survey-external-feedback-button
@@ -439,6 +450,10 @@ www.howtogeek.com##.overlay-wrapper
 www.influxdata.com##.contact_sale
 www.influxdata.com##.cookieterms
 www.infoworld.com##aside.fakesidebar
+www.itpro.com##.polaris__newsletter
+www.itprotoday.com###newsletter-signup-load
+www.itprotoday.com##.gdpr-popup-border
+www.itprotoday.com##.share-icons
 www.jb51.net###right-share
 www.jd.com##.promotional-top
 www.jetbrains.com##.cookies-banner
@@ -546,6 +561,7 @@ www.w3school.com.cn##DIV[id="ad"]
 www.w3school.com.cn##DIV[id="searchui"]
 www.wikihow.com###contribute_footer
 www.wilderssecurity.com##.bottomFixer
+www.wintips.org##.cresta-share-icon
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
 www.xda-developers.com##.et_social_inline
@@ -593,7 +609,8 @@ zhidao.baidu.com##.task-list-button
 ||ada.baidu.com/udpl$domain=m.baidu.com|www.baidu.com
 ||ada.baidu.com/udpl/exp$domain=zhidao.baidu.com
 ||addthis.com/js/300/addthis_widget.js$third-party
-||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn
+||admin.qidian.qq.com/ar/ActCap/ActRpt$domain=www.eassos.cn
+||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn|www.eassos.cn
 ||adservex.media.net/videoAds.js$important
 ||adss.video.qq.com/report$domain=v.qq.com
 ||aegis.qq.com/speed/performance
@@ -656,7 +673,7 @@ zhidao.baidu.com##.task-list-button
 ||b2b.baidu.com/slog/*.gif
 ||badjs.qidian.qq.com/badjs$domain=webpage.qidian.qq.com
 ||badjs.weixinbridge.com/frontend/reportspeed
-||badjs2.qq.com/badjs$domain=tapd.cn
+||badjs2.qq.com/badjs$domain=tapd.cn|www.eassos.cn
 ||baidu.com/sugrec
 ||baike.baidu.com/api/tashuo/gettashuolist
 ||baike.baidu.com/api/wapui/getbaiketurboqmrs
@@ -747,6 +764,8 @@ zhidao.baidu.com##.task-list-button
 ||click.fanyi.baidu.com/
 ||click.gamersky.com/Common/GetHits.aspx
 ||cloud.tencent.com/act/common/report
+||cloud.tencent.com/developer/services/ajax/pageview-report?action=ReportCommunityPageView
+||cloud.tencent.com/document/ajax/?action=checkDocApiPageRedirect
 ||cloud.tencent.com/document/ajax/?action=report
 ||cloud.tencent.com/tool/screenshot?action=capture
 ||cmpv2.infoworld.com/wrapperMessagingWithoutDetection.js
@@ -789,6 +808,7 @@ zhidao.baidu.com##.task-list-button
 ||csp.yandex.net/csp$domain=yandex.com
 ||cstm.baidu.com$domain=baike.baidu.com
 ||customer.api.drift.com/geo
+||da.qidian.qq.com/ping/pv$domain=www.eassos.cn
 ||da.qiyukf.com/webda/da.gif$domain=qiye.163.com
 ||dalog.shimo.im/logservice/web/coll.jpg
 ||data.services.jetbrains.com/geo
@@ -921,10 +941,12 @@ zhidao.baidu.com##.task-list-button
 ||imgcdn.pconline.com.cn/show$domain=dl.pconline.com.cn
 ||insight.cloud.tencent.com/event$domain=cloud.tencent.com
 ||intellij-support.jetbrains.com/api/v2/help_center/community/posts/*/stats/view.json
+||interact.f5.com/rs/*/images/munchkinxd-*.js$domain=www.nginx.com
 ||ionicframeworkcom.prismic.io/api/v2$domain=capacitorjs.com
 ||ipinfo.io$third-party
 ||isdspeed.qidian.com/cgi-bin/r.cgi
 ||isdspeed.qq.com/cgi-bin/r.cgi
+||itpc-mms.itpro.com/wrapperMessagingWithoutDetection.js
 ||ixueyi.com/xiaohua/*$domain=educity.cn
 ||j.gamersky.com/static/api/js/share.js
 ||j.gamersky.com/wap/js/gs/gsTgAppConCommentBtn.js
@@ -955,6 +977,7 @@ zhidao.baidu.com##.task-list-button
 ||kcart.alipay.com/web/bi.do
 ||knicks.jd.com/log/server
 ||kongpao.com/template/m1938pc/images/js/history.js
+||kotlinlang.org/docs/static/v3/analytics.js
 ||kunpeng.csdn.net/ad/
 ||layer.bz.mgtv.com/layer/selfreport$domain=www.mgtv.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
@@ -1024,6 +1047,7 @@ zhidao.baidu.com##.task-list-button
 ||nexus-websocket-*.intercom.io/client-test
 ||nohost/query
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
+||otelwebtelemetry.com/v1/trace
 ||outofmemory.cn/static/js/h.js
 ||page.aliyun.com/delivery/plan/list$domain=aliyun.com
 ||page.gitlab.com/js/forms2/js/forms2.min.js$domain=about.gitlab.com
@@ -1410,6 +1434,7 @@ zhidao.baidu.com##.task-list-button
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/forms/js/progressiveProfiling.js
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/main/js/utag_data.js
 ||www.winhelponline.com/blog/wp-content/plugins/cookie-notice/
+||www.wintips.org/wp-content/plugins/contact-form-7/modules/recaptcha/script.js
 ||www.wpf-tutorial.com/Content/Local/1.css
 ||www.wpf-tutorial.com/Content/Local/1.js
 ||www.wpf-tutorial.com/Ping
