@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, March 26, 2021
+! Last modified: Wednesday, March 31, 2021
 ! Title: Master-AdRules
-! Version: 20210326
+! Version: 20210331
 !
 !
 !
@@ -76,6 +76,7 @@ blog.51cto.com##a.zhiCustomBtn
 blog.angular.io##.highlightMenu
 blog.angular.io##.js-postShareWidget
 blog.angular.io##.js-stickyFooter
+blog.codecentric.de###BorlabsCookieBox
 blog.csdn.net###btn-detail
 blog.csdn.net###passportbox
 blog.csdn.net###writeGuide
@@ -125,6 +126,7 @@ cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 community.spiceworks.com###zdprivacy-content
 config.office.com##.helpTitle.ms-Button--command.ms-Button--action.ms-Button
 config.office.com##.unAuthPrivacyFooter
+css-tricks.com##.fem-sidebar-ad.fem-ad
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
 dev.to###html-variant-article-show-sidebar
 devblogs.microsoft.com##.a2a_kit
@@ -996,8 +998,10 @@ zhidao.baidu.com##.task-list-button
 ||m.baidu.com/se/static/sf/app/amd_modules/@baidu/invoker-app_*.js
 ||m.baidu.com/static/searchbox/openjs/share.js
 ||m.baidu.com/tc
-||m.ctrip.com/restapi/soa2/*/adexchange.json$domain=ctrip.com
-||m.ctrip.com/restapi/soa2/*/json/GetFloatUI$domain=ctrip.com
+||m.cmdy365.com/js/tj.js
+||m.ctrip.com/restapi/soa2/*/SaveTraceInfo
+||m.ctrip.com/restapi/soa2/*/adexchange.json
+||m.ctrip.com/restapi/soa2/*/json/GetFloatUI
 ||m.hao123.com/static/tj.gif$domain=mo.baidu.com
 ||m.lagou.com/wafcheck.json
 ||m.mi.com/v1/apkversion/download_guide
@@ -1118,6 +1122,7 @@ zhidao.baidu.com##.task-list-button
 ||sc.appvipshop.com/vips-mobile-tracker/router.do?service=vip.monitor.logger
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||screenshots.codesandbox.io/*.png
+||script.sw.report/sw.js$domain=blog.codecentric.de
 ||sdk.51.la/js-sdk-pro.min.js$domain=www.luhu.co
 ||search.10086.cn/log_collecter/collecter.do
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
@@ -1326,6 +1331,7 @@ zhidao.baidu.com##.task-list-button
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-sharing/buttons.js
 ||www.clipconverter.cc/qr.php
 ||www.cloudflare.com/cdn-cgi/trace
+||www.cmdy365.com/js/tj.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.cr173.com/count/count.txt
