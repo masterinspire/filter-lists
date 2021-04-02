@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 31, 2021
+! Last modified: Friday, April 2, 2021
 ! Title: Master-AdRules
-! Version: 20210331
+! Version: 20210402
 !
 !
 !
@@ -302,6 +302,7 @@ stackify.com##.cta-contain
 stackoverflow.com###announcement-banner
 stackoverflow.com###left-sidebar > .js-sticky-leftnav.left-sidebar--sticky-container > nav > .nav-links > li:nth-of-type(3)
 stackoverflow.com##.js-announcement-sidebar.js-announcement-banner
+stackoverflow.com##.js-consent-banner
 stackoverflow.com##.js-dismissable-hero.z-nav.ps-fixed
 stackoverflow.com##.js-notice-sidebar-popover
 stackoverflow.com##.js-sidebar-zone
@@ -998,7 +999,6 @@ zhidao.baidu.com##.task-list-button
 ||m.baidu.com/se/static/sf/app/amd_modules/@baidu/invoker-app_*.js
 ||m.baidu.com/static/searchbox/openjs/share.js
 ||m.baidu.com/tc
-||m.cmdy365.com/js/tj.js
 ||m.ctrip.com/restapi/soa2/*/SaveTraceInfo
 ||m.ctrip.com/restapi/soa2/*/adexchange.json
 ||m.ctrip.com/restapi/soa2/*/json/GetFloatUI
@@ -1331,7 +1331,6 @@ zhidao.baidu.com##.task-list-button
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-sharing/buttons.js
 ||www.clipconverter.cc/qr.php
 ||www.cloudflare.com/cdn-cgi/trace
-||www.cmdy365.com/js/tj.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.cr173.com/count/count.txt
