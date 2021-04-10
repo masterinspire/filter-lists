@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, April 2, 2021
+! Last modified: Saturday, April 10, 2021
 ! Title: Master-AdRules
-! Version: 20210402
+! Version: 20210410
 !
 !
 !
@@ -449,8 +449,13 @@ www.gtabase.com###ja-current-content > script ~ div.custom
 www.gtabase.com##.mailing-list-bottom
 www.gtabase.com##.wbl-social-button
 www.haosou.com###side
+www.howtogeek.com###v2campaignpopup
+www.howtogeek.com###v2campaignpopup_backdrop
 www.howtogeek.com##.email-overlay
+www.howtogeek.com##.message
 www.howtogeek.com##.overlay-wrapper
+www.howtogeek.com##.social-media-buttons
+www.howtogeek.com##.walter-march2021-inpage-style
 www.influxdata.com##.contact_sale
 www.influxdata.com##.cookieterms
 www.infoworld.com##aside.fakesidebar
@@ -598,6 +603,7 @@ zhidao.baidu.com##.task-list-button
 ||*.cnbeta.com/static/api/js/view/share_view.js
 ||*.disqus.com/count.js
 ||*.log.mgtv.com/info.php$domain=www.mgtv.com
+||*.nstool.netease.com/ip.js
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
 ||12366.chinatax.gov.cn/znzx/arlog/access
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|chinatax.gov.cn
@@ -718,6 +724,7 @@ zhidao.baidu.com##.task-list-button
 ||bundler.io/javascripts/analytics.js
 ||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com,important
 ||c.disquscdn.com/next/embed/alfalfa_min.*.js
+||c.dun.163.com/api/v2/collect
 ||c.evidon.com/geo/country.js$domain=adobe.com|vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
 ||c.microsoft.com/ms.js
@@ -810,6 +817,7 @@ zhidao.baidu.com##.task-list-button
 ||csp.yandex.net/csp$domain=yandex.com
 ||cstm.baidu.com$domain=baike.baidu.com
 ||customer.api.drift.com/geo
+||da.dun.163.com/sn.gif
 ||da.qidian.qq.com/ping/pv$domain=www.eassos.cn
 ||da.qiyukf.com/webda/da.gif$domain=qiye.163.com
 ||dalog.shimo.im/logservice/web/coll.jpg
@@ -928,6 +936,7 @@ zhidao.baidu.com##.task-list-button
 ||icon.zol-img.com.cn/public/js/web_foot.js$domain=xiazai.zol.com.cn
 ||id1.cloud.huawei.com/CAS/IDM_W/ajaxHandler/analysisHealth
 ||id1.cloud.huawei.com/CAS/IDM_W/ajaxHandler/getIPCountry
+||iknowpc.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb.*.png$domain=zhidao.baidu.com
 ||iknowwap.bdimg.com/static/m-question-new/pkg/qb-ad.*$domain=zhidao.baidu.com
 ||iknowwap.bdimg.com/static/m-question-new/widget/ad-union-new/ad-union-new-async.*.js$domain=zhidao.baidu.com
 ||image.51cto.com/images/home/js/ad*.js$domain=www.51cto.com
@@ -991,6 +1000,7 @@ zhidao.baidu.com##.task-list-button
 ||log.mogujie.com/log
 ||log.quora.com/ajax/batched_log_POST
 ||login.microsoftonline.com/common/instrumentation/reportstaticmecontroltelemetry
+||logs.game.qq.com/easnew/go/eas.php
 ||m.58.com/ipservice/
 ||m.baidu.com/rec
 ||m.baidu.com/se/static/amd_modules/@baidu/se-video-ad_*.js
