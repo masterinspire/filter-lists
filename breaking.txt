@@ -1,18 +1,18 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, April 10, 2021
+! Last modified: Monday, April 12, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20210410
+! Version: 20210412
 !
 !
 !
 ||*.bp.blogspot.com$domain=developer.android.google.cn
 ||*.disqus.com/embed.js
-||*.gravatar.com/avatar$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com|devblogs.microsoft.com|chocolatey.org|blog.codecentric.de
+||*.gravatar.com/avatar$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com|devblogs.microsoft.com|chocolatey.org|blog.codecentric.de|docs.microsoft.com
 ||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
 ||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
-||apis.google.com$domain=translate.google.cn
+||apis.google.com$domain=translate.google.cn|developer.android.google.cn
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com
 ||cdn-images-*.medium.com$domain=developer.android.google.cn
 ||cefsharp.github.io/images/top-header.png
@@ -23,11 +23,11 @@
 ||i.stack.imgur.com$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 ||i.ytimg.com$domain=developer.android.google.cn|www.telegraph.co.uk
 ||img.youtube.com$domain=testing-library.com
-||lh*.googleusercontent.com$domain=developer.android.google.cn|askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
+||lh*.googleusercontent.com$domain=developer.android.google.cn|askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com|google-developers.gonglchuangl.net
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
 ||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com|gitter.im
-||play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png$domain=www.msn.com
+||play.google.com$domain=developer.android.google.cn|www.msn.com
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design

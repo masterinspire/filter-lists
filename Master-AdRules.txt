@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, April 10, 2021
+! Last modified: Monday, April 12, 2021
 ! Title: Master-AdRules
-! Version: 20210410
+! Version: 20210412
 !
 !
 !
@@ -458,6 +458,7 @@ www.howtogeek.com##.social-media-buttons
 www.howtogeek.com##.walter-march2021-inpage-style
 www.influxdata.com##.contact_sale
 www.influxdata.com##.cookieterms
+www.infoq.com##.share-this-popover
 www.infoworld.com##aside.fakesidebar
 www.itpro.com##.polaris__newsletter
 www.itprotoday.com###newsletter-signup-load
@@ -655,7 +656,6 @@ zhidao.baidu.com##.task-list-button
 ||api.pinduoduo.com/api/server/_stm
 ||api.pinterest.com/v1/urls/count.json
 ||apis.google.com/js/*plusone.js$third-party
-||apis.google.com/js/api.js$third-party
 ||apis.google.com/js/platform.js$third-party
 ||apiv2.pinduoduo.com/api/server/_stm
 ||apiv2.pinduoduo.net/api/server/_stm
@@ -748,7 +748,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org|www.dictionary.com
 ||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com|vmware.com|www.dictionary.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
-||cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
+||cdn.infoq.com/statics_*/scripts/lib/browser-update-org/update.js
 ||cdn.livechatinc.com/tracking.js
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/wenzhang.jpg$third-party
@@ -767,7 +767,6 @@ zhidao.baidu.com##.task-list-button
 ||changyan.sohu.com/upload/changyan.js
 ||chat-commerce.adobe.com/checkout/log
 ||checkout.stripe.com/v3/checkout.js
-||chocolatey.org/cassette.axd/script/*/Scripts/CookiesNotice
 ||ci.phncdn.com/www-static/js/ph-tracking.js
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||click.fanyi.baidu.com/
@@ -828,13 +827,17 @@ zhidao.baidu.com##.task-list-button
 ||dc.pconline.com.cn/jt/$domain=dl.pconline.com.cn
 ||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
 ||demandbase.com^*/ip.json
+||developer.android.google.cn/sw.js
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
+||developers.google.cn/sw.js
+||developers.google.com/_d/analytics-iframe
 ||dfp.suning.com/dfprs-collect
 ||dictionary.cambridge.org/external/scripts/ads.min.js
 ||discord.com/api/v6/science
 ||dlog.liepin.com/dlog$domain=liepin.com
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
+||docs.microsoft.com/answers/page-view/track.json
 ||docs.microsoft.com/static/third-party/jsll/*/jsll-*.js
 ||docs.ti-net.com.cn/count.php
 ||down.58.com/js/58appLaunch.js$domain=m.58.com
@@ -907,6 +910,7 @@ zhidao.baidu.com##.task-list-button
 ||go.pardot.com/js/piUtils.js$domain=gradle.com|gradle.org
 ||gold-cdn.xitu.io/v3/static/img/extension.1dbaf43.png
 ||google-analytics.com$third-party
+||google-developers.gonglchuangl.net/sw.js
 ||googleads.g.doubleclick.net$important
 ||gql.reddit.com/?request_timestamp
 ||gradle.org/climate-strike/widget.js
@@ -1136,7 +1140,6 @@ zhidao.baidu.com##.task-list-button
 ||sdk.51.la/js-sdk-pro.min.js$domain=www.luhu.co
 ||search.10086.cn/log_collecter/collecter.do
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
-||secure.make6pain.com/js/$domain=chocolatey.org
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
 ||sentry.matrix.org$domain=gitter.im
@@ -1255,7 +1258,7 @@ zhidao.baidu.com##.task-list-button
 ||tracker.klink.tech
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
-||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com
+||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com|startpagesearch.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
