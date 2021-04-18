@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, April 12, 2021
+! Last modified: Sunday, April 18, 2021
 ! Title: Master-AdRules
-! Version: 20210412
+! Version: 20210418
 !
 !
 !
@@ -383,7 +383,8 @@ www.baidu.com###s-hotsearch-wrapper
 www.baidu.com###tab_news_1
 www.baidu.com##.egg-bubble
 www.baidu.com##.egg-red-envelope
-www.baidu.com##.guide-info-nologin.guide-info
+www.baidu.com##.guide-info
+www.baidu.com##.guide-info-new
 www.baidu.com##.qrcodeCon
 www.baidu.com##.s-top-right.s-isindex-wrap > .s-top-right-text.c-font-normal.c-color-red
 www.baidu.com##.se-ft-promlink
@@ -565,10 +566,12 @@ www.tutorialspoint.com###rightbar
 www.tutorialspoint.com##.google-bottom-ads
 www.tutorialspoint.com##.top-ad-heading
 www.ubuntu.com##.cookie-policy
+www.usatoday.com###gnt_atomsnc
 www.usatoday.com##.gnt_em_vp_c
 www.vg247.com##.newsletter-signup-wrapper
 www.w3school.com.cn##DIV[id="ad"]
 www.w3school.com.cn##DIV[id="searchui"]
+www.wikihow.com###article_courses_banner
 www.wikihow.com###contribute_footer
 www.wilderssecurity.com##.bottomFixer
 www.wintips.org##.cresta-share-icon
@@ -606,6 +609,7 @@ zhidao.baidu.com##.task-list-button
 ||*.log.mgtv.com/info.php$domain=www.mgtv.com
 ||*.nstool.netease.com/ip.js
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
+||10870841.collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||12366.chinatax.gov.cn/znzx/arlog/access
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|chinatax.gov.cn
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
@@ -745,7 +749,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
-||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org|www.dictionary.com
+||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org|www.dictionary.com|www.usatoday.com
 ||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com|vmware.com|www.dictionary.com
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.infoq.com/statics_*/scripts/lib/browser-update-org/update.js
@@ -896,8 +900,8 @@ zhidao.baidu.com##.task-list-button
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js$domain=csdn.net
 ||gdpr-service.herokuapp.com/is-gdpr
 ||geo2.adobe.com/json/
-||geolocation.1trust.app/cookieconsentpub/v1/geo/location/
-||geolocation.onetrust.com/cookieconsentpub/v1/geo/location/
+||geolocation.1trust.app/cookieconsentpub/v1/geo/location
+||geolocation.onetrust.com/cookieconsentpub/v1/geo/location
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
 ||getaninsight.com$domain=entityframeworktutorial.net|tutorialsteacher.com
@@ -1317,6 +1321,7 @@ zhidao.baidu.com##.task-list-button
 ||www.360doc.com/ajax/clickStatics.ashx
 ||www.3dmgame.com/static/api/js/share.js
 ||www.8131478.com:3721/baiduad/$domain=kongpao.com
+||www.88ysw.com/js/ads/dibu.js
 ||www.aiyiweb.com/Scripts/AdContentPage300_*.js
 ||www.aiyiweb.com/Scripts/AdContentPageMiddem250.js
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js
