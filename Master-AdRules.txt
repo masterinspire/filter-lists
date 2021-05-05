@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, April 18, 2021
+! Last modified: Wednesday, May 5, 2021
 ! Title: Master-AdRules
-! Version: 20210418
+! Version: 20210505
 !
 !
 !
@@ -388,8 +388,9 @@ www.baidu.com##.guide-info-new
 www.baidu.com##.qrcodeCon
 www.baidu.com##.s-top-right.s-isindex-wrap > .s-top-right-text.c-font-normal.c-color-red
 www.baidu.com##.se-ft-promlink
+www.baidu.com##.selected-search-box
 www.baidu.com##.square-banner-bg.index-banner
-www.baidu.com##.under-tips 
+www.baidu.com##.under-tips
 www.baike.com##.search-recom
 www.bing.com###b_results > .b_top.b_ans
 www.bing.com###bnp_cont
@@ -505,6 +506,7 @@ www.mssqltips.com##.columns.hide-for-print.large-3
 www.namegeneratorfun.com###consent
 www.newtonsoft.com###footerNotice
 www.nokia.com###block-nokialocalesuggestionblock
+www.nokia.com###cmp-modal
 www.nokia.com##.nokia-cookies-wrapper
 www.npmjs.com##DIV[id="notification-banner"]
 www.nuget.org###sideColumn > .stat
@@ -855,7 +857,7 @@ zhidao.baidu.com##.task-list-button
 ||ebank.spdb.com.cn/etrack/
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
 ||embed.runkit.com/$domain=lodash.com
-||embed.tawk.to$domain=www.partitionwizard.com
+||embed.tawk.to$domain=www.partitionwizard.com|www.briskinfosec.com
 ||embed.typeform.com/embed.js$domain=vivaldi.com|fontawesome.com
 ||entitlement.auth.adobe.com/entitlement/v4/AccessEnabler.js$domain=history.com
 ||entry.baidu.com/rp/wordner$domain=zhidao.baidu.com
@@ -1066,6 +1068,8 @@ zhidao.baidu.com##.task-list-button
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
 ||nexus-websocket-*.intercom.io/client-test
+||nexus.dell.com/dell/marketing/Bootstrap.js$domain=www.dell.com
+||nexus.dell.com/dell/stpfooter/Bootstrap.js$domain=www.dell.com
 ||nohost/query
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||otelwebtelemetry.com/v1/trace
@@ -1352,6 +1356,7 @@ zhidao.baidu.com##.task-list-button
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.cr173.com/count/count.txt
+||www.dell.com/csbapi/masthead/oocmessage/us/en
 ||www.diogonunes.com/blog/wp-content/plugins/cookie-law-info
 ||www.douban.com/stat.html
 ||www.dropbox.com/static/api/1/dropins.js$third-party
