@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, May 5, 2021
+! Last modified: Friday, May 7, 2021
 ! Title: Master-AdRules
-! Version: 20210505
+! Version: 20210507
 !
 !
 !
@@ -530,6 +530,8 @@ www.reddit.com##.TopButton
 www.reddit.com##.XPromoAdFeed
 www.reddit.com##.active.XPromoPopup
 www.reddit.com##.xPromoAppStoreFooter
+www.reviewgeek.com###v2campaignmidpage
+www.reviewgeek.com##.moka-hottest-stuff
 www.runoob.com##.feedback-btn
 www.runoob.com##.fixed-btn
 www.samsung.com##.cm-cookie-geo
