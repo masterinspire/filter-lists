@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, May 7, 2021
+! Last modified: Saturday, May 8, 2021
 ! Title: Master-AdRules
-! Version: 20210507
+! Version: 20210508
 !
 !
 !
@@ -316,6 +316,7 @@ support.microsoft.com###supWrapperToPreventFeedbackFlickering
 support.microsoft.com###uhf-upgrade-banner
 support.microsoft.com##.article-container[content-survey]
 support.microsoft.com##.banner-image.notification-banner
+support.microsoft.com##.m365trial_railbanner
 support.microsoft.com##.right-rail.content-media
 support.microsoft.com##.supArticleContentFooterWrapper
 support.mozilla.org###announcements
@@ -615,7 +616,7 @@ zhidao.baidu.com##.task-list-button
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
 ||10870841.collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||12366.chinatax.gov.cn/znzx/arlog/access
-||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|chinatax.gov.cn
+||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|chinatax.gov.cn|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.clipconverter.cc/www/d/fr.php
 ||a.disquscdn.com/count.js
@@ -672,9 +673,11 @@ zhidao.baidu.com##.task-list-button
 ||app.hujiang.com/cang/js/collect.js$domain=hjenglish.com
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
+||arc.msn.com/v4/api/selection$domain=support.microsoft.com
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||ask.dcloud.net.cn/crond/run/
+||assets.adobedtm.com/*/*/launch-*.min.js$domain=www.nvidia.com,important
 ||assets.adobedtm.com/*/satelliteLib-*.js$domain=www.mathworks.com
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
@@ -1070,6 +1073,7 @@ zhidao.baidu.com##.task-list-button
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
 ||nexus-websocket-*.intercom.io/client-test
+||nexus.dell.com/dell/eSupport/Bootstrap.js$domain=www.dell.com
 ||nexus.dell.com/dell/marketing/Bootstrap.js$domain=www.dell.com
 ||nexus.dell.com/dell/stpfooter/Bootstrap.js$domain=www.dell.com
 ||nohost/query
@@ -1358,6 +1362,7 @@ zhidao.baidu.com##.task-list-button
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.cr173.com/count/count.txt
+||www.dell.com/TLTarget.aspx
 ||www.dell.com/csbapi/masthead/oocmessage/us/en
 ||www.diogonunes.com/blog/wp-content/plugins/cookie-law-info
 ||www.douban.com/stat.html
