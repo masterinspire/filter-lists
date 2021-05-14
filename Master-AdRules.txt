@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, May 8, 2021
+! Last modified: Friday, May 14, 2021
 ! Title: Master-AdRules
-! Version: 20210508
+! Version: 20210514
 !
 !
 !
@@ -307,6 +307,7 @@ stackoverflow.com##.js-dismissable-hero.z-nav.ps-fixed
 stackoverflow.com##.js-notice-sidebar-popover
 stackoverflow.com##.js-sidebar-zone
 staxmanade.com##.jj-signup-form
+stremiomovies.com##a[href="/premium"]
 superuser.com##.js-consent-banner
 superuser.com##.js-freemium-cta
 support.microsoft.com###bannerAboveUHF
@@ -319,6 +320,7 @@ support.microsoft.com##.banner-image.notification-banner
 support.microsoft.com##.m365trial_railbanner
 support.microsoft.com##.right-rail.content-media
 support.microsoft.com##.supArticleContentFooterWrapper
+support.microsoft.com##.upgradeBanner
 support.mozilla.org###announcements
 support.mozilla.org##.document-vote--sidebar-wrap
 support.office.com###supWrapperToPreventFeedbackFlickering
@@ -677,7 +679,7 @@ zhidao.baidu.com##.task-list-button
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||ask.dcloud.net.cn/crond/run/
-||assets.adobedtm.com/*/*/launch-*.min.js$domain=www.nvidia.com,important
+||assets.adobedtm.com/*/*/launch-*.min.js$domain=www.nvidia.com|mothership.sg,important
 ||assets.adobedtm.com/*/satelliteLib-*.js$domain=www.mathworks.com
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
@@ -1243,6 +1245,8 @@ zhidao.baidu.com##.task-list-button
 ||sugar.zhihu.com/plutus_adreaper$domain=www.zhihu.com
 ||support.google.com/apis/gpf_metrics
 ||support.google.com/chrome/apis/metrics
+||support.microsoft.com/lib/jsll/dist/jsll.min.js
+||support.microsoft.com/lib/oneds/dist/ms.analytics-web-*.min.js
 ||support.office.com/bundles/stickyFeedback
 ||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
@@ -1274,7 +1278,7 @@ zhidao.baidu.com##.task-list-button
 ||translate.google.cn/gen204
 ||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com|startpagesearch.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
-||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js
+||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
 ||uedas.qidian.com/stat*.txt
 ||uedas.qidian.com/statajax.aspx
