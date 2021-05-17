@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, May 14, 2021
+! Last modified: Monday, May 17, 2021
 ! Title: Master-AdRules
-! Version: 20210514
+! Version: 20210517
 !
 !
 !
@@ -29,6 +29,7 @@ angular-academy.com##.share
 ankhsvn.open.collab.net###collabnet-products
 ankhsvn.open.collab.net###uvTab
 answers.microsoft.com###threadfooter
+answers.microsoft.com##.M365RailOffer2105
 apkpure.com###ad-aegon-side
 apkpure.com###policy-info
 apkpure.com##.adsbypure
@@ -182,6 +183,7 @@ embed.plnkr.co##.plunker-ad-wrap
 entityframeworkcore.com##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
 eslint.org##.eslint-ad
 eslint.org##main.blog > article > footer
+fandom.com###WikiaBar
 forum.gitlab.com##.quote-button
 forums.asp.net##.all-content > div:nth-of-type(1)
 freecommander.com###cookie-notice
@@ -192,7 +194,6 @@ gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.trial-link
 grafana.com##.sticky-footer--dark
 grafana.com##.sticky-footer--grafanacon-la
-gta.fandom.com###WikiaBarWrapper
 gtaforums.com###elGuestTerms > .ipsLayout_container
 gtaforums.com##.ipsComment_inlineQuoteTooltip.ipsTooltip_bottom.ipsTooltip
 hainan.chinatax.gov.cn###wxtp
@@ -327,7 +328,6 @@ support.office.com###supWrapperToPreventFeedbackFlickering
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
-thedivision.fandom.com###WikiaBar
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tortoisesvn.net##FIELDSET[class="adgroup"]
@@ -534,6 +534,8 @@ www.reddit.com##.XPromoAdFeed
 www.reddit.com##.active.XPromoPopup
 www.reddit.com##.xPromoAppStoreFooter
 www.reviewgeek.com###v2campaignmidpage
+www.reviewgeek.com###v2campaignpopup
+www.reviewgeek.com###v2campaignpopup_backdrop
 www.reviewgeek.com##.moka-hottest-stuff
 www.runoob.com##.feedback-btn
 www.runoob.com##.fixed-btn
@@ -1135,6 +1137,7 @@ zhidao.baidu.com##.task-list-button
 ||rlogs.youdao.com/rlog.php$domain=youdao.com
 ||routertips.video.qq.com/tips_heartbeat$domain=v.qq.com
 ||runkit.com/s/timing
+||rxjs.dev/ngsw-worker.js
 ||s.bdstatic.com/common/openjs/openBox.js$domain=www.baidu.com|m.baidu.com
 ||s.cn.bing.net/th?*pid=News
 ||s.cn.bing.net/th?id=*&pid=MsnJVFeeds
