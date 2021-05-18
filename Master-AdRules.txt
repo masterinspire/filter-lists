@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, May 17, 2021
+! Last modified: Tuesday, May 18, 2021
 ! Title: Master-AdRules
-! Version: 20210517
+! Version: 20210518
 !
 !
 !
@@ -620,7 +620,7 @@ zhidao.baidu.com##.task-list-button
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
 ||10870841.collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||12366.chinatax.gov.cn/znzx/arlog/access
-||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|chinatax.gov.cn|www.dell.com
+||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.clipconverter.cc/www/d/fr.php
 ||a.disquscdn.com/count.js
@@ -886,6 +886,7 @@ zhidao.baidu.com##.task-list-button
 ||foundation.youdao.com/ip/ipinfo$domain=youdao.com
 ||fourier.taobao.com/ts
 ||fp.suning.com/bennu-collector/fp/porto.json
+||fpdk.shenzhen.chinatax.gov.cn/euw/md5.*.js
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
 ||fxgate.baidu.com/angelia/fcagl.js
 ||fxsjcj.kaipuyun.cn/count$domain=shenzhen.chinatax.gov.cn
