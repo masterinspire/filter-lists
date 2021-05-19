@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, May 18, 2021
+! Last modified: Wednesday, May 19, 2021
 ! Title: Master-AdRules
-! Version: 20210518
+! Version: 20210519
 !
 !
 !
@@ -886,7 +886,6 @@ zhidao.baidu.com##.task-list-button
 ||foundation.youdao.com/ip/ipinfo$domain=youdao.com
 ||fourier.taobao.com/ts
 ||fp.suning.com/bennu-collector/fp/porto.json
-||fpdk.shenzhen.chinatax.gov.cn/euw/md5.*.js
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
 ||fxgate.baidu.com/angelia/fcagl.js
 ||fxsjcj.kaipuyun.cn/count$domain=shenzhen.chinatax.gov.cn
