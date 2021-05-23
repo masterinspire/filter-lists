@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, May 19, 2021
+! Last modified: Sunday, May 23, 2021
 ! Title: Master-AdRules
-! Version: 20210519
+! Version: 20210523
 !
 !
 !
@@ -331,6 +331,8 @@ telerik.com##.optanon-alert-box-wrapper
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tortoisesvn.net##FIELDSET[class="adgroup"]
+tplogin.cn###CloudBindConfirm
+tplogin.cn###CoverB
 ubuntu.com##.cookie-policy
 visualstudio.com###epb
 visualstudio.com###mscc-cookie-container
@@ -454,6 +456,7 @@ www.gtabase.com###ja-current-content > script ~ div.custom
 www.gtabase.com##.mailing-list-bottom
 www.gtabase.com##.wbl-social-button
 www.haosou.com###side
+www.howtogeek.com###v2campaignmidpage
 www.howtogeek.com###v2campaignpopup
 www.howtogeek.com###v2campaignpopup_backdrop
 www.howtogeek.com##.email-overlay
