@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, May 23, 2021
+! Last modified: Tuesday, May 25, 2021
 ! Title: Master-AdRules
-! Version: 20210523
+! Version: 20210525
 !
 !
 !
@@ -370,6 +370,7 @@ wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
 wk.baidu.com##.wk-container.gain-doc-block-root
 wk.baidu.com##.wk-join-years
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
+wpf.2000things.com###eu-cookie-law
 www.360doc.com###btn_freeread
 www.360doc.com###goTop2
 www.360doc.com##.docsharelist
@@ -933,7 +934,7 @@ zhidao.baidu.com##.task-list-button
 ||gql.reddit.com/?request_timestamp
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
-||graph.facebook.com/$domain=stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com|www.ostechnix.com|leastprivilege.com|dragablz.net
+||graph.facebook.com/$domain=wpf.2000things.com|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com|www.ostechnix.com|leastprivilege.com|dragablz.net
 ||gsp*.baidu.com/*/tb/pms/img/st.gif$domain=wapbaike.baidu.com
 ||gsp*.baidu.com/*/v.gif$domain=baike.baidu.com|wapbaike.baidu.com
 ||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=blog.csdn.net
@@ -1031,6 +1032,7 @@ zhidao.baidu.com##.task-list-button
 ||m.baidu.com/se/static/sf/app/amd_modules/@baidu/invoker-app_*.js
 ||m.baidu.com/static/searchbox/openjs/share.js
 ||m.baidu.com/tc
+||m.cmcm5.com/js/tj.js
 ||m.ctrip.com/restapi/soa2/*/SaveTraceInfo
 ||m.ctrip.com/restapi/soa2/*/adexchange.json
 ||m.ctrip.com/restapi/soa2/*/json/GetFloatUI
@@ -1369,6 +1371,9 @@ zhidao.baidu.com##.task-list-button
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-sharing/buttons.js
 ||www.clipconverter.cc/qr.php
 ||www.cloudflare.com/cdn-cgi/trace
+||www.cmcm5.com/js/pctb2.js
+||www.cmcm5.com/js/tb.js
+||www.cmcm5.com/js/tj.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.cr173.com/count/count.txt
