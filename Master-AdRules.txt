@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, May 25, 2021
+! Last modified: Thursday, May 27, 2021
 ! Title: Master-AdRules
-! Version: 20210525
+! Version: 20210527
 !
 !
 !
@@ -844,6 +844,7 @@ zhidao.baidu.com##.task-list-button
 ||datacollect.vmall.com:18443$third-party
 ||datatables.net/media/js/dynamic.php
 ||dc.pconline.com.cn/jt/$domain=dl.pconline.com.cn
+||dc.services.visualstudio.com/v2/track
 ||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
 ||demandbase.com^*/ip.json
 ||developer.android.google.cn/sw.js
@@ -1047,16 +1048,12 @@ zhidao.baidu.com##.task-list-button
 ||ma-adx.ctrip.com/_ma.gif
 ||map.baidu.com/mobile/img/transparent.gif
 ||maps.google.com/maps/api/js$third-party
+||marketplace.visualstudio.com/_apis/ClientTrace/Events
 ||marketplace.visualstudio.com/_apis/customerintelligence/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
-||mat1.gtimg.com/app/opent/images/websites/qshare/icon4.png$third-party
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
 ||mdap.alipay.com/loggw/dwcookieLogGet.do$domain=www.yuque.com|alipay.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
-||medium.com/_/batch
-||medium.com/_/lite/performance/
-||medium.com/_/stat
-||medium.com/p/*/upvotes
 ||mem.gfx.ms/meversion?partner=mssoftware-download
 ||metrics-drcn.dt.hicloud.com:6447/webv1$domain=id1.cloud.huawei.com
 ||miao.baidu.com/abdr
@@ -1075,8 +1072,6 @@ zhidao.baidu.com##.task-list-button
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com|about.gitlab.com,important
 ||music.taihe.com/cms/mobile.gif
 ||mvnrepository.com/assets/images/p.gif
-||myaccount.google.com/_/AccountSettingsUi/browserinfo
-||myaccount.google.com/_/AccountSettingsUi/jserror
 ||mypage.w3schools.com/mypage/beta.php
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
