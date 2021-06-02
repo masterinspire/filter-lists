@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, May 27, 2021
+! Last modified: Wednesday, June 2, 2021
 ! Title: Master-AdRules
-! Version: 20210527
+! Version: 20210602
 !
 !
 !
@@ -594,7 +594,6 @@ www.xda-developers.com##.et_social_inline
 www.xda-developers.com##.et_social_sidebar_networks
 www.xda-developers.com##.widget.widget-2.widget_text
 www.xda-developers.com##.widget.widget-3.widget_text
-www.youtube.com##.video-annotations
 www.ypojie.com##.action-share
 www.ypojie.com##.orbui-post-footer
 www.yuque.com##.social-share
@@ -1003,7 +1002,7 @@ zhidao.baidu.com##.task-list-button
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
 ||js.monitor.azure.com/next/1/ms.jsll-3.js
-||js.stripe.com/v3/$domain=fontawesome.com
+||js.stripe.com/v3/$domain=fontawesome.com|www.just-great-software.com
 ||jstatic.letvcdn.com/sdk/apcsdk.js
 ||jzdisplay.58.com/js/gjad_show.js$domain=m.58.com
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=1
@@ -1121,6 +1120,7 @@ zhidao.baidu.com##.task-list-button
 ||query.aliyun.com/rest/delivery.config.customRules.ambassor-delivery-topbar$domain=aliyun.com
 ||query.aliyun.com/rest/delivery.config.customRules.floatWindowWhiteList$domain=aliyun.com
 ||query.aliyun.com/rest/delivery.service.engine$domain=aliyun.com
+||query.prod.cms.rt.microsoft.com/cms/api/am/binary/$domain=www.microsoft.com
 ||qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js$domain=wk.baidu.com
 ||rating-widget.com/js/api/rating/get.php
 ||readthedocs.org/api/v2/footer_html/?callback
@@ -1422,6 +1422,7 @@ zhidao.baidu.com##.task-list-button
 ||www.mathworks.com/matlabcentral/profile/api/v1/active/ping
 ||www.merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 ||www.microsoft.com/net/bundles/js/survey-popup.min.js
+||www.microsoft.com/onerfstatics/marketingsites-eas-prod/_h/*/office.testdrive/externalscripts/adobetarget/at.js
 ||www.microsofttranslator.com/Ajax/V2/Widget.aspx
 ||www.microsofttranslator.com/ajax/v2/toolkit.ashx
 ||www.microsofttranslator.com/ajax/v3/WidgetV3.ashx
@@ -1486,7 +1487,6 @@ zhidao.baidu.com##.task-list-button
 ||www.xiazaiba.com/route.php?ct=stat&ac=show_detail_ads
 ||www.xunyou.com/javascript/adv.js
 ||www.xunyou.com/javascript/tj_cnz.js
-||www.youtube.com/api/stats$important
 ||www.zhaopin.com/static/analytics.js
 ||www.zhihu.com/sc-profiler
 ||www138.civicscience.com/jspoll/4/civicscience-widget.js$domain=www.msn.com
