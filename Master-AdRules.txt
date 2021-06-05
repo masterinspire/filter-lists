@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, June 2, 2021
+! Last modified: Saturday, June 5, 2021
 ! Title: Master-AdRules
-! Version: 20210602
+! Version: 20210605
 !
 !
 !
@@ -526,6 +526,7 @@ www.partitionwizard.com##.bottom-cookie-wrap
 www.pdfforge.org##.gdpr-cookieconsent-overlay
 www.pdfforge.org##.gdpr-cookieconsent-settings
 www.positronx.io###cookie
+www.prosus.com##.pp_quickshare_tools
 www.qt.io##.b-article__share-footer
 www.qt.io##.fixed.c-floating-contact
 www.qt.io##.instagram-media
@@ -581,6 +582,7 @@ www.tutorialspoint.com##.top-ad-heading
 www.ubuntu.com##.cookie-policy
 www.usatoday.com###gnt_atomsnc
 www.usatoday.com##.gnt_em_vp_c
+www.usatoday.com##a.gnt_cw_sl
 www.vg247.com##.newsletter-signup-wrapper
 www.w3school.com.cn##DIV[id="ad"]
 www.w3school.com.cn##DIV[id="searchui"]
@@ -1101,10 +1103,6 @@ zhidao.baidu.com##.task-list-button
 ||platform.linkedin.com/js/framework?v
 ||platform.twitter.com/widgets.js$third-party
 ||platform.twitter.com/widgets/follow_button.html$domain=www.techspot.com|www.msn.com
-||play.google.com/_/PlayStoreUi/browserinfo
-||play.google.com/_/PlayStoreUi/gen204
-||play.google.com/_/PlayStoreUi/jserror
-||play.google.com/log
 ||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
