@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, June 5, 2021
+! Last modified: Sunday, June 6, 2021
 ! Title: Master-AdRules
-! Version: 20210605
+! Version: 20210606
 !
 !
 !
@@ -664,6 +664,7 @@ zhidao.baidu.com##.task-list-button
 ||api.branch.io$domain=medium.com
 ||api.cdnbye.com/v1/channel/*/stats
 ||api.dec.sitefinity.com/collect/
+||api.eu-west-1.aiv-delivery.net/Events/$domain=www.primevideo.com
 ||api.github.com/_private/browser/errors
 ||api.github.com/_private/browser/stats
 ||api.growingio.com/v2/*/web/pv
@@ -693,6 +694,8 @@ zhidao.baidu.com##.task-list-button
 ||assets.digitalocean.com/cookieConsent/cookieConsent
 ||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
+||atv-ps-eu.primevideo.com/cdp/usage/GetWeblabTreatment$domain=www.primevideo.com
+||atv-ps-eu.primevideo.com/cdp/usage/ReportEvent$domain=www.primevideo.com
 ||auth.services.adobe.com/signin/v1/audit
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
@@ -888,6 +891,7 @@ zhidao.baidu.com##.task-list-button
 ||fe-api.zhaopin.com/c/i/adv
 ||feed.baidu.com/feed/api/tab/gettabinfo$domain=www.baidu.com|m.baidu.com
 ||flights.ctrip.com/itinerary/api/*/records
+||fls-eu.amazon.com/1/aiv-web-player/1/OE$domain=www.primevideo.com
 ||forms.convertkit.com
 ||foundation.youdao.com/ip/ipinfo$domain=youdao.com
 ||fourier.taobao.com/ts
