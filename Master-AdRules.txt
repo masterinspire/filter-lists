@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, June 6, 2021
+! Last modified: Thursday, June 17, 2021
 ! Title: Master-AdRules
-! Version: 20210606
+! Version: 20210617
 !
 !
 !
@@ -457,6 +457,7 @@ www.gtabase.com###ja-current-content > script ~ div.custom
 www.gtabase.com##.mailing-list-bottom
 www.gtabase.com##.wbl-social-button
 www.haosou.com###side
+www.howtogeek.com###main > article > div.entry-content > div[style="text-align: center; background-color: rgb(247, 247, 247); border: 1px solid rgb(243, 243, 243); width: 100%; padding-bottom: 18px;"]
 www.howtogeek.com###v2campaignmidpage
 www.howtogeek.com###v2campaignpopup
 www.howtogeek.com###v2campaignpopup_backdrop
@@ -632,12 +633,14 @@ zhidao.baidu.com##.task-list-button
 ||a1.cnblogs.com/group/T2$domain=www.cnblogs.com
 ||aaxads.com$domain=reddit.com
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
+||access-prod.apis.anvato.net/anvacks/$domain=www.fox5ny.com
 ||account.jetbrains.com/services/consentOptions
 ||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org
 ||ad.liepin.com/adremote/recordingcnt$domain=liepin.com
 ||ada.baidu.com/udpl$domain=m.baidu.com|www.baidu.com
 ||ada.baidu.com/udpl/exp$domain=zhidao.baidu.com
 ||addthis.com/js/300/addthis_widget.js$third-party
+||adexport.tt.cn/pcexport/advSource-api$domain=www.msn.cn
 ||admin.qidian.qq.com/ar/ActCap/ActRpt$domain=www.eassos.cn
 ||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn|www.eassos.cn
 ||adservex.media.net/videoAds.js$important
@@ -886,6 +889,7 @@ zhidao.baidu.com##.task-list-button
 ||event.csdn.net/logstores/csdn-pc-tracking-page-exposure/track$domain=csdn.net
 ||eventreport.dingxiang-inc.com/api/webErrReport$domain=www.cnblogs.com
 ||events.jianshu.io:4006/sa.gif
+||events.mapbox.com/events/$domain=www.fox5ny.com
 ||exmail.qq.com/qy_mng_logic/reportKV
 ||experience.tinypass.com/xbuilder/experience/execute$domain=www.telegraph.co.uk
 ||fe-api.zhaopin.com/c/i/adv
@@ -1223,6 +1227,8 @@ zhidao.baidu.com##.task-list-button
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/button*
 ||static.duoshuo.com/embed.js$third-party
+||static.foxnews.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
+||static.foxtv.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
 ||static.hitv.com/cms/v/2018/pcweb_top_navi$domain=www.mgtv.com
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
 ||static.oschina.net/new-osc/js/utils/jweixin-*.*.*.js
@@ -1269,6 +1275,8 @@ zhidao.baidu.com##.task-list-button
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
 ||tieba.baidu.com/official/click/viewTrue
 ||tjs.sjs.sinajs.cn/open/api/js/wb.js$domain=www.liaoxuefeng.com
+||tkx.apis.anvato.net/rest/v2/mcp/video/$domain=www.fox5ny.com
+||tkx.apis.anvato.net/rest/v2/now/$domain=www.fox5ny.com
 ||tldas.pinduoduo.com/e.gif
 ||tongji.51cto.com/frontend/index$domain=51cto.com
 ||tongji.flash.cn/hm*.gif
@@ -1313,6 +1321,7 @@ zhidao.baidu.com##.task-list-button
 ||wdf.mogu.com/jsonp/featureUpload/2$domain=portal.mogu.com
 ||web-player.art19.com/assets/current.js$domain=www.merriam-webster.com
 ||web.vortex.data.microsoft.com/collect
+||web.vortex.data.msn.cn/collect/
 ||webapi.aihecong.com/web/addrealtime$domain=www.luhu.co
 ||webresource.c-ctrip.com/ResUnionOnline/R1/remarketing/js/remarketing.js$domain=ctrip.com
 ||wenku.baidu.com/browse/widget/viewrecom
@@ -1354,6 +1363,7 @@ zhidao.baidu.com##.task-list-button
 ||www.baidu.com/home/page/data/pageserver
 ||www.baidu.com/rec
 ||www.baidupcs.com/monitor.jpg$domain=pan.baidu.com
+||www.bing.com/as/init?mkt=zh-cn&pt=iceprime_homepage$domain=www.msn.cn
 ||www.bing.com/images/sbi?mmasync=1
 ||www.bing.com/perfawareness
 ||www.bing.com/web/xls.aspx
@@ -1388,6 +1398,7 @@ zhidao.baidu.com##.task-list-button
 ||www.flash.cn/support/statistics
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
+||www.fox5ny.com/api/layouts/alert/heartbeat$domain=www.fox5ny.com
 ||www.gannett-cdn.com/gannett-web/apps/teal/dist$domain=www.usatoday.com
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
 ||www.google.cn/domainless/read
@@ -1432,7 +1443,8 @@ zhidao.baidu.com##.task-list-button
 ||www.msdn.hk/plus/count.php
 ||www.msdn.hk/templets/msdn/css/index.js
 ||www.msdn.hk/templets/msdn/css/viewads.js
-||www.msn.com/en-us/*/irisbannerajax?position=top
+||www.msn.cn/zh-cn/*/irisbannerajax
+||www.msn.com/en-us/*/irisbannerajax
 ||www.msn.com/en-us/autos/_log
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
