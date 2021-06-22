@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, June 17, 2021
+! Last modified: Tuesday, June 22, 2021
 ! Title: Master-AdRules
-! Version: 20210617
+! Version: 20210622
 !
 !
 !
@@ -457,7 +457,7 @@ www.gtabase.com###ja-current-content > script ~ div.custom
 www.gtabase.com##.mailing-list-bottom
 www.gtabase.com##.wbl-social-button
 www.haosou.com###side
-www.howtogeek.com###main > article > div.entry-content > div[style="text-align: center; background-color: rgb(247, 247, 247); border: 1px solid rgb(243, 243, 243); width: 100%; padding-bottom: 18px;"]
+www.howtogeek.com###main > article > div.entry-content > div[style*="text-align: center; background-color: rgb(247, 247, 247); border: 1px solid rgb(243, 243, 243); width: 100%; padding-bottom: 18px;"]
 www.howtogeek.com###v2campaignmidpage
 www.howtogeek.com###v2campaignpopup
 www.howtogeek.com###v2campaignpopup_backdrop
@@ -788,6 +788,7 @@ zhidao.baidu.com##.task-list-button
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent$third-party
 ||cdns.gigya.com/JS/gigya.js$domain=www.history.com
 ||cdnssl.clicktale.net$domain=answers.microsoft.com
+||centralus-*.in.applicationinsights.azure.com//v2/track
 ||cf.aliyun.com/scratchCardSlide/dataReport.jsonp$domain=aliyun.com
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
@@ -867,6 +868,7 @@ zhidao.baidu.com##.task-list-button
 ||docs.microsoft.com/answers/page-view/track.json
 ||docs.microsoft.com/static/third-party/jsll/*/jsll-*.js
 ||docs.ti-net.com.cn/count.php
+||docs.vmware.com/o_QRaOhSHwyQ4ee5GSH0/YOOcD4Gkhauf/BwtUPgE/KkYqIU/UpQxk
 ||down.58.com/js/58appLaunch.js$domain=m.58.com
 ||down.58.com/js/launchPop.js$domain=m.58.com
 ||downloadmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
@@ -894,6 +896,7 @@ zhidao.baidu.com##.task-list-button
 ||experience.tinypass.com/xbuilder/experience/execute$domain=www.telegraph.co.uk
 ||fe-api.zhaopin.com/c/i/adv
 ||feed.baidu.com/feed/api/tab/gettabinfo$domain=www.baidu.com|m.baidu.com
+||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
 ||flights.ctrip.com/itinerary/api/*/records
 ||fls-eu.amazon.com/1/aiv-web-player/1/OE$domain=www.primevideo.com
 ||forms.convertkit.com
