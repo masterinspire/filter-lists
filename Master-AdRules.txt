@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, June 22, 2021
+! Last modified: Thursday, July 1, 2021
 ! Title: Master-AdRules
-! Version: 20210622
+! Version: 20210701
 !
 !
 !
@@ -313,6 +313,8 @@ superuser.com##.js-consent-banner
 superuser.com##.js-freemium-cta
 support.microsoft.com###bannerAboveUHF
 support.microsoft.com###notification-banner-container
+support.microsoft.com###obf-ToastContainer
+support.microsoft.com###rail-column
 support.microsoft.com###smc-survey-external-feedback-button
 support.microsoft.com###supWrapperToPreventFeedbackFlickering
 support.microsoft.com###uhf-upgrade-banner
@@ -429,6 +431,10 @@ www.dotnettricks.com###sidebarbatchesdetail
 www.dotnettricks.com##.sticky-footer
 www.dotnettricks.com##^#ads$important
 www.echartsjs.com###apache-banner
+www.educba.com###banner_1
+www.educba.com###topbar
+www.educba.com##.banner-3
+www.educba.com##.swp_social_panel
 www.electronjs.org##.announcement-banner
 www.enterprisedb.com###promoWrapper
 www.enterprisedb.com##.eu-cookie-compliance-banner
@@ -780,6 +786,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/wenzhang.jpg$third-party
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js$third-party
 ||cdn.playwire.com/plugins/docky.min.js$domain=www.slant.co
+||cdn.ravenjs.com/*/raven.min.js$domain=pypi.org
 ||cdn.segment.com/analytics.js/v1/*/analytics.min.js$important
 ||cdn.subscribers.com/assets/subscribers.js$domain=www.infoworld.com
 ||cdn.syncfusion.com/scripts/albacross/track-new.js
@@ -1393,6 +1400,7 @@ zhidao.baidu.com##.task-list-button
 ||www.douban.com/stat.html
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
+||www.educba.com/wmj_jx/pr-currency.php
 ||www.entityframeworktutorial.net/cdn-cgi/
 ||www.erlang.org/css/twitterl.css
 ||www.erlang.org/js/twitterl.min.js
@@ -1523,4 +1531,5 @@ zhidao.baidu.com##.task-list-button
 ||zhidao.baidu.com/question/api/recommend
 ||znsv.baidu.com/customer_search/api/js$domain=linuxso.com
 ||zpservice.58.com/api/advertisement
+||zt.baidu.com/activity/api/config/get$domain=map.baidu.com
 ||zz.bdstatic.com/linksubmit/push.js$domain=blog.51cto.com|csdn.net
