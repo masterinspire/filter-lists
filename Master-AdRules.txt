@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, July 1, 2021
+! Last modified: Friday, July 9, 2021
 ! Title: Master-AdRules
-! Version: 20210701
+! Version: 20210709
 !
 !
 !
@@ -332,6 +332,8 @@ techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
+tieba.baidu.com###tiebaCustomPassLogin
+time.is###important_info
 tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm
 tplogin.cn###CoverB
@@ -361,6 +363,7 @@ wenku.baidu.com##.super-vip.top-ads-banner-wrap
 wenku.baidu.com##.zsj-btmbar
 wenku.baidu.com##.zsj-toppos
 wenku.baidu.com##div[class^="zsj-leftbar-"]
+windows.com###epb
 windows.com###uhfCookieAlert
 winscp.net##.promo-block
 wk.baidu.com##.btn-view-in-app
@@ -454,6 +457,7 @@ www.gamersky.com##.Mid2_R
 www.geeksforgeeks.org##.ad_course_banner
 www.geeksforgeeks.org##.cookie-consent
 www.geeksforgeeks.org##.hireWithUs.practiceButton
+www.geeksforgeeks.org##.imgWrap
 www.geeksforgeeks.org##.widget_text.widget
 www.google.com##.gb_g.gb_0c.gb_Ad
 www.google.com##.og-pdp
@@ -553,6 +557,7 @@ www.runoob.com##.feedback-btn
 www.runoob.com##.fixed-btn
 www.samsung.com##.cm-cookie-geo
 www.samsung.com##.iparsys.ipar.parsys
+www.sciencenewsforstudents.org##[class^="newsletter-signup__wrapper___"]
 www.sitepoint.com##.roller-door-placeholder
 www.smartsvn.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.sohu.com###float-btn
@@ -578,6 +583,11 @@ www.techonthenet.com##.adsblocked
 www.telerik.com##.optanon-alert-box-wrapper
 www.tenforums.com###cookiescript_injected
 www.tenforums.com###snigel-cmp-framework
+www.thefreedictionary.com###SubscrSlider
+www.thefreedictionary.com###fixedBlock
+www.thefreedictionary.com###secLoginToAccess
+www.thefreedictionary.com###w1 > .w2 > div > div
+www.thefreedictionary.com##.shareFeedBtns
 www.thetechlounge.com###cookie-law-info-bar
 www.tldrgames.com###catapult-cookie-bar
 www.tutorialrepublic.com##.affiliate.segment
@@ -609,6 +619,7 @@ www.yuque.com##.social-share
 www.yuque.com##.yuque-doc-content:style(min-height: inherit !important; max-height: 100% !important;)
 www.yuque.com##div[class^="loginCard___"]
 www.yuque.com##div[class^="reward___"]
+xbox.com###epb
 yandex.com##.content__right
 youdao.com###ads
 youdao.com###wljb
