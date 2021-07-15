@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, July 9, 2021
+! Last modified: Thursday, July 15, 2021
 ! Title: Master-AdRules
-! Version: 20210709
+! Version: 20210715
 !
 !
 !
@@ -156,7 +156,7 @@ developers.google.cn##devsite-youtube
 diezhan.me###player-left .col-md-wide-3
 ding-doc.dingtalk.com##.styles-float
 discourse.mozilla.org##.quote-button
-discuss.atom.io##.quote-button.ember-view
+discuss.atom.io##.quote-button
 disqus.com##.login-overlay__wrapper
 doc.qt.io###cookie-confirm
 docs.asp.net###helpful
@@ -187,8 +187,8 @@ fandom.com###WikiaBar
 forum.gitlab.com##.quote-button
 forums.asp.net##.all-content > div:nth-of-type(1)
 freecommander.com###cookie-notice
-fujian.chinatax.gov.cn##.subnav
 get.videolan.org###uecookies
+gitbook-*.firebaseio.com/.lp$domain=docs.avaloniaui.net
 github.com##.signup-prompt-bg
 gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.trial-link
@@ -330,6 +330,7 @@ support.office.com###supWrapperToPreventFeedbackFlickering
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
+thedivision.fandom.com##.banner-notifications-placeholder
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tieba.baidu.com###tiebaCustomPassLogin
@@ -338,6 +339,7 @@ tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm
 tplogin.cn###CoverB
 ubuntu.com##.cookie-policy
+users.rust-lang.org##.quote-button
 visualstudio.com###epb
 visualstudio.com###mscc-cookie-container
 visualstudio.com###uhfCookieAlert
@@ -453,12 +455,14 @@ www.experts-exchange.com##.weHelpBanner
 www.fanbyte.com###PopupSignupForm_0
 www.fanbyte.com###check-also-box
 www.forbes.com##.seo.recirc-module
+www.fosshub.com/media/js/adblock.js
 www.gamersky.com##.Mid2_R
 www.geeksforgeeks.org##.ad_course_banner
 www.geeksforgeeks.org##.cookie-consent
 www.geeksforgeeks.org##.hireWithUs.practiceButton
 www.geeksforgeeks.org##.imgWrap
 www.geeksforgeeks.org##.widget_text.widget
+www.gitbook.com/__amp/$domain=docs.avaloniaui.net
 www.google.com##.gb_g.gb_0c.gb_Ad
 www.google.com##.og-pdp
 www.gtabase.com###ja-current-content > .item-page + div.custom + div.custom
@@ -544,6 +548,7 @@ www.qt.io##.instagram-media
 www.qt.io##div.c-article-list-promotion
 www.quora.com##.ViewInAppLink
 www.realvnc.com###cookie-notice
+www.red-gate.com##.cookie-consent
 www.red-gate.com##[src^="https://pubads.g.doubleclick.net/activity"]
 www.reddit.com##.TopButton
 www.reddit.com##.XPromoAdFeed
@@ -1192,6 +1197,7 @@ zhidao.baidu.com##.task-list-button
 ||sentry.micloud.d.xiaomi.net/api/
 ||seq.jd.com/jseqf.html$domain=passport.jdpay.com|passport.jd.com
 ||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
+||services.fandom.com/event-logger/debug
 ||services.qiye.163.com/service/static/js/access.js$domain=qiye.163.com
 ||sgm-static.jd.com/sgm.js$domain=biz.jd.com|passport.jdpay.com|ims.jdpay.com
 ||share.weiyun.com/weiyun/compass
@@ -1256,6 +1262,7 @@ zhidao.baidu.com##.task-list-button
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
 ||static.scroll.com/js/scroll.js$domain=tvtropes.org
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
+||static.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
 ||static.youku.com/index/js/ikuAdapterNew.js
 ||static1.51cto.com/51cto/cms/static/api/js/share.js$domain=51cto.com
 ||static1.51cto.com/edu/blog/js/pvlog.js$domain=blog.51cto.com
