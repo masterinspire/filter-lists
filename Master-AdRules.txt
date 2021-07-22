@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, July 15, 2021
+! Last modified: Thursday, July 22, 2021
 ! Title: Master-AdRules
-! Version: 20210715
+! Version: 20210722
 !
 !
 !
@@ -183,6 +183,11 @@ embed.plnkr.co##.plunker-ad-wrap
 entityframeworkcore.com##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
 eslint.org##.eslint-ad
 eslint.org##main.blog > article > footer
+exceljet.net###block-views-courses-block-block
+exceljet.net###block-views-front-testimonials-block
+exceljet.net###block-views-generic-testimonials-block
+exceljet.net##.field.field-name-formula-training
+exceljet.net##.sendy-function-pdf
 fandom.com###WikiaBar
 forum.gitlab.com##.quote-button
 forums.asp.net##.all-content > div:nth-of-type(1)
@@ -1038,7 +1043,7 @@ zhidao.baidu.com##.task-list-button
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
 ||js.monitor.azure.com/next/1/ms.jsll-3.js
-||js.stripe.com/v3/$domain=fontawesome.com|www.just-great-software.com
+||js.stripe.com/$domain=fontawesome.com|www.just-great-software.com|exceljet.net
 ||jstatic.letvcdn.com/sdk/apcsdk.js
 ||jzdisplay.58.com/js/gjad_show.js$domain=m.58.com
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=1

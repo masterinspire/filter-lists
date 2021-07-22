@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, June 22, 2021
+! Last modified: Thursday, July 22, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20210622
+! Version: 20210722
 !
 !
 !
@@ -21,7 +21,7 @@
 ||github.com/*.png?size=32$domain=docs.microsoft.com
 ||gravatar.com/js/gprofiles.js$domain=wpf.2000things.com
 ||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
-||i.imgur.com$domain=create-react-app.dev|chocolatey.org
+||i.imgur.com$domain=create-react-app.dev|chocolatey.org|superuser.com
 ||i.stack.imgur.com$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 ||i.ytimg.com$domain=developer.android.google.cn|www.telegraph.co.uk
 ||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com
