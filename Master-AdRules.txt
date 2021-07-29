@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, July 22, 2021
+! Last modified: Thursday, July 29, 2021
 ! Title: Master-AdRules
-! Version: 20210722
+! Version: 20210729
 !
 !
 !
@@ -21,6 +21,7 @@
 @@||oss.suning.com/csidiss/shumei-sdk/fpv2.js$domain=suning.com
 about.gitlab.com###sticky-banner
 ai.baidu.com##.ai-aside
+aiqicha.baidu.com##.float-banner
 amp.reddit.com###dismissOverlay
 amp.reddit.com##.AppSelectorModal__body
 amp.reddit.com##.SiteHeader__AppBtn.upsell_banner.TopButton
@@ -608,6 +609,7 @@ www.tutorialspoint.com##.google-bottom-ads
 www.tutorialspoint.com##.top-ad-heading
 www.ubuntu.com##.cookie-policy
 www.usatoday.com###gnt_atomsnc
+www.usatoday.com##.gnt_em_vp__tavp.gnt_em
 www.usatoday.com##.gnt_em_vp_c
 www.usatoday.com##a.gnt_cw_sl
 www.vg247.com##.newsletter-signup-wrapper
@@ -676,6 +678,8 @@ zhidao.baidu.com##.task-list-button
 ||aeu.alicdn.com/ctl/ctl.js
 ||aeu.alicdn.com/js/awsc.js
 ||agility.cnn.com/turner/cnn-prod/serverComponent.php$domain=edition.cnn.com
+||aiqicha.baidu.com/index/bannerPicAjax
+||aiqicha.baidu.com/index/hotsearchajax
 ||ajax.cloudflare.com/cdn-cgi/nexp/*/cloudflare.min.js
 ||aliexpress-internet.ru$domain=forum.ru-board.com
 ||alioth.alicdn.com/adPlan-default-position-*$domain=aliyun.com
@@ -821,6 +825,7 @@ zhidao.baidu.com##.task-list-button
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
 ||chat-commerce.adobe.com/checkout/log
+||chat.afzhan.com/chat/$domain=www.afzhan.com
 ||checkout.stripe.com/v3/checkout.js
 ||ci.phncdn.com/www-static/js/ph-tracking.js
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
@@ -988,6 +993,7 @@ zhidao.baidu.com##.task-list-button
 ||h5speed.m.jd.com/v2/speed/activity
 ||hcl.baidu.com/h.gif$domain=www.hao123.com
 ||heimdalsecurity.com/blog/wp-content/plugins/heimdal-social-sharing-buttons/js/social.js
+||hello.zonos.com/shop-duty-tax/hello.js$domain=unchartedsupplyco.com
 ||help.aliyun.com/api/v2/survey/current
 ||herald.spiceworks.com/events/javascript$domain=community.spiceworks.com
 ||hlsmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
@@ -1131,7 +1137,7 @@ zhidao.baidu.com##.task-list-button
 ||pan.baidu.com/rest/2.0/pcs/adx
 ||partnerresources.azureedge.net/public/*/scripts/ai.min.js
 ||partners.npmjs.com/hiring$domain=npmjs.com
-||passport.baidu.com/viewlog$domain=wenku.baidu.com
+||passport.baidu.com/viewlog
 ||pc.weixin.qq.com/cgi/report-web
 ||pcweb-v1.log.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||ping.cloud.tencent.com/trafficCollect.php
@@ -1227,6 +1233,7 @@ zhidao.baidu.com##.task-list-button
 ||smartlock.google.com^$domain=medium.com
 ||smetrics.ubi.com
 ||socket.jisuan.mobi/$domain=bianma.supfree.net
+||sofire.baidu.com/data/ua/ab.json$domain=aiqicha.baidu.com
 ||solo41.biz$domain=www.tutorialspoint.com
 ||sp0.baidu.com/*/su?wd=$domain=www.baidu.com
 ||sp1.baidu.com/*/mwb.gif
@@ -1323,6 +1330,7 @@ zhidao.baidu.com##.task-list-button
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
 ||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com|startpagesearch.com
+||trustrcv.baidu.com/xin.php$domain=aiqicha.baidu.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
@@ -1383,6 +1391,9 @@ zhidao.baidu.com##.task-list-button
 ||www.3dmgame.com/static/api/js/share.js
 ||www.8131478.com:3721/baiduad/$domain=kongpao.com
 ||www.88ysw.com/js/ads/dibu.js
+||www.afzhan.com/asyncstat.aspx
+||www.afzhan.com/mystat.aspx
+||www.afzhan.com/static/api/js/share.js
 ||www.aiyiweb.com/Scripts/AdContentPage300_*.js
 ||www.aiyiweb.com/Scripts/AdContentPageMiddem250.js
 ||www.aiyiweb.com/Scripts/AdIndex950_*.js

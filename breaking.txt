@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, July 22, 2021
+! Last modified: Thursday, July 29, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20210722
+! Version: 20210729
 !
 !
 !
@@ -26,6 +26,7 @@
 ||i.ytimg.com$domain=developer.android.google.cn|www.telegraph.co.uk
 ||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com
 ||lh*.googleusercontent.com$domain=developer.android.google.cn|askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com|google-developers.gonglchuangl.net
+||mail.google.com/mail/$domain=www.erlang.org
 ||mem.gfx.ms/meversion$domain=microsoft.com
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
@@ -34,7 +35,7 @@
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design
-||statics-marketingsites-eus-ms-com.akamaized.net/statics/override.css$domain=devblogs.microsoft.com
+||statics-marketingsites-*-ms-com.akamaized.net/statics/override.css$domain=devblogs.microsoft.com
 ||survival-mastery.com/wp-content/plugins/disqus-comment-system/
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/cse/brand$third-party,important
