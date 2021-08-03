@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, July 29, 2021
+! Last modified: Tuesday, August 3, 2021
 ! Title: Master-AdRules
-! Version: 20210729
+! Version: 20210803
 !
 !
 !
@@ -132,6 +132,7 @@ css-tricks.com##.fem-sidebar-ad.fem-ad
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
 dev.to###html-variant-article-show-sidebar
 devblogs.microsoft.com##.a2a_kit
+devblogs.microsoft.com##.smcx-modal-invitation.smcx-modal.smcx-widget
 devblogs.microsoft.com##.social-icon-bar
 devdactic.com###cookie-notice
 devdactic.com##.nc_wrapper
@@ -631,6 +632,7 @@ www.yuque.com##.social-share
 www.yuque.com##.yuque-doc-content:style(min-height: inherit !important; max-height: 100% !important;)
 www.yuque.com##div[class^="loginCard___"]
 www.yuque.com##div[class^="reward___"]
+www.zerrouki.com###cookie-notice
 xbox.com###epb
 yandex.com##.content__right
 youdao.com###ads
@@ -841,6 +843,7 @@ zhidao.baidu.com##.task-list-button
 ||cmtw.pinduoduo.com/api/mms
 ||cn.bing.com/english/zochatv2
 ||cn.bing.com/hptr/
+||cn.bing.com/orgid/idtoken/conditional
 ||cnstrc.com/js/ac.js
 ||cnt.zhaopin.com/Market/whole_counter.jsp
 ||col.csbops.io/data/sandpack
