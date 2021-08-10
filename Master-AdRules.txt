@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, August 3, 2021
+! Last modified: Tuesday, August 10, 2021
 ! Title: Master-AdRules
-! Version: 20210803
+! Version: 20210810
 !
 !
 !
@@ -19,6 +19,7 @@
 @@||localhost$document
 @@||munchkin.marketo.net$script,domain=www.red-gate.com
 @@||oss.suning.com/csidiss/shumei-sdk/fpv2.js$domain=suning.com
+@@||pic.lsaeb.com:88^$domain=www.diezhan.me
 about.gitlab.com###sticky-banner
 ai.baidu.com##.ai-aside
 aiqicha.baidu.com##.float-banner
@@ -345,6 +346,7 @@ time.is###important_info
 tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm
 tplogin.cn###CoverB
+tplogin.cn###QRCode
 ubuntu.com##.cookie-policy
 users.rust-lang.org##.quote-button
 visualstudio.com###epb
@@ -405,6 +407,7 @@ www.baidu.com##.egg-bubble
 www.baidu.com##.egg-red-envelope
 www.baidu.com##.guide-info
 www.baidu.com##.guide-info-new
+www.baidu.com##.op-guide
 www.baidu.com##.qrcodeCon
 www.baidu.com##.s-top-right.s-isindex-wrap > .s-top-right-text.c-font-normal.c-color-red
 www.baidu.com##.se-ft-promlink
@@ -630,6 +633,8 @@ www.ypojie.com##.action-share
 www.ypojie.com##.orbui-post-footer
 www.yuque.com##.social-share
 www.yuque.com##.yuque-doc-content:style(min-height: inherit !important; max-height: 100% !important;)
+www.yuque.com##div[class^="ReaderCommentSignupGuide-module_commentOnboardingBanner_"]
+www.yuque.com##div[class^="index-module_reward_"]
 www.yuque.com##div[class^="loginCard___"]
 www.yuque.com##div[class^="reward___"]
 www.zerrouki.com###cookie-notice
@@ -953,10 +958,11 @@ zhidao.baidu.com##.task-list-button
 ||g.alicdn.com/sd/pointman/js/pt2.js$domain=aliyun.com
 ||g.alicdn.com/sj/securesdk/*/securesdk_v2.js$domain=v2.guanyierp.com
 ||g.csdnimg.cn//side-toolbar/*/side-toolbar.js$domain=csdn.net
+||g.csdnimg.cn/??sharewx/*/sharewx.js
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js$domain=csdn.net
-||g.csdnimg.cn/check-adb/*/check-adb.js$domain=csdn.net
-||g.csdnimg.cn/check-adb/*/css/check-adb.css$domain=csdn.net
+||g.csdnimg.cn/check-adb/$domain=csdn.net
 ||g.csdnimg.cn/common/csdn-report/report.js
+||g.csdnimg.cn/copyright/*/copyright.js
 ||g.csdnimg.cn/lib/blockadblock/*/blockadblock.min.js$domain=csdn.net
 ||g.csdnimg.cn/report/*/report.js$domain=csdn.net
 ||g.csdnimg.cn/share/*/css/share.css$domain=csdn.net
@@ -1039,6 +1045,7 @@ zhidao.baidu.com##.task-list-button
 ||j2s.lsaeb.com:344$domain=diezhan.me
 ||jiathis.com$third-party
 ||jingyan.baidu.com/article/ajax/relatefeed
+||jisukuaisong.cn$domain=www.88ysw.com
 ||jqmt.qq.com/cdn_dianjiliu.js
 ||jrclick.jd.com/qd/qidian-*.*.*.js$domain=biz.jd.com
 ||jrclick.jd.com/qidian.js$domain=passport.jdpay.com
@@ -1053,6 +1060,7 @@ zhidao.baidu.com##.task-list-button
 ||js.lhzfood.com/baidu/dixpc.js
 ||js.monitor.azure.com/next/1/ms.jsll-3.js
 ||js.stripe.com/$domain=fontawesome.com|www.just-great-software.com|exceljet.net
+||js.users.51.la/$domain=www.88ysw.com
 ||jstatic.letvcdn.com/sdk/apcsdk.js
 ||jzdisplay.58.com/js/gjad_show.js$domain=m.58.com
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=1
@@ -1362,6 +1370,7 @@ zhidao.baidu.com##.task-list-button
 ||w.irs03.com/iwt/a.gif$domain=www.mgtv.com
 ||wapbaike.baidu.com/api/wapui/getbaiketurboqmrs
 ||wapbaike.baidu.com/sfproxy.html
+||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=devblogs.microsoft.com
 ||wdf.mogu.com/jsonp/featureUpload/2$domain=portal.mogu.com
 ||web-player.art19.com/assets/current.js$domain=www.merriam-webster.com
 ||web.vortex.data.microsoft.com/collect
@@ -1394,6 +1403,7 @@ zhidao.baidu.com##.task-list-button
 ||www.3dmgame.com/static/api/js/share.js
 ||www.8131478.com:3721/baiduad/$domain=kongpao.com
 ||www.88ysw.com/js/ads/dibu.js
+||www.88ysw.com/static/api/js/share.js
 ||www.afzhan.com/asyncstat.aspx
 ||www.afzhan.com/mystat.aspx
 ||www.afzhan.com/static/api/js/share.js
