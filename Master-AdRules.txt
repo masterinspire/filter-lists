@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, August 10, 2021
+! Last modified: Friday, August 13, 2021
 ! Title: Master-AdRules
-! Version: 20210810
+! Version: 20210813
 !
 !
 !
@@ -741,6 +741,7 @@ zhidao.baidu.com##.task-list-button
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
 ||az416426.vo.msecnd.net/scripts/b/ai.2.min.js
+||az416426.vo.msecnd.net/scripts/c/ms.analytics-web-*.min.js
 ||az725175.vo.msecnd.net/scripts/jsll-*.js$important
 ||azure.microsoft.com/api/v2/ue/
 ||b2b.baidu.com/slog/*.gif
@@ -899,6 +900,7 @@ zhidao.baidu.com##.task-list-button
 ||developer.android.google.cn/sw.js
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
+||developer.microsoft.com/fdapi/jsll
 ||developers.google.cn/sw.js
 ||developers.google.com/_d/analytics-iframe
 ||dfp.suning.com/dfprs-collect
@@ -1307,8 +1309,11 @@ zhidao.baidu.com##.task-list-button
 ||sugar.zhihu.com/plutus_adreaper$domain=www.zhihu.com
 ||support.google.com/apis/gpf_metrics
 ||support.google.com/chrome/apis/metrics
+||support.microsoft.com/SocContent/floodgate
+||support.microsoft.com/js/TelemetryLogging.js
 ||support.microsoft.com/lib/jsll/dist/jsll.min.js
 ||support.microsoft.com/lib/oneds/dist/ms.analytics-web-*.min.js
+||support.microsoft.com/socbundles/floodgate
 ||support.office.com/bundles/stickyFeedback
 ||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
@@ -1370,7 +1375,7 @@ zhidao.baidu.com##.task-list-button
 ||w.irs03.com/iwt/a.gif$domain=www.mgtv.com
 ||wapbaike.baidu.com/api/wapui/getbaiketurboqmrs
 ||wapbaike.baidu.com/sfproxy.html
-||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=devblogs.microsoft.com
+||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=devblogs.microsoft.com|developer.microsoft.com
 ||wdf.mogu.com/jsonp/featureUpload/2$domain=portal.mogu.com
 ||web-player.art19.com/assets/current.js$domain=www.merriam-webster.com
 ||web.vortex.data.microsoft.com/collect

@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, August 3, 2021
+! Last modified: Friday, August 13, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20210803
+! Version: 20210813
 !
 !
 !
@@ -20,23 +20,26 @@
 ||cloud.typography.com/$domain=jetbrains.com
 ||feedburner.google.com$domain=chocolatey.org
 ||github.com/*.png?size=32$domain=docs.microsoft.com
+||graph.facebook.com$domain=community.notepad-plus-plus.org
 ||gravatar.com/js/gprofiles.js$domain=wpf.2000things.com
 ||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
-||i.imgur.com$domain=create-react-app.dev|chocolatey.org|superuser.com
+||i.imgur.com$domain=create-react-app.dev|chocolatey.org|superuser.com|community.notepad-plus-plus.org
 ||i.stack.imgur.com$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 ||i.ytimg.com$domain=developer.android.google.cn|www.telegraph.co.uk
+||image.prntscr.com/$domain=community.notepad-plus-plus.org
 ||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com
-||lh*.googleusercontent.com$domain=developer.android.google.cn|askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com|google-developers.gonglchuangl.net
+||lh*.googleusercontent.com$domain=community.notepad-plus-plus.org|developer.android.google.cn|askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com|google-developers.gonglchuangl.net
 ||mail.google.com/mail/$domain=www.erlang.org
 ||mem.gfx.ms/meversion$domain=microsoft.com
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
-||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com|gitter.im
+||partnerresources.azureedge.net/public/$domain=developer.microsoft.com
+||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com|gitter.im|community.notepad-plus-plus.org
 ||play.google.com$domain=developer.android.google.cn|www.msn.com
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design
-||statics-marketingsites-*-ms-com.akamaized.net/statics/override.css$domain=devblogs.microsoft.com
+||statics-marketingsites-*-ms-com.akamaized.net/statics/override.css$domain=devblogs.microsoft.com|developer.microsoft.com
 ||survival-mastery.com/wp-content/plugins/disqus-comment-system/
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/cse/brand$third-party,important
