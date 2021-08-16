@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, August 13, 2021
+! Last modified: Monday, August 16, 2021
 ! Title: Master-AdRules
-! Version: 20210813
+! Version: 20210816
 !
 !
 !
@@ -118,6 +118,7 @@ cloud.tencent.com##.select-feedback-tip
 club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_notificationContainer_bop
 cn.bing.com###b_pole
+cn.bing.com###qs_searchBox
 cn.bing.com###searchBoxOuter
 cn.bing.com##.adsblock
 cn.bing.com##.b_topborder.b_top
@@ -198,6 +199,7 @@ freecommander.com###cookie-notice
 get.videolan.org###uecookies
 gitbook-*.firebaseio.com/.lp$domain=docs.avaloniaui.net
 github.com##.signup-prompt-bg
+github.community##.quote-button
 gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.trial-link
 grafana.com##.sticky-footer--dark
@@ -940,6 +942,7 @@ zhidao.baidu.com##.task-list-button
 ||fe-api.zhaopin.com/c/i/adv
 ||feed.baidu.com/feed/api/tab/gettabinfo$domain=www.baidu.com|m.baidu.com
 ||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
+||fensifuligo.com$domain=www.88ysw.com
 ||flights.ctrip.com/itinerary/api/*/records
 ||fls-eu.amazon.com/1/aiv-web-player/1/OE$domain=www.primevideo.com
 ||forms.convertkit.com
@@ -970,6 +973,7 @@ zhidao.baidu.com##.task-list-button
 ||g.csdnimg.cn/share/*/css/share.css$domain=csdn.net
 ||g.csdnimg.cn/share/*/js/share.js$domain=csdn.net
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js$domain=csdn.net
+||gaomingbo.com$domain=www.88ysw.com
 ||gdpr-service.herokuapp.com/is-gdpr
 ||geo2.adobe.com/json/
 ||geolocation.1trust.app/cookieconsentpub/v1/geo/location
@@ -1047,7 +1051,6 @@ zhidao.baidu.com##.task-list-button
 ||j2s.lsaeb.com:344$domain=diezhan.me
 ||jiathis.com$third-party
 ||jingyan.baidu.com/article/ajax/relatefeed
-||jisukuaisong.cn$domain=www.88ysw.com
 ||jqmt.qq.com/cdn_dianjiliu.js
 ||jrclick.jd.com/qd/qidian-*.*.*.js$domain=biz.jd.com
 ||jrclick.jd.com/qidian.js$domain=passport.jdpay.com
@@ -1171,6 +1174,7 @@ zhidao.baidu.com##.task-list-button
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
+||qixedu.com$domain=www.88ysw.com
 ||quantcast.mgr.consensu.org/choice/*/mathworks.com/choice.js$domain=www.mathworks.com
 ||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
 ||query.aliyun.com/rest/delivery.config.customRules.ambassor-delivery-topbar$domain=aliyun.com
@@ -1185,6 +1189,7 @@ zhidao.baidu.com##.task-list-button
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/marketo-opt-in-2.js
 ||referrer.disqus.com/juggler/event.gif
 ||reload.getsentry.net/page/
+||render.githubusercontent.com/stats
 ||report.huatuo.qq.com/report.cgi
 ||res.cdn.openinstall.io/openinstall.js$domain=blog.csdn.net
 ||resources.jetbrains.com/storage/help-app/v3/analytics.js
@@ -1569,6 +1574,7 @@ zhidao.baidu.com##.task-list-button
 ||www138.civicscience.com/jspoll/4/civicscience-widget.js$domain=www.msn.com
 ||x.jr.jd.com/flow/bid$domain=biz.jd.com
 ||xfeedback.oss-cn-hangzhou.aliyuncs.com/$domain=market.aliyun.com
+||xg.jisukuaisong.cn$domain=www.88ysw.com
 ||xiongzhang.baidu.com/xzhstatistics/rp
 ||xui.ptlogin2.qq.com/ptui_ver.js
 ||xunit-slackin.herokuapp.com/slackin.js$domain=xunit.net
