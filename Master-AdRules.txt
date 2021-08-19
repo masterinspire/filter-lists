@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, August 16, 2021
+! Last modified: Thursday, August 19, 2021
 ! Title: Master-AdRules
-! Version: 20210816
+! Version: 20210819
 !
 !
 !
@@ -106,6 +106,7 @@ boxnovel.baidu.com##.Operate
 boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
+chat.mozilla.org##.mx_AnalyticsToast.mx_Toast_toast
 chocolatey.org###cookieNoticeAlert
 chocolatey.org###mc_embed_signup
 chocolatey.org###topNoticeAlert
@@ -193,6 +194,7 @@ exceljet.net###block-views-generic-testimonials-block
 exceljet.net##.field.field-name-formula-training
 exceljet.net##.sendy-function-pdf
 fandom.com###WikiaBar
+fandom.com##.notifications-placeholder
 forum.gitlab.com##.quote-button
 forums.asp.net##.all-content > div:nth-of-type(1)
 freecommander.com###cookie-notice
@@ -326,6 +328,7 @@ support.microsoft.com###notification-banner-container
 support.microsoft.com###obf-ToastContainer
 support.microsoft.com###rail-column
 support.microsoft.com###smc-survey-external-feedback-button
+support.microsoft.com###smcSitewideSignInPopover
 support.microsoft.com###supWrapperToPreventFeedbackFlickering
 support.microsoft.com###uhf-upgrade-banner
 support.microsoft.com##.article-container[content-survey]
@@ -340,7 +343,6 @@ support.office.com###supWrapperToPreventFeedbackFlickering
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
-thedivision.fandom.com##.banner-notifications-placeholder
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tieba.baidu.com###tiebaCustomPassLogin
