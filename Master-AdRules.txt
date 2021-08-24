@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, August 19, 2021
+! Last modified: Tuesday, August 24, 2021
 ! Title: Master-AdRules
-! Version: 20210819
+! Version: 20210824
 !
 !
 !
@@ -185,7 +185,9 @@ edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
 edu.aliyun.com##.tcbox
 embed.plnkr.co##.plunker-ad-wrap
-entityframeworkcore.com##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
+entityframework.net###modal-with-graph
+entityframework.net##div[aria-label="cookieconsent"]
+entityframeworkcore.net##div[aria-label="cookieconsent"]
 eslint.org##.eslint-ad
 eslint.org##main.blog > article > footer
 exceljet.net###block-views-courses-block-block
@@ -1488,7 +1490,7 @@ zhidao.baidu.com##.task-list-button
 ||www.huimg.cn/stat/js/hd_product_monitor.js$domain=baike.com
 ||www.infoworld.com/napi/tile
 ||www.infoworld.com/www/js/ads$important
-||www.instagram.com/embed.js$domain=www.qt.io
+||www.instagram.com/embed.js$domain=www.qt.io|insider.windows.com
 ||www.jianshu.com/notes/*/mark_viewed.json
 ||www.jianshu.com/notes/*/recommendations
 ||www.jianshu.com/notes/*/rewards
