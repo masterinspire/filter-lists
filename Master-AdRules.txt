@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, August 24, 2021
+! Last modified: Wednesday, August 25, 2021
 ! Title: Master-AdRules
-! Version: 20210824
+! Version: 20210825
 !
 !
 !
@@ -23,9 +23,6 @@
 about.gitlab.com###sticky-banner
 ai.baidu.com##.ai-aside
 aiqicha.baidu.com##.float-banner
-amp.reddit.com###dismissOverlay
-amp.reddit.com##.AppSelectorModal__body
-amp.reddit.com##.SiteHeader__AppBtn.upsell_banner.TopButton
 androidwave.com##.onp-sl-overlap-box
 angular-academy.com##.share
 ankhsvn.open.collab.net###collabnet-products
@@ -186,8 +183,10 @@ edition.cnn.com##div.RelatedArticle__component
 edu.aliyun.com##.tcbox
 embed.plnkr.co##.plunker-ad-wrap
 entityframework.net###modal-with-graph
+entityframework.net##.container-fluid.page-header-calltoaction
 entityframework.net##div[aria-label="cookieconsent"]
-entityframeworkcore.net##div[aria-label="cookieconsent"]
+entityframeworkcore.com##.container-fluid.page-header-calltoaction
+entityframeworkcore.com##div[aria-label="cookieconsent"]
 eslint.org##.eslint-ad
 eslint.org##main.blog > article > footer
 exceljet.net###block-views-courses-block-block
@@ -566,10 +565,6 @@ www.quora.com##.ViewInAppLink
 www.realvnc.com###cookie-notice
 www.red-gate.com##.cookie-consent
 www.red-gate.com##[src^="https://pubads.g.doubleclick.net/activity"]
-www.reddit.com##.TopButton
-www.reddit.com##.XPromoAdFeed
-www.reddit.com##.active.XPromoPopup
-www.reddit.com##.xPromoAppStoreFooter
 www.reviewgeek.com###v2campaignmidpage
 www.reviewgeek.com###v2campaignpopup
 www.reviewgeek.com###v2campaignpopup_backdrop
@@ -673,7 +668,6 @@ zhidao.baidu.com##.task-list-button
 ||a.clipconverter.cc/www/d/fr.php
 ||a.disquscdn.com/count.js
 ||a1.cnblogs.com/group/T2$domain=www.cnblogs.com
-||aaxads.com$domain=reddit.com
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||access-prod.apis.anvato.net/anvacks/$domain=www.fox5ny.com
 ||account.jetbrains.com/services/consentOptions
@@ -832,6 +826,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn2.jianshu.io/assets/web/web-note-ad-*.png
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent$third-party
+||cdnjs.cloudflare.com/ajax/libs/outdated-browser$domain=npms.io
 ||cdns.gigya.com/JS/gigya.js$domain=www.history.com
 ||cdnssl.clicktale.net$domain=answers.microsoft.com
 ||centralus-*.in.applicationinsights.azure.com//v2/track
@@ -996,7 +991,6 @@ zhidao.baidu.com##.task-list-button
 ||google-analytics.com$third-party
 ||google-developers.gonglchuangl.net/sw.js
 ||googleads.g.doubleclick.net$important
-||gql.reddit.com/?request_timestamp
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
 ||graph.facebook.com/$domain=wpf.2000things.com|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com|www.ostechnix.com|leastprivilege.com|dragablz.net
@@ -1541,8 +1535,6 @@ zhidao.baidu.com##.task-list-button
 ||www.rabbitmq.com/img/banner-s1p.png
 ||www.rabbitmq.com/js/ga-bootstrap.js
 ||www.rarlab.com/js/ckrule.js
-||www.reddit.com/error
-||www.reddit.com/timings
 ||www.redditstatic.com/button/button3.js$domain=goalkicker.com
 ||www.ruanyifeng.com/blog/stats.js
 ||www.seedanddew.com/static/embed.min.js$domain=bundler.io

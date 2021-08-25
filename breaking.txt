@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, August 13, 2021
+! Last modified: Wednesday, August 25, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20210813
+! Version: 20210825
 !
 !
 !
@@ -41,6 +41,7 @@
 ||stackblitz.com$domain=ng.ant.design
 ||statics-marketingsites-*-ms-com.akamaized.net/statics/override.css$domain=devblogs.microsoft.com|developer.microsoft.com
 ||survival-mastery.com/wp-content/plugins/disqus-comment-system/
+||themes.googleusercontent.com$domain=codemirror.net
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/cse/brand$third-party,important
 ||www.google.com/cse/cse.js$third-party,important
@@ -49,3 +50,4 @@
 ||www.youtube-nocookie.com/embed/*$third-party
 ||youtube.com/embed/*$third-party
 ||youtube.com/iframe_api$third-party,important
+||z2c2b4z9.stackpathcdn.com/images/logo256X256.png$domain=entityframeworkcore.com|entityframework.net
