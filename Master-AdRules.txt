@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, August 25, 2021
+! Last modified: Wednesday, September 1, 2021
 ! Title: Master-AdRules
-! Version: 20210825
+! Version: 20210901
 !
 !
 !
@@ -257,6 +257,9 @@ map.baidu.com###message-panel
 map.baidu.com##.container.styleguide.index-widget-guidebanner
 market.aliyun.com##div[class^="xf-"]
 material-ui.com##.ad.description
+material-ui.com##a[aria-label="Diamond Sponsors"]
+material-ui.com##a[data-ga-event-category="sponsor"]
+material-ui.com##a[href='/company/careers/']
 mbillexprod.alipay.com###pc-merchant-onlineService
 medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
@@ -367,6 +370,8 @@ wap.gamersky.com##.ymw-rel-mgame
 wapbaike.baidu.com###J-spark-icon
 wapbaike.baidu.com###J-tashuo-button-fixed
 wapbaike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
+web.dev##.w-actions
+web.dev##web-snackbar-container
 weblogs.asp.net###msccBanner
 webpack.js.org##.notification-bar
 webpack.js.org##.sponsors
@@ -612,6 +617,7 @@ www.tutorialspoint.com###privacy-banner
 www.tutorialspoint.com###rightbar
 www.tutorialspoint.com##.google-bottom-ads
 www.tutorialspoint.com##.top-ad-heading
+www.typescriptlang.org###page-helpful-popup
 www.ubuntu.com##.cookie-policy
 www.usatoday.com###gnt_atomsnc
 www.usatoday.com##.gnt_em_vp__tavp.gnt_em
@@ -869,6 +875,7 @@ zhidao.baidu.com##.task-list-button
 ||consent.cookiebot.com/uc.js
 ||consent.trustarc.com/notice$domain=auth0.com|jwt.io
 ||consent.truste.com/notice$domain=docker.com|dev.mysql.com
+||consentdeliveryfd.azurefd.net/mscc/lib/v2/wcp-consent.js$domain=www.typescriptlang.org
 ||console-base-cn-hangzhou.cn-hangzhou.log.aliyuncs.com/logstores/the-base/track$domain=aliyun.com
 ||consolebench.cn-hangzhou.log.aliyuncs.com/logstores/accesslog/track$domain=aliyun.com
 ||constid.dingxiang-inc.com/udid/c1$domain=www.cnblogs.com
@@ -1327,6 +1334,7 @@ zhidao.baidu.com##.task-list-button
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
 ||tajs.qq.com/stats$important
 ||target.microsoft.com/rest/v1/delivery$important
+||tb.pagetest.top/$domain=www.88ysw.com
 ||tb1.bdstatic.com/tb/img/hg/hg.gif$domain=tieba.baidu.com
 ||techcommunity.microsoft.com/beacon/*.gif
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js

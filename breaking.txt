@@ -1,16 +1,14 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, August 25, 2021
+! Last modified: Wednesday, September 1, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20210825
+! Version: 20210901
 !
 !
 !
 ||*.bp.blogspot.com$domain=developer.android.google.cn
 ||*.disqus.com/embed.js
-||*.gravatar.com/avatar$third-party
-||*.gravatar.com/js/gprofiles.js$third-party
 ||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
 ||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
 ||apis.google.com$domain=translate.google.cn|developer.android.google.cn
@@ -21,7 +19,8 @@
 ||feedburner.google.com$domain=chocolatey.org
 ||github.com/*.png?size=32$domain=docs.microsoft.com
 ||graph.facebook.com$domain=community.notepad-plus-plus.org
-||gravatar.com/js/gprofiles.js$domain=wpf.2000things.com
+||gravatar.com/avatar$third-party
+||gravatar.com/js/gprofiles.js$third-party
 ||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
 ||i.imgur.com$domain=create-react-app.dev|chocolatey.org|superuser.com|community.notepad-plus-plus.org
 ||i.stack.imgur.com$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
@@ -36,6 +35,7 @@
 ||partnerresources.azureedge.net/public/$domain=developer.microsoft.com
 ||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com|gitter.im|community.notepad-plus-plus.org
 ||play.google.com$domain=developer.android.google.cn|www.msn.com
+||polyfill.io/v3/polyfill.min.js$domain=www.typescriptlang.org
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design
