@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, September 1, 2021
+! Last modified: Friday, September 3, 2021
 ! Title: Master-AdRules
-! Version: 20210901
+! Version: 20210903
 !
 !
 !
@@ -25,6 +25,7 @@ ai.baidu.com##.ai-aside
 aiqicha.baidu.com##.float-banner
 androidwave.com##.onp-sl-overlap-box
 angular-academy.com##.share
+angular.io##aio-cookies-popup
 ankhsvn.open.collab.net###collabnet-products
 ankhsvn.open.collab.net###uvTab
 answers.microsoft.com###threadfooter
@@ -255,6 +256,7 @@ m.tapd.cn##.bind-phone-tips
 map.baidu.com###leadDownloadCard
 map.baidu.com###message-panel
 map.baidu.com##.container.styleguide.index-widget-guidebanner
+map.baidu.com##.poiLeadDownloadCard
 market.aliyun.com##div[class^="xf-"]
 material-ui.com##.ad.description
 material-ui.com##a[aria-label="Diamond Sponsors"]
@@ -679,8 +681,7 @@ zhidao.baidu.com##.task-list-button
 ||account.jetbrains.com/services/consentOptions
 ||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org
 ||ad.liepin.com/adremote/recordingcnt$domain=liepin.com
-||ada.baidu.com/udpl$domain=m.baidu.com|www.baidu.com
-||ada.baidu.com/udpl/exp$domain=zhidao.baidu.com
+||ada.baidu.com/udpl$domain=m.baidu.com|www.baidu.com|zhidao.baidu.com
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||adexport.tt.cn/pcexport/advSource-api$domain=www.msn.cn
 ||admin.qidian.qq.com/ar/ActCap/ActRpt$domain=www.eassos.cn
@@ -1133,7 +1134,6 @@ zhidao.baidu.com##.task-list-button
 ||mp.weixin.qq.com/mp/getappmsgad
 ||mp.weixin.qq.com/mp/report
 ||msg.csdn.net/v1/chrome/notification/view$domain=csdn.net
-||mssl.fwmrm.net/p/msn_live/AdManager.js$domain=www.msn.com,important
 ||mssplus.mcafee.com/mssplus.txt$domain=adobe.com
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com|about.gitlab.com,important
@@ -1167,8 +1167,7 @@ zhidao.baidu.com##.task-list-button
 ||platform.instagram.com/en_US/embeds.js
 ||platform.linkedin.com/in.js
 ||platform.linkedin.com/js/framework?v
-||platform.twitter.com/widgets.js$third-party
-||platform.twitter.com/widgets/follow_button.html$domain=www.techspot.com|www.msn.com
+||platform.twitter.com/widgets$third-party
 ||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
@@ -1337,6 +1336,7 @@ zhidao.baidu.com##.task-list-button
 ||tb.pagetest.top/$domain=www.88ysw.com
 ||tb1.bdstatic.com/tb/img/hg/hg.gif$domain=tieba.baidu.com
 ||techcommunity.microsoft.com/beacon/*.gif
+||techcommunity.microsoft.com/t5/scripts/*/lia-scripts*.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
@@ -1392,6 +1392,8 @@ zhidao.baidu.com##.task-list-button
 ||web.vortex.data.microsoft.com/collect
 ||web.vortex.data.msn.cn/collect/
 ||webapi.aihecong.com/web/addrealtime$domain=www.luhu.co
+||webmap*.bdimg.com/wolfman/static/poidetail/images/qrcode-download/$domain=map.baidu.com
+||webmap*.bdimg.com/zt/bmap/cards/ads3_*.js$domain=map.baidu.com
 ||webresource.c-ctrip.com/ResUnionOnline/R1/remarketing/js/remarketing.js$domain=ctrip.com
 ||wenku.baidu.com/browse/widget/viewrecom
 ||wenku.baidu.com/shifen/get
@@ -1436,7 +1438,6 @@ zhidao.baidu.com##.task-list-button
 ||www.baidu.com/home/page/data/pageserver
 ||www.baidu.com/rec
 ||www.baidupcs.com/monitor.jpg$domain=pan.baidu.com
-||www.bing.com/as/init?mkt=zh-cn&pt=iceprime_homepage$domain=www.msn.cn
 ||www.bing.com/images/sbi?mmasync=1
 ||www.bing.com/perfawareness
 ||www.bing.com/web/xls.aspx
@@ -1517,9 +1518,6 @@ zhidao.baidu.com##.task-list-button
 ||www.msdn.hk/plus/count.php
 ||www.msdn.hk/templets/msdn/css/index.js
 ||www.msdn.hk/templets/msdn/css/viewads.js
-||www.msn.cn/zh-cn/*/irisbannerajax
-||www.msn.com/en-us/*/irisbannerajax
-||www.msn.com/en-us/autos/_log
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
 ||www.oracle.com/assets/truste-oraclelib.js$domain=dev.mysql.com
@@ -1575,7 +1573,6 @@ zhidao.baidu.com##.task-list-button
 ||www.xunyou.com/javascript/tj_cnz.js
 ||www.zhaopin.com/static/analytics.js
 ||www.zhihu.com/sc-profiler
-||www138.civicscience.com/jspoll/4/civicscience-widget.js$domain=www.msn.com
 ||x.jr.jd.com/flow/bid$domain=biz.jd.com
 ||xfeedback.oss-cn-hangzhou.aliyuncs.com/$domain=market.aliyun.com
 ||xg.jisukuaisong.cn$domain=www.88ysw.com
