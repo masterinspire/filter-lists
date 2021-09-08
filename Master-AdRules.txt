@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, September 3, 2021
+! Last modified: Wednesday, September 8, 2021
 ! Title: Master-AdRules
-! Version: 20210903
+! Version: 20210908
 !
 !
 !
@@ -67,16 +67,12 @@ bing.com##DIV[id="carouselControls"]
 bing.com##DIV[id="hp_tbar"]
 bing.com##DIV[id^="sc_hst"]
 bing.com##OL[id="b_context"]
-bing.msn.cn##DIV[id="actions"]
 blog.51cto.com##.appreciate-box
 blog.51cto.com##.group_img_box
 blog.51cto.com##.hot-column-wrapper.column-wrapper
 blog.51cto.com##.special-column .column-1
 blog.51cto.com##[id^="topbanner"]
 blog.51cto.com##a.zhiCustomBtn
-blog.angular.io##.highlightMenu
-blog.angular.io##.js-postShareWidget
-blog.angular.io##.js-stickyFooter
 blog.codecentric.de###BorlabsCookieBox
 blog.csdn.net###btn-detail
 blog.csdn.net###passportbox
@@ -157,6 +153,7 @@ developers.google.cn##devsite-page-rating
 developers.google.cn##devsite-tracking-question
 developers.google.cn##devsite-youtube
 diezhan.me###player-left .col-md-wide-3
+digitalrightswatch.org.au###cookie-notice
 ding-doc.dingtalk.com##.styles-float
 discourse.mozilla.org##.quote-button
 discuss.atom.io##.quote-button
@@ -262,6 +259,7 @@ material-ui.com##.ad.description
 material-ui.com##a[aria-label="Diamond Sponsors"]
 material-ui.com##a[data-ga-event-category="sponsor"]
 material-ui.com##a[href='/company/careers/']
+material.angular.io##app-cookie-popup
 mbillexprod.alipay.com###pc-merchant-onlineService
 medium.com##.js-postShareWidget
 medium.com##.js-stickyFooter
@@ -612,6 +610,7 @@ www.thefreedictionary.com###secLoginToAccess
 www.thefreedictionary.com###w1 > .w2 > div > div
 www.thefreedictionary.com##.shareFeedBtns
 www.thetechlounge.com###cookie-law-info-bar
+www.thurrott.com##.logged-out.comments
 www.tldrgames.com###catapult-cookie-bar
 www.tutorialrepublic.com##.affiliate.segment
 www.tutorialrepublic.com##ul:nth-of-type(6)
@@ -669,7 +668,7 @@ zhidao.baidu.com##.task-list-button
 ||*.log.mgtv.com/info.php$domain=www.mgtv.com
 ||*.nstool.netease.com/ip.js
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
-||10870841.collect.igodigital.com/collect.js$domain=www.usatoday.com
+||collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||12366.chinatax.gov.cn/znzx/arlog/access
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
