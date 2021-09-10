@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, September 8, 2021
+! Last modified: Friday, September 10, 2021
 ! Title: Master-AdRules
-! Version: 20210908
+! Version: 20210910
 !
 !
 !
@@ -668,7 +668,6 @@ zhidao.baidu.com##.task-list-button
 ||*.log.mgtv.com/info.php$domain=www.mgtv.com
 ||*.nstool.netease.com/ip.js
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
-||collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||12366.chinatax.gov.cn/znzx/arlog/access
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
@@ -763,6 +762,7 @@ zhidao.baidu.com##.task-list-button
 ||baike.baidu.com/sfproxy.html
 ||bdimg.share.baidu.com/static/api/js/share.js
 ||bdimg.share.baidu.com/static/js/shell_v2.js
+||beacon-v2.helpscout.net/$domain=fontawesome.com
 ||bing.com/*/MsnJVData/HoverTranslation*
 ||bing.com/AS/Suggestions
 ||bing.com/dict/SerpHoverTrans
@@ -860,6 +860,7 @@ zhidao.baidu.com##.task-list-button
 ||cnstrc.com/js/ac.js
 ||cnt.zhaopin.com/Market/whole_counter.jsp
 ||col.csbops.io/data/sandpack
+||collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||collector-medium.lightstep.com/api/v0/reports
 ||collector.githubapp.com/github/page_view
 ||commerce.adobe.com/checkout/log
@@ -1476,8 +1477,6 @@ zhidao.baidu.com##.task-list-button
 ||www.gannett-cdn.com/gannett-web/apps/teal/dist$domain=www.usatoday.com
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
 ||www.google.cn/domainless/read
-||www.google.com/gen_204
-||www.google.com/insights/consumersurveys/
 ||www.googleadservices.com/pagead
 ||www.googletagmanager.com/gtag/js
 ||www.googletagmanager.com/gtm.js$important
