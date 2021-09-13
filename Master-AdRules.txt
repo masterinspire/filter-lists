@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, September 10, 2021
+! Last modified: Friday, September 13, 2021
 ! Title: Master-AdRules
-! Version: 20210910
+! Version: 20210913
 !
 !
 !
@@ -786,6 +786,7 @@ zhidao.baidu.com##.task-list-button
 ||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_*.css$domain=baike.baidu.com
 ||bkssl.bdimg.com/static/wiki-m-lemma/widget/loadMoreContent-n/invokeBaiduApp/invokeBaiduApp_*.js$domain=baike.baidu.com
 ||blog.51cto.com/static/api/js/share.js
+||bordeaux.futurecdn.net/bordeaux.js$domain=www.livescience.com
 ||boxnovel.baidu.com/boxnovel/wiseapi/getContentExtra
 ||boxnovel.baidu.com/boxnovel/wiseapi/getFengchao
 ||browser.sentry-cdn.com/*/bundle.min.js$domain=www.jetbrains.com
@@ -837,6 +838,7 @@ zhidao.baidu.com##.task-list-button
 ||cdnssl.clicktale.net$domain=answers.microsoft.com
 ||centralus-*.in.applicationinsights.azure.com//v2/track
 ||cf.aliyun.com/scratchCardSlide/dataReport.jsonp$domain=aliyun.com
+||champagne.futurecdn.net/champagne.js$domain=www.livescience.com
 ||changyan.itc.cn/js/??lib/jquery.js,changyan.labs.js
 ||changyan.sohu.com/upload/changyan.js
 ||chat-commerce.adobe.com/checkout/log
@@ -957,6 +959,7 @@ zhidao.baidu.com##.task-list-button
 ||fourier.taobao.com/ts
 ||fp.suning.com/bennu-collector/fp/porto.json
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
+||freyr.futurecdn.net/freyr.js$domain=www.livescience.com
 ||fxgate.baidu.com/angelia/fcagl.js
 ||fxsjcj.kaipuyun.cn/count$domain=shenzhen.chinatax.gov.cn
 ||fxsjcj2.kaipuyun.cn/count/$domain=hainan.chinatax.gov.cn
@@ -1222,6 +1225,7 @@ zhidao.baidu.com##.task-list-button
 ||screenshots.codesandbox.io/*.png
 ||script.sw.report/sw.js$domain=blog.codecentric.de
 ||sdk.51.la/js-sdk-pro.min.js$domain=www.luhu.co
+||search-api.fie.futurecdn.net/js/w/es6/responsive.js$domain=www.livescience.com
 ||search.10086.cn/log_collecter/collecter.do
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
 ||sentry.gitlab.net/api/
@@ -1241,6 +1245,7 @@ zhidao.baidu.com##.task-list-button
 ||shenzhen.chinatax.gov.cn/static/api/js/share
 ||signup.azure.com/api/clientlog
 ||slack-cordova-io.herokuapp.com/slackin.js
+||slice.vanilla.futurecdn.net/*/react.js$domain=www.livescience.com
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/search_tracking_js
 ||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
