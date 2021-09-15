@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, September 13, 2021
+! Last modified: Wednesday, September 15, 2021
 ! Title: Master-AdRules
-! Version: 20210913
+! Version: 20210915
 !
 !
 !
@@ -610,6 +610,7 @@ www.thefreedictionary.com###secLoginToAccess
 www.thefreedictionary.com###w1 > .w2 > div > div
 www.thefreedictionary.com##.shareFeedBtns
 www.thetechlounge.com###cookie-law-info-bar
+www.theverge.com##.adblock-allowlist-messaging__wrapper
 www.thurrott.com##.logged-out.comments
 www.tldrgames.com###catapult-cookie-bar
 www.tutorialrepublic.com##.affiliate.segment
@@ -815,6 +816,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn.ampproject.org/v0/amp-social-share-*.js
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
+||cdn.concert.io/lib/adblock/verge.html$domain=www.theverge.com
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org|www.dictionary.com|www.usatoday.com
@@ -868,6 +870,7 @@ zhidao.baidu.com##.task-list-button
 ||commerce.adobe.com/checkout/log
 ||common-bucket.zhaopin.cn/passport/js/zhaopin/analytics.js
 ||concat.lietou-static.com/core/pc/revs/js/common/stat_*.js
+||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=www.theverge.com
 ||confiant.msn.com/*/msn/config.js
 ||connect.emojics.com/dist/sdk.js$domain=ckeditor.com
 ||connect.facebook.net/*/all.js$third-party
@@ -1299,7 +1302,7 @@ zhidao.baidu.com##.task-list-button
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
 ||static.oschina.net/new-osc/js/utils/jweixin-*.*.*.js
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
-||static.scroll.com/js/scroll.js$domain=tvtropes.org
+||static.scroll.com/js/scroll.js$domain=tvtropes.org|www.theverge.com
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
 ||static.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
 ||static.youku.com/index/js/ikuAdapterNew.js
