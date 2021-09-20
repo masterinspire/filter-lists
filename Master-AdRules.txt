@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, September 15, 2021
+! Last modified: Monday, September 20, 2021
 ! Title: Master-AdRules
-! Version: 20210915
+! Version: 20210920
 !
 !
 !
@@ -255,10 +255,6 @@ map.baidu.com###message-panel
 map.baidu.com##.container.styleguide.index-widget-guidebanner
 map.baidu.com##.poiLeadDownloadCard
 market.aliyun.com##div[class^="xf-"]
-material-ui.com##.ad.description
-material-ui.com##a[aria-label="Diamond Sponsors"]
-material-ui.com##a[data-ga-event-category="sponsor"]
-material-ui.com##a[href='/company/careers/']
 material.angular.io##app-cookie-popup
 mbillexprod.alipay.com###pc-merchant-onlineService
 medium.com##.js-postShareWidget
@@ -272,6 +268,9 @@ mobile.softpedia.com###cookienotif
 movie.mtime.com###divRelatedGoods
 mrchportalweb.alipay.com###pc-merchant-onlineService
 msdn.itellyou.cn##.shang_box
+mui.com##[aria-label="Diamond Sponsors"]
+mui.com##[data-ga-event-category="ad"]
+mui.com##[data-ga-event-category="sponsor"]
 music.taihe.com##.__qianqian_qrcode
 nginx.org###banner
 npm.taobao.org###fork
@@ -325,6 +324,8 @@ stackoverflow.com##.js-notice-sidebar-popover
 stackoverflow.com##.js-sidebar-zone
 staxmanade.com##.jj-signup-form
 stremiomovies.com##a[href="/premium"]
+substack.com##.subscribe-footer
+substack.com##.subscribe-widget
 superuser.com##.js-consent-banner
 superuser.com##.js-freemium-cta
 support.microsoft.com###bannerAboveUHF
@@ -342,6 +343,7 @@ support.microsoft.com##.right-rail.content-media
 support.microsoft.com##.supArticleContentFooterWrapper
 support.microsoft.com##.upgradeBanner
 support.mozilla.org###announcements
+support.mozilla.org###id_scam_alert
 support.mozilla.org##.document-vote--sidebar-wrap
 support.office.com###supWrapperToPreventFeedbackFlickering
 techxposer.com###icon_wrapper
@@ -500,6 +502,7 @@ www.howtogeek.com##.message
 www.howtogeek.com##.overlay-wrapper
 www.howtogeek.com##.social-media-buttons
 www.howtogeek.com##.walter-march2021-inpage-style
+www.icann.org##.cookie-notification
 www.influxdata.com##.contact_sale
 www.influxdata.com##.cookieterms
 www.infoq.com##.share-this-popover
@@ -518,6 +521,7 @@ www.jetbrains.com##DIV[id="pseudo-footer"]
 www.learnrazorpages.com###cookie-warning
 www.liepin.com##.guider
 www.linuxeden.com##.bdsharebuttonbox.action-share
+www.lookip.net##[aria-label="cookieconsent"]
 www.merriam-webster.com###cite-anchor
 www.merriam-webster.com###definition-right-rail
 www.merriam-webster.com###podcast-anchor
@@ -560,6 +564,8 @@ www.packtpub.com###packt_gdpr_container
 www.partitionwizard.com##.bottom-cookie-wrap
 www.pdfforge.org##.gdpr-cookieconsent-overlay
 www.pdfforge.org##.gdpr-cookieconsent-settings
+www.piratewires.com##.subscribe-footer
+www.piratewires.com##.subscribe-widget
 www.positronx.io###cookie
 www.prosus.com##.pp_quickshare_tools
 www.qt.io##.b-article__share-footer
@@ -855,6 +861,7 @@ zhidao.baidu.com##.task-list-button
 ||cloud.tencent.com/document/ajax/?action=checkDocApiPageRedirect
 ||cloud.tencent.com/document/ajax/?action=report
 ||cloud.tencent.com/tool/screenshot?action=capture
+||cmpv2.computerworld.com/wrapperMessagingWithoutDetection.js
 ||cmpv2.infoworld.com/wrapperMessagingWithoutDetection.js
 ||cmtw.pinduoduo.com/api/cmt/mms_page
 ||cmtw.pinduoduo.com/api/mms
@@ -1048,6 +1055,7 @@ zhidao.baidu.com##.task-list-button
 ||insight.cloud.tencent.com/event$domain=cloud.tencent.com
 ||intellij-support.jetbrains.com/api/v2/help_center/community/posts/*/stats/view.json
 ||interact.f5.com/rs/*/images/munchkinxd-*.js$domain=www.nginx.com
+||ionicframeworkcom.prismic.io/api/v2
 ||ionicframeworkcom.prismic.io/api/v2$domain=capacitorjs.com
 ||ipinfo.io$third-party
 ||isdspeed.qidian.com/cgi-bin/r.cgi
@@ -1069,7 +1077,7 @@ zhidao.baidu.com##.task-list-button
 ||js-agent.newrelic.com/$domain=bitbucket.org
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
-||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com|www.axure.com|capacitorjs.com|www.ssh.com
+||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com|www.axure.com|capacitorjs.com|www.ssh.com|ionicframework.com
 ||js.hsforms.net/forms/v2.js$domain=stenciljs.com
 ||js.hsleadflows.net/leadflows.js$domain=stackoverflow.blog
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
