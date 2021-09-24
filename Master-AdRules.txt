@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, September 20, 2021
+! Last modified: Friday, September 24, 2021
 ! Title: Master-AdRules
-! Version: 20210920
+! Version: 20210924
 !
 !
 !
@@ -52,7 +52,6 @@ baike.baidu.com##.topA
 baike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
 bbs.csdn.net###answer_btn
 bbs.csdn.net##.topic_wrap > .post_info.topic_r > .post_recommend
-bbs.smartisan.com##.tips-download
 bing.com###TopApp
 bing.com###b_opalpers
 bing.com###ev_trans_btn_group
@@ -100,6 +99,8 @@ boxnovel.baidu.com##.Operate
 boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
+carnegieendowment.org###selectionSharerPopover
+carnegieendowment.org##.cookie-banner
 chat.mozilla.org##.mx_AnalyticsToast.mx_Toast_toast
 chocolatey.org###cookieNoticeAlert
 chocolatey.org###mc_embed_signup
@@ -922,6 +923,7 @@ zhidao.baidu.com##.task-list-button
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
 ||developer.microsoft.com/fdapi/jsll
+||developer.mozilla.org/static/js/ga.js
 ||developers.google.cn/sw.js
 ||developers.google.com/_d/analytics-iframe
 ||dfp.suning.com/dfprs-collect
@@ -1003,6 +1005,7 @@ zhidao.baidu.com##.task-list-button
 ||getaninsight.com$domain=entityframeworktutorial.net|tutorialsteacher.com
 ||gia.jd.com/fcf.html
 ||gia.jd.com/y.html
+||gitbook-*.firebaseio.com/.lp?start$domain=everything.curl.dev
 ||gitee.com/bd_share/static/api/js/share.js
 ||gitter.im/api/private/statsc
 ||glitter.services.disqus.com/urls/?callback=dsqGlitterResponseHandler
@@ -1336,6 +1339,7 @@ zhidao.baidu.com##.task-list-button
 ||support.google.com/chrome/apis/metrics
 ||support.microsoft.com/SocContent/floodgate
 ||support.microsoft.com/js/TelemetryLogging.js
+||support.microsoft.com/js/promotionBanner.js
 ||support.microsoft.com/lib/jsll/dist/jsll.min.js
 ||support.microsoft.com/lib/oneds/dist/ms.analytics-web-*.min.js
 ||support.microsoft.com/socbundles/floodgate
