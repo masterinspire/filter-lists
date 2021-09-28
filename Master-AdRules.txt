@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, September 24, 2021
+! Last modified: Tuesday, September 28, 2021
 ! Title: Master-AdRules
-! Version: 20210924
+! Version: 20210928
 !
 !
 !
@@ -137,6 +137,8 @@ devdactic.com##.nc_wrapper
 devdocs.io##._in._notif
 devdocs.io##._notice
 devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
+developer.android.google.cn###essential
+developer.android.google.cn###videos
 developer.android.google.cn##.devsite-banner-announcement.devsite-banner
 developer.android.google.cn##devsite-footer-promos
 developer.android.google.cn##devsite-page-rating
@@ -618,6 +620,7 @@ www.thefreedictionary.com###w1 > .w2 > div > div
 www.thefreedictionary.com##.shareFeedBtns
 www.thetechlounge.com###cookie-law-info-bar
 www.theverge.com##.adblock-allowlist-messaging__wrapper
+www.thurrott.com##.gdpr-cookie-banner
 www.thurrott.com##.logged-out.comments
 www.tldrgames.com###catapult-cookie-bar
 www.tutorialrepublic.com##.affiliate.segment
@@ -653,6 +656,8 @@ www.yuque.com##div[class^="ReaderCommentSignupGuide-module_commentOnboardingBann
 www.yuque.com##div[class^="index-module_reward_"]
 www.yuque.com##div[class^="loginCard___"]
 www.yuque.com##div[class^="reward___"]
+www.zdnet.com##.large.video.shortcode
+www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
 xbox.com###epb
 yandex.com##.content__right
@@ -919,6 +924,7 @@ zhidao.baidu.com##.task-list-button
 ||dc.services.visualstudio.com/v2/track
 ||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
 ||demandbase.com^*/ip.json
+||developer.android.google.cn/_d/dynamic_content
 ||developer.android.google.cn/sw.js
 ||developer.chrome.com/static/js/search.js
 ||developer.chrome.com/static/js/site.js
@@ -1164,6 +1170,7 @@ zhidao.baidu.com##.task-list-button
 ||nexus.dell.com/dell/eSupport/Bootstrap.js$domain=www.dell.com
 ||nexus.dell.com/dell/marketing/Bootstrap.js$domain=www.dell.com
 ||nexus.dell.com/dell/stpfooter/Bootstrap.js$domain=www.dell.com
+||nir.theregister.co.uk/?g=vk&g=c&g=sa&g=vvfc$domain=www.theregister.com
 ||nohost/query
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||otelwebtelemetry.com/v1/trace
@@ -1568,6 +1575,7 @@ zhidao.baidu.com##.task-list-button
 ||www.ssh.com/api/content/v1/dynamic
 ||www.ssh.com/trk
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
+||www.theregister.com/design_picker/*/javascript/ads.js
 ||www.ttshitu.com/js/baidu.js
 ||www.vg247.com/wp-content/themes/vg247/scripts/CookieGDPR.js
 ||www.vivibb.com/index.php/ajax/hits
