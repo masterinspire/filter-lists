@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, September 28, 2021
+! Last modified: Thursday, October 7, 2021
 ! Title: Master-AdRules
-! Version: 20210928
+! Version: 20211007
 !
 !
 !
@@ -19,7 +19,7 @@
 @@||localhost$document
 @@||munchkin.marketo.net$script,domain=www.red-gate.com
 @@||oss.suning.com/csidiss/shumei-sdk/fpv2.js$domain=suning.com
-@@||pic.lsaeb.com:88^$domain=www.diezhan.me
+@@||pic.lsaeb.com:88^$domain=www.diezhan6.com
 about.gitlab.com###sticky-banner
 ai.baidu.com##.ai-aside
 aiqicha.baidu.com##.float-banner
@@ -99,8 +99,19 @@ boxnovel.baidu.com##.Operate
 boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
+carnegie-mec.org###selectionSharerPopover
+carnegie-mec.org##.cookie-banner
 carnegieendowment.org###selectionSharerPopover
+carnegieendowment.org##.active.programs-ctw.no-print.slide-in.from-right.panel
 carnegieendowment.org##.cookie-banner
+carnegieeurope.eu###selectionSharerPopover
+carnegieeurope.eu##.cookie-banner
+carnegieindia.org###selectionSharerPopover
+carnegieindia.org##.cookie-banner
+carnegiemoscow.org###selectionSharerPopover
+carnegiemoscow.org##.cookie-banner
+carnegietsinghua.org###selectionSharerPopover
+carnegietsinghua.org##.cookie-banner
 chat.mozilla.org##.mx_AnalyticsToast.mx_Toast_toast
 chocolatey.org###cookieNoticeAlert
 chocolatey.org###mc_embed_signup
@@ -858,7 +869,7 @@ zhidao.baidu.com##.task-list-button
 ||chat-commerce.adobe.com/checkout/log
 ||chat.afzhan.com/chat/$domain=www.afzhan.com
 ||checkout.stripe.com/v3/checkout.js
-||ci.phncdn.com/www-static/js/ph-tracking.js
+||cheewhoa.net/$third-party
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||click.fanyi.baidu.com/
 ||click.gamersky.com/Common/GetHits.aspx
@@ -901,6 +912,7 @@ zhidao.baidu.com##.task-list-button
 ||content.cdntwrk.com/components/website-widget/v1/*/widget.js$domain=www.qt.io
 ||cordova.apache.org/static/js/twitter.js
 ||countly.mail.163.com/countly/i$domain=mail.163.com
+||cqqwjxrllhfuioo.xyz/$third-party
 ||crash.data.v2.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||creatim.qtmojo.cn/td/AllyesDeliver.min.js
 ||creativecloud.adobe.com/browser_mon.js
@@ -926,8 +938,6 @@ zhidao.baidu.com##.task-list-button
 ||demandbase.com^*/ip.json
 ||developer.android.google.cn/_d/dynamic_content
 ||developer.android.google.cn/sw.js
-||developer.chrome.com/static/js/search.js
-||developer.chrome.com/static/js/site.js
 ||developer.microsoft.com/fdapi/jsll
 ||developer.mozilla.org/static/js/ga.js
 ||developers.google.cn/sw.js
@@ -1171,6 +1181,7 @@ zhidao.baidu.com##.task-list-button
 ||nexus.dell.com/dell/marketing/Bootstrap.js$domain=www.dell.com
 ||nexus.dell.com/dell/stpfooter/Bootstrap.js$domain=www.dell.com
 ||nir.theregister.co.uk/?g=vk&g=c&g=sa&g=vvfc$domain=www.theregister.com
+||nitrogenpleahierarchy.com/$third-party
 ||nohost/query
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||otelwebtelemetry.com/v1/trace
@@ -1202,6 +1213,7 @@ zhidao.baidu.com##.task-list-button
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
+||qfhtwihrle.xyz$third-party
 ||qixedu.com$domain=www.88ysw.com
 ||quantcast.mgr.consensu.org/choice/*/mathworks.com/choice.js$domain=www.mathworks.com
 ||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
@@ -1441,6 +1453,7 @@ zhidao.baidu.com##.task-list-button
 ||work.weixin.qq.com/wwopen/common/kvReport
 ||wp.qiye.qq.com/qidian/$domain=tapd.cn
 ||wreport.meituan.net
+||wsynefadhuli.xyz/$third-party
 ||wuji.video.qq.com/fcgi-bin/wuji$domain=v.qq.com
 ||www.*btjia.com/service/clickd/
 ||www.2cto.com/api.php?op=count
@@ -1479,9 +1492,9 @@ zhidao.baidu.com##.task-list-button
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-sharing/buttons.js
 ||www.clipconverter.cc/qr.php
 ||www.cloudflare.com/cdn-cgi/trace
-||www.cmcm5.com/js/pctb2.js
-||www.cmcm5.com/js/tb.js
-||www.cmcm5.com/js/tj.js
+||www.cmdy555.com/js/pctb2.js
+||www.cmdy555.com/js/tb.js
+||www.cmdy555.com/js/tj.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.cr173.com/count/count.txt
@@ -1608,8 +1621,8 @@ zhidao.baidu.com##.task-list-button
 ||yandex.com/clck/safeclick
 ||yandex.com/ick/r
 ||yandex.com/suggest-spok/suggest-ya.cgi
-||yastatic.net/s3/chat/1.16.0/widget_ya.js
 ||youtrack.jetbrains.com/api/analytics
+||ytxdftbgv.xyz$third-party
 ||zhannei-dm.csdn.net/recommend/baidu_zhannei_search$domain=blog.csdn.net
 ||zhidao.baidu.com/api/httpscheck
 ||zhidao.baidu.com/business/submit/dailystatistics
