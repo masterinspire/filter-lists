@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, October 7, 2021
+! Last modified: Friday, October 8, 2021
 ! Title: Master-AdRules
-! Version: 20211007
+! Version: 20211008
 !
 !
 !
@@ -176,6 +176,7 @@ doc.qt.io###cookie-confirm
 docs.asp.net###helpful
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
+docs.microsoft.com###banner-holder
 docs.microsoft.com###ignite-banner-holder
 docs.microsoft.com###openFeedbackContainer
 docs.microsoft.com##.feedback-section
@@ -186,7 +187,6 @@ dotnetfiddle.net##.container-sponsor
 downzen.com###amp-user-notification1
 dragablz.net##.sharedaddy
 dragablz.net##.widget_eu_cookie_law_widget.widget
-dxr.mozilla.org###context-menu
 dzone.com###adtoniq-msgr-bar
 dzone.com##.partner-resources-block.widget-top-border
 dzone.com##.signin-prompt
@@ -307,6 +307,7 @@ read.douban.com##.btns-tip.tooltip
 readthedocs.io##.keep-us-sustainable
 research.microsoft.com###shareShelf
 riptutorial.com##.section-aside.col-lg-2
+searchfox.org###context-menu
 segmentfault.com##.float-ads
 serverfault.com##.js-freemium-cta
 share.weiyun.com##.layout-sider-bar
@@ -818,6 +819,7 @@ zhidao.baidu.com##.task-list-button
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
 ||bundler.io/javascripts/analytics.js
+||bxdmnxui.xyz/$third-party
 ||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com,important
 ||c.disquscdn.com/next/embed/alfalfa_min.*.js
 ||c.dun.163.com/api/v2/collect
@@ -1425,7 +1427,7 @@ zhidao.baidu.com##.task-list-button
 ||w.irs03.com/iwt/a.gif$domain=www.mgtv.com
 ||wapbaike.baidu.com/api/wapui/getbaiketurboqmrs
 ||wapbaike.baidu.com/sfproxy.html
-||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=devblogs.microsoft.com|developer.microsoft.com
+||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
 ||wdf.mogu.com/jsonp/featureUpload/2$domain=portal.mogu.com
 ||web-player.art19.com/assets/current.js$domain=www.merriam-webster.com
 ||web.vortex.data.microsoft.com/collect
