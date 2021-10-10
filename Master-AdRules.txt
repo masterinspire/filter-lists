@@ -1,13 +1,14 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, October 8, 2021
+! Last modified: Sunday, October 10, 2021
 ! Title: Master-AdRules
-! Version: 20211008
+! Version: 20211010
 !
 !
 !
 ##cloudflare-app
+*.xyz$domain=vidembed.cc|vidembed.net
 /_/client-timings$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 /gps/event$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 /inc/timming.php
@@ -417,6 +418,7 @@ wpf.2000things.com###eu-cookie-law
 www.360doc.com###btn_freeread
 www.360doc.com###goTop2
 www.360doc.com##.docsharelist
+www.88ysw.com##+js(acis, navigator.platform)
 www.88ysw.com##.gotop
 www.allitebooks.in##.td-post-sharing
 www.androidcentral.com##.share
@@ -526,6 +528,7 @@ www.itpro.com##.polaris__newsletter
 www.itprotoday.com###newsletter-signup-load
 www.itprotoday.com##.gdpr-popup-border
 www.itprotoday.com##.share-icons
+www.javascripttutorial.net##.ad
 www.jb51.net###right-share
 www.jd.com##.promotional-top
 www.jetbrains.com##.cookies-banner
@@ -676,6 +679,7 @@ yandex.com##.content__right
 youdao.com###ads
 youdao.com###wljb
 youdao.com##.win-download.dialog-guide-download
+youtrack.jetbrains.com##div[class^="alertContainer_"]
 zhidao.baidu.com###selectsearch-icon
 zhidao.baidu.com##.activity-entry.menu-right-list-item
 zhidao.baidu.com##.icon-bdad
@@ -819,7 +823,6 @@ zhidao.baidu.com##.task-list-button
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
 ||bundler.io/javascripts/analytics.js
-||bxdmnxui.xyz/$third-party
 ||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com,important
 ||c.disquscdn.com/next/embed/alfalfa_min.*.js
 ||c.dun.163.com/api/v2/collect
@@ -871,7 +874,7 @@ zhidao.baidu.com##.task-list-button
 ||chat-commerce.adobe.com/checkout/log
 ||chat.afzhan.com/chat/$domain=www.afzhan.com
 ||checkout.stripe.com/v3/checkout.js
-||cheewhoa.net/$third-party
+||cheewhoa.net$domain=vidembed.cc|vidembed.net
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||click.fanyi.baidu.com/
 ||click.gamersky.com/Common/GetHits.aspx
@@ -914,7 +917,6 @@ zhidao.baidu.com##.task-list-button
 ||content.cdntwrk.com/components/website-widget/v1/*/widget.js$domain=www.qt.io
 ||cordova.apache.org/static/js/twitter.js
 ||countly.mail.163.com/countly/i$domain=mail.163.com
-||cqqwjxrllhfuioo.xyz/$third-party
 ||crash.data.v2.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||creatim.qtmojo.cn/td/AllyesDeliver.min.js
 ||creativecloud.adobe.com/browser_mon.js
@@ -981,7 +983,6 @@ zhidao.baidu.com##.task-list-button
 ||fe-api.zhaopin.com/c/i/adv
 ||feed.baidu.com/feed/api/tab/gettabinfo$domain=www.baidu.com|m.baidu.com
 ||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
-||fensifuligo.com$domain=www.88ysw.com
 ||flights.ctrip.com/itinerary/api/*/records
 ||fls-eu.amazon.com/1/aiv-web-player/1/OE$domain=www.primevideo.com
 ||forms.convertkit.com
@@ -1013,7 +1014,6 @@ zhidao.baidu.com##.task-list-button
 ||g.csdnimg.cn/share/*/css/share.css$domain=csdn.net
 ||g.csdnimg.cn/share/*/js/share.js$domain=csdn.net
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js$domain=csdn.net
-||gaomingbo.com$domain=www.88ysw.com
 ||gdpr-service.herokuapp.com/is-gdpr
 ||geo2.adobe.com/json/
 ||geolocation.1trust.app/cookieconsentpub/v1/geo/location
@@ -1093,13 +1093,12 @@ zhidao.baidu.com##.task-list-button
 ||jiathis.com$third-party
 ||jingyan.baidu.com/article/ajax/relatefeed
 ||jqmt.qq.com/cdn_dianjiliu.js
-||jrclick.jd.com/qd/qidian-*.*.*.js$domain=biz.jd.com
-||jrclick.jd.com/qidian.js$domain=passport.jdpay.com
+||jrclick.jd.com/$domain=biz.jd.com|passport.jdpay.com
 ||js-agent.newrelic.com/$domain=bitbucket.org
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
-||js.hs-scripts.com^$domain=stenciljs.com|www.npmjs.com|www.identityserver.com|www.axure.com|capacitorjs.com|www.ssh.com|ionicframework.com
-||js.hsforms.net/forms/v2.js$domain=stenciljs.com
+||js.hs-scripts.com$third-party
+||js.hsforms.net$third-party
 ||js.hsleadflows.net/leadflows.js$domain=stackoverflow.blog
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
@@ -1183,7 +1182,7 @@ zhidao.baidu.com##.task-list-button
 ||nexus.dell.com/dell/marketing/Bootstrap.js$domain=www.dell.com
 ||nexus.dell.com/dell/stpfooter/Bootstrap.js$domain=www.dell.com
 ||nir.theregister.co.uk/?g=vk&g=c&g=sa&g=vvfc$domain=www.theregister.com
-||nitrogenpleahierarchy.com/$third-party
+||nitrogenpleahierarchy.com$domain=vidembed.cc|vidembed.net
 ||nohost/query
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||otelwebtelemetry.com/v1/trace
@@ -1215,8 +1214,6 @@ zhidao.baidu.com##.task-list-button
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
-||qfhtwihrle.xyz$third-party
-||qixedu.com$domain=www.88ysw.com
 ||quantcast.mgr.consensu.org/choice/*/mathworks.com/choice.js$domain=www.mathworks.com
 ||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
 ||query.aliyun.com/rest/delivery.config.customRules.ambassor-delivery-topbar$domain=aliyun.com
@@ -1455,7 +1452,6 @@ zhidao.baidu.com##.task-list-button
 ||work.weixin.qq.com/wwopen/common/kvReport
 ||wp.qiye.qq.com/qidian/$domain=tapd.cn
 ||wreport.meituan.net
-||wsynefadhuli.xyz/$third-party
 ||wuji.video.qq.com/fcgi-bin/wuji$domain=v.qq.com
 ||www.*btjia.com/service/clickd/
 ||www.2cto.com/api.php?op=count
@@ -1616,7 +1612,6 @@ zhidao.baidu.com##.task-list-button
 ||www.zhihu.com/sc-profiler
 ||x.jr.jd.com/flow/bid$domain=biz.jd.com
 ||xfeedback.oss-cn-hangzhou.aliyuncs.com/$domain=market.aliyun.com
-||xg.jisukuaisong.cn$domain=www.88ysw.com
 ||xiongzhang.baidu.com/xzhstatistics/rp
 ||xui.ptlogin2.qq.com/ptui_ver.js
 ||xunit-slackin.herokuapp.com/slackin.js$domain=xunit.net
@@ -1624,7 +1619,6 @@ zhidao.baidu.com##.task-list-button
 ||yandex.com/ick/r
 ||yandex.com/suggest-spok/suggest-ya.cgi
 ||youtrack.jetbrains.com/api/analytics
-||ytxdftbgv.xyz$third-party
 ||zhannei-dm.csdn.net/recommend/baidu_zhannei_search$domain=blog.csdn.net
 ||zhidao.baidu.com/api/httpscheck
 ||zhidao.baidu.com/business/submit/dailystatistics
