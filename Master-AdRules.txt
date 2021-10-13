@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, October 10, 2021
+! Last modified: Wednesday, October 13, 2021
 ! Title: Master-AdRules
-! Version: 20211010
+! Version: 20211013
 !
 !
 !
@@ -113,6 +113,9 @@ carnegiemoscow.org###selectionSharerPopover
 carnegiemoscow.org##.cookie-banner
 carnegietsinghua.org###selectionSharerPopover
 carnegietsinghua.org##.cookie-banner
+chakra-ui.com###watch-the-egghead-course
+chakra-ui.com###watch-the-egghead-course + div.chakra-linkbox
+chakra-ui.com##a[rel="noopener sponsored"]
 chat.mozilla.org##.mx_AnalyticsToast.mx_Toast_toast
 chocolatey.org###cookieNoticeAlert
 chocolatey.org###mc_embed_signup
@@ -298,6 +301,7 @@ packagecloud.io##.logged-out-links
 pan.baidu.com##.phone-banner
 pastebin.com###float-box-frame
 paymerchant.mogu.com##[class^="src-components-BulletinBoard-BulletinBoard__BulletinBoard--"]
+ping.pe###page-div > pre[style="color:white; margin:0px; color:#b0b0b0"]
 play.google.com##.gb_9b.gb_zc.gb_fd
 plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
@@ -700,6 +704,7 @@ zhidao.baidu.com##.task-list-button
 ||12366.chinatax.gov.cn/znzx/arlog/access
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
+||a.apkpure.com/api-shares.json$domain=apkpure.com
 ||a.clipconverter.cc/www/d/fr.php
 ||a.disquscdn.com/count.js
 ||a1.cnblogs.com/group/T2$domain=www.cnblogs.com
@@ -864,6 +869,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent$third-party
 ||cdnjs.cloudflare.com/ajax/libs/outdated-browser$domain=npms.io
+||cdnpure.com/static/share-button/$domain=apkpure.com
 ||cdns.gigya.com/JS/gigya.js$domain=www.history.com
 ||cdnssl.clicktale.net$domain=answers.microsoft.com
 ||centralus-*.in.applicationinsights.azure.com//v2/track
@@ -1401,7 +1407,7 @@ zhidao.baidu.com##.task-list-button
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
 ||uedas.qidian.com/stat*.txt
 ||uedas.qidian.com/statajax.aspx
-||uhf.microsoft.com/*/shell/api/mscc$domain=www.typescriptlang.org
+||uhf.microsoft.com/*/shell/api/mscc
 ||uhf.microsoft.com/_log
 ||uhf.microsoft.com/mscc/statics/mscc-*
 ||ui.ptlogin2.qq.com/cgi-bin/report
