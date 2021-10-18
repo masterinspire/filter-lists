@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, October 13, 2021
+! Last modified: Monday, October 18, 2021
 ! Title: Master-AdRules
-! Version: 20211013
+! Version: 20211018
 !
 !
 !
@@ -90,6 +90,7 @@ blog.csdn.net##.vertical.tool-box
 blog.csdn.net#.more-toolbox
 blog.encyro.com###PopupSignupForm_0
 blog.jetbrains.com###post_footer_banner
+blog.jetbrains.com##.banner
 blog.jetbrains.com##.newsletter
 blog.karumi.com##.socialsidebar
 blog.magnusmontin.net###eu-cookie-law
@@ -271,6 +272,7 @@ m.tapd.cn##.bind-phone-tips
 map.baidu.com###leadDownloadCard
 map.baidu.com###message-panel
 map.baidu.com##.container.styleguide.index-widget-guidebanner
+map.baidu.com##.leadDownloadCard
 map.baidu.com##.poiLeadDownloadCard
 market.aliyun.com##div[class^="xf-"]
 material.angular.io##app-cookie-popup
@@ -468,6 +470,7 @@ www.codeproject.com##.cc-bottom.cc-theme-edgeless.cc-type-opt-in.cc-banner.cc-wi
 www.codeproject.com##.page-background > .overlay.alert-bar
 www.computerworld.com##aside[id^="fsb-"]
 www.cplusplus.com##body > div:nth-of-type(1)
+www.damninteresting.com##.tab-visible.plea
 www.dictionary.com###marketingBanner-right
 www.diezhan.me###c-help
 www.digitalocean.com###newsletter-signup-dialog
@@ -1001,8 +1004,7 @@ zhidao.baidu.com##.task-list-button
 ||fxsjcj.kaipuyun.cn/count$domain=shenzhen.chinatax.gov.cn
 ||fxsjcj2.kaipuyun.cn/count/$domain=hainan.chinatax.gov.cn
 ||g.alicdn.com/AWSC/AWSC/awsc.js$domain=download.csdn.net
-||g.alicdn.com/alilog/mlog/aplus_o.js$domain=youku.com
-||g.alicdn.com/alilog/mlog/aplus_v2.js$domain=aliyun.com
+||g.alicdn.com/alilog/mlog/aplus_*.js$domain=youku.com|aliyun.com
 ||g.alicdn.com/alilog/oneplus/entry.js$domain=help.aliyun.com
 ||g.alicdn.com/aliyun/util/*/module/Promotion.js$domain=help.aliyun.com
 ||g.alicdn.com/aliyun/www-dpl/*/knight/js/data-statistics.js$domain=aliyun.com
@@ -1109,7 +1111,7 @@ zhidao.baidu.com##.task-list-button
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
-||js.monitor.azure.com/next/1/ms.jsll-3.js
+||js.monitor.azure.com$third-party,important
 ||js.stripe.com/$domain=fontawesome.com|www.just-great-software.com|exceljet.net
 ||js.users.51.la/$domain=www.88ysw.com
 ||jstatic.letvcdn.com/sdk/apcsdk.js
@@ -1340,7 +1342,6 @@ zhidao.baidu.com##.task-list-button
 ||static.scroll.com/js/scroll.js$domain=tvtropes.org|www.theverge.com
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
 ||static.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
-||static.youku.com/index/js/ikuAdapterNew.js
 ||static1.51cto.com/51cto/cms/static/api/js/share.js$domain=51cto.com
 ||static1.51cto.com/edu/blog/js/pvlog.js$domain=blog.51cto.com
 ||static1.51cto.com/edu/blog/mobile/js/lib/share.js$domain=blog.51cto.com
