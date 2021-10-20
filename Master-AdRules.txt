@@ -1,13 +1,12 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, October 18, 2021
+! Last modified: Wednesday, October 20, 2021
 ! Title: Master-AdRules
-! Version: 20211018
+! Version: 20211020
 !
 !
 !
-##cloudflare-app
 *.xyz$domain=vidembed.cc|vidembed.net
 /_/client-timings$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 /gps/event$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
@@ -101,6 +100,7 @@ boxnovel.baidu.com##.Operate
 boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
+brave.com##.announcement-banner
 carnegie-mec.org###selectionSharerPopover
 carnegie-mec.org##.cookie-banner
 carnegieendowment.org###selectionSharerPopover
@@ -128,6 +128,7 @@ cloud.tencent.com##.document-feedback-container
 cloud.tencent.com##.rno-documents-tools.rno-scrollbar-tools
 cloud.tencent.com##.select-feedback-tip
 club.ubisoft.com###footer_tc_privacy
+cn.bing.com###b_mtp
 cn.bing.com###b_notificationContainer_bop
 cn.bing.com###b_pole
 cn.bing.com###qs_searchBox
@@ -314,6 +315,7 @@ read.douban.com##.btns-tip.tooltip
 readthedocs.io##.keep-us-sustainable
 research.microsoft.com###shareShelf
 riptutorial.com##.section-aside.col-lg-2
+search.brave.com###search-elsewhere
 searchfox.org###context-menu
 segmentfault.com##.float-ads
 serverfault.com##.js-freemium-cta
@@ -572,6 +574,7 @@ www.merriam-webster.com##.wod-podcast-player-block.podcast-player-block
 www.merriam-webster.com##.wotd-side__subscribe
 www.merriam-webster.com##div.hide-mobile.rail-abl-box
 www.microsoft.com##.row-fluid.end-social
+www.mojeek.com##.js-pop.pop-in
 www.mssqltips.com###slideboxtop
 www.mssqltips.com##.columns.hide-for-print.large-3
 www.namegeneratorfun.com###consent
@@ -641,7 +644,9 @@ www.thefreedictionary.com###secLoginToAccess
 www.thefreedictionary.com###w1 > .w2 > div > div
 www.thefreedictionary.com##.shareFeedBtns
 www.thetechlounge.com###cookie-law-info-bar
+www.theverge.com###newsletter-signup-short-form
 www.theverge.com##.adblock-allowlist-messaging__wrapper
+www.theverge.com##.c-read-more
 www.thurrott.com##.gdpr-cookie-banner
 www.thurrott.com##.logged-out.comments
 www.tldrgames.com###catapult-cookie-bar
@@ -826,6 +831,7 @@ zhidao.baidu.com##.task-list-button
 ||bordeaux.futurecdn.net/bordeaux.js$domain=www.livescience.com
 ||boxnovel.baidu.com/boxnovel/wiseapi/getContentExtra
 ||boxnovel.baidu.com/boxnovel/wiseapi/getFengchao
+||bravesoftware.zendesk.com/auth/v2/host.js$domain=support.brave.com
 ||browser.sentry-cdn.com/*/bundle.min.js$domain=www.jetbrains.com
 ||btrace.video.qq.com/collect
 ||btrace.video.qq.com/kvcollect
@@ -856,7 +862,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/consent/*.js
 ||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=tvtropes.org|www.dictionary.com|www.usatoday.com
-||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=www.zdnet.com|www.usatoday.com|tvtropes.org|www.merriam-webster.com|vmware.com|www.dictionary.com
+||cdn.cookielaw.org/scripttemplates/otSDKStub.js$third-party
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.infoq.com/statics_*/scripts/lib/browser-update-org/update.js
 ||cdn.livechatinc.com/tracking.js
@@ -865,6 +871,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js$third-party
 ||cdn.playwire.com/plugins/docky.min.js$domain=www.slant.co
 ||cdn.ravenjs.com/*/raven.min.js$domain=pypi.org
+||cdn.search.brave.com/ks.json
 ||cdn.segment.com/analytics.js/v1/*/analytics.min.js$important
 ||cdn.subscribers.com/assets/subscribers.js$domain=www.infoworld.com
 ||cdn.syncfusion.com/scripts/albacross/track-new.js
@@ -1084,8 +1091,7 @@ zhidao.baidu.com##.task-list-button
 ||insight.cloud.tencent.com/event$domain=cloud.tencent.com
 ||intellij-support.jetbrains.com/api/v2/help_center/community/posts/*/stats/view.json
 ||interact.f5.com/rs/*/images/munchkinxd-*.js$domain=www.nginx.com
-||ionicframeworkcom.prismic.io/api/v2
-||ionicframeworkcom.prismic.io/api/v2$domain=capacitorjs.com
+||ionicframeworkcom.prismic.io/api/v2$third-party
 ||ipinfo.io$third-party
 ||isdspeed.qidian.com/cgi-bin/r.cgi
 ||isdspeed.qq.com/cgi-bin/r.cgi
@@ -1256,7 +1262,7 @@ zhidao.baidu.com##.task-list-button
 ||s3-us-west-2.amazonaws.com/ad-maven-public-cdn/notT/clipconverter.js
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
 ||s3.amazonaws.com/collectchat/launcher.js$domain=techxposer.com
-||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=npm.taobao.org|mahapps.com
+||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=npm.taobao.org|mahapps.com|github.io
 ||s3.pstatp.com/pgc/tech/collect/collect-v.*.js$domain=www.toutiao.com
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sa.suning.cn/hotClick.gif
@@ -1267,6 +1273,9 @@ zhidao.baidu.com##.task-list-button
 ||sdk.51.la/js-sdk-pro.min.js$domain=www.luhu.co
 ||search-api.fie.futurecdn.net/js/w/es6/responsive.js$domain=www.livescience.com
 ||search.10086.cn/log_collecter/collecter.do
+||search.brave.com/api/feedback
+||search.brave.com/api/state/independence
+||search.brave.com/api/suggest
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
@@ -1360,6 +1369,7 @@ zhidao.baidu.com##.task-list-button
 ||stripe.com$domain=gitbook.com
 ||sug.so.360.cn/suggest
 ||sugar.zhihu.com/plutus_adreaper$domain=www.zhihu.com
+||support.brave.com/hc/activity
 ||support.google.com/apis/gpf_metrics
 ||support.google.com/chrome/apis/metrics
 ||support.microsoft.com/SocContent/floodgate
