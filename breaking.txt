@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, October 8, 2021
+! Last modified: Thursday, October 21, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20211008
+! Version: 20211021
 !
 !
 !
@@ -36,6 +36,7 @@
 ||partnerresources.azureedge.net/public/$domain=developer.microsoft.com
 ||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com|gitter.im|community.notepad-plus-plus.org
 ||play.google.com$domain=developer.android.google.cn|www.msn.com
+||player.vimeo.com/video/$domain=brave.com
 ||polyfill.io/v3/polyfill.min.js$domain=www.typescriptlang.org|community.chocolatey.org
 ||raw.githubusercontent.com/mui-org/material-ui/master/docs/notifications.json$domain=mui.com
 ||res.wx.qq.com/open/js/jweixin-*.js
