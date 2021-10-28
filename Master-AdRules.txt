@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, October 25, 2021
+! Last modified: Thursday, October 28, 2021
 ! Title: Master-AdRules
-! Version: 20211025
+! Version: 20211028
 !
 !
 !
@@ -214,6 +214,7 @@ forum.gitlab.com##.quote-button
 forums.asp.net##.all-content > div:nth-of-type(1)
 freecommander.com###cookie-notice
 get.videolan.org###uecookies
+gist.github.com##.gist-banner.gist-detail-intro
 gitbook-*.firebaseio.com/.lp$domain=docs.avaloniaui.net
 github.com##.signup-prompt-bg
 github.community##.quote-button
@@ -285,6 +286,7 @@ mui.com##[data-ga-event-category="ad"]
 mui.com##[data-ga-event-category="sponsor"]
 music.taihe.com##.__qianqian_qrcode
 nginx.org###banner
+nokia.com###cmp-modal
 npm.taobao.org###fork
 office.com###epb
 os.51cto.com##.footer_mask
@@ -569,7 +571,6 @@ www.mssqltips.com##.columns.hide-for-print.large-3
 www.namegeneratorfun.com###consent
 www.newtonsoft.com###footerNotice
 www.nokia.com###block-nokialocalesuggestionblock
-www.nokia.com###cmp-modal
 www.nokia.com##.nokia-cookies-wrapper
 www.npmjs.com##DIV[id="notification-banner"]
 www.nuget.org###sideColumn > .stat
@@ -940,7 +941,6 @@ zhidao.baidu.com##.task-list-button
 ||data.v.qq.com/videocms/getNewsvideoList.php
 ||datacollect.vmall.com:18443$third-party
 ||datatables.net/media/js/dynamic.php
-||dc.pconline.com.cn/jt/$domain=dl.pconline.com.cn
 ||dc.services.visualstudio.com/v2/track
 ||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
 ||demandbase.com^*/ip.json
@@ -1068,9 +1068,8 @@ zhidao.baidu.com##.task-list-button
 ||img05.zhaopin.cn/2014/common/js/za/ga.js
 ||imgcache.qq.com/qcloud/platreport/dest/index.js$domain=cloud.tencent.com
 ||imgcache.qq.com/tencentvideo_v1/player/plugins/RelevanceAd.swf
-||imgcdn.pconline.com.cn/show$domain=dl.pconline.com.cn
 ||insight.cloud.tencent.com/event$domain=cloud.tencent.com
-||intellij-support.jetbrains.com/api/v2/help_center/community/posts/*/stats/view.json
+||intellij-support.jetbrains.com/hc/activity
 ||interact.f5.com/rs/*/images/munchkinxd-*.js$domain=www.nginx.com
 ||ionicframeworkcom.prismic.io/api/v2$third-party
 ||ipinfo.io$third-party
@@ -1180,6 +1179,7 @@ zhidao.baidu.com##.task-list-button
 ||pan.baidu.com/rest/2.0/pcs/adx
 ||partnerresources.azureedge.net/public/*/scripts/ai.min.js
 ||partners.npmjs.com/hiring$domain=npmjs.com
+||passport.csdn.net/v1/api/get/homeword
 ||pc.weixin.qq.com/cgi/report-web
 ||pcweb-v1.log.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||ping.cloud.tencent.com/trafficCollect.php
@@ -1262,6 +1262,8 @@ zhidao.baidu.com##.task-list-button
 ||sharethis.com$third-party
 ||shenzhen.chinatax.gov.cn/static/api/js/share
 ||signup.azure.com/api/clientlog
+||silkroad.csdn.net/api/v2/assemble/list/channel/pc_hot_word
+||silkroad.csdn.net/api/v2/assemble/list/channel/search_hot_word
 ||slack-cordova-io.herokuapp.com/slackin.js
 ||slice.vanilla.futurecdn.net/*/react.js$domain=www.livescience.com
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
@@ -1348,6 +1350,7 @@ zhidao.baidu.com##.task-list-button
 ||support.microsoft.com/lib/oneds/dist/ms.analytics-web-*.min.js
 ||support.microsoft.com/socbundles/floodgate
 ||support.office.com/bundles/stickyFeedback
+||support.opendns.com/hc/activity
 ||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
 ||support2.microsoft.com/common/surveyscripthandler.ashx
@@ -1470,6 +1473,7 @@ zhidao.baidu.com##.task-list-button
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-sharing/buttons.js
 ||www.clipconverter.cc/qr.php
 ||www.cloudflare.com/cdn-cgi/trace
+||www.cloudflare.com/vendor/onetrust/scripttemplates/otSDKStub.js
 ||www.cmdy555.com/js/pctb2.js
 ||www.cmdy555.com/js/tb.js
 ||www.cmdy555.com/js/tj.js
