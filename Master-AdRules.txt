@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, October 28, 2021
+! Last modified: Sunday, October 31, 2021
 ! Title: Master-AdRules
-! Version: 20211028
+! Version: 20211031
 !
 !
 !
@@ -415,12 +415,8 @@ wk.baidu.com##.wk-container.gain-doc-block-root
 wk.baidu.com##.wk-join-years
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
 wpf.2000things.com###eu-cookie-law
-www.360doc.com###btn_freeread
-www.360doc.com###goTop2
-www.360doc.com##.docsharelist
 www.88ysw.com##+js(acis, navigator.platform)
 www.88ysw.com##.gotop
-www.allitebooks.in##.td-post-sharing
 www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
@@ -789,6 +785,7 @@ zhidao.baidu.com##.task-list-button
 ||baike.baidu.com/api/wapui/getbaiketurboqmrs
 ||baike.baidu.com/api/wikiad/getsquirrels
 ||baike.baidu.com/api/wikisecond/playurl?secondId=
+||baike.baidu.com/api/wikiui/directad
 ||baike.baidu.com/api/wikiui/getasp
 ||baike.baidu.com/sfproxy.html
 ||bdimg.share.baidu.com/static/api/js/share.js
@@ -1042,8 +1039,6 @@ zhidao.baidu.com##.task-list-button
 ||gss*.baidu.com/*/static/api/js/share/share_api.js
 ||gss*.baidu.com/*/static/api/js/view/share_view.js
 ||gttp.co/v1.js$domain=vuejs.org
-||h5.360buyimg.com/ws_js/gatherInfo.js
-||h5.360buyimg.com/ws_js/jdwebm.js
 ||h5.qzone.qq.com/wspeed.qq.com/w.cgi$domain=share.weiyun.com
 ||h5speed.m.jd.com/v2/speed/activity
 ||hcl.baidu.com/h.gif$domain=www.hao123.com
@@ -1227,9 +1222,6 @@ zhidao.baidu.com##.task-list-button
 ||s.bdstatic.com/common/openjs/openBox.js$domain=www.baidu.com|m.baidu.com
 ||s.cn.bing.net/th?*pid=News
 ||s.cn.bing.net/th?id=*&pid=MsnJVFeeds
-||s.lianmeng.360.cn/so/inlay.js
-||s.ssl.qhimg.com/static/*/monitor_analytic.js
-||s1.mi.com/stat/18/xmst.js
 ||s13.cnzz.com/z_stat.php
 ||s3-us-west-2.amazonaws.com/ad-maven-public-cdn/notT/clipconverter.js
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
@@ -1374,12 +1366,9 @@ zhidao.baidu.com##.task-list-button
 ||tldas.pinduoduo.com/e.gif
 ||tongji.51cto.com/frontend/index$domain=51cto.com
 ||tongji.flash.cn/hm*.gif
-||tongji.pc6.com/statistics.php
-||tongji.xunyou.com/xunyou_tj.js
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
 ||tracert.alipay.com/cross.html$domain=www.yuque.com|alipay.com
-||tracker.klink.tech
 ||tracking.epicgames.com
 ||translate.google.cn/gen204
 ||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com|startpagesearch.com
@@ -1393,10 +1382,6 @@ zhidao.baidu.com##.task-list-button
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||update.vivaldi.com/stats/rep
 ||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
-||ux.21cn.com/api/htmlReportRest
-||v2.sohu.com/api/pc-home-city/home-data/ip2location
-||v2.sohu.com/integration-api/batch/web
-||v2.sohu.com/integration-api/mix/region/$important
 ||v2.zopim.com$domain=intellipaat.com
 ||v20200617-gap.freecodecamp.org/$domain=www.freecodecamp.org,important
 ||va.tawk.to/register/$domain=www.sswug.org
@@ -1437,9 +1422,7 @@ zhidao.baidu.com##.task-list-button
 ||wp.qiye.qq.com/qidian/$domain=tapd.cn
 ||wreport.meituan.net
 ||wuji.video.qq.com/fcgi-bin/wuji$domain=v.qq.com
-||www.*btjia.com/service/clickd/
 ||www.2cto.com/api.php?op=count
-||www.360doc.com/ajax/clickStatics.ashx
 ||www.8131478.com:3721/baiduad/$domain=kongpao.com
 ||www.88ysw.com/js/ads/dibu.js
 ||www.88ysw.com/static/api/js/share.js
