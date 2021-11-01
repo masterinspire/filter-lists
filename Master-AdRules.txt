@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, October 31, 2021
+! Last modified: Monday, November 1, 2021
 ! Title: Master-AdRules
-! Version: 20211031
+! Version: 20211101
 !
 !
 !
@@ -68,6 +68,7 @@ blog.51cto.com##.special-column .column-1
 blog.51cto.com##[id^="topbanner"]
 blog.51cto.com##a.zhiCustomBtn
 blog.codecentric.de###BorlabsCookieBox
+blog.csdn.net###articleSearchTip
 blog.csdn.net###btn-detail
 blog.csdn.net###passportbox
 blog.csdn.net###writeGuide
@@ -189,6 +190,9 @@ dotnetfiddle.net##.container-sponsor
 downzen.com###amp-user-notification1
 dragablz.net##.sharedaddy
 dragablz.net##.widget_eu_cookie_law_widget.widget
+duckduckgo.com##.header__label.showcase.header--aside__item
+duckduckgo.com##.js-feedback-btn-wrap
+duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
 dzone.com###adtoniq-msgr-bar
 dzone.com##.partner-resources-block.widget-top-border
 dzone.com##.signin-prompt
@@ -236,6 +240,7 @@ help.aliyun.com##.help-detail-feedback-wrapper
 help.aliyun.com##.recommendation-area-fixed
 help.aliyun.com##.select-widFeedback
 helpx.adobe.com###helpful-pod
+img.alicdn.com/$domain=rpa4.aliyun.net
 ironsoftware.com##.fixed-support-bar
 itextpdf.com##.eu-cookie-compliance-banner
 jd.com###toolbar-qrcode
@@ -415,7 +420,6 @@ wk.baidu.com##.wk-container.gain-doc-block-root
 wk.baidu.com##.wk-join-years
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
 wpf.2000things.com###eu-cookie-law
-www.88ysw.com##+js(acis, navigator.platform)
 www.88ysw.com##.gotop
 www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
@@ -841,6 +845,7 @@ zhidao.baidu.com##.task-list-button
 ||cd.jd.com/promotion/v2
 ||cdid.c-ctrip.com/chloro-device/v2/d$domain=ctrip.com
 ||cdid.c-ctrip.com/model-poc2/h$domain=ctrip.com
+||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn.ampproject.org/v0/amp-social-share-*.js
 ||cdn.branch.io/branch-latest.min.js$domain=medium.com
@@ -961,6 +966,7 @@ zhidao.baidu.com##.task-list-button
 ||dp3.qq.com/stdlog$domain=v.qq.com
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
+||duckduckgo.com/country.json
 ||earlymonitoring.firebaseapp.com/index.min.js$domain=www.gatsbyjs.org
 ||ebank.spdb.com.cn/etrack/
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
@@ -1188,6 +1194,7 @@ zhidao.baidu.com##.task-list-button
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
+||position.csdnimg.cn/oapi/get
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
@@ -1227,6 +1234,7 @@ zhidao.baidu.com##.task-list-button
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
 ||s3.amazonaws.com/collectchat/launcher.js$domain=techxposer.com
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=npm.taobao.org|mahapps.com|github.io
+||s3a.pstatp.com/toutiao/push.js$domain=csdn.net
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sc.appvipshop.com/vips-mobile-tracker/router.do?service=vip.monitor.logger
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
@@ -1578,9 +1586,6 @@ zhidao.baidu.com##.task-list-button
 ||xiongzhang.baidu.com/xzhstatistics/rp
 ||xui.ptlogin2.qq.com/ptui_ver.js
 ||xunit-slackin.herokuapp.com/slackin.js$domain=xunit.net
-||yandex.com/clck/safeclick
-||yandex.com/ick/r
-||yandex.com/suggest-spok/suggest-ya.cgi
 ||youtrack.jetbrains.com/api/analytics
 ||zhannei-dm.csdn.net/recommend/baidu_zhannei_search$domain=blog.csdn.net
 ||zhidao.baidu.com/api/httpscheck
