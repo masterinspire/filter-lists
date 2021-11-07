@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, November 1, 2021
+! Last modified: Sunday, November 7, 2021
 ! Title: Master-AdRules
-! Version: 20211101
+! Version: 20211107
 !
 !
 !
@@ -300,7 +300,8 @@ osdn.net###cookie-bar
 packagecloud.io###cookie-popover
 packagecloud.io##.logged-out-links
 pan.baidu.com##.phone-banner
-pastebin.com###float-box-frame
+pastebin.com##.-cookies.popup-box
+pastebin.com##.-pro.popup-box
 ping.pe###page-div > pre[style="color:white; margin:0px; color:#b0b0b0"]
 play.google.com##.gb_9b.gb_zc.gb_fd
 plugins.jetbrains.com###legal-user-acceptance-plugins
@@ -460,8 +461,7 @@ www.chinatax.gov.cn##.fixed-right-box
 www.chinatax.gov.cn##.paiochuang
 www.cloudamqp.com##.dark-bg.signup
 www.cnblogs.com###div_digg
-www.codeproject.com##.cc-bottom.cc-theme-edgeless.cc-type-opt-in.cc-banner.cc-window
-www.codeproject.com##.page-background > .overlay.alert-bar
+www.codeproject.com##[aria-label="cookieconsent"]
 www.computerworld.com##aside[id^="fsb-"]
 www.cplusplus.com##body > div:nth-of-type(1)
 www.damninteresting.com##.tab-visible.plea
@@ -510,6 +510,9 @@ www.gtabase.com###ja-current-content > script ~ div.custom
 www.gtabase.com##.mailing-list-bottom
 www.gtabase.com##.wbl-social-button
 www.haosou.com###side
+www.historytoday.com###block-newsletter-frontpage-signup
+www.historytoday.com##.block-advertisement-banner-block
+www.historytoday.com##.block-signup-block
 www.howtogeek.com###main > article > div.entry-content > div[style*="text-align: center; background-color: rgb(247, 247, 247); border: 1px solid rgb(243, 243, 243); width: 100%; padding-bottom: 18px;"]
 www.howtogeek.com###v2campaignmidpage
 www.howtogeek.com###v2campaignpopup
@@ -709,7 +712,6 @@ zhidao.baidu.com##.task-list-button
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||access-prod.apis.anvato.net/anvacks/$domain=www.fox5ny.com
 ||account.jetbrains.com/services/consentOptions
-||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org
 ||ad.liepin.com/adremote/recordingcnt$domain=liepin.com
 ||ada.baidu.com/udpl$domain=m.baidu.com|www.baidu.com|zhidao.baidu.com
 ||addthis.com/js/300/addthis_widget.js$third-party
@@ -923,8 +925,6 @@ zhidao.baidu.com##.task-list-button
 ||constid.dingxiang-inc.com/udid/c1$domain=www.cnblogs.com
 ||content.cdntwrk.com/components/website-widget/v1/*/widget.js$domain=www.qt.io
 ||cordova.apache.org/static/js/twitter.js
-||countly.mail.163.com/countly/i$domain=mail.163.com
-||crash.data.v2.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||creatim.qtmojo.cn/td/AllyesDeliver.min.js
 ||creativecloud.adobe.com/browser_mon.js
 ||csdnimg.cn/rabbit/exposure-click/block.js$domain=csdn.net
@@ -959,7 +959,6 @@ zhidao.baidu.com##.task-list-button
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
 ||docs.microsoft.com/answers/page-view/track.json
 ||docs.microsoft.com/static/third-party/jsll/*/jsll-*.js
-||docs.ti-net.com.cn/count.php
 ||docs.vmware.com/o_QRaOhSHwyQ4ee5GSH0/YOOcD4Gkhauf/BwtUPgE/KkYqIU/UpQxk
 ||downloadmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com|angular-academy.com
@@ -1128,7 +1127,6 @@ zhidao.baidu.com##.task-list-button
 ||m.hao123.com/static/tj.gif$domain=mo.baidu.com
 ||m.lagou.com/wafcheck.json
 ||m.mi.com/v1/apkversion/download_guide
-||m.pc6.com/ajax.asp?action=894
 ||m.servedby-buysellads.com/monetization.js
 ||m.vivibb.com/index.php/user/ajax_ulog/
 ||m.vivibb.com/statics/api/js/share.js
@@ -1303,13 +1301,8 @@ zhidao.baidu.com##.task-list-button
 ||sstats.adobe.com$third-party
 ||star.tag.webdev.com/api/page
 ||starget.mathworks.com/rest/v1/delivery
-||stat-api.20hn.cn/jf.gif$domain=pc6.com
-||stat.56.com/album/count.php
-||stat.it168.com/ClickPv.js
-||stat.it168.com/pv.js
-||stat.pchome.net/stat.js
 ||static-cf.cleverbridge.com/mycontent/1/cleverAnalytics.js
-||static.addtoany.com/menu/sm.21.html
+||static.addtoany.com/menu/page.js$domain=www.historytoday.com
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/button*
 ||static.duoshuo.com/embed.js$third-party
@@ -1351,6 +1344,7 @@ zhidao.baidu.com##.task-list-button
 ||support.microsoft.com/socbundles/floodgate
 ||support.office.com/bundles/stickyFeedback
 ||support.opendns.com/hc/activity
+||support.stackpath.com/hc/activity
 ||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
 ||support2.microsoft.com/common/surveyscripthandler.ashx
@@ -1491,13 +1485,14 @@ zhidao.baidu.com##.task-list-button
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
 ||www.google.cn/domainless/read
 ||www.googleadservices.com/pagead
-||www.googletagmanager.com/gtag/js
-||www.googletagmanager.com/gtm.js$important
-||www.googletagservices.com/tag/js/gpt.js$third-party
+||www.googletagmanager.com/$third-party,important
+||www.googletagservices.com/$third-party,important
 ||www.gstatic.com/feedback/api.js$third-party
 ||www.hao123.com/h.gif
 ||www.hao123.com/images-ab/h.gif
 ||www.history.com/vendor/adobe-target.js
+||www.historytoday.com/advertisement/
+||www.historytoday.com/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js
 ||www.huawei.com/pepp4_lakers
 ||www.huimg.cn/public/js/doc-pc-monintor-20170308.js$domain=baike.com
 ||www.huimg.cn/sns/js/share20121203.js$domain=baike.com
@@ -1536,8 +1531,6 @@ zhidao.baidu.com##.task-list-button
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Magento_GoogleTagManager/
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_GoogleTagManager/
 ||www.paypal.com/xoplatform/logger/api/log
-||www.pc6.com/public/images/softad*.*
-||www.pc6.com/static/api/js/share.js
 ||www.pgyer.com/app/getAdAdsense
 ||www.pinduoduo.com/icp
 ||www.qqfby.com/baidu/baidudibu.js
