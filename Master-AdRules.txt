@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, November 7, 2021
+! Last modified: Monday, November 8, 2021
 ! Title: Master-AdRules
-! Version: 20211107
+! Version: 20211108
 !
 !
 !
@@ -607,13 +607,10 @@ www.samsung.com##.cm-cookie-geo
 www.samsung.com##.iparsys.ipar.parsys
 www.sciencenewsforstudents.org##[class^="newsletter-signup__wrapper___"]
 www.sitepoint.com##.roller-door-placeholder
-www.smartsvn.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
 www.sohu.com###float-btn
 www.sqlitetutorial.net##.ad
 www.sqlshack.com###cookiesWarning
 www.ssh.com##[class^="sidenav__SidenavPromoContainer"]
-www.syntevo.com##.cc-bottom.cc-theme-block.cc-type-opt-in.cc-banner
-www.syntevo.com##.cookie
 www.sysgeek.cn##.action-share
 www.sysgeek.cn##.bdsharebuttonbox.action-share
 www.sysgeek.cn##.container > .speedbar
@@ -662,6 +659,7 @@ www.wikihow.com###article_courses_banner
 www.wikihow.com###contribute_footer
 www.wilderssecurity.com##.bottomFixer
 www.wintips.org##.cresta-share-icon
+www.wired.co.uk##.social-icons--share.social-icons
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
 www.xda-developers.com##.et_social_inline
@@ -1190,6 +1188,7 @@ zhidao.baidu.com##.task-list-button
 ||platform.twitter.com/widgets$third-party
 ||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
+||player.cnevids.com$domain=www.wired.co.uk
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
