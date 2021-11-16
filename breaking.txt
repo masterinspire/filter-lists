@@ -1,18 +1,18 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, November 8, 2021
+! Last modified: Tuesday, November 16, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20211108
+! Version: 20211116
 !
 !
 !
 ||*.bp.blogspot.com$domain=developer.android.google.cn
 ||*.disqus.com/embed.js
-||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org|www.codeproject.com
+||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org|www.codeproject.com|www.quora.com
 ||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
 ||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
-||apis.google.com$domain=translate.google.cn|developer.android.google.cn
+||apis.google.com$domain=translate.google.cn|developer.android.google.cn|www.quora.com
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com
 ||cdn-images-*.medium.com$domain=developer.android.google.cn
 ||cefsharp.github.io/images/top-header.png
