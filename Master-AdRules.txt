@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, November 16, 2021
+! Last modified: Wednesday, November 17, 2021
 ! Title: Master-AdRules
-! Version: 20211116
+! Version: 20211117
 !
 !
 !
@@ -307,6 +307,7 @@ play.google.com##.gb_9b.gb_zc.gb_fd
 plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
 prodesigntools.com###wpfront-notification-bar-spacer
+pypi.org##div[data-html-include="/_includes/notification-banners/"]
 qtcn.org##DIV[class="pw_all_tip"]
 read.douban.com###desktop-app-ad
 read.douban.com##.btns-tip.tooltip
@@ -629,7 +630,7 @@ www.telerik.com##.optanon-alert-box-wrapper
 www.tenforums.com###cookiescript_injected
 www.tenforums.com###snigel-cmp-framework
 www.theatlantic.com###paywall
-www.theatlantic.com##js-non-metered-nudge.c-non-metered-nudge
+www.theatlantic.com##.js-non-metered-nudge.c-non-metered-nudge
 www.thefreedictionary.com###SubscrSlider
 www.thefreedictionary.com###fixedBlock
 www.thefreedictionary.com###secLoginToAccess
@@ -648,6 +649,7 @@ www.tutorialspoint.com###privacy-banner
 www.tutorialspoint.com###rightbar
 www.tutorialspoint.com##.google-bottom-ads
 www.tutorialspoint.com##.top-ad-heading
+www.twitch.tv###twilight-sticky-footer-root
 www.typescriptlang.org###page-helpful-popup
 www.ubuntu.com##.cookie-policy
 www.usatoday.com###gnt_atomsnc
@@ -954,6 +956,7 @@ zhidao.baidu.com##.task-list-button
 ||developers.google.com/_d/analytics-iframe
 ||dictionary.cambridge.org/external/scripts/ads.min.js
 ||discord.com/api/v6/science
+||discord.com/assets/oneTrust/v2/scripttemplates/otSDKStub.js
 ||dlog.liepin.com/dlog$domain=liepin.com
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
 ||docs.microsoft.com/answers/page-view/track.json
@@ -1025,6 +1028,7 @@ zhidao.baidu.com##.task-list-button
 ||gia.jd.com/y.html
 ||gitbook-*.firebaseio.com/.lp?start$domain=everything.curl.dev
 ||gitee.com/bd_share/static/api/js/share.js
+||github.com/orgs/*/survey_banner
 ||gitter.im/api/private/statsc
 ||glitter.services.disqus.com/urls/?callback=dsqGlitterResponseHandler
 ||go.digitalocean.com/js/forms2/js/forms2.min.js
@@ -1166,6 +1170,7 @@ zhidao.baidu.com##.task-list-button
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||otelwebtelemetry.com/v1/trace
 ||outofmemory.cn/static/js/h.js
+||p.twitchcdn.net/v3/polyfill.min.js
 ||page.aliyun.com/delivery/plan/list$domain=aliyun.com
 ||page.gitlab.com/js/forms2/js/forms2.min.js$domain=about.gitlab.com
 ||pagead2.googlesyndication.com$important
@@ -1524,6 +1529,8 @@ zhidao.baidu.com##.task-list-button
 ||www.qqfby.com/js/dh.js
 ||www.qt.io/_hcms/perf
 ||www.qt.io/hs/scriptloader/*.js
+||www.quora.com/ajax/log_errors_3RD_PARTY_POST
+||www.quora.com/ajax/receive_POST
 ||www.rabbitmq.com/img/banner-s1p.png
 ||www.rabbitmq.com/js/ga-bootstrap.js
 ||www.rarlab.com/js/ckrule.js
