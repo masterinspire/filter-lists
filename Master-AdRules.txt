@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, November 17, 2021
+! Last modified: Thursday, November 18, 2021
 ! Title: Master-AdRules
-! Version: 20211117
+! Version: 20211118
 !
 !
 !
@@ -494,6 +494,7 @@ www.experts-exchange.com##.getAccessContainer
 www.experts-exchange.com##.weHelpBanner
 www.fanbyte.com###PopupSignupForm_0
 www.fanbyte.com###check-also-box
+www.flickr.com##.cookie-banner-view
 www.forbes.com##.seo.recirc-module
 www.fosshub.com/media/js/adblock.js
 www.gamersky.com##.Mid2_R
@@ -664,6 +665,8 @@ www.wikihow.com###contribute_footer
 www.wilderssecurity.com##.bottomFixer
 www.wintips.org##.cresta-share-icon
 www.wired.co.uk##.social-icons--share.social-icons
+www.wired.com##.article__social-share
+www.wired.com##.newsletter-subscribe-form
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
 www.xda-developers.com##.et_social_inline
@@ -766,8 +769,7 @@ zhidao.baidu.com##.task-list-button
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||ask.dcloud.net.cn/crond/run/
-||assets.adobedtm.com/*/*/launch-*.min.js$domain=www.nvidia.com|mothership.sg,important
-||assets.adobedtm.com/*/satelliteLib-*.js$domain=www.mathworks.com
+||assets.adobedtm.com/$domain=www.nvidia.com|mothership.sg|www.mathworks.com|www.flickr.com,important
 ||assets.changyan.sohu.com/upload/plugins/plugins.count.js
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
@@ -1190,7 +1192,7 @@ zhidao.baidu.com##.task-list-button
 ||platform.twitter.com/widgets$third-party
 ||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
-||player.cnevids.com$domain=www.wired.co.uk
+||player.cnevids.com$domain=www.wired.co.uk|www.wired.com
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
@@ -1539,6 +1541,7 @@ zhidao.baidu.com##.task-list-button
 ||www.seedanddew.com/static/embed.min.js$domain=bundler.io
 ||www.sitepoint.com/ads.js
 ||www.slant.co/geolocation
+||www.snapchat.com/cookies/api/user_location
 ||www.sobot.com/chat/frame/js/entrance.js$domain=51cto.com
 ||www.ssh.com/api/content/v1/dynamic
 ||www.ssh.com/trk
