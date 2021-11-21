@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, November 18, 2021
+! Last modified: Sunday, November 21, 2021
 ! Title: Master-AdRules
-! Version: 20211118
+! Version: 20211121
 !
 !
 !
@@ -188,7 +188,8 @@ docs.microsoft.com##.feedback-verbatim
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
 dotnetfiddle.net##.container-sponsor
-downzen.com###amp-user-notification1
+downloads.digitaltrends.com##.ad-burnside
+downloads.digitaltrends.com##.roof-ad
 dragablz.net##.sharedaddy
 dragablz.net##.widget_eu_cookie_law_widget.widget
 duckduckgo.com##.header__label.showcase.header--aside__item
@@ -644,6 +645,7 @@ www.theverge.com##.c-read-more
 www.thurrott.com##.gdpr-cookie-banner
 www.thurrott.com##.logged-out.comments
 www.tldrgames.com###catapult-cookie-bar
+www.tp-link.com##.tp-local-switcher
 www.tutorialrepublic.com##.affiliate.segment
 www.tutorialrepublic.com##ul:nth-of-type(6)
 www.tutorialspoint.com###privacy-banner
@@ -766,6 +768,7 @@ zhidao.baidu.com##.task-list-button
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
 ||arc.msn.com/v4/api/selection$domain=support.microsoft.com
+||archive.org/includes/donate.php
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||ask.dcloud.net.cn/crond/run/
@@ -864,7 +867,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/wenzhang.jpg$third-party
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js$third-party
-||cdn.playwire.com/plugins/docky.min.js$domain=www.slant.co
+||cdn.playwire.com/$domain=www.slant.co|softonic.com,important
 ||cdn.ravenjs.com/*/raven.min.js$domain=pypi.org
 ||cdn.search.brave.com/ks.json
 ||cdn.search.brave.com/serp/v1/static/serp-js/*-searchCTA.bundle
@@ -958,7 +961,9 @@ zhidao.baidu.com##.task-list-button
 ||developers.google.com/_d/analytics-iframe
 ||dictionary.cambridge.org/external/scripts/ads.min.js
 ||discord.com/api/v6/science
+||discord.com/api/v9/auth/location-metadata
 ||discord.com/assets/oneTrust/v2/scripttemplates/otSDKStub.js
+||discord.com/widget?id$domain=fandom.com
 ||dlog.liepin.com/dlog$domain=liepin.com
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
 ||docs.microsoft.com/answers/page-view/track.json
@@ -974,7 +979,7 @@ zhidao.baidu.com##.task-list-button
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
 ||embed.runkit.com/$domain=lodash.com
 ||embed.tawk.to$domain=www.partitionwizard.com|www.briskinfosec.com
-||embed.typeform.com/embed.js$domain=vivaldi.com|fontawesome.com
+||embed.typeform.com/embed.js$domain=vivaldi.com|fontawesome.com|fandom.com
 ||entitlement.auth.adobe.com/entitlement/v4/AccessEnabler.js$domain=history.com
 ||entry.baidu.com/rp/wordner$domain=zhidao.baidu.com
 ||epnclick.ru/$domain=forum.ru-board.com
@@ -1047,8 +1052,6 @@ zhidao.baidu.com##.task-list-button
 ||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=blog.csdn.net
 ||gss*.baidu.com/*/static/api/js/share/share_api.js
 ||gss*.baidu.com/*/static/api/js/view/share_view.js
-||gttp.co/v1.js$domain=vuejs.org
-||h5.qzone.qq.com/wspeed.qq.com/w.cgi$domain=share.weiyun.com
 ||h5speed.m.jd.com/v2/speed/activity
 ||heimdalsecurity.com/blog/wp-content/plugins/heimdal-social-sharing-buttons/js/social.js
 ||hello.zonos.com/shop-duty-tax/hello.js$domain=unchartedsupplyco.com
@@ -1246,6 +1249,7 @@ zhidao.baidu.com##.task-list-button
 ||search.brave.com/api/feedback
 ||search.brave.com/api/suggest
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
+||securepubads.g.doubleclick.net$domain=digitaltrends.com|softonic.com,important
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com|medium.com
 ||sentry.matrix.org$domain=gitter.im
