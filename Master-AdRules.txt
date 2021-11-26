@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, November 21, 2021
+! Last modified: Friday, November 26, 2021
 ! Title: Master-AdRules
-! Version: 20211121
+! Version: 20211126
 !
 !
 !
@@ -274,6 +274,7 @@ map.baidu.com##.container.styleguide.index-widget-guidebanner
 map.baidu.com##.leadDownloadCard
 map.baidu.com##.poiLeadDownloadCard
 market.aliyun.com##div[class^="xf-"]
+marketplace.visualstudio.com###survey-container
 material.angular.io##app-cookie-popup
 mbillexprod.alipay.com###pc-merchant-onlineService
 medium.com##.js-postShareWidget
@@ -315,6 +316,7 @@ read.douban.com##.btns-tip.tooltip
 readthedocs.io##.keep-us-sustainable
 research.microsoft.com###shareShelf
 riptutorial.com##.section-aside.col-lg-2
+rufus.ie###cookie-notice
 search.brave.com###search-elsewhere
 searchfox.org###context-menu
 segmentfault.com##.float-ads
@@ -570,6 +572,7 @@ www.merriam-webster.com##.wod-activity-container
 www.merriam-webster.com##.wod-podcast-player-block.podcast-player-block
 www.merriam-webster.com##.wotd-side__subscribe
 www.merriam-webster.com##div.hide-mobile.rail-abl-box
+www.microsoft.com##.context-accessory
 www.microsoft.com##.row-fluid.end-social
 www.mojeek.com##.js-pop.pop-in
 www.mssqltips.com###slideboxtop
