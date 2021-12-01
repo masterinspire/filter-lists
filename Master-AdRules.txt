@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, November 26, 2021
+! Last modified: Wednesday, December 1, 2021
 ! Title: Master-AdRules
-! Version: 20211126
+! Version: 20211201
 !
 !
 !
@@ -185,6 +185,8 @@ docs.microsoft.com###ignite-banner-holder
 docs.microsoft.com###openFeedbackContainer
 docs.microsoft.com##.feedback-section
 docs.microsoft.com##.feedback-verbatim
+docs.microsoft.com##.link-button.dropdown-trigger[title="Is this page helpful?"]
+docs.microsoft.com##.page-action-holder
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
 dotnetfiddle.net##.container-sponsor
@@ -629,6 +631,7 @@ www.talkingdotnet.com##.sd-sharing-enabled.sharedaddy
 www.tapd.cn###msg_count
 www.tapd.cn###notice_count
 www.tapd.cn##.bind-phone-tips
+www.tapd.cn##.editor-content.comment_type_text:style(overflow:auto !important;)
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked
 www.telerik.com##.optanon-alert-box-wrapper
@@ -1314,7 +1317,7 @@ zhidao.baidu.com##.task-list-button
 ||static.addtoany.com/menu/page.js$domain=www.historytoday.com
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/button*
-||static.duoshuo.com/embed.js$third-party
+||static.deepl.com/*/cookieBanner
 ||static.foxnews.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
 ||static.foxtv.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
 ||static.hitv.com/cms/v/2018/pcweb_top_navi$domain=www.mgtv.com
