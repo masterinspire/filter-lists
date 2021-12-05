@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, November 18, 2021
+! Last modified: Sunday, December 5, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20211118
+! Version: 20211205
 !
 !
 !
@@ -12,7 +12,7 @@
 ||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org|www.codeproject.com|www.quora.com|vimeo.com
 ||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
 ||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
-||apis.google.com$domain=translate.google.cn|developer.android.google.cn|www.quora.com
+||apis.google.com$third-party
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com
 ||cdn-images-*.medium.com$domain=developer.android.google.cn
 ||cefsharp.github.io/images/top-header.png
@@ -20,9 +20,7 @@
 ||feedburner.google.com$domain=chocolatey.org
 ||github.com/*.png?size=32$domain=docs.microsoft.com
 ||graph.facebook.com/$third-party
-||gravatar.com/avatar$third-party
-||gravatar.com/blavatar/$third-party
-||gravatar.com/js/gprofiles.js$third-party
+||gravatar.com/$third-party
 ||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
 ||i.imgur.com$domain=create-react-app.dev|chocolatey.org|superuser.com|community.notepad-plus-plus.org
 ||i.stack.imgur.com$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
@@ -31,6 +29,7 @@
 ||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com
 ||lh*.googleusercontent.com$third-party
 ||mail.google.com/mail/$domain=www.erlang.org
+||maps.googleapis.com/maps/api/js$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 ||mem.gfx.ms/meversion$domain=microsoft.com
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
@@ -52,6 +51,7 @@
 ||www.google.com/cse/cse.js$third-party,important
 ||www.google.com/jsapi$third-party,important
 ||www.google.com/recaptcha/$third-party,important
+||www.gstatic.com/charts/loader.js$domain=jetbrains.com
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js$domain=www.twitch.tv
 ||www.youtube-nocookie.com/embed/*$third-party
 ||youtube.com/embed/*$third-party
