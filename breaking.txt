@@ -1,20 +1,17 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, December 5, 2021
+! Last modified: Thursday, December 9, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20211205
+! Version: 20211209
 !
 !
 !
-||*.bp.blogspot.com$domain=developer.android.google.cn
 ||*.disqus.com/embed.js
 ||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org|www.codeproject.com|www.quora.com|vimeo.com
-||android-dot-devsite-v2-prod.appspot.com$domain=developer.android.google.cn
 ||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
-||apis.google.com$third-party
+||apis.google.com$third-party,important
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com
-||cdn-images-*.medium.com$domain=developer.android.google.cn
 ||cefsharp.github.io/images/top-header.png
 ||codesandbox.io$domain=mui.com
 ||feedburner.google.com$domain=chocolatey.org
@@ -29,13 +26,11 @@
 ||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com
 ||lh*.googleusercontent.com$third-party
 ||mail.google.com/mail/$domain=www.erlang.org
+||maps.google.com/maps/api/js$third-party
 ||maps.googleapis.com/maps/api/js$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
-||mem.gfx.ms/meversion$domain=microsoft.com
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
-||partnerresources.azureedge.net/public/$domain=developer.microsoft.com
 ||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com|gitter.im|community.notepad-plus-plus.org
-||play.google.com$domain=developer.android.google.cn|www.msn.com
 ||player.vimeo.com/video/$domain=brave.com
 ||raw.githubusercontent.com/mui-org/material-ui/master/docs/notifications.json$domain=mui.com
 ||res.wx.qq.com/open/js/jweixin-*.js
@@ -51,7 +46,6 @@
 ||www.google.com/cse/cse.js$third-party,important
 ||www.google.com/jsapi$third-party,important
 ||www.google.com/recaptcha/$third-party,important
-||www.gstatic.com/charts/loader.js$domain=jetbrains.com
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js$domain=www.twitch.tv
 ||www.youtube-nocookie.com/embed/*$third-party
 ||youtube.com/embed/*$third-party
