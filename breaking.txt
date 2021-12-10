@@ -1,44 +1,30 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, December 9, 2021
+! Last modified: Friday, December 10, 2021
 ! Title: Master-AdRules Breaking
-! Version: 20211209
+! Version: 20211210
 !
 !
 !
-||*.disqus.com/embed.js
 ||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org|www.codeproject.com|www.quora.com|vimeo.com
 ||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
-||apis.google.com$third-party,important
+||apis.google.com
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com
 ||cefsharp.github.io/images/top-header.png
 ||codesandbox.io$domain=mui.com
 ||feedburner.google.com$domain=chocolatey.org
-||github.com/*.png?size=32$domain=docs.microsoft.com
-||graph.facebook.com/$third-party
-||gravatar.com/$third-party
-||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
-||i.imgur.com$domain=create-react-app.dev|chocolatey.org|superuser.com|community.notepad-plus-plus.org
-||i.stack.imgur.com$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
-||i.ytimg.com$domain=developer.android.google.cn|www.telegraph.co.uk
-||image.prntscr.com/$domain=community.notepad-plus-plus.org
 ||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com
-||lh*.googleusercontent.com$third-party
 ||mail.google.com/mail/$domain=www.erlang.org
 ||maps.google.com/maps/api/js$third-party
 ||maps.googleapis.com/maps/api/js$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
-||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com|gitter.im|community.notepad-plus-plus.org
-||player.vimeo.com/video/$domain=brave.com
 ||raw.githubusercontent.com/mui-org/material-ui/master/docs/notifications.json$domain=mui.com
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design
 ||statics-marketingsites-*-ms-com.akamaized.net/statics/override.css
-||survival-mastery.com/wp-content/plugins/disqus-comment-system/
-||themes.googleusercontent.com$domain=codemirror.net
 ||www.google.com$domain=bugs.python.org
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/coop/intl/en/images/google_custom_search_watermark.gif$domain=www.ruby-lang.org

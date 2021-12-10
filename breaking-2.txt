@@ -1,0 +1,14 @@
+! Author: Master Inspire
+! Expires: 7 days (update frequency)
+! Homepage: https://github.com/masterinspire/Master-AdRules
+! Last modified: Friday, December 10, 2021
+! Title: Master-AdRules Breaking 2
+! Version: 20211210
+!
+!
+!
+||github.com/*.png?size=32$domain=docs.microsoft.com
+||gravatar.com/$third-party
+||i.imgur.com$domain=create-react-app.dev|chocolatey.org|superuser.com|community.notepad-plus-plus.org
+||i.stack.imgur.com$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
+||player.vimeo.com/video/$domain=brave.com

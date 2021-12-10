@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, December 9, 2021
+! Last modified: Friday, December 10, 2021
 ! Title: Master-AdRules
-! Version: 20211209
+! Version: 20211210
 !
 !
 !
@@ -71,6 +71,7 @@ blog.51cto.com##a.zhiCustomBtn
 blog.codecentric.de###BorlabsCookieBox
 blog.csdn.net###articleSearchTip
 blog.csdn.net###btn-detail
+blog.csdn.net###content_views pre,#content_views pre code:style(user-select: unset !important;)
 blog.csdn.net###passportbox
 blog.csdn.net###writeGuide
 blog.csdn.net##.app-open-box
@@ -169,9 +170,14 @@ developer.mozilla.org##.notification-tray
 developers.google.cn##.devsite-banner-announcement.devsite-banner
 developers.google.cn##devsite-footer-promos
 developers.google.cn##devsite-thumb-rating
+developers.google.com###feedback
 developers.google.com##.devsite-banner-announcement.devsite-banner
+developers.google.com##.webFuRSSWidget
+developers.google.com##devsite-feedback
 developers.google.com##devsite-footer-promos
 developers.google.com##devsite-thumb-rating
+developers.google.com##devsite-tracking-question
+developers.google.com##devsite-youtube
 digitalrightswatch.org.au###cookie-notice
 ding-doc.dingtalk.com##.styles-float
 discourse.mozilla.org##.quote-button
@@ -910,6 +916,7 @@ zhidao.baidu.com##.task-list-button
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||click.fanyi.baidu.com/
 ||click.gamersky.com/Common/GetHits.aspx
+||cloud.google.com/log$domain=developers.google.com
 ||cloud.tencent.com/act/common/report
 ||cloud.tencent.com/developer/services/ajax/pageview-report?action=ReportCommunityPageView
 ||cloud.tencent.com/document/ajax/?action=checkDocApiPageRedirect
@@ -1063,7 +1070,7 @@ zhidao.baidu.com##.task-list-button
 ||googleads.g.doubleclick.net$important
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
-||graph.facebook.com/$domain=wpf.2000things.com|stackexchange.com|stackoverflow.com|serverfault.com|askubuntu.com|superuser.com|www.ostechnix.com|leastprivilege.com|dragablz.net|thebinaryhick.blog
+||graph.facebook.com/$third-party
 ||gsp*.baidu.com/*/tb/pms/img/st.gif$domain=wapbaike.baidu.com
 ||gsp*.baidu.com/*/v.gif$domain=baike.baidu.com|wapbaike.baidu.com
 ||gsp0.baidu.com/*/api/customsearch/apiaccept$domain=blog.csdn.net
@@ -1079,6 +1086,7 @@ zhidao.baidu.com##.task-list-button
 ||home-api.pinduoduo.com/home/catUrlLog
 ||huatuospeed.weiyun.com/cgi-bin/r.cgi
 ||i.cdn.turner.com/ads/adfuel/$domain=edition.cnn.com
+||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
 ||id1.cloud.huawei.com/CAS/IDM_W/ajaxHandler/analysisHealth
 ||id1.cloud.huawei.com/CAS/IDM_W/ajaxHandler/getIPCountry
 ||iknowpc.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb.*.png$domain=zhidao.baidu.com
@@ -1208,6 +1216,7 @@ zhidao.baidu.com##.task-list-button
 ||platform.linkedin.com/in.js
 ||platform.linkedin.com/js/framework?v
 ||platform.twitter.com/widgets$third-party
+||play.google.com/log$important
 ||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
 ||player.cnevids.com$domain=www.wired.co.uk|www.wired.com
@@ -1391,8 +1400,8 @@ zhidao.baidu.com##.task-list-button
 ||trace.qq.com/collect
 ||tracert.alipay.com/cross.html$domain=www.yuque.com|alipay.com
 ||tracking.epicgames.com
-||translate.google.cn/gen204
 ||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com|startpagesearch.com|www.geeksforgeeks.org
+||translate.google.com/_/TranslateWebserverUi/jserror
 ||trustrcv.baidu.com/xin.php$domain=aiqicha.baidu.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
@@ -1502,7 +1511,8 @@ zhidao.baidu.com##.task-list-button
 ||www.fox5ny.com/api/layouts/alert/heartbeat$domain=www.fox5ny.com
 ||www.gannett-cdn.com/gannett-web/apps/teal/dist$domain=www.usatoday.com
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
-||www.google.cn/domainless/read
+||www.google.com.hk/complete/search
+||www.google.com.hk/maps/preview/log204
 ||www.googleadservices.com/pagead
 ||www.googletagmanager.com/$third-party,important
 ||www.googletagservices.com/$third-party,important
