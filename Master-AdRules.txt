@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, December 10, 2021
+! Last modified: Wednesday, December 15, 2021
 ! Title: Master-AdRules
-! Version: 20211210
+! Version: 20211215
 !
 !
 !
@@ -603,6 +603,8 @@ www.mojeek.com##.js-pop.pop-in
 www.mssqltips.com###slideboxtop
 www.mssqltips.com##.columns.hide-for-print.large-3
 www.namegeneratorfun.com###consent
+www.newstatesman.com##.c-share--clear.c-share
+www.newstatesman.com##.c-sponsored-article
 www.newtonsoft.com###footerNotice
 www.nokia.com###block-nokialocalesuggestionblock
 www.nokia.com##.nokia-cookies-wrapper
@@ -628,10 +630,12 @@ www.quora.com##.ViewInAppLink
 www.realvnc.com###cookie-notice
 www.red-gate.com##.cookie-consent
 www.red-gate.com##[src^="https://pubads.g.doubleclick.net/activity"]
+www.reddit.com##div[data-testid="bottom-cell-wrapper"]
 www.reviewgeek.com###v2campaignmidpage
 www.reviewgeek.com###v2campaignpopup
 www.reviewgeek.com###v2campaignpopup_backdrop
 www.reviewgeek.com##.moka-hottest-stuff
+www.robtex.com###cookienotice
 www.runoob.com##.feedback-btn
 www.runoob.com##.fixed-btn
 www.samsung.com##.cm-cookie-geo
@@ -882,6 +886,7 @@ zhidao.baidu.com##.task-list-button
 ||cdid.c-ctrip.com/model-poc2/h$domain=ctrip.com
 ||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
+||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn.ampproject.org/v0/amp-social-share-*.js
 ||cdn.concert.io/lib/adblock/verge.html$domain=www.theverge.com
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
@@ -1188,6 +1193,7 @@ zhidao.baidu.com##.task-list-button
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
+||news.google.com/_/DotsSplashUi/jserror
 ||nexus-websocket-*.intercom.io/client-test
 ||nexus.dell.com/dell/eSupport/Bootstrap.js$domain=www.dell.com
 ||nexus.dell.com/dell/marketing/Bootstrap.js$domain=www.dell.com
@@ -1400,6 +1406,7 @@ zhidao.baidu.com##.task-list-button
 ||trace.qq.com/collect
 ||tracert.alipay.com/cross.html$domain=www.yuque.com|alipay.com
 ||tracking.epicgames.com
+||traffic.alexa.com/graph$domain=www.robtex.com
 ||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com|startpagesearch.com|www.geeksforgeeks.org
 ||translate.google.com/_/TranslateWebserverUi/jserror
 ||trustrcv.baidu.com/xin.php$domain=aiqicha.baidu.com
@@ -1546,6 +1553,7 @@ zhidao.baidu.com##.task-list-button
 ||www.msdn.hk/plus/count.php
 ||www.msdn.hk/templets/msdn/css/index.js
 ||www.msdn.hk/templets/msdn/css/viewads.js
+||www.newstatesman.com/wp-content/plugins/nsmg-evolok-paywall/
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
 ||www.oracle.com/assets/truste-oraclelib.js$domain=dev.mysql.com
@@ -1570,6 +1578,7 @@ zhidao.baidu.com##.task-list-button
 ||www.rabbitmq.com/js/ga-bootstrap.js
 ||www.rarlab.com/js/ckrule.js
 ||www.redditstatic.com/button/button3.js$domain=goalkicker.com
+||www.redditstatic.com/desktop2x/js/xads.js
 ||www.ruanyifeng.com/blog/stats.js
 ||www.seedanddew.com/static/embed.min.js$domain=bundler.io
 ||www.sitepoint.com/ads.js
