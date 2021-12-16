@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, December 15, 2021
+! Last modified: Thursday, December 16, 2021
 ! Title: Master-AdRules
-! Version: 20211215
+! Version: 20211216
 !
 !
 !
@@ -476,11 +476,13 @@ www.baidu.com##.selected-search-box
 www.baidu.com##.square-banner-bg.index-banner
 www.baidu.com##.under-tips
 www.baike.com##.search-recom
+www.bing.com###b_footer
 www.bing.com###b_results > .b_top.b_ans
 www.bing.com###bnp_cont
 www.bing.com###bnp_hfly
 www.bing.com###flwn
 www.bing.com###lb_widget
+www.bing.com##.adsblock
 www.bing.com##.mal_oc
 www.bing.com##.sidebar
 www.bing.com##DIV[class="bk_sidebar"]
@@ -575,6 +577,7 @@ www.linuxeden.com##.bdsharebuttonbox.action-share
 www.lookip.net##[aria-label="cookieconsent"]
 www.merriam-webster.com###cite-anchor
 www.merriam-webster.com###definition-right-rail
+www.merriam-webster.com###home-promo
 www.merriam-webster.com###podcast-anchor
 www.merriam-webster.com###recirc-bar-footer
 www.merriam-webster.com###register-promo
@@ -590,6 +593,7 @@ www.merriam-webster.com##.did-you-know-wrapper > #wotd-right-content-box
 www.merriam-webster.com##.footer-mast
 www.merriam-webster.com##.game-recirc-widget
 www.merriam-webster.com##.mw-ad
+www.merriam-webster.com##.open-web-comments-header
 www.merriam-webster.com##.recirc-bar
 www.merriam-webster.com##.share-icons
 www.merriam-webster.com##.wgt-games-side.wgt-side
@@ -1138,6 +1142,7 @@ zhidao.baidu.com##.task-list-button
 ||kongpao.com/template/m1938pc/images/js/history.js
 ||kotlinlang.org/docs/static/v3/analytics.js
 ||kunpeng.csdn.net/ad/
+||launcher.spot.im/$domain=www.merriam-webster.com
 ||layer.bz.mgtv.com/layer/selfreport$domain=www.mgtv.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||localhost$domain=plugins.jetbrains.com|chinatax.gov.cn
@@ -1478,6 +1483,7 @@ zhidao.baidu.com##.task-list-button
 ||www.baidu.com/rec
 ||www.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||www.bing.com/images/sbi?mmasync=1
+||www.bing.com/mouselog*.min.js
 ||www.bing.com/perfawareness
 ||www.bing.com/web/xls.aspx
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetHeaderAd
