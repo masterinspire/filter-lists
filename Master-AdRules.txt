@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, December 16, 2021
+! Last modified: Thursday, December 23, 2021
 ! Title: Master-AdRules
-! Version: 20211216
+! Version: 20211223
 !
 !
 !
@@ -138,6 +138,7 @@ cn.bing.com##.usrlc_bpc
 cn.bing.com##a[href^="http://www.microsofttranslator.com"]
 cnbeta.com##.article-share-code
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
+code.visualstudio.com##.feedback
 community.spiceworks.com###zdprivacy-content
 config.office.com##.helpTitle.ms-Button--command.ms-Button--action.ms-Button
 config.office.com##.unAuthPrivacyFooter
@@ -452,7 +453,7 @@ wk.baidu.com##.wk-container.gain-doc-block-root
 wk.baidu.com##.wk-join-years
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
 wpf.2000things.com###eu-cookie-law
-www.88ysw.com##.gotop
+www.88dyw.com##.gotop
 www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
@@ -1133,8 +1134,7 @@ zhidao.baidu.com##.task-list-button
 ||js.lhzfood.com/baidu/dixpc.js
 ||js.monitor.azure.com$third-party,important
 ||js.stripe.com/$domain=fontawesome.com|www.just-great-software.com|exceljet.net|account.brave.com
-||js.users.51.la/$domain=www.88ysw.com
-||jstatic.letvcdn.com/sdk/apcsdk.js
+||js.users.51.la/$domain=www.88dyw.com
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=1
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
 ||kcart.alipay.com/web/bi.do
@@ -1151,6 +1151,7 @@ zhidao.baidu.com##.task-list-button
 ||log.clarity.ms$third-party
 ||log.dingtalk.com/log/loghttp
 ||log.quora.com/ajax/batched_log_POST
+||login.httptoolkit.tech/user/geoloc/country
 ||login.microsoftonline.com/common/instrumentation/reportstaticmecontroltelemetry
 ||logs.game.qq.com/easnew/go/eas.php
 ||m.baidu.com/rec
@@ -1393,7 +1394,7 @@ zhidao.baidu.com##.task-list-button
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
 ||tajs.qq.com/stats$important
 ||target.microsoft.com/rest/v1/delivery$important
-||tb.pagetest.top/$domain=www.88ysw.com
+||tb.pagetest.top/$domain=www.88dyw.com
 ||tb1.bdstatic.com/tb/img/hg/hg.gif$domain=tieba.baidu.com
 ||techcommunity.microsoft.com/beacon/*.gif
 ||techcommunity.microsoft.com/t5/scripts/*/lia-scripts*.js
@@ -1464,8 +1465,8 @@ zhidao.baidu.com##.task-list-button
 ||wp.qiye.qq.com/qidian/$domain=tapd.cn
 ||wreport.meituan.net
 ||www.2cto.com/api.php?op=count
-||www.88ysw.com/js/ads/dibu.js
-||www.88ysw.com/static/api/js/share.js
+||www.88dyw.com/js/ads/dibu.js
+||www.88dyw.com/static/api/js/share.js
 ||www.afzhan.com/asyncstat.aspx
 ||www.afzhan.com/mystat.aspx
 ||www.afzhan.com/static/api/js/share.js
