@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, December 23, 2021
+! Last modified: Wednesday, December 29, 2021
 ! Title: Master-AdRules
-! Version: 20211223
+! Version: 20211229
 !
 !
 !
@@ -86,6 +86,7 @@ blog.csdn.net##.readall_box
 blog.csdn.net##.vertical.tool-box
 blog.csdn.net#.more-toolbox
 blog.encyro.com###PopupSignupForm_0
+blog.google###cookieBar
 blog.jetbrains.com###post_footer_banner
 blog.jetbrains.com##.banner
 blog.jetbrains.com##.newsletter
@@ -155,9 +156,13 @@ devdactic.com##.nc_wrapper
 devdocs.io##._in._notif
 devdocs.io##._notice
 devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
+developer.android.com###essential
+developer.android.com###videos
 developer.android.com##.devsite-banner-announcement.devsite-banner
 developer.android.com##devsite-footer-promos
+developer.android.com##devsite-hats-survey
 developer.android.com##devsite-thumb-rating
+developer.android.com##devsite-youtube
 developer.android.google.cn##.devsite-banner-announcement.devsite-banner
 developer.android.google.cn##devsite-footer-promos
 developer.android.google.cn##devsite-thumb-rating
@@ -347,6 +352,8 @@ soft.shouji.com.cn##.ggzs_bottom
 software.intel.com###page > .l-footer-second
 software.intel.com###survey_container
 softwareok.com###cookiebar
+source.android.com##devsite-feedback
+source.android.com##devsite-thumb-rating
 sourceforge.net###newsletter-floating
 sourceforge.net###project-nel
 stackabuse.com##.sidebar
@@ -537,12 +544,9 @@ www.geeksforgeeks.org##.hireWithUs.practiceButton
 www.geeksforgeeks.org##.imgWrap
 www.geeksforgeeks.org##.widget_text.widget
 www.gitbook.com/__amp/$domain=docs.avaloniaui.net
-www.gtabase.com###ja-current-content > .item-page + div.custom + div.custom
-www.gtabase.com###ja-current-content > h3.module + div.custom ~ div.custom
-www.gtabase.com###ja-current-content > script ~ div.custom
 www.gtabase.com##.mailing-list-bottom
+www.gtabase.com##.module > .custom
 www.gtabase.com##.wbl-social-button
-www.haosou.com###side
 www.historytoday.com###block-newsletter-frontpage-signup
 www.historytoday.com##.block-advertisement-banner-block
 www.historytoday.com##.block-signup-block
@@ -610,6 +614,7 @@ www.mssqltips.com##.columns.hide-for-print.large-3
 www.namegeneratorfun.com###consent
 www.newstatesman.com##.c-share--clear.c-share
 www.newstatesman.com##.c-sponsored-article
+www.newstatesman.com##.newsletter-inner-container
 www.newtonsoft.com###footerNotice
 www.nokia.com###block-nokialocalesuggestionblock
 www.nokia.com##.nokia-cookies-wrapper
@@ -641,6 +646,8 @@ www.reviewgeek.com###v2campaignpopup
 www.reviewgeek.com###v2campaignpopup_backdrop
 www.reviewgeek.com##.moka-hottest-stuff
 www.robtex.com###cookienotice
+www.robtex.com##.rtstyle.rtpopup
+www.robtex.com##.soctop
 www.runoob.com##.feedback-btn
 www.runoob.com##.fixed-btn
 www.samsung.com##.cm-cookie-geo
