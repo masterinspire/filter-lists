@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, December 29, 2021
+! Last modified: Friday, December 31, 2021
 ! Title: Master-AdRules
-! Version: 20211229
+! Version: 20211231
 !
 !
 !
@@ -447,6 +447,10 @@ wenku.baidu.com##.super-vip.top-ads-banner-wrap
 wenku.baidu.com##.zsj-btmbar
 wenku.baidu.com##.zsj-toppos
 wenku.baidu.com##div[class^="zsj-leftbar-"]
+who.is###domainAvailabilityPowerBar
+who.is###domainAvailabilityPowerBarHeading
+who.is##.teaser-bar
+who.is##a[data-label="whois name.com above banner"]
 windows.com###epb
 windows.com###uhfCookieAlert
 winscp.net##.promo-block
@@ -715,15 +719,17 @@ www.wilderssecurity.com##.bottomFixer
 www.wintips.org##.cresta-share-icon
 www.wired.co.uk##.social-icons--share.social-icons
 www.wired.com##.article__social-share
+www.wired.com##.callout--has-top-border
+www.wired.com##.consumer-marketing-unit--cm-footer
+www.wired.com##.journey-template--paywall-bar
 www.wired.com##.newsletter-subscribe-form
+www.wired.com##.paywall-modal--paywall.paywall-modal
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
 www.xda-developers.com##.et_social_inline
 www.xda-developers.com##.et_social_sidebar_networks
 www.xda-developers.com##.widget.widget-2.widget_text
 www.xda-developers.com##.widget.widget-3.widget_text
-www.ypojie.com##.action-share
-www.ypojie.com##.orbui-post-footer
 www.yuque.com##.social-share
 www.yuque.com##.yuque-doc-content:style(min-height: inherit !important; max-height: 100% !important;)
 www.yuque.com##div[class^="ReaderCommentSignupGuide-module_commentOnboardingBanner_"]
@@ -1377,6 +1383,7 @@ zhidao.baidu.com##.task-list-button
 ||statistic.csdn.net/www
 ||statistic.zhaopin.cn/sdk/sa/
 ||statistic.zhaopin.cn/sdk/zhaopin_tracker.js
+||store.steampowered.com/default/usabilitytracking/
 ||stripe.com$domain=gitbook.com
 ||sug.so.360.cn/suggest
 ||sugar.zhihu.com/plutus_adreaper$domain=www.zhihu.com
