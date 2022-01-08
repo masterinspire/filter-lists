@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, December 31, 2021
+! Last modified: Saturday, January 8, 2022
 ! Title: Master-AdRules
-! Version: 20211231
+! Version: 20220108
 !
 !
 !
@@ -122,6 +122,8 @@ chocolatey.org###mc_embed_signup
 chocolatey.org###topNoticeAlert
 chocolatey.org##.btn-announcement-notifications.btn-collapsing-right-sidebar
 ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
+cloud.google.com##devsite-feedback
+cloud.google.com##devsite-thumb-rating
 cloud.tencent.com##.com-event-panel
 cloud.tencent.com##.document-feedback-container
 cloud.tencent.com##.rno-documents-tools.rno-scrollbar-tools
@@ -306,6 +308,8 @@ minecraft.gamepedia.com##div[class^="app_gdpr"]
 mobile.softpedia.com###cookienotif
 movie.mtime.com###divRelatedGoods
 mrchportalweb.alipay.com###pc-merchant-onlineService
+mrsteinberg.com##.entry-meta-bottom > #contact
+mrsteinberg.com##.entry-meta-bottom > .comments2
 msdn.itellyou.cn##.shang_box
 mui.com##[aria-label="Diamond Sponsors"]
 mui.com##[data-ga-event-category="ad"]
@@ -332,6 +336,7 @@ qtcn.org##DIV[class="pw_all_tip"]
 read.douban.com###desktop-app-ad
 read.douban.com##.btns-tip.tooltip
 readthedocs.io##.keep-us-sustainable
+reolink.com##.explorer-n-privacy
 research.microsoft.com###shareShelf
 riptutorial.com##.section-aside.col-lg-2
 rufus.ie###cookie-notice
@@ -506,6 +511,7 @@ www.chinatax.gov.cn##.fixed-right-box
 www.chinatax.gov.cn##.paiochuang
 www.cloudamqp.com##.dark-bg.signup
 www.cnblogs.com###div_digg
+www.codastory.com###mc_embed_signup
 www.codeproject.com##[aria-label="cookieconsent"]
 www.computerworld.com##aside[id^="fsb-"]
 www.cplusplus.com##body > div:nth-of-type(1)
@@ -627,6 +633,7 @@ www.nuget.org###sideColumn > .stat
 www.nuget.org###usabilla-button
 www.nvidia.com###cookiePolicy-layer
 www.online-tech-tips.com##div[id^="snhb-In_content_"]
+www.opera.com###cookie-consent
 www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com###packt_gdpr_container
 www.partitionwizard.com##.bottom-cookie-wrap
@@ -711,6 +718,7 @@ www.usatoday.com##.gnt_em_vp__tavp.gnt_em
 www.usatoday.com##.gnt_em_vp_c
 www.usatoday.com##a.gnt_cw_sl
 www.vg247.com##.newsletter-signup-wrapper
+www.vice.com##.article-newsletter-signup
 www.w3school.com.cn##DIV[id="ad"]
 www.w3school.com.cn##DIV[id="searchui"]
 www.wikihow.com###article_courses_banner
@@ -907,6 +915,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn.ampproject.org/v0/amp-social-share-*.js
 ||cdn.concert.io/lib/adblock/verge.html$domain=www.theverge.com
+||cdn.concert.io/lib/concert-ads/v2-latest/concert_ads.js
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.cookielaw.org/$third-party
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
@@ -939,7 +948,7 @@ zhidao.baidu.com##.task-list-button
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||click.fanyi.baidu.com/
 ||click.gamersky.com/Common/GetHits.aspx
-||cloud.google.com/log$domain=developers.google.com
+||cloud.google.com/log
 ||cloud.tencent.com/act/common/report
 ||cloud.tencent.com/developer/services/ajax/pageview-report?action=ReportCommunityPageView
 ||cloud.tencent.com/document/ajax/?action=checkDocApiPageRedirect
@@ -1104,6 +1113,7 @@ zhidao.baidu.com##.task-list-button
 ||hello.zonos.com/shop-duty-tax/hello.js$domain=unchartedsupplyco.com
 ||help.aliyun.com/api/v2/survey/current
 ||herald.spiceworks.com/events/javascript$domain=community.spiceworks.com
+||hls.kuaibofang.com/tj.js
 ||hlsmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||hm.baidu.com/hm.js
 ||home-api.pinduoduo.com/home/catUrlLog
@@ -1146,7 +1156,7 @@ zhidao.baidu.com##.task-list-button
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
 ||js.monitor.azure.com$third-party,important
-||js.stripe.com/$domain=fontawesome.com|www.just-great-software.com|exceljet.net|account.brave.com
+||js.stripe.com/$domain=fontawesome.com|www.just-great-software.com|exceljet.net|account.brave.com|feedly.com
 ||js.users.51.la/$domain=www.88dyw.com
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=1
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
@@ -1513,6 +1523,8 @@ zhidao.baidu.com##.task-list-button
 ||www.clipconverter.cc/qr.php
 ||www.cloudflare.com/cdn-cgi/trace
 ||www.cloudflare.com/vendor/onetrust/scripttemplates/otSDKStub.js
+||www.cmdy555.com/js/lei.js
+||www.cmdy555.com/js/leiright.js
 ||www.cmdy555.com/js/pctb2.js
 ||www.cmdy555.com/js/tb.js
 ||www.cmdy555.com/js/tj.js
@@ -1533,6 +1545,7 @@ zhidao.baidu.com##.task-list-button
 ||www.erlang.org/js/twitterl.min.js
 ||www.facebook.com/plugins/like.php$third-party
 ||www.facebook.com/plugins/page.php$third-party
+||www.feedly.com/amplitude
 ||www.flash.cn/support/statistics
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
