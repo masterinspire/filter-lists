@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, January 13, 2022
+! Last modified: Monday, January 17, 2022
 ! Title: Master-AdRules
-! Version: 20220113
+! Version: 20220117
 !
 !
 !
@@ -234,6 +234,8 @@ exceljet.net##.field.field-name-formula-training
 exceljet.net##.sendy-function-pdf
 fandom.com###WikiaBar
 fandom.com##.notifications-placeholder
+firebase.google.com##devsite-feedback
+firebase.google.com##devsite-thumb-rating
 forum.gitlab.com##.quote-button
 forums.asp.net##.all-content > div:nth-of-type(1)
 freecommander.com###cookie-notice
@@ -950,6 +952,7 @@ zhidao.baidu.com##.task-list-button
 ||checkout.stripe.com/v3/checkout.js
 ||cheewhoa.net$domain=vidembed.cc|vidembed.net
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
+||cleverstaginc.firebaseio.com$domain=wallsmash.com
 ||click.fanyi.baidu.com/
 ||click.gamersky.com/Common/GetHits.aspx
 ||cloud.google.com/log
@@ -1304,6 +1307,7 @@ zhidao.baidu.com##.task-list-button
 ||s3a.pstatp.com/toutiao/push.js$domain=csdn.net
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sc.appvipshop.com/vips-mobile-tracker/router.do?service=vip.monitor.logger
+||scone-pa.clients6.google.com/v1/survey/trigger/trigger_anonymous
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||screenshots.codesandbox.io/*.png
 ||script.sw.report/sw.js$domain=blog.codecentric.de
