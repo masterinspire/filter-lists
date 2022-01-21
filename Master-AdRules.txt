@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, January 17, 2022
+! Last modified: Friday, January 21, 2022
 ! Title: Master-AdRules
-! Version: 20220117
+! Version: 20220121
 !
 !
 !
@@ -101,19 +101,12 @@ boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
 brave.com##.announcement-banner
-carnegie-mec.org###selectionSharerPopover
-carnegie-mec.org##.cookie-banner
-carnegieendowment.org###selectionSharerPopover
-carnegieendowment.org##.active.programs-ctw.no-print.slide-in.from-right.panel
-carnegieendowment.org##.cookie-banner
-carnegieeurope.eu###selectionSharerPopover
-carnegieeurope.eu##.cookie-banner
-carnegieindia.org###selectionSharerPopover
-carnegieindia.org##.cookie-banner
-carnegiemoscow.org###selectionSharerPopover
-carnegiemoscow.org##.cookie-banner
-carnegietsinghua.org###selectionSharerPopover
-carnegietsinghua.org##.cookie-banner
+carnegie-mec.org###selectionSharerPopover,.cookie-banner
+carnegieendowment.org###selectionSharerPopover.cookie-banner,.active.programs-ctw.no-print.slide-in.from-right.panel
+carnegieeurope.eu###selectionSharerPopover,.cookie-banner
+carnegieindia.org###selectionSharerPopover,.cookie-banner
+carnegiemoscow.org###selectionSharerPopover,.cookie-banner
+carnegietsinghua.org###selectionSharerPopover,.cookie-banner
 chakra-ui.com###watch-the-egghead-course
 chakra-ui.com###watch-the-egghead-course + div.chakra-linkbox
 chakra-ui.com##a[rel="noopener sponsored"]
@@ -424,11 +417,9 @@ tieba.baidu.com###selectsearch-icon
 tieba.baidu.com###tiebaCustomPassLogin
 time.is###important_info
 tortoisesvn.net##FIELDSET[class="adgroup"]
-tplogin.cn###CloudBindConfirm
-tplogin.cn###CoverB
-tplogin.cn###QRCode
+tplogin.cn###CloudBindConfirm,#CoverB,#QRCode
 ubuntu.com##.cookie-policy
-users.rust-lang.org##.quote-button
+users.rust-lang.org##.alert-info.alert.signup-cta,.quote-button
 visualstudio.com###epb
 visualstudio.com###mscc-cookie-container
 visualstudio.com###uhfCookieAlert
@@ -514,6 +505,7 @@ www.ccleaner.com###GTM__link--CCBR-browser-ad
 www.chinatax.gov.cn##.fixed-right-box
 www.chinatax.gov.cn##.paiochuang
 www.cloudamqp.com##.dark-bg.signup
+www.cmdy555.com##div.index-area:nth-of-type(4),div.index-area:nth-of-type(5)
 www.cnblogs.com###div_digg
 www.codastory.com###mc_embed_signup
 www.codeproject.com##[aria-label="cookieconsent"]
@@ -1526,6 +1518,8 @@ zhidao.baidu.com##.task-list-button
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleLargeAd
 ||www.ccleaner.com/Umbraco/Api/LocationApi/GetLocation
 ||www.ccleaner.com/api/v1/smb-analysis/lookup
+||www.cdc.gov/JScript/metrics/adobe/analytics_cdcgov.js
+||www.cdc.gov/JScript/metrics/google/Universal-Federated-Analytics-Min.js
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-ga/plugin.js
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-sharing/buttons.js
 ||www.clipconverter.cc/qr.php
@@ -1646,6 +1640,7 @@ zhidao.baidu.com##.task-list-button
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/clientlib-geoip
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/forms/js/progressiveProfiling.js
 ||www.vmware.com/etc/clientlibs/vmwaredevapp/main/js/utag_data.js
+||www.w3adda.com/detroitchicago/cmbv2.js
 ||www.winhelponline.com/blog/wp-content/plugins/cookie-notice/
 ||www.wintips.org/wp-content/plugins/contact-form-7/modules/recaptcha/script.js
 ||www.wpf-tutorial.com/Content/Local/1.css
