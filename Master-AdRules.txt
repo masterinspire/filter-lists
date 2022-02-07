@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, January 21, 2022
+! Last modified: Monday, February 7, 2022
 ! Title: Master-AdRules
-! Version: 20220121
+! Version: 20220207
 !
 !
 !
@@ -92,6 +92,7 @@ blog.jetbrains.com###post_footer_banner
 blog.jetbrains.com##.banner
 blog.jetbrains.com##.newsletter
 blog.karumi.com##.socialsidebar
+blog.logrocket.com##.news-pop-outer-wrap.news-pop
 blog.magnusmontin.net###eu-cookie-law
 blog.sentry.io##.tracking-banner.banner
 boxnovel.baidu.com###afd
@@ -136,6 +137,7 @@ cn.bing.com##a[href^="http://www.microsofttranslator.com"]
 cnbeta.com##.article-share-code
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
+community.notepad-plus-plus.org##.selection-tooltip-container
 community.spiceworks.com###zdprivacy-content
 config.office.com##.helpTitle.ms-Button--command.ms-Button--action.ms-Button
 config.office.com##.unAuthPrivacyFooter
@@ -1172,6 +1174,7 @@ zhidao.baidu.com##.task-list-button
 ||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
 ||log.dingtalk.com/log/loghttp
+||log.logicanalytics.io
 ||log.quora.com/ajax/batched_log_POST
 ||login.httptoolkit.tech/user/geoloc/country
 ||login.microsoftonline.com/common/instrumentation/reportstaticmecontroltelemetry
@@ -1230,6 +1233,7 @@ zhidao.baidu.com##.task-list-button
 ||nitrogenpleahierarchy.com$domain=vidembed.cc|vidembed.net
 ||nohost/query
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
+||open.spotify.com/$domain=blog.logrocket.com
 ||otelwebtelemetry.com/v1/trace
 ||outofmemory.cn/static/js/h.js
 ||p.twitchcdn.net/v3/polyfill.min.js
