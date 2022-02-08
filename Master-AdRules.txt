@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, February 7, 2022
+! Last modified: Monday, February 8, 2022
 ! Title: Master-AdRules
-! Version: 20220207
+! Version: 20220208
 !
 !
 !
@@ -143,6 +143,7 @@ config.office.com##.helpTitle.ms-Button--command.ms-Button--action.ms-Button
 config.office.com##.unAuthPrivacyFooter
 css-tricks.com##.fem-sidebar-ad.fem-ad
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
+deepmind.com###cookieBar
 dev.to###sidebar-wrapper-left > .side-bar > .crayons-card--secondary.crayons-card
 dev.to##.authentication-feed__card
 dev.to##div.crayons-sponsorship-widget.crayons-card--secondary.crayons-card
@@ -187,6 +188,7 @@ ding-doc.dingtalk.com##.styles-float
 discourse.mozilla.org##.quote-button
 discuss.atom.io##.quote-button
 disqus.com##.login-overlay__wrapper
+dnschecker.org###cookie-box
 doc.qt.io###cookie-confirm
 docs.asp.net###helpful
 docs.gradle.org###newsletter-form-container
@@ -315,7 +317,6 @@ mui.com##[data-ga-event-category="sponsor"]
 music.taihe.com##.__qianqian_qrcode
 nginx.org###banner
 nokia.com###cmp-modal
-npm.taobao.org###fork
 office.com###epb
 open-vsx.org##div[aria-label="cookieconsent"]
 os.51cto.com##.footer_mask
@@ -731,6 +732,7 @@ www.wired.com##.consumer-marketing-unit--cm-footer
 www.wired.com##.journey-template--paywall-bar
 www.wired.com##.newsletter-subscribe-form
 www.wired.com##.paywall-modal--paywall.paywall-modal
+www.wired.com##.social-icons--share
 www.wpf-tutorial.com###divArticleAvailableLanguages
 www.wpf-tutorial.com##div.codebox_bar
 www.xda-developers.com##.et_social_inline
@@ -1299,7 +1301,7 @@ zhidao.baidu.com##.task-list-button
 ||s3-us-west-2.amazonaws.com/tempest-promotions/optinmonster.js$domain=www.history.com
 ||s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js
 ||s3.amazonaws.com/collectchat/launcher.js$domain=techxposer.com
-||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=npm.taobao.org|mahapps.com|github.io
+||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=mahapps.com|github.io
 ||s3a.pstatp.com/toutiao/push.js$domain=csdn.net
 ||s7.addthis.com^*/addthis_widget.js$important
 ||sc.appvipshop.com/vips-mobile-tracker/router.do?service=vip.monitor.logger
@@ -1397,6 +1399,7 @@ zhidao.baidu.com##.task-list-button
 ||statistic.csdn.net/www
 ||statistic.zhaopin.cn/sdk/sa/
 ||statistic.zhaopin.cn/sdk/zhaopin_tracker.js
+||store.google.com/_/Gstore/jserror
 ||store.steampowered.com/default/usabilitytracking/
 ||stripe.com$domain=gitbook.com
 ||sug.so.360.cn/suggest
@@ -1647,6 +1650,7 @@ zhidao.baidu.com##.task-list-button
 ||www.w3adda.com/detroitchicago/cmbv2.js
 ||www.winhelponline.com/blog/wp-content/plugins/cookie-notice/
 ||www.wintips.org/wp-content/plugins/contact-form-7/modules/recaptcha/script.js
+||www.wired.com/hotzones/src/ads.js
 ||www.wpf-tutorial.com/Content/Local/1.css
 ||www.wpf-tutorial.com/Content/Local/1.js
 ||www.wpf-tutorial.com/Ping
