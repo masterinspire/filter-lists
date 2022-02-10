@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, February 8, 2022
+! Last modified: Thursday, February 10, 2022
 ! Title: Master-AdRules
-! Version: 20220208
+! Version: 20220210
 !
 !
 !
@@ -491,6 +491,7 @@ www.baidu.com##.selected-search-box
 www.baidu.com##.square-banner-bg.index-banner
 www.baidu.com##.under-tips
 www.baike.com##.search-recom
+www.bbc.com##.lx-stream-post__footer > .lx-stream-post__footer-share
 www.bing.com###b_footer
 www.bing.com###b_results > .b_top.b_ans
 www.bing.com###bnp_cont
@@ -995,6 +996,7 @@ zhidao.baidu.com##.task-list-button
 ||csdnimg.cn/rabbit/exposure-click/block.js$domain=csdn.net
 ||csdnimg.cn/search/baidu_opensug-*.js$domain=csdn.net
 ||csdnimg.cn/static/api/js/share.js$domain=csdn.net
+||cse.google.com/cse.js$domain=admx.help
 ||csmobiledata.alipay.com/spmRecord.json
 ||csp.yandex.net/csp$domain=yandex.com
 ||cstm.baidu.com$domain=baike.baidu.com
@@ -1084,6 +1086,7 @@ zhidao.baidu.com##.task-list-button
 ||g.csdnimg.cn/share/*/js/share.js$domain=csdn.net
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js$domain=csdn.net
 ||gdpr-service.herokuapp.com/is-gdpr
+||gdpr-wrapper.privacymanager.io/
 ||geo2.adobe.com/json/
 ||geolocation.1trust.app/cookieconsentpub/v1/geo/location
 ||geolocation.onetrust.com/cookieconsentpub/v1/geo/location
@@ -1097,6 +1100,7 @@ zhidao.baidu.com##.task-list-button
 ||github.com/orgs/*/survey_banner
 ||gitter.im/api/private/statsc
 ||glitter.services.disqus.com/urls/?callback=dsqGlitterResponseHandler
+||gn-web-assets.api.bbc.com/bbcdotcom/assets/*/script/av/emp/analytics.js
 ||go.digitalocean.com/js/forms2/js/forms2.min.js
 ||go.pardot.com/js/piUtils.js$domain=gradle.com|gradle.org
 ||gold-cdn.xitu.io/v3/static/img/extension.1dbaf43.png
