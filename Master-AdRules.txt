@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, February 10, 2022
+! Last modified: Sunday, February 13, 2022
 ! Title: Master-AdRules
-! Version: 20220210
+! Version: 20220213
 !
 !
 !
@@ -190,7 +190,6 @@ discuss.atom.io##.quote-button
 disqus.com##.login-overlay__wrapper
 dnschecker.org###cookie-box
 doc.qt.io###cookie-confirm
-docs.asp.net###helpful
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
 docs.microsoft.com###banner-holder
@@ -234,7 +233,6 @@ fandom.com##.notifications-placeholder
 firebase.google.com##devsite-feedback
 firebase.google.com##devsite-thumb-rating
 forum.gitlab.com##.quote-button
-forums.asp.net##.all-content > div:nth-of-type(1)
 freecommander.com###cookie-notice
 get.videolan.org###uecookies
 gist.github.com##.gist-banner.gist-detail-intro
@@ -298,9 +296,6 @@ mathoverflow.net###js-gdpr-consent-banner
 mathoverflow.net##.js-consent-banner
 mathoverflow.net##.js-freemium-cta
 mbillexprod.alipay.com###pc-merchant-onlineService
-medium.com##.js-postShareWidget
-medium.com##.js-stickyFooter
-medium.com##script:last-of-type + div
 microsoft.com###epb
 microsoft.com###msccBanner
 microsoft.com###uhfCookieAlert
@@ -310,7 +305,6 @@ movie.mtime.com###divRelatedGoods
 mrchportalweb.alipay.com###pc-merchant-onlineService
 mrsteinberg.com##.entry-meta-bottom > #contact
 mrsteinberg.com##.entry-meta-bottom > .comments2
-msdn.itellyou.cn##.shang_box
 mui.com##[aria-label="Diamond Sponsors"]
 mui.com##[data-ga-event-category="ad"]
 mui.com##[data-ga-event-category="sponsor"]
@@ -436,9 +430,8 @@ wap.gamersky.com##.ymw-rel-mgame
 wapbaike.baidu.com###J-spark-icon
 wapbaike.baidu.com###J-tashuo-button-fixed
 wapbaike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
-web.dev##.w-actions
+web.dev##.docked-actions
 web.dev##web-snackbar-container
-weblogs.asp.net###msccBanner
 webpack.js.org##.notification-bar
 webpack.js.org##.sponsors
 wenku.baidu.com###activity-tg
@@ -472,8 +465,6 @@ www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
 www.apress.com##.wrapper > .page > .col3-layout.main > .col-wrapper > .straddle-1-2 > .col-main > div:nth-of-type(1)
-www.asp.net###helpful
-www.asp.net##DIV[id="survey-container"]
 www.baidu.com###content_right
 www.baidu.com###copyright ~ div[style^="position: fixed"]
 www.baidu.com###hotwordlist
@@ -489,6 +480,7 @@ www.baidu.com##.s-top-right.s-isindex-wrap > .s-top-right-text.c-font-normal.c-c
 www.baidu.com##.se-ft-promlink
 www.baidu.com##.selected-search-box
 www.baidu.com##.square-banner-bg.index-banner
+www.baidu.com##.under-searchbox-tips
 www.baidu.com##.under-tips
 www.baike.com##.search-recom
 www.bbc.com##.lx-stream-post__footer > .lx-stream-post__footer-share
@@ -750,6 +742,8 @@ www.zdnet.com##.large.video.shortcode
 www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
 xbox.com###epb
+xhamster49.com##.cookie-announce.bottom-announce
+xhamster49.com##.xplayer-banner
 yandex.com##.content__right
 youdao.com###ads
 youdao.com###wljb
@@ -764,7 +758,6 @@ zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
 ||*.amazon-adsystem.com/widgets/$important
 ||*.cloudfront.net/f/$domain=dzone.com
-||*.cloudfront.net/keys/medium.com/p.js$domain=medium.com
 ||*.cnbeta.com/static/api/js/share.js
 ||*.cnbeta.com/static/api/js/share/share_api.js
 ||*.cnbeta.com/static/api/js/view/share_view.js
@@ -808,7 +801,6 @@ zhidao.baidu.com##.task-list-button
 ||answers.microsoft.com/en-us/contentstatisticsspark/addthreadviewcountasync
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-iam.intercom.io/messenger/web/ping
-||api.branch.io$domain=medium.com
 ||api.cdnbye.com/v1/channel/*/stats
 ||api.dec.sitefinity.com/collect/
 ||api.eu-west-1.aiv-delivery.net/Events/$domain=www.primevideo.com
@@ -1321,7 +1313,7 @@ zhidao.baidu.com##.task-list-button
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
 ||securepubads.g.doubleclick.net$domain=digitaltrends.com|softonic.com,important
 ||sentry.gitlab.net/api/
-||sentry.io/api$domain=jetbrains.com|medium.com
+||sentry.io/api$domain=jetbrains.com
 ||sentry.matrix.org$domain=gitter.im
 ||sentry.micloud.d.xiaomi.net/api/
 ||seq.jd.com/jseqf.html$domain=passport.jdpay.com|passport.jd.com
@@ -1351,7 +1343,6 @@ zhidao.baidu.com##.task-list-button
 ||sm.bdimg.com/static/wiseindex/js/lib/transfer/common/ShieldMonitor_*.js$domain=www.baidu.com|m.baidu.com
 ||sm.bdimg.com/static/wiseindex/js/lib/transfer/common/ivkBox_*.js$domain=www.baidu.com|m.baidu.com
 ||sm.bdimg.com/static/wiseindex/js/package/newsActivity_*.js$domain=www.baidu.com|m.baidu.com
-||smartlock.google.com^$domain=medium.com
 ||smetrics.ubi.com
 ||socket.jisuan.mobi/$domain=bianma.supfree.net
 ||sofire.baidu.com/data/ua/ab.json$domain=aiqicha.baidu.com
@@ -1403,6 +1394,7 @@ zhidao.baidu.com##.task-list-button
 ||statistic.csdn.net/www
 ||statistic.zhaopin.cn/sdk/sa/
 ||statistic.zhaopin.cn/sdk/zhaopin_tracker.js
+||storage.googleapis.com/crdx-feedback.appspot.com/feedback.js
 ||store.google.com/_/Gstore/jserror
 ||store.steampowered.com/default/usabilitytracking/
 ||stripe.com$domain=gitbook.com
@@ -1570,6 +1562,7 @@ zhidao.baidu.com##.task-list-button
 ||www.googleadservices.com/pagead
 ||www.googletagmanager.com/$third-party,important
 ||www.googletagservices.com/$third-party,important
+||www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js$third-party
 ||www.gstatic.com/feedback/api.js$third-party
 ||www.hanselman.com/blog/theme/jinyang/scripts/cda-tracker.js
 ||www.hanselman.com/blog/theme/jinyang/scripts/cookieconsent.min.js
@@ -1599,9 +1592,6 @@ zhidao.baidu.com##.task-list-button
 ||www.microsofttranslator.com/ajax/v2/toolkit.ashx
 ||www.microsofttranslator.com/ajax/v3/WidgetV3.ashx
 ||www.mozilla.org/country-code.json
-||www.msdn.hk/plus/count.php
-||www.msdn.hk/templets/msdn/css/index.js
-||www.msdn.hk/templets/msdn/css/viewads.js
 ||www.newstatesman.com/wp-content/plugins/nsmg-evolok-paywall/
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
@@ -1639,6 +1629,7 @@ zhidao.baidu.com##.task-list-button
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
 ||www.tensorflow.org/_d/analytics-iframe
 ||www.tensorflow.org/_d/dynamic_content
+||www.termsfeed.com/public/cookie-consent/$domain=www.azmovies.net
 ||www.theregister.com/design_picker/*/javascript/ads.js
 ||www.ttshitu.com/js/baidu.js
 ||www.vg247.com/wp-content/themes/vg247/scripts/CookieGDPR.js
