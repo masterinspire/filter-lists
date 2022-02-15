@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, February 13, 2022
+! Last modified: Tuesday, February 15, 2022
 ! Title: Master-AdRules
-! Version: 20220213
+! Version: 20220215
 !
 !
 !
@@ -137,6 +137,7 @@ cn.bing.com##a[href^="http://www.microsofttranslator.com"]
 cnbeta.com##.article-share-code
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
+community.cloudflare.com##.quote-button
 community.notepad-plus-plus.org##.selection-tooltip-container
 community.spiceworks.com###zdprivacy-content
 config.office.com##.helpTitle.ms-Button--command.ms-Button--action.ms-Button
@@ -273,6 +274,7 @@ jingyan.baidu.com##.wrp-exp-share
 konvajs.org###mc_embed_signup
 kotlinlang.org##.feedback
 letsencrypt.org##.donate-footer
+lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
 m.baidu.com###copyright ~ div[style^="position: fixed"]
@@ -412,6 +414,7 @@ telerik.com##.optanon-alert-box-wrapper
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tieba.baidu.com###tiebaCustomPassLogin
+tieba.baidu.com##.app_download_box.region_bright,.tbui_aside_float_bar
 time.is###important_info
 tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm,#CoverB,#QRCode
@@ -615,6 +618,7 @@ www.mojeek.com##.js-pop.pop-in
 www.mssqltips.com###slideboxtop
 www.mssqltips.com##.columns.hide-for-print.large-3
 www.namegeneratorfun.com###consent
+www.nature.com##.c-site-messages--nature-briefing-email-variant
 www.newstatesman.com##.c-share--clear.c-share
 www.newstatesman.com##.c-sponsored-article
 www.newstatesman.com##.newsletter-inner-container
@@ -888,7 +892,7 @@ zhidao.baidu.com##.task-list-button
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
 ||bundler.io/javascripts/analytics.js
-||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com,important
+||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com|lifehacker.com,important
 ||c.disquscdn.com/next/embed/alfalfa_min.*.js
 ||c.evidon.com/geo/country.js$domain=adobe.com|vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
@@ -1126,7 +1130,7 @@ zhidao.baidu.com##.task-list-button
 ||iknowwap.bdimg.com/static/m-question-new/widget/ad-union-new/ad-union-new-async.*.js$domain=zhidao.baidu.com
 ||image.51cto.com/images/home/js/ad*.js$domain=www.51cto.com
 ||image.baidu.com/httpsjsonp/pc?callback=imageCheckHttps$domain=www.baidu.com
-||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.usatoday.com,important
+||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.usatoday.com|lifehacker.com,important
 ||img05.zhaopin.cn/2014/common/js/za/ga.js
 ||imgcache.qq.com/qcloud/platreport/dest/index.js$domain=cloud.tencent.com
 ||imgcache.qq.com/tencentvideo_v1/player/plugins/RelevanceAd.swf
@@ -1263,6 +1267,7 @@ zhidao.baidu.com##.task-list-button
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
+||push-content.springernature.io/*/production_live/consent-bundle-*.js$domain=www.nature.com
 ||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
