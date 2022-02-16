@@ -1,12 +1,13 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, February 13, 2022
+! Last modified: Wednesday, February 16, 2022
 ! Title: Master-AdRules Breaking 3
-! Version: 20220213
+! Version: 20220216
 !
 !
 !
+||apis.google.com/js/platform.js$domain=www.geeksforgeeks.org
 ||i.ytimg.com$third-party
 ||lh*.googleusercontent.com$third-party
 ||pbs.twimg.com$domain=stackoverflow.blog|material-ui.com|gitter.im|community.notepad-plus-plus.org
