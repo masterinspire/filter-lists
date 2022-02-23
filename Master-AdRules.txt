@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, February 16, 2022
+! Last modified: Wednesday, February 23, 2022
 ! Title: Master-AdRules
-! Version: 20220216
+! Version: 20220223
 !
 !
 !
@@ -130,6 +130,7 @@ cn.bing.com###b_pole
 cn.bing.com###qs_searchBox
 cn.bing.com###searchBoxOuter
 cn.bing.com##.adsblock
+cn.bing.com##.b_firstResultPadding
 cn.bing.com##.b_topborder.b_top
 cn.bing.com##.opal_serpftrc
 cn.bing.com##.usrlc_bpc
@@ -149,6 +150,7 @@ dev.to###sidebar-wrapper-left > .side-bar > .crayons-card--secondary.crayons-car
 dev.to##.authentication-feed__card
 dev.to##div.crayons-sponsorship-widget.crayons-card--secondary.crayons-card
 devblogs.microsoft.com##.a2a_kit
+devblogs.microsoft.com##.back-comment-buttons
 devblogs.microsoft.com##.smcx-modal-invitation.smcx-modal.smcx-widget
 devblogs.microsoft.com##.social-icon-bar
 devdactic.com###cookie-notice
@@ -388,6 +390,7 @@ stackoverflow.com##.js-sidebar-zone
 startpage.com##.home__section-one__search-container.home__section-one__search-container__show-subtitle > .subtitle
 staxmanade.com##.jj-signup-form
 stremiomovies.com##a[href="/premium"]
+substack.com##.post-end-cta-full
 substack.com##.subscribe-footer
 substack.com##.subscribe-widget
 superuser.com###divQuestionFollowFeaturePopover
@@ -578,7 +581,7 @@ www.itpro.com##.polaris__newsletter
 www.itprotoday.com###newsletter-signup-load
 www.itprotoday.com##.gdpr-popup-border
 www.itprotoday.com##.share-icons
-www.javascripttutorial.net##.ad
+www.javascripttutorial.net##.ad,#back-to-top
 www.jb51.net###right-share
 www.jd.com##.promotional-top
 www.jetbrains.com##.cookies-banner
@@ -750,7 +753,9 @@ www.zdnet.com##.large.video.shortcode
 www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
 xbox.com###epb
+xhamster49.com###dyltv-anchor
 xhamster49.com##.cookie-announce.bottom-announce
+xhamster49.com##.promo-message__banner.promo-message
 xhamster49.com##.xplayer-banner
 xhamsterlive.com##.cookies-reminder
 yandex.com##.content__right
@@ -967,6 +972,7 @@ zhidao.baidu.com##.task-list-button
 ||cn.bing.com/english/zochatv2
 ||cn.bing.com/hptr/
 ||cn.bing.com/orgid/idtoken/conditional
+||cn.bing.com/popularnow
 ||cnstrc.com/js/ac.js
 ||cnt.zhaopin.com/Market/whole_counter.jsp
 ||col.csbops.io/data/sandpack
@@ -985,7 +991,7 @@ zhidao.baidu.com##.task-list-button
 ||consent-st.truste.com/get
 ||consent.cookiebot.com/uc.js
 ||consent.trustarc.com/notice$domain=auth0.com|jwt.io
-||consent.truste.com/notice$domain=docker.com|dev.mysql.com
+||consent.truste.com/notice$domain=docker.com|mysql.com
 ||consentdeliveryfd.azurefd.net/mscc/lib/v2/wcp-consent.js$domain=www.typescriptlang.org
 ||console-base-cn-hangzhou.cn-hangzhou.log.aliyuncs.com/logstores/the-base/track$domain=aliyun.com
 ||consolebench.cn-hangzhou.log.aliyuncs.com/logstores/accesslog/track$domain=aliyun.com
@@ -1174,6 +1180,7 @@ zhidao.baidu.com##.task-list-button
 ||kongpao.com/template/m1938pc/images/js/history.js
 ||kotlinlang.org/docs/static/v3/analytics.js
 ||kunpeng.csdn.net/ad/
+||l.ctrl.blog/visit
 ||launcher.spot.im/$domain=www.merriam-webster.com
 ||layer.bz.mgtv.com/layer/selfreport$domain=www.mgtv.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
@@ -1267,6 +1274,7 @@ zhidao.baidu.com##.task-list-button
 ||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
 ||player.cnevids.com$domain=www.wired.co.uk|www.wired.com
+||player.sexapi.xyz/jwplayer/devtools-detector.js
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
@@ -1608,7 +1616,7 @@ zhidao.baidu.com##.task-list-button
 ||www.newstatesman.com/wp-content/plugins/nsmg-evolok-paywall/
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
-||www.oracle.com/assets/truste-oraclelib.js$domain=dev.mysql.com
+||www.oracle.com/assets/truste-oraclelib.js$domain=mysql.com
 ||www.oschina.net/action/trace/record
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Magento_GoogleTagManager/
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_GoogleTagManager/
