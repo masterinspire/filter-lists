@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, February 23, 2022
+! Last modified: Sunday, February 27, 2022
 ! Title: Master-AdRules
-! Version: 20220223
+! Version: 20220227
 !
 !
 !
@@ -144,6 +144,7 @@ community.spiceworks.com###zdprivacy-content
 config.office.com##.helpTitle.ms-Button--command.ms-Button--action.ms-Button
 config.office.com##.unAuthPrivacyFooter
 css-tricks.com##.fem-sidebar-ad.fem-ad
+curl-library.cool.haxx.narkive.com###selection_url_c
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
 deepmind.com###cookieBar
 dev.to###sidebar-wrapper-left > .side-bar > .crayons-card--secondary.crayons-card
@@ -581,7 +582,7 @@ www.itpro.com##.polaris__newsletter
 www.itprotoday.com###newsletter-signup-load
 www.itprotoday.com##.gdpr-popup-border
 www.itprotoday.com##.share-icons
-www.javascripttutorial.net##.ad,#back-to-top
+www.javascripttutorial.net##.ad,#back-to-top,.helpful-block-content
 www.jb51.net###right-share
 www.jd.com##.promotional-top
 www.jetbrains.com##.cookies-banner
@@ -743,12 +744,10 @@ www.xda-developers.com##.et_social_inline
 www.xda-developers.com##.et_social_sidebar_networks
 www.xda-developers.com##.widget.widget-2.widget_text
 www.xda-developers.com##.widget.widget-3.widget_text
-www.yuque.com##.social-share
-www.yuque.com##.yuque-doc-content:style(min-height: inherit !important; max-height: 100% !important;)
-www.yuque.com##div[class^="ReaderCommentSignupGuide-module_commentOnboardingBanner_"]
-www.yuque.com##div[class^="index-module_reward_"]
-www.yuque.com##div[class^="loginCard___"]
-www.yuque.com##div[class^="reward___"]
+www.yuque.com##.article-content-reward
+www.yuque.com##.default-back-top.ant-back-top
+www.yuque.com##div[class*="CornerBubble-module_cornerBubble"]
+www.yuque.com##div[class*="index-module_qrCodeWrapper"]
 www.zdnet.com##.large.video.shortcode
 www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
@@ -1059,6 +1058,7 @@ zhidao.baidu.com##.task-list-button
 ||eventreport.dingxiang-inc.com/api/webErrReport$domain=www.cnblogs.com
 ||events.jianshu.io:4006/sa.gif
 ||events.mapbox.com/events/$domain=www.fox5ny.com
+||events.nanonets.com/
 ||exmail.qq.com/qy_mng_logic/reportKV
 ||experience.tinypass.com/xbuilder/experience/execute$domain=www.telegraph.co.uk
 ||fe-api.zhaopin.com/c/i/adv
@@ -1283,7 +1283,6 @@ zhidao.baidu.com##.task-list-button
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
 ||push-content.springernature.io/*/production_live/consent-bundle-*.js$domain=www.nature.com
-||px.effirst.com/api/v1/jssdk/upload$domain=www.yuque.com
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||qdp.qidian.com/qreport
 ||quantcast.mgr.consensu.org/choice/*/mathworks.com/choice.js$domain=www.mathworks.com
@@ -1458,7 +1457,6 @@ zhidao.baidu.com##.task-list-button
 ||tongji.flash.cn/hm*.gif
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
-||tracert.alipay.com/cross.html$domain=www.yuque.com|alipay.com
 ||tracking.epicgames.com
 ||traffic.alexa.com/graph$domain=www.robtex.com
 ||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com|startpagesearch.com|www.geeksforgeeks.org
@@ -1473,6 +1471,7 @@ zhidao.baidu.com##.task-list-button
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||uid.mavencoalition.io/v3$domain=www.history.com,important
 ||update.vivaldi.com/stats/rep
+||ur.alipay.com/tracert_*.js$domain=www.yuque.com|alipay.com
 ||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
 ||v2.zopim.com$domain=intellipaat.com
 ||v20200617-gap.freecodecamp.org/$domain=www.freecodecamp.org,important
@@ -1670,6 +1669,7 @@ zhidao.baidu.com##.task-list-button
 ||www.wpf-tutorial.com/Content/Local/1.css
 ||www.wpf-tutorial.com/Content/Local/1.js
 ||www.wpf-tutorial.com/Ping
+||www.yuque.com/api/logs/error
 ||www.zhaopin.com/static/analytics.js
 ||www.zhihu.com/sc-profiler
 ||x.cospace.app/m/services_v0.js$domain=www.nextiva.com
