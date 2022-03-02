@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, March 1, 2022
+! Last modified: Wednesday, March 2, 2022
 ! Title: Master-AdRules Breaking
-! Version: 20220301
+! Version: 20220302
 !
 !
 !
@@ -15,7 +15,7 @@ github.com##.HeaderMenu.HeaderMenu--logged-out > nav
 ||codesandbox.io$domain=mui.com
 ||cse.google.com/cse.js$third-party,important
 ||feedburner.google.com$domain=chocolatey.org
-||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com
+||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com|news.google.com
 ||mail.google.com/mail/$domain=www.erlang.org
 ||maps.google.com/maps/api/js$third-party
 ||maps.googleapis.com/maps/api/js$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
@@ -31,6 +31,7 @@ github.com##.HeaderMenu.HeaderMenu--logged-out > nav
 ||www.google.com/coop/intl/en/images/google_custom_search_watermark.gif$domain=www.ruby-lang.org
 ||www.google.com/cse/brand$third-party,important
 ||www.google.com/cse/cse.js$third-party,important
+||www.google.com/help/hc/images/icons/play_icon_64.png$domain=support.google.com
 ||www.google.com/jsapi$third-party,important
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js
 ||www.youtube-nocookie.com/embed/*$third-party

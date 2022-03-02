@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, March 1, 2022
+! Last modified: Wednesday, March 2, 2022
 ! Title: Master-AdRules
-! Version: 20220301
+! Version: 20220302
 !
 !
 !
@@ -87,7 +87,7 @@ blog.csdn.net##.readall_box
 blog.csdn.net##.vertical.tool-box
 blog.csdn.net#.more-toolbox
 blog.encyro.com###PopupSignupForm_0
-blog.google###cookieBar
+blog.google###cookieBar,.uni-newsletter-toast
 blog.jetbrains.com###post_footer_banner
 blog.jetbrains.com##.banner
 blog.jetbrains.com##.newsletter
@@ -238,6 +238,7 @@ fandom.com###WikiaBar
 fandom.com##.notifications-placeholder
 firebase.google.com##devsite-feedback
 firebase.google.com##devsite-thumb-rating
+forum.f-droid.org##.quote-button,.signup-cta
 forum.gitlab.com##.quote-button
 freecommander.com###cookie-notice
 get.videolan.org###uecookies
@@ -475,6 +476,7 @@ wk.baidu.com##.wk-join-years
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
 wpf.2000things.com###eu-cookie-law
 www.88dyw.com##.gotop
+www.android.com##.cookie-banner
 www.androidcentral.com##.share
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
@@ -962,7 +964,7 @@ zhidao.baidu.com##.task-list-button
 ||cleverstaginc.firebaseio.com$domain=wallsmash.com
 ||click.fanyi.baidu.com/
 ||click.gamersky.com/Common/GetHits.aspx
-||cloud.google.com/log
+||cloud.google.com/log$important
 ||cloud.tencent.com/act/common/report
 ||cloud.tencent.com/developer/services/ajax/pageview-report?action=ReportCommunityPageView
 ||cloud.tencent.com/document/ajax/?action=checkDocApiPageRedirect
@@ -1581,7 +1583,7 @@ zhidao.baidu.com##.task-list-button
 ||www.fox5ny.com/api/layouts/alert/heartbeat$domain=www.fox5ny.com
 ||www.gannett-cdn.com/gannett-web/apps/teal/dist$domain=www.usatoday.com
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
-||www.google.com.hk/complete/search
+||www.google.com.hk/complete/search$important
 ||www.google.com.hk/maps/preview/log204
 ||www.googleadservices.com/pagead
 ||www.googletagmanager.com/$third-party,important
