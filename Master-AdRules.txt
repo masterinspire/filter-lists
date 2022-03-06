@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 2, 2022
+! Last modified: Sunday, March 6, 2022
 ! Title: Master-AdRules
-! Version: 20220302
+! Version: 20220306
 !
 !
 !
@@ -643,6 +643,9 @@ www.nuget.org###sideColumn > .stat
 www.nuget.org###usabilla-button
 www.nvidia.com###cookiePolicy-layer
 www.online-tech-tips.com##div[id^="snhb-In_content_"]
+www.openculture.com###cookie-law-info-bar
+www.openculture.com###donate
+www.openculture.com##.socialblock
 www.opera.com###cookie-consent
 www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com###packt_gdpr_container
@@ -761,8 +764,10 @@ xbox.com###epb
 xhamster49.com###dyltv-anchor
 xhamster49.com##.cookie-announce.bottom-announce
 xhamster49.com##.promo-message__banner.promo-message
+xhamster49.com##.wio-ysp-b
 xhamster49.com##.xplayer-banner
 xhamsterlive.com##.cookies-reminder
+xhamsterlive.com##.join-me-button
 yandex.com##.content__right
 youdao.com###ads
 youdao.com###wljb
@@ -945,7 +950,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.segment.com/analytics.js/v1/*/analytics.min.js$important
 ||cdn.subscribers.com/assets/subscribers.js$domain=www.infoworld.com
 ||cdn.syncfusion.com/scripts/albacross/track-new.js
-||cdn.tinypass.com/api/tinypass.min.js$domain=www.insider.com|www.independent.co.uk
+||cdn.tinypass.com/api/tinypass.min.js$domain=www.insider.com|www.independent.co.uk|www.businessinsider.com
 ||cdn2.jianshu.io/assets/web/web-note-ad-*.png
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent$third-party
