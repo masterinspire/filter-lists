@@ -1,19 +1,17 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 2, 2022
+! Last modified: Monday, March 7, 2022
 ! Title: Master-AdRules Breaking
-! Version: 20220302
+! Version: 20220307
 !
 !
 !
 github.com##.HeaderMenu.HeaderMenu--logged-out > nav
 ||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org|www.codeproject.com|www.quora.com|vimeo.com|www.reddit.com
-||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com
 ||cefsharp.github.io/images/top-header.png
 ||codesandbox.io$domain=mui.com
-||cse.google.com/cse.js$third-party,important
 ||feedburner.google.com$domain=chocolatey.org
 ||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com|news.google.com
 ||mail.google.com/mail/$domain=www.erlang.org
@@ -25,7 +23,6 @@ github.com##.HeaderMenu.HeaderMenu--logged-out > nav
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design
-||statics-marketingsites-*-ms-com.akamaized.net/statics/override.css
 ||www.google.com$domain=bugs.python.org
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/coop/intl/en/images/google_custom_search_watermark.gif$domain=www.ruby-lang.org
