@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, March 7, 2022
+! Last modified: Wednesday, March 9, 2022
 ! Title: Master-AdRules
-! Version: 20220307
+! Version: 20220309
 !
 !
 !
@@ -232,6 +232,7 @@ fandom.com###WikiaBar
 fandom.com##.notifications-placeholder
 firebase.google.com##devsite-feedback
 firebase.google.com##devsite-thumb-rating
+flutter.dev##.show.cookie-snack
 forum.f-droid.org##.quote-button,.signup-cta
 forum.gitlab.com##.quote-button
 freecommander.com###cookie-notice
@@ -713,6 +714,7 @@ www.tutorialspoint.com###rightbar
 www.tutorialspoint.com##.google-bottom-ads
 www.tutorialspoint.com##.top-ad-heading
 www.twitch.tv###twilight-sticky-footer-root
+www.typescriptlang.org###like-dislike-subnav
 www.typescriptlang.org###page-helpful-popup
 www.ubuntu.com##.cookie-policy
 www.usatoday.com###gnt_atomsnc
@@ -824,6 +826,7 @@ zhidao.baidu.com##.task-list-button
 ||api.nextgen.guardianapps.co.uk/weatherapi/city.json
 ||api.pinduoduo.com/api/server/_stm
 ||api.pinterest.com/v1/urls/count.json
+||api.rss2json.com/v1/api.json$domain=flutter.dev
 ||apiv2.pinduoduo.com/api/server/_stm
 ||apiv2.pinduoduo.net/api/server/_stm
 ||app-*.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com|docs.conan.io,important
@@ -834,7 +837,7 @@ zhidao.baidu.com##.task-list-button
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||ask.dcloud.net.cn/crond/run/
-||assets.adobedtm.com/$domain=www.nvidia.com|mothership.sg|www.mathworks.com|www.flickr.com,important
+||assets.adobedtm.com/*/*/launch-*.min.js$important
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
 ||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com
@@ -863,7 +866,7 @@ zhidao.baidu.com##.task-list-button
 ||bce.bdstatic.com/fe-monitor/latest/fe-monitor.min.js
 ||bdimg.share.baidu.com/static/api/js/share.js
 ||bdimg.share.baidu.com/static/js/shell_v2.js
-||beacon-v2.helpscout.net/$domain=fontawesome.com
+||beacon-v2.helpscout.net/$domain=fontawesome.com|ipinfo.io
 ||bing.com/*/MsnJVData/HoverTranslation*
 ||bing.com/AS/Suggestions
 ||bing.com/dict/SerpHoverTrans
@@ -1254,6 +1257,7 @@ zhidao.baidu.com##.task-list-button
 ||pcweb-v1.log.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||ping.cloud.tencent.com/trafficCollect.php
 ||pingjs.qq.com/h5/stats.js$important
+||pixel.ipinfo.io/analytics/log
 ||pixel.wp.com/g.gif
 ||platform.instagram.com/en_US/embeds.js
 ||platform.linkedin.com/in.js
