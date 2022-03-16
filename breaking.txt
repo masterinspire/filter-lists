@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, March 7, 2022
+! Last modified: Wednesday, March 16, 2022
 ! Title: Master-AdRules Breaking
-! Version: 20220307
+! Version: 20220316
 !
 !
 !
@@ -19,7 +19,7 @@ github.com##.HeaderMenu.HeaderMenu--logged-out > nav
 ||maps.googleapis.com/maps/api/js$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
-||raw.githubusercontent.com/mui-org/material-ui/master/docs/notifications.json$domain=mui.com
+||raw.githubusercontent.com/mui/material-ui/master/docs/notifications.json$domain=mui.com
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design
@@ -32,6 +32,7 @@ github.com##.HeaderMenu.HeaderMenu--logged-out > nav
 ||www.google.com/jsapi$third-party,important
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js
 ||www.youtube-nocookie.com/embed/*$third-party
-||youtube.com/embed/*$third-party
+||www.youtube.com/player_api$third-party
+||youtube.com/embed/$third-party
 ||youtube.com/iframe_api$third-party,important
 ||z2c2b4z9.stackpathcdn.com/images/logo256X256.png$domain=entityframeworkcore.com|entityframework.net

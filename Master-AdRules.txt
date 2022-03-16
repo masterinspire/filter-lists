@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 9, 2022
+! Last modified: Wednesday, March 16, 2022
 ! Title: Master-AdRules
-! Version: 20220309
+! Version: 20220316
 !
 !
 !
@@ -97,7 +97,7 @@ boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
 brave.com##.announcement-banner
 carnegie-mec.org###selectionSharerPopover,.cookie-banner
-carnegieendowment.org###selectionSharerPopover.cookie-banner,.active.programs-ctw.no-print.slide-in.from-right.panel
+carnegieendowment.org###selectionSharerPopover,.cookie-banner
 carnegieeurope.eu###selectionSharerPopover,.cookie-banner
 carnegieindia.org###selectionSharerPopover,.cookie-banner
 carnegiemoscow.org###selectionSharerPopover,.cookie-banner
@@ -137,6 +137,7 @@ community.notepad-plus-plus.org##.selection-tooltip-container
 community.spiceworks.com###zdprivacy-content
 config.office.com##.helpTitle.ms-Button--command.ms-Button--action.ms-Button
 config.office.com##.unAuthPrivacyFooter
+create-react-app.dev##div[class^="announcementBar"]
 css-tricks.com##.fem-sidebar-ad.fem-ad
 curl-library.cool.haxx.narkive.com###selection_url_c
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
@@ -703,8 +704,8 @@ www.thetechlounge.com###cookie-law-info-bar
 www.theverge.com###newsletter-signup-short-form
 www.theverge.com##.adblock-allowlist-messaging__wrapper
 www.theverge.com##.c-read-more
-www.thurrott.com##.gdpr-cookie-banner
-www.thurrott.com##.logged-out.comments
+www.thisdot.co##.social-sidebar,.td-chat-container
+www.thurrott.com##.gdpr-cookie-banner,.logged-out.comments
 www.tldrgames.com###catapult-cookie-bar
 www.tp-link.com##.tp-local-switcher
 www.tutorialrepublic.com##.affiliate.segment
@@ -831,6 +832,7 @@ zhidao.baidu.com##.task-list-button
 ||apiv2.pinduoduo.net/api/server/_stm
 ||app-*.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com|docs.conan.io,important
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
+||app.termly.io/embed.min.js$domain=www.thisdot.co
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
 ||arc.msn.com/v4/api/selection$domain=support.microsoft.com
 ||archive.org/includes/donate.php
@@ -950,6 +952,7 @@ zhidao.baidu.com##.task-list-button
 ||chat.afzhan.com/chat/$domain=www.afzhan.com
 ||checkout.stripe.com/v3/checkout.js
 ||cheewhoa.net$domain=vidembed.cc|vidembed.net
+||chrome.google.com/webstore/ajax/eventlog
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||cleverstaginc.firebaseio.com$domain=wallsmash.com
 ||click.fanyi.baidu.com/
@@ -1317,6 +1320,7 @@ zhidao.baidu.com##.task-list-button
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
 ||screenshots.codesandbox.io/*.png
 ||script.sw.report/sw.js$domain=blog.codecentric.de
+||script.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
 ||sdk.51.la/js-sdk-pro.min.js$domain=www.luhu.co
 ||search-api.fie.futurecdn.net/js/w/es6/responsive.js$domain=www.livescience.com
 ||search.10086.cn/log_collecter/collecter.do
@@ -1394,7 +1398,6 @@ zhidao.baidu.com##.task-list-button
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
 ||static.scroll.com/js/scroll.js$domain=tvtropes.org|www.theverge.com|www.insider.com
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
-||static.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
 ||statistic.csdn.net/baidu_search_success$domain=www.csdn.net|blog.csdn.net
 ||statistic.csdn.net/seo/spiderfriendly$domain=csdn.net
 ||statistic.csdn.net/www
@@ -1419,7 +1422,6 @@ zhidao.baidu.com##.task-list-button
 ||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
 ||support2.microsoft.com/common/surveyscripthandler.ashx
-||syndication.twitter.com/settings$domain=thedivision.wikia.com
 ||t.captcha.qq.com/caplog
 ||tags.tiqcdn.com/utag/*/prod/utag
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
@@ -1445,6 +1447,7 @@ zhidao.baidu.com##.task-list-button
 ||translate.google.com/_/TranslateWebserverUi/jserror
 ||trustrcv.baidu.com/xin.php$domain=aiqicha.baidu.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
+||tyrz.gd.gov.cn/pscp/sso/connect/page/logmanager/report
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
 ||uhf.microsoft.com/*/shell/api/mscc
@@ -1455,6 +1458,7 @@ zhidao.baidu.com##.task-list-button
 ||update.vivaldi.com/stats/rep
 ||ur.alipay.com/tracert_*.js$domain=www.yuque.com|alipay.com
 ||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
+||user-analysis.7moor.com/js/uba.min.js$domain=oray.com
 ||util.geeksforgeeks.org/pageTally.php
 ||util.geeksforgeeks.org/profileLink.php
 ||v2.zopim.com$domain=intellipaat.com
