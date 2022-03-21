@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 16, 2022
+! Last modified: Monday, March 21, 2022
 ! Title: Master-AdRules
-! Version: 20220316
+! Version: 20220321
 !
 !
 !
@@ -160,6 +160,7 @@ developer.android.com##.devsite-banner-announcement.devsite-banner
 developer.android.com##devsite-footer-promos
 developer.android.com##devsite-hats-survey
 developer.android.com##devsite-thumb-rating
+developer.android.com##devsite-video
 developer.android.com##devsite-youtube
 developer.android.google.cn##.devsite-banner-announcement.devsite-banner
 developer.android.google.cn##devsite-footer-promos
@@ -750,6 +751,7 @@ www.yuque.com##div[class*="index-module_qrCodeWrapper"]
 www.zdnet.com##.large.video.shortcode
 www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
+www1.gowatchseries.online##.notice
 xbox.com###epb
 xhamster49.com###dyltv-anchor
 xhamster49.com##.cookie-announce.bottom-announce
@@ -988,7 +990,7 @@ zhidao.baidu.com##.task-list-button
 ||consent-st.truste.com/get
 ||consent.cookiebot.com/uc.js
 ||consent.trustarc.com/notice$domain=auth0.com|jwt.io
-||consent.truste.com/notice$domain=docker.com|mysql.com
+||consent.truste.com/notice$domain=docker.com|mysql.com|www.adultswim.com
 ||consentdeliveryfd.azurefd.net/mscc/lib/v2/wcp-consent.js$domain=www.typescriptlang.org
 ||console-base-cn-hangzhou.cn-hangzhou.log.aliyuncs.com/logstores/the-base/track$domain=aliyun.com
 ||consolebench.cn-hangzhou.log.aliyuncs.com/logstores/accesslog/track$domain=aliyun.com
@@ -1389,6 +1391,7 @@ zhidao.baidu.com##.task-list-button
 ||static.addtoany.com$domain=www.historytoday.com|opencv.org
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/button*
+||static.cdn.adultswim.com/tools/global/user-consent-*.min.js
 ||static.deepl.com/*/cookieBanner
 ||static.foxnews.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
 ||static.foxtv.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
@@ -1652,8 +1655,10 @@ zhidao.baidu.com##.task-list-button
 ||www.wpf-tutorial.com/Content/Local/1.css
 ||www.wpf-tutorial.com/Content/Local/1.js
 ||www.wpf-tutorial.com/Ping
+||www.xda-developers.com/adsninja_package/
 ||www.yuque.com/api/logs/error
 ||www.zhihu.com/sc-profiler
+||www1.gowatchseries.online/anclytic.html
 ||x.cospace.app/m/services_v0.js$domain=www.nextiva.com
 ||x.jr.jd.com/flow/bid$domain=biz.jd.com
 ||xfeedback.oss-cn-hangzhou.aliyuncs.com/$domain=market.aliyun.com
