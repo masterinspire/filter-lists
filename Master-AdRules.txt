@@ -1,13 +1,12 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 23, 2022
+! Last modified: Sunday, March 27 2022
 ! Title: Master-AdRules
-! Version: 20220323
+! Version: 20220327
 !
 !
 !
-*.xyz$domain=vidembed.cc|vidembed.net
 /_/client-timings$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 /gps/event$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 /inc/timming.php
@@ -194,13 +193,7 @@ dnschecker.org###cookie-box
 doc.qt.io###cookie-confirm
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
-docs.microsoft.com###banner-holder
-docs.microsoft.com###ignite-banner-holder
-docs.microsoft.com###openFeedbackContainer
-docs.microsoft.com##.feedback-section
-docs.microsoft.com##.feedback-verbatim
-docs.microsoft.com##.link-button.dropdown-trigger[title="Is this page helpful?"]
-docs.microsoft.com##.page-action-holder
+docs.microsoft.com##.feedback-section,.page-action-holder,.thumb-rating
 docs.rs##.docs-rs-footer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.ti-net.com.cn##body > div:nth-of-type(7)
@@ -523,10 +516,7 @@ www.digitalocean.com###newsletter-signup-dialog
 www.divcss5.com##DIV[class="if1200 ws"]
 www.doc88.com##DIV[class="skintips"]
 www.docs.influxdata.com###support-ad
-www.dotnet-tricks.com###sticky-footer
-www.dotnettricks.com###sidebarbatchesdetail
-www.dotnettricks.com##.sticky-footer
-www.dotnettricks.com##^#ads$important
+www.dotnettricks.com###cookienotify,#sticky-footer
 www.echartsjs.com###apache-banner
 www.educba.com###banner_1
 www.educba.com###topbar
@@ -838,7 +828,7 @@ zhidao.baidu.com##.task-list-button
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||app.termly.io/embed.min.js$domain=www.thisdot.co
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
-||arc.msn.com/v4/api/selection$domain=support.microsoft.com
+||arc.msn.com/v4/api/selection$domain=support.microsoft.com|answers.microsoft.com
 ||archive.org/includes/donate.php
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
