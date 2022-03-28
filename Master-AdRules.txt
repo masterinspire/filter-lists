@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, March 27 2022
+! Last modified: Monday, March 28 2022
 ! Title: Master-AdRules
-! Version: 20220327
+! Version: 20220328
 !
 !
 !
@@ -967,6 +967,7 @@ zhidao.baidu.com##.task-list-button
 ||cn.bing.com/popularnow
 ||cnstrc.com/js/ac.js
 ||col.csbops.io/data/sandpack
+||collect-v6.51.la/v6/event
 ||collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||collector-medium.lightstep.com/api/v0/reports
 ||collector.github.com/github/collect
@@ -1016,6 +1017,7 @@ zhidao.baidu.com##.task-list-button
 ||developer.android.google.cn/_d/analytics-iframe
 ||developer.android.google.cn/_d/dynamic_content
 ||developer.microsoft.com/fdapi/jsll
+||developer.mozilla.org/api/v1/whoami
 ||developer.mozilla.org/static/js/ga.js
 ||developers.google.com/_d/analytics-iframe
 ||developers.google.com/_d/analytics-iframe
@@ -1601,6 +1603,13 @@ zhidao.baidu.com##.task-list-button
 ||www.paypal.com/xoplatform/logger/api/log
 ||www.pgyer.com/app/getAdAdsense
 ||www.pinduoduo.com/icp
+||www.pinterest.com/_/_/context/
+||www.pinterest.com/resource/ActivateExperimentResource/create/
+||www.pinterest.com/resource/ApiResource/create/
+||www.pinterest.com/resource/ContextLogResource/create/
+||www.pinterest.com/resource/StatsLogResource/create/
+||www.pinterest.com/resource/UnauthUserDataResource/get/
+||www.pinterest.com/resource/UserRegisterTrackActionResource/update/
 ||www.qqfby.com/baidu/baidudibu.js
 ||www.qqfby.com/js/baidufoot.js
 ||www.qqfby.com/js/baidumid.js
