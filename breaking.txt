@@ -1,14 +1,14 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, March 16, 2022
+! Last modified: Tuesday, March 29, 2022
 ! Title: Master-AdRules Breaking
-! Version: 20220316
+! Version: 20220329
 !
 !
 !
 github.com##.HeaderMenu.HeaderMenu--logged-out > nav
-||accounts.google.com/gsi/client$domain=www.geeksforgeeks.org|www.codeproject.com|www.quora.com|vimeo.com|www.reddit.com
+||accounts.google.com/$domain=www.dotnettricks.com|www.geeksforgeeks.org|www.codeproject.com|www.quora.com|vimeo.com|www.reddit.com|slack.com
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com
 ||cefsharp.github.io/images/top-header.png
 ||codesandbox.io$domain=mui.com

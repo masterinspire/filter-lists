@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, March 28 2022
+! Last modified: Tuesday, March 29, 2022
 ! Title: Master-AdRules
-! Version: 20220328
+! Version: 20220329
 !
 !
 !
@@ -895,6 +895,7 @@ zhidao.baidu.com##.task-list-button
 ||btrace.video.qq.com/kvcollect
 ||buildapp.net/adcaige.jpg
 ||bundler.io/javascripts/analytics.js
+||business.pinterest.com/resource/BizSiteContentfulResource/get/
 ||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com|lifehacker.com,important
 ||c.disquscdn.com/next/embed/alfalfa_min.*.js
 ||c.evidon.com/geo/country.js$domain=adobe.com|vmware.com
@@ -1257,6 +1258,13 @@ zhidao.baidu.com##.task-list-button
 ||pcweb-v1.log.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||ping.cloud.tencent.com/trafficCollect.php
 ||pingjs.qq.com/h5/stats.js$important
+||pinterest.com/_/_/context/
+||pinterest.com/resource/ActivateExperimentResource/create/
+||pinterest.com/resource/ApiResource/create/
+||pinterest.com/resource/ContextLogResource/create/
+||pinterest.com/resource/StatsLogResource/create/
+||pinterest.com/resource/UnauthUserDataResource/get/
+||pinterest.com/resource/UserRegisterTrackActionResource/update/
 ||pixel.ipinfo.io/analytics/log
 ||pixel.wp.com/g.gif
 ||platform.instagram.com/en_US/embeds.js
@@ -1603,13 +1611,6 @@ zhidao.baidu.com##.task-list-button
 ||www.paypal.com/xoplatform/logger/api/log
 ||www.pgyer.com/app/getAdAdsense
 ||www.pinduoduo.com/icp
-||www.pinterest.com/_/_/context/
-||www.pinterest.com/resource/ActivateExperimentResource/create/
-||www.pinterest.com/resource/ApiResource/create/
-||www.pinterest.com/resource/ContextLogResource/create/
-||www.pinterest.com/resource/StatsLogResource/create/
-||www.pinterest.com/resource/UnauthUserDataResource/get/
-||www.pinterest.com/resource/UserRegisterTrackActionResource/update/
 ||www.qqfby.com/baidu/baidudibu.js
 ||www.qqfby.com/js/baidufoot.js
 ||www.qqfby.com/js/baidumid.js
