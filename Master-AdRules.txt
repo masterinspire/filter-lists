@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, March 29, 2022
+! Last modified: Thursday, March 31, 2022
 ! Title: Master-AdRules
-! Version: 20220329
+! Version: 20220331
 !
 !
 !
@@ -183,7 +183,6 @@ developers.google.com##devsite-footer-promos
 developers.google.com##devsite-thumb-rating
 developers.google.com##devsite-tracking-question
 developers.google.com##devsite-youtube
-dig.ping.pe##img[src="https://ping.pe/slava-ukraini.jpg"]
 digitalrightswatch.org.au###cookie-notice
 ding-doc.dingtalk.com##.styles-float
 discourse.mozilla.org##.quote-button
@@ -320,7 +319,6 @@ packagecloud.io##.logged-out-links
 pan.baidu.com##.phone-banner
 pastebin.com##.-cookies.popup-box
 pastebin.com##.-pro.popup-box
-ping.pe###page-div > pre[style="color:white; margin:0px; color:#b0b0b0"]
 plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
 prodesigntools.com###wpfront-notification-bar-spacer
@@ -680,6 +678,11 @@ www.tapd.cn##.bind-phone-tips
 www.tapd.cn##.editor-content.comment_type_text:style(overflow:auto !important;)
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked
+www.telegraph.co.uk##.article__end-meta
+www.telegraph.co.uk##.article__layout--sidebar.article__layout
+www.telegraph.co.uk##.subscribe-banner
+www.telegraph.co.uk##.u-separator--branded.u-separator-bottom--loose.comment__login
+www.telegraph.co.uk##div.section.html-embed
 www.telerik.com##.optanon-alert-box-wrapper
 www.tenforums.com###cookiescript_injected
 www.tenforums.com###snigel-cmp-framework
@@ -834,6 +837,7 @@ zhidao.baidu.com##.task-list-button
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||ask.dcloud.net.cn/crond/run/
 ||assets.adobedtm.com/*/*/launch-*.min.js$important
+||assets.adobedtm.com/*/satelliteLib-*.js$important
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
 ||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com
@@ -1054,7 +1058,7 @@ zhidao.baidu.com##.task-list-button
 ||events.mapbox.com/events/$domain=www.fox5ny.com
 ||events.nanonets.com/
 ||exmail.qq.com/qy_mng_logic/reportKV
-||experience.tinypass.com/xbuilder/experience/execute$domain=www.telegraph.co.uk
+||experience.tinypass.com/$domain=www.telegraph.co.uk
 ||feed.baidu.com/feed/api/tab/gettabinfo$domain=www.baidu.com|m.baidu.com
 ||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
 ||flights.ctrip.com/itinerary/api/*/records
@@ -1332,6 +1336,7 @@ zhidao.baidu.com##.task-list-button
 ||search.brave.com/api/feedback
 ||search.brave.com/api/suggest
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
+||secure.telegraph.co.uk/customer/lib/tmgrefresh.js
 ||securepubads.g.doubleclick.net$domain=digitaltrends.com|softonic.com,important
 ||sensearch.baidu.com/sensearch/selecttext
 ||sentry.gitlab.net/api/
@@ -1403,10 +1408,12 @@ zhidao.baidu.com##.task-list-button
 ||static.oschina.net/new-osc/js/utils/jweixin-*.*.*.js
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
 ||static.scroll.com/js/scroll.js$domain=tvtropes.org|www.theverge.com|www.insider.com
+||static.telegraph.co.uk/telegraph-advertising/$important
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
 ||statistic.csdn.net/baidu_search_success$domain=www.csdn.net|blog.csdn.net
 ||statistic.csdn.net/seo/spiderfriendly$domain=csdn.net
 ||statistic.csdn.net/www
+||stats.ccleanerbrowser.com/
 ||storage.googleapis.com/crdx-feedback.appspot.com/feedback.js
 ||store.google.com/_/Gstore/jserror
 ||store.steampowered.com/default/usabilitytracking/
@@ -1472,6 +1479,7 @@ zhidao.baidu.com##.task-list-button
 ||va.tawk.to/register/$domain=www.sswug.org
 ||va.v.liveperson.net/api/js$third-party
 ||vip.log.mgtv.com/dynamic_entry.html$domain=www.mgtv.com
+||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/adobe-target/
 ||vivaldi.com/rep/rep
 ||vlscppe.microsoft.com/tags
 ||vortex.data.microsoft.com/collect
