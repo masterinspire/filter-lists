@@ -15,17 +15,29 @@ Add to your **filter lists**:
 
 > https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/breaking.txt
 
+> https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/breaking-2.txt
+
+> https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/breaking-3.txt
+
 or with [jsDelivr](https://www.jsdelivr.com/?docs=gh):
 
 > https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/Master-AdRules.txt
 
 > https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/breaking.txt
 
+> https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/breaking-2.txt
+
+> https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/breaking-3.txt
+
 or with [GitLab](https://gitlab.com/masterinspire/Master-AdRules):
 
-> https://gitlab.com/masterinspire/Master-AdRules/raw/master/Master-AdRules.txt
+> https://gitlab.com/masterinspire/Master-AdRules/-/raw/master/Master-AdRules.txt
 
-> https://gitlab.com/masterinspire/Master-AdRules/raw/master/breaking.txt
+> https://gitlab.com/masterinspire/Master-AdRules/-/raw/master/breaking.txt
+
+> https://gitlab.com/masterinspire/Master-AdRules/-/raw/master/breaking-2.txt
+
+> https://gitlab.com/masterinspire/Master-AdRules/-/raw/master/breaking-3.txt
 
 ## Contribution
 
