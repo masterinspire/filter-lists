@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, April 5, 2022
+! Last modified: Wednesday, April 6, 2022
 ! Title: Master-AdRules
-! Version: 20220405
+! Version: 20220406
 !
 !
 !
@@ -426,6 +426,7 @@ vivaldi.com###social-share
 wapbaike.baidu.com###J-spark-icon
 wapbaike.baidu.com###J-tashuo-button-fixed
 wapbaike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
+web.archive.org##a.social_button
 web.dev##.docked-actions
 web.dev##web-snackbar-container
 webpack.js.org##.notification-bar
@@ -1268,9 +1269,7 @@ zhidao.baidu.com##.task-list-button
 ||pixel.ipinfo.io/analytics/log
 ||pixel.wp.com/g.gif
 ||platform.instagram.com/en_US/embeds.js
-||platform.linkedin.com/in.js
-||platform.linkedin.com/js/framework?v
-||platform.twitter.com/widgets$third-party
+||platform.twitter.com/widgets.js$third-party
 ||play.google.com/log$important
 ||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
@@ -1318,7 +1317,7 @@ zhidao.baidu.com##.task-list-button
 ||s3.amazonaws.com/collectchat/launcher.js$domain=techxposer.com
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=mahapps.com|github.io
 ||s3a.pstatp.com/toutiao/push.js$domain=csdn.net
-||s7.addthis.com^*/addthis_widget.js$important
+||s7.addthis.com/$important
 ||sc.appvipshop.com/vips-mobile-tracker/router.do?service=vip.monitor.logger
 ||scone-pa.clients6.google.com/v1/survey/trigger/trigger_anonymous
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
@@ -1462,6 +1461,7 @@ zhidao.baidu.com##.task-list-button
 ||translate.google.com/_/TranslateWebserverUi/jserror
 ||trustrcv.baidu.com/xin.php$domain=aiqicha.baidu.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
+||twitterinc.tt.omtrdc.net/rest/v1/delivery$important
 ||tyrz.gd.gov.cn/pscp/sso/connect/page/logmanager/report
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
