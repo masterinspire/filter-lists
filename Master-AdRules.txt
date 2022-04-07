@@ -1,9 +1,9 @@
 ! Author: Master Inspire
-! Expires: 7 days (update frequency)
+! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, April 6, 2022
+! Last modified: Thursday, April 7, 2022
 ! Title: Master-AdRules
-! Version: 20220406
+! Version: 20220407
 !
 !
 !
@@ -30,6 +30,7 @@ apkpure.com##.adsbypure
 apkpure.com##.left > .ad-box-auto
 apkpure.com##.share-fixed
 arcanecode.com##.widget_eu_cookie_law_widget.widget
+archive.org##footer
 askubuntu.com###divQuestionFollowFeaturePopover
 askubuntu.com###js-gdpr-consent-banner
 askubuntu.com##.js-consent-banner
@@ -1036,6 +1037,8 @@ zhidao.baidu.com##.task-list-button
 ||docs.microsoft.com/answers/page-view/track.json
 ||docs.microsoft.com/static/third-party/jsll/*/jsll-*.js
 ||docs.vmware.com/o_QRaOhSHwyQ4ee5GSH0/YOOcD4Gkhauf/BwtUPgE/KkYqIU/UpQxk
+||dotnet.microsoft.com/static/js/cda-tracker.min.js
+||dotnet.microsoft.com/static/js/cookie-consent.min.js
 ||downloadmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com|angular-academy.com
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
@@ -1622,6 +1625,7 @@ zhidao.baidu.com##.task-list-button
 ||www.paypal.com/xoplatform/logger/api/log
 ||www.pgyer.com/app/getAdAdsense
 ||www.pinduoduo.com/icp
+||www.platformer.news/embed$domain=www.theverge.com
 ||www.qqfby.com/baidu/baidudibu.js
 ||www.qqfby.com/js/baidufoot.js
 ||www.qqfby.com/js/baidumid.js
