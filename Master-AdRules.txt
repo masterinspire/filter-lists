@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, April 7, 2022
+! Last modified: Sunday, April 10, 2022
 ! Title: Master-AdRules
-! Version: 20220407
+! Version: 20220410
 !
 !
 !
@@ -130,7 +130,6 @@ cn.bing.com##.b_topborder.b_top
 cn.bing.com##.opal_serpftrc
 cn.bing.com##.usrlc_bpc
 cn.bing.com##a[href^="http://www.microsofttranslator.com"]
-cnbeta.com##.article-share-code
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
 community.cloudflare.com##.quote-button
@@ -197,6 +196,7 @@ docs.influxdata.com###support-ad
 docs.microsoft.com##.feedback-section,.page-action-holder,.thumb-rating
 docs.rs##.docs-rs-footer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
+docs.vmware.com##.position-fixed.icons-container
 dotnetfiddle.net##.container-sponsor
 downloads.digitaltrends.com##.ad-burnside
 downloads.digitaltrends.com##.roof-ad
@@ -205,8 +205,6 @@ dragablz.net##.widget_eu_cookie_law_widget.widget
 duckduckgo.com##.header__label.showcase.header--aside__item
 duckduckgo.com##.js-feedback-btn-wrap
 duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
-dzone.com###adtoniq-msgr-bar
-dzone.com##.partner-resources-block.widget-top-border
 dzone.com##.signin-prompt
 edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
@@ -315,6 +313,8 @@ open-vsx.org##div[aria-label="cookieconsent"]
 opencv.org###elementor-popup-modal-11769
 opencv.org###elementor-popup-modal-12574
 opencv.org##.homepage-email-icon
+openvpn.net###usercentrics-root
+openvpn.net##body:style(overflow: unset !important;)
 osdn.net###cookie-bar
 packagecloud.io###cookie-popover
 packagecloud.io##.logged-out-links
@@ -503,6 +503,7 @@ www.chinatax.gov.cn##.paiochuang
 www.cloudamqp.com##.dark-bg.signup
 www.cmdy555.com##div.index-area:nth-of-type(4),div.index-area:nth-of-type(5)
 www.cnblogs.com###div_digg
+www.cnet.com##.newsletter-subscribe-form.c-reengageNewsletter
 www.codastory.com###mc_embed_signup
 www.codeproject.com##[aria-label="cookieconsent"]
 www.computerworld.com##aside[id^="fsb-"]
@@ -538,6 +539,7 @@ www.geeksforgeeks.org##.ad_course_banner
 www.geeksforgeeks.org##.cookie-consent
 www.geeksforgeeks.org##.hireWithUs.practiceButton
 www.geeksforgeeks.org##.imgWrap
+www.geeksforgeeks.org##.vote-wrap
 www.geeksforgeeks.org##.widget_text.widget
 www.gitbook.com/__amp/$domain=docs.avaloniaui.net
 www.gtabase.com##.mailing-list-bottom
@@ -768,13 +770,7 @@ zhidao.baidu.com##.jump-top-box
 zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
-||*.amazon-adsystem.com/widgets/$important
-||*.cloudfront.net/f/$domain=dzone.com
-||*.cnbeta.com/static/api/js/share.js
-||*.cnbeta.com/static/api/js/share/share_api.js
-||*.cnbeta.com/static/api/js/view/share_view.js
 ||*.disqus.com/count.js
-||*.log.mgtv.com/info.php$domain=www.mgtv.com
 ||*.nstool.netease.com/ip.js
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
@@ -803,6 +799,7 @@ zhidao.baidu.com##.task-list-button
 ||alioth.alicdn.com/adPlan-default-position-*$domain=aliyun.com
 ||aliyun-page.cn-hangzhou.log.aliyuncs.com/logstores/web/track$domain=aliyun.com
 ||als.baidu.com/clog/$domain=baidu.com
+||amazon-adsystem.com/widgets/$important
 ||analytics.163.com/ntes.js$important
 ||analytics.bfun.cn/analytics.js
 ||analytics.icons8.com
@@ -813,6 +810,7 @@ zhidao.baidu.com##.task-list-button
 ||api-iam.intercom.io/messenger/web/ping
 ||api-reuters-reuters-prod.cdn.arcpublishing.com/sales/public/v1/entitlements
 ||api-secure.wsj.net/api/michelangelo/timeseries/history
+||api.atlassian.com/metal/ingest
 ||api.cdnbye.com/v1/channel/*/stats
 ||api.dec.sitefinity.com/collect/
 ||api.eu-west-1.aiv-delivery.net/Events/$domain=www.primevideo.com
@@ -889,6 +887,7 @@ zhidao.baidu.com##.task-list-button
 ||bing.net/th?&pid=MSNJVFeeds
 ||bing.net/th?*h=75&pid=MSNJVFeeds|
 ||bing.net/th?id=*pid=MSNJVFeeds|
+||bitbucket.org/gateway/api/gasv3/api/v1/batch
 ||bj.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_*.css$domain=baike.baidu.com
 ||bkssl.bdimg.com/static/wiki-m-lemma/widget/loadMoreContent-n/invokeBaiduApp/invokeBaiduApp_*.js$domain=baike.baidu.com
@@ -970,9 +969,6 @@ zhidao.baidu.com##.task-list-button
 ||cn.bing.com/hptr/
 ||cn.bing.com/orgid/idtoken/conditional
 ||cn.bing.com/popularnow
-||cnstrc.com/js/ac.js
-||col.csbops.io/data/sandpack
-||collect-v6.51.la/v6/event
 ||collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||collector-medium.lightstep.com/api/v0/reports
 ||collector.github.com/github/collect
@@ -985,10 +981,10 @@ zhidao.baidu.com##.task-list-button
 ||connect.facebook.net/*/fbds.js$third-party
 ||connect.facebook.net/*/sdk.js$third-party
 ||connect.ubisoft.com/api/default/location
-||consent-st.truste.com/get
-||consent.cookiebot.com/uc.js
-||consent.trustarc.com/notice$domain=auth0.com|jwt.io
-||consent.truste.com/notice$domain=docker.com|mysql.com|www.adultswim.com
+||consent-st.truste.com/$third-party
+||consent.cookiebot.com/$third-party
+||consent.trustarc.com/$third-party
+||consent.truste.com/$third-party
 ||consentdeliveryfd.azurefd.net/mscc/lib/v2/wcp-consent.js$domain=www.typescriptlang.org
 ||console-base-cn-hangzhou.cn-hangzhou.log.aliyuncs.com/logstores/the-base/track$domain=aliyun.com
 ||consolebench.cn-hangzhou.log.aliyuncs.com/logstores/accesslog/track$domain=aliyun.com
@@ -1015,7 +1011,6 @@ zhidao.baidu.com##.task-list-button
 ||datatables.net/media/js/dynamic.php
 ||dc.services.visualstudio.com/v2/track
 ||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
-||demandbase.com^*/ip.json
 ||dev.to/fallback_activity_recorder
 ||developer.android.com/_d/analytics-iframe
 ||developer.android.com/_d/dynamic_content
@@ -1036,7 +1031,7 @@ zhidao.baidu.com##.task-list-button
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
 ||docs.microsoft.com/answers/page-view/track.json
 ||docs.microsoft.com/static/third-party/jsll/*/jsll-*.js
-||docs.vmware.com/o_QRaOhSHwyQ4ee5GSH0/YOOcD4Gkhauf/BwtUPgE/KkYqIU/UpQxk
+||docs.vmware.com/hKMAwV/e/u/0w3P8rZtPjHa/ri1hfkNS/KSMWAQ/DkI7RC/kjAEY
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
 ||downloadmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
@@ -1060,6 +1055,8 @@ zhidao.baidu.com##.task-list-button
 ||eventreport.dingxiang-inc.com/api/webErrReport$domain=www.cnblogs.com
 ||events.mapbox.com/events/$domain=www.fox5ny.com
 ||events.nanonets.com/
+||exmail.qq.com/cgi-bin/getinvestigate
+||exmail.qq.com/qy_mng_logic/logKVAuto
 ||exmail.qq.com/qy_mng_logic/reportKV
 ||experience.tinypass.com/$domain=www.telegraph.co.uk
 ||feed.baidu.com/feed/api/tab/gettabinfo$domain=www.baidu.com|m.baidu.com
@@ -1170,16 +1167,15 @@ zhidao.baidu.com##.task-list-button
 ||js.monitor.azure.com$third-party,important
 ||js.stripe.com$third-party,important
 ||js.users.51.la/$domain=www.88dyw.com
+||kb.vmware.com/8_FxGjYxYR/qw/aorOQu86/w39O4DGcYGV7/Qk1Q/RQgWNFNw/Rl8
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=1
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
 ||kcart.alipay.com/web/bi.do
 ||knicks.jd.com/log/server
-||kongpao.com/template/m1938pc/images/js/history.js
 ||kotlinlang.org/docs/static/v3/analytics.js
 ||kunpeng.csdn.net/ad/
 ||l.ctrl.blog/visit
 ||launcher.spot.im/$domain=www.merriam-webster.com
-||layer.bz.mgtv.com/layer/selfreport$domain=www.mgtv.com
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||localhost$domain=plugins.jetbrains.com|chinatax.gov.cn
 ||localhost.ptlogin2.qq.com:*/pt_get_uins$domain=xui.ptlogin2.qq.com
@@ -1259,7 +1255,6 @@ zhidao.baidu.com##.task-list-button
 ||partners.npmjs.com/hiring$domain=npmjs.com
 ||passport.csdn.net/v1/api/get/homeword
 ||pc.weixin.qq.com/cgi/report-web
-||pcweb-v1.log.mgtv.com/dispatcher.do$domain=www.mgtv.com
 ||ping.cloud.tencent.com/trafficCollect.php
 ||pingjs.qq.com/h5/stats.js$important
 ||pinterest.com/_/_/context/
@@ -1301,6 +1296,7 @@ zhidao.baidu.com##.task-list-button
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/jquery-for-marketo-opt-in.js
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/marketo-opt-in-2.js
 ||referrer.disqus.com/juggler/event.gif
+||register1.lifesavvy.com/webpush/register
 ||reload.getsentry.net/page/
 ||render.githubusercontent.com/stats
 ||report.huatuo.qq.com/report.cgi
@@ -1327,7 +1323,7 @@ zhidao.baidu.com##.task-list-button
 ||screenshots.codesandbox.io/*.png
 ||script.sw.report/sw.js$domain=blog.codecentric.de
 ||script.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
-||sdk.51.la/js-sdk-pro.min.js$domain=www.luhu.co
+||sdk.51.la/js-sdk-pro.min.js
 ||search-api.fie.futurecdn.net/js/w/es6/responsive.js$domain=www.livescience.com
 ||search.10086.cn/log_collecter/collecter.do
 ||search.brave.com/api/feedback
@@ -1399,7 +1395,6 @@ zhidao.baidu.com##.task-list-button
 ||static.deepl.com/*/cookieBanner
 ||static.foxnews.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
 ||static.foxtv.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
-||static.hitv.com/cms/v/2018/pcweb_top_navi$domain=www.mgtv.com
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
 ||static.oschina.net/new-osc/js/utils/jweixin-*.*.*.js
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
@@ -1440,9 +1435,10 @@ zhidao.baidu.com##.task-list-button
 ||support2.microsoft.com/common/script/fx/surveystrapper.js
 ||support2.microsoft.com/common/surveyscripthandler.ashx
 ||t.captcha.qq.com/caplog
-||tags.tiqcdn.com/utag/*/prod/utag
+||tags.tiqcdn.com/utag/vmware/*-privacy/prod/utag$domain=vmware.com,important
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
 ||tajs.qq.com/stats$important
+||tam.cdn-go.cn/aegis-sdk/latest/aegis.min.js$domain=qq.com
 ||target.microsoft.com/rest/v1/delivery$important
 ||tb.pagetest.top/$domain=www.88dyw.com
 ||tb1.bdstatic.com/tb/img/hg/hg.gif$domain=tieba.baidu.com
@@ -1484,7 +1480,6 @@ zhidao.baidu.com##.task-list-button
 ||v20200617-gap.freecodecamp.org/$domain=www.freecodecamp.org,important
 ||va.tawk.to/register/$domain=www.sswug.org
 ||va.v.liveperson.net/api/js$third-party
-||vip.log.mgtv.com/dynamic_entry.html$domain=www.mgtv.com
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/adobe-target/
 ||vivaldi.com/rep/rep
 ||vlscppe.microsoft.com/tags
@@ -1534,6 +1529,7 @@ zhidao.baidu.com##.task-list-button
 ||www.amazon.com/cross_border_interstitial/render
 ||www.androidcentral.com/_gap/_module.js
 ||www.androidcentral.com/_gap/cyhtvaf/hn/linkid.js
+||www.atlassian.com/endpoint/preferencesV2/consent-config
 ||www.baidu.com/home/msg/data/personalcontent
 ||www.baidu.com/home/page/data/pageserver
 ||www.baidu.com/rec
@@ -1561,6 +1557,8 @@ zhidao.baidu.com##.task-list-button
 ||www.cmdy555.com/js/pctb2.js
 ||www.cmdy555.com/js/tb.js
 ||www.cmdy555.com/js/tj.js
+||www.cnbeta.com/js/util_libs/social-share/jquery.share.js
+||www.cnet.com/ext/cohesion/cdn/cohesion/cohesion-latest.min.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.dell.com/Oa_Kt3Pbao1ob/9jzR/45AtpRtVZQ/Na1QpfVhEX/CSQpQhI_AQ/Slk8Hw/9pLCAB
@@ -1584,6 +1582,8 @@ zhidao.baidu.com##.task-list-button
 ||www.forbes.com/statsapi
 ||www.fox5ny.com/api/layouts/alert/heartbeat$domain=www.fox5ny.com
 ||www.gannett-cdn.com/gannett-web/apps/teal/dist$domain=www.usatoday.com
+||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg.min.js
+||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg_ads.min.js
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
 ||www.google.com.hk/complete/search$important
 ||www.google.com.hk/maps/preview/log204
@@ -1659,13 +1659,12 @@ zhidao.baidu.com##.task-list-button
 ||www.vg247.com/wp-content/themes/vg247/scripts/CookieGDPR.js
 ||www.vivibb.com/index.php/ajax/hits
 ||www.vivibb.com/statics/api/js/share.js
-||www.vmware.com/ciovantage/wp-content/themes/smart-mag/js/AdobeAnalyticsPlugin.js
-||www.vmware.com/content/dam/digitalmarketing/vmware/en/files/include/vmf/module/core/js/log.js
+||www.vmware.com/PAWtK/M/KF/YKUS/kDEEuqXB/Ywupkkbh/DUgiAQ/aCR7/TQRgH1A
+||www.vmware.com/akam/
 ||www.vmware.com/content/dam/vmwaredesigns/geoip/configs/country-mapping.json
-||www.vmware.com/etc/clientlibs/vmwaredevapp/cclamp/js/AdobeAnalyticsPlugin.js
-||www.vmware.com/etc/clientlibs/vmwaredevapp/clientlib-geoip
-||www.vmware.com/etc/clientlibs/vmwaredevapp/forms/js/progressiveProfiling.js
-||www.vmware.com/etc/clientlibs/vmwaredevapp/main/js/utag_data.js
+||www.vmware.com/etc.clientlibs/vmware-modernize-cms/componentlibrary/components/structure/base/clientlibs/geoippopup.min.js
+||www.vmware.com/etc.clientlibs/vmware-modernize-cms/componentlibrary/components/structure/base/clientlibs/geoipredirect.min.js
+||www.vmware.com/etc.clientlibs/vmware-modernize-cms/componentlibrary/components/structure/base/clientlibs/socialshare.js
 ||www.w3adda.com/detroitchicago/cmbv2.js
 ||www.winhelponline.com/blog/wp-content/plugins/cookie-notice/
 ||www.wintips.org/wp-content/plugins/contact-form-7/modules/recaptcha/script.js
