@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, April 10, 2022
+! Last modified: Monday, April 11, 2022
 ! Title: Master-AdRules
-! Version: 20220410
+! Version: 20220411
 !
 !
 !
@@ -569,6 +569,7 @@ www.itprotoday.com##.gdpr-popup-border
 www.itprotoday.com##.share-icons
 www.javascripttutorial.net##.ad,#back-to-top,.helpful-block-content
 www.jb51.net###right-share
+www.jb51.net##div.topimg
 www.jd.com##.promotional-top
 www.jetbrains.com##.cookies-banner
 www.jetbrains.com##.id_cookies
@@ -621,6 +622,7 @@ www.npmjs.com##DIV[id="notification-banner"]
 www.nuget.org###sideColumn > .stat
 www.nuget.org###usabilla-button
 www.nvidia.com###cookiePolicy-layer
+www.nytimes.com##.shown.magnoliaDock
 www.online-tech-tips.com##div[id^="snhb-In_content_"]
 www.openculture.com###cookie-law-info-bar
 www.openculture.com###donate
@@ -1010,6 +1012,7 @@ zhidao.baidu.com##.task-list-button
 ||datacollect.vmall.com:18443$third-party
 ||datatables.net/media/js/dynamic.php
 ||dc.services.visualstudio.com/v2/track
+||dd.nytimes.com/tags.js
 ||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
 ||dev.to/fallback_activity_recorder
 ||developer.android.com/_d/analytics-iframe
@@ -1133,6 +1136,8 @@ zhidao.baidu.com##.task-list-button
 ||huatuospeed.weiyun.com/cgi-bin/r.cgi
 ||i.cdn.turner.com/ads/adfuel/$domain=edition.cnn.com
 ||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
+||icws.jb51.net/js/beitou.js
+||icws.jb51.net/tongji/tongji2.js
 ||id1.cloud.huawei.com/CAS/IDM_W/ajaxHandler/analysisHealth
 ||id1.cloud.huawei.com/CAS/IDM_W/ajaxHandler/getIPCountry
 ||iknowpc.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb.*.png$domain=zhidao.baidu.com
@@ -1213,6 +1218,7 @@ zhidao.baidu.com##.task-list-button
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
 ||medium.com/_/batch
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader
+||meter-svc.nytimes.com/meter.js
 ||metrics-drcn.dt.hicloud.com:6447/webv1$domain=id1.cloud.huawei.com
 ||miao.baidu.com/abdr
 ||miaowu.baidu.com/abdr$domain=zhidao.baidu.com
@@ -1228,10 +1234,14 @@ zhidao.baidu.com##.task-list-button
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com|about.gitlab.com,important
 ||music.taihe.com/cms/mobile.gif
 ||mvnrepository.com/assets/images/p.gif
+||mwcm.nyt.com/.resources/mkt-wcm/dist/metered_assets.common.js
+||mwcm.nyt.com/.resources/mkt-wcm/dist/templates/areas/metered_assets/
+||mwcm.nytimes.com/capi/metered_assets
 ||mypage.w3schools.com/mypage/beta.php
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
+||news.google.com/$domain=www.nytimes.com
 ||news.google.com/_/DotsSplashUi/jserror
 ||nexus-websocket-*.intercom.io/client-test
 ||nexus.dell.com/dell/eSupport/Bootstrap.js$domain=www.dell.com
@@ -1366,6 +1376,7 @@ zhidao.baidu.com##.task-list-button
 ||solo41.biz$domain=www.tutorialspoint.com
 ||source.chromium.org/_/jserror
 ||source.chromium.org/v1/logging:logClientAction
+||sourcepoint.theguardian.com/wrapperMessagingWithoutDetection.js
 ||sp0.baidu.com/*/su?wd=$domain=www.baidu.com
 ||sp1.baidu.com/*/mwb.gif
 ||sp1.baidu.com/*/mwb2.gif
@@ -1410,6 +1421,7 @@ zhidao.baidu.com##.task-list-button
 ||store.google.com/_/Gstore/jserror
 ||store.steampowered.com/default/usabilitytracking/
 ||stripe.com$domain=gitbook.com
+||stt.nvidia.com/rest/v1/delivery
 ||subscribe.washingtonpost.com/offers/service/get-mapped-adot-offer/hd_sub_promo
 ||sug.so.360.cn/suggest
 ||sugar.zhihu.com/plutus_adreaper$domain=www.zhihu.com
@@ -1618,6 +1630,7 @@ zhidao.baidu.com##.task-list-button
 ||www.newstatesman.com/wp-content/plugins/nsmg-evolok-paywall/
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
+||www.nytimes.com/svc/int/functions/geoip
 ||www.oracle.com/assets/truste-oraclelib.js$domain=mysql.com
 ||www.oschina.net/action/trace/record
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Magento_GoogleTagManager/
