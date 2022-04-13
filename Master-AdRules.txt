@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, April 11, 2022
+! Last modified: Wednesday, April 13, 2022
 ! Title: Master-AdRules
-! Version: 20220411
+! Version: 20220413
 !
 !
 !
@@ -399,6 +399,7 @@ support.microsoft.com###uhf-upgrade-banner
 support.microsoft.com##.article-container[content-survey]
 support.microsoft.com##.banner-image.notification-banner
 support.microsoft.com##.m365trial_railbanner
+support.microsoft.com##.ocArticleFooterFeedPickerContainer, .ocArticleFooterShareContainer
 support.microsoft.com##.right-rail.content-media
 support.microsoft.com##.supArticleContentFooterWrapper
 support.microsoft.com##.upgradeBanner
@@ -708,6 +709,7 @@ www.thurrott.com##.gdpr-cookie-banner,.logged-out.comments
 www.tldrgames.com###catapult-cookie-bar
 www.tp-link.com##.tp-local-switcher
 www.tutorialrepublic.com##.affiliate.segment
+www.tutorialrepublic.com##.appeal, .snippets
 www.tutorialrepublic.com##ul:nth-of-type(6)
 www.tutorialspoint.com###privacy-banner
 www.tutorialspoint.com###rightbar
@@ -1037,7 +1039,6 @@ zhidao.baidu.com##.task-list-button
 ||docs.vmware.com/hKMAwV/e/u/0w3P8rZtPjHa/ri1hfkNS/KSMWAQ/DkI7RC/kjAEY
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
-||downloadmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com|angular-academy.com
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
@@ -1130,7 +1131,6 @@ zhidao.baidu.com##.task-list-button
 ||help.aliyun.com/api/v2/survey/current
 ||herald.spiceworks.com/events/javascript$domain=community.spiceworks.com
 ||hls.kuaibofang.com/tj.js
-||hlsmedia.gannett-cdn.com/authoring/video-renditions/$domain=www.usatoday.com
 ||hm.baidu.com/hm.js
 ||home-api.pinduoduo.com/home/catUrlLog
 ||huatuospeed.weiyun.com/cgi-bin/r.cgi
@@ -1312,6 +1312,7 @@ zhidao.baidu.com##.task-list-button
 ||report.huatuo.qq.com/report.cgi
 ||res.cdn.openinstall.io/openinstall.js$domain=blog.csdn.net
 ||resources.jetbrains.com/storage/help-app/v3/analytics.js
+||retail.googleapis.com/v2/projects/gannett-recommendations/locations/global/catalogs/default_catalog/userEvents:collect
 ||revertservice.com/eucookies.js
 ||rl.mail.qq.com/cgi-bin/getinvestigate
 ||runkit.com/s/timing
@@ -1409,6 +1410,7 @@ zhidao.baidu.com##.task-list-button
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
 ||static.oschina.net/new-osc/js/utils/jweixin-*.*.*.js
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
+||static.scroll.com/js/scroll-smart.js$domain=www.usatoday.com
 ||static.scroll.com/js/scroll.js$third-party,important
 ||static.telegraph.co.uk/telegraph-advertising/$important
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
