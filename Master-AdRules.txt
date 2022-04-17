@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, April 13, 2022
+! Last modified: Sunday, April 17, 2022
 ! Title: Master-AdRules
-! Version: 20220413
+! Version: 20220417
 !
 !
 !
@@ -132,6 +132,7 @@ cn.bing.com##.usrlc_bpc
 cn.bing.com##a[href^="http://www.microsofttranslator.com"]
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
+community.brave.com##.quote-button
 community.cloudflare.com##.quote-button
 community.notepad-plus-plus.org##.selection-tooltip-container
 community.spiceworks.com###zdprivacy-content
@@ -160,6 +161,7 @@ developer.android.com###videos
 developer.android.com##.devsite-banner-announcement.devsite-banner
 developer.android.com##devsite-footer-promos
 developer.android.com##devsite-hats-survey
+developer.android.com##devsite-snackbar
 developer.android.com##devsite-thumb-rating
 developer.android.com##devsite-video
 developer.android.com##devsite-youtube
@@ -378,6 +380,7 @@ stackoverflow.com##.js-dismissable-hero.z-nav
 stackoverflow.com##.js-freemium-cta
 stackoverflow.com##.js-notice-sidebar-popover
 stackoverflow.com##.js-sidebar-zone
+stackoverflow.com##.js-stacks-managed-popup.js-toast
 startpage.com##.home__section-one__search-container.home__section-one__search-container__show-subtitle > .subtitle
 staxmanade.com##.jj-signup-form
 stremiomovies.com##a[href="/premium"]
@@ -503,6 +506,7 @@ www.chinatax.gov.cn##.fixed-right-box
 www.chinatax.gov.cn##.paiochuang
 www.cloudamqp.com##.dark-bg.signup
 www.cmdy555.com##div.index-area:nth-of-type(4),div.index-area:nth-of-type(5)
+www.cnbc.com##.HighlightShare-container
 www.cnblogs.com###div_digg
 www.cnet.com##.newsletter-subscribe-form.c-reengageNewsletter
 www.codastory.com###mc_embed_signup
@@ -973,6 +977,7 @@ zhidao.baidu.com##.task-list-button
 ||cn.bing.com/hptr/
 ||cn.bing.com/orgid/idtoken/conditional
 ||cn.bing.com/popularnow
+||col.csbops.io/data/sandpack
 ||collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||collector-medium.lightstep.com/api/v0/reports
 ||collector.github.com/github/collect
@@ -1095,6 +1100,7 @@ zhidao.baidu.com##.task-list-button
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js$domain=csdn.net
 ||gdpr-service.herokuapp.com/is-gdpr
 ||gdpr-wrapper.privacymanager.io/
+||geo.cnbc.com/info/
 ||geo2.adobe.com/json/
 ||geolocation.1trust.app/cookieconsentpub/v1/geo/location
 ||geolocation.onetrust.com/cookieconsentpub/v1/geo/location
@@ -1228,6 +1234,7 @@ zhidao.baidu.com##.task-list-button
 ||mp.weixin.qq.com/mp/appmsgreport
 ||mp.weixin.qq.com/mp/getappmsgad
 ||mp.weixin.qq.com/mp/report
+||mps.cnbc.com/request/page/json/params/?CALLBACK=mpsCallback
 ||msg.csdn.net/v1/chrome/notification/view$domain=csdn.net
 ||mssplus.mcafee.com/mssplus.txt$domain=adobe.com
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
@@ -1527,9 +1534,9 @@ zhidao.baidu.com##.task-list-button
 ||work.weixin.qq.com/wwopen/common/kvReport
 ||wp.qiye.qq.com/qidian/$domain=tapd.cn
 ||wreport.meituan.net
-||www.88dyw.com/js/ads/dibu.js
+||www.88dyw.com/js/ads/
 ||www.88dyw.com/static/api/js/share.js
-||www.88ysw.com/js/ads/dibu.js
+||www.88ysw.com/js/ads/
 ||www.88ysw.com/static/api/js/share.js
 ||www.afzhan.com/asyncstat.aspx
 ||www.afzhan.com/mystat.aspx
@@ -1575,10 +1582,10 @@ zhidao.baidu.com##.task-list-button
 ||www.cnet.com/ext/cohesion/cdn/cohesion/cohesion-latest.min.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
-||www.dell.com/Oa_Kt3Pbao1ob/9jzR/45AtpRtVZQ/Na1QpfVhEX/CSQpQhI_AQ/Slk8Hw/9pLCAB
 ||www.dell.com/TLTarget.aspx
 ||www.dell.com/csbapi/masthead/oocmessage/us/en
 ||www.dell.com/koa/vocaas/en/js/microsurvey
+||www.dell.com/qiudVVw7wXokinZT5dVWPHYG/uuYiwGGtir/D1JWNg/WlkW/HWdITG8
 ||www.dell.com/support/components/detectproduct/sadetectfailure
 ||www.diogonunes.com/blog/wp-content/plugins/cookie-law-info
 ||www.douban.com/stat.html
