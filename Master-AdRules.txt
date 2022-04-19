@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, April 17, 2022
+! Last modified: Tuesday, April 19, 2022
 ! Title: Master-AdRules
-! Version: 20220417
+! Version: 20220419
 !
 !
 !
@@ -156,6 +156,8 @@ devdactic.com##.nc_wrapper
 devdocs.io##._in._notif
 devdocs.io##._notice
 devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
+developer.aliyun.com##.developer-common-fixed-box
+developer.aliyun.com##.publicity-li
 developer.android.com###essential
 developer.android.com###videos
 developer.android.com##.devsite-banner-announcement.devsite-banner
@@ -651,6 +653,10 @@ www.realvnc.com###cookie-notice
 www.red-gate.com##.cookie-consent
 www.red-gate.com##[src^="https://pubads.g.doubleclick.net/activity"]
 www.reddit.com##div[data-testid="bottom-cell-wrapper"]
+www.residentcontrarian.com##.post-end-cta-full
+www.residentcontrarian.com##.subscribe-footer
+www.residentcontrarian.com##div.subscribe-widget
+www.residentcontrarian.com##p.button-wrapper[data-attrs*='"text":"Share"']
 www.reuters.com##div[class*="registration-prompt__container__"]
 www.reuters.com##div[class^="article-header__buttons__"]
 www.reuters.com##div[class^="regular-article-layout__newsletter__"]
@@ -947,6 +953,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.syncfusion.com/scripts/albacross/track-new.js
 ||cdn.tinypass.com/api/tinypass.min.js$domain=www.insider.com|www.independent.co.uk|www.businessinsider.com|www.bbc.com
 ||cdn2.w3cplus.com/cdn/farfuture/*/w3cplus-ad.jpg
+||cdnads.geeksforgeeks.org/gfg_ads.min.js
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent$third-party
 ||cdnjs.cloudflare.com/ajax/libs/outdated-browser$domain=npms.io
 ||cdnpure.com/static/share-button/$domain=apkpure.com
@@ -1664,6 +1671,7 @@ zhidao.baidu.com##.task-list-button
 ||www.rarlab.com/js/ckrule.js
 ||www.redditstatic.com/button/button3.js$domain=goalkicker.com
 ||www.redditstatic.com/desktop2x/js/xads.js
+||www.residentcontrarian.com/api/v1/firehose
 ||www.ruanyifeng.com/blog/stats.js
 ||www.seedanddew.com/static/embed.min.js$domain=bundler.io
 ||www.sitepoint.com/ads.js
