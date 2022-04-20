@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, April 19, 2022
+! Last modified: Wednesday, April 20, 2022
 ! Title: Master-AdRules
-! Version: 20220419
+! Version: 20220420
 !
 !
 !
@@ -97,12 +97,12 @@ boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
 brave.com##.announcement-banner
-carnegie-mec.org###selectionSharerPopover,.cookie-banner
-carnegieendowment.org###selectionSharerPopover,.cookie-banner
-carnegieeurope.eu###selectionSharerPopover,.cookie-banner
-carnegieindia.org###selectionSharerPopover,.cookie-banner
-carnegiemoscow.org###selectionSharerPopover,.cookie-banner
-carnegietsinghua.org###selectionSharerPopover,.cookie-banner
+carnegie-mec.org###selectionSharerPopover,.cookie-banner,.programs-ctw
+carnegieendowment.org###selectionSharerPopover,.cookie-banner,.programs-ctw
+carnegieeurope.eu###selectionSharerPopover,.cookie-banner,.programs-ctw
+carnegieindia.org###selectionSharerPopover,.cookie-banner,.programs-ctw
+carnegiemoscow.org###selectionSharerPopover,.cookie-banner,.programs-ctw
+carnegietsinghua.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 chakra-ui.com###watch-the-egghead-course
 chakra-ui.com###watch-the-egghead-course + div.chakra-linkbox
 chakra-ui.com##a[rel="noopener sponsored"]
@@ -394,6 +394,7 @@ superuser.com###js-gdpr-consent-banner
 superuser.com##.js-consent-banner
 superuser.com##.js-freemium-cta
 support.microsoft.com###bannerAboveUHF
+support.microsoft.com###c-uhf-nav-cta
 support.microsoft.com###notification-banner-container
 support.microsoft.com###obf-ToastContainer
 support.microsoft.com###rail-column
@@ -629,7 +630,7 @@ www.npmjs.com##DIV[id="notification-banner"]
 www.nuget.org###sideColumn > .stat
 www.nuget.org###usabilla-button
 www.nvidia.com###cookiePolicy-layer
-www.nytimes.com##.shown.magnoliaDock
+www.nytimes.com##.shown.magnoliaDock,div[data-testid="inline-message"]
 www.online-tech-tips.com##div[id^="snhb-In_content_"]
 www.openculture.com###cookie-law-info-bar
 www.openculture.com###donate
