@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, April 20, 2022
+! Last modified: Thursday, April 21, 2022
 ! Title: Master-AdRules
-! Version: 20220420
+! Version: 20220421
 !
 !
 !
@@ -854,6 +854,7 @@ zhidao.baidu.com##.task-list-button
 ||ask.dcloud.net.cn/crond/run/
 ||assets.adobedtm.com/*/*/launch-*.min.js$important
 ||assets.adobedtm.com/*/satelliteLib-*.js$important
+||assets.adobedtm.com/launch-*.min.js$important
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
 ||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com
@@ -948,7 +949,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.privacy-mgmt.com/$domain=www.wsj.com
 ||cdn.ravenjs.com/*/raven.min.js$domain=pypi.org
 ||cdn.search.brave.com/ks.json
-||cdn.search.brave.com/serp/v1/static/serp-js/searchCTA/
+||cdn.search.brave.com/serp/v1/static/serp-js/telemetry/
 ||cdn.segment.com/analytics.js/v1/*/analytics.min.js$important
 ||cdn.subscribers.com/assets/subscribers.js$domain=www.infoworld.com
 ||cdn.syncfusion.com/scripts/albacross/track-new.js
