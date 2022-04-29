@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, April 21, 2022
+! Last modified: Friday, April 29, 2022
 ! Title: Master-AdRules
-! Version: 20220421
+! Version: 20220429
 !
 !
 !
@@ -143,7 +143,7 @@ css-tricks.com##.fem-sidebar-ad.fem-ad
 curl-library.cool.haxx.narkive.com###selection_url_c
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
 deepmind.com###cookieBar
-den.dev##.bottom-banner
+den.dev##.bottom-banner,.bottom-container
 dev.to###sidebar-wrapper-left > .side-bar > .crayons-card--secondary.crayons-card
 dev.to##.authentication-feed__card
 dev.to##div.crayons-sponsorship-widget.crayons-card--secondary.crayons-card
@@ -191,13 +191,11 @@ developers.google.com##devsite-youtube
 digitalrightswatch.org.au###cookie-notice
 ding-doc.dingtalk.com##.styles-float
 discourse.mozilla.org##.quote-button
-discuss.atom.io##.quote-button
-disqus.com##.login-overlay__wrapper
 dnschecker.org###cookie-box
 doc.qt.io###cookie-confirm
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
-docs.microsoft.com##.feedback-section,.page-action-holder,.thumb-rating
+docs.microsoft.com##.feedback-section,.page-action-holder,.thumb-rating,#banner-holder
 docs.rs##.docs-rs-footer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.vmware.com##.position-fixed.icons-container
@@ -310,6 +308,7 @@ mui.com##[aria-label="Diamond Sponsors"]
 mui.com##[data-ga-event-category="ad"]
 mui.com##[data-ga-event-category="sponsor"]
 music.taihe.com##.__qianqian_qrcode
+news.softpedia.com###cookienotif
 nginx.org###banner
 nokia.com###cmp-modal
 office.com###epb
@@ -317,6 +316,7 @@ open-vsx.org##div[aria-label="cookieconsent"]
 opencv.org###elementor-popup-modal-11769
 opencv.org###elementor-popup-modal-12574
 opencv.org##.homepage-email-icon
+opensource.google##devsite-thumb-rating
 openvpn.net###usercentrics-root
 openvpn.net##body:style(overflow: unset !important;)
 osdn.net###cookie-bar
@@ -785,14 +785,12 @@ zhidao.baidu.com##.jump-top-box
 zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
-||*.disqus.com/count.js
 ||*.nstool.netease.com/ip.js
 ||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.apkpure.com/api-shares.json$domain=apkpure.com
 ||a.clipconverter.cc/www/d/fr.php
-||a.disquscdn.com/count.js
 ||a1.cnblogs.com/group/T2$domain=www.cnblogs.com
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||access-prod.apis.anvato.net/anvacks/$domain=www.fox5ny.com
@@ -821,6 +819,7 @@ zhidao.baidu.com##.task-list-button
 ||analytics.syncfusion.com/log/documentation
 ||anila.statically.io/api/collect
 ||answers.microsoft.com/en-us/contentstatisticsspark/addthreadviewcountasync
+||api-gateway.guahao.com/modulelog/
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-iam.intercom.io/messenger/web/ping
 ||api-reuters-reuters-prod.cdn.arcpublishing.com/sales/public/v1/entitlements
@@ -833,6 +832,7 @@ zhidao.baidu.com##.task-list-button
 ||api.github.com/_private/browser/stats
 ||api.growingio.com/v2/*/web/pv
 ||api.honeybadger.io/v1/notices/js$domain=dev.to
+||api.icy-lake.kickstarter.com/v1/t
 ||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
 ||api.ipfind.com/me
 ||api.m.jd.com/api?*functionId=queryMaterialAdverts
@@ -920,7 +920,6 @@ zhidao.baidu.com##.task-list-button
 ||bundler.io/javascripts/analytics.js
 ||business.pinterest.com/resource/BizSiteContentfulResource/get/
 ||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com|lifehacker.com,important
-||c.disquscdn.com/next/embed/alfalfa_min.*.js
 ||c.evidon.com/geo/country.js$domain=adobe.com|vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
 ||c.microsoft.com/ms.js
@@ -1047,6 +1046,7 @@ zhidao.baidu.com##.task-list-button
 ||discord.com/api/v9/auth/location-metadata
 ||discord.com/assets/oneTrust/v2/scripttemplates/otSDKStub.js
 ||discord.com/widget?id$domain=fandom.com
+||disqus.com/count.js
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
 ||docs.microsoft.com/answers/page-view/track.json
 ||docs.microsoft.com/static/third-party/jsll/*/jsll-*.js
@@ -1321,7 +1321,7 @@ zhidao.baidu.com##.task-list-button
 ||readthedocs.org/sustainability/view
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/jquery-for-marketo-opt-in.js
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/marketo-opt-in-2.js
-||referrer.disqus.com/juggler/event.gif
+||referrer.disqus.com/juggler/event
 ||register1.lifesavvy.com/webpush/register
 ||reload.getsentry.net/page/
 ||render.githubusercontent.com/stats
@@ -1617,7 +1617,7 @@ zhidao.baidu.com##.task-list-button
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
 ||www.google.com.hk/complete/search$important
 ||www.google.com.hk/maps/preview/log204
-||www.googleadservices.com/pagead
+||www.googleadservices.com/$third-party,important
 ||www.googletagmanager.com/$third-party,important
 ||www.googletagservices.com/$third-party,important
 ||www.gstatic.com/brandstudio/kato/cookie_choice_component/$third-party
@@ -1698,6 +1698,7 @@ zhidao.baidu.com##.task-list-button
 ||www.vmware.com/etc.clientlibs/vmware-modernize-cms/componentlibrary/components/structure/base/clientlibs/geoipredirect.min.js
 ||www.vmware.com/etc.clientlibs/vmware-modernize-cms/componentlibrary/components/structure/base/clientlibs/socialshare.js
 ||www.w3adda.com/detroitchicago/cmbv2.js
+||www.washingtonpost.com/subscribe/logging/logExpectedError
 ||www.winhelponline.com/blog/wp-content/plugins/cookie-notice/
 ||www.wintips.org/wp-content/plugins/contact-form-7/modules/recaptcha/script.js
 ||www.wired.com/hotzones/src/ads.js
