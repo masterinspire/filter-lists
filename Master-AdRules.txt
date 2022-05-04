@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, April 29, 2022
+! Last modified: Wednesday, May 4, 2022
 ! Title: Master-AdRules
-! Version: 20220429
+! Version: 20220504
 !
 !
 !
@@ -239,7 +239,9 @@ github.com##.signup-prompt-bg
 github.community##.quote-button
 gitlab.com##.broadcast-notification-message.broadcast-message
 gitlab.com##.gl-banner.js-autodevops-banner
+gitlab.com##.js-minute-limit-banner
 gitlab.com##.trial-link
+gowatchseries.live##.notice
 grafana.com##.sticky-footer--dark
 grafana.com##.sticky-footer--grafanacon-la
 gtaforums.com###elGuestTerms > .ipsLayout_container
@@ -631,6 +633,8 @@ www.nuget.org###sideColumn > .stat
 www.nuget.org###usabilla-button
 www.nvidia.com###cookiePolicy-layer
 www.nytimes.com##.shown.magnoliaDock,div[data-testid="inline-message"]
+www.oneplus.com##.cookie-warn
+www.oneplusbbs.com###bbsRegisterGuide-sticky-wrapper
 www.online-tech-tips.com##div[id^="snhb-In_content_"]
 www.openculture.com###cookie-law-info-bar
 www.openculture.com###donate
@@ -711,6 +715,7 @@ www.thefreedictionary.com###fixedBlock
 www.thefreedictionary.com###secLoginToAccess
 www.thefreedictionary.com###w1 > .w2 > div > div
 www.thefreedictionary.com##.shareFeedBtns
+www.theguardian.com##gu-island
 www.thetechlounge.com###cookie-law-info-bar
 www.theverge.com###newsletter-signup-short-form
 www.theverge.com##.adblock-allowlist-messaging__wrapper
@@ -767,7 +772,6 @@ www.yuque.com##div[class*="index-module_qrCodeWrapper"]
 www.zdnet.com##.large.video.shortcode
 www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
-www1.gowatchseries.online##.notice
 xbox.com###epb
 xhamster49.com###dyltv-anchor
 xhamster49.com##.cookie-announce.bottom-announce
@@ -1050,7 +1054,7 @@ zhidao.baidu.com##.task-list-button
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
 ||docs.microsoft.com/answers/page-view/track.json
 ||docs.microsoft.com/static/third-party/jsll/*/jsll-*.js
-||docs.vmware.com/hKMAwV/e/u/0w3P8rZtPjHa/ri1hfkNS/KSMWAQ/DkI7RC/kjAEY
+||docs.vmware.com/c5W9T/w/DS/GPaN/g_QzsEQA/YkaGpccp/WWdFNA/Dw8/UYzEKbyU
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com|angular-academy.com
@@ -1132,6 +1136,7 @@ zhidao.baidu.com##.task-list-button
 ||google-analytics.com$third-party
 ||google-developers.gonglchuangl.net/sw.js
 ||googleads.g.doubleclick.net$important
+||gowatchseries.live/anclytic.html
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
 ||graph.facebook.com/$third-party
@@ -1271,7 +1276,6 @@ zhidao.baidu.com##.task-list-button
 ||opencv.org/wp-admin/admin-ajax.php
 ||otelwebtelemetry.com/v1/trace
 ||outofmemory.cn/static/js/h.js
-||p.twitchcdn.net/v3/polyfill.min.js
 ||page.aliyun.com/delivery/plan/list$domain=aliyun.com
 ||page.gitlab.com/js/forms2/js/forms2.min.js$domain=about.gitlab.com
 ||pagead2.googlesyndication.com$important
@@ -1592,9 +1596,9 @@ zhidao.baidu.com##.task-list-button
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
 ||www.dell.com/TLTarget.aspx
+||www.dell.com/WLz-7YVL38c_02VfKCC1xWkY/h73L8VVf/VwVb/M2/VLMk0nGj4
 ||www.dell.com/csbapi/masthead/oocmessage/us/en
 ||www.dell.com/koa/vocaas/en/js/microsurvey
-||www.dell.com/qiudVVw7wXokinZT5dVWPHYG/uuYiwGGtir/D1JWNg/WlkW/HWdITG8
 ||www.dell.com/support/components/detectproduct/sadetectfailure
 ||www.diogonunes.com/blog/wp-content/plugins/cookie-law-info
 ||www.douban.com/stat.html
@@ -1691,7 +1695,7 @@ zhidao.baidu.com##.task-list-button
 ||www.vg247.com/wp-content/themes/vg247/scripts/CookieGDPR.js
 ||www.vivibb.com/index.php/ajax/hits
 ||www.vivibb.com/statics/api/js/share.js
-||www.vmware.com/PAWtK/M/KF/YKUS/kDEEuqXB/Ywupkkbh/DUgiAQ/aCR7/TQRgH1A
+||www.vmware.com/1qeGfKohXM/5lrgji/Tn9X/a1OctNhkOk/YEZIU28/NC1/BZUomcDQ
 ||www.vmware.com/akam/
 ||www.vmware.com/content/dam/vmwaredesigns/geoip/configs/country-mapping.json
 ||www.vmware.com/etc.clientlibs/vmware-modernize-cms/componentlibrary/components/structure/base/clientlibs/geoippopup.min.js
@@ -1708,7 +1712,6 @@ zhidao.baidu.com##.task-list-button
 ||www.xda-developers.com/adsninja_package/
 ||www.yuque.com/api/logs/error
 ||www.zhihu.com/sc-profiler
-||www1.gowatchseries.online/anclytic.html
 ||x.cospace.app/m/services_v0.js$domain=www.nextiva.com
 ||x.jr.jd.com/flow/bid$domain=biz.jd.com
 ||xfeedback.oss-cn-hangzhou.aliyuncs.com/$domain=market.aliyun.com
