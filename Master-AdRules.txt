@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Wednesday, May 4, 2022
+! Last modified: Thursday, May 5, 2022
 ! Title: Master-AdRules
-! Version: 20220504
+! Version: 20220505
 !
 !
 !
@@ -697,6 +697,7 @@ www.tapd.cn##.bind-phone-tips
 www.tapd.cn##.editor-content.comment_type_text:style(overflow:auto !important;)
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked
+www.techradar.com###slice-container-affiliateDisclaimerBar
 www.telegraph.co.uk##.article__end-meta
 www.telegraph.co.uk##.article__layout--sidebar.article__layout
 www.telegraph.co.uk##.subscribe-banner
@@ -1146,6 +1147,7 @@ zhidao.baidu.com##.task-list-button
 ||gss*.baidu.com/*/static/api/js/share/share_api.js
 ||gss*.baidu.com/*/static/api/js/view/share_view.js
 ||h5speed.m.jd.com/v2/speed/activity
+||hawk.techradar.com/translations.php
 ||heimdalsecurity.com/blog/wp-content/plugins/heimdal-social-sharing-buttons/js/social.js
 ||hello.zonos.com/shop-duty-tax/hello.js$domain=unchartedsupplyco.com
 ||help.aliyun.com/api/v2/survey/current
@@ -1304,6 +1306,7 @@ zhidao.baidu.com##.task-list-button
 ||player.cnevids.com$domain=www.wired.co.uk|www.wired.com
 ||player.sexapi.xyz/jwplayer/devtools-detector.js
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
+||polaris.xfinity.com/orc.html$domain=www.xfinity.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
@@ -1424,6 +1427,7 @@ zhidao.baidu.com##.task-list-button
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/button*
 ||static.cdn.adultswim.com/tools/global/user-consent-*.min.js
+||static.cimcontent.net/data-layer/
 ||static.deepl.com/*/cookieBanner
 ||static.foxnews.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
 ||static.foxtv.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
@@ -1583,6 +1587,7 @@ zhidao.baidu.com##.task-list-button
 ||www.cdc.gov/JScript/metrics/google/Universal-Federated-Analytics-Min.js
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-ga/plugin.js
 ||www.chartjs.org/docs/*/gitbook/gitbook-plugin-sharing/buttons.js
+||www.cira.ca/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js
 ||www.clipconverter.cc/qr.php
 ||www.cloudflare.com/cdn-cgi/trace
 ||www.cloudflare.com/vendor/onetrust/scripttemplates/otSDKStub.js
@@ -1710,6 +1715,7 @@ zhidao.baidu.com##.task-list-button
 ||www.wpf-tutorial.com/Content/Local/1.js
 ||www.wpf-tutorial.com/Ping
 ||www.xda-developers.com/adsninja_package/
+||www.xfinity.com/WEgMP9nTJ0svFnBsULPT/7bYXG2bk/BVB-WxFXew4/dAAqbV1X/RTg
 ||www.yuque.com/api/logs/error
 ||www.zhihu.com/sc-profiler
 ||x.cospace.app/m/services_v0.js$domain=www.nextiva.com
