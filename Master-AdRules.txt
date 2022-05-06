@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Thursday, May 5, 2022
+! Last modified: Friday, May 6, 2022
 ! Title: Master-AdRules
-! Version: 20220505
+! Version: 20220506
 !
 !
 !
@@ -697,7 +697,7 @@ www.tapd.cn##.bind-phone-tips
 www.tapd.cn##.editor-content.comment_type_text:style(overflow:auto !important;)
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked
-www.techradar.com###slice-container-affiliateDisclaimerBar
+www.techradar.com###slice-container-affiliateDisclaimerBar,.hawk-main-editorialized,.newsletter-signup
 www.telegraph.co.uk##.article__end-meta
 www.telegraph.co.uk##.article__layout--sidebar.article__layout
 www.telegraph.co.uk##.subscribe-banner
@@ -945,6 +945,7 @@ zhidao.baidu.com##.task-list-button
 ||cdn.cookielaw.org/$third-party
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.infoq.com/statics_*/scripts/lib/browser-update-org/update.js
+||cdn.jsdelivr.net/npm/search-insights
 ||cdn.livechatinc.com/tracking.js
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/pcbetanews_qrcode.jpg$third-party
 ||cdn.pcbeta.img.inimc.com/static/image/pcbeta/wenzhang.jpg$third-party
