@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Friday, May 6, 2022
+! Last modified: Saturday, May 7, 2022
 ! Title: Master-AdRules
-! Version: 20220506
+! Version: 20220507
 !
 !
 !
@@ -22,8 +22,6 @@ angular-academy.com##.share
 angular.io##aio-cookies-popup
 ankhsvn.open.collab.net###collabnet-products
 ankhsvn.open.collab.net###uvTab
-answers.microsoft.com###threadfooter
-answers.microsoft.com##.M365RailOffer2105
 apkpure.com###ad-aegon-side
 apkpure.com###policy-info
 apkpure.com##.adsbypure
@@ -136,8 +134,7 @@ community.brave.com##.quote-button
 community.cloudflare.com##.quote-button
 community.notepad-plus-plus.org##.selection-tooltip-container
 community.spiceworks.com###zdprivacy-content
-config.office.com##.helpTitle.ms-Button--command.ms-Button--action.ms-Button
-config.office.com##.unAuthPrivacyFooter
+config.office.com##.unAuthPrivacyFooter,#btnFeedback
 create-react-app.dev##div[class^="announcementBar"]
 css-tricks.com##.fem-sidebar-ad.fem-ad
 curl-library.cool.haxx.narkive.com###selection_url_c
@@ -147,10 +144,7 @@ den.dev##.bottom-banner,.bottom-container
 dev.to###sidebar-wrapper-left > .side-bar > .crayons-card--secondary.crayons-card
 dev.to##.authentication-feed__card
 dev.to##div.crayons-sponsorship-widget.crayons-card--secondary.crayons-card
-devblogs.microsoft.com##.a2a_kit
-devblogs.microsoft.com##.back-comment-buttons
-devblogs.microsoft.com##.smcx-modal-invitation.smcx-modal.smcx-widget
-devblogs.microsoft.com##.social-icon-bar
+devblogs.microsoft.com##.back-comment-buttons,.social-icon-bar,#colophon
 devdactic.com###cookie-notice
 devdactic.com##.nc_wrapper
 devdocs.io##._in._notif
@@ -171,7 +165,7 @@ developer.android.google.cn##.devsite-banner-announcement.devsite-banner
 developer.android.google.cn##devsite-footer-promos
 developer.android.google.cn##devsite-thumb-rating
 developer.chrome.com##.cookie-banner
-developer.microsoft.com##.sockWrapper
+developer.microsoft.com##.back-to-top,.sockWrapper
 developer.mozilla.org##.developer-needs
 developer.mozilla.org##.mdn-cta-container
 developer.mozilla.org##.newsletter-container
@@ -195,7 +189,7 @@ dnschecker.org###cookie-box
 doc.qt.io###cookie-confirm
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
-docs.microsoft.com##.feedback-section,.page-action-holder,.thumb-rating,#banner-holder
+docs.microsoft.com##.thumb-rating,#banner-holder,#article-header-page-actions-overflow,#article-header-page-actions,.feedback-section
 docs.rs##.docs-rs-footer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.vmware.com##.position-fixed.icons-container
@@ -297,9 +291,7 @@ mathoverflow.net##.js-consent-banner
 mathoverflow.net##.js-freemium-cta
 mbillexprod.alipay.com###pc-merchant-onlineService
 medium.com##body > script + div
-microsoft.com###epb
-microsoft.com###msccBanner
-microsoft.com###uhfCookieAlert
+microsoft.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 minecraft.gamepedia.com##div[class^="app_gdpr"]
 mobile.softpedia.com###cookienotif
 movie.mtime.com###divRelatedGoods
@@ -313,7 +305,7 @@ music.taihe.com##.__qianqian_qrcode
 news.softpedia.com###cookienotif
 nginx.org###banner
 nokia.com###cmp-modal
-office.com###epb
+office.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 open-vsx.org##div[aria-label="cookieconsent"]
 opencv.org###elementor-popup-modal-11769
 opencv.org###elementor-popup-modal-12574
@@ -335,7 +327,6 @@ read.douban.com###desktop-app-ad
 read.douban.com##.btns-tip.tooltip
 readthedocs.io##.keep-us-sustainable
 reolink.com##.explorer-n-privacy
-research.microsoft.com###shareShelf
 riptutorial.com###stats-share
 riptutorial.com##.container-download-pdf-section
 riptutorial.com##.section-aside.col-lg-2
@@ -352,7 +343,7 @@ share.weiyun.com##.layout-sider-bar
 shenzhen.chinatax.gov.cn###fb
 shenzhen.chinatax.gov.cn##.content_share
 shenzhen.chinatax.gov.cn##.easybtn
-social.msdn.microsoft.com###footerSock
+social.msdn.microsoft.com###rssFeed
 software.intel.com###page > .l-footer-second
 software.intel.com###survey_container
 softwareok.com###cookiebar
@@ -395,27 +386,12 @@ superuser.com###divQuestionFollowFeaturePopover
 superuser.com###js-gdpr-consent-banner
 superuser.com##.js-consent-banner
 superuser.com##.js-freemium-cta
-support.microsoft.com###bannerAboveUHF
-support.microsoft.com###c-uhf-nav-cta
-support.microsoft.com###notification-banner-container
-support.microsoft.com###obf-ToastContainer
-support.microsoft.com###rail-column
-support.microsoft.com###smc-survey-external-feedback-button
-support.microsoft.com###smcSitewideSignInPopover
-support.microsoft.com###supWrapperToPreventFeedbackFlickering
-support.microsoft.com###uhf-upgrade-banner
-support.microsoft.com##.article-container[content-survey]
-support.microsoft.com##.banner-image.notification-banner
-support.microsoft.com##.m365trial_railbanner
-support.microsoft.com##.ocArticleFooterFeedPickerContainer, .ocArticleFooterShareContainer
-support.microsoft.com##.right-rail.content-media
-support.microsoft.com##.supArticleContentFooterWrapper
-support.microsoft.com##.upgradeBanner
+support.microsoft.com###supWrapperToPreventFeedbackFlickering,.ocArticleFooterShareContainer,.ocArticleFooterFeedPickerContainer,.ocArticleFooterSection,#rail-column
 support.mozilla.org###announcements
 support.mozilla.org###id_scam_alert
 support.mozilla.org##.document-vote--sidebar-wrap
-support.office.com###supWrapperToPreventFeedbackFlickering
 support.opendns.com##.article-votes
+techcommunity.microsoft.com##.custom-share-component
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
@@ -428,9 +404,7 @@ tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm,#CoverB,#QRCode
 ubuntu.com##.cookie-policy
 users.rust-lang.org##.alert-info.alert.signup-cta,.quote-button
-visualstudio.com###epb
-visualstudio.com###mscc-cookie-container
-visualstudio.com###uhfCookieAlert
+visualstudio.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 visualstudio.microsoft.com###usabilla-button
 vivaldi.com###social-share
 wapbaike.baidu.com###J-spark-icon
@@ -454,8 +428,7 @@ who.is###domainAvailabilityPowerBar
 who.is###domainAvailabilityPowerBarHeading
 who.is##.teaser-bar
 who.is##a[data-label="whois name.com above banner"]
-windows.com###epb
-windows.com###uhfCookieAlert
+windows.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 winscp.net##.promo-block
 wk.baidu.com##.btn-view-in-app
 wk.baidu.com##.doc-see-in-app
@@ -615,8 +588,7 @@ www.merriam-webster.com##.wod-activity-container
 www.merriam-webster.com##.wod-podcast-player-block.podcast-player-block
 www.merriam-webster.com##.wotd-side__subscribe
 www.merriam-webster.com##div.hide-mobile.rail-abl-box
-www.microsoft.com##.context-accessory
-www.microsoft.com##.row-fluid.end-social
+www.microsoft.com##switchOfficeHeroFirst, .switchOfficeHeroSecond,.m-hero-item.context-accessory,.m-back-to-top
 www.mojeek.com##.js-pop.pop-in
 www.mssqltips.com###slideboxtop
 www.mssqltips.com##.columns.hide-for-print.large-3
@@ -629,8 +601,7 @@ www.newtonsoft.com###footerNotice
 www.nokia.com###block-nokialocalesuggestionblock
 www.nokia.com##.nokia-cookies-wrapper
 www.npmjs.com##DIV[id="notification-banner"]
-www.nuget.org###sideColumn > .stat
-www.nuget.org###usabilla-button
+www.nuget.org##.banner
 www.nvidia.com###cookiePolicy-layer
 www.nytimes.com##.shown.magnoliaDock,div[data-testid="inline-message"]
 www.oneplus.com##.cookie-warn
@@ -641,7 +612,7 @@ www.openculture.com###donate
 www.openculture.com##.socialblock
 www.opera.com###cookie-consent
 www.ostechnix.com##.no-counter.sharrre-container
-www.packtpub.com###packt_gdpr_container
+www.packtpub.com##.upsell.container.product__author
 www.partitionwizard.com##.bottom-cookie-wrap
 www.pdfforge.org##.gdpr-cookieconsent-overlay
 www.pdfforge.org##.gdpr-cookieconsent-settings
@@ -675,8 +646,7 @@ www.robtex.com##.rtstyle.rtpopup
 www.robtex.com##.soctop
 www.runoob.com##.feedback-btn
 www.runoob.com##.fixed-btn
-www.samsung.com##.cm-cookie-geo
-www.samsung.com##.iparsys.ipar.parsys
+www.samsung.com##.cookie-bar--type-manage.cookie-bar,.static-content
 www.sciencenewsforstudents.org##[class^="newsletter-signup__wrapper___"]
 www.sitepoint.com##.roller-door-placeholder
 www.sqlitetutorial.net##.ad
@@ -736,10 +706,8 @@ www.twitch.tv###twilight-sticky-footer-root
 www.typescriptlang.org###like-dislike-subnav
 www.typescriptlang.org###page-helpful-popup
 www.ubuntu.com##.cookie-policy
-www.usatoday.com###gnt_atomsnc
-www.usatoday.com##.gnt_em_vp__tavp.gnt_em
-www.usatoday.com##.gnt_em_vp_c
-www.usatoday.com##a.gnt_cw_sl
+www.usatoday.com##.gnt_em_vp_c[data-g-s="vp_dk"],.gnt_m_fs.gnt_m
+www.usatoday.com##aside[aria-label="Newsletter signup form"],form[aria-label="Sign up for newsletter: The Short List"]
 www.vg247.com##.newsletter-signup-wrapper
 www.vice.com##.article-newsletter-signup
 www.washingtonpost.com##.softwall-overlay
@@ -773,7 +741,7 @@ www.yuque.com##div[class*="index-module_qrCodeWrapper"]
 www.zdnet.com##.large.video.shortcode
 www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
-xbox.com###epb
+xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamster49.com###dyltv-anchor
 xhamster49.com##.cookie-announce.bottom-announce
 xhamster49.com##.promo-message__banner.promo-message
@@ -790,8 +758,6 @@ zhidao.baidu.com##.jump-top-box
 zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
-||*.nstool.netease.com/ip.js
-||*.tt.omtrdc.net/rest/v1/delivery$domain=www.samsung.com|www.microsoft.com|www.history.com|adobe.com,important
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.apkpure.com/api-shares.json$domain=apkpure.com
@@ -824,6 +790,7 @@ zhidao.baidu.com##.task-list-button
 ||analytics.syncfusion.com/log/documentation
 ||anila.statically.io/api/collect
 ||answers.microsoft.com/en-us/contentstatisticsspark/addthreadviewcountasync
+||answersstaticfilecdnv2.azureedge.net/static/js/banner.*.min.js$domain=answers.microsoft.com
 ||api-gateway.guahao.com/modulelog/
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-iam.intercom.io/messenger/web/ping
@@ -872,7 +839,6 @@ zhidao.baidu.com##.task-list-button
 ||az416426.vo.msecnd.net/scripts/b/ai.2.min.js
 ||az416426.vo.msecnd.net/scripts/c/ms.analytics-web-*.min.js
 ||az725175.vo.msecnd.net/scripts/jsll-*.js$important
-||azure.microsoft.com/api/v2/ue/
 ||b2b.baidu.com/slog/*.gif
 ||badjs.qidian.qq.com/badjs$domain=webpage.qidian.qq.com
 ||badjs.weixinbridge.com/frontend/reportspeed
@@ -913,6 +879,8 @@ zhidao.baidu.com##.task-list-button
 ||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_*.css$domain=baike.baidu.com
 ||bkssl.bdimg.com/static/wiki-m-lemma/widget/loadMoreContent-n/invokeBaiduApp/invokeBaiduApp_*.js$domain=baike.baidu.com
 ||blog.angular.io/_/batch
+||blogs.windows.com/wp-content/plugins/microsoft-1ds-metrics/assets/microsoft-1ds-metrics-js.js
+||blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js
 ||bordeaux.futurecdn.net/bordeaux.js$domain=www.livescience.com
 ||borncity.com/win/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||boxnovel.baidu.com/boxnovel/wiseapi/getContentExtra
@@ -927,9 +895,6 @@ zhidao.baidu.com##.task-list-button
 ||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com|lifehacker.com,important
 ||c.evidon.com/geo/country.js$domain=adobe.com|vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
-||c.microsoft.com/ms.js
-||c.s-microsoft.com/mscc/statics/mscc
-||c1.microsoft.com/c.gif
 ||cc-api-data.adobe.io/ingest
 ||cd.jd.com/promotion/v2
 ||cdid.c-ctrip.com/chloro-device/v2/d$domain=ctrip.com
@@ -965,14 +930,12 @@ zhidao.baidu.com##.task-list-button
 ||cdnjs.cloudflare.com/ajax/libs/outdated-browser$domain=npms.io
 ||cdnpure.com/static/share-button/$domain=apkpure.com
 ||cdns.gigya.com/JS/gigya.js$domain=www.history.com
-||cdnssl.clicktale.net$domain=answers.microsoft.com
 ||centralus-*.in.applicationinsights.azure.com//v2/track
 ||cf.aliyun.com/scratchCardSlide/dataReport.jsonp$domain=aliyun.com
 ||champagne.futurecdn.net/champagne.js$domain=www.livescience.com
 ||chat-commerce.adobe.com/checkout/log
 ||chat.afzhan.com/chat/$domain=www.afzhan.com
 ||checkout.stripe.com/v3/checkout.js
-||cheewhoa.net$domain=vidembed.cc|vidembed.net
 ||chrome.google.com/webstore/ajax/eventlog
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||cleverstaginc.firebaseio.com$domain=wallsmash.com
@@ -991,6 +954,7 @@ zhidao.baidu.com##.task-list-button
 ||cn.bing.com/hptr/
 ||cn.bing.com/orgid/idtoken/conditional
 ||cn.bing.com/popularnow
+||code.visualstudio.com/vendor/at/
 ||col.csbops.io/data/sandpack
 ||collect.igodigital.com/collect.js$domain=www.usatoday.com
 ||collector-medium.lightstep.com/api/v0/reports
@@ -998,7 +962,7 @@ zhidao.baidu.com##.task-list-button
 ||collector.githubapp.com/github/page_view
 ||commerce.adobe.com/checkout/log
 ||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=www.theverge.com
-||confiant.msn.com/*/msn/config.js
+||configurator.ecom-mobile-samsung.com/api/logger
 ||connect.emojics.com/dist/sdk.js$domain=ckeditor.com
 ||connect.facebook.net/*/all.js$third-party
 ||connect.facebook.net/*/fbds.js$third-party
@@ -1054,8 +1018,6 @@ zhidao.baidu.com##.task-list-button
 ||discord.com/widget?id$domain=fandom.com
 ||disqus.com/count.js
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
-||docs.microsoft.com/answers/page-view/track.json
-||docs.microsoft.com/static/third-party/jsll/*/jsll-*.js
 ||docs.vmware.com/c5W9T/w/DS/GPaN/g_QzsEQA/YkaGpccp/WWdFNA/Dw8/UYzEKbyU
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
@@ -1167,7 +1129,6 @@ zhidao.baidu.com##.task-list-button
 ||iknowwap.bdimg.com/static/m-question-new/pkg/qb-ad.*$domain=zhidao.baidu.com
 ||iknowwap.bdimg.com/static/m-question-new/widget/ad-union-new/ad-union-new-async.*.js$domain=zhidao.baidu.com
 ||image.baidu.com/httpsjsonp/pc?callback=imageCheckHttps$domain=www.baidu.com
-||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=www.usatoday.com|lifehacker.com,important
 ||imgcache.qq.com/qcloud/platreport/dest/index.js$domain=cloud.tencent.com
 ||imgcache.qq.com/tencentvideo_v1/player/plugins/RelevanceAd.swf
 ||insight.cloud.tencent.com/event$domain=cloud.tencent.com
@@ -1204,6 +1165,8 @@ zhidao.baidu.com##.task-list-button
 ||kunpeng.csdn.net/ad/
 ||l.ctrl.blog/visit
 ||launcher.spot.im/$domain=www.merriam-webster.com
+||lifehacker.com/api/veritas/b
+||lifehacker.com/api/veritas/info
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||localhost$domain=plugins.jetbrains.com|chinatax.gov.cn
 ||localhost.ptlogin2.qq.com:*/pt_get_uins$domain=xui.ptlogin2.qq.com
@@ -1279,6 +1242,7 @@ zhidao.baidu.com##.task-list-button
 ||opencv.org/wp-admin/admin-ajax.php
 ||otelwebtelemetry.com/v1/trace
 ||outofmemory.cn/static/js/h.js
+||p13n-mr.adobe.io/psdk/v2/content$domain=helpx.adobe.com
 ||page.aliyun.com/delivery/plan/list$domain=aliyun.com
 ||page.gitlab.com/js/forms2/js/forms2.min.js$domain=about.gitlab.com
 ||pagead2.googlesyndication.com$important
@@ -1457,13 +1421,8 @@ zhidao.baidu.com##.task-list-button
 ||support.discord.com/hc/activity
 ||support.google.com/apis/gpf_metrics
 ||support.google.com/chrome/apis/metrics
-||support.microsoft.com/SocContent/floodgate
-||support.microsoft.com/js/TelemetryLogging.js
-||support.microsoft.com/js/promotionBanner.js
 ||support.microsoft.com/lib/jsll/dist/jsll.min.js
 ||support.microsoft.com/lib/oneds/dist/ms.analytics-web-*.min.js
-||support.microsoft.com/socbundles/floodgate
-||support.office.com/bundles/stickyFeedback
 ||support.opendns.com/api/v2/help_center/en-us/articles/*/stats/view.json
 ||support.opendns.com/hc/activity
 ||support.signal.org/api/v2/help_center/en-us/articles/*/stats/view.json
@@ -1471,8 +1430,6 @@ zhidao.baidu.com##.task-list-button
 ||support.stackpath.com/api/v2/help_center/en-us/articles/*/stats/view.json
 ||support.stackpath.com/hc/activity
 ||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
-||support2.microsoft.com/common/script/fx/surveystrapper.js
-||support2.microsoft.com/common/surveyscripthandler.ashx
 ||t.captcha.qq.com/caplog
 ||tags.tiqcdn.com/utag/vmware/*-privacy/prod/utag$domain=vmware.com,important
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
@@ -1482,7 +1439,6 @@ zhidao.baidu.com##.task-list-button
 ||tb.pagetest.top/$domain=www.88dyw.com
 ||tb1.bdstatic.com/tb/img/hg/hg.gif$domain=tieba.baidu.com
 ||techcommunity.microsoft.com/beacon/*.gif
-||techcommunity.microsoft.com/t5/scripts/*/lia-scripts*.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
@@ -1504,8 +1460,6 @@ zhidao.baidu.com##.task-list-button
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
 ||uhf.microsoft.com/*/shell/api/mscc
-||uhf.microsoft.com/_log
-||uhf.microsoft.com/mscc/statics/mscc-*
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||uid.mavencoalition.io/v3$domain=www.history.com,important
 ||update.vivaldi.com/stats/rep
@@ -1520,6 +1474,8 @@ zhidao.baidu.com##.task-list-button
 ||va.tawk.to/register/$domain=www.sswug.org
 ||va.v.liveperson.net/api/js$third-party
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/adobe-target/
+||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/usabilla-feed-back.js
+||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/vscom-usabilla-a11y.js
 ||vivaldi.com/rep/rep
 ||vlscppe.microsoft.com/tags
 ||vortex.data.microsoft.com/collect
@@ -1621,7 +1577,6 @@ zhidao.baidu.com##.task-list-button
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
 ||www.fox5ny.com/api/layouts/alert/heartbeat$domain=www.fox5ny.com
-||www.gannett-cdn.com/gannett-web/apps/teal/dist$domain=www.usatoday.com
 ||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg.min.js
 ||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg_ads.min.js
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
@@ -1634,8 +1589,6 @@ zhidao.baidu.com##.task-list-button
 ||www.gstatic.com/feedback/api.js$third-party
 ||www.hanselman.com/blog/theme/jinyang/scripts/cda-tracker.js
 ||www.hanselman.com/blog/theme/jinyang/scripts/cookieconsent.min.js
-||www.history.com/.bootscripts/PhoenixAdobeAnalytics.min.js
-||www.history.com/runtime/alpha1.js
 ||www.history.com/vendor/adobe-target
 ||www.historytoday.com/advertisement/
 ||www.historytoday.com/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js
@@ -1649,11 +1602,7 @@ zhidao.baidu.com##.task-list-button
 ||www.mathworks.com/includes_content/domainSelect/akamai-country-code.js
 ||www.mathworks.com/matlabcentral/profile/api/v1/active/ping
 ||www.merriam-webster.com/lapi/v1/mwol-search/stats/lookup
-||www.microsoft.com/net/bundles/js/survey-popup.min.js
-||www.microsoft.com/onerfstatics/marketingsites-eas-prod/_h/*/office.testdrive/externalscripts/adobetarget/at.js
-||www.microsofttranslator.com/Ajax/V2/Widget.aspx
-||www.microsofttranslator.com/ajax/v2/toolkit.ashx
-||www.microsofttranslator.com/ajax/v3/WidgetV3.ashx
+||www.microsofttranslator.com/$third-party
 ||www.mozilla.org/country-code.json
 ||www.newstatesman.com/wp-content/plugins/nsmg-evolok-paywall/
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
@@ -1661,8 +1610,9 @@ zhidao.baidu.com##.task-list-button
 ||www.nytimes.com/svc/int/functions/geoip
 ||www.oracle.com/assets/truste-oraclelib.js$domain=mysql.com
 ||www.oschina.net/action/trace/record
-||www.packtpub.com/static/version*/frontend/Packt/default/*/Magento_GoogleTagManager/
-||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_GoogleTagManager/
+||www.packtpub.com/static/version*/frontend/Packt/default/*/*_GoogleTagManager/
+||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_Gdpr/
+||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_GeoIP/
 ||www.paypal.com/xoplatform/logger/api/log
 ||www.pgyer.com/app/getAdAdsense
 ||www.pinduoduo.com/icp
