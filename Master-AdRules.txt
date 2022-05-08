@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Saturday, May 7, 2022
+! Last modified: Sunday, May 8, 2022
 ! Title: Master-AdRules
-! Version: 20220507
+! Version: 20220508
 !
 !
 !
@@ -285,6 +285,7 @@ map.baidu.com##.poiLeadDownloadCard
 market.aliyun.com##div[class^="xf-"]
 marketplace.visualstudio.com###survey-container
 material.angular.io##app-cookie-popup
+material.io##mio-cookie-notice
 mathoverflow.net###divQuestionFollowFeaturePopover
 mathoverflow.net###js-gdpr-consent-banner
 mathoverflow.net##.js-consent-banner
@@ -550,6 +551,7 @@ www.itpro.com##.polaris__newsletter
 www.itprotoday.com###newsletter-signup-load
 www.itprotoday.com##.gdpr-popup-border
 www.itprotoday.com##.share-icons
+www.itweb.co.za##.itw-right-column,.itw-share-v,.text-related
 www.javascripttutorial.net##.ad,#back-to-top,.helpful-block-content
 www.jb51.net###right-share
 www.jb51.net##div.topimg
@@ -807,6 +809,7 @@ zhidao.baidu.com##.task-list-button
 ||api.icy-lake.kickstarter.com/v1/t
 ||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
 ||api.ipfind.com/me
+||api.itweb.co.za/*/content/*/newsletter
 ||api.m.jd.com/api?*functionId=queryMaterialAdverts
 ||api.m.jd.com/client.action?functionId=queryMaterialAdverts
 ||api.nextgen.guardianapps.co.uk/weatherapi/city.json
@@ -824,6 +827,7 @@ zhidao.baidu.com##.task-list-button
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
 ||as.atlassian.com/api/v1/t$domain=bitbucket.org
 ||ask.dcloud.net.cn/crond/run/
+||assets-www.xbox.com/xbox-web/static/js/aam_at-xbox-*.js
 ||assets.adobedtm.com/*/*/launch-*.min.js$important
 ||assets.adobedtm.com/*/satelliteLib-*.js$important
 ||assets.adobedtm.com/launch-*.min.js$important
@@ -1199,6 +1203,7 @@ zhidao.baidu.com##.task-list-button
 ||marketplace.visualstudio.com/_apis/ClientTrace/Events
 ||marketplace.visualstudio.com/_apis/customerintelligence/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
+||material.io/api/country_code
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
 ||mdap.alipay.com/loggw/dwcookieLogGet.do$domain=www.yuque.com|alipay.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
