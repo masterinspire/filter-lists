@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, May 8, 2022
+! Last modified: Monday, May 9, 2022
 ! Title: Master-AdRules
-! Version: 20220508
+! Version: 20220509
 !
 !
 !
@@ -683,6 +683,7 @@ www.tensorflow.org##devsite-thumb-rating
 www.tensorflow.org##devsite-youtube
 www.theatlantic.com###paywall
 www.theatlantic.com##.js-non-metered-nudge.c-non-metered-nudge
+www.theepochtimes.com##.social.share
 www.thefreedictionary.com###SubscrSlider
 www.thefreedictionary.com###fixedBlock
 www.thefreedictionary.com###secLoginToAccess
@@ -833,7 +834,7 @@ zhidao.baidu.com##.task-list-button
 ||assets.adobedtm.com/launch-*.min.js$important
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
-||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com
+||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com|www.fourth-wall.co.uk
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 ||atv-ps-eu.primevideo.com/cdp/usage/GetWeblabTreatment$domain=www.primevideo.com
 ||atv-ps-eu.primevideo.com/cdp/usage/ReportEvent$domain=www.primevideo.com
@@ -1418,6 +1419,7 @@ zhidao.baidu.com##.task-list-button
 ||store.steampowered.com/default/usabilitytracking/
 ||stripe.com$domain=gitbook.com
 ||stt.nvidia.com/rest/v1/delivery
+||subs.youmaker.com/lib/api.bundle.js$domain=www.theepochtimes.com
 ||subscribe.washingtonpost.com/offers/service/get-mapped-adot-offer/hd_sub_promo
 ||sug.so.360.cn/suggest
 ||sugar.zhihu.com/plutus_adreaper$domain=www.zhihu.com
@@ -1460,6 +1462,7 @@ zhidao.baidu.com##.task-list-button
 ||translate.google.com/_/TranslateWebserverUi/jserror
 ||trustrcv.baidu.com/xin.php$domain=aiqicha.baidu.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
+||tt.omtrdc.net/rest/v1/delivery$important
 ||twitterinc.tt.omtrdc.net/rest/v1/delivery$important
 ||tyrz.gd.gov.cn/pscp/sso/connect/page/logmanager/report
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
@@ -1581,6 +1584,8 @@ zhidao.baidu.com##.task-list-button
 ||www.flash.cn/support/statistics
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
+||www.fourth-wall.co.uk/_api/tag-manager/api/v1/tags/sites/
+||www.fourth-wall.co.uk/_serverless/cookie-consent-settings-serverless/v1/cookie-banner-settings
 ||www.fox5ny.com/api/layouts/alert/heartbeat$domain=www.fox5ny.com
 ||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg.min.js
 ||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg_ads.min.js
