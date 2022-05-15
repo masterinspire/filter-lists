@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Monday, May 9, 2022
+! Last modified: Sunday, May 15, 2022
 ! Title: Master-AdRules
-! Version: 20220509
+! Version: 20220515
 !
 !
 !
@@ -185,6 +185,8 @@ developers.google.com##devsite-youtube
 digitalrightswatch.org.au###cookie-notice
 ding-doc.dingtalk.com##.styles-float
 discourse.mozilla.org##.quote-button
+discuss.kotlinlang.org##.quote-button
+discuss.kotlinlang.org##.signup-cta
 dnschecker.org###cookie-box
 doc.qt.io###cookie-confirm
 docs.gradle.org###newsletter-form-container
@@ -206,6 +208,7 @@ edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
 edu.aliyun.com##.tcbox
 embed.plnkr.co##.plunker-ad-wrap
+engineering.fb.com###GDPRConsentBar
 entityframework.net###modal-with-graph
 entityframework.net##.container-fluid.page-header-calltoaction
 entityframework.net##div[aria-label="cookieconsent"]
@@ -445,7 +448,7 @@ www.88dyw.com##.gotop
 www.88ysw.com##.gotop
 www.aljazeera.com###article-newsletter-slot
 www.android.com##.cookie-banner
-www.androidcentral.com##.share
+www.androidcentral.com###newsletter,.socialite-widget
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
 www.baidu.com###content_right
@@ -994,6 +997,7 @@ zhidao.baidu.com##.task-list-button
 ||csp.yandex.net/csp$domain=yandex.com
 ||cstm.baidu.com$domain=baike.baidu.com
 ||customer.api.drift.com/geo
+||d.alicdn.com/alilog/mlog/aplus.js
 ||da.dun.163.com/sn.gif
 ||da.qidian.qq.com/ping/pv$domain=www.eassos.cn
 ||da.qiyukf.com/webda/da.gif$domain=qiye.163.com
@@ -1023,6 +1027,7 @@ zhidao.baidu.com##.task-list-button
 ||discord.com/widget?id$domain=fandom.com
 ||disqus.com/count.js
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
+||dns-clientinfo.cbsivideo.com/clientinfo
 ||docs.vmware.com/c5W9T/w/DS/GPaN/g_QzsEQA/YkaGpccp/WWdFNA/Dw8/UYzEKbyU
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
@@ -1102,6 +1107,7 @@ zhidao.baidu.com##.task-list-button
 ||go.digitalocean.com/js/forms2/js/forms2.min.js
 ||go.pardot.com/js/piUtils.js$domain=gradle.com|gradle.org
 ||gold-cdn.xitu.io/v3/static/img/extension.1dbaf43.png
+||gomediago.baidu.com/api/bidder/track
 ||google-analytics.com$third-party
 ||google-developers.gonglchuangl.net/sw.js
 ||googleads.g.doubleclick.net$important
@@ -1115,6 +1121,7 @@ zhidao.baidu.com##.task-list-button
 ||gss*.baidu.com/*/static/api/js/share/share_api.js
 ||gss*.baidu.com/*/static/api/js/view/share_view.js
 ||h5speed.m.jd.com/v2/speed/activity
+||haokan.baidu.com/videoui/api/opbanner?banner_place=videoland_player_right
 ||hawk.techradar.com/translations.php
 ||heimdalsecurity.com/blog/wp-content/plugins/heimdal-social-sharing-buttons/js/social.js
 ||hello.zonos.com/shop-duty-tax/hello.js$domain=unchartedsupplyco.com
@@ -1205,6 +1212,7 @@ zhidao.baidu.com##.task-list-button
 ||marketplace.visualstudio.com/_apis/customerintelligence/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
 ||material.io/api/country_code
+||mbd.baidu.com/ztbox?action=zpblog
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
 ||mdap.alipay.com/loggw/dwcookieLogGet.do$domain=www.yuque.com|alipay.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
@@ -1270,6 +1278,7 @@ zhidao.baidu.com##.task-list-button
 ||pixel.ipinfo.io/analytics/log
 ||pixel.wp.com/g.gif
 ||platform.instagram.com/en_US/embeds.js
+||platform.linkedin.com/in.js$third-party
 ||platform.twitter.com/widgets.js$third-party
 ||play.google.com/log$important
 ||play.history.com/vendor/at.js
@@ -1329,7 +1338,8 @@ zhidao.baidu.com##.task-list-button
 ||script.sw.report/sw.js$domain=blog.codecentric.de
 ||script.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
 ||sdk.51.la/js-sdk-pro.min.js
-||search-api.fie.futurecdn.net/js/w/es6/responsive.js$domain=www.livescience.com
+||search-api.fie.future.net.uk/widget.php$domain=www.livescience.com|www.androidcentral.com
+||search-api.fie.futurecdn.net/js/w/es6/responsive.js$domain=www.livescience.com|www.androidcentral.com
 ||search.10086.cn/log_collecter/collecter.do
 ||search.brave.com/api/feedback
 ||search.brave.com/api/suggest
@@ -1546,6 +1556,7 @@ zhidao.baidu.com##.task-list-button
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewPremiumSponsorsTextAd
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleAd
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleLargeAd
+||www.cbsnews.com/embed/newsletters/widget
 ||www.ccleaner.com/Umbraco/Api/LocationApi/GetLocation
 ||www.ccleaner.com/api/v1/smb-analysis/lookup
 ||www.cdc.gov/JScript/metrics/adobe/analytics_cdcgov.js
