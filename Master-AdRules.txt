@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, May 15, 2022
+! Last modified: Tuesday, May 17, 2022
 ! Title: Master-AdRules
-! Version: 20220515
+! Version: 20220517
 !
 !
 !
@@ -33,6 +33,7 @@ askubuntu.com###divQuestionFollowFeaturePopover
 askubuntu.com###js-gdpr-consent-banner
 askubuntu.com##.js-consent-banner
 askubuntu.com##.js-freemium-cta
+astrid.tech###__next > div[style="width: 100vw; position: fixed; bottom: 0px; background-color: white; padding-top: 20px; padding-bottom: 20px;"]
 auth0.com###popup
 auth0.com###selectionSharerPopover
 aws.amazon.com##.aws-cn-optin
@@ -139,6 +140,7 @@ create-react-app.dev##div[class^="announcementBar"]
 css-tricks.com##.fem-sidebar-ad.fem-ad
 curl-library.cool.haxx.narkive.com###selection_url_c
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
+dbeaver.com##.getresponse-bottom-widget
 deepmind.com###cookieBar
 den.dev##.bottom-banner,.bottom-container
 dev.to###sidebar-wrapper-left > .side-bar > .crayons-card--secondary.crayons-card
@@ -221,8 +223,7 @@ exceljet.net###block-views-front-testimonials-block
 exceljet.net###block-views-generic-testimonials-block
 exceljet.net##.field.field-name-formula-training
 exceljet.net##.sendy-function-pdf
-fandom.com###WikiaBar
-fandom.com##.notifications-placeholder
+fandom.com###WikiaBar,#highlight__main-container,.notifications-placeholder
 firebase.google.com##devsite-feedback
 firebase.google.com##devsite-thumb-rating
 flutter.dev##.show.cookie-snack
@@ -306,6 +307,7 @@ mui.com##[aria-label="Diamond Sponsors"]
 mui.com##[data-ga-event-category="ad"]
 mui.com##[data-ga-event-category="sponsor"]
 music.taihe.com##.__qianqian_qrcode
+navicat.com##.cookies-container
 news.softpedia.com###cookienotif
 nginx.org###banner
 nokia.com###cmp-modal
@@ -320,6 +322,7 @@ openvpn.net##body:style(overflow: unset !important;)
 osdn.net###cookie-bar
 packagecloud.io###cookie-popover
 packagecloud.io##.logged-out-links
+pagecdn.com##.cookie-bar
 pan.baidu.com##.phone-banner
 pastebin.com##.-cookies.popup-box
 pastebin.com##.-pro.popup-box
@@ -564,6 +567,7 @@ www.jetbrains.com##.id_cookies
 www.jetbrains.com##DIV[id="bart_wrapper"]
 www.jetbrains.com##DIV[id="country-offer-placeholder"]
 www.jetbrains.com##DIV[id="pseudo-footer"]
+www.keycdn.com##.cookies-warning
 www.learnrazorpages.com###cookie-warning
 www.linuxeden.com##.bdsharebuttonbox.action-share
 www.lookip.net##[aria-label="cookieconsent"]
@@ -629,6 +633,7 @@ www.qt.io##.b-article__share-footer
 www.qt.io##.fixed.c-floating-contact
 www.qt.io##.instagram-media
 www.qt.io##div.c-article-list-promotion
+www.quantil.com###cmplz-cookiebanner-container
 www.quora.com##.ViewInAppLink
 www.realvnc.com###cookie-notice
 www.red-gate.com##.cookie-consent
@@ -823,6 +828,7 @@ zhidao.baidu.com##.task-list-button
 ||apiv2.pinduoduo.com/api/server/_stm
 ||apiv2.pinduoduo.net/api/server/_stm
 ||app-*.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com|docs.conan.io,important
+||app.getresponse.com/site2/$domain=dbeaver.com
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||app.termly.io/embed.min.js$domain=www.thisdot.co
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
@@ -954,6 +960,7 @@ zhidao.baidu.com##.task-list-button
 ||cloud.tencent.com/document/ajax/?action=checkDocApiPageRedirect
 ||cloud.tencent.com/document/ajax/?action=report
 ||cloud.tencent.com/tool/screenshot?action=capture
+||cloudflare-quic.com/b/headers$domain=www.thedrive.com
 ||cmpv2.computerworld.com/wrapperMessagingWithoutDetection.js
 ||cmpv2.infoworld.com/wrapperMessagingWithoutDetection.js
 ||cmtw.pinduoduo.com/api/cmt/mms_page
@@ -1005,6 +1012,7 @@ zhidao.baidu.com##.task-list-button
 ||data.services.jetbrains.com/geo
 ||datacollect.vmall.com:18443$third-party
 ||datatables.net/media/js/dynamic.php
+||dbeaver.io/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
 ||dc.services.visualstudio.com/v2/track
 ||dd.nytimes.com/tags.js
 ||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
@@ -1254,6 +1262,7 @@ zhidao.baidu.com##.task-list-button
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||open.spotify.com/$domain=blog.logrocket.com
 ||opencv.org/wp-admin/admin-ajax.php
+||organiccdn.io/assets/sdk/unit-sdk.js$domain=www.thedrive.com
 ||otelwebtelemetry.com/v1/trace
 ||outofmemory.cn/static/js/h.js
 ||p13n-mr.adobe.io/psdk/v2/content$domain=helpx.adobe.com
@@ -1404,7 +1413,7 @@ zhidao.baidu.com##.task-list-button
 ||star.tag.webdev.com/api/page
 ||starget.mathworks.com/rest/v1/delivery
 ||static-cf.cleverbridge.com/mycontent/1/cleverAnalytics.js
-||static.addtoany.com$domain=www.historytoday.com|opencv.org
+||static.addtoany.com$domain=www.historytoday.com|opencv.org|navicat.com
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/button*
 ||static.cdn.adultswim.com/tools/global/user-consent-*.min.js
