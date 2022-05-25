@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Sunday, May 22, 2022
+! Last modified: Wednesday, May 25, 2022
 ! Title: Master-AdRules
-! Version: 20220522
+! Version: 20220525
 !
 !
 !
@@ -193,7 +193,7 @@ dnschecker.org###cookie-box
 doc.qt.io###cookie-confirm
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
-docs.microsoft.com##.thumb-rating,#banner-holder,#article-header-page-actions-overflow,#article-header-page-actions,.feedback-section
+docs.microsoft.com##.thumb-rating,#banner-holder,#article-header-page-actions-overflow,#article-header-page-actions,.feedback-section,#survey-popover
 docs.rs##.docs-rs-footer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.vmware.com##.position-fixed.icons-container
@@ -285,7 +285,7 @@ map.baidu.com##.poiLeadDownloadCard
 market.aliyun.com##div[class^="xf-"]
 marketplace.visualstudio.com###survey-container
 material.angular.io##app-cookie-popup
-material.io##mio-cookie-notice
+material.io##mio-cookie-notice,mio-communication-banner
 mathoverflow.net###divQuestionFollowFeaturePopover
 mathoverflow.net###js-gdpr-consent-banner
 mathoverflow.net##.js-consent-banner
@@ -497,6 +497,7 @@ www.computerworld.com##aside[id^="fsb-"]
 www.cplusplus.com##body > div:nth-of-type(1)
 www.damninteresting.com##.tab-visible.plea
 www.dictionary.com###marketingBanner-right
+www.digitalcombatsimulator.com###cookies
 www.docs.influxdata.com###support-ad
 www.dotnettricks.com###cookienotify,#sticky-footer
 www.echartsjs.com###apache-banner
@@ -1174,6 +1175,7 @@ zhidao.baidu.com##.task-list-button
 ||m.vivibb.com/index.php/user/ajax_ulog/
 ||m.vivibb.com/statics/api/js/share.js
 ||map.baidu.com/mobile/img/transparent.gif
+||marketplace.stripe.com/ajax/metrics
 ||marketplace.visualstudio.com/_apis/ClientTrace/Events
 ||marketplace.visualstudio.com/_apis/customerintelligence/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
@@ -1245,7 +1247,7 @@ zhidao.baidu.com##.task-list-button
 ||pixel.wp.com/g.gif
 ||platform.instagram.com/en_US/embeds.js
 ||platform.linkedin.com/in.js$third-party
-||platform.twitter.com/widgets.js$third-party
+||platform.twitter.com/widgets$third-party
 ||play.google.com/log$important
 ||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
@@ -1268,6 +1270,7 @@ zhidao.baidu.com##.task-list-button
 ||query.aliyun.com/rest/delivery.service.engine$domain=aliyun.com
 ||query.prod.cms.rt.microsoft.com/cms/api/am/binary/$domain=www.microsoft.com
 ||qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js$domain=wk.baidu.com
+||r.stripe.com/0
 ||rating-widget.com/js/api/rating/get.php
 ||readthedocs.org/api/v2/footer_html/?callback
 ||readthedocs.org/sustainability/view
@@ -1410,6 +1413,7 @@ zhidao.baidu.com##.task-list-button
 ||support.stackpath.com/hc/activity
 ||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
 ||t.captcha.qq.com/caplog
+||t.stripe.com/?domain=
 ||tags.tiqcdn.com/utag/vmware/*-privacy/prod/utag$domain=vmware.com,important
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
 ||tajs.qq.com/stats$important
