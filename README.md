@@ -1,43 +1,45 @@
-# Master AdRules
+# Filter Lists
 
 ## About
 
-Custom Ad Filters. Can be used in [uBlock Origin](https://github.com/gorhill/uBlock).
+Custom filter lists. Can be used in [uBlock Origin](https://github.com/gorhill/uBlock).
 
-  * `Master-AdRules.txt`: main file.
-  * `breaking.txt`: use at your own risks.
+  * `filter-lists.txt`: main file.
+  * `filter-lists-breaking.txt`: use at your own risks. may break some websites.
+  * `filter-lists-breaking-2.txt`: use at your own risks. may break some websites.
+  * `filter-lists-breaking-3.txt`: use at your own risks. may break some websites.
 
 ## Usages
 
 Add to your **filter lists**:
 
-> https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/Master-AdRules.txt
+> https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists.txt
 
-> https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/breaking.txt
+> https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists-breaking.txt
 
-> https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/breaking-2.txt
+> https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists-breaking-2.txt
 
-> https://raw.githubusercontent.com/masterinspire/Master-AdRules/master/breaking-3.txt
+> https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists-breaking-3.txt
 
 or with [jsDelivr](https://www.jsdelivr.com/?docs=gh):
 
-> https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/Master-AdRules.txt
+> https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists.txt
 
-> https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/breaking.txt
+> https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists-breaking.txt
 
-> https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/breaking-2.txt
+> https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists-breaking-2.txt
 
-> https://cdn.jsdelivr.net/gh/masterinspire/Master-AdRules@master/breaking-3.txt
+> https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists-breaking-3.txt
 
-or with [GitLab](https://gitlab.com/masterinspire/Master-AdRules):
+or with [GitLab](https://gitlab.com/masterinspire/filter-lists):
 
-> https://gitlab.com/masterinspire/Master-AdRules/-/raw/master/Master-AdRules.txt
+> https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists.txt
 
-> https://gitlab.com/masterinspire/Master-AdRules/-/raw/master/breaking.txt
+> https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists-breaking.txt
 
-> https://gitlab.com/masterinspire/Master-AdRules/-/raw/master/breaking-2.txt
+> https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists-breaking-2.txt
 
-> https://gitlab.com/masterinspire/Master-AdRules/-/raw/master/breaking-3.txt
+> https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists-breaking-3.txt
 
 ## Contribution
 

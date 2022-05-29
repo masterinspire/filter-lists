@@ -1,13 +1,13 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
-! Homepage: https://github.com/masterinspire/Master-AdRules
-! Last modified: Tuesday, May 17, 2022
-! Title: Master-AdRules Breaking 2
-! Version: 20220517
+! Homepage: https://github.com/masterinspire/filter-lists
+! Last modified: Sunday, May 29, 2022
+! Title: Custom Filter Lists Breaking 2
+! Version: 20220529
 !
 !
 !
-||chocolatey.disqus.com/embed.js
+||disqus.com/embed.js
 ||github.com/*.png?size=32$domain=docs.microsoft.com
 ||gravatar.com/$third-party
 ||i.imgur.com$domain=create-react-app.dev|chocolatey.org|superuser.com|community.notepad-plus-plus.org
