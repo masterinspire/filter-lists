@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, May 29, 2022
+! Last modified: Wednesday, June 1, 2022
 ! Title: Custom Filter Lists
-! Version: 20220529
+! Version: 20220601
 !
 !
 !
@@ -237,6 +237,7 @@ flutter.dev##.show.cookie-snack
 forum.f-droid.org##.quote-button,.signup-cta
 forum.gitlab.com##.quote-button
 freecommander.com###cookie-notice
+get.foundation###subpage-intro-video
 get.videolan.org###uecookies
 gist.github.com##.gist-banner.gist-detail-intro
 github.community##.quote-button
@@ -502,6 +503,7 @@ www.cplusplus.com##body > div:nth-of-type(1)
 www.damninteresting.com##.tab-visible.plea
 www.dictionary.com###marketingBanner-right
 www.digitalcombatsimulator.com###cookies
+www.digitalocean.com##div[class^="ToastStyles__StyledWrapper-sc"],div[class^="TutorialTemplateStyles__StyledCTA-sc"]
 www.docs.influxdata.com###support-ad
 www.dotnettricks.com###cookienotify,#sticky-footer
 www.echartsjs.com###apache-banner
@@ -568,6 +570,7 @@ www.jetbrains.com##DIV[id="pseudo-footer"]
 www.keycdn.com##.cookies-warning
 www.learnrazorpages.com###cookie-warning
 www.linuxeden.com##.bdsharebuttonbox.action-share
+www.listennotes.com###ln-side-share-div
 www.lookip.net##[aria-label="cookieconsent"]
 www.merriam-webster.com###cite-anchor
 www.merriam-webster.com###definition-right-rail
@@ -819,6 +822,7 @@ zhidao.baidu.com##.task-list-button
 ||api.rss2json.com/v1/api.json$domain=flutter.dev
 ||app-*.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com|docs.conan.io,important
 ||app.getresponse.com/site2/$domain=dbeaver.com
+||app.gitbook.com/__amp/
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||app.termly.io/embed.min.js$domain=www.thisdot.co
 ||apps.mypurecloud.com/journey/sdk/js/web/v1/ac.js=$domain=www.shutterstock.com
@@ -901,6 +905,7 @@ zhidao.baidu.com##.task-list-button
 ||c.evidon.com/geo/country.js$domain=adobe.com|vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
 ||cc-api-data.adobe.io/ingest
+||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js
@@ -1427,6 +1432,7 @@ zhidao.baidu.com##.task-list-button
 ||tb.pagetest.top/$domain=www.88dyw.com
 ||tb1.bdstatic.com/tb/img/hg/hg.gif$domain=tieba.baidu.com
 ||techcommunity.microsoft.com/beacon/*.gif
+||techdocs.akamai.com/network-lists/pageview
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
@@ -1438,8 +1444,8 @@ zhidao.baidu.com##.task-list-button
 ||trace.qq.com/collect
 ||tracking.epicgames.com
 ||traffic.alexa.com/graph$domain=www.robtex.com
-||translate.google.com/$domain=www.w3schools.com|www.enterprisedb.com|startpagesearch.com|www.geeksforgeeks.org
 ||translate.google.com/_/TranslateWebserverUi/jserror
+||translate.google.com/translate_a/element.js$third-party
 ||trustrcv.baidu.com/xin.php$domain=aiqicha.baidu.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||tt.omtrdc.net/rest/v1/delivery$important

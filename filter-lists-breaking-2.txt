@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, May 29, 2022
+! Last modified: Wednesday, June 1, 2022
 ! Title: Custom Filter Lists Breaking 2
-! Version: 20220529
+! Version: 20220601
 !
 !
 !
@@ -12,4 +12,4 @@
 ||gravatar.com/$third-party
 ||i.imgur.com$domain=create-react-app.dev|chocolatey.org|superuser.com|community.notepad-plus-plus.org
 ||i.stack.imgur.com$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
-||player.vimeo.com/video/$third-party
+||player.vimeo.com/$third-party
