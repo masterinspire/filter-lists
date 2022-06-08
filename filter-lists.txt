@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, June 5, 2022
+! Last modified: Wednesday, June 8, 2022
 ! Title: Custom Filter Lists
-! Version: 20220605
+! Version: 20220608
 !
 !
 !
@@ -608,6 +608,8 @@ www.newstatesman.com##.c-share--clear.c-share
 www.newstatesman.com##.c-sponsored-article
 www.newstatesman.com##.newsletter-inner-container
 www.newtonsoft.com###footerNotice
+www.newyorker.com##.paywall-bar
+www.newyorker.com##.social-icons--share.social-icons--circular.social-icons
 www.nokia.com###block-nokialocalesuggestionblock
 www.nokia.com##.nokia-cookies-wrapper
 www.npmjs.com##DIV[id="notification-banner"]
@@ -821,6 +823,7 @@ zhidao.baidu.com##.task-list-button
 ||app.gitbook.com/__amp/
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||app.termly.io/embed.min.js$domain=www.thisdot.co
+||appc.baidu.com/appsrv?action=appdistributionlog
 ||apps.mypurecloud.com/journey/sdk/js/web/v1/ac.js=$domain=www.shutterstock.com
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
 ||arc.msn.com/v4/api/selection$domain=support.microsoft.com|answers.microsoft.com
@@ -1268,6 +1271,7 @@ zhidao.baidu.com##.task-list-button
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
 ||push-content.springernature.io/*/production_live/consent-bundle-*.js$domain=www.nature.com
+||pyinstaller.org/_/api/v2/analytics/
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||quantcast.mgr.consensu.org/choice/*/mathworks.com/choice.js$domain=www.mathworks.com
 ||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
@@ -1278,8 +1282,8 @@ zhidao.baidu.com##.task-list-button
 ||qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js$domain=wk.baidu.com
 ||r.stripe.com/0
 ||rating-widget.com/js/api/rating/get.php
-||readthedocs.org/api/v2/footer_html/?callback
-||readthedocs.org/sustainability/view
+||readthedocs.io/_/api/v2/analytics/
+||readthedocs.io/_/static/javascript/readthedocs-analytics.js
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/jquery-for-marketo-opt-in.js
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/marketo-opt-in-2.js
 ||referrer.disqus.com/juggler/event

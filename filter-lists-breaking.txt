@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, May 29, 2022
+! Last modified: Wednesday, June 8, 2022
 ! Title: Custom Filter Lists Breaking
-! Version: 20220529
+! Version: 20220608
 !
 !
 !
@@ -14,7 +14,7 @@ github.com##.HeaderMenu.HeaderMenu--logged-out > nav
 ||cefsharp.github.io/images/top-header.png
 ||codesandbox.io$domain=mui.com
 ||feedburner.google.com$domain=chocolatey.org
-||img.youtube.com$domain=testing-library.com|visualstudio.microsoft.com|news.google.com
+||img.youtube.com$third-party
 ||mail.google.com/mail/$domain=www.erlang.org
 ||maps.google.com/maps/api/js$third-party
 ||maps.googleapis.com/maps/api/js$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
