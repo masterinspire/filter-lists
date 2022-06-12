@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, June 8, 2022
+! Last modified: Sunday, June 12, 2022
 ! Title: Custom Filter Lists
-! Version: 20220608
+! Version: 20220612
 !
 !
 !
@@ -404,6 +404,7 @@ techcommunity.microsoft.com##.custom-share-component
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
+thenewstack.io##.newsletter-sign-up-block
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
 tieba.baidu.com###tiebaCustomPassLogin
@@ -956,6 +957,7 @@ zhidao.baidu.com##.task-list-button
 ||cn.bing.com/hptr/
 ||cn.bing.com/orgid/idtoken/conditional
 ||cn.bing.com/popularnow
+||cn.cdnbye.com/v1/channel
 ||code.visualstudio.com/vendor/at/
 ||col.csbops.io/data/sandpack
 ||collect.igodigital.com/collect.js$domain=www.usatoday.com
@@ -1315,10 +1317,9 @@ zhidao.baidu.com##.task-list-button
 ||screenshots.codesandbox.io/*.png
 ||script.sw.report/sw.js$domain=blog.codecentric.de
 ||script.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
-||sdk.51.la/js-sdk-pro.min.js
+||sdk.51.la/js-sdk-pro.min.js$third-party
 ||search-api.fie.future.net.uk/widget.php$domain=www.livescience.com|www.androidcentral.com
 ||search-api.fie.futurecdn.net/js/w/es6/responsive.js$domain=www.livescience.com|www.androidcentral.com
-||search.10086.cn/log_collecter/collecter.do
 ||search.brave.com/api/feedback
 ||search.brave.com/api/suggest
 ||seccliprod.alipay.com/api/do.htm?serviceId=webmlog
@@ -1328,7 +1329,6 @@ zhidao.baidu.com##.task-list-button
 ||sentry.gitlab.net/api/
 ||sentry.io/api$domain=jetbrains.com
 ||sentry.matrix.org$domain=gitter.im
-||sentry.micloud.d.xiaomi.net/api/
 ||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
 ||services.fandom.com/event-logger/debug
 ||share.weiyun.com/weiyun/compass
@@ -1437,6 +1437,7 @@ zhidao.baidu.com##.task-list-button
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
+||thenewstack.io/wp-content/themes/thenewstack/js/cookie-pro/oneTrust_production/
 ||tieba.baidu.com/official/click/viewTrue
 ||tkx.apis.anvato.net/rest/v2/mcp/video/$domain=www.fox5ny.com
 ||tkx.apis.anvato.net/rest/v2/now/$domain=www.fox5ny.com
@@ -1509,10 +1510,6 @@ zhidao.baidu.com##.task-list-button
 ||www.afzhan.com/asyncstat.aspx
 ||www.afzhan.com/mystat.aspx
 ||www.afzhan.com/static/api/js/share.js
-||www.aiyiweb.com/Scripts/AdContentPage300_*.js
-||www.aiyiweb.com/Scripts/AdContentPageMiddem250.js
-||www.aiyiweb.com/Scripts/AdIndex950_*.js
-||www.aiyiweb.com/Scripts/baiduShare.js
 ||www.aliyun.com/core/real-time-iframe$domain=developer.aliyun.com
 ||www.aliyun.com/smarter-engine
 ||www.amazon.com/cross_border_interstitial/render
