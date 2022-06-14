@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, June 12, 2022
+! Last modified: Tuesday, June 14, 2022
 ! Title: Custom Filter Lists
-! Version: 20220612
+! Version: 20220614
 !
 !
 !
@@ -225,6 +225,7 @@ entityframeworkcore.com##.container-fluid.page-header-calltoaction
 entityframeworkcore.com##div[aria-label="cookieconsent"]
 eslint.org##.eslint-ad
 eslint.org##main.blog > article > footer
+everything-powershell.com##.widget_eu_cookie_law_widget.widget
 exceljet.net###block-views-courses-block-block
 exceljet.net###block-views-front-testimonials-block
 exceljet.net###block-views-generic-testimonials-block
@@ -863,7 +864,7 @@ zhidao.baidu.com##.task-list-button
 ||bce.bdstatic.com/fe-monitor/latest/fe-monitor.min.js
 ||bdimg.share.baidu.com/static/api/js/share.js
 ||bdimg.share.baidu.com/static/js/shell_v2.js
-||beacon-v2.helpscout.net/$domain=fontawesome.com|ipinfo.io
+||beacon-v2.helpscout.net/$domain=fontawesome.com|ipinfo.io|www.gitbook.com
 ||bing.com/*/MsnJVData/HoverTranslation*
 ||bing.com/AS/Suggestions
 ||bing.com/dict/SerpHoverTrans
@@ -904,6 +905,8 @@ zhidao.baidu.com##.task-list-button
 ||c.amazon-adsystem.com/aax2/apstag.js$domain=www.history.com|lifehacker.com,important
 ||c.evidon.com/geo/country.js$domain=adobe.com|vmware.com
 ||c.evidon.com/sitenotice$domain=vmware.com
+||c0.wp.com/p/jetpack/*/_inc/build/twitter-timeline.min.js$domain=everything-powershell.com
+||c0.wp.com/p/jetpack/*/_inc/build/widgets/eu-cookie-law/$domain=everything-powershell.com
 ||cc-api-data.adobe.io/ingest
 ||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
@@ -1195,6 +1198,7 @@ zhidao.baidu.com##.task-list-button
 ||mdap.alipay.com/loggw/dwcookieLogGet.do$domain=www.yuque.com|alipay.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
 ||medium.com/_/batch
+||medium.com/_/graphql
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader
 ||meter-svc.nytimes.com/meter.js
 ||metrics-drcn.dt.hicloud.com:6447/webv1$domain=id1.cloud.huawei.com
@@ -1268,6 +1272,8 @@ zhidao.baidu.com##.task-list-button
 ||polaris.xfinity.com/orc.html$domain=www.xfinity.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
+||proandroiddev.com/_/batch
+||proandroiddev.com/_/graphql
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
