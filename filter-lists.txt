@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, June 14, 2022
+! Last modified: Sunday, June 19, 2022
 ! Title: Custom Filter Lists
-! Version: 20220614
+! Version: 20220619
 !
 !
 !
@@ -200,7 +200,7 @@ dnschecker.org###cookie-box
 doc.qt.io###cookie-confirm
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
-docs.microsoft.com##.thumb-rating,#banner-holder,#article-header-page-actions-overflow,#article-header-page-actions,.feedback-section,#survey-popover
+docs.microsoft.com##.thumb-rating,#banner-holder,#article-header-page-actions-overflow,#article-header-page-actions,.feedback-section,#survey-popover,#user-feedback
 docs.rs##.docs-rs-footer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.vmware.com##.position-fixed.icons-container
@@ -237,6 +237,7 @@ firebase.google.com##devsite-thumb-rating
 flutter.dev##.show.cookie-snack
 forum.f-droid.org##.quote-button,.signup-cta
 forum.gitlab.com##.quote-button
+frame.io##div[class*="ConsentBanner___"]
 freecommander.com###cookie-notice
 get.foundation###subpage-intro-video
 get.videolan.org###uecookies
@@ -758,8 +759,7 @@ www.zdnet.com##.large.video.shortcode
 www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
 xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
-xhamster49.com##.wio-dsp-a.wio-dsp-b,.wio-d.bottom-widget-section
-xhamsterlive.com##.cookies-reminder
+xhamster49.com##.wio-dsp-a.wio-dsp-b,.wio-d.bottom-widget-section,.cookie-announce,.xplayer-banner
 xhamsterlive.com##.join-me-button
 yandex.com##.content__right
 youtrack.jetbrains.com##div[class^="alertContainer_"]
@@ -770,6 +770,7 @@ zhidao.baidu.com##.jump-top-box
 zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
+||*.xyz$domain=www.88dyw.com
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.apkpure.com/api-shares.json$domain=apkpure.com
@@ -800,6 +801,7 @@ zhidao.baidu.com##.task-list-button
 ||anila.statically.io/api/collect
 ||answers.microsoft.com/en-us/contentstatisticsspark/addthreadviewcountasync
 ||answersstaticfilecdnv2.azureedge.net/static/js/banner.*.min.js$domain=answers.microsoft.com
+||antonioleiva.com/wp-admin/admin-ajax.php
 ||api-gateway.guahao.com/modulelog/
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-iam.intercom.io/messenger/web/ping
