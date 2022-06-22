@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, June 19, 2022
+! Last modified: Wednesday, June 22, 2022
 ! Title: Custom Filter Lists
-! Version: 20220619
+! Version: 20220622
 !
 !
 !
@@ -102,6 +102,7 @@ boxnovel.baidu.com##.Wechat
 boxnovel.baidu.com##.copytoken.listen-book
 boxnovel.baidu.com##.intercept-wrap
 brave.com##.announcement-banner
+canvatechblog.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 carnegie-mec.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegieendowment.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegieeurope.eu###selectionSharerPopover,.cookie-banner,.programs-ctw
@@ -124,6 +125,7 @@ cloud.tencent.com##.document-feedback-container
 cloud.tencent.com##.rno-documents-tools.rno-scrollbar-tools
 cloud.tencent.com##.select-feedback-tip
 club.ubisoft.com###footer_tc_privacy
+cn.bing.com###b_lgpd
 cn.bing.com###b_mtp
 cn.bing.com###b_notificationContainer_bop
 cn.bing.com###b_pole
@@ -298,7 +300,7 @@ mathoverflow.net###js-gdpr-consent-banner
 mathoverflow.net##.js-consent-banner
 mathoverflow.net##.js-freemium-cta
 mbillexprod.alipay.com###pc-merchant-onlineService
-medium.com##body > script + div
+medium.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 microsoft.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 minecraft.gamepedia.com##div[class^="app_gdpr"]
 mobile.softpedia.com###cookienotif
@@ -331,6 +333,7 @@ pastebin.com##.-cookies.popup-box
 pastebin.com##.-pro.popup-box
 plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
+proandroiddev.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 prodesigntools.com###wpfront-notification-bar-spacer
 pypi.org##div[data-html-include="/_includes/notification-banners/"]
 read.douban.com###desktop-app-ad
@@ -571,6 +574,7 @@ www.jetbrains.com##DIV[id="bart_wrapper"]
 www.jetbrains.com##DIV[id="country-offer-placeholder"]
 www.jetbrains.com##DIV[id="pseudo-footer"]
 www.keycdn.com##.cookies-warning
+www.latimes.com###ensNotifyBanner,.page-actions-sticky,metering-bottompanel
 www.learnrazorpages.com###cookie-warning
 www.linuxeden.com##.bdsharebuttonbox.action-share
 www.listennotes.com###ln-side-share-div
@@ -779,6 +783,7 @@ zhidao.baidu.com##.task-list-button
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||access-prod.apis.anvato.net/anvacks/$domain=www.fox5ny.com
 ||account.jetbrains.com/services/consentOptions
+||activate.platform.californiatimes.com/caltimes/latimes/serverComponent.php
 ||ad.doubleclick.net$domain=www.history.com,important
 ||ada.baidu.com/udpl$domain=m.baidu.com|www.baidu.com|zhidao.baidu.com
 ||addthis.com/js/300/addthis_widget.js$third-party
@@ -909,6 +914,8 @@ zhidao.baidu.com##.task-list-button
 ||c.evidon.com/sitenotice$domain=vmware.com
 ||c0.wp.com/p/jetpack/*/_inc/build/twitter-timeline.min.js$domain=everything-powershell.com
 ||c0.wp.com/p/jetpack/*/_inc/build/widgets/eu-cookie-law/$domain=everything-powershell.com
+||canvatechblog.com/_/batch
+||canvatechblog.com/_/graphql
 ||cc-api-data.adobe.io/ingest
 ||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
@@ -1203,6 +1210,7 @@ zhidao.baidu.com##.task-list-button
 ||medium.com/_/graphql
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader
 ||meter-svc.nytimes.com/meter.js
+||metering.platform.latimes.com/v1/meter
 ||metrics-drcn.dt.hicloud.com:6447/webv1$domain=id1.cloud.huawei.com
 ||miao.baidu.com/abdr
 ||miaowu.baidu.com/abdr$domain=zhidao.baidu.com
@@ -1325,6 +1333,7 @@ zhidao.baidu.com##.task-list-button
 ||screenshots.codesandbox.io/*.png
 ||script.sw.report/sw.js$domain=blog.codecentric.de
 ||script.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
+||scrm-wx.weiling.cn/api/website/track$domain=sunlogin.oray.com
 ||sdk.51.la/js-sdk-pro.min.js$third-party
 ||search-api.fie.future.net.uk/widget.php$domain=www.livescience.com|www.androidcentral.com
 ||search-api.fie.futurecdn.net/js/w/es6/responsive.js$domain=www.livescience.com|www.androidcentral.com
