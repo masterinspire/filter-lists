@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, June 22, 2022
+! Last modified: Sunday, June 26, 2022
 ! Title: Custom Filter Lists
-! Version: 20220622
+! Version: 20220626
 !
 !
 !
@@ -215,6 +215,7 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 duckduckgo.com##.js-feedback-btn-wrap
 duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
 dzone.com##.signin-prompt
+earth.google.com##earth-experimental-toolbar
 edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
 edu.aliyun.com##.tcbox
@@ -353,6 +354,7 @@ serverfault.com###divQuestionFollowFeaturePopover
 serverfault.com###js-gdpr-consent-banner
 serverfault.com##.js-consent-banner
 serverfault.com##.js-freemium-cta
+setuptools.pypa.io##.back-to-top
 share.weiyun.com##.layout-sider-bar
 shenzhen.chinatax.gov.cn###fb
 shenzhen.chinatax.gov.cn##.content_share
@@ -1348,6 +1350,8 @@ zhidao.baidu.com##.task-list-button
 ||sentry.matrix.org$domain=gitter.im
 ||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
 ||services.fandom.com/event-logger/debug
+||setuptools.pypa.io/_/api/v2/analytics/
+||setuptools.pypa.io/_/static/javascript/readthedocs-analytics.js
 ||share.weiyun.com/weiyun/compass
 ||shared.ydstatic.com/js/yatdk/*/stream.js$domain=www.csdn.net
 ||sharethis.com$third-party
@@ -1595,6 +1599,7 @@ zhidao.baidu.com##.task-list-button
 ||www.gitbook.com/__amp/$domain=docs.avaloniaui.net
 ||www.google.com.hk/complete/search$important
 ||www.google.com.hk/maps/preview/log204
+||www.google.com/insights/consumersurveys/async_survey
 ||www.googleadservices.com/$third-party,important
 ||www.googletagmanager.com/$third-party,important
 ||www.googletagservices.com/$third-party,important
