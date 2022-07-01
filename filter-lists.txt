@@ -1,15 +1,12 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, June 30, 2022
+! Last modified: Friday, July 1, 2022
 ! Title: Custom Filter Lists
-! Version: 20220630
+! Version: 20220701
 !
 !
 !
-/_/client-timings$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
-/gps/event$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
-/inc/timming.php
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
 @@||kb.vmware.com/resource/$script
 @@||kb.vmware.com/s/sfsites/$script
@@ -21,7 +18,7 @@
 @@||www.xfinity.com/xfinity-learn-ui/$script
 about.gitlab.com###sticky-banner
 adguard.com##.sticky-bar--fixed.annoyance.sticky-bar
-ai.baidu.com##.ai-aside
+ai.baidu.com##.ai-aside,.feedback-wrapper
 aiqicha.baidu.com##.float-banner
 androidwave.com##.onp-sl-overlap-box
 angular-academy.com##.share
@@ -33,10 +30,7 @@ apkpure.com##.left > .ad-box-auto
 apkpure.com##.share-fixed
 arcanecode.com##.widget_eu_cookie_law_widget.widget
 archive.org##footer
-askubuntu.com###divQuestionFollowFeaturePopover
-askubuntu.com###js-gdpr-consent-banner
-askubuntu.com##.js-consent-banner
-askubuntu.com##.js-freemium-cta
+askubuntu.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
 astrid.tech###__next > div[style="width: 100vw; position: fixed; bottom: 0px; background-color: white; padding-top: 20px; padding-bottom: 20px;"]
 auth0.com###popup
 auth0.com###selectionSharerPopover
@@ -224,6 +218,7 @@ heimdalsecurity.com##div.shortcode.blog-action
 help.aliyun.com##div[class*="FeedBack--feedBackContainer--"]
 help.aliyun.com##div[class*="FooterBanner--bannerContainer--"]
 help.aliyun.com##div[class^="StickTopLayout--docFeedback--"]
+help.vivaldi.com###getvivaldi
 helpx.adobe.com###helpful-pod
 ironsoftware.com##.fixed-support-bar
 itextpdf.com##.eu-cookie-compliance-banner
@@ -254,10 +249,7 @@ map.baidu.com##.poiLeadDownloadCard
 marketplace.visualstudio.com###survey-container
 material.angular.io##app-cookie-popup
 material.io##mio-cookie-notice,mio-communication-banner
-mathoverflow.net###divQuestionFollowFeaturePopover
-mathoverflow.net###js-gdpr-consent-banner
-mathoverflow.net##.js-consent-banner
-mathoverflow.net##.js-freemium-cta
+mathoverflow.net##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
 medium.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 microsoft.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 minecraft.gamepedia.com##div[class^="app_gdpr"]
@@ -289,6 +281,7 @@ pan.baidu.com##.phone-banner
 pastebin.com##.-cookies.popup-box
 pastebin.com##.-pro.popup-box
 pipenv.pypa.io##body:style(font-family: initial !important)
+platform.uno###cookie-law-info-bar
 plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
 proandroiddev.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
@@ -308,11 +301,7 @@ rustdesk.com##.cookie-consent
 search.brave.com###search-elsewhere
 searchfox.org###context-menu
 segmentfault.com##.float-ads
-serverfault.com###divQuestionFollowFeaturePopover
-serverfault.com###divQuestionFollowFeaturePopover
-serverfault.com###js-gdpr-consent-banner
-serverfault.com##.js-consent-banner
-serverfault.com##.js-freemium-cta
+serverfault.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
 share.weiyun.com##.layout-sider-bar
 shenzhen.chinatax.gov.cn###fb
 shenzhen.chinatax.gov.cn##.content_share
@@ -328,40 +317,20 @@ sourceforge.net###project-nel
 stackabuse.com##.sidebar
 stackabuse.com##.text-center.newsletter
 stackabuse.com##.widget-sticky
-stackapps.com###divQuestionFollowFeaturePopover
-stackapps.com###js-gdpr-consent-banner
-stackapps.com##.js-consent-banner
-stackapps.com##.js-freemium-cta
+stackapps.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
 stackblitz.com###sponsad-wrapper
 stackblitz.com##a[class^="index-module__EmphasizedLinks"]
-stackexchange.com###divQuestionFollowFeaturePopover
-stackexchange.com###js-gdpr-consent-banner
-stackexchange.com##.js-consent-banner
-stackexchange.com##.js-freemium-cta
+stackexchange.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
 stackexchange.com##section#content > div.contentWrapper > div.hero-box
 stackify.com##.cta-contain
-stackoverflow.com###announcement-banner
-stackoverflow.com###divQuestionFollowFeaturePopover
-stackoverflow.com###js-gdpr-consent-banner
-stackoverflow.com###left-sidebar > .js-sticky-leftnav.left-sidebar--sticky-container > nav > .nav-links > li:nth-of-type(3)
 stackoverflow.com###trending-sort-info, #trending-sort-info + #launch-popover
-stackoverflow.com##.js-announcement-sidebar.js-announcement-banner
-stackoverflow.com##.js-consent-banner
-stackoverflow.com##.js-dismissable-hero.z-nav
-stackoverflow.com##.js-freemium-cta
-stackoverflow.com##.js-notice-sidebar-popover
-stackoverflow.com##.js-sidebar-zone
-stackoverflow.com##.js-stacks-managed-popup.js-toast
+stackoverflow.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
 startpage.com##.home__section-one__search-container.home__section-one__search-container__show-subtitle > .subtitle
 staxmanade.com##.jj-signup-form
-stremiomovies.com##a[href="/premium"]
 substack.com##.post-end-cta-full
 substack.com##.subscribe-footer
 substack.com##.subscribe-widget
-superuser.com###divQuestionFollowFeaturePopover
-superuser.com###js-gdpr-consent-banner
-superuser.com##.js-consent-banner
-superuser.com##.js-freemium-cta
+superuser.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
 support.microsoft.com###supWrapperToPreventFeedbackFlickering,.ocArticleFooterShareContainer,.ocArticleFooterFeedPickerContainer,.ocArticleFooterSection,#rail-column
 support.mozilla.org###announcements
 support.mozilla.org###id_scam_alert
@@ -383,7 +352,7 @@ ubuntu.com##.cookie-policy
 users.rust-lang.org##.alert-info.alert.signup-cta,.quote-button
 visualstudio.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 visualstudio.microsoft.com###usabilla-button
-vivaldi.com###social-share
+vivaldi.com###aq
 wapbaike.baidu.com###J-spark-icon
 wapbaike.baidu.com###J-tashuo-button-fixed
 wapbaike.baidu.com##a[onclick^="page.Mixedor.mixedOpen"]
@@ -962,8 +931,11 @@ zhidao.baidu.com##.task-list-button
 ||disqus.com/count.js
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
 ||dns-clientinfo.cbsivideo.com/clientinfo
+||docs.aiohttp.org/_/api/v2/analytics/
 ||docs.pytest.org/_/api/v2/analytics/
 ||docs.pytest.org/_/static/javascript/readthedocs-analytics.js
+||docs.scrapy.org/_/api/v2/analytics/
+||docs.scrapy.org/_/static/javascript/readthedocs-analytics.js
 ||docs.vmware.com/c5W9T/w/DS/GPaN/g_QzsEQA/YkaGpccp/WWdFNA/Dw8/UYzEKbyU
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
@@ -976,7 +948,7 @@ zhidao.baidu.com##.task-list-button
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
 ||embed.runkit.com/$domain=lodash.com
 ||embed.tawk.to$domain=www.partitionwizard.com|www.briskinfosec.com
-||embed.typeform.com/embed.js$domain=vivaldi.com|fontawesome.com|fandom.com
+||embed.typeform.com/embed.js$domain=fontawesome.com|fandom.com
 ||entitlement.auth.adobe.com/entitlement/v4/AccessEnabler.js$domain=history.com
 ||entry.baidu.com/rp/wordner$domain=zhidao.baidu.com
 ||epnclick.ru/$domain=forum.ru-board.com
@@ -995,6 +967,7 @@ zhidao.baidu.com##.task-list-button
 ||file1.sixthtone.com/js/newsletter.js$domain=www.sixthtone.com
 ||fls-eu.amazon.com/1/aiv-web-player/1/OE$domain=www.primevideo.com
 ||forms.convertkit.com
+||forum.vivaldi.net/assets/templates/partials/topic/selection-tooltip.js
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
 ||freyr.futurecdn.net/freyr.js$domain=www.livescience.com
 ||fxgate.baidu.com/angelia/fcagl.js
@@ -1078,7 +1051,6 @@ zhidao.baidu.com##.task-list-button
 ||js.driftt.com/include/*/*.js$third-party
 ||js.hs-scripts.com$third-party
 ||js.hsforms.net$third-party
-||js.hsleadflows.net/leadflows.js$domain=stackoverflow.blog
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
 ||js.lhzfood.com/baidu/dixpc.js
@@ -1394,7 +1366,6 @@ zhidao.baidu.com##.task-list-button
 ||uhf.microsoft.com/*/shell/api/mscc
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||uid.mavencoalition.io/v3$domain=www.history.com,important
-||update.vivaldi.com/stats/rep
 ||us-central1-signal-data-science.cloudfunctions.net/ping$domain=signal.org
 ||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
 ||user-analysis.7moor.com/js/uba.min.js$domain=oray.com
@@ -1407,7 +1378,8 @@ zhidao.baidu.com##.task-list-button
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/adobe-target/
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/usabilla-feed-back.js
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/vscom-usabilla-a11y.js
-||vivaldi.com/rep/rep
+||vivaldi.com/rep/rep.js
+||vivaldi.net/rep/rep.js
 ||vlscppe.microsoft.com/tags
 ||vortex.data.microsoft.com/collect
 ||wapbaike.baidu.com/api/wapui/getbaiketurboqmrs
@@ -1571,9 +1543,6 @@ zhidao.baidu.com##.task-list-button
 ||www.textin.com/js/zhugeIO.js
 ||www.theregister.com/design_picker/*/javascript/ads.js
 ||www.ttshitu.com/js/baidu.js
-||www.vg247.com/wp-content/themes/vg247/scripts/CookieGDPR.js
-||www.vivibb.com/index.php/ajax/hits
-||www.vivibb.com/statics/api/js/share.js
 ||www.vmware.com$script
 ||www.vmware.com/akam/
 ||www.vmware.com/content/dam/vmwaredesigns/geoip/configs/country-mapping.json
@@ -1588,7 +1557,6 @@ zhidao.baidu.com##.task-list-button
 ||www.wpf-tutorial.com/Content/Local/1.css
 ||www.wpf-tutorial.com/Content/Local/1.js
 ||www.wpf-tutorial.com/Ping
-||www.xda-developers.com/adsninja_package/
 ||www.xfinity.com$script
 ||www.zhihu.com/sc-profiler
 ||x.cospace.app/m/services_v0.js$domain=www.nextiva.com
