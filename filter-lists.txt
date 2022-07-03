@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, July 1, 2022
+! Last modified: Sunday, July 3, 2022
 ! Title: Custom Filter Lists
-! Version: 20220701
+! Version: 20220703
 !
 !
 !
@@ -1350,6 +1350,8 @@ zhidao.baidu.com##.task-list-button
 ||tkx.apis.anvato.net/rest/v2/mcp/video/$domain=www.fox5ny.com
 ||tkx.apis.anvato.net/rest/v2/now/$domain=www.fox5ny.com
 ||tongji.flash.cn/hm*.gif
+||tox.wiki/_/api/v2/analytics/
+||tox.wiki/_/static/javascript/readthedocs-analytics.js
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
 ||tracking.epicgames.com
