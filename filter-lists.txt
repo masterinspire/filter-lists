@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, July 3, 2022
+! Last modified: Monday, July 4, 2022
 ! Title: Custom Filter Lists
-! Version: 20220703
+! Version: 20220704
 !
 !
 !
@@ -201,6 +201,7 @@ freecommander.com###cookie-notice
 get.foundation###subpage-intro-video
 get.videolan.org###uecookies
 gist.github.com##.gist-banner.gist-detail-intro
+gitee.com##.side-toolbar
 github.community##.quote-button
 gitlab.com##.broadcast-notification-message.broadcast-message
 gitlab.com##.gl-banner.js-autodevops-banner
@@ -340,6 +341,7 @@ techcommunity.microsoft.com##.custom-share-component
 techxposer.com###icon_wrapper
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
+thehustle.co##.a2a_kit
 thenewstack.io##.newsletter-sign-up-block
 thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###selectsearch-icon
@@ -763,6 +765,7 @@ zhidao.baidu.com##.task-list-button
 ||assets.adobedtm.com/launch-*.min.js$important
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
+||assets.gitee.com/assets/static/sentry-*.js
 ||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com|www.fourth-wall.co.uk
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 ||atv-ps-eu.primevideo.com/cdp/usage/GetWeblabTreatment$domain=www.primevideo.com
@@ -897,6 +900,9 @@ zhidao.baidu.com##.task-list-button
 ||contributions.guardianapis.com/header
 ||cordova.apache.org/static/js/twitter.js
 ||creativecloud.adobe.com/browser_mon.js
+||cryptofireside.com/_/batch
+||cryptofireside.com/_/graphql
+||cryptofireside.com/_/oh-noes
 ||csdnimg.cn/release/app-blog/sharewx-*.js
 ||cse.google.com/cse.js$third-party,important
 ||csp.yandex.net/csp$domain=yandex.com
@@ -992,6 +998,8 @@ zhidao.baidu.com##.task-list-button
 ||getaninsight.com$domain=entityframeworktutorial.net|tutorialsteacher.com
 ||gfgapi.geeksforgeeks.org/api/fetchpostad/
 ||gitbook-*.firebaseio.com/.lp$domain=docs.avaloniaui.net|everything.curl.dev
+||gitee.com/feature_notifications
+||gitee.com/oschina/git-osc/access/add_access_log
 ||github.com/orgs/*/survey_banner
 ||gitter.im/api/private/statsc
 ||glitter.services.disqus.com/urls/?callback=dsqGlitterResponseHandler
@@ -1056,6 +1064,7 @@ zhidao.baidu.com##.task-list-button
 ||js.lhzfood.com/baidu/dixpc.js
 ||js.monitor.azure.com$third-party,important
 ||js.stripe.com$third-party,important
+||js.tapd.cn/js_dist/aegis.min.*.js
 ||js.users.51.la/$domain=www.88dyw.com
 ||kb.vmware.com$script
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=1
@@ -1064,6 +1073,7 @@ zhidao.baidu.com##.task-list-button
 ||kunpeng.csdn.net/ad/
 ||l.ctrl.blog/visit
 ||launcher.spot.im/$domain=www.merriam-webster.com
+||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js$domain=oschina.net
 ||lifehacker.com/api/veritas/b
 ||lifehacker.com/api/veritas/info
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
@@ -1288,7 +1298,7 @@ zhidao.baidu.com##.task-list-button
 ||star.tag.webdev.com/api/page
 ||starget.mathworks.com/rest/v1/delivery
 ||static-cf.cleverbridge.com/mycontent/1/cleverAnalytics.js
-||static.addtoany.com$domain=www.historytoday.com|opencv.org|navicat.com
+||static.addtoany.com$domain=www.historytoday.com|opencv.org|navicat.com|thehustle.co
 ||static.adzerk.net/ados.js$third-party
 ||static.bshare.cn/b/button*
 ||static.cdn.adultswim.com/tools/global/user-consent-*.min.js
@@ -1345,6 +1355,9 @@ zhidao.baidu.com##.task-list-button
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
 ||techxposer.com/wp-content/plugins/jetpack/modules/widgets/social-icons/
+||thehustle.co/wp-content/cache/min/1/wp-content/plugins/sailthru-widget/js/widget.subscribe.js
+||thehustle.co/wp-content/cache/min/1/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/js/cookie-law-info-public.js
+||thehustle.co/wp-content/plugins/add-to-any/addtoany.min.js
 ||thenewstack.io/wp-content/themes/thenewstack/js/cookie-pro/oneTrust_production/
 ||tieba.baidu.com/official/click/viewTrue
 ||tkx.apis.anvato.net/rest/v2/mcp/video/$domain=www.fox5ny.com
@@ -1377,6 +1390,7 @@ zhidao.baidu.com##.task-list-button
 ||v20200617-gap.freecodecamp.org/$domain=www.freecodecamp.org,important
 ||va.tawk.to/register/$domain=www.sswug.org
 ||va.v.liveperson.net/api/js$third-party
+||visit.oschina.net/count.js
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/adobe-target/
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/usabilla-feed-back.js
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/vscom-usabilla-a11y.js
@@ -1508,7 +1522,6 @@ zhidao.baidu.com##.task-list-button
 ||www.nokia.com/phones/*/external/cookie_consent
 ||www.nytimes.com/svc/int/functions/geoip
 ||www.oracle.com/assets/truste-oraclelib.js$domain=mysql.com
-||www.oschina.net/action/trace/record
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/*_GoogleTagManager/
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_Gdpr/
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_GeoIP/
