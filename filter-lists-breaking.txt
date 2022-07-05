@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, June 8, 2022
+! Last modified: Tuesday, July 5, 2022
 ! Title: Custom Filter Lists Breaking
-! Version: 20220608
+! Version: 20220705
 !
 !
 !
@@ -21,7 +21,6 @@ github.com##.HeaderMenu.HeaderMenu--logged-out > nav
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
 ||raw.githubusercontent.com/mui/material-ui/master/docs/notifications.json$domain=mui.com
-||res.wx.qq.com/open/js/jweixin-*.js
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design
 ||www.google.com$domain=bugs.python.org
@@ -35,6 +34,7 @@ github.com##.HeaderMenu.HeaderMenu--logged-out > nav
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js
 ||www.youtube-nocookie.com/embed/*$third-party
 ||www.youtube.com/player_api$third-party
+||www.youtube.com/subscribe_embed$third-party
 ||youtube.com/embed/$third-party
 ||youtube.com/iframe_api$third-party,important
 ||z2c2b4z9.stackpathcdn.com/images/logo256X256.png$domain=entityframeworkcore.com|entityframework.net

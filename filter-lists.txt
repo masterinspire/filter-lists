@@ -1,12 +1,15 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, July 4, 2022
+! Last modified: Tuesday, July 5, 2022
 ! Title: Custom Filter Lists
-! Version: 20220704
+! Version: 20220705
 !
 !
 !
+/_/api/v2/analytics/
+/_/static/javascript/readthedocs-analytics.js
+/inc/timming.php
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
 @@||kb.vmware.com/resource/$script
 @@||kb.vmware.com/s/sfsites/$script
@@ -91,6 +94,7 @@ cloud.tencent.com##.document-feedback-container
 cloud.tencent.com##.rno-documents-tools.rno-scrollbar-tools
 cloud.tencent.com##.select-feedback-tip
 club.ubisoft.com###footer_tc_privacy
+cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt
 cn.bing.com###b_mtp,#qs_searchBoxOuter,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
@@ -193,6 +197,7 @@ exceljet.net##.sendy-function-pdf
 fandom.com###WikiaBar,#highlight__main-container,.notifications-placeholder
 firebase.google.com##devsite-feedback
 firebase.google.com##devsite-thumb-rating
+flask.palletsprojects.com##.version-warning
 flutter.dev##.show.cookie-snack
 forum.f-droid.org##.quote-button,.signup-cta
 forum.gitlab.com##.quote-button
@@ -278,6 +283,7 @@ osdn.net###cookie-bar
 packagecloud.io###cookie-popover
 packagecloud.io##.logged-out-links
 pagecdn.com##.cookie-bar
+palletsprojects.com##body:style(font-family: initial !important)
 pan.baidu.com##.phone-banner
 pastebin.com##.-cookies.popup-box
 pastebin.com##.-pro.popup-box
@@ -873,6 +879,7 @@ zhidao.baidu.com##.task-list-button
 ||cmpv2.computerworld.com/wrapperMessagingWithoutDetection.js
 ||cmpv2.infoworld.com/wrapperMessagingWithoutDetection.js
 ||cn.bing.com/english/zochatv2
+||cn.bing.com/orgid/idtoken/conditional
 ||cn.bing.com/rewardsapp/reportActivity
 ||cn.bing.com/s/ac/*/MsnJVData/HoverTranslationV2.css
 ||cn.bing.com/s/as/*/MsnJVData/HoverTranslation.js
@@ -937,11 +944,6 @@ zhidao.baidu.com##.task-list-button
 ||disqus.com/count.js
 ||dlswbr.baidu.com/heicha/mw/abclite-2020-s.js
 ||dns-clientinfo.cbsivideo.com/clientinfo
-||docs.aiohttp.org/_/api/v2/analytics/
-||docs.pytest.org/_/api/v2/analytics/
-||docs.pytest.org/_/static/javascript/readthedocs-analytics.js
-||docs.scrapy.org/_/api/v2/analytics/
-||docs.scrapy.org/_/static/javascript/readthedocs-analytics.js
 ||docs.vmware.com/c5W9T/w/DS/GPaN/g_QzsEQA/YkaGpccp/WWdFNA/Dw8/UYzEKbyU
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
@@ -1190,9 +1192,6 @@ zhidao.baidu.com##.task-list-button
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
 ||push-content.springernature.io/*/production_live/consent-bundle-*.js$domain=www.nature.com
-||pyinstaller.org/_/api/v2/analytics/
-||pypa.io/_/api/v2/analytics/
-||pypa.io/_/static/javascript/readthedocs-analytics.js
 ||python.plainenglish.io/_/batch
 ||python.plainenglish.io/_/graphql
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
@@ -1206,8 +1205,6 @@ zhidao.baidu.com##.task-list-button
 ||qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js$domain=wk.baidu.com
 ||r.stripe.com/0
 ||rating-widget.com/js/api/rating/get.php
-||readthedocs.io/_/api/v2/analytics/
-||readthedocs.io/_/static/javascript/readthedocs-analytics.js
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/jquery-for-marketo-opt-in.js
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/marketo-opt-in-2.js
 ||referrer.disqus.com/juggler/event
@@ -1215,6 +1212,7 @@ zhidao.baidu.com##.task-list-button
 ||reload.getsentry.net/page/
 ||render.githubusercontent.com/stats
 ||report.huatuo.qq.com/report.cgi
+||res.wx.qq.com/open/js/jweixin-*.js
 ||resources.jetbrains.com/storage/help-app/v3/analytics.js
 ||retail.googleapis.com/v2/projects/gannett-recommendations/locations/global/catalogs/default_catalog/userEvents:collect
 ||retcode.alicdn.com/retcode/bl.js
@@ -1363,8 +1361,6 @@ zhidao.baidu.com##.task-list-button
 ||tkx.apis.anvato.net/rest/v2/mcp/video/$domain=www.fox5ny.com
 ||tkx.apis.anvato.net/rest/v2/now/$domain=www.fox5ny.com
 ||tongji.flash.cn/hm*.gif
-||tox.wiki/_/api/v2/analytics/
-||tox.wiki/_/static/javascript/readthedocs-analytics.js
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
 ||tracking.epicgames.com
@@ -1465,6 +1461,8 @@ zhidao.baidu.com##.task-list-button
 ||www.cnet.com/ext/cohesion/cdn/cohesion/cohesion-latest.min.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
+||www.computerenhance.com/api/v1/experiment_exposure
+||www.computerenhance.com/api/v1/firehose
 ||www.dell.com$script
 ||www.dell.com/TLTarget.aspx
 ||www.dell.com/csbapi/masthead/oocmessage/us/en
