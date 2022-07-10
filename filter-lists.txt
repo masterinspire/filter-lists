@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, July 5, 2022
+! Last modified: Sunday, July 10, 2022
 ! Title: Custom Filter Lists
-! Version: 20220705
+! Version: 20220710
 !
 !
 !
@@ -201,6 +201,7 @@ flask.palletsprojects.com##.version-warning
 flutter.dev##.show.cookie-snack
 forum.f-droid.org##.quote-button,.signup-cta
 forum.gitlab.com##.quote-button
+forums.powershell.org##.ember-view.quote-button
 frame.io##div[class*="ConsentBanner___"]
 freecommander.com###cookie-notice
 get.foundation###subpage-intro-video
@@ -690,6 +691,7 @@ www.yuque.com##div[class*="index-module_qrCodeWrapper_"]
 www.zdnet.com##.large.video.shortcode
 www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
+www3.nhk.or.jp###nw_gdpr_view_id
 xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamsterlive.com##.join-me-button
 xhopen.com##.wio-dsp-a.wio-dsp-b,.wio-d.bottom-widget-section,.cookie-announce,.xplayer-banner
@@ -1374,6 +1376,7 @@ zhidao.baidu.com##.task-list-button
 ||tyrz.gd.gov.cn/pscp/sso/connect/page/logmanager/report
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
 ||ubistatic2-a.akamaihd.net/worldwide_analytics$important
+||ug.baidu.com/mcp/pc/pcsearch
 ||uhf.microsoft.com/*/shell/api/mscc
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||uid.mavencoalition.io/v3$domain=www.history.com,important
@@ -1513,11 +1516,13 @@ zhidao.baidu.com##.task-list-button
 ||www.mathworks.com/includes_content/domainSelect/akamai-country-code.js
 ||www.mathworks.com/matlabcentral/profile/api/v1/active/ping
 ||www.merriam-webster.com/lapi/v1/mwol-search/stats/lookup
+||www.met.police.uk/Layout/AnalyticsJson
 ||www.microsofttranslator.com/$third-party
 ||www.mozilla.org/country-code.json
 ||www.newstatesman.com/wp-content/plugins/nsmg-evolok-paywall/
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
+||www.nslookup.io/plev
 ||www.nytimes.com/svc/int/functions/geoip
 ||www.oracle.com/assets/truste-oraclelib.js$domain=mysql.com
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/*_GoogleTagManager/
