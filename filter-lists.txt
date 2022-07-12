@@ -1,14 +1,17 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, July 10, 2022
+! Last modified: Tuesday, July 12, 2022
 ! Title: Custom Filter Lists
-! Version: 20220710
+! Version: 20220712
 !
 !
 !
+##.back-to-top
+##.quote-button
 /_/api/v2/analytics/
 /_/static/javascript/readthedocs-analytics.js
+/api/v2/sustainability/data/
 /inc/timming.php
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
 @@||kb.vmware.com/resource/$script
@@ -99,9 +102,7 @@ cn.bing.com###b_mtp,#qs_searchBoxOuter,#b_context,#footer,#bnp_hfly,#ev_talkbox_
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
-community.brave.com##.quote-button
 community.ccleaner.com###elGuestTerms
-community.cloudflare.com##.quote-button
 community.notepad-plus-plus.org##.selection-tooltip-container
 community.spiceworks.com###zdprivacy-content
 config.office.com##.unAuthPrivacyFooter,#btnFeedback
@@ -155,9 +156,6 @@ developers.google.com##devsite-tracking-question
 developers.google.com##devsite-youtube
 digitalrightswatch.org.au###cookie-notice
 ding-doc.dingtalk.com##.styles-float
-discourse.mozilla.org##.quote-button
-discuss.kotlinlang.org##.quote-button
-discuss.kotlinlang.org##.signup-cta
 dnschecker.org###cookie-box
 doc.qt.io###cookie-confirm
 docs.gradle.org###newsletter-form-container
@@ -199,16 +197,12 @@ firebase.google.com##devsite-feedback
 firebase.google.com##devsite-thumb-rating
 flask.palletsprojects.com##.version-warning
 flutter.dev##.show.cookie-snack
-forum.f-droid.org##.quote-button,.signup-cta
-forum.gitlab.com##.quote-button
-forums.powershell.org##.ember-view.quote-button
 frame.io##div[class*="ConsentBanner___"]
 freecommander.com###cookie-notice
 get.foundation###subpage-intro-video
 get.videolan.org###uecookies
 gist.github.com##.gist-banner.gist-detail-intro
 gitee.com##.side-toolbar
-github.community##.quote-button
 gitlab.com##.broadcast-notification-message.broadcast-message
 gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.js-minute-limit-banner
@@ -294,12 +288,8 @@ plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
 proandroiddev.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 prodesigntools.com###wpfront-notification-bar-spacer
-pypa.io##.back-to-top
 pypi.org##div[data-html-include="/_includes/notification-banners/"]
 python.plainenglish.io##div[style*="position: absolute; inset: auto auto 0px 0px;"]
-read.douban.com###desktop-app-ad
-read.douban.com##.btns-tip.tooltip
-readthedocs.io##.keep-us-sustainable
 reolink.com##.explorer-n-privacy
 riptutorial.com###stats-share
 riptutorial.com##.container-download-pdf-section
@@ -311,9 +301,6 @@ searchfox.org###context-menu
 segmentfault.com##.float-ads
 serverfault.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
 share.weiyun.com##.layout-sider-bar
-shenzhen.chinatax.gov.cn###fb
-shenzhen.chinatax.gov.cn##.content_share
-shenzhen.chinatax.gov.cn##.easybtn
 social.msdn.microsoft.com###rssFeed
 software.intel.com###page > .l-footer-second
 software.intel.com###survey_container
@@ -358,7 +345,6 @@ time.is###important_info
 tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm,#CoverB,#QRCode
 ubuntu.com##.cookie-policy
-users.rust-lang.org##.alert-info.alert.signup-cta,.quote-button
 visualstudio.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 visualstudio.microsoft.com###usabilla-button
 vivaldi.com###aq
@@ -424,8 +410,6 @@ www.bbc.com##.lx-stream-post__footer > .lx-stream-post__footer-share
 www.bing.com###ads_banner,.adsblock,#b_footer
 www.c-sharpcorner.com##.cotent-share-icon
 www.ccleaner.com###GTM__link--CCBR-browser-ad
-www.chinatax.gov.cn##.fixed-right-box
-www.chinatax.gov.cn##.paiochuang
 www.cloudamqp.com##.dark-bg.signup
 www.cmdy555.com##div.index-area:nth-of-type(4),div.index-area:nth-of-type(5)
 www.cnbc.com##.HighlightShare-container
@@ -1081,7 +1065,7 @@ zhidao.baidu.com##.task-list-button
 ||lifehacker.com/api/veritas/b
 ||lifehacker.com/api/veritas/info
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
-||localhost$domain=plugins.jetbrains.com|chinatax.gov.cn
+||localhost$third-party
 ||localhost.ptlogin2.qq.com:*/pt_get_uins$domain=xui.ptlogin2.qq.com
 ||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
@@ -1253,7 +1237,6 @@ zhidao.baidu.com##.task-list-button
 ||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
 ||services.fandom.com/event-logger/debug
 ||sharethis.com$third-party
-||shenzhen.chinatax.gov.cn/static/api/js/share
 ||signup.azure.com/api/clientlog
 ||silkroad.csdn.net/api/v2/assemble/list/channel/pc_hot_word
 ||silkroad.csdn.net/api/v2/assemble/list/channel/search_hot_word
@@ -1326,7 +1309,6 @@ zhidao.baidu.com##.task-list-button
 ||subs.youmaker.com/lib/userId.bundle.js$domain=www.theepochtimes.com
 ||subscribe.washingtonpost.com/offers/service/get-mapped-adot-offer/hd_sub_promo
 ||sug.so.360.cn/suggest
-||sugar.zhihu.com/plutus_adreaper$domain=www.zhihu.com
 ||support.brave.com/hc/activity
 ||support.discord.com/api/v2/help_center/community/posts/*/stats/view.json
 ||support.discord.com/hc/activity
@@ -1380,6 +1362,8 @@ zhidao.baidu.com##.task-list-button
 ||uhf.microsoft.com/*/shell/api/mscc
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||uid.mavencoalition.io/v3$domain=www.history.com,important
+||unpkg.zhimg.com/@cfe/sentry-script@*/dist/init.js
+||unpkg.zhimg.com/za-js-sdk@*/dist/zap.js
 ||us-central1-signal-data-science.cloudfunctions.net/ping$domain=signal.org
 ||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
 ||user-analysis.7moor.com/js/uba.min.js$domain=oray.com
@@ -1472,7 +1456,6 @@ zhidao.baidu.com##.task-list-button
 ||www.dell.com/koa/vocaas/en/js/microsurvey
 ||www.dell.com/support/components/detectproduct/sadetectfailure
 ||www.diogonunes.com/blog/wp-content/plugins/cookie-law-info
-||www.douban.com/stat.html
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
 ||www.educba.com/wmj_jx/pr-currency.php
