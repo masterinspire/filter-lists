@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, July 12, 2022
+! Last modified: Wednesday, July 13, 2022
 ! Title: Custom Filter Lists
-! Version: 20220712
+! Version: 20220713
 !
 !
 !
@@ -102,7 +102,9 @@ cn.bing.com###b_mtp,#qs_searchBoxOuter,#b_context,#footer,#bnp_hfly,#ev_talkbox_
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
+community.brave.com##.alert-info.alert.signup-cta
 community.ccleaner.com###elGuestTerms
+community.chocolatey.org###callout-package-warning
 community.notepad-plus-plus.org##.selection-tooltip-container
 community.spiceworks.com###zdprivacy-content
 config.office.com##.unAuthPrivacyFooter,#btnFeedback
@@ -221,6 +223,7 @@ help.aliyun.com##div[class*="FooterBanner--bannerContainer--"]
 help.aliyun.com##div[class^="StickTopLayout--docFeedback--"]
 help.vivaldi.com###getvivaldi
 helpx.adobe.com###helpful-pod
+ipinfo.io###overlay.show.fade.ipinfo-modal
 ironsoftware.com##.fixed-support-bar
 itextpdf.com##.eu-cookie-compliance-banner
 jingyan.baidu.com###fresh-share-exp-e
@@ -274,6 +277,7 @@ opencv.org##.homepage-email-icon
 opensource.google##devsite-thumb-rating
 openvpn.net###usercentrics-root
 openvpn.net##body:style(overflow: unset !important;)
+openwrt.org##.cookielaw-banner
 osdn.net###cookie-bar
 packagecloud.io###cookie-popover
 packagecloud.io##.logged-out-links
@@ -1474,6 +1478,7 @@ zhidao.baidu.com##.task-list-button
 ||www.fox5ny.com/api/layouts/alert/heartbeat$domain=www.fox5ny.com
 ||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg.min.js
 ||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg_ads.min.js
+||www.getapp.com/ext/reviews_widget/v1/dark/ipinfo-application$domain=ipinfo.io
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
 ||www.gitbook.com/__amp/$domain=docs.avaloniaui.net
 ||www.google.com.hk/complete/search$important
