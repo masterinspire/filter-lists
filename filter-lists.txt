@@ -586,7 +586,7 @@ www.samsung.com##.cookie-bar--type-manage.cookie-bar,.static-content
 www.sciencenewsforstudents.org##[class^="newsletter-signup__wrapper___"]
 www.sitepoint.com##.roller-door-placeholder
 www.sixthtone.com##.ff_newsletterWrap,.newsletter_detail_inset_wrap,.sharing-news.sharing
-www.sqlitetutorial.net##.ad
+www.sqlitetutorial.net###back-to-top,.helpful-block-content,.ad
 www.sqlshack.com###cookiesWarning
 www.ssh.com##[class^="sidenav__SidenavPromoContainer"]
 www.sysgeek.cn##.action-share
@@ -692,7 +692,9 @@ zhidao.baidu.com##.jump-top-box
 zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
-||*.xyz$domain=www.88dyw.com
+||*.club$domain=88dyw.com|88ysw.com,frame
+||*.shop$domain=88dyw.com|88ysw.com,frame
+||*.xyz$domain=88dyw.com|88ysw.com
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.apkpure.com/api-shares.json$domain=apkpure.com
@@ -788,6 +790,7 @@ zhidao.baidu.com##.task-list-button
 ||bdimg.share.baidu.com/static/api/js/share.js
 ||bdimg.share.baidu.com/static/js/shell_v2.js
 ||beacon-v2.helpscout.net/$domain=fontawesome.com|ipinfo.io|www.gitbook.com
+||bearblog.dev/hit/
 ||bing.com/AS/Suggestions
 ||bing.com/afdo/simg/perftest/
 ||bing.com/ipv6test/test
@@ -1368,6 +1371,7 @@ zhidao.baidu.com##.task-list-button
 ||uid.mavencoalition.io/v3$domain=www.history.com,important
 ||unpkg.zhimg.com/@cfe/sentry-script@*/dist/init.js
 ||unpkg.zhimg.com/za-js-sdk@*/dist/zap.js
+||unsplash.com/nabc
 ||us-central1-signal-data-science.cloudfunctions.net/ping$domain=signal.org
 ||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
 ||user-analysis.7moor.com/js/uba.min.js$domain=oray.com
@@ -1412,6 +1416,7 @@ zhidao.baidu.com##.task-list-button
 ||work.weixin.qq.com/wework_admin/report
 ||work.weixin.qq.com/wwopen/common/kvReport
 ||wp.qiye.qq.com/qidian/$domain=tapd.cn
+||wpa.b.qq.com/cgi/wpa.php$domain=www.wnwb.com
 ||www.88dyw.com/js/ads/
 ||www.88dyw.com/static/api/js/share.js
 ||www.88ysw.com/js/ads/
