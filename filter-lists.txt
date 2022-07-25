@@ -1,12 +1,13 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, July 21, 2022
+! Last modified: Monday, July 25, 2022
 ! Title: Custom Filter Lists
-! Version: 20220721
+! Version: 20220725
 !
 !
 !
+##.alert-info.alert.signup-cta
 ##.back-to-top
 ##.quote-button
 /_/api/v2/analytics/
@@ -102,7 +103,6 @@ cn.bing.com###b_mtp,#qs_searchBoxOuter,#b_context,#footer,#bnp_hfly,#ev_talkbox_
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
-community.brave.com##.alert-info.alert.signup-cta
 community.ccleaner.com###elGuestTerms
 community.chocolatey.org###callout-package-warning
 community.notepad-plus-plus.org##.selection-tooltip-container
@@ -180,6 +180,7 @@ earth.google.com##earth-experimental-toolbar
 edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
 embed.plnkr.co##.plunker-ad-wrap
+en.greatfire.org###youtube
 engineering.fb.com###GDPRConsentBar
 entityframework.net###modal-with-graph
 entityframework.net##.container-fluid.page-header-calltoaction
@@ -201,6 +202,7 @@ flask.palletsprojects.com##.version-warning
 flutter.dev##.show.cookie-snack
 frame.io##div[class*="ConsentBanner___"]
 freecommander.com###cookie-notice
+freewechat.com##.freebrowser-ad
 get.foundation###subpage-intro-video
 get.videolan.org###uecookies
 gist.github.com##.gist-banner.gist-detail-intro
