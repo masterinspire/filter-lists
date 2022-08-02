@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, July 25, 2022
+! Last modified: Tuesday, August 2, 2022
 ! Title: Custom Filter Lists
-! Version: 20220725
+! Version: 20220802
 !
 !
 !
@@ -68,6 +68,7 @@ blog.karumi.com##.socialsidebar
 blog.logrocket.com##.news-pop-outer-wrap.news-pop
 blog.magnusmontin.net###eu-cookie-law
 blog.sentry.io##.tracking-banner.banner
+bluecatnetworks.com##.v-notice-banner-xl.v-mdu-notice.v-mdu
 boxnovel.baidu.com###afd
 boxnovel.baidu.com##.ChapterContent:style(max-height: inherit !important; overflow: inherit !important;)
 boxnovel.baidu.com##.Operate
@@ -223,6 +224,7 @@ heimdalsecurity.com##div.shortcode.blog-action
 help.aliyun.com##div[class*="FeedBack--feedBackContainer--"]
 help.aliyun.com##div[class*="FooterBanner--bannerContainer--"]
 help.aliyun.com##div[class^="StickTopLayout--docFeedback--"]
+help.nextdns.io##.btn-quote
 help.vivaldi.com###getvivaldi
 helpx.adobe.com###helpful-pod
 ipinfo.io###overlay.show.fade.ipinfo-modal
@@ -703,6 +705,7 @@ zhidao.baidu.com##.task-list-button
 ||a.apkpure.com/api-shares.json$domain=apkpure.com
 ||a.clipconverter.cc/www/d/fr.php
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
+||abtestvm.bytedance.com/service/2/abtest_config/$domain=jinritemai.com|bytedance.com
 ||access-prod.apis.anvato.net/anvacks/$domain=www.fox5ny.com
 ||account.jetbrains.com/services/consentOptions
 ||activate.platform.californiatimes.com/caltimes/latimes/serverComponent.php
@@ -769,6 +772,7 @@ zhidao.baidu.com##.task-list-button
 ||assets.gitee.com/assets/static/sentry-*.js
 ||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com|www.fourth-wall.co.uk
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
+||athena-api.oceanengine.com/athena/survey/platform/action/report/$domain=jinritemai.com|bytedance.com
 ||atv-ps-eu.primevideo.com/cdp/usage/GetWeblabTreatment$domain=www.primevideo.com
 ||atv-ps-eu.primevideo.com/cdp/usage/ReportEvent$domain=www.primevideo.com
 ||auth.services.adobe.com/signin/v1/audit
@@ -1072,6 +1076,16 @@ zhidao.baidu.com##.task-list-button
 ||l.ctrl.blog/visit
 ||launcher.spot.im/$domain=www.merriam-webster.com
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js$domain=oschina.net
+||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/browser.*.cn.js$domain=jinritemai.com|bytedance.com
+||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/plugins/monitors.*.cn.js$domain=fjinritemai.com|bytedance.com
+||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/plugins/monitors.*.cn.js$domain=jinritemai.com|bytedance.com
+||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/plugins/sentry.*.cn.js$domain=jinritemai.com|bytedance.com
+||lf3-cdn-tos.bytescm.com/obj/static/log-sdk/collect/collect.js$domain=jinritemai.com|bytedance.com
+||lf3-short.bytegoofy.com/slardar/fe/sdk-web/browser.*.cn.js$domain=jinritemai.com|bytedance.com
+||lf3-short.bytegoofy.com/slardar/fe/sdk-web/browser.cn.js$domain=jinritemai.com|bytedance.com
+||lf3-short.bytegoofy.com/slardar/fe/sdk-web/plugins/common-monitors.*.js$domain=jinritemai.com|bytedance.com
+||lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/common-monitors.*.js$domain=jinritemai.com|bytedance.com
+||lf3-static.bytednsdoc.com/obj/eden-cn/fapybjlz_lm_zlp/*/sdk/secsdk.umd.js$domain=jinritemai.com|bytedance.com
 ||lifehacker.com/api/veritas/b
 ||lifehacker.com/api/veritas/info
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
@@ -1106,6 +1120,8 @@ zhidao.baidu.com##.task-list-button
 ||material.io/api/country_code
 ||mbd.baidu.com/ztbox?action=zpblog
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
+||mcs.snssdk.com$domain=jinritemai.com|bytedance.com
+||mcs.zijieapi.com$domain=jinritemai.com|bytedance.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
 ||medium.com/_/batch
 ||medium.com/_/graphql
@@ -1118,10 +1134,13 @@ zhidao.baidu.com##.task-list-button
 ||miaowu.baidu.com/abdr$domain=zhidao.baidu.com
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx
 ||modernizr.com/i/js/analytics.js
+||mon.snssdk.com$domain=jinritemai.com|bytedance.com
+||mon.zijieapi.com$domain=jinritemai.com|bytedance.com
 ||mp.weixin.qq.com/mp/appmsgreport
 ||mp.weixin.qq.com/mp/getappmsgad
 ||mp.weixin.qq.com/mp/report
 ||mps.cnbc.com/request/page/json/params/?CALLBACK=mpsCallback
+||mssdk.snssdk.com/web/report$domain=jinritemai.com|bytedance.com
 ||mssplus.mcafee.com/mssplus.txt$domain=adobe.com
 ||munchkin.brightfunnel.com/js/build/bf-munchkin.min.js$domain=docker.com
 ||munchkin.marketo.net/munchkin.js$domain=redislabs.com|about.gitlab.com,important
@@ -1385,6 +1404,8 @@ zhidao.baidu.com##.task-list-button
 ||v20200617-gap.freecodecamp.org/$domain=www.freecodecamp.org,important
 ||va.tawk.to/register/$domain=www.sswug.org
 ||va.v.liveperson.net/api/js$third-party
+||verificaiton.kuaishouzt.com/rest/zt/basic/tracing/report
+||verification.kuaishouzt.cn/rest/zt/basic/tracing/report
 ||visit.oschina.net/count.js
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/adobe-target/
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/usabilla-feed-back.js
