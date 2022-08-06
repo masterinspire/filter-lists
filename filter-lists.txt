@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, August 2, 2022
+! Last modified: Saturday, August 6, 2022
 ! Title: Custom Filter Lists
-! Version: 20220802
+! Version: 20220806
 !
 !
 !
@@ -157,6 +157,7 @@ developers.google.com##devsite-footer-promos
 developers.google.com##devsite-thumb-rating
 developers.google.com##devsite-tracking-question
 developers.google.com##devsite-youtube
+developers.weixin.qq.com###popoverWrapId,.fixed-btns
 digitalrightswatch.org.au###cookie-notice
 ding-doc.dingtalk.com##.styles-float
 dnschecker.org###cookie-box
@@ -296,6 +297,7 @@ plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
 proandroiddev.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 prodesigntools.com###wpfront-notification-bar-spacer
+pyinstaller.narkive.com###selection_url_c
 pypi.org##div[data-html-include="/_includes/notification-banners/"]
 python.plainenglish.io##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 reolink.com##.explorer-n-privacy
@@ -418,6 +420,7 @@ www.baike.com##.search-recom
 www.bbc.com##.lx-stream-post__footer > .lx-stream-post__footer-share
 www.bing.com###ads_banner,.adsblock,#b_footer
 www.c-sharpcorner.com##.cotent-share-icon
+www.calnewport.com###cmplz-cookiebanner-container
 www.ccleaner.com###GTM__link--CCBR-browser-ad
 www.cloudamqp.com##.dark-bg.signup
 www.cmdy555.com##div.index-area:nth-of-type(4),div.index-area:nth-of-type(5)
@@ -698,6 +701,7 @@ zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
 ||*.club$domain=88dyw.com|88ysw.com,frame
+||*.cn$domain=88dyw.com|88ysw.com
 ||*.shop$domain=88dyw.com|88ysw.com,frame
 ||*.xyz$domain=88dyw.com|88ysw.com
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
@@ -827,6 +831,7 @@ zhidao.baidu.com##.task-list-button
 ||c.evidon.com/sitenotice$domain=vmware.com
 ||c0.wp.com/p/jetpack/*/_inc/build/twitter-timeline.min.js$domain=everything-powershell.com
 ||c0.wp.com/p/jetpack/*/_inc/build/widgets/eu-cookie-law/$domain=everything-powershell.com
+||calnewport.ck.page$domain=www.calnewport.com
 ||canvatechblog.com/_/batch
 ||canvatechblog.com/_/graphql
 ||cc-api-data.adobe.io/ingest
@@ -935,6 +940,9 @@ zhidao.baidu.com##.task-list-button
 ||developers.google.com/_d/analytics-iframe
 ||developers.google.com/_d/analytics-iframe
 ||developers.google.com/_d/dynamic_content
+||developers.weixin.qq.com/community/ngi/batchreportdoc
+||developers.weixin.qq.com/community/ngi/report
+||developers.weixin.qq.com/community/ngi/weschool/docsearch
 ||dh.nrk.no/catch/dh-kortstokk-v1
 ||dictionary.cambridge.org/external/scripts/ads.min.js
 ||discord.com/api/v6/science
@@ -969,6 +977,7 @@ zhidao.baidu.com##.task-list-button
 ||exmail.qq.com/qy_mng_logic/logKVAuto
 ||exmail.qq.com/qy_mng_logic/reportKV
 ||experience.tinypass.com/$domain=www.telegraph.co.uk
+||f.convertkit.com/ckjs/$domain=calebschoepp.com|calnewport.com
 ||feed.baidu.com/feed/api/tab/gettabinfo$domain=www.baidu.com|m.baidu.com
 ||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
 ||file1.sixthtone.com/js/news_detail.js$domain=www.sixthtone.com
@@ -1207,6 +1216,7 @@ zhidao.baidu.com##.task-list-button
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
 ||push-content.springernature.io/*/production_live/consent-bundle-*.js$domain=www.nature.com
+||pyinstaller.narkive.com/ajax/TelemV2
 ||python.plainenglish.io/_/batch
 ||python.plainenglish.io/_/graphql
 ||qd.baidupcs.com/monitor.jpg$domain=pan.baidu.com
