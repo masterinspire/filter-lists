@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, August 6, 2022
+! Last modified: Sunday, August 7, 2022
 ! Title: Custom Filter Lists
-! Version: 20220806
+! Version: 20220807
 !
 !
 !
@@ -238,6 +238,7 @@ jingyan.baidu.com##.wgt-income-money
 jingyan.baidu.com##.wrp-exp-share
 konvajs.org###mc_embed_signup
 kotlinlang.org##.feedback
+ktor.io##.feedback
 letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
@@ -289,11 +290,9 @@ packagecloud.io##.logged-out-links
 pagecdn.com##.cookie-bar
 palletsprojects.com##body:style(font-family: initial !important)
 pan.baidu.com##.phone-banner
-pastebin.com##.-cookies.popup-box
-pastebin.com##.-pro.popup-box
+pastebin.com##.-cookies.popup-box,.-pro.popup-box
 pipenv.pypa.io##body:style(font-family: initial !important)
 platform.uno###cookie-law-info-bar
-plugins.jetbrains.com###legal-user-acceptance-plugins
 plugins.jetbrains.com##.acceptance-popup
 proandroiddev.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 prodesigntools.com###wpfront-notification-bar-spacer
