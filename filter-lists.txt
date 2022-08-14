@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, August 7, 2022
+! Last modified: Sunday, August 14, 2022
 ! Title: Custom Filter Lists
-! Version: 20220807
+! Version: 20220814
 !
 !
 !
@@ -562,6 +562,7 @@ www.piratewires.com##.subscribe-footer
 www.piratewires.com##.subscribe-widget
 www.positronx.io###cookie
 www.prosus.com##.pp_quickshare_tools
+www.pythontutorial.net###back-to-top,.helpful-block-content,.ad
 www.qt.io##.b-article__share-footer
 www.qt.io##.fixed.c-floating-contact
 www.qt.io##.instagram-media
@@ -738,6 +739,7 @@ zhidao.baidu.com##.task-list-button
 ||api-reuters-reuters-prod.cdn.arcpublishing.com/sales/public/v1/entitlements
 ||api-secure.wsj.net/api/michelangelo/timeseries/history
 ||api.atlassian.com/metal/ingest
+||api.callstats.io/static/callstats-ws.min.js$domain=meet.jit.si
 ||api.cdnbye.com/v1/channel/*/stats
 ||api.dec.sitefinity.com/collect/
 ||api.eu-west-1.aiv-delivery.net/Events/$domain=www.primevideo.com
