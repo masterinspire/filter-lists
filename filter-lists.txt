@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, August 14, 2022
+! Last modified: Wednesday, August 17, 2022
 ! Title: Custom Filter Lists
-! Version: 20220814
+! Version: 20220817
 !
 !
 !
@@ -161,7 +161,8 @@ developers.weixin.qq.com###popoverWrapId,.fixed-btns
 digitalrightswatch.org.au###cookie-notice
 ding-doc.dingtalk.com##.styles-float
 dnschecker.org###cookie-box
-doc.qt.io###cookie-confirm
+doc.qt.io##.sidebar-container, .toc-drawer:style(width: 20rem !important;)
+doc.qt.io##.sidebar-drawer,.content:style(width: unset !important;)
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
 docs.microsoft.com##.thumb-rating,#banner-holder,#article-header-page-actions-overflow,#article-header-page-actions,.feedback-section,#survey-popover,#user-feedback
@@ -1574,6 +1575,7 @@ zhidao.baidu.com##.task-list-button
 ||www.rabbitmq.com/img/banner-s1p.png
 ||www.rabbitmq.com/js/ga-bootstrap.js
 ||www.rarlab.com/js/ckrule.js
+||www.reddit.com/errors
 ||www.redditstatic.com/button/button3.js$domain=goalkicker.com
 ||www.redditstatic.com/desktop2x/js/xads.js
 ||www.residentcontrarian.com/api/v1/firehose
