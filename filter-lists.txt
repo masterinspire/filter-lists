@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, August 21, 2022
+! Last modified: Wednesday, August 24, 2022
 ! Title: Custom Filter Lists
-! Version: 20220821
+! Version: 20220824
 !
 !
 !
@@ -172,8 +172,8 @@ docs.rs##.docs-rs-footer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
 docs.vmware.com##.position-fixed.icons-container
 dotnetfiddle.net##.container-sponsor
-downloads.digitaltrends.com##.ad-burnside
-downloads.digitaltrends.com##.roof-ad
+downloads.digitaltrends.com##.ad-burnside,.roof-ad
+dppt.shanghai.chinatax.gov.cn##.zn-dialog_ctr-btn
 dragablz.net##.sharedaddy
 dragablz.net##.widget_eu_cookie_law_widget.widget
 duckduckgo.com##.header__label.showcase.header--aside__item
@@ -849,9 +849,11 @@ zhidao.baidu.com##.task-list-button
 ||cdn.concert.io/lib/adblock/verge.html$domain=www.theverge.com
 ||cdn.concert.io/lib/concert-ads/v2-latest/concert_ads.js
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
+||cdn.convertkit.com$domain=tomassetti.me
 ||cdn.cookielaw.org/$third-party
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.infoq.com/statics_*/scripts/lib/browser-update-org/update.js
+||cdn.iubenda.com$domain=tomassetti.me
 ||cdn.jsdelivr.net/npm/search-insights
 ||cdn.livechatinc.com/tracking.js
 ||cdn.openinstall.io/openinstall.js$domain=csdn.net
@@ -976,6 +978,7 @@ zhidao.baidu.com##.task-list-button
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data.min.js
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data1.min.js
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data2.min.js
+||etax.shanghai.chinatax.gov.cn/wszx-web/api/sh/zsk/redirectToZnzx$domain=dppt.shanghai.chinatax.gov.cn,frame
 ||events.mapbox.com/events/$domain=www.fox5ny.com
 ||events.nanonets.com/
 ||exmail.qq.com/cgi-bin/getinvestigate
@@ -988,7 +991,6 @@ zhidao.baidu.com##.task-list-button
 ||file1.sixthtone.com/js/news_detail.js$domain=www.sixthtone.com
 ||file1.sixthtone.com/js/newsletter.js$domain=www.sixthtone.com
 ||fls-eu.amazon.com/1/aiv-web-player/1/OE$domain=www.primevideo.com
-||forms.convertkit.com
 ||forum.vivaldi.net/assets/templates/partials/topic/selection-tooltip.js
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
 ||freyr.futurecdn.net/freyr.js$domain=www.livescience.com
@@ -1389,6 +1391,7 @@ zhidao.baidu.com##.task-list-button
 ||tieba.baidu.com/official/click/viewTrue
 ||tkx.apis.anvato.net/rest/v2/mcp/video/$domain=www.fox5ny.com
 ||tkx.apis.anvato.net/rest/v2/now/$domain=www.fox5ny.com
+||tomassetti.me/wp-content/plugins/convertkit/
 ||tongji.flash.cn/hm*.gif
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
