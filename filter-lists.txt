@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, August 24, 2022
+! Last modified: Friday, August 26, 2022
 ! Title: Custom Filter Lists
-! Version: 20220824
+! Version: 20220826
 !
 !
 !
@@ -398,7 +398,8 @@ www.88dyw.com##.gotop
 www.88ysw.com##.gotop
 www.aljazeera.com###article-newsletter-slot
 www.android.com##.cookie-banner
-www.androidcentral.com###newsletter,.socialite-widget
+www.androidcentral.com###slice-container-exitIntent,#newsletter,.socialite-widget
+www.androidcentral.com##+js(cookie-remover, FTR_Country_Code)
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
 www.baidu.com###content_right
@@ -468,6 +469,7 @@ www.geeksforgeeks.org##.widget_text.widget
 www.gtabase.com##.mailing-list-bottom
 www.gtabase.com##.module > .custom
 www.gtabase.com##.wbl-social-button
+www.history.com##+js(cookie-remover, Country-Code)
 www.historytoday.com###block-newsletter-frontpage-signup
 www.historytoday.com##.block-advertisement-banner-block
 www.historytoday.com##.block-signup-block
@@ -500,10 +502,14 @@ www.jetbrains.com##DIV[id="bart_wrapper"]
 www.jetbrains.com##DIV[id="country-offer-placeholder"]
 www.jetbrains.com##DIV[id="pseudo-footer"]
 www.keycdn.com##.cookies-warning
+www.laptopmag.com###slice-container-exitIntent
+www.laptopmag.com##+js(cookie-remover, FTR_Country_Code)
 www.latimes.com###ensNotifyBanner,.page-actions-sticky,metering-bottompanel
 www.learnrazorpages.com###cookie-warning
 www.linuxeden.com##.bdsharebuttonbox.action-share
 www.listennotes.com###ln-side-share-div
+www.livescience.com###slice-container-exitIntent,.newsletter-signup
+www.livescience.com##+js(cookie-remover, FTR_Country_Code)
 www.lookip.net##[aria-label="cookieconsent"]
 www.merriam-webster.com###cite-anchor
 www.merriam-webster.com###definition-right-rail
@@ -559,6 +565,8 @@ www.opera.com###cookie-consent
 www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com##.upsell.container.product__author
 www.partitionwizard.com##.bottom-cookie-wrap
+www.pcgamer.com###slice-container-exitIntent,.newsletter-signup
+www.pcgamer.com##+js(cookie-remover, FTR_Country_Code)
 www.pdfforge.org##.gdpr-cookieconsent-overlay
 www.pdfforge.org##.gdpr-cookieconsent-settings
 www.piratewires.com##.subscribe-footer
@@ -615,7 +623,8 @@ www.tapd.cn##.bind-phone-tips
 www.tapd.cn##.editor-content.comment_type_text:style(overflow:auto !important;)
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked
-www.techradar.com###slice-container-affiliateDisclaimerBar,.hawk-main-editorialized,.newsletter-signup
+www.techradar.com###slice-container-exitIntent,.newsletter-signup,#slice-container-affiliateDisclaimerBar
+www.techradar.com##+js(cookie-remover, FTR_Country_Code)
 www.telegraph.co.uk##.article__end-meta
 www.telegraph.co.uk##.article__layout--sidebar.article__layout
 www.telegraph.co.uk##.subscribe-banner
@@ -690,6 +699,7 @@ www.yuque.com##div[class*="index-module_qrCodeWrapper_"]
 www.zdnet.com##.large.video.shortcode
 www.zdnet.com##div.alignRight.relatedContent
 www.zerrouki.com###cookie-notice
+www.zoho.com##+js(cookie-remover, zip)
 www3.nhk.or.jp###nw_gdpr_view_id
 xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamsterlive.com##.join-me-button
@@ -703,9 +713,9 @@ zhidao.baidu.com##.jump-top-box
 zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
-||*.club$domain=88dyw.com|88ysw.com,frame
+||*.club$domain=88dyw.com|88ysw.com
 ||*.cn$domain=88dyw.com|88ysw.com
-||*.shop$domain=88dyw.com|88ysw.com,frame
+||*.shop$domain=88dyw.com|88ysw.com
 ||*.xyz$domain=88dyw.com|88ysw.com
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
