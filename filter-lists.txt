@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, August 26, 2022
+! Last modified: Sunday, August 28, 2022
 ! Title: Custom Filter Lists
-! Version: 20220826
+! Version: 20220828
 !
 !
 !
@@ -119,7 +119,7 @@ den.dev##.bottom-banner,.bottom-container
 dev.to###sidebar-wrapper-left > .side-bar > .crayons-card--secondary.crayons-card
 dev.to##.authentication-feed__card
 dev.to##div.crayons-sponsorship-widget.crayons-card--secondary.crayons-card
-devblogs.microsoft.com##.back-comment-buttons,.social-icon-bar,#colophon
+devblogs.microsoft.com##.back-comment-buttons,.social-icon-bar,#colophon,.vscom-usabilla-button
 devdactic.com###cookie-notice
 devdactic.com##.nc_wrapper
 devdocs.io##._in._notif
@@ -703,7 +703,7 @@ www.zoho.com##+js(cookie-remover, zip)
 www3.nhk.or.jp###nw_gdpr_view_id
 xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamsterlive.com##.join-me-button
-xhopen.com##.wio-dsp-a.wio-dsp-b,.wio-d.bottom-widget-section,.cookie-announce,.xplayer-banner
+xhopen.com##.wio-dsp-a.wio-dsp-b,.wio-d.bottom-widget-section,.cookie-announce,.xplayer-banner,.promo-message__banner.promo-message
 yandex.com##.content__right
 youtrack.jetbrains.com##div[class^="alertContainer_"]
 zhidao.baidu.com###selectsearch-icon
