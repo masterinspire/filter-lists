@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, August 28, 2022
+! Last modified: Tuesday, September 6, 2022
 ! Title: Custom Filter Lists
-! Version: 20220828
+! Version: 20220906
 !
 !
 !
@@ -768,6 +768,8 @@ zhidao.baidu.com##.task-list-button
 ||api.pinterest.com/v1/urls/count.json
 ||api.rss2json.com/v1/api.json$domain=flutter.dev
 ||api.supabase.io/platform/telemetry/
+||api.twitter.com/*/jot/error_log.json
+||api.twitter.com/*/jot/external_referer.json
 ||app-*.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com|docs.conan.io,important
 ||app.getresponse.com/site2/$domain=dbeaver.com
 ||app.gitbook.com/__amp/
@@ -1412,6 +1414,9 @@ zhidao.baidu.com##.task-list-button
 ||trustrcv.baidu.com/xin.php$domain=aiqicha.baidu.com
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||tt.omtrdc.net/rest/v1/delivery$important
+||twitter.com/i/api/*/attribution/event.json
+||twitter.com/i/api/*/guide.json
+||twitter.com/i/api/*/jot/ces/p2
 ||twitterinc.tt.omtrdc.net/rest/v1/delivery$important
 ||tyrz.gd.gov.cn/pscp/sso/connect/page/logmanager/report
 ||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
