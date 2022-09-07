@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, September 6, 2022
+! Last modified: Wednesday, September 7, 2022
 ! Title: Custom Filter Lists
-! Version: 20220906
+! Version: 20220907
 !
 !
 !
@@ -207,6 +207,7 @@ flutter.dev##.show.cookie-snack
 frame.io##div[class*="ConsentBanner___"]
 freecommander.com###cookie-notice
 freewechat.com##.freebrowser-ad
+fullxh.com##.wio-dsp-a.wio-dsp-b,.wio-d.bottom-widget-section,.cookie-announce,.xplayer-banner,.promo-message__banner.promo-message
 get.foundation###subpage-intro-video
 get.videolan.org###uecookies
 gist.github.com##.gist-banner.gist-detail-intro
@@ -703,7 +704,6 @@ www.zoho.com##+js(cookie-remover, zip)
 www3.nhk.or.jp###nw_gdpr_view_id
 xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamsterlive.com##.join-me-button
-xhopen.com##.wio-dsp-a.wio-dsp-b,.wio-d.bottom-widget-section,.cookie-announce,.xplayer-banner,.promo-message__banner.promo-message
 yandex.com##.content__right
 youtrack.jetbrains.com##div[class^="alertContainer_"]
 zhidao.baidu.com###selectsearch-icon
