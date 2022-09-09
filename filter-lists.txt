@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, September 7, 2022
+! Last modified: Friday, September 9, 2022
 ! Title: Custom Filter Lists
-! Version: 20220907
+! Version: 20220909
 !
 !
 !
@@ -1415,7 +1415,6 @@ zhidao.baidu.com##.task-list-button
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||tt.omtrdc.net/rest/v1/delivery$important
 ||twitter.com/i/api/*/attribution/event.json
-||twitter.com/i/api/*/guide.json
 ||twitter.com/i/api/*/jot/ces/p2
 ||twitterinc.tt.omtrdc.net/rest/v1/delivery$important
 ||tyrz.gd.gov.cn/pscp/sso/connect/page/logmanager/report
@@ -1490,6 +1489,7 @@ zhidao.baidu.com##.task-list-button
 ||www.baidu.com/home/page/data/pageserver
 ||www.baidu.com/rec
 ||www.baidupcs.com/monitor.jpg$domain=pan.baidu.com
+||www.bbc.com/wc-data/container/consent-banner
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetHeaderAd
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetMultipleLinkAds
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewPremiumSponsorsTextAd
