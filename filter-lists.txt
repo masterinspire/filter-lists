@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, September 9, 2022
+! Last modified: Monday, September 12, 2022
 ! Title: Custom Filter Lists
-! Version: 20220909
+! Version: 20220912
 !
 !
 !
@@ -57,7 +57,7 @@ blog.codecentric.de###BorlabsCookieBox
 blog.csdn.net###content_views pre,#content_views pre code:style(user-select: unset !important;)
 blog.csdn.net###js_content > p:nth-of-type(1)
 blog.csdn.net##.article_content:style(padding-bottom: 2rem !important; max-height: inherit !important; overflow: inherit !important; height: inherit !important;)
-blog.csdn.net##.readall_box,.btn_open_app_prompt_div,.hljs-button.signin,.hide-article-pos.hide-article-box
+blog.csdn.net##.readall_box,.btn_open_app_prompt_div,.hljs-button.signin,.hide-article-pos.hide-article-box,#articleSearchTip
 blog.csdn.net##.recommend-tit-mod,.recommend-box,#recommendNps,#asideNewNps,.weixin-shadowbox.wap-shadowbox,.open_app_channelCode,#recommend,.openApp
 blog.encyro.com###PopupSignupForm_0
 blog.google###cookieBar,.uni-newsletter-toast
