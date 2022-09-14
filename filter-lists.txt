@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, September 12, 2022
+! Last modified: Wednesday, September 14, 2022
 ! Title: Custom Filter Lists
-! Version: 20220912
+! Version: 20220914
 !
 !
 !
@@ -231,6 +231,7 @@ help.aliyun.com##div[class^="StickTopLayout--docFeedback--"]
 help.nextdns.io##.btn-quote
 help.vivaldi.com###getvivaldi
 helpx.adobe.com###helpful-pod
+icons8.com###app-support
 ipinfo.io###overlay.show.fade.ipinfo-modal
 ironsoftware.com##.fixed-support-bar
 itextpdf.com##.eu-cookie-compliance-banner
@@ -358,6 +359,7 @@ time.is###important_info
 tkdocs.com###ebookad,#signup-wrapper
 tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm,#CoverB,#QRCode
+twitter.com##div[data-testid="BottomBar"]
 ubuntu.com##.cookie-policy
 visualstudio.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 visualstudio.microsoft.com###usabilla-button
@@ -1531,6 +1533,7 @@ zhidao.baidu.com##.task-list-button
 ||www.erlang.org/js/twitterl.min.js
 ||www.facebook.com/plugins/like.php$third-party
 ||www.facebook.com/plugins/page.php$third-party
+||www.favicon.cc/js/osano/cookieconsent.min.js
 ||www.feedly.com/amplitude
 ||www.flash.cn/support/statistics
 ||www.forbes.com/forbesapi/promote/get.json
@@ -1610,6 +1613,8 @@ zhidao.baidu.com##.task-list-button
 ||www.tensorflow.org/_d/analytics-iframe
 ||www.tensorflow.org/_d/dynamic_content
 ||www.termsfeed.com/public/cookie-consent/$domain=www.azmovies.net
+||www.textin.com/js/GrowingIO.js
+||www.textin.com/js/nps.js
 ||www.textin.com/js/zhugeIO.js
 ||www.theregister.com/design_picker/*/javascript/ads.js
 ||www.ttshitu.com/js/baidu.js
