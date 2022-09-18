@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, September 14, 2022
+! Last modified: Sunday, September 18, 2022
 ! Title: Custom Filter Lists
-! Version: 20220914
+! Version: 20220918
 !
 !
 !
@@ -166,7 +166,6 @@ doc.qt.io##.sidebar-container, .toc-drawer:style(width: 20rem !important; min-wi
 doc.qt.io##.sidebar-drawer,.content:style(width: unset !important;)
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
-docs.microsoft.com##.thumb-rating,#banner-holder,#article-header-page-actions-overflow,#article-header-page-actions,.feedback-section,#survey-popover,#user-feedback
 docs.pytest.org##body:style(font-family: initial !important)
 docs.rs##.docs-rs-footer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
@@ -244,6 +243,7 @@ konvajs.org###mc_embed_signup
 kotlinlang.org##.feedback
 krita.org###cookies-message
 ktor.io##.feedback
+learn.microsoft.com##.thumb-rating,#banner-holder,#article-header-page-actions-overflow,#article-header-page-actions,.feedback-section,#survey-popover,#user-feedback
 letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
@@ -712,6 +712,7 @@ zhidao.baidu.com###selectsearch-icon
 zhidao.baidu.com##.activity-entry.menu-right-list-item
 zhidao.baidu.com##.icon-bdad
 zhidao.baidu.com##.jump-top-box
+zhidao.baidu.com##.qb-side,.aria-div
 zhidao.baidu.com##.question-number-text-chain
 zhidao.baidu.com##.show.doodle-container
 zhidao.baidu.com##.task-list-button
@@ -1320,6 +1321,7 @@ zhidao.baidu.com##.task-list-button
 ||source.chromium.org/_/jserror
 ||source.chromium.org/v1/logging:logClientAction
 ||sourcepoint.theguardian.com/wrapperMessagingWithoutDetection.js
+||sp0.baidu.com/*/km.php$domain=zhidao.baidu.com
 ||sp0.baidu.com/*/su?wd=$domain=www.baidu.com
 ||sp1.baidu.com/*/mwb.gif
 ||sp1.baidu.com/*/mwb2.gif
@@ -1394,6 +1396,7 @@ zhidao.baidu.com##.task-list-button
 ||tb.pagetest.top/$domain=www.88dyw.com
 ||tb1.bdstatic.com/tb/img/hg/hg.gif$domain=tieba.baidu.com
 ||techcommunity.microsoft.com/beacon/*.gif
+||techcommunity.microsoft.com/html/js/lib/webvitals-js/webvitals.js
 ||techdocs.akamai.com/network-lists/pageview
 ||techxposer.com/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js
 ||techxposer.com/wp-content/plugins/jetpack/_inc/social-logos/
