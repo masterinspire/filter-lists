@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, September 18, 2022
+! Last modified: Thursday, September 22, 2022
 ! Title: Custom Filter Lists
-! Version: 20220918
+! Version: 20220922
 !
 !
 !
@@ -676,6 +676,8 @@ www.whitehouse.gov##.shares-simple.social-nav
 www.wikihow.com###article_courses_banner
 www.wikihow.com###contribute_footer
 www.wilderssecurity.com##.bottomFixer
+www.windowscentral.com###slice-container-exitIntent,.newsletter-signup,#slice-container-affiliateDisclaimerBar
+www.windowscentral.com##+js(cookie-remover, FTR_Country_Code)
 www.wintips.org##.cresta-share-icon
 www.wired.co.uk##.social-icons--share.social-icons
 www.wired.com##.article__social-share
@@ -1046,6 +1048,7 @@ zhidao.baidu.com##.task-list-button
 ||google-developers.gonglchuangl.net/sw.js
 ||googleads.g.doubleclick.net$important
 ||gowatchseries.live/anclytic.html
+||gql.reddit.com/
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
 ||graph.facebook.com/$third-party
@@ -1391,7 +1394,7 @@ zhidao.baidu.com##.task-list-button
 ||tags.tiqcdn.com/utag/vmware/*-privacy/prod/utag$domain=vmware.com,important
 ||tajs.qq.com/qc.php$domain=baike.baidu.com
 ||tajs.qq.com/stats$important
-||tam.cdn-go.cn/aegis-sdk/latest/aegis.min.js$domain=qq.com
+||tam.cdn-go.cn/aegis-sdk/$domain=qq.com|tapd.cn
 ||target.microsoft.com/rest/v1/delivery$important
 ||tb.pagetest.top/$domain=www.88dyw.com
 ||tb1.bdstatic.com/tb/img/hg/hg.gif$domain=tieba.baidu.com
