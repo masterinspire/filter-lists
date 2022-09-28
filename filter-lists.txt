@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, September 22, 2022
+! Last modified: Wednesday, September 28, 2022
 ! Title: Custom Filter Lists
-! Version: 20220922
+! Version: 20220928
 !
 !
 !
@@ -99,7 +99,7 @@ cloud.tencent.com##.document-feedback-container
 cloud.tencent.com##.rno-documents-tools.rno-scrollbar-tools
 cloud.tencent.com##.select-feedback-tip
 club.ubisoft.com###footer_tc_privacy
-cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt
+cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt,#wikiWidgetContainer
 cn.bing.com###b_mtp,#qs_searchBoxOuter,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
@@ -285,6 +285,7 @@ open-vsx.org##div[aria-label="cookieconsent"]
 opencv.org###elementor-popup-modal-11769
 opencv.org###elementor-popup-modal-12574
 opencv.org##.homepage-email-icon
+opensource.com###block-socialmediashareicons,#block-subscribetoourweeklynewsletterflyin
 opensource.google##devsite-thumb-rating
 openvpn.net###usercentrics-root
 openvpn.net##body:style(overflow: unset !important;)
@@ -908,6 +909,7 @@ zhidao.baidu.com##.task-list-button
 ||cmpv2.computerworld.com/wrapperMessagingWithoutDetection.js
 ||cmpv2.infoworld.com/wrapperMessagingWithoutDetection.js
 ||cn.bing.com/english/zochatv2
+||cn.bing.com/geolocation/write
 ||cn.bing.com/orgid/idtoken/conditional
 ||cn.bing.com/rewardsapp/reportActivity
 ||cn.bing.com/s/ac/*/MsnJVData/HoverTranslationV2.css
@@ -1152,6 +1154,7 @@ zhidao.baidu.com##.task-list-button
 ||marketplace.visualstudio.com/_apis/customerintelligence/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
 ||material.io/api/country_code
+||mbd.baidu.com/tcbox?action=pblog
 ||mbd.baidu.com/ztbox?action=zpblog
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
 ||mcs.snssdk.com$domain=jinritemai.com|bytedance.com
@@ -1237,6 +1240,8 @@ zhidao.baidu.com##.task-list-button
 ||proandroiddev.com/_/batch
 ||proandroiddev.com/_/graphql
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
+||pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/pst-log_*.js
+||pss.bdstatic.com/r/www/cache/static/protocol/https/webb/atom-logger_*.js
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
@@ -1496,6 +1501,7 @@ zhidao.baidu.com##.task-list-button
 ||www.baidu.com/home/msg/data/personalcontent
 ||www.baidu.com/home/page/data/pageserver
 ||www.baidu.com/rec
+||www.baidu.com/sugrec
 ||www.baidupcs.com/monitor.jpg$domain=pan.baidu.com
 ||www.bbc.com/wc-data/container/consent-banner
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetHeaderAd
@@ -1608,6 +1614,7 @@ zhidao.baidu.com##.task-list-button
 ||www.reddit.com/errors
 ||www.redditstatic.com/button/button3.js$domain=goalkicker.com
 ||www.redditstatic.com/desktop2x/js/xads.js
+||www.redhat.com/forms/scripts/vendor/demandbase/widget.js$domain=opensource.com
 ||www.residentcontrarian.com/api/v1/firehose
 ||www.seedanddew.com/static/embed.min.js$domain=bundler.io
 ||www.sitepoint.com/ads.js
