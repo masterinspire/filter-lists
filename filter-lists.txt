@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, September 28, 2022
+! Last modified: Sunday, October 2, 2022
 ! Title: Custom Filter Lists
-! Version: 20220928
+! Version: 20221002
 !
 !
 !
@@ -24,6 +24,7 @@
 @@||www.vmware.com/etc.clientlibs/$script
 @@||www.xfinity.com/xfinity-learn-ui/$script
 about.gitlab.com###sticky-banner
+adguard-vpn.com###subscribe-to-news,.sticky-bar
 adguard.com##.sticky-bar--fixed.annoyance.sticky-bar
 ai.baidu.com##.ai-aside,.feedback-wrapper
 aiqicha.baidu.com##.float-banner
@@ -726,6 +727,8 @@ zhidao.baidu.com##.task-list-button
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.apkpure.com/api-shares.json$domain=apkpure.com
+||a.apkpure.com/dt_report_v*.js$domain=apkpure.com
+||a.apkpure.com/dt_sdk_v*.js$domain=apkpure.com
 ||a.clipconverter.cc/www/d/fr.php
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||abtestvm.bytedance.com/service/2/abtest_config/$domain=jinritemai.com|bytedance.com
@@ -1111,6 +1114,7 @@ zhidao.baidu.com##.task-list-button
 ||kunpeng.csdn.net/ad/
 ||l.ctrl.blog/visit
 ||launcher.spot.im/$domain=www.merriam-webster.com
+||leap.jfrog.com/js/forms2/js/forms2.min.js$domain=blog.conan.io
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js$domain=oschina.net
 ||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/browser.*.cn.js$domain=jinritemai.com|bytedance.com
 ||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/plugins/monitors.*.cn.js$domain=fjinritemai.com|bytedance.com
