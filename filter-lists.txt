@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, October 6, 2022
+! Last modified: Friday, October 7, 2022
 ! Title: Custom Filter Lists
-! Version: 20221006
+! Version: 20221007
 !
 !
 !
@@ -95,6 +95,7 @@ community.chocolatey.org###callout-package-warning
 community.notepad-plus-plus.org##.selection-tooltip-container
 community.spiceworks.com###zdprivacy-content
 config.office.com##.unAuthPrivacyFooter,#btnFeedback
+connect.mozilla.org##.lia-cookie-banner-alert
 create-react-app.dev##div[class^="announcementBar"]
 css-tricks.com##.fem-sidebar-ad.fem-ad
 curl-library.cool.haxx.narkive.com###selection_url_c
