@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, October 7, 2022
+! Last modified: Monday, October 10, 2022
 ! Title: Custom Filter Lists
-! Version: 20221007
+! Version: 20221010
 !
 !
 !
@@ -503,10 +503,9 @@ www.packtpub.com##.upsell.container.product__author
 www.partitionwizard.com##.bottom-cookie-wrap
 www.pcgamer.com###slice-container-exitIntent,.newsletter-signup
 www.pcgamer.com##+js(cookie-remover, FTR_Country_Code)
-www.pdfforge.org##.gdpr-cookieconsent-overlay
-www.pdfforge.org##.gdpr-cookieconsent-settings
-www.piratewires.com##.subscribe-footer
-www.piratewires.com##.subscribe-widget
+www.pdfforge.org##.gdpr-cookieconsent-overlay,.gdpr-cookieconsent-settings
+www.perltutorial.org###back-to-top,.helpful-block-content,.ad
+www.piratewires.com##.subscribe-footer,.subscribe-widget
 www.positronx.io###cookie
 www.prosus.com##.pp_quickshare_tools
 www.pythontutorial.net###back-to-top,.helpful-block-content,.ad
@@ -1318,6 +1317,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||vivaldi.com/rep/rep.js
 ||vivaldi.net/rep/rep.js
 ||vlscppe.microsoft.com/tags
+||vmssoftware.com/js/jquery-eu-cookie-law-popup.js
 ||vortex.data.microsoft.com/collect
 ||waplog.thepaper.cn/$domain=www.sixthtone.com
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
