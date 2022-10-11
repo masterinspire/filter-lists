@@ -1,9 +1,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, October 10, 2022
+! Last modified: Tuesday, October 11, 2022
 ! Title: Custom Filter Lists
-! Version: 20221010
+! Version: 20221011
 !
 !
 !
@@ -86,7 +86,8 @@ cloud.tencent.com##.rno-documents-tools.rno-scrollbar-tools
 cloud.tencent.com##.select-feedback-tip
 club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt,#wikiWidgetContainer
-cn.bing.com###b_mtp,#qs_searchBoxOuter,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper
+cn.bing.com###b_mtp,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper
+cn.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
@@ -358,7 +359,7 @@ www.androidpure.com###selectShareContainer
 www.baidu.com###content_right,.selected-search-box
 www.baike.com##.search-recom
 www.bbc.com##.lx-stream-post__footer > .lx-stream-post__footer-share
-www.bing.com###ads_banner,.adsblock,#b_footer
+www.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer
 www.c-sharpcorner.com##.cotent-share-icon
 www.calnewport.com###cmplz-cookiebanner-container
 www.ccleaner.com###GTM__link--CCBR-browser-ad
@@ -977,7 +978,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||iknowpc.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb.*.png
 ||img-blog.csdnimg.cn/img_convert/d43e79ea7645a1993af8e69a40b23f47.png
 ||img-home.csdnimg.cn/images/20220620104136.gif
-||img-s-msn-com.akamaized.net/tenant/amp/entityid/BBVQnwo.img$domain=www.bing.com
+||img-s-msn-com.akamaized.net/tenant/amp/entityid/BBVQnwo.img$domain=www.bing.com|cn.bing.com
 ||imgcache.qq.com/qcloud/platreport/dest/index.js$domain=cloud.tencent.com
 ||imgcache.qq.com/tencentvideo_v1/player/plugins/RelevanceAd.swf
 ||insight.cloud.tencent.com/event$domain=cloud.tencent.com
