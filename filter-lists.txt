@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, October 11, 2022
+! Last modified: Friday, October 14, 2022
 ! Title: Custom Filter Lists
-! Version: 20221011
+! Version: 20221014
 !
 !
 !
@@ -38,7 +38,7 @@ apkpure.com##.left > .ad-box-auto
 apkpure.com##.share-fixed
 arcanecode.com##.widget_eu_cookie_law_widget.widget
 archive.org##footer
-askubuntu.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
+askubuntu.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 astrid.tech###__next > div[style="width: 100vw; position: fixed; bottom: 0px; background-color: white; padding-top: 20px; padding-bottom: 20px;"]
 auth0.com###popup
 auth0.com###selectionSharerPopover
@@ -238,7 +238,7 @@ map.baidu.com##.leadDownloadCard,#leadDownloadCard
 marketplace.visualstudio.com###survey-container
 material.angular.io##app-cookie-popup
 material.io##mio-cookie-notice,mio-communication-banner
-mathoverflow.net##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
+mathoverflow.net##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 medium.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 microsoft.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 minecraft.gamepedia.com##div[class^="app_gdpr"]
@@ -287,7 +287,7 @@ rustdesk.com##.cookie-consent
 search.brave.com###search-elsewhere
 searchfox.org###context-menu
 segmentfault.com##.float-ads
-serverfault.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
+serverfault.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 share.weiyun.com##.layout-sider-bar
 social.msdn.microsoft.com###rssFeed
 software.intel.com###page > .l-footer-second
@@ -300,20 +300,20 @@ sourceforge.net###project-nel
 stackabuse.com##.sidebar
 stackabuse.com##.text-center.newsletter
 stackabuse.com##.widget-sticky
-stackapps.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
+stackapps.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 stackblitz.com###sponsad-wrapper
 stackblitz.com##a[class^="index-module__EmphasizedLinks"]
-stackexchange.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
+stackexchange.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 stackexchange.com##section#content > div.contentWrapper > div.hero-box
 stackify.com##.cta-contain
 stackoverflow.com###trending-sort-info, #trending-sort-info + #launch-popover
-stackoverflow.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
+stackoverflow.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 startpage.com##.home__section-one__search-container.home__section-one__search-container__show-subtitle > .subtitle
 staxmanade.com##.jj-signup-form
 substack.com##.post-end-cta-full
 substack.com##.subscribe-footer
 substack.com##.subscribe-widget
-superuser.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover
+superuser.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 support.microsoft.com###supWrapperToPreventFeedbackFlickering,.ocArticleFooterShareContainer,.ocArticleFooterFeedPickerContainer,.ocArticleFooterSection,#rail-column
 support.mozilla.org###announcements
 support.mozilla.org###id_scam_alert
@@ -705,6 +705,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||app.getresponse.com/site2/$domain=dbeaver.com
 ||app.gitbook.com/__amp/
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
+||app.slickstream.com/d/page-boot-data$domain=linuxhint.com
 ||app.termly.io/embed.min.js$domain=www.thisdot.co
 ||apps.mypurecloud.com/journey/sdk/js/web/v1/ac.js=$domain=www.shutterstock.com
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
@@ -1026,6 +1027,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||lf3-static.bytednsdoc.com/obj/eden-cn/fapybjlz_lm_zlp/*/sdk/secsdk.umd.js$domain=jinritemai.com|bytedance.com
 ||lifehacker.com/api/veritas/b
 ||lifehacker.com/api/veritas/info
+||linuxhint.ck.page/*/index.js$domain=linuxhint.com
+||linuxhint.com/wp-content/cache/min/1/wp-content/plugins/convertkit/resources/frontend/js/convertkit.js
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||localhost$third-party
 ||localhost.ptlogin2.qq.com:*/pt_get_uins$domain=xui.ptlogin2.qq.com
