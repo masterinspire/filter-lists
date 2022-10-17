@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, October 14, 2022
+! Last modified: Monday, October 17, 2022
 ! Title: Custom Filter Lists
-! Version: 20221014
+! Version: 20221017
 !
 !
 !
@@ -685,6 +685,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||api.atlassian.com/metal/ingest
 ||api.callstats.io/static/callstats-ws.min.js$domain=meet.jit.si
 ||api.cdnbye.com/v1/channel/*/stats
+||api.cxense.com/public/widget/data$domain=www.wsj.com,important
 ||api.dec.sitefinity.com/collect/
 ||api.eu-west-1.aiv-delivery.net/Events/$domain=www.primevideo.com
 ||api.github.com/_private/browser/errors
@@ -1204,7 +1205,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||solo41.biz$domain=www.tutorialspoint.com
 ||source.chromium.org/_/jserror
 ||source.chromium.org/v1/logging:logClientAction
-||sourcepoint.theguardian.com/wrapperMessagingWithoutDetection.js
+||sourcepoint.theguardian.com/unified/wrapperMessagingWithoutDetection.js
 ||sp3.baidu.com/*/ps_fp.htm
 ||srv.realpython.net/call/$domain=realpython.com
 ||ss*.baidu.com/*/ps_default.gif
