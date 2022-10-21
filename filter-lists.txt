@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, October 17, 2022
+! Last modified: Friday, October 21, 2022
 ! Title: Custom Filter Lists
-! Version: 20221017
+! Version: 20221021
 !
 !
 !
@@ -573,8 +573,7 @@ www.tenforums.com###snigel-cmp-framework
 www.tensorflow.org##.devsite-banner-announcement.devsite-banner
 www.tensorflow.org##devsite-thumb-rating
 www.tensorflow.org##devsite-youtube
-www.theatlantic.com###paywall
-www.theatlantic.com##.js-non-metered-nudge.c-non-metered-nudge
+www.theatlantic.com##gpt-ad,.js-non-metered-nudge.c-non-metered-nudge,#paywall,div[class*="LostInventoryMessage_"],p[class*="ArticleRelatedContentLink_"]
 www.theepochtimes.com##.social.share
 www.thefreedictionary.com###SubscrSlider
 www.thefreedictionary.com###fixedBlock
@@ -1206,6 +1205,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||source.chromium.org/_/jserror
 ||source.chromium.org/v1/logging:logClientAction
 ||sourcepoint.theguardian.com/unified/wrapperMessagingWithoutDetection.js
+||sp.replit.com/v1/p
 ||sp3.baidu.com/*/ps_fp.htm
 ||srv.realpython.net/call/$domain=realpython.com
 ||ss*.baidu.com/*/ps_default.gif
