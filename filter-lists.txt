@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, October 21, 2022
+! Last modified: Saturday, July 22, 2022
 ! Title: Custom Filter Lists
-! Version: 20221021
+! Version: 20221022
 !
 !
 !
@@ -48,10 +48,9 @@ bbs.csdn.net##.recommendList,.rates-outer,.content-right-recommend
 blog.angular.io##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 blog.codecentric.de###BorlabsCookieBox
 blog.csdn.net###content_views pre,#content_views pre code:style(user-select: unset !important;)
-blog.csdn.net###js_content > p:nth-of-type(1)
-blog.csdn.net##.article_content:style(padding-bottom: 2rem !important; max-height: inherit !important; overflow: inherit !important; height: inherit !important;)
-blog.csdn.net##.readall_box,.btn_open_app_prompt_div,.hljs-button.signin,.hide-article-pos.hide-article-box,#articleSearchTip
+blog.csdn.net##.readall_box,.btn_open_app_prompt_div,.hljs-button.signin,#articleSearchTip,.hide-preCode-box
 blog.csdn.net##.recommend-tit-mod,.recommend-box,#recommendNps,#asideNewNps,.weixin-shadowbox.wap-shadowbox,.open_app_channelCode,#recommend,.openApp
+blog.csdn.net##.set-code-hide:style(padding-bottom: 2rem !important; max-height: inherit !important; overflow: inherit !important; height: inherit !important;)
 blog.encyro.com###PopupSignupForm_0
 blog.google###cookieBar,.uni-newsletter-toast
 blog.jetbrains.com###post_footer_banner
@@ -704,6 +703,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||app-*.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com|docs.conan.io,important
 ||app.getresponse.com/site2/$domain=dbeaver.com
 ||app.gitbook.com/__amp/
+||app.pushbrothers.com/js/notification-bot.js$domain=www.javatpoint.com
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||app.slickstream.com/d/page-boot-data$domain=linuxhint.com
 ||app.termly.io/embed.min.js$domain=www.thisdot.co
@@ -930,6 +930,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||g.csdnimg.cn/asdf/*/trackad.js$important
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js
 ||g.csdnimg.cn/common/csdn-report/report.js
+||g.csdnimg.cn/copyright/*/copyright.js
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js
 ||g.csdnimg.cn/tingyun/tingyun.js
 ||gdpr-service.herokuapp.com/is-gdpr
@@ -981,6 +982,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||img-blog.csdnimg.cn/img_convert/d43e79ea7645a1993af8e69a40b23f47.png
 ||img-home.csdnimg.cn/images/20220620104136.gif
 ||img-s-msn-com.akamaized.net/tenant/amp/entityid/BBVQnwo.img$domain=www.bing.com|cn.bing.com
+||img1.ph-126.net/google.js$domain=www.javatpoint.com
 ||imgcache.qq.com/qcloud/platreport/dest/index.js$domain=cloud.tencent.com
 ||imgcache.qq.com/tencentvideo_v1/player/plugins/RelevanceAd.swf
 ||insight.cloud.tencent.com/event$domain=cloud.tencent.com
@@ -1422,6 +1424,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.infoworld.com/napi/tile
 ||www.infoworld.com/www/js/ads$important
 ||www.instagram.com/embed.js$domain=www.qt.io|insider.windows.com
+||www.learncpp.com/blog/wp-admin/admin-ajax.php
+||www.learncpp.com/detroitchicago/cmbv2.js
 ||www.lightboxcdn.com/vendor/*/lightbox_inline.js$domain=www.androidcentral.com
 ||www.linkedin.com/countserv/count/share
 ||www.linuxjournal.com/core/modules/statistics/statistics.php
