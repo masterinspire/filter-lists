@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, July 22, 2022
+! Last modified: Sunday, July 23, 2022
 ! Title: Custom Filter Lists
-! Version: 20221022
+! Version: 20221023
 !
 !
 !
@@ -203,7 +203,7 @@ gitlab.com##.broadcast-notification-message.broadcast-message
 gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.js-minute-limit-banner
 gitlab.com##.trial-link
-gowatchseries.live##.notice,div[style=" z-index:99999;position: fixed;bottom: 0;text-align: center;width: 100%; left: 0;padding: 10px;background: #ff6600;color: white;"]
+gowatchseries.ch##.notice,div[style=" z-index:99999;position: fixed;bottom: 0;text-align: center;width: 100%; left: 0;padding: 10px;background: #ff6600;color: white;"]
 grafana.com##.sticky-footer--dark
 grafana.com##.sticky-footer--grafanacon-la
 gtaforums.com###elGuestTerms > .ipsLayout_container
@@ -957,7 +957,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||google-analytics.com$third-party
 ||google-developers.gonglchuangl.net/sw.js
 ||googleads.g.doubleclick.net$important
-||gowatchseries.live/anclytic.html
+||gowatchseries.ch/anclytic.html
 ||gql.reddit.com/
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
@@ -1425,7 +1425,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.infoworld.com/www/js/ads$important
 ||www.instagram.com/embed.js$domain=www.qt.io|insider.windows.com
 ||www.learncpp.com/blog/wp-admin/admin-ajax.php
-||www.learncpp.com/detroitchicago/cmbv2.js
 ||www.lightboxcdn.com/vendor/*/lightbox_inline.js$domain=www.androidcentral.com
 ||www.linkedin.com/countserv/count/share
 ||www.linuxjournal.com/core/modules/statistics/statistics.php
