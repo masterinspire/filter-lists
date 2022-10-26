@@ -2,14 +2,14 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, July 22, 2022
+! Last modified: Wednesday, October 26, 2022
 ! Title: Custom Filter Lists Breaking
-! Version: 20221022
+! Version: 20221026
 !
 !
 !
 blog.csdn.net##.passport-login-container
-github.com##.HeaderMenu.HeaderMenu--logged-out > nav
+github.com##div.header-menu-wrapper > nav
 ||accounts.google.com/$third-party
 ||bp.blogspot.com/$third-party
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com

@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, July 23, 2022
+! Last modified: Wednesday, October 26, 2022
 ! Title: Custom Filter Lists
-! Version: 20221023
+! Version: 20221026
 !
 !
 !
@@ -579,6 +579,7 @@ www.thefreedictionary.com###fixedBlock
 www.thefreedictionary.com###secLoginToAccess
 www.thefreedictionary.com###w1 > .w2 > div > div
 www.thefreedictionary.com##.shareFeedBtns
+www.theguardian.com##figure[data-spacefinder-type="model.dotcomrendering.pageElements.NewsletterSignupBlockElement"]
 www.theguardian.com##gu-island
 www.thetechlounge.com###cookie-law-info-bar
 www.theverge.com###newsletter-signup-short-form
@@ -922,6 +923,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||forum.vivaldi.net/assets/templates/partials/topic/selection-tooltip.js
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
 ||freyr.futurecdn.net/freyr.js$domain=www.livescience.com
+||fxgate.baidu.com/angelia/fcagl.js
 ||g.alicdn.com/??dawn/user-tracker/*/js/index.js
 ||g.alicdn.com/alilog/
 ||g.alicdn.com/aliyun/util/*/module/Delivery.js
@@ -1080,6 +1082,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||mwcm.nyt.com/.resources/mkt-wcm/dist/metered_assets.common.js
 ||mwcm.nyt.com/.resources/mkt-wcm/dist/templates/areas/metered_assets/
 ||mwcm.nytimes.com/capi/metered_assets
+||my.oschina.net/action/IndexFeed/behavior_common_action
 ||mypage.w3schools.com/mypage/beta.php
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
