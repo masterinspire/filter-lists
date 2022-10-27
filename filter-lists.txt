@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, October 26, 2022
+! Last modified: Thursday, October 27, 2022
 ! Title: Custom Filter Lists
-! Version: 20221026
+! Version: 20221027
 !
 !
 !
@@ -873,7 +873,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||developer.microsoft.com/fdapi/jsll
 ||developer.mozilla.org/api/v1/whoami
 ||developer.mozilla.org/static/js/ga.js
-||developers.google.com/_d/analytics-iframe
+||developer.mozilla.org/submit/mdn-yari/page/
 ||developers.google.com/_d/analytics-iframe
 ||developers.google.com/_d/dynamic_content
 ||developers.weixin.qq.com/community/ngi/batchreportdoc
@@ -1054,6 +1054,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||marketplace.visualstudio.com/_apis/customerintelligence/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
 ||material.io/api/country_code
+||mbd.baidu.com/tcbox?action=pblog
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
 ||mcs.snssdk.com$domain=jinritemai.com|bytedance.com
 ||mcs.zijieapi.com$domain=jinritemai.com|bytedance.com
@@ -1096,6 +1097,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||nir.theregister.co.uk/?g=vk&g=c&g=sa&g=vvfc$domain=www.theregister.com
 ||nitrogenpleahierarchy.com$domain=vidembed.cc|vidembed.net
 ||nohost/query
+||nsfw.guangdong.chinatax.gov.cn/zndb/html_for_consulting_service_js/index.html$subdocument,domain=dppt.guangdong.chinatax.gov.cn
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||open.spotify.com/$domain=blog.logrocket.com
 ||opencv.org/wp-admin/admin-ajax.php
