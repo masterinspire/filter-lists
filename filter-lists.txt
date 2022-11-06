@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, October 30, 2022
+! Last modified: Sunday, November 6, 2022
 ! Title: Custom Filter Lists
-! Version: 20221030
+! Version: 20221106
 !
 !
 !
@@ -197,6 +197,7 @@ freewechat.com##.freebrowser-ad
 fullxh.com##.wio-dsp-a.wio-dsp-b,.wio-d.bottom-widget-section,.cookie-announce,.xplayer-banner,.promo-message__banner.promo-message
 get.foundation###subpage-intro-video
 get.videolan.org###uecookies
+gfycat.com##.shown.cookieBannerContainer
 gist.github.com##.gist-banner.gist-detail-intro
 gitee.com##.side-toolbar
 gitlab.com##.broadcast-notification-message.broadcast-message
@@ -348,8 +349,9 @@ windows.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 winscp.net##.promo-block
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
 wpf.2000things.com###eu-cookie-law
-www.88dyw.com##.gotop
-www.88ysw.com##.gotop
+www.88dyw.com##.gotop, body > embed[id^="1"]
+www.88ysw.com##.gotop, body > embed[id^="1"]
+www.advancedinstaller.com###sticky-bottom-container
 www.aljazeera.com###article-newsletter-slot
 www.android.com##.cookie-banner
 www.androidcentral.com###slice-container-exitIntent,#newsletter,.socialite-widget
@@ -1252,7 +1254,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||stt.nvidia.com/rest/v1/delivery
 ||subs.theepochtimes.com/lib/api.bundle.js
 ||subs.youmaker.com/lib/userId.bundle.js$domain=www.theepochtimes.com
-||subscribe.washingtonpost.com/offers/service/get-mapped-adot-offer/hd_sub_promo
+||subscribe.washingtonpost.com/offers/service/get-mapped-adot-offer/*_sub_promo
 ||sug.so.360.cn/suggest
 ||support.brave.com/hc/activity
 ||support.discord.com/api/v2/help_center/community/posts/*/stats/view.json
