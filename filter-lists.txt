@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, November 6, 2022
+! Last modified: Friday, November 11, 2022
 ! Title: Custom Filter Lists
-! Version: 20221106
+! Version: 20221111
 !
 !
 !
@@ -587,6 +587,7 @@ www.thetechlounge.com###cookie-law-info-bar
 www.theverge.com###newsletter-signup-short-form
 www.theverge.com##.adblock-allowlist-messaging__wrapper
 www.theverge.com##.c-read-more
+www.thewindowsclub.com###ss-floating-bar
 www.thisdot.co##.social-sidebar,.td-chat-container
 www.thurrott.com##.gdpr-cookie-banner,.logged-out.comments
 www.tldrgames.com###catapult-cookie-bar
