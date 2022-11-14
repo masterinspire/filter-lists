@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, November 13, 2022
+! Last modified: Monday, November 14, 2022
 ! Title: Custom Filter Lists
-! Version: 20221113
+! Version: 20221114
 !
 !
 !
@@ -751,7 +751,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook$domain=cn.bing.com
 ||bitbucket.org/gateway/api/gasv3/api/v1/batch
 ||blog.angular.io/_/batch
-||blog.angular.io/_/graphql
 ||blog.csdn.net/phoenix/web/v1/promotion-info
 ||blogs.windows.com/wp-content/plugins/microsoft-1ds-metrics/assets/microsoft-1ds-metrics-js.js
 ||blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js
@@ -771,7 +770,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||c0.wp.com/p/jetpack/*/_inc/build/widgets/eu-cookie-law/$domain=everything-powershell.com
 ||calnewport.ck.page$domain=www.calnewport.com
 ||canvatechblog.com/_/batch
-||canvatechblog.com/_/graphql
 ||cc-api-data.adobe.io/ingest
 ||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
@@ -853,7 +851,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cordova.apache.org/static/js/twitter.js
 ||creativecloud.adobe.com/browser_mon.js
 ||cryptofireside.com/_/batch
-||cryptofireside.com/_/graphql
 ||cryptofireside.com/_/oh-noes
 ||csdnimg.cn/release/app-blog/sharewx-*.js
 ||cse.google.com/cse.js$third-party,important
@@ -1063,7 +1060,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||mcs.zijieapi.com$domain=jinritemai.com|bytedance.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
 ||medium.com/_/batch
-||medium.com/_/graphql
 ||merak.alicdn.com/delivery/
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader
 ||meter-svc.nytimes.com/meter.js
@@ -1139,7 +1135,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
 ||proandroiddev.com/_/batch
-||proandroiddev.com/_/graphql
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
@@ -1147,7 +1142,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||push-content.springernature.io/*/production_live/consent-bundle-*.js$domain=www.nature.com
 ||pyinstaller.narkive.com/ajax/TelemV2
 ||python.plainenglish.io/_/batch
-||python.plainenglish.io/_/graphql
 ||quantcast.mgr.consensu.org/choice/*/mathworks.com/choice.js$domain=www.mathworks.com
 ||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
 ||query.aliyun.com/rest/delivery.config.customRules.ambassor-delivery-topbar
