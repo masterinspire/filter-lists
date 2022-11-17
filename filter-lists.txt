@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, November 15, 2022
+! Last modified: Thursday, November 17, 2022
 ! Title: Custom Filter Lists
-! Version: 20221115
+! Version: 20221117
 !
 !
 !
@@ -350,6 +350,7 @@ winscp.net##.promo-block
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
 wpf.2000things.com###eu-cookie-law
 www.88dyw.com##.gotop, body > embed[id^="1"]
+www.88dyyw.com###topcontrol.gotop,.leaveNavInfo
 www.88ysw.com##.gotop, body > embed[id^="1"]
 www.advancedinstaller.com###sticky-bottom-container
 www.aljazeera.com###article-newsletter-slot
@@ -662,6 +663,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||abtestvm.bytedance.com/service/2/abtest_config/$domain=jinritemai.com|bytedance.com
 ||access-prod.apis.anvato.net/anvacks/$domain=www.fox5ny.com
 ||account.jetbrains.com/services/consentOptions
+||act-api.cloud.tencent.com/track/create-track
 ||activate.platform.californiatimes.com/caltimes/latimes/serverComponent.php
 ||ad.doubleclick.net$domain=www.history.com,important
 ||addthis.com/js/300/addthis_widget.js$third-party
@@ -1349,6 +1351,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||wpa.b.qq.com/cgi/wpa.php$domain=www.wnwb.com
 ||www.88dyw.com/js/ads/
 ||www.88dyw.com/static/api/js/share.js
+||www.88dyyw.com/aps/index/
 ||www.88ysw.com/js/ads/
 ||www.88ysw.com/static/api/js/share.js
 ||www.afzhan.com/asyncstat.aspx
