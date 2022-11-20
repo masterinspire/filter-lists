@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, November 17, 2022
+! Last modified: Sunday, November 20, 2022
 ! Title: Custom Filter Lists
-! Version: 20221117
+! Version: 20221120
 !
 !
 !
@@ -16,6 +16,7 @@
 /api/v2/sustainability/data/
 /inc/timming.php
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
+@@||docs.vmware.com/uicontent/
 @@||kb.vmware.com/resource/$script
 @@||kb.vmware.com/s/sfsites/$script
 @@||localhost$document
@@ -645,7 +646,7 @@ www.zoho.com##+js(cookie-remover, zip)
 www3.nhk.or.jp###nw_gdpr_view_id
 xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamsterlive.com##.join-me-button
-xhfull.com##.wio-dsp-a.wio-dsp-b,.wio-d.bottom-widget-section,.cookie-announce,.xplayer-banner,.promo-message__banner.promo-message
+xhfull.com##.dyltv-container,.wio-psp-b.wio-psp-a,.cookie-announce,.xplayer-banner,.promo-message__banner.promo-message
 yandex.com##.content__right
 youtrack.jetbrains.com##div[class^="alertContainer_"]
 zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#qb-side
@@ -890,7 +891,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||discord.com/widget?id$domain=fandom.com
 ||disqus.com/count.js
 ||dns-clientinfo.cbsivideo.com/clientinfo
-||docs.vmware.com/c5W9T/w/DS/GPaN/g_QzsEQA/YkaGpccp/WWdFNA/Dw8/UYzEKbyU
+||docs.vmware.com$script
+||docs.vmware.com/uicontent/scripts/analytics/$important
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com|angular-academy.com
@@ -1014,8 +1016,9 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||js.tapd.cn/js_dist/aegis.min.*.js
 ||js.users.51.la/$domain=www.88dyw.com
 ||kb.vmware.com$script
-||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=1
-||kb.vmware.com/s/sfsites/aura?r=*&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
+||kb.vmware.com/s/sfsites/aura?r=*&aura.Component.reportFailedAction=
+||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=
+||kb.vmware.com/s/sfsites/aura?r=*&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=
 ||kotlinlang.org/docs/static/v3/analytics.js
 ||kunpeng.csdn.net/ad/
 ||l.ctrl.blog/visit
@@ -1488,7 +1491,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.textin.com/js/zhugeIO.js
 ||www.theregister.com/design_picker/*/javascript/ads.js
 ||www.ttshitu.com/js/baidu.js
-||www.vmware.com$script
+||www.vmware.com$script,domain=www.vmware.com
 ||www.vmware.com/akam/
 ||www.vmware.com/content/dam/vmwaredesigns/geoip/configs/country-mapping.json
 ||www.vmware.com/etc.clientlibs/vmware-modernize-cms/componentlibrary/components/structure/base/clientlibs/geoippopup.min.js$important
