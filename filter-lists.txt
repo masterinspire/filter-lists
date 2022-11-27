@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, November 20, 2022
+! Last modified: Sunday, November 27, 2022
 ! Title: Custom Filter Lists
-! Version: 20221120
+! Version: 20221127
 !
 !
 !
@@ -424,6 +424,7 @@ www.howtogeek.com##.overlay-wrapper
 www.howtogeek.com##.social-media-buttons
 www.howtogeek.com##.walter-march2021-inpage-style
 www.icann.org##.cookie-notification
+www.independent.co.uk##div[data-newsletter-key="receiveIndyBreakingNews"]
 www.influxdata.com##.contact_sale
 www.influxdata.com##.cookieterms
 www.infoq.com##.share-this-popover
@@ -802,6 +803,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn.subscribers.com/assets/subscribers.js$domain=www.infoworld.com
 ||cdn.syncfusion.com/scripts/albacross/track-new.js
 ||cdn.tinypass.com/api/tinypass.min.js$domain=www.insider.com|www.independent.co.uk|www.businessinsider.com|www.bbc.com
+||cdn.viafoura.net/entry/index.js$domain=www.independent.co.uk
 ||cdnads.geeksforgeeks.org/gfg_ads.min.js
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/$third-party
 ||cdnjs.cloudflare.com/ajax/libs/outdated-browser$domain=npms.io
@@ -1231,6 +1233,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||static-cf.cleverbridge.com/mycontent/1/cleverAnalytics.js
 ||static.addtoany.com$domain=www.historytoday.com|opencv.org|navicat.com|thehustle.co
 ||static.adzerk.net/ados.js$third-party
+||static.apester.com/js/sdk/latest/apester-sdk.js$domain=www.independent.co.uk
 ||static.bshare.cn/b/button*
 ||static.cdn.adultswim.com/tools/global/user-consent-*.min.js
 ||static.cimcontent.net/data-layer/
