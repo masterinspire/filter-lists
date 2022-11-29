@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, November 27, 2022
+! Last modified: Tuesday, November 29, 2022
 ! Title: Custom Filter Lists
-! Version: 20221127
+! Version: 20221129
 !
 !
 !
@@ -660,6 +660,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||a.apkpure.com/api-shares.json$domain=apkpure.com
 ||a.apkpure.com/dt_report_v*.js$domain=apkpure.com
 ||a.apkpure.com/dt_sdk_v*.js$domain=apkpure.com
+||a.app.qq.com/o/process-report
+||a.app.qq.com/o/report
 ||a.clipconverter.cc/www/d/fr.php
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||abtestvm.bytedance.com/service/2/abtest_config/$domain=jinritemai.com|bytedance.com
@@ -967,7 +969,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||google-developers.gonglchuangl.net/sw.js
 ||googleads.g.doubleclick.net$important
 ||gowatchseries.ch/anclytic.html
-||gql.reddit.com/
 ||gradle.org/climate-strike/widget.js
 ||gradle.org/js/event-tracker.js
 ||graph.facebook.com/$third-party
@@ -1106,6 +1107,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||nohost/query
 ||nsfw.guangdong.chinatax.gov.cn/zndb/html_for_consulting_service_js/index.html$subdocument,domain=dppt.guangdong.chinatax.gov.cn
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
+||open.rocket.chat/api/v1/livechat/page.visited
 ||open.spotify.com/$domain=blog.logrocket.com
 ||opencv.org/wp-admin/admin-ajax.php
 ||organiccdn.io/assets/sdk/unit-sdk.js$domain=www.thedrive.com
