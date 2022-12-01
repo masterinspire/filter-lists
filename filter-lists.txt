@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, November 30, 2022
+! Last modified: Thursday, December 1, 2022
 ! Title: Custom Filter Lists
-! Version: 20221130
+! Version: 20221201
 !
 !
 !
@@ -532,10 +532,7 @@ www.residentcontrarian.com##.post-end-cta-full
 www.residentcontrarian.com##.subscribe-footer
 www.residentcontrarian.com##div.subscribe-widget
 www.residentcontrarian.com##p.button-wrapper[data-attrs*='"text":"Share"']
-www.reuters.com##div[class*="registration-prompt__container__"]
-www.reuters.com##div[class^="article-header__buttons__"]
-www.reuters.com##div[class^="regular-article-layout__newsletter__"]
-www.reuters.com##nav[class^="toolbar__container__"]
+www.reuters.com##div[class*="registration-prompt__container__"],div[class^="article-header__buttons__"],div[class^="article-prompt__"],div[class^="regular-article-layout__newsletter__"],nav[class^="toolbar__container__"]
 www.reviewgeek.com###v2campaignmidpage
 www.reviewgeek.com###v2campaignpopup
 www.reviewgeek.com###v2campaignpopup_backdrop
@@ -613,7 +610,7 @@ www.usatoday.com##.gnt_em_vp_c[data-g-s="vp_dk"],.gnt_m_fs.gnt_m
 www.usatoday.com##aside[aria-label="Newsletter signup form"],form[aria-label="Sign up for newsletter: The Short List"],aside[aria-label^="Video -" ]
 www.vg247.com##.newsletter-signup-wrapper
 www.vice.com##.article-newsletter-signup
-www.washingtonpost.com##.softwall-overlay
+www.washingtonpost.com##.softwall-overlay,div[data-qa="subscribe-promo"]
 www.whitehouse.gov##.shares-simple.social-nav
 www.wikihow.com###article_courses_banner
 www.wikihow.com###contribute_footer
