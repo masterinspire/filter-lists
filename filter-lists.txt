@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, December 1, 2022
+! Last modified: Sunday, December 4, 2022
 ! Title: Custom Filter Lists
-! Version: 20221201
+! Version: 20221204
 !
 !
 !
@@ -449,7 +449,7 @@ www.jetbrains.com##DIV[id="pseudo-footer"]
 www.keycdn.com##.cookies-warning
 www.laptopmag.com###slice-container-exitIntent
 www.laptopmag.com##+js(cookie-remover, FTR_Country_Code)
-www.latimes.com###ensNotifyBanner,.page-actions-sticky,metering-bottompanel
+www.latimes.com###ensNotifyBanner,.page-actions-sticky,[name="metering-bottompanel"]
 www.learnrazorpages.com###cookie-warning
 www.linuxeden.com##.bdsharebuttonbox.action-share
 www.listennotes.com###ln-side-share-div
@@ -1258,6 +1258,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||stats.framasoft.org//p.js
 ||storage.googleapis.com/crdx-feedback.appspot.com/feedback.js
 ||store.google.com/_/Gstore/jserror
+||store.steampowered.com/app/usabilitytracking/
 ||store.steampowered.com/default/usabilitytracking/
 ||stripe.com$domain=gitbook.com
 ||stt.nvidia.com/rest/v1/delivery
