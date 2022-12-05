@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, December 4, 2022
+! Last modified: Monday, December 5, 2022
 ! Title: Custom Filter Lists
-! Version: 20221204
+! Version: 20221205
 !
 !
 !
@@ -697,6 +697,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||api.cxense.com/public/widget/data$domain=www.wsj.com,important
 ||api.dec.sitefinity.com/collect/
 ||api.eu-west-1.aiv-delivery.net/Events/$domain=www.primevideo.com
+||api.gitbook.com/v1/spaces/*/insights/track_view
 ||api.github.com/_private/browser/errors
 ||api.github.com/_private/browser/stats
 ||api.honeybadger.io/v1/notices/js$domain=dev.to
@@ -1207,6 +1208,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||sentry.matrix.org$domain=gitter.im
 ||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
 ||services.fandom.com/event-logger/debug
+||services.fandom.com/icbm/api/loader?app=
+||services.fandom.com/recommendations/recommendations
 ||sharethis.com$third-party
 ||signup.azure.com/api/clientlog
 ||silkroad.csdn.net/api/v2/assemble/list/channel/pc_hot_word
@@ -1252,6 +1255,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||static.scroll.com/js/scroll.js$third-party,important
 ||static.telegraph.co.uk/telegraph-advertising/$important
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
+||static.wikia.nocookie.net/silversurfer/
 ||statistic.csdn.net/adblock?step=install
 ||statistic.csdn.net/baidu_search_success
 ||stats.ccleanerbrowser.com/
