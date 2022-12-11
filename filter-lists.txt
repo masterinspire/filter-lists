@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, December 5, 2022
+! Last modified: Sunday, December 11, 2022
 ! Title: Custom Filter Lists
-! Version: 20221205
+! Version: 20221211
 !
 !
 !
@@ -287,6 +287,7 @@ riptutorial.com##.container-download-pdf-section
 riptutorial.com##.section-aside.col-lg-2
 rufus.ie###cookie-notice
 rustdesk.com##.cookie-consent
+screenrant.com##.w-youtube.w-rich
 search.brave.com###search-elsewhere
 searchfox.org###context-menu
 segmentfault.com##.float-ads
@@ -350,6 +351,7 @@ who.is##.teaser-bar
 who.is##a[data-label="whois name.com above banner"]
 windows.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 winscp.net##.promo-block
+wordpress.com##.widget_eu_cookie_law_widget.widget
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
 wpf.2000things.com###eu-cookie-law
 www.88dyw.com##.gotop, body > embed[id^="1"]
@@ -998,6 +1000,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||img1.ph-126.net/google.js$domain=www.javatpoint.com
 ||imgcache.qq.com/qcloud/platreport/dest/index.js$domain=cloud.tencent.com
 ||imgcache.qq.com/tencentvideo_v1/player/plugins/RelevanceAd.swf
+||inference-review.com/webpack/src/*/cookieconsent.min
 ||insight.cloud.tencent.com/event$domain=cloud.tencent.com
 ||intellij-support.jetbrains.com/hc/activity
 ||interact.f5.com/rs/*/images/munchkinxd-*.js$domain=www.nginx.com
@@ -1210,6 +1213,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||services.fandom.com/event-logger/debug
 ||services.fandom.com/icbm/api/loader?app=
 ||services.fandom.com/recommendations/recommendations
+||services.fandom.com/wiki-recommendations/sponsored-articles/article
 ||sharethis.com$third-party
 ||signup.azure.com/api/clientlog
 ||silkroad.csdn.net/api/v2/assemble/list/channel/pc_hot_word
