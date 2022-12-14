@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, December 11, 2022
+! Last modified: Wednesday, December 14, 2022
 ! Title: Custom Filter Lists
-! Version: 20221211
+! Version: 20221214
 !
 !
 !
@@ -251,6 +251,7 @@ mrsteinberg.com##.entry-meta-bottom > .comments2
 mui.com##[aria-label="Diamond Sponsors"]
 mui.com##[data-ga-event-category="ad"]
 mui.com##[data-ga-event-category="sponsor"]
+mullvad.net###connection-status
 music.taihe.com##.__qianqian_qrcode
 navicat.com##.cookies-container
 news.softpedia.com###cookienotif
@@ -783,6 +784,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||canvatechblog.com/_/batch
 ||cc-api-data.adobe.io/ingest
 ||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
+||cdn-cookieyes.com/$domain=devhub.checkmarx.com
 ||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js
@@ -1006,6 +1008,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||interact.f5.com/rs/*/images/munchkinxd-*.js$domain=www.nginx.com
 ||ionicframeworkcom.prismic.io/api/v2$third-party
 ||ipinfo.io$third-party
+||ipv4.am.i.mullvad.net/json
 ||isdspeed.qidian.com/cgi-bin/r.cgi
 ||isdspeed.qq.com/cgi-bin/r.cgi
 ||issuetracker.google.com/jserror
