@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, December 14, 2022
+! Last modified: Sunday, December 25, 2022
 ! Title: Custom Filter Lists
-! Version: 20221214
+! Version: 20221225
 !
 !
 !
@@ -513,7 +513,7 @@ www.opera.com###cookie-consent
 www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com##.upsell.container.product__author
 www.partitionwizard.com##.bottom-cookie-wrap
-www.pcgamer.com###slice-container-exitIntent,.newsletter-signup
+www.pcgamer.com###slice-container-exitIntent,.newsletter-signup,#slice-container-newsletterForm-articleInbodyContent
 www.pcgamer.com##+js(cookie-remover, FTR_Country_Code)
 www.pdfforge.org##.gdpr-cookieconsent-overlay,.gdpr-cookieconsent-settings
 www.perltutorial.org###back-to-top,.helpful-block-content,.ad
@@ -567,7 +567,7 @@ www.tapd.cn##.bind-phone-tips
 www.tapd.cn##.editor-content.comment_type_text:style(overflow:auto !important;)
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked
-www.techradar.com###slice-container-exitIntent,.newsletter-signup,#slice-container-affiliateDisclaimerBar
+www.techradar.com###slice-container-exitIntent,.newsletter-signup,#slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent
 www.techradar.com##+js(cookie-remover, FTR_Country_Code)
 www.telegraph.co.uk##.article__end-meta
 www.telegraph.co.uk##.article__layout--sidebar.article__layout
@@ -1115,6 +1115,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||nitrogenpleahierarchy.com$domain=vidembed.cc|vidembed.net
 ||nohost/query
 ||nsfw.guangdong.chinatax.gov.cn/zndb/html_for_consulting_service_js/index.html$subdocument,domain=dppt.guangdong.chinatax.gov.cn
+||old.bunny.net/landingpage/js/cookieconsent.min.js
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||open.rocket.chat/api/v1/livechat/page.visited
 ||open.spotify.com/$domain=blog.logrocket.com
