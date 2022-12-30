@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, December 25, 2022
+! Last modified: Friday, December 30, 2022
 ! Title: Custom Filter Lists
-! Version: 20221225
+! Version: 20221230
 !
 !
 !
@@ -88,7 +88,7 @@ cloud.tencent.com##.rno-documents-tools.rno-scrollbar-tools
 cloud.tencent.com##.select-feedback-tip
 club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt,#wikiWidgetContainer
-cn.bing.com###b_mtp,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper
+cn.bing.com###b_mtp,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper,#relatedSearchesLGWContainer
 cn.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
@@ -513,7 +513,7 @@ www.opera.com###cookie-consent
 www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com##.upsell.container.product__author
 www.partitionwizard.com##.bottom-cookie-wrap
-www.pcgamer.com###slice-container-exitIntent,.newsletter-signup,#slice-container-newsletterForm-articleInbodyContent
+www.pcgamer.com###slice-container-exitIntent,.newsletter-signup,#slice-container-newsletterForm-articleInbodyContent,.related-articles-block
 www.pcgamer.com##+js(cookie-remover, FTR_Country_Code)
 www.pdfforge.org##.gdpr-cookieconsent-overlay,.gdpr-cookieconsent-settings
 www.perltutorial.org###back-to-top,.helpful-block-content,.ad
