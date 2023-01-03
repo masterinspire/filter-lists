@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, December 30, 2022
+! Last modified: Tuesday, January 3, 2023
 ! Title: Custom Filter Lists
-! Version: 20221230
+! Version: 20230103
 !
 !
 !
@@ -45,6 +45,7 @@ auth0.com###popup
 auth0.com###selectionSharerPopover
 aws.amazon.com##.aws-cn-optin
 baike.baidu.com###side-share,.wgt-baikeapp-promote-container
+bbcc.fby2.com###ac_tips
 bbs.csdn.net##.recommendList,.rates-outer,.content-right-recommend
 blog.angular.io##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 blog.codecentric.de###BorlabsCookieBox
@@ -356,7 +357,7 @@ wordpress.com##.widget_eu_cookie_law_widget.widget
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
 wpf.2000things.com###eu-cookie-law
 www.88dyw.com##.gotop, body > embed[id^="1"]
-www.88dyyw.com###topcontrol.gotop,.leaveNavInfo
+www.88dyyw.com###topcontrol,.leaveNavInfo,.light_switch
 www.88ysw.com##.gotop, body > embed[id^="1"]
 www.advancedinstaller.com###sticky-bottom-container
 www.aljazeera.com###article-newsletter-slot
