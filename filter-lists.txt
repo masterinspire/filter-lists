@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, January 3, 2023
+! Last modified: Thursday, January 5, 2023
 ! Title: Custom Filter Lists
-! Version: 20230103
+! Version: 20230105
 !
 !
 !
@@ -567,7 +567,7 @@ www.tapd.cn###notice_count
 www.tapd.cn##.bind-phone-tips
 www.tapd.cn##.editor-content.comment_type_text:style(overflow:auto !important;)
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
-www.techonthenet.com##.adsblocked
+www.techonthenet.com##.adsblocked,#sabl
 www.techradar.com###slice-container-exitIntent,.newsletter-signup,#slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent
 www.techradar.com##+js(cookie-remover, FTR_Country_Code)
 www.telegraph.co.uk##.article__end-meta
@@ -705,6 +705,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||api.github.com/_private/browser/errors
 ||api.github.com/_private/browser/stats
 ||api.honeybadger.io/v1/notices/js$domain=dev.to
+||api.hyshenzhen.com/api/mallv2/common/analysisData
 ||api.icy-lake.kickstarter.com/v1/t
 ||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
 ||api.ipfind.com/me
@@ -1427,6 +1428,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.facebook.com/plugins/page.php$third-party
 ||www.favicon.cc/js/osano/cookieconsent.min.js
 ||www.feedly.com/amplitude
+||www.figma.com/api/figment-proxy/monitor
+||www.figma.com/api/geoip
 ||www.flash.cn/support/statistics
 ||www.forbes.com/forbesapi/promote/get.json
 ||www.forbes.com/statsapi
