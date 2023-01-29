@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, January 26, 2023
+! Last modified: Sunday, January 29, 2023
 ! Title: Custom Filter Lists
-! Version: 20230126
+! Version: 20230129
 !
 !
 !
@@ -182,8 +182,6 @@ entityframework.net##.container-fluid.page-header-calltoaction
 entityframework.net##div[aria-label="cookieconsent"]
 entityframeworkcore.com##.container-fluid.page-header-calltoaction
 entityframeworkcore.com##div[aria-label="cookieconsent"]
-eslint.org##.eslint-ad
-eslint.org##main.blog > article > footer
 everything-powershell.com##.widget_eu_cookie_law_widget.widget
 exceljet.net###block-views-courses-block-block
 exceljet.net###block-views-front-testimonials-block
@@ -368,6 +366,7 @@ www.androidcentral.com##+js(cookie-remover, FTR_Country_Code)
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
 www.apkmirror.com###bottom-slider
+www.autohotkey.com###v2banner
 www.baidu.com###content_right,.selected-search-box
 www.baike.com##.search-recom
 www.bbc.com##.lx-stream-post__footer > .lx-stream-post__footer-share
