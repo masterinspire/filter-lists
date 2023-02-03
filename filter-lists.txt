@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, January 29, 2023
+! Last modified: Friday, February 3, 2023
 ! Title: Custom Filter Lists
-! Version: 20230129
+! Version: 20230203
 !
 !
 !
@@ -334,6 +334,7 @@ thesolving.com##div[id^="sponsor-box-"]
 tieba.baidu.com###spage-tbshare-container,.app_download_box,.tbui_aside_float_bar
 time.is###important_info
 tkdocs.com###ebookad,#signup-wrapper
+toolslick.com###cookie-consent
 tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm,#CoverB,#QRCode
 twitter.com##div[data-testid="BottomBar"]
@@ -361,7 +362,7 @@ www.88ysw.com##.gotop, body > embed[id^="1"]
 www.advancedinstaller.com###sticky-bottom-container
 www.aljazeera.com###article-newsletter-slot
 www.android.com##.cookie-banner
-www.androidcentral.com###slice-container-exitIntent,#newsletter,.socialite-widget
+www.androidcentral.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.androidcentral.com##+js(cookie-remover, FTR_Country_Code)
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
@@ -451,13 +452,13 @@ www.jetbrains.com##DIV[id="bart_wrapper"]
 www.jetbrains.com##DIV[id="country-offer-placeholder"]
 www.jetbrains.com##DIV[id="pseudo-footer"]
 www.keycdn.com##.cookies-warning
-www.laptopmag.com###slice-container-exitIntent
+www.laptopmag.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.laptopmag.com##+js(cookie-remover, FTR_Country_Code)
 www.latimes.com###ensNotifyBanner,.page-actions-sticky,[name="metering-bottompanel"]
 www.learnrazorpages.com###cookie-warning
 www.linuxeden.com##.bdsharebuttonbox.action-share
 www.listennotes.com###ln-side-share-div
-www.livescience.com###slice-container-exitIntent,.newsletter-signup
+www.livescience.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.livescience.com##+js(cookie-remover, FTR_Country_Code)
 www.lookip.net##[aria-label="cookieconsent"]
 www.merriam-webster.com###cite-anchor
@@ -514,7 +515,7 @@ www.opera.com###cookie-consent
 www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com##.upsell.container.product__author
 www.partitionwizard.com##.bottom-cookie-wrap
-www.pcgamer.com###slice-container-exitIntent,.newsletter-signup,#slice-container-newsletterForm-articleInbodyContent,.related-articles-block
+www.pcgamer.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.pcgamer.com##+js(cookie-remover, FTR_Country_Code)
 www.pdfforge.org##.gdpr-cookieconsent-overlay,.gdpr-cookieconsent-settings
 www.perltutorial.org###back-to-top,.helpful-block-content,.ad
@@ -568,7 +569,7 @@ www.tapd.cn##.bind-phone-tips
 www.tapd.cn##.editor-content.comment_type_text:style(overflow:auto !important;)
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked,#sabl
-www.techradar.com###slice-container-exitIntent,.newsletter-signup,#slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent
+www.techradar.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.techradar.com##+js(cookie-remover, FTR_Country_Code)
 www.telegraph.co.uk##.article__end-meta
 www.telegraph.co.uk##.article__layout--sidebar.article__layout
@@ -619,7 +620,7 @@ www.whitehouse.gov##.shares-simple.social-nav
 www.wikihow.com###article_courses_banner
 www.wikihow.com###contribute_footer
 www.wilderssecurity.com##.bottomFixer
-www.windowscentral.com###slice-container-exitIntent,.newsletter-signup,#slice-container-affiliateDisclaimerBar
+www.windowscentral.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.windowscentral.com##+js(cookie-remover, FTR_Country_Code)
 www.wintips.org##.cresta-share-icon
 www.wired.co.uk##.social-icons--share.social-icons
@@ -803,7 +804,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn.livechatinc.com/tracking.js
 ||cdn.openinstall.io/openinstall.js$domain=csdn.net
 ||cdn.playwire.com/$domain=www.slant.co|softonic.com,important
-||cdn.privacy-mgmt.com/$domain=www.wsj.com
+||cdn.privacy-mgmt.com/$third-party
 ||cdn.ravenjs.com/*/raven.min.js$domain=pypi.org
 ||cdn.search.brave.com/ks.json
 ||cdn.search.brave.com/serp/v1/static/serp-js/telemetry/
