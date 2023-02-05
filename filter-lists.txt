@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, February 3, 2023
+! Last modified: Sunday, February 5, 2023
 ! Title: Custom Filter Lists
-! Version: 20230203
+! Version: 20230205
 !
 !
 !
@@ -234,7 +234,7 @@ letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
-localxh.com##.dyltv-container,.wio-psp-b.wio-psp-a,.cookie-announce,.xplayer-banner,.promo-message__banner.promo-message
+localxh.com##div[data-role="wio-ebanner-underplayer"],.bottom-widget-section.wio-e,.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-banner,.xplayer-hover-menu
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
 marketplace.visualstudio.com###survey-container
@@ -1360,6 +1360,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||vmssoftware.com/js/jquery-eu-cookie-law-popup.js
 ||vortex.data.microsoft.com/collect
 ||waplog.thepaper.cn/$domain=www.sixthtone.com
+||watchnewpics.info/api/request/v1/$domain=localxh.com
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
 ||web-player.art19.com/assets/current.js$domain=www.merriam-webster.com
 ||web.vortex.data.microsoft.com/collect
