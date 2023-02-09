@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, February 5, 2023
+! Last modified: Thursday, February 9, 2023
 ! Title: Custom Filter Lists
-! Version: 20230205
+! Version: 20230209
 !
 !
 !
@@ -868,6 +868,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||creativecloud.adobe.com/browser_mon.js
 ||cryptofireside.com/_/batch
 ||cryptofireside.com/_/oh-noes
+||cs.android.com/_/jserror
+||cs.android.com/v1/logging
 ||csdnimg.cn/release/app-blog/sharewx-*.js
 ||cse.google.com/cse.js$third-party,important
 ||csp.yandex.net/csp$domain=yandex.com
@@ -1234,7 +1236,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||socket.jisuan.mobi/$domain=bianma.supfree.net
 ||solo41.biz$domain=www.tutorialspoint.com
 ||source.chromium.org/_/jserror
-||source.chromium.org/v1/logging:logClientAction
+||source.chromium.org/v1/logging
 ||sourcepoint.theguardian.com/unified/wrapperMessagingWithoutDetection.js
 ||sp.replit.com/v1/p
 ||sp3.baidu.com/*/ps_fp.htm
