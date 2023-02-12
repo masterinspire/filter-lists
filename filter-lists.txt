@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, February 9, 2023
+! Last modified: Sunday, February 12, 2023
 ! Title: Custom Filter Lists
-! Version: 20230209
+! Version: 20230212
 !
 !
 !
@@ -32,11 +32,6 @@ ai.baidu.com##.ai-aside,.feedback-wrapper
 androidwave.com##.onp-sl-overlap-box
 angular-academy.com##.share
 angular.io##aio-cookies-popup
-apkpure.com###ad-aegon-side
-apkpure.com###policy-info
-apkpure.com##.adsbypure
-apkpure.com##.left > .ad-box-auto
-apkpure.com##.share-fixed
 arcanecode.com##.widget_eu_cookie_law_widget.widget
 archive.org##footer
 askubuntu.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
@@ -44,6 +39,7 @@ astrid.tech###__next > div[style="width: 100vw; position: fixed; bottom: 0px; ba
 auth0.com###popup
 auth0.com###selectionSharerPopover
 aws.amazon.com##.aws-cn-optin
+baidu.com###tab_news_1,.his-no-rec-p.his-no-rec,.rw-list-container2.rw-list-container > .c-line-clamp1,.se-page-copyright,div[srcid="recommend_video_normal"]
 baike.baidu.com###side-share,.wgt-baikeapp-promote-container
 bbcc.fby2.com###ac_tips
 bbs.csdn.net##.recommendList,.rates-outer,.content-right-recommend
@@ -175,7 +171,6 @@ earth.google.com##earth-experimental-toolbar
 edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
 embed.plnkr.co##.plunker-ad-wrap
-en.greatfire.org###youtube
 engineering.fb.com###GDPRConsentBar
 entityframework.net###modal-with-graph
 entityframework.net##.container-fluid.page-header-calltoaction
@@ -234,7 +229,8 @@ letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
-localxh.com##div[data-role="wio-ebanner-underplayer"],.bottom-widget-section.wio-e,.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-banner,.xplayer-hover-menu
+localxh.com##.wixx-e.wixx-eright-rectangle--video.wixx-eright-rectangle,.wixx-epremium-overlay
+localxh.com##div[data-role="wixx-ebanner-underplayer"],.bottom-widget-section.wio-e,.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-banner,.xplayer-hover-menu
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
 marketplace.visualstudio.com###survey-container
@@ -661,9 +657,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||*.xyz$domain=88dyw.com|88ysw.com
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
-||a.apkpure.com/api-shares.json$domain=apkpure.com
-||a.apkpure.com/dt_report_v*.js$domain=apkpure.com
-||a.apkpure.com/dt_sdk_v*.js$domain=apkpure.com
 ||a.app.qq.com/o/process-report
 ||a.app.qq.com/o/report
 ||a.clipconverter.cc/www/d/fr.php
@@ -674,6 +667,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||act-api.cloud.tencent.com/track/create-track
 ||activate.platform.californiatimes.com/caltimes/latimes/serverComponent.php
 ||ad.doubleclick.net$domain=www.history.com,important
+||ada.baidu.com/udpl
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||admin.qidian.qq.com/ar/ActCap/ActRpt$domain=www.eassos.cn
 ||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn|www.eassos.cn
@@ -817,7 +811,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdnads.geeksforgeeks.org/gfg_ads.min.js
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/$third-party
 ||cdnjs.cloudflare.com/ajax/libs/outdated-browser$domain=npms.io
-||cdnpure.com/static/share-button/$domain=apkpure.com
 ||cdns.gigya.com/JS/gigya.js$domain=www.history.com
 ||centralus-*.in.applicationinsights.azure.com//v2/track
 ||champagne.futurecdn.net/champagne.js$domain=www.livescience.com
@@ -936,6 +929,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||exmail.qq.com/qy_mng_logic/reportKV
 ||experience.tinypass.com/$domain=www.telegraph.co.uk
 ||f.convertkit.com/ckjs/$domain=calebschoepp.com|calnewport.com
+||feed.baidu.com/feed/api/tab/gettabinfo
 ||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
 ||file1.sixthtone.com/js/news_detail.js$domain=www.sixthtone.com
 ||file1.sixthtone.com/js/newsletter.js$domain=www.sixthtone.com
@@ -1066,6 +1060,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||login.httptoolkit.tech/user/geoloc/country
 ||login.microsoftonline.com/common/instrumentation/reportstaticmecontroltelemetry
 ||logs.game.qq.com/easnew/go/eas.php
+||m.baidu.com/sugrec
+||m.baidu.com/tc
 ||m.mi.com/v1/apkversion/download_guide
 ||m.servedby-buysellads.com/monetization.js
 ||m.vivibb.com/index.php/user/ajax_ulog/
@@ -1076,7 +1072,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||marketplace.visualstudio.com/_apis/customerintelligence/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
 ||material.io/api/country_code
-||mbd.baidu.com/tcbox?action=pblog
+||mbd.baidu.com/tcbox
+||mbd.baidu.com/ztbox
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
 ||mcs.snssdk.com$domain=jinritemai.com|bytedance.com
 ||mcs.zijieapi.com$domain=jinritemai.com|bytedance.com
@@ -1239,6 +1236,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||source.chromium.org/v1/logging
 ||sourcepoint.theguardian.com/unified/wrapperMessagingWithoutDetection.js
 ||sp.replit.com/v1/p
+||sp1.baidu.com/*/mwb.gif
+||sp1.baidu.com/*/webb.gif
 ||sp3.baidu.com/*/ps_fp.htm
 ||srv.realpython.net/call/$domain=realpython.com
 ||ss*.baidu.com/*/ps_default.gif
@@ -1391,6 +1390,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.androidcentral.com/_gap/cyhtvaf/hn/linkid.js
 ||www.atlassian.com/endpoint/preferencesV2/consent-config
 ||www.baidu.com/con?from=zhidao
+||www.baidu.com/rec
 ||www.baidu.com/sugrec
 ||www.bbc.com/wc-data/container/consent-banner
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetHeaderAd
