@@ -2,13 +2,16 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, February 12, 2023
+! Last modified: Monday, February 13, 2023
 ! Title: Custom Filter Lists Breaking
-! Version: 20230212
+! Version: 20230213
 !
 !
 !
 blog.csdn.net##.passport-login-container
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/jackett"])
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/kmymoney"])
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/oh-my-posh"])
 github.com##div.header-menu-wrapper > nav
 search.brave.com##.snippet.fdb > a.result-header[href^="https://blog.csdn.net/"]
 search.brave.com##.snippet.fdb > a.result-header[href^="https://blog.csdn.net/"] ~ .snippet-content
