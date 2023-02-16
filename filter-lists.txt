@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, February 12, 2023
+! Last modified: Thursday, February 16, 2023
 ! Title: Custom Filter Lists
-! Version: 20230212
+! Version: 20230216
 !
 !
 !
@@ -87,7 +87,7 @@ club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt,#wikiWidgetContainer
 cn.bing.com###b_mtp,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper,#relatedSearchesLGWContainer
 cn.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer
-cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop
+cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop,#textDeeplinksWidgetContainer
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
 community.ccleaner.com###elGuestTerms
@@ -517,6 +517,7 @@ www.pdfforge.org##.gdpr-cookieconsent-overlay,.gdpr-cookieconsent-settings
 www.perltutorial.org###back-to-top,.helpful-block-content,.ad
 www.piratewires.com##.subscribe-footer,.subscribe-widget
 www.positronx.io###cookie
+www.programiz.com##.notice-bar-top
 www.prosus.com##.pp_quickshare_tools
 www.pythontutorial.net###back-to-top,.helpful-block-content,.ad
 www.qt.io##.b-article__share-footer
@@ -765,6 +766,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bordeaux.futurecdn.net/bordeaux.js$domain=www.livescience.com
 ||borncity.com/win/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||bravesoftware.zendesk.com/auth/v2/host.js$domain=support.brave.com
+||browser.events.data.msn.cn/
 ||browser.sentry-cdn.com/*/bundle.min.js$domain=www.jetbrains.com
 ||btrace.video.qq.com/collect
 ||btrace.video.qq.com/kvcollect
@@ -1268,6 +1270,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||static.telegraph.co.uk/telegraph-advertising/$important
 ||static.tianyaui.com/qy/adsame/ads-key-dict.js
 ||static.wikia.nocookie.net/silversurfer/
+||staticview.msn.cn/pcs/api/widget/bingHomepage/widgetfeed
 ||statistic.csdn.net/adblock?step=install
 ||statistic.csdn.net/baidu_search_success
 ||stats.ccleanerbrowser.com/
@@ -1473,6 +1476,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.met.police.uk/Layout/AnalyticsJson
 ||www.microsofttranslator.com/$third-party
 ||www.mozilla.org/country-code.json
+||www.msn.cn/pcs/api/widget/bingHomepage/widgetfeed
 ||www.newstatesman.com/wp-content/plugins/nsmg-evolok-paywall/
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nokia.com/phones/*/external/cookie_consent
