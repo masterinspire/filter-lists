@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, February 16, 2023
+! Last modified: Saturaty, February 25, 2023
 ! Title: Custom Filter Lists
-! Version: 20230216
+! Version: 20230225
 !
 !
 !
@@ -574,8 +574,7 @@ www.telegraph.co.uk##.subscribe-banner
 www.telegraph.co.uk##.u-separator--branded.u-separator-bottom--loose.comment__login
 www.telegraph.co.uk##div.section.html-embed
 www.telerik.com##.optanon-alert-box-wrapper
-www.tenforums.com###cookiescript_injected
-www.tenforums.com###snigel-cmp-framework
+www.tenforums.com##.body_wrapper > div > div[style="height:280px !important;"],.garsearch
 www.tensorflow.org##.devsite-banner-announcement.devsite-banner
 www.tensorflow.org##devsite-thumb-rating
 www.tensorflow.org##devsite-youtube
@@ -1108,6 +1107,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
+||needlessnorth.com/$domain=www.usatoday.com
 ||news.google.com/$domain=www.nytimes.com
 ||news.google.com/_/DotsSplashUi/jserror
 ||nexus-websocket-*.intercom.io/client-test
@@ -1207,6 +1207,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||script.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
 ||scrm-wx.weiling.cn/api/website/track$domain=sunlogin.oray.com
 ||sdk.51.la/js-sdk-pro.min.js$third-party
+||sdk.mrf.io/statics/marfeel-sdk.js$domain=www.ghacks.net
+||sdk.privacy-center.org/*/loader.js$domain=www.ghacks.net
 ||search-api.fie.future.net.uk/widget.php$domain=www.livescience.com|www.androidcentral.com
 ||search-api.fie.futurecdn.net/js/w/es6/responsive.js$domain=www.livescience.com|www.androidcentral.com
 ||search.brave.com/api/feedback
@@ -1306,6 +1308,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||tam.cdn-go.cn/aegis-sdk/$domain=qq.com|tapd.cn
 ||target.microsoft.com/rest/v1/delivery$important
 ||tb.pagetest.top/$domain=www.88dyw.com
+||tdl.tapd.cn/tfl/js_dist/tracker-*.js
 ||techcommunity.microsoft.com/beacon/*.gif
 ||techcommunity.microsoft.com/html/js/lib/webvitals-js/webvitals.js
 ||techdocs.akamai.com/network-lists/pageview
