@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturaty, February 25, 2023
+! Last modified: Tuesday, February 28, 2023
 ! Title: Custom Filter Lists
-! Version: 20230225
+! Version: 20230228
 !
 !
 !
@@ -764,6 +764,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js
 ||bordeaux.futurecdn.net/bordeaux.js$domain=www.livescience.com
 ||borncity.com/win/wp-admin/admin-ajax.php?action=koko_analytics_collect
+||boundlessbrake.com/$domain=www.usatoday.com
 ||bravesoftware.zendesk.com/auth/v2/host.js$domain=support.brave.com
 ||browser.events.data.msn.cn/
 ||browser.sentry-cdn.com/*/bundle.min.js$domain=www.jetbrains.com
@@ -873,6 +874,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||data.services.jetbrains.com/geo
 ||datacollect.vmall.com:18443$third-party
 ||datatables.net/media/js/dynamic.php
+||datum.jsdelivr.com/js/script.js
 ||dbeaver.io/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
 ||dc.services.visualstudio.com/v2/track
 ||dd.nytimes.com/tags.js
