@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, February 28, 2023
+! Last modified: Friday, March 3, 2023
 ! Title: Custom Filter Lists
-! Version: 20230228
+! Version: 20230303
 !
 !
 !
@@ -255,6 +255,7 @@ nginx.org###banner
 nokia.com###cmp-modal
 office.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 open-vsx.org##div[aria-label="cookieconsent"]
+open.dingtalk.com##.styles-float
 opencv.org###elementor-popup-modal-11769
 opencv.org###elementor-popup-modal-12574
 opencv.org##.homepage-email-icon
@@ -364,7 +365,7 @@ www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
 www.apkmirror.com###bottom-slider
 www.autohotkey.com###v2banner
-www.baidu.com###content_right,.selected-search-box
+www.baidu.com###content_right,.selected-search-box,#content_left div[data-placeid]
 www.baike.com##.search-recom
 www.bbc.com##.lx-stream-post__footer > .lx-stream-post__footer-share
 www.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer
@@ -718,6 +719,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||app.slickstream.com/d/page-boot-data$domain=linuxhint.com
 ||app.termly.io/embed.min.js$domain=www.thisdot.co
+||appc.baidu.com/appsrv?action=appdistributionlog&native_api=1
 ||apps.mypurecloud.com/journey/sdk/js/web/v1/ac.js=$domain=www.shutterstock.com
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
 ||arc.msn.com/v4/api/selection$domain=support.microsoft.com|answers.microsoft.com
@@ -1517,6 +1519,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.sitepoint.com/ads.js
 ||www.slant.co/geolocation
 ||www.snapchat.com/cookies/api/user_location
+||www.sourcetreeapp.com/gateway/api/gasv3/api/v1/batch
 ||www.ssh.com/api/content/v1/dynamic
 ||www.ssh.com/trk
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
@@ -1549,6 +1552,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||xhamsterlive.com/api/front/v2/logs
 ||xui.ptlogin2.qq.com/ptui_ver.js
 ||xunit-slackin.herokuapp.com/slackin.js$domain=xunit.net
+||xux-web-config.oss-accelerate.aliyuncs.com/aes-config/*/qnrForm.json$domain=dingtalk.com
 ||youtrack.jetbrains.com/api/analytics
 ||zhidao.baidu.com/api/httpscheck
 ||zhidao.baidu.com/api/qbpv
