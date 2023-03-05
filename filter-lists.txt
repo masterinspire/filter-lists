@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, March 3, 2023
+! Last modified: Sunday, March 5, 2023
 ! Title: Custom Filter Lists
-! Version: 20230303
+! Version: 20230305
 !
 !
 !
@@ -43,13 +43,11 @@ baidu.com###tab_news_1,.his-no-rec-p.his-no-rec,.rw-list-container2.rw-list-cont
 baike.baidu.com###side-share,.wgt-baikeapp-promote-container
 bbcc.fby2.com###ac_tips
 bbs.csdn.net##.recommendList,.rates-outer,.content-right-recommend
-blog.angular.io##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 blog.codecentric.de###BorlabsCookieBox
 blog.csdn.net###content_views pre,#content_views pre code:style(user-select: unset !important;)
 blog.csdn.net##.readall_box,.btn_open_app_prompt_div,.hljs-button.signin,#articleSearchTip,.hide-preCode-box
 blog.csdn.net##.recommend-tit-mod,.recommend-box,#recommendNps,#asideNewNps,.weixin-shadowbox.wap-shadowbox,.open_app_channelCode,#recommend,.openApp
 blog.csdn.net##.set-code-hide:style(padding-bottom: 2rem !important; max-height: inherit !important; overflow: inherit !important; height: inherit !important;)
-blog.devgenius.io##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 blog.encyro.com###PopupSignupForm_0
 blog.google###cookieBar,.uni-newsletter-toast
 blog.jetbrains.com###post_footer_banner
@@ -61,7 +59,6 @@ blog.magnusmontin.net###eu-cookie-law
 blog.sentry.io##.tracking-banner.banner
 bluecatnetworks.com##.v-notice-banner-xl.v-mdu-notice.v-mdu
 brave.com##.announcement-banner
-canvatechblog.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 carnegie-mec.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegieendowment.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegieeurope.eu###selectionSharerPopover,.cookie-banner,.programs-ctw
@@ -97,7 +94,6 @@ community.spiceworks.com###zdprivacy-content
 config.office.com##.unAuthPrivacyFooter,#btnFeedback
 connect.mozilla.org##.lia-cookie-banner-alert
 create-react-app.dev##div[class^="announcementBar"]
-cryptofireside.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 css-tricks.com##.fem-sidebar-ad.fem-ad
 curl-library.cool.haxx.narkive.com###selection_url_c
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
@@ -237,7 +233,6 @@ marketplace.visualstudio.com###survey-container
 material.angular.io##app-cookie-popup
 material.io##mio-cookie-notice,mio-communication-banner
 mathoverflow.net##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
-medium.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 microsoft.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 minecraft.gamepedia.com##div[class^="app_gdpr"]
 mobile.softpedia.com###cookienotif
@@ -274,11 +269,9 @@ pay.weixin.qq.com##.pendant
 pipenv.pypa.io##body:style(font-family: initial !important)
 platform.uno###cookie-law-info-bar
 plugins.jetbrains.com##.acceptance-popup
-proandroiddev.com##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 prodesigntools.com###wpfront-notification-bar-spacer
 pyinstaller.narkive.com###selection_url_c
 pypi.org##div[data-html-include="/_includes/notification-banners/"]
-python.plainenglish.io##div[style*="position: absolute; inset: auto auto 0px 0px;"]
 reolink.com##.explorer-n-privacy
 riptutorial.com###stats-share
 riptutorial.com##.container-download-pdf-section
@@ -406,6 +399,8 @@ www.fanbyte.com###check-also-box
 www.flickr.com##.cookie-banner-view
 www.forbes.com##.seo.recirc-module
 www.gamedeveloper.com###cookie-popup-wrapper,.sns-sharing
+www.gamesradar.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
+www.gamesradar.com##+js(cookie-remover, FTR_Country_Code)
 www.geeksforgeeks.org##.ad_course_banner
 www.geeksforgeeks.org##.cookie-consent
 www.geeksforgeeks.org##.hireWithUs.practiceButton
@@ -759,9 +754,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bing.com/ipv6test/test
 ||bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook$domain=cn.bing.com
 ||bitbucket.org/gateway/api/gasv3/api/v1/batch
-||blog.angular.io/_/batch
 ||blog.csdn.net/phoenix/web/v1/promotion-info
-||blog.devgenius.io/_/batch
 ||blogs.windows.com/wp-content/plugins/microsoft-1ds-metrics/assets/microsoft-1ds-metrics-js.js
 ||blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js
 ||bordeaux.futurecdn.net/bordeaux.js$domain=www.livescience.com
@@ -781,7 +774,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||c0.wp.com/p/jetpack/*/_inc/build/twitter-timeline.min.js$domain=everything-powershell.com
 ||c0.wp.com/p/jetpack/*/_inc/build/widgets/eu-cookie-law/$domain=everything-powershell.com
 ||calnewport.ck.page$domain=www.calnewport.com
-||canvatechblog.com/_/batch
 ||cc-api-data.adobe.io/ingest
 ||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn-cookieyes.com/$domain=devhub.checkmarx.com
@@ -863,8 +855,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||contributions.guardianapis.com/header
 ||cordova.apache.org/static/js/twitter.js
 ||creativecloud.adobe.com/browser_mon.js
-||cryptofireside.com/_/batch
-||cryptofireside.com/_/oh-noes
 ||cs.android.com/_/jserror
 ||cs.android.com/v1/logging
 ||csdnimg.cn/release/app-blog/sharewx-*.js
@@ -1083,7 +1073,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||mcs.snssdk.com$domain=jinritemai.com|bytedance.com
 ||mcs.zijieapi.com$domain=jinritemai.com|bytedance.com
 ||media.readthedocs.org/javascript/readthedocs-analytics.js
-||medium.com/_/batch
 ||merak.alicdn.com/delivery/
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader
 ||meter-svc.nytimes.com/meter.js
@@ -1162,14 +1151,12 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||polaris.xfinity.com/orc.html$domain=www.xfinity.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
-||proandroiddev.com/_/batch
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
 ||push-content.springernature.io/*/production_live/consent-bundle-*.js$domain=www.nature.com
 ||pyinstaller.narkive.com/ajax/TelemV2
-||python.plainenglish.io/_/batch
 ||quantcast.mgr.consensu.org/choice/*/mathworks.com/choice.js$domain=www.mathworks.com
 ||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
 ||query.aliyun.com/rest/delivery.config.customRules.ambassor-delivery-topbar
