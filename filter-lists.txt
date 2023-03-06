@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, March 5, 2023
+! Last modified: Monday, March 6, 2023
 ! Title: Custom Filter Lists
-! Version: 20230305
+! Version: 20230306
 !
 !
 !
@@ -315,7 +315,7 @@ support.mozilla.org###id_scam_alert
 support.mozilla.org##.document-vote--sidebar-wrap
 support.opendns.com##.article-votes
 techcommunity.microsoft.com##.custom-share-component
-techxposer.com###icon_wrapper
+techoverflow.net##.post_footer_sidebar
 techxposer.com##.sharedaddy
 telerik.com##.optanon-alert-box-wrapper
 thehustle.co##.a2a_kit
