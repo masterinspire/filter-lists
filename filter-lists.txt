@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, March 6, 2023
+! Last modified: Tuesday, March 7, 2023
 ! Title: Custom Filter Lists
-! Version: 20230306
+! Version: 20230307
 !
 !
 !
@@ -130,6 +130,7 @@ developer.mozilla.org##.mdn-cta-container
 developer.mozilla.org##.newsletter-container
 developer.mozilla.org##.notification
 developer.mozilla.org##.notification-tray
+developers.aliwork.com##.feedback
 developers.google.cn##.devsite-banner-announcement.devsite-banner
 developers.google.cn##devsite-footer-promos
 developers.google.cn##devsite-thumb-rating
@@ -148,6 +149,7 @@ dnschecker.org###cookie-box
 doc.qt.io###cookie-archive,#cookie-confirm
 doc.qt.io##.sidebar-container, .toc-drawer:style(width: 20rem !important; min-width: 15rem !important; padding-right: 0rem !important;)
 doc.qt.io##.sidebar-drawer,.content:style(width: unset !important;)
+docs.aliwork.com##.feedback
 docs.gradle.org###newsletter-form-container
 docs.influxdata.com###support-ad
 docs.pytest.org##body:style(font-family: initial !important)
@@ -937,6 +939,9 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||g.alicdn.com/alilog/
 ||g.alicdn.com/aliyun/util/*/module/Delivery.js
 ||g.alicdn.com/dawn/smarter-engine/
+||g.alicdn.com/platform/common/s/*/monitor/
+||g.alicdn.com/platform/monitor-packages/
+||g.alicdn.com/platform/xdomain-storage/*/frame.html
 ||g.csdnimg.cn/??sharewx/*/sharewx.js,baidu-search/*/baidu-search.js
 ||g.csdnimg.cn/asdf/*/trackad.js$important
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js
