@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, March 7, 2023
+! Last modified: Thursday, March 9, 2023
 ! Title: Custom Filter Lists
-! Version: 20230307
+! Version: 20230309
 !
 !
 !
@@ -941,7 +941,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||g.alicdn.com/dawn/smarter-engine/
 ||g.alicdn.com/platform/common/s/*/monitor/
 ||g.alicdn.com/platform/monitor-packages/
-||g.alicdn.com/platform/xdomain-storage/*/frame.html
+||g.alicdn.com/platform/xdomain-storage/*/frame.html$frame
 ||g.csdnimg.cn/??sharewx/*/sharewx.js,baidu-search/*/baidu-search.js
 ||g.csdnimg.cn/asdf/*/trackad.js$important
 ||g.csdnimg.cn/baidu-search/*/baidu-search.js
@@ -1301,6 +1301,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||t.stripe.com/?domain=
 ||tags.tiqcdn.com/utag/vmware/*-privacy/prod/utag$domain=vmware.com,important
 ||tajs.qq.com/stats$important
+||talltouch.com/$domain=www.usatoday.com
 ||tam.cdn-go.cn/aegis-sdk/$domain=qq.com|tapd.cn
 ||target.microsoft.com/rest/v1/delivery$important
 ||tb.pagetest.top/$domain=www.88dyw.com
@@ -1323,6 +1324,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||tongji.flash.cn/hm*.gif
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
 ||trace.qq.com/collect
+||tracert.alipay.com/cross.html$frame
 ||tracking.epicgames.com
 ||traffic.alexa.com/graph$domain=www.robtex.com
 ||translate.google.com/_/TranslateWebserverUi/jserror
