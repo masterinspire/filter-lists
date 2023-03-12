@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, March 9, 2023
+! Last modified: Sunday, March 12, 2023
 ! Title: Custom Filter Lists
-! Version: 20230309
+! Version: 20230312
 !
 !
 !
@@ -85,6 +85,7 @@ cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt,#wikiWidg
 cn.bing.com###b_mtp,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper,#relatedSearchesLGWContainer
 cn.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop,#textDeeplinksWidgetContainer
+cn.bing.com##a[aria-label*="Microsoft Rewards"]
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
 community.ccleaner.com###elGuestTerms
@@ -455,32 +456,8 @@ www.listennotes.com###ln-side-share-div
 www.livescience.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.livescience.com##+js(cookie-remover, FTR_Country_Code)
 www.lookip.net##[aria-label="cookieconsent"]
-www.merriam-webster.com###cite-anchor
-www.merriam-webster.com###definition-right-rail
-www.merriam-webster.com###home-promo
-www.merriam-webster.com###podcast-anchor
-www.merriam-webster.com###recirc-bar-footer
-www.merriam-webster.com###register-promo
-www.merriam-webster.com###social-sidebar-container
-www.merriam-webster.com###subscribe-unabridged
-www.merriam-webster.com###unabridged-promo
-www.merriam-webster.com###wotd-promo-sub-box
-www.merriam-webster.com##.ads + .heavy-break
-www.merriam-webster.com##.art-social-share
-www.merriam-webster.com##.article-share-slide
-www.merriam-webster.com##.article-social-sidebar
-www.merriam-webster.com##.did-you-know-wrapper > #wotd-right-content-box
-www.merriam-webster.com##.footer-mast
-www.merriam-webster.com##.game-recirc-widget
-www.merriam-webster.com##.mw-ad
-www.merriam-webster.com##.open-web-comments-header
-www.merriam-webster.com##.recirc-bar
-www.merriam-webster.com##.share-icons
-www.merriam-webster.com##.wgt-games-side.wgt-side
-www.merriam-webster.com##.wod-activity-container
-www.merriam-webster.com##.wod-podcast-player-block.podcast-player-block
-www.merriam-webster.com##.wotd-side__subscribe
-www.merriam-webster.com##div.hide-mobile.rail-abl-box
+www.merriam-webster.com###home-promo,#wotd-promo-sub-box,#register-promo,.art-social-share,.social-bar,.share-bar-plus,.wotd-side__subscribe,.row.subscribe-row,div[id^="mw-ad-slot"]
+www.merriam-webster.com##.wod-article-container .wod-activity-container,.wod-article-container .game-recirc-widget ~ .blue-divide.thin-divide,.active-subscribe,#art19-podcast-player .awp-media-actions .awp-media-subscribe-container,#subscribe-unabridged
 www.microsoft.com##switchOfficeHeroFirst, .switchOfficeHeroSecond,.m-hero-item.context-accessory,.m-back-to-top
 www.mojeek.com##.js-pop.pop-in
 www.mssqltips.com###slideboxtop
@@ -754,6 +731,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bing.com/AS/Suggestions
 ||bing.com/afdo/simg/perftest/
 ||bing.com/ipv6test/test
+||bing.com/rewardsapp/ncheader
+||bing.com/rewardsapp/reportActivity
 ||bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook$domain=cn.bing.com
 ||bitbucket.org/gateway/api/gasv3/api/v1/batch
 ||blog.csdn.net/phoenix/web/v1/promotion-info
@@ -806,6 +785,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn.syncfusion.com/scripts/albacross/track-new.js
 ||cdn.tinypass.com/api/tinypass.min.js$domain=www.insider.com|www.independent.co.uk|www.businessinsider.com|www.bbc.com
 ||cdn.viafoura.net/entry/index.js$domain=www.independent.co.uk
+||cdn.viafoura.net/vf-v2.js$domain=blog.unity.com
 ||cdnads.geeksforgeeks.org/gfg_ads.min.js
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/$third-party
 ||cdnjs.cloudflare.com/ajax/libs/outdated-browser$domain=npms.io
@@ -1032,7 +1012,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||kotlinlang.org/docs/static/v3/analytics.js
 ||kunpeng.csdn.net/ad/
 ||l.ctrl.blog/visit
-||launcher.spot.im/$domain=www.merriam-webster.com
 ||leap.jfrog.com/js/forms2/js/forms2.min.js$domain=blog.conan.io
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js$domain=oschina.net
 ||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/browser.*.cn.js$domain=jinritemai.com|bytedance.com
@@ -1367,7 +1346,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||waplog.thepaper.cn/$domain=www.sixthtone.com
 ||watchnewpics.info/api/request/v1/$domain=localxh.com
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
-||web-player.art19.com/assets/current.js$domain=www.merriam-webster.com
 ||web.vortex.data.microsoft.com/collect
 ||web.vortex.data.msn.cn/collect/
 ||webapi.aihecong.com/web/addrealtime$domain=www.luhu.co
@@ -1473,13 +1451,13 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.linuxjournal.com/core/modules/statistics/statistics.php
 ||www.mathworks.com/includes_content/domainSelect/akamai-country-code.js
 ||www.mathworks.com/matlabcentral/profile/api/v1/active/ping
-||www.merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 ||www.met.police.uk/Layout/AnalyticsJson
 ||www.microsofttranslator.com/$third-party
 ||www.mozilla.org/country-code.json
 ||www.msn.cn/pcs/api/widget/bingHomepage/widgetfeed
 ||www.newstatesman.com/wp-content/plugins/nsmg-evolok-paywall/
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
+||www.nglish.com/spanish/users/RenderAdvertisement
 ||www.nokia.com/phones/*/external/cookie_consent
 ||www.nslookup.io/plev
 ||www.nytimes.com/svc/int/functions/geoip
@@ -1541,6 +1519,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.wpf-tutorial.com/Ping
 ||www.xfinity.com$script
 ||www.youmaker.com/reportad
+||www.youtube.com/*/VIDEOCODEHERE$domain=eldenring.wiki.fextralife.com
 ||www.zhihu.com/sc-profiler
 ||x.cospace.app/m/services_v0.js$domain=www.nextiva.com
 ||xhamsterlive.com/api/front/v2/logs
