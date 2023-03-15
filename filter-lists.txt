@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, March 14, 2023
+! Last modified: Wednesday, March 15, 2023
 ! Title: Custom Filter Lists
-! Version: 20230314
+! Version: 20230315
 !
 !
 !
@@ -709,6 +709,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||assets.digitalclimatestrike.net/widget.js$domain=gradle.org|gradle.com|junit.org
 ||assets.digitalocean.com/cookieConsent/cookieConsent
 ||assets.gitee.com/assets/static/sentry-*.js
+||assets.mgzf.com/h5-static/monitor.min.js
 ||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com|www.fourth-wall.co.uk
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 ||athena-api.oceanengine.com/athena/survey/platform/action/report/$domain=jinritemai.com|bytedance.com
@@ -1133,6 +1134,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||polaris.xfinity.com/orc.html$domain=www.xfinity.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
+||privacymanager.io/$domain=screenrant.com
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
