@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, March 15, 2023
+! Last modified: Thursday, March 23, 2023
 ! Title: Custom Filter Lists
-! Version: 20230315
+! Version: 20230323
 !
 !
 !
@@ -381,6 +381,7 @@ www.digitalcombatsimulator.com###cookies
 www.digitalocean.com##div[class^="ToastStyles__StyledWrapper-sc"],div[class^="TutorialTemplateStyles__StyledCTA-sc"]
 www.docs.influxdata.com###support-ad
 www.dotnettricks.com###cookienotify,#sticky-footer
+www.droidcon.com##.relatedJobs,.dc-relatedPost,.droidcon_job_offers
 www.echartsjs.com###apache-banner
 www.educba.com###banner_1
 www.educba.com###topbar
@@ -689,6 +690,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||app-*.marketo.com/js/forms2/js/forms2.min.js$domain=docker.com|docs.conan.io,important
 ||app.getresponse.com/site2/$domain=dbeaver.com
 ||app.gitbook.com/__amp/
+||app.launchdarkly.com/$domain=www.atlassian.com|bitbucket.org
 ||app.pushbrothers.com/js/notification-bot.js$domain=www.javatpoint.com
 ||app.satismeter.com/satismeter.js$domain=gradle.org|gradle.com
 ||app.slickstream.com/d/page-boot-data$domain=linuxhint.com
@@ -727,7 +729,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bce.bdstatic.com/fe-monitor/latest/fe-monitor.min.js
 ||bdimg.share.baidu.com/static/api/js/share.js
 ||bdimg.share.baidu.com/static/js/shell_v2.js
-||beacon-v2.helpscout.net/$domain=fontawesome.com|ipinfo.io|www.gitbook.com
+||beacon-v2.helpscout.net$domain=fontawesome.com|ipinfo.io|www.gitbook.com
 ||bearblog.dev/hit/
 ||bing.com/AS/Suggestions
 ||bing.com/afdo/simg/perftest/
@@ -736,7 +738,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bing.com/rewardsapp/reportActivity
 ||bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook$domain=cn.bing.com
 ||bitbucket.org/gateway/api/gasv3/api/v1/batch
-||blackbrake.com/$domain=www.usatoday.com
 ||blog.csdn.net/phoenix/web/v1/promotion-info
 ||blogs.windows.com/wp-content/plugins/microsoft-1ds-metrics/assets/microsoft-1ds-metrics-js.js
 ||blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js
@@ -758,7 +759,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||calnewport.ck.page$domain=www.calnewport.com
 ||cc-api-data.adobe.io/ingest
 ||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
-||cdn-cookieyes.com/$domain=devhub.checkmarx.com
+||cdn-cookieyes.com$domain=devhub.checkmarx.com
 ||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js
@@ -775,7 +776,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn.jsdelivr.net/npm/search-insights
 ||cdn.livechatinc.com/tracking.js
 ||cdn.openinstall.io/openinstall.js$domain=csdn.net
-||cdn.playwire.com/$domain=www.slant.co|softonic.com,important
+||cdn.playwire.com$domain=www.slant.co|softonic.com,important
 ||cdn.privacy-mgmt.com/$third-party
 ||cdn.ravenjs.com/*/raven.min.js$domain=pypi.org
 ||cdn.search.brave.com/ks.json
@@ -890,11 +891,9 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||earlymonitoring.firebaseapp.com/index.min.js$domain=www.gatsbyjs.org
 ||ebank.spdb.com.cn/etrack/
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
-||embed.runkit.com/$domain=lodash.com
 ||embed.tawk.to$domain=www.partitionwizard.com|www.briskinfosec.com
 ||embed.typeform.com/embed.js$domain=fontawesome.com|fandom.com
 ||entitlement.auth.adobe.com/entitlement/v4/AccessEnabler.js$domain=history.com
-||epnclick.ru/$domain=forum.ru-board.com
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data.min.js
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data1.min.js
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data2.min.js
@@ -904,7 +903,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||exmail.qq.com/cgi-bin/getinvestigate
 ||exmail.qq.com/qy_mng_logic/logKVAuto
 ||exmail.qq.com/qy_mng_logic/reportKV
-||experience.tinypass.com/$domain=www.telegraph.co.uk
+||experience.tinypass.com$domain=www.telegraph.co.uk
 ||f.convertkit.com/ckjs/$domain=calebschoepp.com|calnewport.com
 ||feed.baidu.com/feed/api/tab/gettabinfo
 ||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
@@ -914,6 +913,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||forum.vivaldi.net/assets/templates/partials/topic/selection-tooltip.js
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
 ||freyr.futurecdn.net/freyr.js$domain=www.livescience.com
+||friendlyfold.com$domain=www.usatoday.com
 ||fxgate.baidu.com/angelia/fcagl.js
 ||g.alicdn.com/??dawn/user-tracker/*/js/index.js
 ||g.alicdn.com/alilog/
@@ -993,7 +993,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||itpc-mms.itpro.com/wrapperMessagingWithoutDetection.js
 ||jiathis.com$third-party
 ||jqmt.qq.com/cdn_dianjiliu.js
-||js-agent.newrelic.com/$domain=bitbucket.org
+||js-agent.newrelic.com$third-party
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
 ||js.hs-scripts.com$third-party
@@ -1004,7 +1004,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||js.monitor.azure.com$third-party,important
 ||js.stripe.com$third-party,important
 ||js.tapd.cn/js_dist/aegis.min.*.js
-||js.users.51.la/$domain=www.88dyw.com
+||js.users.51.la$domain=www.88dyw.com
 ||kb.vmware.com$script
 ||kb.vmware.com/s/sfsites/aura?r=*&aura.Component.reportFailedAction=
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=
@@ -1084,7 +1084,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
-||news.google.com/$domain=www.nytimes.com
+||news.google.com$domain=www.nytimes.com
 ||news.google.com/_/DotsSplashUi/jserror
 ||nexus-websocket-*.intercom.io/client-test
 ||nexus.dell.com/dell/eSupport/Bootstrap.js$domain=www.dell.com
@@ -1097,7 +1097,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||old.bunny.net/landingpage/js/cookieconsent.min.js
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||open.rocket.chat/api/v1/livechat/page.visited
-||open.spotify.com/$domain=blog.logrocket.com
+||open.spotify.com$domain=blog.logrocket.com
 ||opencv.org/wp-admin/admin-ajax.php
 ||organiccdn.io/assets/sdk/unit-sdk.js$domain=www.thedrive.com
 ||otelwebtelemetry.com/v1/trace
@@ -1134,7 +1134,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||polaris.xfinity.com/orc.html$domain=www.xfinity.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
-||privacymanager.io/$domain=screenrant.com
+||privacymanager.io$domain=screenrant.com
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
@@ -1209,7 +1209,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/search_tracking_js
 ||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
 ||smetrics.ubi.com
-||socket.jisuan.mobi/$domain=bianma.supfree.net
+||socket.jisuan.mobi$domain=bianma.supfree.net
 ||solo41.biz$domain=www.tutorialspoint.com
 ||source.chromium.org/_/jserror
 ||source.chromium.org/v1/logging
@@ -1282,7 +1282,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||tajs.qq.com/stats$important
 ||tam.cdn-go.cn/aegis-sdk/$domain=qq.com|tapd.cn
 ||target.microsoft.com/rest/v1/delivery$important
-||tb.pagetest.top/$domain=www.88dyw.com
+||tb.pagetest.top$domain=www.88dyw.com
 ||tdl.tapd.cn/tfl/js_dist/tracker-*.js
 ||techcommunity.microsoft.com/beacon/*.gif
 ||techcommunity.microsoft.com/html/js/lib/webvitals-js/webvitals.js
@@ -1328,7 +1328,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||util.geeksforgeeks.org/pageTally.php
 ||util.geeksforgeeks.org/profileLink.php
 ||v2.zopim.com$domain=intellipaat.com
-||v20200617-gap.freecodecamp.org/$domain=www.freecodecamp.org,important
 ||va.tawk.to/register/$domain=www.sswug.org
 ||va.v.liveperson.net/api/js$third-party
 ||verificaiton.kuaishouzt.com/rest/zt/basic/tracing/report
@@ -1342,7 +1341,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||vlscppe.microsoft.com/tags
 ||vmssoftware.com/js/jquery-eu-cookie-law-popup.js
 ||vortex.data.microsoft.com/collect
-||waplog.thepaper.cn/$domain=www.sixthtone.com
+||waplog.thepaper.cn$domain=www.sixthtone.com
 ||watchnewpics.info/api/request/v1/$domain=localxh.com
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
 ||web.vortex.data.microsoft.com/collect
@@ -1369,7 +1368,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.amazon.com/cross_border_interstitial/render
 ||www.androidcentral.com/_gap/_module.js
 ||www.androidcentral.com/_gap/cyhtvaf/hn/linkid.js
-||www.atlassian.com/endpoint/preferencesV2/consent-config
+||www.atlassian.com/endpoint/atlglobalload
+||www.atlassian.com/gateway/api/gasv3/api/v1/batch
 ||www.baidu.com/con?from=zhidao
 ||www.baidu.com/rec
 ||www.baidu.com/sugrec
@@ -1403,6 +1403,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.dell.com/koa/vocaas/en/js/microsurvey
 ||www.dell.com/support/components/detectproduct/sadetectfailure
 ||www.diogonunes.com/blog/wp-content/plugins/cookie-law-info
+||www.droidcon.com/?wc-ajax=get_refreshed_fragments
+||www.droidcon.com/wp-admin/admin-ajax.php
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
 ||www.educba.com/wmj_jx/pr-currency.php

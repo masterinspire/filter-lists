@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, February 13, 2023
+! Last modified: Thursday, March 23, 2023
 ! Title: Custom Filter Lists Breaking
-! Version: 20230213
+! Version: 20230323
 !
 !
 !
@@ -20,6 +20,7 @@ search.brave.com##.snippet.fdb > a.result-header[href^="https://blog.csdn.net/"]
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com
 ||cefsharp.github.io/images/top-header.png
 ||codesandbox.io$domain=mui.com
+||embed.runkit.com$domain=lodash.com
 ||feedburner.google.com$domain=chocolatey.org
 ||img.youtube.com$third-party
 ||mail.google.com/mail/$domain=www.erlang.org
