@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, March 23, 2023
+! Last modified: Tuesday, March 28, 2023
 ! Title: Custom Filter Lists
-! Version: 20230323
+! Version: 20230328
 !
 !
 !
@@ -563,6 +563,7 @@ www.thefreedictionary.com###w1 > .w2 > div > div
 www.thefreedictionary.com##.shareFeedBtns
 www.theguardian.com##figure[data-spacefinder-type="model.dotcomrendering.pageElements.NewsletterSignupBlockElement"]
 www.theguardian.com##gu-island
+www.theregister.com##div[data-tf-widget],.sharing_widget_story_desktop
 www.thetechlounge.com###cookie-law-info-bar
 www.theverge.com###newsletter-signup-short-form
 www.theverge.com##.adblock-allowlist-messaging__wrapper
@@ -585,7 +586,7 @@ www.typescriptlang.org###page-helpful-popup
 www.ubuntu.com##.cookie-policy
 www.usatoday.com##.gnt_em_vp_c[data-g-s="vp_dk"],.gnt_m_fs.gnt_m
 www.usatoday.com##aside[aria-label="Newsletter signup form"],form[aria-label="Sign up for newsletter: The Short List"],aside[aria-label^="Video -" ]
-www.vg247.com##.newsletter-signup-wrapper
+www.vg247.com##.disclaimer,.social_share,.light-registration-promo,.footer-newsletter, #content_below > .page_content > .merch_component 
 www.vice.com##.article-newsletter-signup
 www.washingtonpost.com##.softwall-overlay,div[data-qa="subscribe-promo"]
 www.whitehouse.gov##.shares-simple.social-nav
@@ -892,7 +893,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||ebank.spdb.com.cn/etrack/
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
 ||embed.tawk.to$domain=www.partitionwizard.com|www.briskinfosec.com
-||embed.typeform.com/embed.js$domain=fontawesome.com|fandom.com
+||embed.typeform.com$domain=fontawesome.com|fandom.com|www.theregister.com
 ||entitlement.auth.adobe.com/entitlement/v4/AccessEnabler.js$domain=history.com
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data.min.js
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data1.min.js
