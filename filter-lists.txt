@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, March 28, 2023
+! Last modified: Friday, April 7, 2023
 ! Title: Custom Filter Lists
-! Version: 20230328
+! Version: 20230407
 !
 !
 !
@@ -228,8 +228,7 @@ letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
-localxh.com##.wixx-e.wixx-eright-rectangle--video.wixx-eright-rectangle,.wixx-epremium-overlay
-localxh.com##div[data-role="wixx-ebanner-underplayer"],.bottom-widget-section.wio-e,.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-banner,.xplayer-hover-menu
+localxh2.com##div[data-role*="banner-underplayer"],.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-hover-menu,.player-add-overlay
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
 marketplace.visualstudio.com###survey-container
@@ -719,6 +718,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||atv-ps-eu.primevideo.com/cdp/usage/GetWeblabTreatment$domain=www.primevideo.com
 ||atv-ps-eu.primevideo.com/cdp/usage/ReportEvent$domain=www.primevideo.com
 ||auth.services.adobe.com/signin/v1/audit
+||averageactivity.com/$domain=www.usatoday.com
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
 ||az416426.vo.msecnd.net/scripts/b/ai.2.min.js
@@ -740,6 +740,9 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook$domain=cn.bing.com
 ||bitbucket.org/gateway/api/gasv3/api/v1/batch
 ||blog.csdn.net/phoenix/web/v1/promotion-info
+||blog.sandworm.dev/_axiom/web-vitals
+||blog.sandworm.dev/api/collect
+||blog.sandworm.dev/ping/
 ||blogs.windows.com/wp-content/plugins/microsoft-1ds-metrics/assets/microsoft-1ds-metrics-js.js
 ||blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js
 ||bordeaux.futurecdn.net/bordeaux.js$domain=www.livescience.com
@@ -914,7 +917,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||forum.vivaldi.net/assets/templates/partials/topic/selection-tooltip.js
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
 ||freyr.futurecdn.net/freyr.js$domain=www.livescience.com
-||friendlyfold.com$domain=www.usatoday.com
 ||fxgate.baidu.com/angelia/fcagl.js
 ||g.alicdn.com/??dawn/user-tracker/*/js/index.js
 ||g.alicdn.com/alilog/
@@ -1343,7 +1345,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||vmssoftware.com/js/jquery-eu-cookie-law-popup.js
 ||vortex.data.microsoft.com/collect
 ||waplog.thepaper.cn$domain=www.sixthtone.com
-||watchnewpics.info/api/request/v1/$domain=localxh.com
+||watchnewpics.info/api/request/v1/$domain=localxh2.com
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
 ||web.vortex.data.microsoft.com/collect
 ||web.vortex.data.msn.cn/collect/
