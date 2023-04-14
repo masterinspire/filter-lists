@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, April 9, 2023
+! Last modified: Friday, April 12, 2023
 ! Title: Custom Filter Lists
-! Version: 20230409
+! Version: 20230412
 !
 !
 !
@@ -187,6 +187,7 @@ firebase.google.com##devsite-feedback
 firebase.google.com##devsite-thumb-rating
 flask.palletsprojects.com##.version-warning
 flutter.dev##.show.cookie-snack
+forum.uipath.com###adsMain
 frame.io##div[class*="ConsentBanner___"]
 freecommander.com###cookie-notice
 freewechat.com##.freebrowser-ad
@@ -354,8 +355,8 @@ www.88ysw.com##.gotop, body > embed[id^="1"]
 www.advancedinstaller.com###sticky-bottom-container
 www.aljazeera.com###article-newsletter-slot
 www.android.com##.cookie-banner
-www.androidcentral.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.androidcentral.com##+js(cookie-remover, FTR_Country_Code)
+www.androidcentral.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.androiddevtools.cn###auto-scroll-ad-box
 www.androidpure.com###selectShareContainer
 www.apkmirror.com###bottom-slider
@@ -402,8 +403,8 @@ www.fanbyte.com###check-also-box
 www.flickr.com##.cookie-banner-view
 www.forbes.com##.seo.recirc-module
 www.gamedeveloper.com###cookie-popup-wrapper,.sns-sharing
-www.gamesradar.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.gamesradar.com##+js(cookie-remover, FTR_Country_Code)
+www.gamesradar.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.geeksforgeeks.org##.ad_course_banner
 www.geeksforgeeks.org##.cookie-consent
 www.geeksforgeeks.org##.hireWithUs.practiceButton
@@ -447,14 +448,14 @@ www.jetbrains.com##DIV[id="bart_wrapper"]
 www.jetbrains.com##DIV[id="country-offer-placeholder"]
 www.jetbrains.com##DIV[id="pseudo-footer"]
 www.keycdn.com##.cookies-warning
-www.laptopmag.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.laptopmag.com##+js(cookie-remover, FTR_Country_Code)
+www.laptopmag.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.latimes.com###ensNotifyBanner,.page-actions-sticky,[name="metering-bottompanel"]
 www.learnrazorpages.com###cookie-warning
 www.linuxeden.com##.bdsharebuttonbox.action-share
 www.listennotes.com###ln-side-share-div
-www.livescience.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.livescience.com##+js(cookie-remover, FTR_Country_Code)
+www.livescience.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.lookip.net##[aria-label="cookieconsent"]
 www.merriam-webster.com###home-promo,#wotd-promo-sub-box,#register-promo,.art-social-share,.social-bar,.share-bar-plus,.wotd-side__subscribe,.row.subscribe-row,div[id^="mw-ad-slot"]
 www.merriam-webster.com##.wod-article-container .wod-activity-container,.wod-article-container .game-recirc-widget ~ .blue-divide.thin-divide,.active-subscribe,#art19-podcast-player .awp-media-actions .awp-media-subscribe-container,#subscribe-unabridged
@@ -486,8 +487,8 @@ www.opera.com###cookie-consent
 www.ostechnix.com##.no-counter.sharrre-container
 www.packtpub.com##.upsell.container.product__author
 www.partitionwizard.com##.bottom-cookie-wrap
-www.pcgamer.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.pcgamer.com##+js(cookie-remover, FTR_Country_Code)
+www.pcgamer.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.pdfforge.org##.gdpr-cookieconsent-overlay,.gdpr-cookieconsent-settings
 www.perltutorial.org###back-to-top,.helpful-block-content,.ad
 www.piratewires.com##.subscribe-footer,.subscribe-widget
@@ -541,8 +542,8 @@ www.tapd.cn##.bind-phone-tips
 www.tapd.cn##.editor-content.comment_type_text:style(overflow:auto !important;)
 www.technig.com##.bs-wrap-gdpr-law-open.bs-wrap-gdpr-law
 www.techonthenet.com##.adsblocked,#sabl
-www.techradar.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.techradar.com##+js(cookie-remover, FTR_Country_Code)
+www.techradar.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.telegraph.co.uk##.article__end-meta
 www.telegraph.co.uk##.article__layout--sidebar.article__layout
 www.telegraph.co.uk##.subscribe-banner
@@ -555,6 +556,7 @@ www.tensorflow.org##devsite-thumb-rating
 www.tensorflow.org##devsite-youtube
 www.theatlantic.com##gpt-ad,.js-non-metered-nudge.c-non-metered-nudge,#paywall,div[class*="LostInventoryMessage_"],p[class*="ArticleRelatedContentLink_"]
 www.theepochtimes.com##.social.share
+www.thefp.com##iframe.substack-frame-root
 www.thefreedictionary.com###SubscrSlider
 www.thefreedictionary.com###fixedBlock
 www.thefreedictionary.com###secLoginToAccess
@@ -592,8 +594,8 @@ www.whitehouse.gov##.shares-simple.social-nav
 www.wikihow.com###article_courses_banner
 www.wikihow.com###contribute_footer
 www.wilderssecurity.com##.bottomFixer
-www.windowscentral.com###slice-container-newsletterForm-exitIntent,#slice-container-newsletterForm-articleInbodyContent,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.windowscentral.com##+js(cookie-remover, FTR_Country_Code)
+www.windowscentral.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.wintips.org##.cresta-share-icon
 www.wired.co.uk##.social-icons--share.social-icons
 www.wired.com##.article__social-share
@@ -718,7 +720,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||atv-ps-eu.primevideo.com/cdp/usage/GetWeblabTreatment$domain=www.primevideo.com
 ||atv-ps-eu.primevideo.com/cdp/usage/ReportEvent$domain=www.primevideo.com
 ||auth.services.adobe.com/signin/v1/audit
-||averageactivity.com/$domain=www.usatoday.com
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js
 ||az416426.vo.msecnd.net/scripts/ai.js
 ||az416426.vo.msecnd.net/scripts/b/ai.2.min.js
@@ -731,6 +732,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bdimg.share.baidu.com/static/api/js/share.js
 ||bdimg.share.baidu.com/static/js/shell_v2.js
 ||beacon-v2.helpscout.net$domain=fontawesome.com|ipinfo.io|www.gitbook.com
+||beamvolcano.com$domain=www.usatoday.com
 ||bearblog.dev/hit/
 ||bing.com/AS/Suggestions
 ||bing.com/afdo/simg/perftest/
@@ -1015,6 +1017,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||kotlinlang.org/docs/static/v3/analytics.js
 ||kunpeng.csdn.net/ad/
 ||l.ctrl.blog/visit
+||launcher.spot.im$domain=www.ign.com
 ||leap.jfrog.com/js/forms2/js/forms2.min.js$domain=blog.conan.io
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js$domain=oschina.net
 ||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/browser.*.cn.js$domain=jinritemai.com|bytedance.com
@@ -1067,6 +1070,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||metrics-drcn.dt.hicloud.com:6447/webv1$domain=id1.cloud.huawei.com
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx
 ||modernizr.com/i/js/analytics.js
+||mollusk.apis.ign.com/metrics/vitals
 ||mon.snssdk.com$domain=jinritemai.com|bytedance.com
 ||mon.zijieapi.com$domain=jinritemai.com|bytedance.com
 ||mp.weixin.qq.com/mp/appmsgreport
@@ -1178,6 +1182,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=mahapps.com|github.io
 ||s3a.pstatp.com/toutiao/push.js$domain=csdn.net
 ||s7.addthis.com/$important
+||samizdat-graphql.nytimes.com/graphql/v2
 ||sc.appvipshop.com/vips-mobile-tracker/router.do?service=vip.monitor.logger
 ||scone-pa.clients6.google.com/v1/survey/trigger/trigger_anonymous
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
