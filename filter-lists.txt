@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, April 12, 2023
+! Last modified: Saturday, April 13, 2023
 ! Title: Custom Filter Lists
-! Version: 20230412
+! Version: 20230413
 !
 !
 !
@@ -36,6 +36,7 @@ arcanecode.com##.widget_eu_cookie_law_widget.widget
 archive.org##footer
 askubuntu.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 astrid.tech###__next > div[style="width: 100vw; position: fixed; bottom: 0px; background-color: white; padding-top: 20px; padding-bottom: 20px;"]
+ats-wrapper.privacymanager.io$domain=www.reuters.com
 auth0.com###popup
 auth0.com###selectionSharerPopover
 aws.amazon.com##.aws-cn-optin
@@ -281,7 +282,7 @@ riptutorial.com##.container-download-pdf-section
 riptutorial.com##.section-aside.col-lg-2
 rufus.ie###cookie-notice
 rustdesk.com##.cookie-consent
-screenrant.com##.w-youtube.w-rich
+screenrant.com##.related-single,.w-youtube.w-rich
 search.brave.com###search-elsewhere
 searchfox.org###context-menu
 segmentfault.com##.float-ads
@@ -510,7 +511,7 @@ www.residentcontrarian.com##.post-end-cta-full
 www.residentcontrarian.com##.subscribe-footer
 www.residentcontrarian.com##div.subscribe-widget
 www.residentcontrarian.com##p.button-wrapper[data-attrs*='"text":"Share"']
-www.reuters.com##div[class*="registration-prompt__container__"],div[class^="article-header__buttons__"],div[class^="article-prompt__"],div[class^="regular-article-layout__newsletter__"],nav[class^="toolbar__container__"]
+www.reuters.com##div[class^="refinitiv-promo-bar__container__"],div[class*="registration-prompt__container__"],div[class^="article-header__buttons__"],div[class^="article-prompt__"],div[class^="regular-article-layout__newsletter__"],nav[class^="toolbar__container__"]
 www.reviewgeek.com###v2campaignmidpage
 www.reviewgeek.com###v2campaignpopup
 www.reviewgeek.com###v2campaignpopup_backdrop
@@ -564,7 +565,7 @@ www.thefreedictionary.com###w1 > .w2 > div > div
 www.thefreedictionary.com##.shareFeedBtns
 www.theguardian.com##figure[data-spacefinder-type="model.dotcomrendering.pageElements.NewsletterSignupBlockElement"]
 www.theguardian.com##gu-island
-www.theregister.com##div[data-tf-widget],.sharing_widget_story_desktop
+www.theregister.com##div[data-tf-widget],.sharing_widget_story_desktop,.newsletter_signup_unit
 www.thetechlounge.com###cookie-law-info-bar
 www.theverge.com###newsletter-signup-short-form
 www.theverge.com##.adblock-allowlist-messaging__wrapper
@@ -716,6 +717,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||assets.mgzf.com/h5-static/monitor.min.js
 ||assets.pinterest.com/js/pinit.js$domain=www.exceltip.com|www.fourth-wall.co.uk
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
+||at.cbsi.com/lib/dist/prod/bidbarrel-lastfm.min.js$domain=www.last.fm
 ||athena-api.oceanengine.com/athena/survey/platform/action/report/$domain=jinritemai.com|bytedance.com
 ||atv-ps-eu.primevideo.com/cdp/usage/GetWeblabTreatment$domain=www.primevideo.com
 ||atv-ps-eu.primevideo.com/cdp/usage/ReportEvent$domain=www.primevideo.com
@@ -804,6 +806,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||chat.afzhan.com/chat/$domain=www.afzhan.com
 ||checkout.stripe.com/v3/checkout.js
 ||chrome.google.com/webstore/ajax/eventlog
+||chushoushijian.cn$domain=jianshu.com
+||chuzushijian.cn$domain=jianshu.com
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||cleverstaginc.firebaseio.com$domain=wallsmash.com
 ||cloud.google.com/log$important
@@ -910,7 +914,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||exmail.qq.com/qy_mng_logic/logKVAuto
 ||exmail.qq.com/qy_mng_logic/reportKV
 ||experience.tinypass.com$domain=www.telegraph.co.uk
-||f.convertkit.com/ckjs/$domain=calebschoepp.com|calnewport.com
+||f.convertkit.com$third-party
 ||feed.baidu.com/feed/api/tab/gettabinfo
 ||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
 ||file1.sixthtone.com/js/news_detail.js$domain=www.sixthtone.com
@@ -976,6 +980,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||huatuospeed.weiyun.com/cgi-bin/r.cgi
 ||i.cdn.turner.com/ads/adfuel/$domain=edition.cnn.com
 ||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
+||ibreader.com$domain=jianshu.com
 ||icws.jb51.net/js/beitou.js
 ||icws.jb51.net/tongji/tongji2.js
 ||iknowpc.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb.*.png
@@ -1143,6 +1148,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||position.csdnimg.cn/oapi/get
 ||privacymanager.io$domain=screenrant.com
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
+||production-cmp.isgprivacy.cbsi.com/dist/optanon-*.js$domain=www.last.fm
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
@@ -1265,6 +1271,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||store.google.com/_/Gstore/jserror
 ||store.steampowered.com/app/usabilitytracking/
 ||store.steampowered.com/default/usabilitytracking/
+||strangeclocks.com$domain=www.last.fm
 ||stripe.com$domain=gitbook.com
 ||stt.nvidia.com/rest/v1/delivery
 ||subs.theepochtimes.com/lib/api.bundle.js
@@ -1310,12 +1317,14 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||tomassetti.me/wp-content/plugins/convertkit/
 ||tongji.flash.cn/hm*.gif
 ||tpcf.feedify.net/uploads/settings/*$script,domain=www.javatpoint.com
+||tr.jianshu.com/fe/1/mon/atf
 ||trace.qq.com/collect
 ||tracert.alipay.com/cross.html$frame
 ||tracking.epicgames.com
 ||traffic.alexa.com/graph$domain=www.robtex.com
 ||translate.google.com/_/TranslateWebserverUi/jserror
 ||translate.google.com/translate_a/element.js$third-party
+||traxex.gannettdigital.com/prebid-event
 ||tt.87uq.com/loding/ttlm-g-n.js$domain=vivibb.com
 ||tt.omtrdc.net/rest/v1/delivery$important
 ||twitter.com/i/api/*/attribution/event.json
@@ -1455,6 +1464,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.infoworld.com/napi/tile
 ||www.infoworld.com/www/js/ads$important
 ||www.instagram.com/embed.js$domain=www.qt.io|insider.windows.com
+||www.jianshu.com/shakespeare/notes/*/reward_section
 ||www.learncpp.com/blog/wp-admin/admin-ajax.php
 ||www.lightboxcdn.com/vendor/*/lightbox_inline.js$domain=www.androidcentral.com
 ||www.linkedin.com/countserv/count/share
