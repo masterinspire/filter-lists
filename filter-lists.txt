@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, April 13, 2023
+! Last modified: Wednesday, April 19, 2023
 ! Title: Custom Filter Lists
-! Version: 20230413
+! Version: 20230419
 !
 !
 !
@@ -230,7 +230,7 @@ letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
-localxh2.com##div[data-role*="banner-underplayer"],.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-hover-menu,.player-add-overlay
+localxh2.com##aside[data-role="promo"],div[data-role*="banner-underplayer"],.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-hover-menu,.player-add-overlay
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
 marketplace.visualstudio.com###survey-container
@@ -1024,6 +1024,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||l.ctrl.blog/visit
 ||launcher.spot.im$domain=www.ign.com
 ||leap.jfrog.com/js/forms2/js/forms2.min.js$domain=blog.conan.io
+||learn.microsoft.com/_themes/docs.theme/master/en-us/_themes/global/at-config.js
+||learn.microsoft.com/static/third-party/adobe-target/at-js/
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js$domain=oschina.net
 ||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/browser.*.cn.js$domain=jinritemai.com|bytedance.com
 ||lf3-cdn-tos.bytegoofy.com/goofy/slardar/fe/sdk/plugins/monitors.*.cn.js$domain=fjinritemai.com|bytedance.com
@@ -1041,7 +1043,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||linuxhint.com/wp-content/cache/min/1/wp-content/plugins/convertkit/resources/frontend/js/convertkit.js
 ||lmwlove.com/ImageAd/$domain=lmwlove.com
 ||localhost$third-party
-||localhost.ptlogin2.qq.com:*/pt_get_uins$domain=xui.ptlogin2.qq.com
+||localhost.*.qq.com
 ||location.services.mozilla.com/v1/country
 ||log.clarity.ms$third-party
 ||log.dingtalk.com/log/loghttp
