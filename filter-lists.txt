@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, April 19, 2023
+! Last modified: Saturday, April 22, 2023
 ! Title: Custom Filter Lists
-! Version: 20230419
+! Version: 20230422
 !
 !
 !
@@ -778,6 +778,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn.convertbox.com/convertbox/js/embed.js$domain=devdactic.com
 ||cdn.convertkit.com$domain=tomassetti.me
 ||cdn.cookielaw.org/$third-party
+||cdn.ethyca.com$domain=nextjs.org
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.infoq.com/statics_*/scripts/lib/browser-update-org/update.js
 ||cdn.iubenda.com$domain=tomassetti.me
@@ -1100,6 +1101,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||nebula-collector.huawei.com
 ||news.google.com$domain=www.nytimes.com
 ||news.google.com/_/DotsSplashUi/jserror
+||nextjs.org/_vercel/insights/
 ||nexus-websocket-*.intercom.io/client-test
 ||nexus.dell.com/dell/eSupport/Bootstrap.js$domain=www.dell.com
 ||nexus.dell.com/dell/marketing/Bootstrap.js$domain=www.dell.com
