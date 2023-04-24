@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, April 22, 2023
+! Last modified: Monday, April 24, 2023
 ! Title: Custom Filter Lists
-! Version: 20230422
+! Version: 20230424
 !
 !
 !
@@ -36,9 +36,6 @@ arcanecode.com##.widget_eu_cookie_law_widget.widget
 archive.org##footer
 askubuntu.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 astrid.tech###__next > div[style="width: 100vw; position: fixed; bottom: 0px; background-color: white; padding-top: 20px; padding-bottom: 20px;"]
-ats-wrapper.privacymanager.io$domain=www.reuters.com
-auth0.com###popup
-auth0.com###selectionSharerPopover
 aws.amazon.com##.aws-cn-optin
 baidu.com###tab_news_1,.his-no-rec-p.his-no-rec,.rw-list-container2.rw-list-container > .c-line-clamp1,.se-page-copyright,div[srcid="recommend_video_normal"]
 baike.baidu.com###side-share,.wgt-baikeapp-promote-container
@@ -230,6 +227,7 @@ letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
+localxh2.com##.yxd-jdcam-thumb,.yxd-jd,.yxd-jdpremium-overlay
 localxh2.com##aside[data-role="promo"],div[data-role*="banner-underplayer"],.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-hover-menu,.player-add-overlay
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
@@ -833,6 +831,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||collector.github.com/github/collect
 ||collector.githubapp.com/github/page_view
 ||commerce.adobe.com/checkout/log
+||community.cloudflare.com/discourse-interstitial/my_interstitials.json
 ||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=www.theverge.com
 ||configurator.ecom-mobile-samsung.com/api/logger
 ||connect.emojics.com/dist/sdk.js$domain=ckeditor.com
@@ -893,6 +892,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js$domain=blog.karumi.com|angular-academy.com
+||dppt.*.chinatax.gov.cn:8443/jzts/rest/xwcj/v1/report
+||dppt.*.chinatax.gov.cn:8443/static_res/znhdsdk/
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
 ||dss0.bdstatic.com/*/static/superman/js/components/guide_tips-*.js
@@ -902,6 +903,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||earlymonitoring.firebaseapp.com/index.min.js$domain=www.gatsbyjs.org
 ||ebank.spdb.com.cn/etrack/
 ||ecommerce.nanosystems.it/js/nanoGDPR.min.js$domain=thesolving.com
+||edge.microsoft.com$domain=www.nytimes.com
 ||embed.tawk.to$domain=www.partitionwizard.com|www.briskinfosec.com
 ||embed.typeform.com$domain=fontawesome.com|fandom.com|www.theregister.com
 ||entitlement.auth.adobe.com/entitlement/v4/AccessEnabler.js$domain=history.com
@@ -940,7 +942,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js
 ||g.csdnimg.cn/tingyun/tingyun.js
 ||gdpr-service.herokuapp.com/is-gdpr
-||gdpr-wrapper.privacymanager.io/
 ||geo.cnbc.com/info/
 ||geo2.adobe.com/json/
 ||geolocation.1trust.app/cookieconsentpub/v1/geo/location
@@ -1150,7 +1151,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||polaris.xfinity.com/orc.html$domain=www.xfinity.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
 ||position.csdnimg.cn/oapi/get
-||privacymanager.io$domain=screenrant.com
+||privacymanager.io$third-party
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||production-cmp.isgprivacy.cbsi.com/dist/optanon-*.js$domain=www.last.fm
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
@@ -1181,6 +1182,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||retcode.alicdn.com/retcode/bl.js
 ||revertservice.com/eucookies.js
 ||rl.mail.qq.com/cgi-bin/getinvestigate
+||rumprod-*.cos.ap-guangzhou.myqcloud.com/chinatax/aegisId.js
 ||runkit.com/s/timing
 ||rxjs.dev/ngsw-worker.js
 ||s.deepl.com/web/statistics
@@ -1196,6 +1198,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||sc.appvipshop.com/vips-mobile-tracker/router.do?service=vip.monitor.logger
 ||scone-pa.clients6.google.com/v1/survey/trigger/trigger_anonymous
 ||scout-cdn.salesloft.com/sl.js$domain=gradle.org
+||screenrant.com/strpixel.png
 ||screenshots.codesandbox.io/*.png
 ||script.sw.report/sw.js$domain=blog.codecentric.de
 ||script.wikia.nocookie.net/fandom-ae-assets/tracking-opt-in/*/tracking-opt-in.min.js$domain=fandom.com,important
@@ -1525,6 +1528,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.textin.com/js/GrowingIO.js
 ||www.textin.com/js/nps.js
 ||www.textin.com/js/zhugeIO.js
+||www.theatlantic.com/packages/adsjs/ads.min.js
 ||www.theregister.com/design_picker/*/javascript/ads.js
 ||www.ttshitu.com/js/baidu.js
 ||www.vmware.com$script,domain=www.vmware.com
@@ -1535,6 +1539,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.vmware.com/etc.clientlibs/vmware-modernize-cms/componentlibrary/components/structure/base/clientlibs/socialshare.js$important
 ||www.w3adda.com/detroitchicago/cmbv2.js
 ||www.washingtonpost.com/subscribe/logging/logExpectedError
+||www.washingtonpost.com/tetro/metering/evaluate
 ||www.winhelponline.com/blog/wp-content/plugins/cookie-notice/
 ||www.wintips.org/wp-content/plugins/contact-form-7/modules/recaptcha/script.js
 ||www.wired.com/hotzones/src/ads.js
