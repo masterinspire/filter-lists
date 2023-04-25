@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, April 24, 2023
+! Last modified: Tuesday, April 25, 2023
 ! Title: Custom Filter Lists
-! Version: 20230424
+! Version: 20230425
 !
 !
 !
@@ -227,7 +227,7 @@ letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
-localxh2.com##.yxd-jdcam-thumb,.yxd-jd,.yxd-jdpremium-overlay
+localxh2.com##.yxd-jdcam-thumb,.yxd-jd,.yxd-jdpremium-overlay,.yxd-jdbanner-container.video-page__layout-ad
 localxh2.com##aside[data-role="promo"],div[data-role*="banner-underplayer"],.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-hover-menu,.player-add-overlay
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
@@ -941,6 +941,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||g.csdnimg.cn/copyright/*/copyright.js
 ||g.csdnimg.cn/side-toolbar/*/side-toolbar.js
 ||g.csdnimg.cn/tingyun/tingyun.js
+||gamerant.com/strpixel.png
 ||gdpr-service.herokuapp.com/is-gdpr
 ||geo.cnbc.com/info/
 ||geo2.adobe.com/json/
@@ -1540,6 +1541,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.w3adda.com/detroitchicago/cmbv2.js
 ||www.washingtonpost.com/subscribe/logging/logExpectedError
 ||www.washingtonpost.com/tetro/metering/evaluate
+||www.wikihow.com/extensions/min/f/_ads/gads.js
+||www.wikihow.com/load.php
 ||www.winhelponline.com/blog/wp-content/plugins/cookie-notice/
 ||www.wintips.org/wp-content/plugins/contact-form-7/modules/recaptcha/script.js
 ||www.wired.com/hotzones/src/ads.js
@@ -1552,6 +1555,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.zhihu.com/sc-profiler
 ||x.cospace.app/m/services_v0.js$domain=www.nextiva.com
 ||xhamsterlive.com/api/front/v2/logs
+||xproxy.api.bbc.com/zephr/feature-decisions
+||xproxy.api.bbc.com/zephr/features
 ||xui.ptlogin2.qq.com/ptui_ver.js
 ||xunit-slackin.herokuapp.com/slackin.js$domain=xunit.net
 ||xux-web-config.oss-accelerate.aliyuncs.com/aes-config/*/qnrForm.json$domain=dingtalk.com
