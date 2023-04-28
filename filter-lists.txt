@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, April 25, 2023
+! Last modified: Friday, April 28, 2023
 ! Title: Custom Filter Lists
-! Version: 20230425
+! Version: 20230428
 !
 !
 !
@@ -41,6 +41,7 @@ baidu.com###tab_news_1,.his-no-rec-p.his-no-rec,.rw-list-container2.rw-list-cont
 baike.baidu.com###side-share,.wgt-baikeapp-promote-container
 bbcc.fby2.com###ac_tips
 bbs.csdn.net##.recommendList,.rates-outer,.content-right-recommend
+blog.1password.com###js-cookie-banner
 blog.codecentric.de###BorlabsCookieBox
 blog.csdn.net###content_views pre,#content_views pre code:style(user-select: unset !important;)
 blog.csdn.net##.readall_box,.btn_open_app_prompt_div,.hljs-button.signin,#articleSearchTip,.hide-preCode-box
@@ -331,6 +332,7 @@ tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm,#CoverB,#QRCode
 twitter.com##div[data-testid="BottomBar"]
 ubuntu.com##.cookie-policy
+usablenet.com$domain=apnews.com
 visualstudio.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 visualstudio.microsoft.com###usabilla-button
 vivaldi.com###aq
@@ -594,6 +596,7 @@ www.wikihow.com###article_courses_banner
 www.wikihow.com###contribute_footer
 www.wilderssecurity.com##.bottomFixer
 www.windowscentral.com##+js(cookie-remover, FTR_Country_Code)
+www.windowscentral.com##.newsletter-signup,#slice-container-trendingbar
 www.windowscentral.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.wintips.org##.cresta-share-icon
 www.wired.co.uk##.social-icons--share.social-icons
@@ -741,10 +744,12 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bing.com/rewardsapp/reportActivity
 ||bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook$domain=cn.bing.com
 ||bitbucket.org/gateway/api/gasv3/api/v1/batch
+||bleachscarecrow.com
 ||blog.csdn.net/phoenix/web/v1/promotion-info
 ||blog.sandworm.dev/_axiom/web-vitals
 ||blog.sandworm.dev/api/collect
 ||blog.sandworm.dev/ping/
+||blogs.embarcadero.com/wp-content/plugins/cookie-law-info/
 ||blogs.windows.com/wp-content/plugins/microsoft-1ds-metrics/assets/microsoft-1ds-metrics-js.js
 ||blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js
 ||bordeaux.futurecdn.net/bordeaux.js$domain=www.livescience.com
@@ -922,6 +927,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
 ||file1.sixthtone.com/js/news_detail.js$domain=www.sixthtone.com
 ||file1.sixthtone.com/js/newsletter.js$domain=www.sixthtone.com
+||flow.1passwordservices.com/api/v1/event
 ||fls-eu.amazon.com/1/aiv-web-player/1/OE$domain=www.primevideo.com
 ||forum.vivaldi.net/assets/templates/partials/topic/selection-tooltip.js
 ||fraud-ai.azurewebsites.net/api/v1/fingerprint
@@ -1218,7 +1224,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||sentry.io/api$domain=jetbrains.com
 ||sentry.matrix.org$domain=gitter.im
 ||server.messaging.adobe.com/core/v1/messaging/init$domain=adobe.com
-||services.fandom.com/event-logger/debug
+||services.fandom.com//event-logger/
+||services.fandom.com/event-logger/
 ||services.fandom.com/icbm/api/loader?app=
 ||services.fandom.com/recommendations/recommendations
 ||services.fandom.com/wiki-recommendations/sponsored-articles/article
@@ -1475,6 +1482,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.jianshu.com/shakespeare/notes/*/reward_section
 ||www.learncpp.com/blog/wp-admin/admin-ajax.php
 ||www.lightboxcdn.com/vendor/*/lightbox_inline.js$domain=www.androidcentral.com
+||www.linen.dev/ph/e/
+||www.linen.dev/pp/api/event
 ||www.linkedin.com/countserv/count/share
 ||www.linuxjournal.com/core/modules/statistics/statistics.php
 ||www.mathworks.com/includes_content/domainSelect/akamai-country-code.js
