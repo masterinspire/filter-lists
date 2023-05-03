@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, April 28, 2023
+! Last modified: Wednesday, May 3, 2023
 ! Title: Custom Filter Lists
-! Version: 20230428
+! Version: 20230503
 !
 !
 !
@@ -229,6 +229,7 @@ lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_relat
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
 localxh2.com##.yxd-jdcam-thumb,.yxd-jd,.yxd-jdpremium-overlay,.yxd-jdbanner-container.video-page__layout-ad
+localxh2.com##.yxd-jdsp-l-adshare,.player-add-ov
 localxh2.com##aside[data-role="promo"],div[data-role*="banner-underplayer"],.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-hover-menu,.player-add-overlay
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
@@ -269,6 +270,7 @@ pagecdn.com##.cookie-bar
 palletsprojects.com##body:style(font-family: initial !important)
 pastebin.com##.-cookies.popup-box,.-pro.popup-box
 pay.weixin.qq.com##.pendant
+peppapig-game.com##.privacy
 pipenv.pypa.io##body:style(font-family: initial !important)
 platform.uno###cookie-law-info-bar
 plugins.jetbrains.com##.acceptance-popup
