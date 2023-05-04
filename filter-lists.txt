@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, May 3, 2023
+! Last modified: Thursday, May 4, 2023
 ! Title: Custom Filter Lists
-! Version: 20230503
+! Version: 20230504
 !
 !
 !
@@ -190,6 +190,7 @@ forum.uipath.com###adsMain
 frame.io##div[class*="ConsentBanner___"]
 freecommander.com###cookie-notice
 freewechat.com##.freebrowser-ad
+gamerant.com##.related-single,.article-footer-newsletter,.bottom.sharing
 get.foundation###subpage-intro-video
 get.videolan.org###uecookies
 gfycat.com##.shown.cookieBannerContainer
@@ -283,7 +284,7 @@ riptutorial.com##.container-download-pdf-section
 riptutorial.com##.section-aside.col-lg-2
 rufus.ie###cookie-notice
 rustdesk.com##.cookie-consent
-screenrant.com##.related-single,.w-youtube.w-rich
+screenrant.com##.related-single,.article-footer-newsletter,.bottom.sharing
 search.brave.com###search-elsewhere
 searchfox.org###context-menu
 segmentfault.com##.float-ads
@@ -737,7 +738,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bdimg.share.baidu.com/static/api/js/share.js
 ||bdimg.share.baidu.com/static/js/shell_v2.js
 ||beacon-v2.helpscout.net$domain=fontawesome.com|ipinfo.io|www.gitbook.com
-||beamvolcano.com$domain=www.usatoday.com
 ||bearblog.dev/hit/
 ||bing.com/AS/Suggestions
 ||bing.com/afdo/simg/perftest/
@@ -746,7 +746,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bing.com/rewardsapp/reportActivity
 ||bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook$domain=cn.bing.com
 ||bitbucket.org/gateway/api/gasv3/api/v1/batch
-||bleachscarecrow.com
+||bleachscarecrow$domain=www.usatoday.com
 ||blog.csdn.net/phoenix/web/v1/promotion-info
 ||blog.sandworm.dev/_axiom/web-vitals
 ||blog.sandworm.dev/api/collect
@@ -812,6 +812,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||chat.afzhan.com/chat/$domain=www.afzhan.com
 ||checkout.stripe.com/v3/checkout.js
 ||chrome.google.com/webstore/ajax/eventlog
+||chronoplexsoftware.com/js/cookie.min.js
+||chronoplexsoftware.com/js/cookieconsent.min.js
 ||chushoushijian.cn$domain=jianshu.com
 ||chuzushijian.cn$domain=jianshu.com
 ||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
@@ -955,6 +957,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||geo2.adobe.com/json/
 ||geolocation.1trust.app/cookieconsentpub/v1/geo/location
 ||geolocation.onetrust.com/cookieconsentpub/v1/geo/location
+||get.microsoft.com/badge/ms-store-badge.bundled.js
 ||get3.adobe.com/util/geo/
 ||get3.adobe.com/webservices/adbr
 ||getaninsight.com$domain=entityframeworktutorial.net|tutorialsteacher.com
@@ -1231,6 +1234,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||services.fandom.com/icbm/api/loader?app=
 ||services.fandom.com/recommendations/recommendations
 ||services.fandom.com/wiki-recommendations/sponsored-articles/article
+||shared-storage-demo-content-producer.web.app/paa/scripts/private-aggregation-test.js
 ||sharethis.com$third-party
 ||signup.azure.com/api/clientlog
 ||silkroad.csdn.net/api/v2/assemble/list/channel/pc_hot_word
