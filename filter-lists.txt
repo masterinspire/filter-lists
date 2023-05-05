@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, May 4, 2023
+! Last modified: Friday, May 5, 2023
 ! Title: Custom Filter Lists
-! Version: 20230504
+! Version: 20230505
 !
 !
 !
@@ -773,6 +773,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cc-api-data.adobe.io/ingest
 ||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn-cookieyes.com$domain=devhub.checkmarx.com
+||cdn-fallback.petametrics.com/$domain=www.thestar.com
 ||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js
@@ -790,6 +791,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn.jsdelivr.net/npm/search-insights
 ||cdn.livechatinc.com/tracking.js
 ||cdn.openinstall.io/openinstall.js$domain=csdn.net
+||cdn.petametrics.com/$domain=www.thestar.com
 ||cdn.playwire.com$domain=www.slant.co|softonic.com,important
 ||cdn.privacy-mgmt.com/$third-party
 ||cdn.ravenjs.com/*/raven.min.js$domain=pypi.org
@@ -863,6 +865,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cse.google.com/cse.js$third-party,important
 ||csp.yandex.net/csp$domain=yandex.com
 ||customer.api.drift.com/geo
+||d2c7xlmseob604.cloudfront.net/tracker.min.js$domain=www.mongodb.com
 ||d35xxde4fgg0cx.cloudfront.net/assets/embedded.js$domain=www.apkmirror.com
 ||dalog.shimo.im/logservice/web/coll.jpg
 ||data.services.jetbrains.com/geo
@@ -920,8 +923,10 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data1.min.js
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data2.min.js
 ||etax.shanghai.chinatax.gov.cn/wszx-web/api/sh/zsk/redirectToZnzx$domain=dppt.shanghai.chinatax.gov.cn,frame
+||euob.michiganrobotflower.com$domain=www.mongodb.com
 ||events.mapbox.com/events/$domain=www.fox5ny.com
 ||events.nanonets.com/
+||evs.blue.mongodb.com$script,domain=www.mongodb.com
 ||exmail.qq.com/cgi-bin/getinvestigate
 ||exmail.qq.com/qy_mng_logic/logKVAuto
 ||exmail.qq.com/qy_mng_logic/reportKV
@@ -1112,7 +1117,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
-||news.google.com$domain=www.nytimes.com
+||news.google.com$domain=www.nytimes.com|www.thestar.com
 ||news.google.com/_/DotsSplashUi/jserror
 ||nextjs.org/_vercel/insights/
 ||nexus-websocket-*.intercom.io/client-test
@@ -1190,6 +1195,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||reporting-api.gannettinnovation.com/client-logs
 ||res.wx.qq.com/open/js/jweixin-*.js
 ||resources.jetbrains.com/storage/help-app/v3/analytics.js
+||resources.thestar.com/launch-*.min.js
 ||retail.googleapis.com/v2/projects/gannett-recommendations/locations/global/catalogs/default_catalog/userEvents:collect
 ||retcode.alicdn.com/retcode/bl.js
 ||revertservice.com/eucookies.js
@@ -1268,6 +1274,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||static.addtoany.com$domain=www.historytoday.com|opencv.org|navicat.com|thehustle.co
 ||static.adzerk.net/ados.js$third-party
 ||static.apester.com/js/sdk/latest/apester-sdk.js$domain=www.independent.co.uk
+||static.app.delivery/sdks/web/main.js$domain=www.thestar.com
 ||static.bshare.cn/b/button*
 ||static.cdn.adultswim.com/tools/global/user-consent-*.min.js
 ||static.cimcontent.net/data-layer/
@@ -1275,6 +1282,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||static.foxnews.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
 ||static.foxtv.com/static/orion/scripts/core/utils/geo.js$domain=www.fox5ny.com
 ||static.mailerlite.com/js/universal.js$domain=tkdocs.com
+||static.mongodb.com/com/report-error.*.js
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
 ||static.oschina.net/new-osc/js/utils/jweixin-*.*.*.js
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
@@ -1386,7 +1394,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||web.vortex.data.microsoft.com/collect
 ||web.vortex.data.msn.cn/collect/
 ||webapi.aihecong.com/web/addrealtime$domain=www.luhu.co
-||widget.intercom.io/widget/*$domain=reactiveui.net
+||widget.intercom.io/$domain=www.mongodb.com|reactiveui.net
 ||widget.pushbullet.com/dynamic.js$third-party
 ||widget.uservoice.com/*.js$domain=dotnetfiddle.net
 ||widget.weibo.com/weiboshow/index.php$domain=www.ltesting.net|www.liaoxuefeng.com
