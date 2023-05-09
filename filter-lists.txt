@@ -2,15 +2,16 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, May 5, 2023
+! Last modified: Tuesday, May 9, 2023
 ! Title: Custom Filter Lists
-! Version: 20230505
+! Version: 20230509
 !
 !
 !
 ##.alert-info.alert.signup-cta
 ##.back-to-top
 ##.quote-button
+##div[aria-label="cookieconsent"]
 /_/api/v2/analytics/
 /_/static/javascript/readthedocs-analytics.js
 /api/v2/sustainability/data/
@@ -170,11 +171,8 @@ edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
 embed.plnkr.co##.plunker-ad-wrap
 engineering.fb.com###GDPRConsentBar
-entityframework.net###modal-with-graph
-entityframework.net##.container-fluid.page-header-calltoaction
-entityframework.net##div[aria-label="cookieconsent"]
-entityframeworkcore.com##.container-fluid.page-header-calltoaction
-entityframeworkcore.com##div[aria-label="cookieconsent"]
+entityframework.net###modal-with-graph,.container-fluid.page-header-calltoaction,.site-footer-popup-newsletter
+entityframeworkcore.com##.container-fluid.page-header-calltoaction,.site-footer-popup-newsletter
 everything-powershell.com##.widget_eu_cookie_law_widget.widget
 exceljet.net###block-views-courses-block-block
 exceljet.net###block-views-front-testimonials-block
@@ -229,9 +227,8 @@ letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
-localxh2.com##.yxd-jdcam-thumb,.yxd-jd,.yxd-jdpremium-overlay,.yxd-jdbanner-container.video-page__layout-ad
-localxh2.com##.yxd-jdsp-l-adshare,.player-add-ov
-localxh2.com##aside[data-role="promo"],div[data-role*="banner-underplayer"],.dyltv-container,.cookie-announce,iframe.clipstore-results,.xplayer-hover-menu,.player-add-overlay
+localxh2.com##.yfd-fd,.yfd-fdcam-thumb,.yfd-fdpremium-overlay,div[data-role="yfd-fdbanner-underplayer"],.yfd-fdsp-l-tab,.yfd-fdbanner-container.video-page__layout-ad,.yfd-fdads-buy-nft--center
+localxh2.com##aside[data-role="promo"],.cookie-announce,.dyltv-container,.xplayer-hover-menu,.xp-banner-pause,.xp-banner-bottom,.player-ad-close,.creator-promo-bg,.creator-promo-buttons
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
 marketplace.visualstudio.com###survey-container
@@ -254,7 +251,6 @@ news.softpedia.com###cookienotif
 nginx.org###banner
 nokia.com###cmp-modal
 office.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
-open-vsx.org##div[aria-label="cookieconsent"]
 open.dingtalk.com##.styles-float
 opencv.org###elementor-popup-modal-11769
 opencv.org###elementor-popup-modal-12574
@@ -355,7 +351,6 @@ work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opin
 wpf.2000things.com###eu-cookie-law
 www.88dyw.com##.gotop, body > embed[id^="1"]
 www.88dyyw.com###topcontrol,.leaveNavInfo,.light_switch
-www.88ysw.com##.gotop, body > embed[id^="1"]
 www.advancedinstaller.com###sticky-bottom-container
 www.aljazeera.com###article-newsletter-slot
 www.android.com##.cookie-banner
@@ -376,7 +371,6 @@ www.cloudamqp.com##.dark-bg.signup
 www.cnbc.com##.HighlightShare-container
 www.cnet.com##.newsletter-subscribe-form.c-reengageNewsletter
 www.codastory.com###mc_embed_signup
-www.codeproject.com##[aria-label="cookieconsent"]
 www.computerworld.com##aside[id^="fsb-"]
 www.cplusplus.com##body > div:nth-of-type(1)
 www.damninteresting.com##.tab-visible.plea
@@ -395,7 +389,6 @@ www.enterprisedb.com###promoWrapper
 www.enterprisedb.com##.eu-cookie-compliance-banner
 www.enterprisedb.com##.outer-content > .content_bottom > .chat-wrap,.contactus1
 www.enterprisedb.com##.outer-content > .content_middle > .chat-wrap
-www.entityframeworktutorial.net##A[id="ffb_feedback"]
 www.experts-exchange.com###bottomBarSignup
 www.experts-exchange.com###pageShareAndManage-id2
 www.experts-exchange.com###textComponent-id18
@@ -460,7 +453,6 @@ www.linuxeden.com##.bdsharebuttonbox.action-share
 www.listennotes.com###ln-side-share-div
 www.livescience.com##+js(cookie-remover, FTR_Country_Code)
 www.livescience.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
-www.lookip.net##[aria-label="cookieconsent"]
 www.merriam-webster.com###home-promo,#wotd-promo-sub-box,#register-promo,.art-social-share,.social-bar,.share-bar-plus,.wotd-side__subscribe,.row.subscribe-row,div[id^="mw-ad-slot"]
 www.merriam-webster.com##.wod-article-container .wod-activity-container,.wod-article-container .game-recirc-widget ~ .blue-divide.thin-divide,.active-subscribe,#art19-podcast-player .awp-media-actions .awp-media-subscribe-container,#subscribe-unabridged
 www.microsoft.com##switchOfficeHeroFirst, .switchOfficeHeroSecond,.m-hero-item.context-accessory,.m-back-to-top
@@ -493,7 +485,6 @@ www.packtpub.com##.upsell.container.product__author
 www.partitionwizard.com##.bottom-cookie-wrap
 www.pcgamer.com##+js(cookie-remover, FTR_Country_Code)
 www.pcgamer.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
-www.pdfforge.org##.gdpr-cookieconsent-overlay,.gdpr-cookieconsent-settings
 www.perltutorial.org###back-to-top,.helpful-block-content,.ad
 www.piratewires.com##.subscribe-footer,.subscribe-widget
 www.positronx.io###cookie
@@ -634,10 +625,10 @@ xhamsterlive.com##.join-me-button
 yandex.com##.content__right
 youtrack.jetbrains.com##div[class^="alertContainer_"]
 zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#qb-side
-||*.club$domain=88dyw.com|88ysw.com
-||*.cn$domain=88dyw.com|88ysw.com
-||*.shop$domain=88dyw.com|88ysw.com
-||*.xyz$domain=88dyw.com|88ysw.com
+||*.club$domain=88dyw.com
+||*.cn$domain=88dyw.com
+||*.shop$domain=88dyw.com
+||*.xyz$domain=88dyw.com
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.app.qq.com/o/process-report
@@ -787,8 +778,9 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn.ethyca.com$domain=nextjs.org
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
 ||cdn.infoq.com/statics_*/scripts/lib/browser-update-org/update.js
-||cdn.iubenda.com$domain=tomassetti.me
-||cdn.jsdelivr.net/npm/search-insights
+||cdn.iubenda.com$domain=tomassetti.me|www.paddle.com
+||cdn.jsdelivr.net/npm/cookieconsent$third-party
+||cdn.jsdelivr.net/npm/search-insights$third-party
 ||cdn.livechatinc.com/tracking.js
 ||cdn.openinstall.io/openinstall.js$domain=csdn.net
 ||cdn.petametrics.com/$domain=www.thestar.com
@@ -798,14 +790,14 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn.search.brave.com/ks.json
 ||cdn.search.brave.com/serp/v1/static/serp-js/telemetry/
 ||cdn.segment.com/analytics.js/v1/*/analytics.min.js$important
-||cdn.staticfile.org/cookieconsent2/$third-party
+||cdn.staticfile.org/cookieconsent$third-party
 ||cdn.subscribers.com/assets/subscribers.js$domain=www.infoworld.com
 ||cdn.syncfusion.com/scripts/albacross/track-new.js
 ||cdn.tinypass.com/api/tinypass.min.js$domain=www.insider.com|www.independent.co.uk|www.businessinsider.com|www.bbc.com
 ||cdn.viafoura.net/entry/index.js$domain=www.independent.co.uk
 ||cdn.viafoura.net/vf-v2.js$domain=blog.unity.com
 ||cdnads.geeksforgeeks.org/gfg_ads.min.js
-||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/$third-party
+||cdnjs.cloudflare.com/ajax/libs/cookieconsent$third-party
 ||cdnjs.cloudflare.com/ajax/libs/outdated-browser$domain=npms.io
 ||cdns.gigya.com/JS/gigya.js$domain=www.history.com
 ||centralus-*.in.applicationinsights.azure.com//v2/track
@@ -1034,6 +1026,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||js.stripe.com$third-party,important
 ||js.tapd.cn/js_dist/aegis.min.*.js
 ||js.users.51.la$domain=www.88dyw.com
+||jtracking.lulusoft.com$domain=www.pdfforge.org
 ||kb.vmware.com$script
 ||kb.vmware.com/s/sfsites/aura?r=*&aura.Component.reportFailedAction=
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=
@@ -1117,6 +1110,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||myvisitorcounter.com$third-party
 ||na0.bdstatic.com/static/cover/static/shoubaiWapAds/nativeAds_*.js
 ||nebula-collector.huawei.com
+||netlify-rum.netlify.app/netlify-rum.js$domain=www.paddle.com
 ||news.google.com$domain=www.nytimes.com|www.thestar.com
 ||news.google.com/_/DotsSplashUi/jserror
 ||nextjs.org/_vercel/insights/
@@ -1407,8 +1401,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.88dyw.com/js/ads/
 ||www.88dyw.com/static/api/js/share.js
 ||www.88dyyw.com/aps/index/
-||www.88ysw.com/js/ads/
-||www.88ysw.com/static/api/js/share.js
 ||www.afzhan.com/asyncstat.aspx
 ||www.afzhan.com/mystat.aspx
 ||www.afzhan.com/static/api/js/share.js
@@ -1456,6 +1448,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.dvdzm.com/plus/count.php
 ||www.educba.com/wmj_jx/pr-currency.php
 ||www.entityframeworktutorial.net/cdn-cgi/
+||www.entityframeworktutorial.net/detroitchicago/
 ||www.erlang.org/css/twitterl.css
 ||www.erlang.org/js/twitterl.min.js
 ||www.facebook.com/plugins/like.php$third-party
@@ -1517,15 +1510,12 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_Gdpr/
 ||www.packtpub.com/static/version*/frontend/Packt/default/*/Packt_GeoIP/
 ||www.paypal.com/xoplatform/logger/api/log
+||www.pdfforge.org/_Resources/Static/Packages/Pdfforge.Website/Javascripts/JTracking.js
+||www.pdfforge.org/_Resources/Static/Packages/Pdfforge.Website/Javascripts/JtrackingPlug.js
+||www.pdfforge.org/_Resources/Static/Packages/Pdfforge.Website/Javascripts/jTrackingVisitorService.js
+||www.pdfforge.org/api/kd-gdpr-cc
 ||www.pgyer.com/app/getAdAdsense
 ||www.platformer.news/embed$domain=www.theverge.com
-||www.qqfby.com/baidu/baidudibu.js
-||www.qqfby.com/js/baidufoot.js
-||www.qqfby.com/js/baidumid.js
-||www.qqfby.com/js/baidutop.js
-||www.qqfby.com/js/cnzz2.js
-||www.qqfby.com/js/cnzzd.js
-||www.qqfby.com/js/dh.js
 ||www.qt.io/_hcms/perf
 ||www.qt.io/hs/scriptloader/*.js
 ||www.quora.com/ajax/log_errors_3RD_PARTY_POST
