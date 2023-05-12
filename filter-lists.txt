@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, May 9, 2023
+! Last modified: Friday, May 12, 2023
 ! Title: Custom Filter Lists
-! Version: 20230509
+! Version: 20230512
 !
 !
 !
@@ -642,6 +642,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||activate.platform.californiatimes.com/caltimes/latimes/serverComponent.php
 ||ad.doubleclick.net$domain=www.history.com,important
 ||ada.baidu.com/udpl
+||adamantsnail.com$domain=www.usatoday.com
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||admin.qidian.qq.com/ar/ActCap/ActRpt$domain=www.eassos.cn
 ||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn|www.eassos.cn
@@ -737,7 +738,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bing.com/rewardsapp/reportActivity
 ||bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook$domain=cn.bing.com
 ||bitbucket.org/gateway/api/gasv3/api/v1/batch
-||bleachscarecrow$domain=www.usatoday.com
 ||blog.csdn.net/phoenix/web/v1/promotion-info
 ||blog.sandworm.dev/_axiom/web-vitals
 ||blog.sandworm.dev/api/collect
@@ -1464,7 +1464,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.fourth-wall.co.uk/_api/tag-manager/api/v1/tags/sites/
 ||www.fourth-wall.co.uk/_serverless/cookie-consent-settings-serverless/v1/cookie-banner-settings
 ||www.fox5ny.com/api/layouts/alert/heartbeat$domain=www.fox5ny.com
-||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg.min.js
 ||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg_ads.min.js
 ||www.getapp.com/ext/reviews_widget/v1/dark/ipinfo-application$domain=ipinfo.io
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
