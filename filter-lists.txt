@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, May 12, 2023
+! Last modified: Saturday, May 13, 2023
 ! Title: Custom Filter Lists
-! Version: 20230512
+! Version: 20230513
 !
 !
 !
@@ -227,14 +227,15 @@ letsencrypt.org##.donate-footer
 lifehacker.com##.js_newsletter-form-inline,.share-tools-buttons-inpost,.js_related-stories-inset,.js_subscribe
 linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
-localxh2.com##.yfd-fd,.yfd-fdcam-thumb,.yfd-fdpremium-overlay,div[data-role="yfd-fdbanner-underplayer"],.yfd-fdsp-l-tab,.yfd-fdbanner-container.video-page__layout-ad,.yfd-fdads-buy-nft--center
-localxh2.com##aside[data-role="promo"],.cookie-announce,.dyltv-container,.xplayer-hover-menu,.xp-banner-pause,.xp-banner-bottom,.player-ad-close,.creator-promo-bg,.creator-promo-buttons
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
 marketplace.visualstudio.com###survey-container
 material.angular.io##app-cookie-popup
 material.io##mio-cookie-notice,mio-communication-banner
 mathoverflow.net##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
+megaxh.com##.yfd-fd,.yfd-fdcam-thumb,.yfd-fdpremium-overlay,div[data-role="yfd-fdbanner-underplayer"],.yfd-fdsp-l-tab,.yfd-fdbanner-container.video-page__layout-ad,.yfd-fdads-buy-nft--center
+megaxh.com##aside[data-role="promo"],.cookie-announce,.dyltv-container,.xplayer-hover-menu,.xp-banner-pause,.xp-banner-bottom,.player-ad-close,.creator-promo-bg,.creator-promo-buttons
+megaxh.com##div[class$="-containerBottomSpot"],div[class$="-containerPauseSpot"]
 microsoft.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 minecraft.gamepedia.com##div[class^="app_gdpr"]
 mobile.softpedia.com###cookienotif
@@ -1381,12 +1382,12 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||vivaldi.net/rep/rep.js
 ||vlscppe.microsoft.com/tags
 ||vmssoftware.com/js/jquery-eu-cookie-law-popup.js
-||vortex.data.microsoft.com/collect
+||vortex.data.microsoft.com/$third-party
 ||waplog.thepaper.cn$domain=www.sixthtone.com
-||watchnewpics.info/api/request/v1/$domain=localxh2.com
+||watchnewpics.info/api/request/v1/
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
-||web.vortex.data.microsoft.com/collect
-||web.vortex.data.msn.cn/collect/
+||web.vortex.data.microsoft.com/$third-party
+||web.vortex.data.msn.cn/$third-party
 ||webapi.aihecong.com/web/addrealtime$domain=www.luhu.co
 ||widget.intercom.io/$domain=www.mongodb.com|reactiveui.net
 ||widget.pushbullet.com/dynamic.js$third-party
