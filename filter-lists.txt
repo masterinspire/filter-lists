@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, May 13, 2023
+! Last modified: Wednesday, May 17, 2023
 ! Title: Custom Filter Lists
-! Version: 20230513
+! Version: 20230517
 !
 !
 !
@@ -83,7 +83,7 @@ cloud.tencent.com##.select-feedback-tip
 club.ubisoft.com###footer_tc_privacy
 cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt,#wikiWidgetContainer
 cn.bing.com###b_mtp,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper,#relatedSearchesLGWContainer
-cn.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer
+cn.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer,#lgAnsFeedbackMopContainer
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop,#textDeeplinksWidgetContainer
 cn.bing.com##a[aria-label*="Microsoft Rewards"]
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
@@ -276,9 +276,7 @@ prodesigntools.com###wpfront-notification-bar-spacer
 pyinstaller.narkive.com###selection_url_c
 pypi.org##div[data-html-include="/_includes/notification-banners/"]
 reolink.com##.explorer-n-privacy
-riptutorial.com###stats-share
-riptutorial.com##.container-download-pdf-section
-riptutorial.com##.section-aside.col-lg-2
+riptutorial.com##.header-article > *:not(.header-breadcrumb)
 rufus.ie###cookie-notice
 rustdesk.com##.cookie-consent
 screenrant.com##.related-single,.article-footer-newsletter,.bottom.sharing
@@ -437,7 +435,7 @@ www.itprotoday.com###newsletter-signup-load
 www.itprotoday.com##.gdpr-popup-border
 www.itprotoday.com##.share-icons
 www.itweb.co.za##.itw-right-column,.itw-share-v,.text-related
-www.javascripttutorial.net##.ad,#back-to-top,.helpful-block-content
+www.javascripttutorial.net###back-to-top,.helpful-block-content,.ad
 www.jb51.net###right-share
 www.jb51.net##div.topimg
 www.jetbrains.com##.cookies-banner
@@ -458,8 +456,8 @@ www.merriam-webster.com###home-promo,#wotd-promo-sub-box,#register-promo,.art-so
 www.merriam-webster.com##.wod-article-container .wod-activity-container,.wod-article-container .game-recirc-widget ~ .blue-divide.thin-divide,.active-subscribe,#art19-podcast-player .awp-media-actions .awp-media-subscribe-container,#subscribe-unabridged
 www.microsoft.com##switchOfficeHeroFirst, .switchOfficeHeroSecond,.m-hero-item.context-accessory,.m-back-to-top
 www.mojeek.com##.js-pop.pop-in
-www.mssqltips.com###slideboxtop
-www.mssqltips.com##.columns.hide-for-print.large-3
+www.mssqltips.com###slideboxtop,.columns.hide-for-print.large-3
+www.mysqltutorial.org##back-to-top,.helpful-block-content,.ad
 www.namegeneratorfun.com###consent
 www.nature.com##.c-site-messages--nature-briefing-email-variant
 www.newstatesman.com##.c-share--clear.c-share
@@ -766,7 +764,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn-cookieyes.com$domain=devhub.checkmarx.com
 ||cdn-fallback.petametrics.com/$domain=www.thestar.com
-||cdn-go.cn/aegis/aegis-sdk/*/aegis.min.js
+||cdn-go.cn/aegis/aegis-sdk/
+||cdn-go.cn/tam/aegis-sdk/
 ||cdn-images.mailchimp.com/embedcode/slim-081711.css$domain=itextpdf.com
 ||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn.adsafeprotected.com$domain=www.reuters.com,important
@@ -901,6 +900,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||dppt.*.chinatax.gov.cn:8443/static_res/znhdsdk/
 ||dropbox.com/static/api/1/dropins.js$domain=jetbrains.com
 ||ds-aksb-a.akamaihd.net/aksb.min.js$domain=answers.microsoft.com
+||dscache.tencent-cloud.cn/ecache/qcstat/qcloud/qcloudStatApi.js
 ||dss0.bdstatic.com/*/static/superman/js/components/guide_tips-*.js
 ||dss0.bdstatic.com/*/static/superman/js/components/hotsearch-*.js
 ||dss0.bdstatic.com/*/static/superman/js/components/tips-*.js
@@ -1127,6 +1127,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
 ||open.rocket.chat/api/v1/livechat/page.visited
 ||open.spotify.com$domain=blog.logrocket.com
+||open.work.weixin.qq.com/wwopen/report
 ||opencv.org/wp-admin/admin-ajax.php
 ||organiccdn.io/assets/sdk/unit-sdk.js$domain=www.thedrive.com
 ||otelwebtelemetry.com/v1/trace
@@ -1161,7 +1162,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||player.sexapi.xyz/jwplayer/devtools-detector.js
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||polaris.xfinity.com/orc.html$domain=www.xfinity.com
-||polldaddy.com/js/rating/rating.js$domain=docs.docker.com
+||polldaddy.com/js/rating/rating.js$domain=docs.docker.com|thehftguy.com
 ||position.csdnimg.cn/oapi/get
 ||privacymanager.io$third-party
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
@@ -1393,7 +1394,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||widget.pushbullet.com/dynamic.js$third-party
 ||widget.uservoice.com/*.js$domain=dotnetfiddle.net
 ||widget.weibo.com/weiboshow/index.php$domain=www.ltesting.net|www.liaoxuefeng.com
-||widgets.wp.com$domain=thebinaryhick.blog
+||widgets.wp.com$domain=thebinaryhick.blog|thehftguy.com
 ||work.weixin.qq.com/api/kvReport
 ||work.weixin.qq.com/wework_admin/report
 ||work.weixin.qq.com/wwopen/common/kvReport
