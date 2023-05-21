@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, May 17, 2023
+! Last modified: Sunday, May 21, 2023
 ! Title: Custom Filter Lists
-! Version: 20230517
+! Version: 20230521
 !
 !
 !
@@ -641,7 +641,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||activate.platform.californiatimes.com/caltimes/latimes/serverComponent.php
 ||ad.doubleclick.net$domain=www.history.com,important
 ||ada.baidu.com/udpl
-||adamantsnail.com$domain=www.usatoday.com
 ||addthis.com/js/300/addthis_widget.js$third-party
 ||admin.qidian.qq.com/ar/ActCap/ActRpt$domain=www.eassos.cn
 ||admin.qidian.qq.com/ar/ActCap/pvRpt$domain=tapd.cn|www.eassos.cn
@@ -652,6 +651,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||ajax.cloudflare.com/cdn-cgi/nexp/*/cloudflare.min.js
 ||als.baidu.com/dalog/
 ||amazon-adsystem.com/widgets/$important
+||amusedbucket.com$domain=www.usatoday.com
 ||analytics.cnblogs.com/api/v1/reports
 ||analytics.syncfusion.com/log/documentation
 ||anila.statically.io/api/collect
@@ -1009,6 +1009,9 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||ionicframeworkcom.prismic.io/api/v2$third-party
 ||ipinfo.io$third-party
 ||ipv4.am.i.mullvad.net/json
+||iq.thc.org/_axiom/web-vitals
+||iq.thc.org/api/collect
+||iq.thc.org/ping/
 ||isdspeed.qidian.com/cgi-bin/r.cgi
 ||isdspeed.qq.com/cgi-bin/r.cgi
 ||issuetracker.google.com/jserror
