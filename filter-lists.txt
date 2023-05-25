@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, May 21, 2023
+! Last modified: Thursday, May 25, 2023
 ! Title: Custom Filter Lists
-! Version: 20230521
+! Version: 20230525
 !
 !
 !
@@ -738,6 +738,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bingciservice.koreasouth.cloudapp.azure.com/api/QRTrigger/Hook$domain=cn.bing.com
 ||bitbucket.org/gateway/api/gasv3/api/v1/batch
 ||blog.csdn.net/phoenix/web/v1/promotion-info
+||blog.mozilla.org/wp-content/mu-plugins/mozilla-custom/ga-snippet.js$domain=blog.thunderbird.net
 ||blog.sandworm.dev/_axiom/web-vitals
 ||blog.sandworm.dev/api/collect
 ||blog.sandworm.dev/ping/
@@ -885,8 +886,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||developers.weixin.qq.com/community/ngi/weschool/docsearch
 ||dh.nrk.no/catch/dh-kortstokk-v1
 ||dictionary.cambridge.org/external/scripts/ads.min.js
-||discord.com/api/v6/science
-||discord.com/api/v9/auth/location-metadata
+||discord.com/api/v*/science
+||discord.com/api/v*/auth/location-metadata
 ||discord.com/assets/oneTrust/v2/scripttemplates/otSDKStub.js
 ||discord.com/widget?id$domain=fandom.com
 ||disqus.com/count.js
