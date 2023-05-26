@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, May 25, 2023
+! Last modified: Friday, May 26, 2023
 ! Title: Custom Filter Lists
-! Version: 20230525
+! Version: 20230526
 !
 !
 !
@@ -65,6 +65,7 @@ carnegieeurope.eu###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegieindia.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegiemoscow.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegietsinghua.org###selectionSharerPopover,.cookie-banner,.programs-ctw
+cdn.graph.office.net/prod/Scripts/1ds-privacy-guard-js/
 chakra-ui.com###watch-the-egghead-course
 chakra-ui.com###watch-the-egghead-course + div.chakra-linkbox
 chakra-ui.com##a[rel="noopener sponsored"]
@@ -170,6 +171,7 @@ earth.google.com##earth-experimental-toolbar
 edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
 embed.plnkr.co##.plunker-ad-wrap
+en.wikipedia.org##.vector-limited-width-popup
 engineering.fb.com###GDPRConsentBar
 entityframework.net###modal-with-graph,.container-fluid.page-header-calltoaction,.site-footer-popup-newsletter
 entityframeworkcore.com##.container-fluid.page-header-calltoaction,.site-footer-popup-newsletter
@@ -188,7 +190,7 @@ forum.uipath.com###adsMain
 frame.io##div[class*="ConsentBanner___"]
 freecommander.com###cookie-notice
 freewechat.com##.freebrowser-ad
-gamerant.com##.related-single,.article-footer-newsletter,.bottom.sharing
+gamerant.com##.related-single,.article-footer-newsletter,.bottom.sharing,#newsletter-popup-container
 get.foundation###subpage-intro-video
 get.videolan.org###uecookies
 gfycat.com##.shown.cookieBannerContainer
@@ -315,6 +317,7 @@ support.mozilla.org###announcements
 support.mozilla.org###id_scam_alert
 support.mozilla.org##.document-vote--sidebar-wrap
 support.opendns.com##.article-votes
+teams.microsoft.com/share/launcher.js
 techcommunity.microsoft.com##.custom-share-component
 techoverflow.net##.post_footer_sidebar
 techxposer.com##.sharedaddy
@@ -606,6 +609,7 @@ www.wsj.com###share_tools
 www.wsj.com##.is-lead-inset
 www.wsj.com##div[aria-label="Sponsored Offers"]
 www.wsj.com##div[class*="ShareTools__Container-"]
+www.wxwidgets.org##.logos.mb-4.border-primary.card
 www.xda-developers.com##.et_social_inline
 www.xda-developers.com##.et_social_sidebar_networks
 www.xda-developers.com##.widget.widget-2.widget_text
@@ -886,8 +890,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||developers.weixin.qq.com/community/ngi/weschool/docsearch
 ||dh.nrk.no/catch/dh-kortstokk-v1
 ||dictionary.cambridge.org/external/scripts/ads.min.js
-||discord.com/api/v*/science
 ||discord.com/api/v*/auth/location-metadata
+||discord.com/api/v*/science
 ||discord.com/assets/oneTrust/v2/scripttemplates/otSDKStub.js
 ||discord.com/widget?id$domain=fandom.com
 ||disqus.com/count.js
