@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, May 26, 2023
+! Last modified: Sunday, May 28, 2023
 ! Title: Custom Filter Lists
-! Version: 20230526
+! Version: 20230528
 !
 !
 !
@@ -632,6 +632,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||*.cn$domain=88dyw.com
 ||*.shop$domain=88dyw.com
 ||*.xyz$domain=88dyw.com
+||0ad.mod.io/widget$domain=play0ad.com
 ||127.0.0.1$domain=youku.com|www.iqiyi.com|v.qq.com|www.dell.com
 ||33333.cke-cs.com/token/dev/$domain=ckeditor.com
 ||a.app.qq.com/o/process-report
@@ -700,7 +701,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||appc.baidu.com/appsrv?action=appdistributionlog&native_api=1
 ||apps.mypurecloud.com/journey/sdk/js/web/v1/ac.js=$domain=www.shutterstock.com
 ||aq.qq.com/cn2/unionverify/pc/pc_uv_mobile_stat
-||arc.msn.com/v4/api/selection$domain=support.microsoft.com|answers.microsoft.com
+||arc.msn.com/v4/api/selection
 ||archive.org/includes/donate.php
 ||as.alipayobjects.com/??g/component/tracker/
 ||as.atlassian.com/api/v1/p$domain=bitbucket.org
@@ -752,7 +753,9 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||bordeaux.futurecdn.net/bordeaux.js$domain=www.livescience.com
 ||borncity.com/win/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||bravesoftware.zendesk.com/auth/v2/host.js$domain=support.brave.com
+||browser.events.data.microsoft.com/
 ||browser.events.data.msn.cn/
+||browser.pipe.aria.microsoft.com/
 ||browser.sentry-cdn.com/*/bundle.min.js$domain=www.jetbrains.com
 ||btrace.video.qq.com/collect
 ||btrace.video.qq.com/kvcollect
@@ -1474,6 +1477,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.fourth-wall.co.uk/_api/tag-manager/api/v1/tags/sites/
 ||www.fourth-wall.co.uk/_serverless/cookie-consent-settings-serverless/v1/cookie-banner-settings
 ||www.fox5ny.com/api/layouts/alert/heartbeat$domain=www.fox5ny.com
+||www.fretboardfly.com/_vercel/insights/view
 ||www.geeksforgeeks.org/wp-content/themes/iconic-one/js/gfg_ads.min.js
 ||www.getapp.com/ext/reviews_widget/v1/dark/ipinfo-application$domain=ipinfo.io
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
