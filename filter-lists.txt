@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, May 28, 2023
+! Last modified: Tuesday, May 30, 2023
 ! Title: Custom Filter Lists
-! Version: 20230528
+! Version: 20230530
 !
 !
 !
@@ -65,7 +65,6 @@ carnegieeurope.eu###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegieindia.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegiemoscow.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegietsinghua.org###selectionSharerPopover,.cookie-banner,.programs-ctw
-cdn.graph.office.net/prod/Scripts/1ds-privacy-guard-js/
 chakra-ui.com###watch-the-egghead-course
 chakra-ui.com###watch-the-egghead-course + div.chakra-linkbox
 chakra-ui.com##a[rel="noopener sponsored"]
@@ -317,7 +316,6 @@ support.mozilla.org###announcements
 support.mozilla.org###id_scam_alert
 support.mozilla.org##.document-vote--sidebar-wrap
 support.opendns.com##.article-votes
-teams.microsoft.com/share/launcher.js
 techcommunity.microsoft.com##.custom-share-component
 techoverflow.net##.post_footer_sidebar
 techxposer.com##.sharedaddy
@@ -333,7 +331,6 @@ tortoisesvn.net##FIELDSET[class="adgroup"]
 tplogin.cn###CloudBindConfirm,#CoverB,#QRCode
 twitter.com##div[data-testid="BottomBar"]
 ubuntu.com##.cookie-policy
-usablenet.com$domain=apnews.com
 visualstudio.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 visualstudio.microsoft.com###usabilla-button
 vivaldi.com###aq
@@ -467,7 +464,7 @@ www.newstatesman.com##.c-share--clear.c-share
 www.newstatesman.com##.c-sponsored-article
 www.newstatesman.com##.newsletter-inner-container
 www.newtonsoft.com###footerNotice
-www.newyorker.com##.paywall-bar
+www.newyorker.com##.paywall-bar,aside[class*="PaywallBarWrapper-"]
 www.newyorker.com##.social-icons--share.social-icons--circular.social-icons
 www.nokia.com###block-nokialocalesuggestionblock
 www.nokia.com##.nokia-cookies-wrapper
@@ -785,6 +782,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||cdn.cookielaw.org/$third-party
 ||cdn.ethyca.com$domain=nextjs.org
 ||cdn.feedify.net/getjs/feedbackembad-min-2.0.js
+||cdn.graph.office.net/prod/Scripts/1ds-privacy-guard-js/
 ||cdn.infoq.com/statics_*/scripts/lib/browser-update-org/update.js
 ||cdn.iubenda.com$domain=tomassetti.me|www.paddle.com
 ||cdn.jsdelivr.net/npm/cookieconsent$third-party
@@ -857,6 +855,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||consentdeliveryfd.azurefd.net/mscc/lib/v2/wcp-consent.js$domain=www.typescriptlang.org
 ||content.cdntwrk.com/components/website-widget/v1/*/widget.js$domain=www.qt.io
 ||contributions.guardianapis.com/header
+||cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js
 ||cordova.apache.org/static/js/twitter.js
 ||creativecloud.adobe.com/browser_mon.js
 ||cs.android.com/_/jserror
@@ -1336,6 +1335,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||target.microsoft.com/rest/v1/delivery$important
 ||tb.pagetest.top$domain=www.88dyw.com
 ||tdl.tapd.cn/tfl/js_dist/tracker-*.js
+||teams.microsoft.com/share/launcher.js
 ||techcommunity.microsoft.com/beacon/*.gif
 ||techcommunity.microsoft.com/html/js/lib/webvitals-js/webvitals.js
 ||techdocs.akamai.com/network-lists/pageview
@@ -1377,6 +1377,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||unpkg.zhimg.com/za-js-sdk@*/dist/zap.js
 ||unsplash.com/nabc
 ||us-central1-signal-data-science.cloudfunctions.net/ping$domain=signal.org
+||usablenet.com$domain=apnews.com
 ||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
 ||user-analysis.7moor.com/js/uba.min.js$domain=oray.com
 ||util.geeksforgeeks.org/pageTally.php
