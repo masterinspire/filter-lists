@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, May 30, 2023
+! Last modified: Monday, June 5, 2023
 ! Title: Custom Filter Lists
-! Version: 20230530
+! Version: 20230605
 !
 !
 !
@@ -97,6 +97,7 @@ connect.mozilla.org##.lia-cookie-banner-alert
 create-react-app.dev##div[class^="announcementBar"]
 css-tricks.com##.fem-sidebar-ad.fem-ad
 curl-library.cool.haxx.narkive.com###selection_url_c
+curl.se##.badge
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
 dbeaver.com##.getresponse-bottom-widget
 deepmind.com###cookieBar
@@ -273,6 +274,7 @@ peppapig-game.com##.privacy
 pipenv.pypa.io##body:style(font-family: initial !important)
 platform.uno###cookie-law-info-bar
 plugins.jetbrains.com##.acceptance-popup
+practice.geeksforgeeks.org##.CookieConsent
 prodesigntools.com###wpfront-notification-bar-spacer
 pyinstaller.narkive.com###selection_url_c
 pypi.org##div[data-html-include="/_includes/notification-banners/"]
@@ -1142,6 +1144,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||organiccdn.io/assets/sdk/unit-sdk.js$domain=www.thedrive.com
 ||otelwebtelemetry.com/v1/trace
 ||outofmemory.cn/static/js/h.js
+||outreach.abetterinternet.org/$domain=letsencrypt.org
 ||p13n-mr.adobe.io/psdk/v2/content$domain=helpx.adobe.com
 ||page.gitlab.com/js/forms2/js/forms2.min.js$domain=about.gitlab.com
 ||pagead2.googlesyndication.com$important
@@ -1558,6 +1561,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.textin.com/js/zhugeIO.js
 ||www.theatlantic.com/packages/adsjs/ads.min.js
 ||www.theregister.com/design_picker/*/javascript/ads.js
+||www.tiktok.com/embed.js$domain=www.fry-ai.com
 ||www.ttshitu.com/js/baidu.js
 ||www.vmware.com$script,domain=www.vmware.com
 ||www.vmware.com/akam/
