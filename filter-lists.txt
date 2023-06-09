@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, June 6, 2023
+! Last modified: Friday, June 9, 2023
 ! Title: Custom Filter Lists
-! Version: 20230606
+! Version: 20230609
 !
 !
 !
@@ -196,6 +196,7 @@ get.videolan.org###uecookies
 gfycat.com##.shown.cookieBannerContainer
 gist.github.com##.gist-banner.gist-detail-intro
 gitee.com##.side-toolbar
+github1s.com##.github1s-notification
 gitlab.com##.broadcast-notification-message.broadcast-message
 gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.js-minute-limit-banner
@@ -852,6 +853,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||csp.yandex.net/csp$domain=yandex.com
 ||customer.api.drift.com/geo
 ||d2c7xlmseob604.cloudfront.net/tracker.min.js$domain=www.mongodb.com
+||d2lang.com/api/event
 ||d35xxde4fgg0cx.cloudfront.net/assets/embedded.js$domain=www.apkmirror.com
 ||dalog.shimo.im/logservice/web/coll.jpg
 ||data.services.jetbrains.com/geo
@@ -1248,6 +1250,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||solo41.biz$domain=www.tutorialspoint.com
 ||source.chromium.org/_/jserror
 ||source.chromium.org/v1/logging
+||sourcegraph.com/-/debug/otlp/v1/traces
+||sourcegraph.com/.api/graphql?LogEvents
 ||sourcepoint.theguardian.com/unified/wrapperMessagingWithoutDetection.js
 ||sp.replit.com/v1/p
 ||sp1.baidu.com/*/mwb.gif
@@ -1375,6 +1379,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||verificaiton.kuaishouzt.com/rest/zt/basic/tracing/report
 ||verification.kuaishouzt.cn/rest/zt/basic/tracing/report
 ||visit.oschina.net/count.js
+||visitapi.aihecong.com/$domain=www1.hi.cn
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/adobe-target/
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/usabilla-feed-back.js
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/vscom-usabilla-a11y.js
