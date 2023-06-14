@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, June 9, 2023
+! Last modified: Wednesday, June 14, 2023
 ! Title: Custom Filter Lists
-! Version: 20230609
+! Version: 20230614
 !
 !
 !
@@ -1014,6 +1014,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||jiathis.com$third-party
 ||jqmt.qq.com/cdn_dianjiliu.js
 ||js-agent.newrelic.com$third-party
+||js.createsend1.com/javascript/copypastesubscribeformlogic.js$domain=underjord.io
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
 ||js.hs-scripts.com$third-party
@@ -1364,9 +1365,11 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||uhf.microsoft.com/*/shell/api/mscc
 ||ui.ptlogin2.qq.com/cgi-bin/report
 ||uid.mavencoalition.io/v3$domain=www.history.com,important
+||underjord.io/js/phoenix-channels.min.js
 ||unpkg.zhimg.com/@cfe/sentry-script@*/dist/init.js
 ||unpkg.zhimg.com/za-js-sdk@*/dist/zap.js
 ||unsplash.com/nabc
+||unsupervision.com/hit/
 ||us-central1-signal-data-science.cloudfunctions.net/ping$domain=signal.org
 ||usablenet.com$domain=apnews.com
 ||usageanalytics.coveo.com/rest/v15/analytics/searches?visitor=$domain=kb.vmware.com
