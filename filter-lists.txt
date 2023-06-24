@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, June 14, 2023
+! Last modified: Saturday, June 24, 2023
 ! Title: Custom Filter Lists
-! Version: 20230614
+! Version: 20230624
 !
 !
 !
@@ -24,6 +24,10 @@
 @@||munchkin.marketo.net$script,domain=www.red-gate.com
 @@||www.dell.com/_sec/$script
 @@||www.dell.com/support/$script
+@@||www.reddit.com/svc/shreddit/comments/
+@@||www.reddit.com/svc/shreddit/experiences
+@@||www.reddit.com/svc/shreddit/more-comments/
+@@||www.reddit.com/svc/shreddit/pdp-right-rail/
 @@||www.vmware.com/etc.clientlibs/$script
 @@||www.xfinity.com/xfinity-learn-ui/$script
 about.gitlab.com###sticky-banner
@@ -500,6 +504,7 @@ www.realvnc.com###cookie-notice
 www.red-gate.com##.cookie-consent
 www.red-gate.com##[src^="https://pubads.g.doubleclick.net/activity"]
 www.reddit.com##div[data-testid="bottom-cell-wrapper"]
+www.reddit.com##embed-snippet-share-button
 www.residentcontrarian.com##.post-end-cta-full
 www.residentcontrarian.com##.subscribe-footer
 www.residentcontrarian.com##div.subscribe-widget
@@ -559,10 +564,7 @@ www.tp-link.com##.tp-local-switcher
 www.tutorialrepublic.com##.affiliate.segment
 www.tutorialrepublic.com##.appeal, .snippets
 www.tutorialrepublic.com##ul:nth-of-type(6)
-www.tutorialspoint.com###privacy-banner
-www.tutorialspoint.com###rightbar
-www.tutorialspoint.com##.google-bottom-ads
-www.tutorialspoint.com##.top-ad-heading
+www.tutorialspoint.com###footer>.bg-white.py-4,#adp_top_ads
 www.twitch.tv###twilight-sticky-footer-root
 www.typescriptlang.org###like-dislike-subnav
 www.typescriptlang.org###page-helpful-popup
@@ -879,6 +881,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||developers.weixin.qq.com/community/ngi/batchreportdoc
 ||developers.weixin.qq.com/community/ngi/report
 ||developers.weixin.qq.com/community/ngi/weschool/docsearch
+||devpress-api.csdn.net/api/internal/blog/nsInfo/blog/
 ||dh.nrk.no/catch/dh-kortstokk-v1
 ||dictionary.cambridge.org/external/scripts/ads.min.js
 ||discord.com/api/v*/auth/location-metadata
@@ -923,6 +926,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||f.convertkit.com$third-party
 ||feed.baidu.com/feed/api/tab/gettabinfo
 ||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
+||feistyduck.gumroad.com/links/*/increment_views
 ||file1.sixthtone.com/js/news_detail.js$domain=www.sixthtone.com
 ||file1.sixthtone.com/js/newsletter.js$domain=www.sixthtone.com
 ||flow.1passwordservices.com/api/v1/event
@@ -1121,6 +1125,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||nir.theregister.co.uk/?g=vk&g=c&g=sa&g=vvfc$domain=www.theregister.com
 ||nitrogenpleahierarchy.com$domain=vidembed.cc|vidembed.net
 ||nohost/query
+||novel.sh/_vercel/insights/view
 ||nsfw.guangdong.chinatax.gov.cn/zndb/html_for_consulting_service_js/index.html$subdocument,domain=dppt.guangdong.chinatax.gov.cn
 ||old.bunny.net/landingpage/js/cookieconsent.min.js
 ||onerm.olsvc.com/api/v1/promo$domain=outlook.live.com
@@ -1238,6 +1243,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||services.fandom.com/wiki-recommendations/sponsored-articles/article
 ||shared-storage-demo-content-producer.web.app/paa/scripts/private-aggregation-test.js
 ||sharethis.com$third-party
+||shop.pe/widget/widget_async.js$domain=www.tutorialspoint.com
 ||signup.azure.com/api/clientlog
 ||silkroad.csdn.net/api/v2/assemble/list/channel/pc_hot_word
 ||silkroad.csdn.net/api/v2/assemble/list/channel/search_hot_word
@@ -1248,7 +1254,6 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
 ||smetrics.ubi.com
 ||socket.jisuan.mobi$domain=bianma.supfree.net
-||solo41.biz$domain=www.tutorialspoint.com
 ||source.chromium.org/_/jserror
 ||source.chromium.org/v1/logging
 ||sourcegraph.com/-/debug/otlp/v1/traces
@@ -1532,6 +1537,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.rabbitmq.com/js/ga-bootstrap.js
 ||www.rarlab.com/js/ckrule.js
 ||www.reddit.com/errors
+||www.reddit.com/svc/shreddit/
 ||www.redditstatic.com/button/button3.js$domain=goalkicker.com
 ||www.redditstatic.com/desktop2x/js/xads.js
 ||www.redhat.com/forms/scripts/vendor/demandbase/widget.js$domain=opensource.com
