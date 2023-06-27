@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, June 24, 2023
+! Last modified: Tuesday, June 27, 2023
 ! Title: Custom Filter Lists
-! Version: 20230624
+! Version: 20230627
 !
 !
 !
@@ -224,7 +224,7 @@ icons8.com###app-support
 ipinfo.io###overlay.show.fade.ipinfo-modal
 ironsoftware.com##.fixed-support-bar
 itextpdf.com##.eu-cookie-compliance-banner
-jingyan.baidu.com###fresh-share-exp-e,#wgt-exp-share,#wgt-like,.wgt-income-money,#task-panel-wrap,.art-video-player.art-mini
+jingyan.baidu.com###fresh-share-exp-e,#wgt-exp-share,#wgt-like,.wgt-income-money,#task-panel-wrap,.art-video-player.art-mini,.right-fixed-related-wrap,#wgt-left-promo,.wgt-cms-banner
 konvajs.org###mc_embed_signup
 kotlinlang.org##.feedback
 krita.org###cookies-message
@@ -614,7 +614,7 @@ xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamsterlive.com##.join-me-button
 yandex.com##.content__right
 youtrack.jetbrains.com##div[class^="alertContainer_"]
-zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#qb-side
+zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.businessvip-wrapper
 ||*.club$domain=88dyw.com
 ||*.cn$domain=88dyw.com
 ||*.shop$domain=88dyw.com
@@ -925,7 +925,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||experience.tinypass.com$domain=www.telegraph.co.uk
 ||f.convertkit.com$third-party
 ||feed.baidu.com/feed/api/tab/gettabinfo
-||feedback.esp.vmware.com/assets/ipf/esp.js$domain=docs.vmware.com
+||feedback.esp.vmware.com/assets/ipf/esp.js
 ||feistyduck.gumroad.com/links/*/increment_views
 ||file1.sixthtone.com/js/news_detail.js$domain=www.sixthtone.com
 ||file1.sixthtone.com/js/newsletter.js$domain=www.sixthtone.com
@@ -994,6 +994,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||ibreader.com$domain=jianshu.com
 ||icws.jb51.net/js/beitou.js
 ||icws.jb51.net/tongji/tongji2.js
+||iknow-zhidao.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb*.png
 ||iknowpc.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb.*.png
 ||img-blog.csdnimg.cn/img_convert/d43e79ea7645a1993af8e69a40b23f47.png
 ||img-home.csdnimg.cn/images/20220620104136.gif
@@ -1015,9 +1016,13 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||isdspeed.qq.com/cgi-bin/r.cgi
 ||issuetracker.google.com/jserror
 ||itpc-mms.itpro.com/wrapperMessagingWithoutDetection.js
+||ivy.pconline.com.cn/adpuba/$domain=pconline.com.cn
+||ivy.pconline.com.cn/show$domain=pconline.com.cn
 ||jiathis.com$third-party
+||jingyan.baidu.com/asyncreq?method=getApp
 ||jqmt.qq.com/cdn_dianjiliu.js
 ||js-agent.newrelic.com$third-party
+||js.3conline.com/ue/share/pc_static/api/js/share.js$domain=pconline.com.cn
 ||js.createsend1.com/javascript/copypastesubscribeformlogic.js$domain=underjord.io
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
@@ -1031,6 +1036,8 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||js.tapd.cn/js_dist/aegis.min.*.js
 ||js.users.51.la$domain=www.88dyw.com
 ||jtracking.lulusoft.com$domain=www.pdfforge.org
+||jwz.3conline.com/adpuba/$domain=pconline.com.cn
+||jwz.3conline.com/show$domain=pconline.com.cn
 ||kb.vmware.com$script
 ||kb.vmware.com/s/sfsites/aura?r=*&aura.Component.reportFailedAction=
 ||kb.vmware.com/s/sfsites/aura?r=*&ui-comm-runtime-components-aura-components-siteforce-network-tracking.NetworkTracking.createLogRecord=
@@ -1091,6 +1098,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||meter-svc.nytimes.com/meter.js
 ||metering.platform.latimes.com/v1/meter
 ||metrics-drcn.dt.hicloud.com:6447/webv1$domain=id1.cloud.huawei.com
+||mgcdn2.pconline.com.cn/test.kilo.test15./$domain=pconline.com.cn
 ||microsofttranslator.com/ajax/v3/WidgetV3.ashx
 ||modernizr.com/i/js/analytics.js
 ||mollusk.apis.ign.com/metrics/vitals
@@ -1328,7 +1336,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||t.stripe.com/?domain=
 ||tags.tiqcdn.com/utag/vmware/*-privacy/prod/utag$domain=vmware.com,important
 ||tajs.qq.com/stats$important
-||tam.cdn-go.cn/aegis-sdk/$domain=qq.com|tapd.cn
+||tam.cdn-go.cn/aegis-sdk/
 ||target.microsoft.com/rest/v1/delivery$important
 ||tb.pagetest.top$domain=www.88dyw.com
 ||tdl.tapd.cn/tfl/js_dist/tracker-*.js
@@ -1450,6 +1458,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||www.codeproject.com/dm/recovery.min.js
 ||www.computerenhance.com/api/v1/experiment_exposure
 ||www.computerenhance.com/api/v1/firehose
+||www.ctyun.cn/collection/gw/performance/Info
 ||www.dell.com$script
 ||www.dell.com/TLTarget.aspx
 ||www.dell.com/csbapi/masthead/oocmessage/us/en
@@ -1591,6 +1600,7 @@ zhidao.baidu.com##.task-list-button,.jump-top-box,.question-number-text-chain,#q
 ||youtrack.jetbrains.com/api/analytics
 ||zhidao.baidu.com/api/httpscheck
 ||zhidao.baidu.com/api/qbpv
+||zhidao.baidu.com/business/submit/dailystatistics
 ||zhidao.baidu.com/question/api/recommend
 ||znsv.baidu.com/customer_search/api/js$domain=linuxso.com
 ||zt.baidu.com/activity/api/config/get$domain=map.baidu.com
