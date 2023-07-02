@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, June 27, 2023
+! Last modified: Sunday, July 2, 2023
 ! Title: Custom Filter Lists
-! Version: 20230627
+! Version: 20230702
 !
 !
 !
@@ -214,6 +214,7 @@ hackaday.com##.cookie-notifications
 heimdalsecurity.com##.affixed.social-share-wrapper > .social-share-fixed
 heimdalsecurity.com##.tm-click-to-tweet
 heimdalsecurity.com##div.shortcode.blog-action
+help.aliyun.com###selection-feedback-tooltip
 help.aliyun.com##div[class*="FeedBack--feedBackContainer--"]
 help.aliyun.com##div[class*="FooterBanner--bannerContainer--"]
 help.aliyun.com##div[class^="StickTopLayout--docFeedback--"]
@@ -257,6 +258,7 @@ music.taihe.com##.__qianqian_qrcode
 navicat.com##.cookies-container
 news.softpedia.com###cookienotif
 nginx.org###banner
+nhjjud.aliwork.com###yida-admin-common
 nokia.com###cmp-modal
 office.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 open.dingtalk.com##.styles-float
@@ -1072,6 +1074,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||log.dingtalk.com/log/loghttp
 ||log.logicanalytics.io
 ||log.quora.com/ajax/batched_log_POST
+||login.dingtalk.com/oauth2/send_verify_code/_____tmd_____/report
 ||login.httptoolkit.tech/user/geoloc/country
 ||login.microsoftonline.com/common/instrumentation/reportstaticmecontroltelemetry
 ||logs.game.qq.com/easnew/go/eas.php
@@ -1178,6 +1181,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com|thehftguy.com
 ||position.csdnimg.cn/oapi/get
 ||privacymanager.io$third-party
+||pro.ip-api.com/json
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||production-cmp.isgprivacy.cbsi.com/dist/optanon-*.js$domain=www.last.fm
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
