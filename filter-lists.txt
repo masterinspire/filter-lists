@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, July 2, 2023
+! Last modified: Friday, July 7, 2023
 ! Title: Custom Filter Lists
-! Version: 20230702
+! Version: 20230707
 !
 !
 !
@@ -1144,6 +1144,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||open.spotify.com$domain=blog.logrocket.com
 ||open.work.weixin.qq.com/wwopen/report
 ||opencv.org/wp-admin/admin-ajax.php
+||oply.hearstapps.com/v1/events$domain=www.popularmechanics.com
 ||organiccdn.io/assets/sdk/unit-sdk.js$domain=www.thedrive.com
 ||otelwebtelemetry.com/v1/trace
 ||outofmemory.cn/static/js/h.js
@@ -1177,6 +1178,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||player.cnevids.com$domain=www.wired.co.uk|www.wired.com
 ||player.sexapi.xyz/jwplayer/devtools-detector.js
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
+||playwright-analytics.azurewebsites.net/
 ||polaris.xfinity.com/orc.html$domain=www.xfinity.com
 ||polldaddy.com/js/rating/rating.js$domain=docs.docker.com|thehftguy.com
 ||position.csdnimg.cn/oapi/get
@@ -1225,6 +1227,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$domain=mahapps.com|github.io
 ||s3a.pstatp.com/toutiao/push.js$domain=csdn.net
 ||s7.addthis.com/$important
+||sa.lagou.com/collect.gif
 ||samizdat-graphql.nytimes.com/graphql/v2
 ||sc.appvipshop.com/vips-mobile-tracker/router.do?service=vip.monitor.logger
 ||scone-pa.clients6.google.com/v1/survey/trigger/trigger_anonymous
