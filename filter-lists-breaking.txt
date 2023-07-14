@@ -2,20 +2,14 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Thursday, May 4, 2023
+! Last modified: Friday, July 14, 2023
 ! Title: Custom Filter Lists Breaking
-! Version: 20230504
+! Version: 20230707
 !
 !
 !
-community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/jackett"])
-community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/kmymoney"])
-community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/oh-my-posh"])
 gamerant.com##.w-youtube.w-rich
-github.com##div.header-menu-wrapper > nav
 screenrant.com##.w-youtube.w-rich
-search.brave.com##.snippet.fdb > a.result-header[href^="https://blog.csdn.net/"]
-search.brave.com##.snippet.fdb > a.result-header[href^="https://blog.csdn.net/"] ~ .snippet-content
 ||accounts.google.com/$third-party
 ||bp.blogspot.com/$third-party
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com
