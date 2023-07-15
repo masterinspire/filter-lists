@@ -1,0 +1,40 @@
+[Adblock Plus 2.0]
+! Author: Master Inspire
+! Expires: 7 days (update frequency)
+! Homepage: https://github.com/masterinspire/filter-lists
+! Last modified: Saturday, July 15, 2023
+! Title: Custom Filter Lists Breaking 4
+! Version: 20230715
+!
+!
+!
+english.stackexchange.com##body:style(--theme-post-body-font-family: var(--ff-sans) !important; --theme-post-title-font-family: var(--ff-sans) !important;)
+physics.stackexchange.com##body:style(--theme-post-body-font-family: var(--ff-sans) !important; --theme-post-title-font-family: var(--ff-sans) !important;)
+rpg.stackexchange.com##body:style(--theme-post-body-font-family: var(--ff-sans) !important; --theme-post-title-font-family: var(--ff-sans) !important;)
+
+!github.com##body:not(.full-width) div.application-main #repository-container-header:style(background-color: unset !important; max-width: 1280px !important; margin-right: auto !important; margin-left: auto !important; padding-top: 32px !important; )
+!github.com##div.header-menu-wrapper > nav
+
+cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
+cn.bing.com###est_switch,#b_results > li.b_msg.b_canvas
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/jackett"])
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/kmymoney"])
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/oh-my-posh"])
+devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/dotnet-ch"])
+devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/java"])
+devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/java-ch"])
+devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/java-ch"])
+devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/dotnet-ch/"])
+devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/java-ch/"])
+devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/java/"])
+search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.csdn.net/"])
+search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.fundebug.com/"])
+search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://github.com/quickjs-zh/"])
+search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://pjchender.dev/"])
+search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://tsejx.github.io/"])
+search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://www.zhihu.com/"])
+stackexchange.com###question-list > div.question-container[data-sid="chinese.stackexchange.com"]
+stackexchange.com###question-list > div.question-container[data-sid="japanese.stackexchange.com"]
+www.robtex.com###rtfragc_dnst, #rtfragc_dnsbl, #rtfragc_ohistory, #rtfragc_owhois:style(height: initial !important;)
+www.robtex.com###rtfrage_dnsbl, #rtfrage_seo, #rtfrage_reverse, #rtfrage_wot, #rtfrage_threatminer, #rtfrage_ipio, #rtfrage_visgraph, #rtfrage_ograph, #rtfrage_ohistory, #rtfrage_owhois, #rtfrage_alexa
+www.robtex.com##.rtfragc:style(overflow: auto !important;)

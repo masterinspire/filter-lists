@@ -8,6 +8,7 @@ Custom filter lists. Can be used in [uBlock Origin](https://github.com/gorhill/u
   * `filter-lists-breaking.txt`: use at your own risks. may break some websites.
   * `filter-lists-breaking-2.txt`: use at your own risks. may break some websites.
   * `filter-lists-breaking-3.txt`: use at your own risks. may break some websites.
+  * `filter-lists-breaking-4.txt`: use at your own risks. may break some websites.
 
 ## Usages
 
@@ -21,6 +22,8 @@ Add to your **filter lists**:
 
 > https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists-breaking-3.txt
 
+> https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists-breaking-4.txt
+
 or with [jsDelivr](https://www.jsdelivr.com/?docs=gh):
 
 > https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists.txt
@@ -31,6 +34,8 @@ or with [jsDelivr](https://www.jsdelivr.com/?docs=gh):
 
 > https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists-breaking-3.txt
 
+> https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists-breaking-4.txt
+
 or with [GitLab](https://gitlab.com/masterinspire/filter-lists):
 
 > https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists.txt
@@ -40,6 +45,8 @@ or with [GitLab](https://gitlab.com/masterinspire/filter-lists):
 > https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists-breaking-2.txt
 
 > https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists-breaking-3.txt
+
+> https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists-breaking-4.txt
 
 ## Contribution
 

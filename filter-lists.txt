@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, July 14, 2023
+! Last modified: Saturday, July 15, 2023
 ! Title: Custom Filter Lists
-! Version: 20230714
+! Version: 20230715
 !
 !
 !
@@ -16,6 +16,7 @@
 /_/static/javascript/readthedocs-analytics.js
 /api/v2/sustainability/data/
 /inc/timming.php
+@@||adfstat.yandex.ru/captcha?req_id
 @@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
 @@||docs.vmware.com/uicontent/
 @@||kb.vmware.com/resource/$script
@@ -89,7 +90,7 @@ cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt,#wikiWidg
 cn.bing.com###b_mtp,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper,#relatedSearchesLGWContainer
 cn.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer,#lgAnsFeedbackMopContainer
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop,#textDeeplinksWidgetContainer
-cn.bing.com##a[aria-label*="Microsoft Rewards"]
+cn.bing.com##a[aria-label*="Microsoft Rewards"],#mfa_root
 cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
 community.ccleaner.com###elGuestTerms
@@ -112,9 +113,8 @@ dev.to##div.crayons-sponsorship-widget.crayons-card--secondary.crayons-card
 devblogs.microsoft.com##.back-comment-buttons,.social-icon-bar,#colophon,.vscom-usabilla-button
 devdactic.com###cookie-notice
 devdactic.com##.nc_wrapper
-devdocs.io##._in._notif
-devdocs.io##._notice
 devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
+devdocs.io##._notice,._notif _in
 developer.aliyun.com##.developer-common-fixed-box
 developer.aliyun.com##.publicity-li
 developer.android.com###essential
@@ -259,7 +259,6 @@ navicat.com##.cookies-container
 news.softpedia.com###cookienotif
 nginx.org###banner
 nhjjud.aliwork.com###yida-admin-common
-nokia.com###cmp-modal
 office.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 open.dingtalk.com##.styles-float
 opencv.org###elementor-popup-modal-11769
@@ -416,66 +415,24 @@ www.gtabase.com##.mailing-list-bottom
 www.gtabase.com##.module > .custom
 www.gtabase.com##.wbl-social-button
 www.history.com##+js(cookie-remover, Country-Code)
-www.historytoday.com###block-newsletter-frontpage-signup
-www.historytoday.com##.block-advertisement-banner-block
-www.historytoday.com##.block-signup-block
-www.howtogeek.com###main > article > div.entry-content > div[style*="text-align: center; background-color: rgb(247, 247, 247); border: 1px solid rgb(243, 243, 243); width: 100%; padding-bottom: 18px;"]
-www.howtogeek.com###v2campaignmidpage
-www.howtogeek.com###v2campaignpopup
-www.howtogeek.com###v2campaignpopup_backdrop
-www.howtogeek.com##.email-overlay
-www.howtogeek.com##.message
-www.howtogeek.com##.overlay-wrapper
-www.howtogeek.com##.social-media-buttons
-www.howtogeek.com##.walter-march2021-inpage-style
-www.icann.org##.cookie-notification
-www.independent.co.uk##div[data-newsletter-key="receiveIndyBreakingNews"]
-www.influxdata.com##.contact_sale
-www.influxdata.com##.cookieterms
-www.infoq.com##.share-this-popover
-www.infoq.com##.widget.newsletter
-www.infoworld.com##aside.fakesidebar
-www.internalpointers.com##.ip-follow-us-popup,.ip-cookie-banner,.ip-post__social-tools
-www.itpro.com##.polaris__newsletter
-www.itprotoday.com###newsletter-signup-load
-www.itprotoday.com##.gdpr-popup-border
-www.itprotoday.com##.share-icons
-www.itweb.co.za##.itw-right-column,.itw-share-v,.text-related
+www.historytoday.com###block-headersubscribe
+www.howtogeek.com##.header-commission-statement
+www.infoq.com##.contribute.slider_contribute
 www.javascripttutorial.net###back-to-top,.helpful-block-content,.ad
-www.jb51.net###right-share
-www.jb51.net##div.topimg
-www.jetbrains.com##.cookies-banner
-www.jetbrains.com##.id_cookies
-www.jetbrains.com##DIV[id="bart_wrapper"]
-www.jetbrains.com##DIV[id="country-offer-placeholder"]
-www.jetbrains.com##DIV[id="pseudo-footer"]
-www.keycdn.com##.cookies-warning
 www.laptopmag.com##+js(cookie-remover, FTR_Country_Code)
 www.laptopmag.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.latimes.com###ensNotifyBanner,.page-actions-sticky,[name="metering-bottompanel"]
-www.learnrazorpages.com###cookie-warning
-www.linuxeden.com##.bdsharebuttonbox.action-share
-www.listennotes.com###ln-side-share-div
 www.livescience.com##+js(cookie-remover, FTR_Country_Code)
 www.livescience.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.merriam-webster.com###home-promo,#wotd-promo-sub-box,#register-promo,.art-social-share,.social-bar,.share-bar-plus,.wotd-side__subscribe,.row.subscribe-row,div[id^="mw-ad-slot"]
 www.merriam-webster.com##.wod-article-container .wod-activity-container,.wod-article-container .game-recirc-widget ~ .blue-divide.thin-divide,.active-subscribe,#art19-podcast-player .awp-media-actions .awp-media-subscribe-container,#subscribe-unabridged
 www.microsoft.com##switchOfficeHeroFirst, .switchOfficeHeroSecond,.m-hero-item.context-accessory,.m-back-to-top
-www.mojeek.com##.js-pop.pop-in
 www.mssqltips.com###slideboxtop,.columns.hide-for-print.large-3
 www.mysqltutorial.org##back-to-top,.helpful-block-content,.ad
 www.namegeneratorfun.com###consent
 www.nature.com##.c-site-messages--nature-briefing-email-variant
-www.newstatesman.com##.c-share--clear.c-share
-www.newstatesman.com##.c-sponsored-article
-www.newstatesman.com##.newsletter-inner-container
-www.newtonsoft.com###footerNotice
 www.newyorker.com##.paywall-bar,aside[class*="PaywallBarWrapper-"]
 www.newyorker.com##.social-icons--share.social-icons--circular.social-icons
-www.nokia.com###block-nokialocalesuggestionblock
-www.nokia.com##.nokia-cookies-wrapper
-www.npmjs.com##DIV[id="notification-banner"]
-www.nuget.org##.banner
 www.nvidia.com###cookiePolicy-layer
 www.nytimes.com##.shown.magnoliaDock,div[data-testid="inline-message"]
 www.oneplus.com##.cookie-warn
@@ -607,15 +564,10 @@ www.yuque.com##.article-content-reward,.social-share
 www.yuque.com##div[class*="CornerBubble-module_cornerBubble_"]
 www.yuque.com##div[class*="ReaderCommentSignupGuide-module_commentOnboardingBanner_"]
 www.yuque.com##div[class*="index-module_qrCodeWrapper_"]
-www.zdnet.com##.large.video.shortcode
-www.zdnet.com##div.alignRight.relatedContent
-www.zerrouki.com###cookie-notice
 www.zoho.com##+js(cookie-remover, zip)
-www3.nhk.or.jp###nw_gdpr_view_id
 xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamsterlive.com##.join-me-button
-yandex.com##.content__right
-youtrack.jetbrains.com##div[class^="alertContainer_"]
+yandex.com###search-result-aside
 zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.businessvip-wrapper
 ||*.club$domain=88dyw.com
 ||*.cn$domain=88dyw.com
@@ -669,7 +621,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||api.honeybadger.io/v1/notices/js$domain=dev.to
 ||api.hyshenzhen.com/api/mallv2/common/analysisData
 ||api.icy-lake.kickstarter.com/v1/t
-||api.instagram.com/v1/users/self/media/recent$domain=www.nokia.com
 ||api.ipfind.com/me
 ||api.itweb.co.za/*/content/*/newsletter
 ||api.mypurecloud.com/api/v2/journey/websites/*/customers/*/ping?visitId=$domain=www.shutterstock.com
@@ -994,8 +945,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||i.cdn.turner.com/ads/adfuel/$domain=edition.cnn.com
 ||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
 ||ibreader.com$domain=jianshu.com
-||icws.jb51.net/js/beitou.js
-||icws.jb51.net/tongji/tongji2.js
 ||iknow-zhidao.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb*.png
 ||iknowpc.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb.*.png
 ||img-blog.csdnimg.cn/img_convert/d43e79ea7645a1993af8e69a40b23f47.png
@@ -1305,6 +1254,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||static.olark.com/jsclient/loader0.js$script,domain=ngrok.com
 ||static.oschina.net/new-osc/js/utils/jweixin-*.*.*.js
 ||static.pgyer.com/static-*/assets/js/adAdsense.js
+||static.scarf.sh/a.png$domain=docs.influxdata.com
 ||static.scroll.com/js/scroll-smart.js$domain=www.usatoday.com
 ||static.scroll.com/js/scroll.js$third-party,important
 ||static.telegraph.co.uk/telegraph-advertising/$important
@@ -1511,7 +1461,8 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||www.hanselman.com/blog/theme/jinyang/scripts/cookieconsent.min.js
 ||www.history.com/vendor/adobe-target
 ||www.historytoday.com/advertisement/
-||www.historytoday.com/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js
+||www.historytoday.com/core/modules/statistics/statistics.php
+||www.howtogeek.com/lambda-uploads/howtogeek/*/*/blank.gif
 ||www.huawei.com/pepp4_lakers
 ||www.infoworld.com/napi/tile
 ||www.infoworld.com/www/js/ads$important
@@ -1530,9 +1481,9 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||www.mozilla.org/country-code.json
 ||www.msn.cn/pcs/api/widget/bingHomepage/widgetfeed
 ||www.newstatesman.com/wp-content/plugins/nsmg-evolok-paywall/
+||www.newtonsoft.com/api/notices
 ||www.nginx.com/wordpress/wp-admin/admin-ajax.php
 ||www.nglish.com/spanish/users/RenderAdvertisement
-||www.nokia.com/phones/*/external/cookie_consent
 ||www.nslookup.io/plev
 ||www.nytimes.com/svc/int/functions/geoip
 ||www.oracle.com/assets/truste-oraclelib.js$domain=mysql.com
