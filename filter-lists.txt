@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, July 15, 2023
+! Last modified: Sunday, July 16, 2023
 ! Title: Custom Filter Lists
-! Version: 20230715
+! Version: 20230716
 !
 !
 !
@@ -564,6 +564,7 @@ www.yuque.com##.article-content-reward,.social-share
 www.yuque.com##div[class*="CornerBubble-module_cornerBubble_"]
 www.yuque.com##div[class*="ReaderCommentSignupGuide-module_commentOnboardingBanner_"]
 www.yuque.com##div[class*="index-module_qrCodeWrapper_"]
+www.zabbix.com##.header-language
 www.zoho.com##+js(cookie-remover, zip)
 xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamsterlive.com##.join-me-button

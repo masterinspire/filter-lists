@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, July 15, 2023
+! Last modified: Sunday, July 16, 2023
 ! Title: Custom Filter Lists Breaking
-! Version: 20230715
+! Version: 20230716
 !
 !
 !
@@ -27,6 +27,7 @@ screenrant.com##.w-youtube.w-rich
 ||raw.githubusercontent.com/mui/material-ui/master/docs/notifications.json$domain=mui.com
 ||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
 ||stackblitz.com$domain=ng.ant.design
+||www.blogger.com$domain=googleblog.com
 ||www.google.com$domain=bugs.python.org
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/coop/intl/en/images/google_custom_search_watermark.gif$domain=www.ruby-lang.org
