@@ -2,15 +2,16 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, July 16, 2023
+! Last modified: Monday, July 17, 2023
 ! Title: Custom Filter Lists Breaking
-! Version: 20230716
+! Version: 20230717
 !
 !
 !
 gamerant.com##.w-youtube.w-rich
 screenrant.com##.w-youtube.w-rich
 ||accounts.google.com/$third-party
+||blogger.com$third-party
 ||bp.blogspot.com/$third-party
 ||buttons.github.io/buttons.js$domain=www.ag-grid.com|expressjs.com
 ||cefsharp.github.io/images/top-header.png
@@ -25,9 +26,8 @@ screenrant.com##.w-youtube.w-rich
 ||news.google.com/swg/js/v1/swg.js$domain=www.usatoday.com
 ||ogs.google.com$domain=translate.google.cn
 ||raw.githubusercontent.com/mui/material-ui/master/docs/notifications.json$domain=mui.com
-||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org
+||sidecar.gitter.im/dist/sidecar.v1.js$domain=konvajs.org|cssinjs.org|mahapps.com|chocolatey.org|www.red-lang.org
 ||stackblitz.com$domain=ng.ant.design
-||www.blogger.com$domain=googleblog.com
 ||www.google.com$domain=bugs.python.org
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/coop/intl/en/images/google_custom_search_watermark.gif$domain=www.ruby-lang.org
