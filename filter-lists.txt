@@ -2,22 +2,14 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, July 16, 2023
+! Last modified: Wednesday, July 19, 2023
 ! Title: Custom Filter Lists
-! Version: 20230716
+! Version: 20230719
 !
 !
 !
-##.alert-info.alert.signup-cta
-##.back-to-top
 ##.quote-button
-##div[aria-label="cookieconsent"]
-/_/api/v2/analytics/
-/_/static/javascript/readthedocs-analytics.js
-/api/v2/sustainability/data/
-/inc/timming.php
 @@||adfstat.yandex.ru/captcha?req_id
-@@||angular.io/resources/images/cookbooks/dynamic-component-loader/ads.gif$image,first-party
 @@||docs.vmware.com/uicontent/
 @@||kb.vmware.com/resource/$script
 @@||kb.vmware.com/s/sfsites/$script
@@ -37,7 +29,6 @@ adguard.com##.sticky-bar--fixed.annoyance.sticky-bar
 ai.baidu.com##.ai-aside,.feedback-wrapper
 androidwave.com##.onp-sl-overlap-box
 angular-academy.com##.share
-angular.io##aio-cookies-popup
 arcanecode.com##.widget_eu_cookie_law_widget.widget
 archive.org##footer
 askubuntu.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
@@ -55,9 +46,6 @@ blog.csdn.net##.recommend-tit-mod,.recommend-box,#recommendNps,#asideNewNps,.wei
 blog.csdn.net##.set-code-hide:style(padding-bottom: 2rem !important; max-height: inherit !important; overflow: inherit !important; height: inherit !important;)
 blog.encyro.com###PopupSignupForm_0
 blog.google###cookieBar,.uni-newsletter-toast
-blog.jetbrains.com###post_footer_banner
-blog.jetbrains.com##.banner
-blog.jetbrains.com##.newsletter
 blog.karumi.com##.socialsidebar
 blog.logrocket.com##.news-pop-outer-wrap.news-pop
 blog.magnusmontin.net###eu-cookie-law
@@ -70,15 +58,7 @@ carnegieeurope.eu###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegieindia.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegiemoscow.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegietsinghua.org###selectionSharerPopover,.cookie-banner,.programs-ctw
-chakra-ui.com###watch-the-egghead-course
-chakra-ui.com###watch-the-egghead-course + div.chakra-linkbox
-chakra-ui.com##a[rel="noopener sponsored"]
 chat.mozilla.org##.mx_AnalyticsToast.mx_Toast_toast
-chocolatey.org###cookieNoticeAlert
-chocolatey.org###mc_embed_signup
-chocolatey.org###topNoticeAlert
-chocolatey.org##.btn-announcement-notifications.btn-collapsing-right-sidebar
-ckeditor.com##.banner--enabled.banner-fintech.banner--bottom.banner
 cloud.google.com##devsite-feedback
 cloud.google.com##devsite-thumb-rating
 cloud.tencent.com##.com-event-panel
@@ -102,7 +82,6 @@ connect.mozilla.org##.lia-cookie-banner-alert
 create-react-app.dev##div[class^="announcementBar"]
 css-tricks.com##.fem-sidebar-ad.fem-ad
 curl-library.cool.haxx.narkive.com###selection_url_c
-curl.se##.badge
 dapper-tutorial.net##.container-fluid.page-header-calltoaction
 dbeaver.com##.getresponse-bottom-widget
 deepmind.com###cookieBar
@@ -179,12 +158,8 @@ en.wikipedia.org##.vector-limited-width-popup
 engineering.fb.com###GDPRConsentBar
 entityframework.net###modal-with-graph,.container-fluid.page-header-calltoaction,.site-footer-popup-newsletter
 entityframeworkcore.com##.container-fluid.page-header-calltoaction,.site-footer-popup-newsletter
-everything-powershell.com##.widget_eu_cookie_law_widget.widget
-exceljet.net###block-views-courses-block-block
-exceljet.net###block-views-front-testimonials-block
-exceljet.net###block-views-generic-testimonials-block
-exceljet.net##.field.field-name-formula-training
-exceljet.net##.sendy-function-pdf
+everything-powershell.com###media_image-3,#media_image-5,#paypal_donations-3
+exceljet.net##.block-block-ad-rr1,.block-block-ad-rr2,.block-block-ad-ic1,.block-views-courses-block-block,.block-views-generic-testimonials-block,.block-block-excel-functions-pdf,.block-block-excel-shortcuts-pdf
 fandom.com###WikiaBar,#highlight__main-container,.notifications-placeholder
 firebase.google.com##devsite-feedback
 firebase.google.com##devsite-thumb-rating
@@ -199,21 +174,15 @@ get.foundation###subpage-intro-video
 get.videolan.org###uecookies
 gfycat.com##.shown.cookieBannerContainer
 gist.github.com##.gist-banner.gist-detail-intro
-gitee.com##.side-toolbar
 github1s.com##.github1s-notification
 gitlab.com##.broadcast-notification-message.broadcast-message
 gitlab.com##.gl-banner.js-autodevops-banner
 gitlab.com##.js-minute-limit-banner
 gitlab.com##.trial-link
-gowatchseries.ch##.notice,div[style=" z-index:99999;position: fixed;bottom: 0;text-align: center;width: 100%; left: 0;padding: 10px;background: #ff6600;color: white;"]
-grafana.com##.sticky-footer--dark
-grafana.com##.sticky-footer--grafanacon-la
 gtaforums.com###elGuestTerms > .ipsLayout_container
 gtaforums.com##.ipsComment_inlineQuoteTooltip.ipsTooltip_bottom.ipsTooltip
 hackaday.com##.cookie-notifications
-heimdalsecurity.com##.affixed.social-share-wrapper > .social-share-fixed
-heimdalsecurity.com##.tm-click-to-tweet
-heimdalsecurity.com##div.shortcode.blog-action
+heimdalsecurity.com##.shortcode.blog-action
 help.aliyun.com###selection-feedback-tooltip
 help.aliyun.com##div[class*="FeedBack--feedBackContainer--"]
 help.aliyun.com##div[class*="FooterBanner--bannerContainer--"]
@@ -315,9 +284,6 @@ stackoverflow.com###trending-sort-info, #trending-sort-info + #launch-popover
 stackoverflow.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 startpage.com##.home__section-one__search-container.home__section-one__search-container__show-subtitle > .subtitle
 staxmanade.com##.jj-signup-form
-substack.com##.post-end-cta-full
-substack.com##.subscribe-footer
-substack.com##.subscribe-widget
 superuser.com##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
 support.microsoft.com###supWrapperToPreventFeedbackFlickering,.ocArticleFooterShareContainer,.ocArticleFooterFeedPickerContainer,.ocArticleFooterSection,#rail-column
 support.mozilla.org###announcements
@@ -580,6 +546,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||a.app.qq.com/o/process-report
 ||a.app.qq.com/o/report
 ||a.clipconverter.cc/www/d/fr.php
+||a.play.ht/views/
 ||ab.wpf-tutorial.com/JavaScript/AB.ashx
 ||abtestvm.bytedance.com/service/2/abtest_config/$domain=jinritemai.com|bytedance.com
 ||access-prod.apis.anvato.net/anvacks/$domain=www.fox5ny.com
@@ -878,6 +845,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||exmail.qq.com/qy_mng_logic/reportKV
 ||experience.tinypass.com$domain=www.telegraph.co.uk
 ||f.convertkit.com$third-party
+||faro-collector-prod-us-central-0.grafana.net$domain=grafana.com
 ||feed.baidu.com/feed/api/tab/gettabinfo
 ||feedback.esp.vmware.com/assets/ipf/esp.js
 ||feistyduck.gumroad.com/links/*/increment_views
@@ -1045,7 +1013,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||mc.yandex.ru/metrika/watch.js$domain=unicode-table.com
 ||mcs.snssdk.com$domain=jinritemai.com|bytedance.com
 ||mcs.zijieapi.com$domain=jinritemai.com|bytedance.com
-||media.readthedocs.org/javascript/readthedocs-analytics.js
+||media.ethicalads.io/$domain=readthedocs.org
 ||merak.alicdn.com/delivery/
 ||meta.wikimedia.org/w/index.php?title=Special:BannerLoader
 ||meter-svc.nytimes.com/meter.js
@@ -1100,6 +1068,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||otelwebtelemetry.com/v1/trace
 ||outofmemory.cn/static/js/h.js
 ||outreach.abetterinternet.org/$domain=letsencrypt.org
+||ov-df.microsoft.com/$frame
 ||p13n-mr.adobe.io/psdk/v2/content$domain=helpx.adobe.com
 ||page.gitlab.com/js/forms2/js/forms2.min.js$domain=about.gitlab.com
 ||pagead2.googlesyndication.com$important
@@ -1151,6 +1120,9 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||query.prod.cms.rt.microsoft.com/cms/api/am/binary/$domain=www.microsoft.com
 ||r.stripe.com/0
 ||rating-widget.com/js/api/rating/get.php
+||readthedocs.io/_/api/v2/analytics/
+||readthedocs.io/_/static/javascript/readthedocs-analytics.js
+||readthedocs.org/api/v2/sustainability/data/
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/jquery-for-marketo-opt-in.js
 ||redislabs.com/wp-content/themes/redislabs/assets/js/scripts/marketo-opt-in-2.js
 ||referrer.disqus.com/juggler/event
@@ -1166,6 +1138,8 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||retcode.alicdn.com/retcode/bl.js
 ||revertservice.com/eucookies.js
 ||rl.mail.qq.com/cgi-bin/getinvestigate
+||rs.grafana.com/v1/page$domain=grafana.com
+||rs.grafana.com/v1/track$domain=grafana.com
 ||rumprod-*.cos.ap-guangzhou.myqcloud.com/chinatax/aegisId.js
 ||runkit.com/s/timing
 ||rxjs.dev/ngsw-worker.js
