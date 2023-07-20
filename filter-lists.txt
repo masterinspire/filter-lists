@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, July 19, 2023
+! Last modified: Thursday, July 20, 2023
 ! Title: Custom Filter Lists
-! Version: 20230719
+! Version: 20230720
 !
 !
 !
@@ -58,6 +58,7 @@ carnegieeurope.eu###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegieindia.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegiemoscow.org###selectionSharerPopover,.cookie-banner,.programs-ctw
 carnegietsinghua.org###selectionSharerPopover,.cookie-banner,.programs-ctw
+cdn.cxense.com/$domain=www.wsj.com,important
 chat.mozilla.org##.mx_AnalyticsToast.mx_Toast_toast
 cloud.google.com##devsite-feedback
 cloud.google.com##devsite-thumb-rating
@@ -82,16 +83,8 @@ connect.mozilla.org##.lia-cookie-banner-alert
 create-react-app.dev##div[class^="announcementBar"]
 css-tricks.com##.fem-sidebar-ad.fem-ad
 curl-library.cool.haxx.narkive.com###selection_url_c
-dapper-tutorial.net##.container-fluid.page-header-calltoaction
-dbeaver.com##.getresponse-bottom-widget
-deepmind.com###cookieBar
-den.dev##.bottom-banner,.bottom-container
-dev.to###sidebar-wrapper-left > .side-bar > .crayons-card--secondary.crayons-card
-dev.to##.authentication-feed__card
-dev.to##div.crayons-sponsorship-widget.crayons-card--secondary.crayons-card
-devblogs.microsoft.com##.back-comment-buttons,.social-icon-bar,#colophon,.vscom-usabilla-button
-devdactic.com###cookie-notice
-devdactic.com##.nc_wrapper
+dappertutorial.net##.container-fluid.page-header-calltoaction,.site-footer-popup-newsletter
+devblogs.microsoft.com##.back-comment-buttons,#colophon,#usabilla-button,.alert-banner.open,.sidebar-banner
 devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
 devdocs.io##._notice,._notif _in
 developer.aliyun.com##.developer-common-fixed-box
@@ -130,13 +123,13 @@ developers.google.com##devsite-youtube
 developers.weixin.qq.com###popoverWrapId,.fixed-btns
 digitalrightswatch.org.au###cookie-notice
 ding-doc.dingtalk.com##.styles-float
-dnschecker.org###cookie-box
+dnschecker.org##.side_menu
 doc.qt.io###cookie-archive,#cookie-confirm
 doc.qt.io##.sidebar-container, .toc-drawer:style(width: 20rem !important; min-width: 15rem !important; padding-right: 0rem !important;)
 doc.qt.io##.sidebar-drawer,.content:style(width: unset !important;)
 docs.aliwork.com##.feedback
 docs.gradle.org###newsletter-form-container
-docs.influxdata.com###support-ad
+docs.influxdata.com###docs-notifications,#callout-url-selector
 docs.pytest.org##body:style(font-family: initial !important)
 docs.rs##.docs-rs-footer
 docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
@@ -321,7 +314,8 @@ windows.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 winscp.net##.promo-block
 wordpress.com##.widget_eu_cookie_law_widget.widget
 work.weixin.qq.com##.ww_popPanel_WithArrowDown.ww_popPanel_White.apiFeature_opinion_btn.ww_popPanel
-wpf.2000things.com###eu-cookie-law
+wpf-tutorial.com###divArticleAvailableLanguages,.chapter:has(#genDownloadPdf)
+wpf.2000things.com###infinite-footer
 www.88dyw.com##.gotop, body > embed[id^="1"]
 www.88dyyw.com###topcontrol,.leaveNavInfo,.light_switch
 www.advancedinstaller.com###sticky-bottom-container
@@ -347,29 +341,14 @@ www.codastory.com###mc_embed_signup
 www.computerworld.com##aside[id^="fsb-"]
 www.cplusplus.com##body > div:nth-of-type(1)
 www.damninteresting.com##.tab-visible.plea
+www.deepmind.com##.pp-banner
 www.dictionary.com###marketingBanner-right
 www.digitalcombatsimulator.com###cookies
 www.digitalocean.com##div[class^="ToastStyles__StyledWrapper-sc"],div[class^="TutorialTemplateStyles__StyledCTA-sc"]
-www.docs.influxdata.com###support-ad
-www.dotnettricks.com###cookienotify,#sticky-footer
+www.dotnettricks.com###sticky-footer
 www.droidcon.com##.relatedJobs,.dc-relatedPost,.droidcon_job_offers
 www.echartsjs.com###apache-banner
-www.educba.com###banner_1
-www.educba.com###topbar
-www.educba.com##.banner-3
-www.educba.com##.swp_social_panel
-www.enterprisedb.com###promoWrapper
-www.enterprisedb.com##.eu-cookie-compliance-banner
-www.enterprisedb.com##.outer-content > .content_bottom > .chat-wrap,.contactus1
-www.enterprisedb.com##.outer-content > .content_middle > .chat-wrap
-www.experts-exchange.com###bottomBarSignup
-www.experts-exchange.com###pageShareAndManage-id2
-www.experts-exchange.com###textComponent-id18
-www.experts-exchange.com##.afterFirstSolution
-www.experts-exchange.com##.getAccessContainer
-www.experts-exchange.com##.weHelpBanner
-www.fanbyte.com###PopupSignupForm_0
-www.fanbyte.com###check-also-box
+www.experts-exchange.com##div[class^="testionialBlock__"]
 www.flickr.com##.cookie-banner-view
 www.forbes.com##.seo.recirc-module
 www.gamedeveloper.com###cookie-popup-wrapper,.sns-sharing
@@ -506,32 +485,9 @@ www.wilderssecurity.com##.bottomFixer
 www.windowscentral.com##+js(cookie-remover, FTR_Country_Code)
 www.windowscentral.com##.newsletter-signup,#slice-container-trendingbar
 www.windowscentral.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
-www.wintips.org##.cresta-share-icon
-www.wired.co.uk##.social-icons--share.social-icons
-www.wired.com##.article__social-share
-www.wired.com##.callout--has-top-border
-www.wired.com##.consumer-marketing-unit--cm-footer
-www.wired.com##.journey-template--paywall-bar
-www.wired.com##.newsletter-subscribe-form
-www.wired.com##.paywall-modal--paywall.paywall-modal
-www.wired.com##.social-icons--share
-www.wpf-tutorial.com###divArticleAvailableLanguages
-www.wpf-tutorial.com##div.codebox_bar
-www.wsj.com###share_tools
-www.wsj.com##.is-lead-inset
-www.wsj.com##div[aria-label="Sponsored Offers"]
-www.wsj.com##div[class*="ShareTools__Container-"]
 www.wxwidgets.org##.logos.mb-4.border-primary.card
-www.xda-developers.com##.et_social_inline
-www.xda-developers.com##.et_social_sidebar_networks
-www.xda-developers.com##.widget.widget-2.widget_text
-www.xda-developers.com##.widget.widget-3.widget_text
-www.yuque.com##.article-content-reward,.social-share
-www.yuque.com##div[class*="CornerBubble-module_cornerBubble_"]
-www.yuque.com##div[class*="ReaderCommentSignupGuide-module_commentOnboardingBanner_"]
-www.yuque.com##div[class*="index-module_qrCodeWrapper_"]
+www.yuque.com##.article-content-reward,div[class*="CornerBubble-module_cornerBubble_"]
 www.zabbix.com##.header-language
-www.zoho.com##+js(cookie-remover, zip)
 xbox.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 xhamsterlive.com##.join-me-button
 yandex.com###search-result-aside
@@ -576,7 +532,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-iam.intercom.io/messenger/web/ping
 ||api-reuters-reuters-prod.cdn.arcpublishing.com/sales/public/v1/entitlements
-||api-secure.wsj.net/api/michelangelo/timeseries/history
 ||api.atlassian.com/metal/ingest
 ||api.callstats.io/static/callstats-ws.min.js$domain=meet.jit.si
 ||api.cdnbye.com/v1/channel/*/stats
@@ -676,6 +631,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||c0.wp.com/p/jetpack/*/_inc/build/twitter-timeline.min.js$domain=everything-powershell.com
 ||c0.wp.com/p/jetpack/*/_inc/build/widgets/eu-cookie-law/$domain=everything-powershell.com
 ||calnewport.ck.page$domain=www.calnewport.com
+||carrick-ui.advoncommerce.com/$domain=www.xda-developers.com
 ||cc-api-data.adobe.io/ingest
 ||cdn-au.onetrust.com/scripttemplates/otSDKStub.js
 ||cdn-cookieyes.com$domain=devhub.checkmarx.com
@@ -787,6 +743,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||dc.services.visualstudio.com/v2/track
 ||dd.nytimes.com/tags.js
 ||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
+||dev.to/billboard_events
 ||dev.to/fallback_activity_recorder
 ||developer.aliyun.com/js/baidu_push.js
 ||developer.android.com/_d/analytics-iframe
@@ -912,7 +869,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||hm.baidu.com/hm.js
 ||huatuospeed.weiyun.com/cgi-bin/r.cgi
 ||i.cdn.turner.com/ads/adfuel/$domain=edition.cnn.com
-||i.creativecommons.org$domain=www.gyan.dev|expressjs.com
 ||ibreader.com$domain=jianshu.com
 ||iknow-zhidao.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb*.png
 ||iknowpc.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb.*.png
@@ -941,12 +897,10 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||jiathis.com$third-party
 ||jingyan.baidu.com/asyncreq?method=getApp
 ||jqmt.qq.com/cdn_dianjiliu.js
-||js-agent.newrelic.com$third-party
 ||js.3conline.com/ue/share/pc_static/api/js/share.js$domain=pconline.com.cn
 ||js.createsend1.com/javascript/copypastesubscribeformlogic.js$domain=underjord.io
 ||js.devexpress.com/Demos/WidgetsGallery/Scripts/errorLogging.js
 ||js.driftt.com/include/*/*.js$third-party
-||js.hs-scripts.com$third-party
 ||js.hsforms.net$third-party
 ||js.intercomcdn.com/shim.*.js$domain=reactiveui.net
 ||js.lhzfood.com/baidu/dix.js
@@ -1095,7 +1049,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||play.google.com/log$important
 ||play.history.com/vendor/at.js
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js$domain=www.thewindowsclub.com
-||player.cnevids.com$domain=www.wired.co.uk|www.wired.com
 ||player.sexapi.xyz/jwplayer/devtools-detector.js
 ||players.brightcove.net/*/*_default/index.min.js$domain=www.forbes.com
 ||playwright-analytics.azurewebsites.net/
@@ -1112,7 +1065,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||push-content.springernature.io/*/production_live/consent-bundle-*.js$domain=www.nature.com
 ||pyinstaller.narkive.com/ajax/TelemV2
 ||quantcast.mgr.consensu.org/choice/*/mathworks.com/choice.js$domain=www.mathworks.com
-||quantcast.mgr.consensu.org/cmp.js$domain=xda-developers.com|www.techspot.com
+||quantcast.mgr.consensu.org/cmp.js$domain=www.techspot.com
 ||query.aliyun.com/rest/delivery.config.customRules.ambassor-delivery-topbar
 ||query.aliyun.com/rest/delivery.service.engine
 ||query.aliyun.com/rest/developer-aliyun-com.detailPublicity.mirrorRecommend
@@ -1353,6 +1306,9 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||work.weixin.qq.com/wwopen/common/kvReport
 ||wp.qiye.qq.com/qidian/$domain=tapd.cn
 ||wpa.b.qq.com/cgi/wpa.php$domain=www.wnwb.com
+||wpf-tutorial.com/Content/Local/1.css
+||wpf-tutorial.com/Content/Local/1.js
+||wpf-tutorial.com/Ping
 ||www.88dyw.com/js/ads/
 ||www.88dyw.com/static/api/js/share.js
 ||www.88dyyw.com/aps/index/
@@ -1402,7 +1358,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||www.droidcon.com/wp-admin/admin-ajax.php
 ||www.dropbox.com/static/api/1/dropins.js$third-party
 ||www.dvdzm.com/plus/count.php
-||www.educba.com/wmj_jx/pr-currency.php
 ||www.entityframeworktutorial.net/cdn-cgi/
 ||www.entityframeworktutorial.net/detroitchicago/
 ||www.erlang.org/css/twitterl.css
@@ -1514,12 +1469,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||www.washingtonpost.com/tetro/metering/evaluate
 ||www.wikihow.com/extensions/min/f/_ads/gads.js
 ||www.wikihow.com/load.php
-||www.winhelponline.com/blog/wp-content/plugins/cookie-notice/
-||www.wintips.org/wp-content/plugins/contact-form-7/modules/recaptcha/script.js
-||www.wired.com/hotzones/src/ads.js
-||www.wpf-tutorial.com/Content/Local/1.css
-||www.wpf-tutorial.com/Content/Local/1.js
-||www.wpf-tutorial.com/Ping
 ||www.xfinity.com$script
 ||www.youmaker.com/reportad
 ||www.youtube.com/*/VIDEOCODEHERE$domain=eldenring.wiki.fextralife.com
