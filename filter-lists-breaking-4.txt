@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, July 15, 2023
+! Last modified: Monday, July 24, 2023
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20230715
+! Version: 20230724
 !
 !
 !
@@ -38,3 +38,5 @@ stackexchange.com###question-list > div.question-container[data-sid="japanese.st
 www.robtex.com###rtfragc_dnst, #rtfragc_dnsbl, #rtfragc_ohistory, #rtfragc_owhois:style(height: initial !important;)
 www.robtex.com###rtfrage_dnsbl, #rtfrage_seo, #rtfrage_reverse, #rtfrage_wot, #rtfrage_threatminer, #rtfrage_ipio, #rtfrage_visgraph, #rtfrage_ograph, #rtfrage_ohistory, #rtfrage_owhois, #rtfrage_alexa
 www.robtex.com##.rtfragc:style(overflow: auto !important;)
+||marketplace.visualstudio.com/_apis/customerintelligence/Events
+||public-ubiservices.ubi.com/v2/profiles/me/iplocation

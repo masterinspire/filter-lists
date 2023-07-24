@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, July 21, 2023
+! Last modified: Monday, July 24, 2023
 ! Title: Custom Filter Lists
-! Version: 20230721
+! Version: 20230724
 !
 !
 !
@@ -30,90 +30,36 @@ aws.amazon.com##.aws-cn-optin
 baidu.com###tab_news_1,.his-no-rec-p.his-no-rec,.rw-list-container2.rw-list-container > .c-line-clamp1,.se-page-copyright,div[srcid="recommend_video_normal"]
 baike.baidu.com###side-share,.wgt-baikeapp-promote-container
 blog.logrocket.com###myModal,.sidebar
-chat.mozilla.org##.mx_AnalyticsToast.mx_Toast_toast
-cloud.google.com##devsite-feedback
-cloud.google.com##devsite-thumb-rating
-cloud.tencent.com##.com-event-panel
-cloud.tencent.com##.document-feedback-container
-cloud.tencent.com##.rno-documents-tools.rno-scrollbar-tools
-cloud.tencent.com##.select-feedback-tip
-club.ubisoft.com###footer_tc_privacy
+cloud.google.com##devsite-feedback,devsite-thumb-rating
 cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt,#wikiWidgetContainer
 cn.bing.com###b_mtp,#b_context,#footer,#bnp_hfly,#ev_talkbox_wrapper,#relatedSearchesLGWContainer
 cn.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer,#lgAnsFeedbackMopContainer
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop,#textDeeplinksWidgetContainer
 cn.bing.com##a[aria-label*="Microsoft Rewards"],#mfa_root
-cnbeta.com##body > div[style*="display:block !important;position:fixed;"]
 code.visualstudio.com##.feedback
-community.ccleaner.com###elGuestTerms
 community.chocolatey.org###callout-package-warning
-community.notepad-plus-plus.org##.selection-tooltip-container
-community.spiceworks.com###zdprivacy-content
-config.office.com##.unAuthPrivacyFooter,#btnFeedback
-connect.mozilla.org##.lia-cookie-banner-alert
 create-react-app.dev##div[class^="announcementBar"]
-css-tricks.com##.fem-sidebar-ad.fem-ad
-curl-library.cool.haxx.narkive.com###selection_url_c
 dappertutorial.net##.container-fluid.page-header-calltoaction,.site-footer-popup-newsletter
 devblogs.microsoft.com##.back-comment-buttons,#colophon,#usabilla-button,.alert-banner.open,.sidebar-banner
 devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
 devdocs.io##._notice,._notif _in
-developer.aliyun.com##.developer-common-fixed-box
-developer.aliyun.com##.publicity-li
-developer.android.com###essential
-developer.android.com###videos
-developer.android.com##.devsite-banner-announcement.devsite-banner
-developer.android.com##devsite-footer-promos
-developer.android.com##devsite-hats-survey
-developer.android.com##devsite-snackbar
-developer.android.com##devsite-thumb-rating
-developer.android.com##devsite-video
-developer.android.com##devsite-youtube
-developer.android.google.cn##.devsite-banner-announcement.devsite-banner
-developer.android.google.cn##devsite-footer-promos
-developer.android.google.cn##devsite-thumb-rating
-developer.chrome.com##.cookie-banner
-developer.microsoft.com##.back-to-top,.sockWrapper
-developer.mozilla.org##.developer-needs
-developer.mozilla.org##.mdn-cta-container
-developer.mozilla.org##.newsletter-container
-developer.mozilla.org##.notification
-developer.mozilla.org##.notification-tray
+developer.android.com##devsite-thumb-rating,devsite-snackbar,devsite-footer-promos
+developer.microsoft.com###banner-holder
 developers.aliwork.com##.feedback
-developers.google.cn##.devsite-banner-announcement.devsite-banner
-developers.google.cn##devsite-footer-promos
-developers.google.cn##devsite-thumb-rating
-developers.google.com###feedback
-developers.google.com##.devsite-banner-announcement.devsite-banner
-developers.google.com##.webFuRSSWidget
-developers.google.com##devsite-feedback
-developers.google.com##devsite-footer-promos
-developers.google.com##devsite-thumb-rating
-developers.google.com##devsite-tracking-question
-developers.google.com##devsite-youtube
-developers.weixin.qq.com###popoverWrapId,.fixed-btns
-digitalrightswatch.org.au###cookie-notice
+developers.google.com##devsite-feedback,devsite-thumb-rating,devsite-footer-promos
 ding-doc.dingtalk.com##.styles-float
 dnschecker.org##.side_menu
 doc.qt.io##.sidebar-container, .toc-drawer:style(width: 20rem !important; min-width: 15rem !important; padding-right: 0rem !important;)
 doc.qt.io##.sidebar-drawer,.content:style(width: unset !important;)
 docs.aliwork.com##.feedback
-docs.gradle.org###newsletter-form-container
 docs.influxdata.com###docs-notifications,#callout-url-selector
 docs.pytest.org##body:style(font-family: initial !important)
-docs.rs##.docs-rs-footer
-docs.sentry.io##.flex-grow-0.py-2.px-3.bg-white.border-top
-docs.vmware.com##.position-fixed.icons-container
-dotnetfiddle.net##.container-sponsor
-downloads.digitaltrends.com##.ad-burnside,.roof-ad
+downloads.digitaltrends.com##.ad-adapex--cls.ad-adapex
 dppt.shanghai.chinatax.gov.cn##.zn-dialog_ctr-btn
-dragablz.net##.sharedaddy
-dragablz.net##.widget_eu_cookie_law_widget.widget
 duckduckgo.com##.header__label.showcase.header--aside__item
 duckduckgo.com##.js-feedback-btn-wrap
 duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
 dzone.com###announcement-container-outer
-earth.google.com##earth-experimental-toolbar
 edition.cnn.com##.Article__promo.Article__zone.Zone__component
 edition.cnn.com##div.RelatedArticle__component
 embed.plnkr.co##.plunker-ad-wrap
@@ -124,8 +70,7 @@ entityframeworkcore.com##.container-fluid.page-header-calltoaction,.site-footer-
 everything-powershell.com###media_image-3,#media_image-5,#paypal_donations-3
 exceljet.net##.block-block-ad-rr1,.block-block-ad-rr2,.block-block-ad-ic1,.block-views-courses-block-block,.block-views-generic-testimonials-block,.block-block-excel-functions-pdf,.block-block-excel-shortcuts-pdf
 fandom.com###WikiaBar,#highlight__main-container,.notifications-placeholder
-firebase.google.com##devsite-feedback
-firebase.google.com##devsite-thumb-rating
+firebase.google.com##devsite-feedback,devsite-thumb-rating
 flask.palletsprojects.com##.version-warning
 flutter.dev##.show.cookie-snack
 forum.uipath.com###adsMain
@@ -164,7 +109,6 @@ linux.cn###scrolltop
 linuxso.com##div.right_bot.ad
 m.tapd.cn##.bind-phone-tips
 map.baidu.com##.leadDownloadCard,#leadDownloadCard
-marketplace.visualstudio.com###survey-container
 material.angular.io##app-cookie-popup
 material.io##mio-cookie-notice,mio-communication-banner
 mathoverflow.net##.js-consent-banner,.js-freemium-cta,body > .js-dismissable-hero,#divQuestionFollowFeaturePopover,#saves-launch-popover
@@ -172,27 +116,13 @@ megaxh.com##.yfd-fd,.yfd-fdcam-thumb,.yfd-fdpremium-overlay,div[data-role="yfd-f
 megaxh.com##aside[data-role="promo"],.cookie-announce,.dyltv-container,.xplayer-hover-menu,.xp-banner-pause,.xp-banner-bottom,.player-ad-close,.creator-promo-bg,.creator-promo-buttons
 megaxh.com##div[class$="-containerBottomSpot"],div[class$="-containerPauseSpot"]
 microsoft.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
-minecraft.gamepedia.com##div[class^="app_gdpr"]
-mobile.softpedia.com###cookienotif
-movie.mtime.com###divRelatedGoods
-mrsteinberg.com##.entry-meta-bottom > #contact
-mrsteinberg.com##.entry-meta-bottom > .comments2
-mui.com##[aria-label="Diamond Sponsors"]
-mui.com##[data-ga-event-category="ad"]
-mui.com##[data-ga-event-category="sponsor"]
 mullvad.net###connection-status
-music.taihe.com##.__qianqian_qrcode
-navicat.com##.cookies-container
-news.softpedia.com###cookienotif
+narkive.com###selection_url_c
 nginx.org###banner
 nhjjud.aliwork.com###yida-admin-common
 office.com###uhfCookieAlert,#c-uhf-nav-cta,#epb
 open.dingtalk.com##.styles-float
-opencv.org###elementor-popup-modal-11769
-opencv.org###elementor-popup-modal-12574
-opencv.org##.homepage-email-icon
 opensource.com###block-socialmediashareicons,#block-subscribetoourweeklynewsletterflyin
-opensource.google##devsite-thumb-rating
 openvpn.net###usercentrics-root
 openvpn.net##body:style(overflow: unset !important;)
 openwrt.org##.cookielaw-banner
@@ -225,8 +155,7 @@ social.msdn.microsoft.com###rssFeed
 software.intel.com###page > .l-footer-second
 software.intel.com###survey_container
 softwareok.com###cookiebar
-source.android.com##devsite-feedback
-source.android.com##devsite-thumb-rating
+source.android.com##devsite-feedback,devsite-thumb-rating
 sourceforge.net###newsletter-floating
 sourceforge.net###project-nel
 stackabuse.com##.sidebar
@@ -285,7 +214,6 @@ www.88dyw.com##.gotop, body > embed[id^="1"]
 www.88dyyw.com###topcontrol,.leaveNavInfo,.light_switch
 www.advancedinstaller.com###sticky-bottom-container
 www.aljazeera.com###article-newsletter-slot
-www.android.com##.cookie-banner
 www.androidcentral.com##+js(cookie-remover, FTR_Country_Code)
 www.androidcentral.com##.slice-container-newsletterForm,.socialite-widget,#slice-container-affiliateDisclaimerBar
 www.androiddevtools.cn###auto-scroll-ad-box
@@ -403,9 +331,7 @@ www.telegraph.co.uk##.u-separator--branded.u-separator-bottom--loose.comment__lo
 www.telegraph.co.uk##div.section.html-embed
 www.telerik.com##.optanon-alert-box-wrapper
 www.tenforums.com##.body_wrapper > div > div[style="height:280px !important;"],.garsearch
-www.tensorflow.org##.devsite-banner-announcement.devsite-banner
 www.tensorflow.org##devsite-thumb-rating
-www.tensorflow.org##devsite-youtube
 www.theatlantic.com##gpt-ad,.js-non-metered-nudge.c-non-metered-nudge,#paywall,div[class*="LostInventoryMessage_"],p[class*="ArticleRelatedContentLink_"]
 www.theepochtimes.com##.social.share
 www.thefp.com##iframe.substack-frame-root
@@ -594,6 +520,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||c.evidon.com/sitenotice$domain=vmware.com
 ||c0.wp.com/p/jetpack/*/_inc/build/twitter-timeline.min.js$domain=everything-powershell.com
 ||c0.wp.com/p/jetpack/*/_inc/build/widgets/eu-cookie-law/$domain=everything-powershell.com
+||c09f.app.slickstream.com/d/page-boot-data$domain=www.macrumors.com
 ||calnewport.ck.page$domain=www.calnewport.com
 ||carrick-ui.advoncommerce.com/$domain=www.xda-developers.com
 ||cc-api-data.adobe.io/ingest
@@ -645,9 +572,9 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||chronoplexsoftware.com/js/cookie.min.js
 ||chushoushijian.cn$domain=jianshu.com
 ||chuzushijian.cn$domain=jianshu.com
-||clancy.spiceworks.com/jackryan.js$domain=community.spiceworks.com
 ||cleverstaginc.firebaseio.com$domain=wallsmash.com
-||cloud.google.com/log$important
+||cloud.google.com/log?$important
+||cloud.google.com/sw.js$important
 ||cloud.tencent.com/act/common/report
 ||cloud.tencent.com/developer/services/ajax/pageview-report?action=ReportCommunityPageView
 ||cloud.tencent.com/document/ajax/?action=checkDocApiPageRedirect
@@ -679,7 +606,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||connect.facebook.net/*/sdk.js$third-party
 ||connect.ubisoft.com/api/default/location
 ||consent-st.truste.com/$third-party
-||consent.cookiebot.com/$third-party
+||consent.cookiebot.com/$third-party,important
 ||consent.trustarc.com/$third-party
 ||consent.truste.com/$third-party
 ||consentdeliveryfd.azurefd.net/mscc/lib/v2/wcp-consent.js$domain=www.typescriptlang.org
@@ -688,7 +615,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js
 ||cordova.apache.org/static/js/twitter.js
 ||creativecloud.adobe.com/browser_mon.js
-||cs.android.com/_/jserror
 ||cs.android.com/v1/logging
 ||cse.google.com/cse.js$third-party,important
 ||csp.yandex.net/csp$domain=yandex.com
@@ -707,18 +633,14 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||dec.azureedge.net/sdk/telerik-dec-client.min.*.js
 ||dev.to/billboard_events
 ||dev.to/fallback_activity_recorder
-||dev.visualwebsiteoptimizer.com/$domain=www.qt.io,important
+||dev.visualwebsiteoptimizer.com/$domain=www.qt.io|www.theatlantic.com,important
 ||developer.aliyun.com/js/baidu_push.js
-||developer.android.com/_d/analytics-iframe
-||developer.android.com/_d/dynamic_content
-||developer.android.google.cn/_d/analytics-iframe
-||developer.android.google.cn/_d/dynamic_content
+||developer.android.com/sw.js$important
 ||developer.microsoft.com/fdapi/jsll
 ||developer.mozilla.org/api/v1/whoami
-||developer.mozilla.org/static/js/ga.js
 ||developer.mozilla.org/submit/mdn-yari/page/
-||developers.google.com/_d/analytics-iframe
-||developers.google.com/_d/dynamic_content
+||developers.google.com/_d/analytics-iframe$important
+||developers.google.com/sw.js$important
 ||developers.weixin.qq.com/community/ngi/batchreportdoc
 ||developers.weixin.qq.com/community/ngi/report
 ||developers.weixin.qq.com/community/ngi/weschool/docsearch
@@ -773,6 +695,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||feistyduck.gumroad.com/links/*/increment_views
 ||file1.sixthtone.com/js/news_detail.js$domain=www.sixthtone.com
 ||file1.sixthtone.com/js/newsletter.js$domain=www.sixthtone.com
+||firebase.google.com/sw.js$important
 ||flow.1passwordservices.com/api/v1/event
 ||fls-eu.amazon.com/1/aiv-web-player/1/OE$domain=www.primevideo.com
 ||fls-na.amazon.com/1/aws-mktg/1/OE/
@@ -788,6 +711,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||g.alicdn.com/platform/monitor-packages/
 ||g.alicdn.com/platform/xdomain-storage/*/frame.html$frame
 ||g.ezoic.net/$domain=www.w3adda.com
+||gala.spiceworks.com/gala.js$domain=community.spiceworks.com
 ||gamerant.com/strpixel.png
 ||gdpr-service.herokuapp.com/is-gdpr
 ||geo.cnbc.com/info/
@@ -810,7 +734,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||go.gradle.com/l/$domain=gradle.com|gradle.org
 ||go.pardot.com/js/piUtils.js$domain=gradle.com|gradle.org
 ||gold-cdn.xitu.io/v3/static/img/extension.1dbaf43.png
-||google-analytics.com$third-party
+||google-analytics.com$third-party,important
 ||google-developers.gonglchuangl.net/sw.js
 ||googleads.g.doubleclick.net$important
 ||gowatchseries.ch/anclytic.html
@@ -825,8 +749,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||heimdalsecurity.com/blog/wp-content/plugins/heimdal-social-sharing-buttons/js/social.js
 ||hello.zonos.com/shop-duty-tax/hello.js$domain=unchartedsupplyco.com
 ||help.aliyun.com/help/json/supplyConfig_4_pcp.json
-||herald.spiceworks.com/events/javascript$domain=community.spiceworks.com
-||hls.kuaibofang.com/tj.js
 ||hm.baidu.com/hm.js
 ||huatuospeed.weiyun.com/cgi-bin/r.cgi
 ||i.cdn.turner.com/ads/adfuel/$domain=edition.cnn.com
@@ -849,7 +771,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||iq.thc.org/ping/
 ||isdspeed.qidian.com/cgi-bin/r.cgi
 ||isdspeed.qq.com/cgi-bin/r.cgi
-||issuetracker.google.com/jserror
 ||itpc-mms.itpro.com/wrapperMessagingWithoutDetection.js
 ||ivy.pconline.com.cn/adpuba/$domain=pconline.com.cn
 ||ivy.pconline.com.cn/show$domain=pconline.com.cn
@@ -913,8 +834,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||m.vivibb.com/index.php/user/ajax_ulog/
 ||m.vivibb.com/statics/api/js/share.js
 ||map.baidu.com/wolfman/static/common/images/transparent.gif
-||marketplace.visualstudio.com/_apis/ClientTrace/Events
-||marketplace.visualstudio.com/_apis/customerintelligence/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/*/stats
 ||material.io/api/country_code
 ||mbd.baidu.com/tcbox
@@ -972,6 +891,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||open.work.weixin.qq.com/wwopen/report
 ||opencollective.com/boa/banner.js$domain=boajs.dev
 ||opencv.org/wp-admin/admin-ajax.php
+||opensource.google/sw.js$important
 ||oply.hearstapps.com/v1/events$domain=www.popularmechanics.com
 ||organiccdn.io/assets/sdk/unit-sdk.js$domain=www.thedrive.com
 ||otelwebtelemetry.com/v1/trace
@@ -1014,7 +934,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||prodesigntools.com/wp-admin/admin-ajax.php?action=koko_analytics_collect
 ||production-cmp.isgprivacy.cbsi.com/dist/optanon-*.js$domain=www.last.fm
 ||public-api.wordpress.com/wp-admin/rest-proxy/$domain=thebinaryhick.blog
-||public-ubiservices.ubi.com/v2/profiles/me/iplocation
 ||publisher.liveperson.net/iframe-le-tag/iframe.html$domain=www.microsoft.com
 ||push-content.springernature.io/*/production_live/consent-bundle-*.js$domain=www.nature.com
 ||pyinstaller.narkive.com/ajax/TelemV2
@@ -1094,9 +1013,11 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/flow_tracking_create_page_js
 ||slot1-images.wikia.nocookie.net/__am/*/group/-/search_tracking_js
 ||slot1-images.wikia.nocookie.net/__am/*/groups/-/abtesting
+||smarketapi.com/$domain=mrsteinberg.com
 ||smetrics.ubi.com
 ||socket.jisuan.mobi$domain=bianma.supfree.net
-||source.chromium.org/_/jserror
+||source.android.com/sw.js
+||source.chromium.org/sw.js
 ||source.chromium.org/v1/logging
 ||sourcegraph.com/-/debug/otlp/v1/traces
 ||sourcegraph.com/.api/graphql?LogEvents
@@ -1153,8 +1074,8 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||support.brave.com/hc/activity
 ||support.discord.com/api/v2/help_center/community/posts/*/stats/view.json
 ||support.discord.com/hc/activity
-||support.google.com/apis/gpf_metrics
-||support.google.com/chrome/apis/metrics
+||support.google.com/apis/logjourney$important
+||support.google.com/s/clientsidestreamz$important
 ||support.microsoft.com/lib/jsll/dist/jsll.min.js
 ||support.microsoft.com/lib/oneds/dist/ms.analytics-web-*.min.js
 ||support.opendns.com/api/v2/help_center/en-us/articles/*/stats/view.json
@@ -1204,8 +1125,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||twitter.com/i/api/*/jot/ces/p2
 ||twitterinc.tt.omtrdc.net/rest/v1/delivery$important
 ||tyrz.gd.gov.cn/pscp/sso/connect/page/logmanager/report
-||ubistatic-a.akamaihd.net/*/prod/global/tracking/analyticssdk.js$important
-||ubistatic2-a.akamaihd.net/worldwide_analytics$important
+||ubistatic-a.ubisoft.com/*/prod/global/tracking/analyticssdk.js$domain=ubisoftconnect.com|ubisoft.com
 ||ug.baidu.com/mcp/pc/pcsearch
 ||uhf.microsoft.com/*/shell/api/mscc
 ||ui.ptlogin2.qq.com/cgi-bin/report
@@ -1259,6 +1179,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||www.88dyw.com/static/api/js/share.js
 ||www.88dyyw.com/aps/index/
 ||www.amazon.com/cross_border_interstitial/render
+||www.android.com/static/js/tracking.min.js
 ||www.atlassian.com/endpoint/atlglobalload
 ||www.atlassian.com/gateway/api/gasv3/api/v1/batch
 ||www.baidu.com/con?from=zhidao
@@ -1282,7 +1203,6 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||www.clipconverter.cc/qr.php
 ||www.cloudflare.com/cdn-cgi/trace
 ||www.cloudflare.com/vendor/onetrust/scripttemplates/otSDKStub.js
-||www.cnbeta.com/js/util_libs/social-share/jquery.share.js
 ||www.cnet.com/ext/cohesion/cdn/cohesion/cohesion-latest.min.js
 ||www.cnet.com/g00/*/clientprofiler/dfp
 ||www.codeproject.com/dm/recovery.min.js
@@ -1317,14 +1237,12 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||www.getapp.com/ext/reviews_widget/v1/dark/ipinfo-application$domain=ipinfo.io
 ||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts/didomi.js
 ||www.gitbook.com/__amp/$domain=docs.avaloniaui.net
-||www.google.com.hk/complete/search$important
-||www.google.com.hk/maps/preview/log204
-||www.google.com/insights/consumersurveys/async_survey
+||www.google.com/generate_204
 ||www.googleadservices.com/$third-party,important
 ||www.googletagmanager.com/$third-party,important
 ||www.googletagservices.com/$third-party,important
 ||www.gstatic.com/brandstudio/kato/cookie_choice_component/$domain=blog.google,important
-||www.gstatic.com/feedback/api.js$third-party
+||www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js$domain=www.android.com
 ||www.hanselman.com/blog/theme/jinyang/scripts/cda-tracker.js
 ||www.hanselman.com/blog/theme/jinyang/scripts/cookieconsent.min.js
 ||www.history.com/vendor/adobe-target
@@ -1379,14 +1297,10 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||www.ssh.com/api/content/v1/dynamic
 ||www.ssh.com/trk
 ||www.talkingdotnet.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js
-||www.tensorflow.org/_d/analytics-iframe
-||www.tensorflow.org/_d/dynamic_content
 ||www.termsfeed.com/public/cookie-consent/$domain=www.azmovies.net
 ||www.textin.com/js/GrowingIO.js
 ||www.textin.com/js/nps.js
 ||www.textin.com/js/zhugeIO.js
-||www.theatlantic.com/packages/adsjs/ads.min.js
-||www.theregister.com/design_picker/*/javascript/ads.js
 ||www.tiktok.com/embed.js$domain=www.fry-ai.com
 ||www.ttshitu.com/js/baidu.js
 ||www.vmware.com$script,domain=www.vmware.com
