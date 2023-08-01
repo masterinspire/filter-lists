@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, July 24, 2023
+! Last modified: Tuesday, August 1, 2023
 ! Title: Custom Filter Lists Breaking
-! Version: 20230724
+! Version: 20230801
 !
 !
 !
@@ -26,6 +26,7 @@ screenrant.com##.w-youtube.w-rich
 ||stackblitz.com$domain=ng.ant.design
 ||tensorflow-dot-devsite-v2-prod-3p.appspot.com/$domain=www.tensorflow.org
 ||www.google.com$domain=bugs.python.org
+||www.google.com/$script,domain=chrome.google.com|store.google.com
 ||www.google.com/coop/cse/brand$third-party,important
 ||www.google.com/coop/intl/en/images/google_custom_search_watermark.gif$domain=www.ruby-lang.org
 ||www.google.com/cse/brand$third-party,important
@@ -33,7 +34,6 @@ screenrant.com##.w-youtube.w-rich
 ||www.google.com/help/hc/images/icons/play_icon_64.png$domain=support.google.com
 ||www.google.com/images/cleardot.gif$domain=books.google.com
 ||www.google.com/jsapi$third-party,important
-||www.google.com/tools/feedback/chat_load.js$domain=store.google.com
 ||www.youtube-nocookie.com/embed/*$third-party
 ||youtube.com/$third-party,important
 ||z2c2b4z9.stackpathcdn.com/images/logo256X256.png$domain=entityframeworkcore.com|entityframework.net|dappertutorial.net

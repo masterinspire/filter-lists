@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, July 24, 2023
+! Last modified: Tuesday, August 1, 2023
 ! Title: Custom Filter Lists
-! Version: 20230724
+! Version: 20230801
 !
 !
 !
@@ -21,6 +21,7 @@
 @@||www.reddit.com/svc/shreddit/experiences
 @@||www.reddit.com/svc/shreddit/more-comments/
 @@||www.reddit.com/svc/shreddit/pdp-right-rail/
+@@||www.reddit.com/svc/shreddit/popular-more-posts/
 @@||www.vmware.com/etc.clientlibs/$script
 @@||www.xfinity.com/xfinity-learn-ui/$script
 ai.baidu.com##.ai-aside,.feedback-wrapper
@@ -29,6 +30,7 @@ astrid.tech###__next > div[style="width: 100vw; position: fixed; bottom: 0px; ba
 aws.amazon.com##.aws-cn-optin
 baidu.com###tab_news_1,.his-no-rec-p.his-no-rec,.rw-list-container2.rw-list-container > .c-line-clamp1,.se-page-copyright,div[srcid="recommend_video_normal"]
 baike.baidu.com###side-share,.wgt-baikeapp-promote-container
+bbcc.fby2.com###ac_tips
 blog.logrocket.com###myModal,.sidebar
 cloud.google.com##devsite-feedback,devsite-thumb-rating
 cn.bing.com###b_lgd,#b_opalpers,#bnp_ttc_div,.b_attribution + .rblktxt,#wikiWidgetContainer
@@ -37,7 +39,7 @@ cn.bing.com###qs_searchBoxOuter,.ads_dwn,#ads_banner,.adsblock,#b_footer,#lgAnsF
 cn.bing.com##.usrlc_bpc.b_ans,.opal_serpftrc.b_ans,#bnp_rich_div,#b_notificationContainer_bop,#textDeeplinksWidgetContainer
 cn.bing.com##a[aria-label*="Microsoft Rewards"],#mfa_root
 code.visualstudio.com##.feedback
-community.chocolatey.org###callout-package-warning
+community.chocolatey.org###callout-package-warning,.btn-announcement-notifications.btn-collapsing-right-sidebar
 create-react-app.dev##div[class^="announcementBar"]
 dappertutorial.net##.container-fluid.page-header-calltoaction,.site-footer-popup-newsletter
 devblogs.microsoft.com##.back-comment-buttons,#colophon,#usabilla-button,.alert-banner.open,.sidebar-banner
@@ -569,6 +571,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||champagne.futurecdn.net/champagne.js$domain=www.livescience.com
 ||chat-commerce.adobe.com/checkout/log
 ||chrome.google.com/webstore/ajax/eventlog
+||chrome.google.com/webstore/detail/*/undefined
 ||chronoplexsoftware.com/js/cookie.min.js
 ||chushoushijian.cn$domain=jianshu.com
 ||chuzushijian.cn$domain=jianshu.com
@@ -681,6 +684,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||etax.henan.chinatax.gov.cn/web/dzswj/common/jquery.data2.min.js
 ||etax.shanghai.chinatax.gov.cn/wszx-web/api/sh/zsk/redirectToZnzx$domain=dppt.shanghai.chinatax.gov.cn,frame
 ||euob.michiganrobotflower.com$domain=www.mongodb.com
+||events.httptoolkit.tech$domain=httptoolkit.com
 ||events.mapbox.com/events/$domain=www.fox5ny.com
 ||events.nanonets.com/
 ||evs.blue.mongodb.com$script,domain=www.mongodb.com
@@ -1221,6 +1225,7 @@ zhidao.baidu.com##.question-number-text-chain,#selectsearch-icon,#qb-side,.busin
 ||www.dvdzm.com/plus/count.php
 ||www.entityframeworktutorial.net/cdn-cgi/
 ||www.entityframeworktutorial.net/detroitchicago/
+||www.epicgames.com/id/api/analytics
 ||www.facebook.com/plugins/like.php$third-party
 ||www.facebook.com/plugins/page.php$third-party
 ||www.feedly.com/amplitude
