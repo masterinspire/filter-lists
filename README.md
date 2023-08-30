@@ -16,7 +16,7 @@ Add to your **filter lists**:
 
 > https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists.txt
 
-> https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists-breaking.txt
+> https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists-breaking-1.txt
 
 > https://raw.githubusercontent.com/masterinspire/filter-lists/main/filter-lists-breaking-2.txt
 
@@ -28,7 +28,7 @@ or with [jsDelivr](https://www.jsdelivr.com/?docs=gh):
 
 > https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists.txt
 
-> https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists-breaking.txt
+> https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists-breaking-1.txt
 
 > https://cdn.jsdelivr.net/gh/masterinspire/filter-lists@main/filter-lists-breaking-2.txt
 
@@ -40,7 +40,7 @@ or with [GitLab](https://gitlab.com/masterinspire/filter-lists):
 
 > https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists.txt
 
-> https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists-breaking.txt
+> https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists-breaking-1.txt
 
 > https://gitlab.com/masterinspire/filter-lists/-/raw/main/filter-lists-breaking-2.txt
 
