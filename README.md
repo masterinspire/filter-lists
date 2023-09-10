@@ -5,10 +5,7 @@
 Custom filter lists. Can be used in [uBlock Origin](https://github.com/gorhill/uBlock).
 
   * `filter-lists.txt`: main file.
-  * `filter-lists-breaking.txt`: use at your own risks. may break some websites.
-  * `filter-lists-breaking-2.txt`: use at your own risks. may break some websites.
-  * `filter-lists-breaking-3.txt`: use at your own risks. may break some websites.
-  * `filter-lists-breaking-4.txt`: use at your own risks. may break some websites.
+  * `filter-lists-breaking-*.txt`: use at your own risks. may break some websites.
 
 ## Usages
 
