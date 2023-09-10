@@ -2,13 +2,14 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, August 30, 2023
+! Last modified: Sunday, September 10, 2023
 ! Title: Custom Filter Lists
-! Version: 20230830
+! Version: 20230910
 !
 !
 !
 ! https://intellij-support.jetbrains.com/hc/en-us
+||127.0.0.1:*/$3p
 ||localhost:*/$3p
 
 ||ad.doubleclick.net/$3p
@@ -24,7 +25,6 @@
 ||google-analytics.com/$3p
 ||googleadservices.com/$3p
 ||googlesyndication.com/$3p
-||hm.baidu.com/$3p,script
 ||ingest.sentry.io/$3p
 ||platform.twitter.com/widgets.js$3p
 ||privacymanager.io/$3p,script
@@ -79,6 +79,9 @@
 
 ! https://gitlab.com/users/sign_in
 ||geolocation.onetrust.com/$3p
+
+! https://holdings.panasonic/global/support.html
+||cdn-apac.onetrust.com/$3p,script
 
 ! https://practice.geeksforgeeks.org/explore
 ||www.clarity.ms/$3p,script
@@ -148,7 +151,6 @@
 ||datum.jsdelivr.com/api/event
 ||img6.wsimg.com/utag/utag.min.js$from=www.godaddy.com
 ||img6.wsimg.com/wrhs/*/tcc.min.js$from=www.godaddy.com
-||mvnrepository.com/assets/images/p.gif
 ||snowplow.trx.gitlab.net/com.snowplowanalytics.snowplow/
 ||stats.minetest.net/
 ||utteranc.es/$from=hackingcpp.com
@@ -161,7 +163,6 @@ dnschecker.org###cookie-box,.side_menu
 github1s.com##.github1s-notification
 helgeklein.com##.page__meta--sharing
 riptutorial.com##.add-z
-searchfox.org###context-menu
 winscp.net##.promo-block
 www.tutorialkart.com##.centerad
 www.tutorialrepublic.com##.rightcolumn,.leaderboard,.bottom-ad,.snippets,.appeal
@@ -198,10 +199,19 @@ stackapps.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 stackoverflow.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 superuser.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 
+||mvnrepository.com/assets/images/p.gif
+mvnrepository.com##div.im:has(> div > .adsbygoogle)
+
+||cdn.fundraiseup.com/widget/$from=foundation.mozilla.org
 ||developer.mozilla.org/api/v1/whoami
 ||developer.mozilla.org/pong/get
 ||developer.mozilla.org/static/js/ga.js
 ||developer.mozilla.org/submit/mdn-yari/page/
+foundation.mozilla.org##.share-button-group-wrapper
+foundation.mozilla.org##body > .wrapper > .tw-container
+foundation.mozilla.org##footer > .tw-bg-blue-40
+searchfox.org###context-menu
+support.mozilla.org##.sumo-page-section,.document-vote--sidebar-wrap
 
 ! https://www.nuget.org/
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js$3p
@@ -244,12 +254,12 @@ www.typescriptlang.org###like-dislike-subnav,#page-helpful-popup
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
 ||www.microsoft.com/store/buy/cartcount$frame
 answers.microsoft.com###smcTeachingCalloutPopover
-blogs.microsoft.com##.c-social
+blogs.microsoft.com##.c-social,.social-footer-wrap,.widget_blog_subscription
 code.visualstudio.com##.feedback
 devblogs.microsoft.com##.back-comment-buttons,#cookie-banner
 devblogs.microsoft.com##.social-icon-bar,#colophon,.social-links,.sidebar-banner.sidebar-links
 devblogs.microsoft.com###main > .alert-banner
-learn.microsoft.com###user-feedback,#article-header-page-actions,.feedback-section
+learn.microsoft.com###user-feedback,#article-header-page-actions,.feedback-section,#banner-holder
 microsoft.com###usabilla-button
 support.microsoft.com###supWrapperToPreventFeedbackFlickering,.ocArticleFooterShareContainer,.ocArticleFooterFeedPickerContainer,.ocArticleFooterSection.articleSupportBridge,#rail-column
 www.microsoft.com##.socialfollow
@@ -317,7 +327,7 @@ community.chocolatey.org###mc_embed_signup
 ||www.88dyw.com/static/api/js/share.js
 ||www.88dyw.com/templets/88ys/images/wxewm.png
 bbcc.fby2.com###ac_tips
-www.88dyw.com##.gotop,.pfstyle
+www.88dyw.com##.gotop,.pfstyle,.pfplayer
 www.88dyyw.com##.light_switch,#topcontrol
 
 ||*.com/lv/esnk/*/code.js$from=missav.com
@@ -465,6 +475,9 @@ wpf-tutorial.com###divArticleAvailableLanguages,.ad,.adsbygoogle
 ||www.redditstatic.com/shreddit/en-US/ad-event-tracker-*.js
 ||www.redditstatic.com/shreddit/en-US/pdp-ad-client-js-*.js
 ||www.redditstatic.com/shreddit/en-US/shreddit-sidebar-ad-*.js
+www.reddit.com##div[id$="-post-rtjson-content"] ~ [id$="overflow-cover"]
+www.reddit.com##div[id$="-post-rtjson-content"] ~ [id$="read-more-button"]
+www.reddit.com##div[id$="-post-rtjson-content"]:remove-class(/max-h/)
 www.reddit.com##embed-snippet-share-button,shreddit-ad-post,shreddit-comments-page-ad
 www.reddit.com##shreddit-async-loader[bundlename="sidebar_ad"]
 www.reddit.com##shreddit-post[recommendation-source="GeoPopularRecommendationContext"]
@@ -577,11 +590,14 @@ www.learncpp.com##.sidey.widget-area,.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-
 ||get.s-onetag.com/$3p
 ||onetag-sys.com/usync/$frame
 ||thewindowsclub.com/beardeddragon/
+||thewindowsclub.com/cdn-cgi/apps/head/
 ||thewindowsclub.com/cdn-cgi/zaraz/
 ||thewindowsclub.com/detroitchicago/
 ||thewindowsclub.com/edmontonalberta/
 ||thewindowsclub.com/ezais/
+||thewindowsclub.com/parsonsmaize/
 ||thewindowsclub.com/porpoiseant/
+||thewindowsclub.com/tardisrocinante/
 thewindowsclub.com##.entry-content > .widget:has([id^="ezoic-pub-ad-placeholder-"])
 thewindowsclub.com##.entry-footer > .widget
 thewindowsclub.com##.ezoic-ad,.ez-sidebar-wall,.ezo_ad,.ezoic-adpicker-ad,span[data-ez-ph-id]
@@ -782,17 +798,19 @@ www.ip-secrets.com##a[href="r.php"]
 ||bordeaux.futurecdn.net/bordeaux.js
 ||cdn.onesignal.com/sdks/OneSignalSDK.js
 ||cdn.parsely.com/keys/*/p.js
+||cdn.taboola.com/libtrc/futureplc-network/loader.js
 ||edge.permutive.app/
 ||hawk.gamesradar.com/hl/es6/hawklinks.js
 ||hawk.gamesradar.com/translations.php
 ||hawk.techradar.com/hl/es6/hawklinks.js
 ||hawk.techradar.com/translations.php
-||hawky.pcgamer.com/hl/es6/hawklinks.js
-||hawky.pcgamer.com/translations.php
 ||hawk.tomshardware.com/hl/es6/hawklinks.js
 ||hawk.tomshardware.com/translations.php
+||hawky.pcgamer.com/hl/es6/hawklinks.js
+||hawky.pcgamer.com/translations.php
 ||search-api.fie.futurecdn.net/hl/es6/hawklinks.js
 ||search-api.fie.futurecdn.net/translations.php
+forums.tomshardware.com###rightcol_top,.shareButtons,#header_leaderboard,#footer_leaderboard,div[data-widget-key="forum_overview_share_page"]
 www.androidcentral.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
 www.androidcentral.com###slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
 www.gamesradar.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
@@ -1081,6 +1099,7 @@ community.ccleaner.com###elGuestTerms,#elFooterSocialLinks,.ipsD154966,.cTopicPo
 community.cloudflare.com##.quote-button,.discourse-adplugin
 discourse.cmake.org##.quote-button
 discourse.mozilla.org##.quote-button
+discuss.gradle.org##.quote-button
 discuss.kotlinlang.org##.quote-button
 discuss.python.org##.quote-button
 forum.gitlab.com##.quote-button,#banner
@@ -1162,3 +1181,206 @@ winaero.com##section.widget.textwidget.widget_custom_html:has(> h2.widget-title:
 
 ||static.addtoany.com/menu/page.js
 jitsi.org##.addtoany_content.addtoany_share_save_container,.social-icons,#top-banner
+
+@@||i.insider.com/$from=www.businessinsider.com
+/cross-domain$from=www.businessinsider.com|www.insider.com
+||*$from=www.businessinsider.com,3p
+||*$from=www.insider.com,3p
+||cdn.speedcurve.com/js/lux.js
+||geoip.businessinsider.com/
+||i.businessinsider.com/t.gif
+||static.chartbeat.com/js/chartbeat_mab.js
+www.businessinsider.com##.in-post-sticky:has(>.ad-callout-wrapper)
+www.businessinsider.com##.subnav-ad-layout.l-ad,.sticky-rail-ad-container,.ad-callout-wrapper
+www.businessinsider.com###formContainer,.headline-regular.category-wrapper,.social,.share-wrapper,.newsletter-signup
+www.insider.com##.in-post-sticky:has(>.ad-callout-wrapper)
+www.insider.com##.subnav-ad-layout.l-ad,.sticky-rail-ad-container,.ad-callout-wrapper
+www.insider.com###formContainer,.headline-regular.category-wrapper,.social,.share-wrapper,.newsletter-signup
+
+@@||www.dell.com/_sec/$from=www.dell.com
+@@||www.dell.com/cdn/$from=www.dell.com
+@@||www.dell.com/support/staticcdn/$from=www.dell.com
+||*$from=www.dell.com,strict1p,script
+||boomerang.dell.com/api/beacon
+||cdn-prod.eu.securiti.ai/$3p
+||sm.dell.com/$from=www.dell.com
+||www.dell.com/support/components/detectproduct/sadetectfailure
+||www.dell.com/support/driver/en-us/api/driver/surveylistpage
+||www.dell.com/support/guidedpath/guidedPath/getva
+||www.dell.com/support/onlineapi/scan-download-log/
+||www.dellcdn.com/support/staticcdn/external/js/
+www.dell.com###consent-button-div
+
+||stats.kde.org/
+
+go.dev##.Cookie-notice
+
+||events.httptoolkit.tech/
+httptoolkit.com##div:has( > a[title^="Share this post"])
+httptoolkit.com##div:has( > div > form[action^="https://tech.us18.list-manage.com/"])
+
+||served-by.pixfuture.com/www/delivery/headerbid.js
+||ss64.com/js/q.js
+
+/blank.gif$from=baidu.com
+/hm.gif$from=baidu.com
+/log.gif$from=baidu.com
+/mwb.gif$from=baidu.com
+/mwb2.gif$from=baidu.com
+/other.php?url=$from=www.baidu.com|m.baidu.com
+/ps_default.gif$from=baidu.com
+/s.gif$from=baidu.com
+/sp10.gif$from=baidu.com
+/st.gif$from=map.baidu.com
+/transparent_cdn_*.gif$from=map.baidu.com
+/transparent.gif$from=map.baidu.com
+/v.gif$from=baidu.com
+/w.gif$from=baidu.com
+/wb.gif$from=baidu.com
+/wbc.gif$from=www.baidu.com
+/webb.gif$from=baidu.com
+||ada.baidu.com/udpl
+||als.baidu.com/elog/
+||appc.baidu.com/appsrv?action=appdistributionlog
+||baike.baidu.com/api/lemmapv
+||baike.baidu.com/api/wikiad/
+||baike.baidu.com/api/wikiui/directad
+||baike.baidu.com/api/wikiui/guesslike
+||bkssl.bdimg.com/static/wiki-home/widget/picAds/
+||bkssl.bdimg.com/static/wiki-home/widget/textAds/
+||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/
+||cpro.baidustatic.com/cpro/$3p,script
+||cstm.baidu.com/
+||dlswbr.baidu.com/heicha/
+||dup.baidustatic.com/js/os.js
+||eclick.baidu.com/
+||ext.baidu.com/rest/id-mapping/cuid
+||fclick.baidu.com/
+||fclog.baidu.com/log/
+||feed.baidu.com/feed/api/tab/gettabinfo
+||fex.bdstatic.com/hunter/alog/
+||gss0.baidu.com/*/static/api/js/share/
+||gss0.baidu.com/*/static/api/js/view/share_view.js
+||h2tcbox.baidu.com/ztbox
+||hectorstatic.baidu.com/
+||hm.baidu.com/hm.js
+||iknow-zhidao.bdimg.com/static/question-new/widget/ask/replyer/img/wld-exp-btn-hb.*.png
+||jingyan.baidu.com/asyncreq?method=getApp
+||jingyan.baidu.com/asyncreq/log
+||log-h5.cmpassport.com:9443/
+||lvlin.baidu.com/$from=zhidao.baidu.com
+||m.baidu.com/rec?
+||m.baidu.com/sugrec
+||m.baidu.com/tc
+||miao.baidu.com/abdr
+||miaowu.baidu.com/sdk/heicha/
+||miaowu.baidu.com/slim/abdr
+||mountain.zhidao.baidu.com/rmeiloouv.js
+||muses.baidu.com/plain/thirdparty?apiKey=*baozhangData
+||nsclick.baidu.com/
+||pcrec.baidu.com/link?url=
+||pos.baidu.com/
+||sp3.baidu.com/*/ps_fp.htm
+||ug.baidu.com/mcp/pc/pcsearch
+||wn.pos.baidu.com/adx.php
+||www.baidu.com/con?from=zhidao$from=zhidao.baidu.com
+||www.baidu.com/rec?
+||www.baidu.com/sugrec
+||zhidao.baidu.com/api/qbpv
+||zhidao.baidu.com/business/submit/dailystatistics
+||zt.baidu.com/activity/api/config/get
+baike.baidu.com###side-share,#J-declare-wrap,.appdownload,.lemmaWgt-promotion-slide,.wgt-baikeapp-promote-container,.J-knowledge-editor-toolbar
+jingyan.baidu.com##.exp-content-container.fold:remove-class(fold)
+jingyan.baidu.com##.wgt-income-money,.wgt-cms-banner,.read-whole-mask
+jingyan.baidu.com###bottom-ads-container,#aside-ads-container,.right-fixed-related-wrap
+jingyan.baidu.com###fresh-share-exp-e,#task-panel-wrap,#wgt-like,#wgt-barrier-free,#wgt-exp-share
+m.baidu.com##.blank-frame,.his-no-rec.his-no-rec-p
+map.baidu.com##.leadDownloadCard,#leadDownloadCard,#unlog,.poiLeadDownloadCard,.bus-trans-banner
+www.baidu.com##.blank-frame,.his-no-rec.his-no-rec-p
+www.baidu.com##.ec_wise_ad,#top-ad
+www.baidu.com###con-ar,#content_right,.selected-search-box,#s-hotsearch-wrapper
+www.baidu.com###content_left > .result:has(.se_st_footer > a:has-text(广告))
+www.baidu.com###content_left > div:not([id])
+www.baidu.com###content_left > div[tpl="pc-soft-accurate"]
+www.baidu.com###content_left > div[tpl="pc-soft-app"]
+www.baidu.com###content_left > div[tpl="pc-soft-fs"]
+www.baidu.com###content_left > div[tpl="sp_hot_sale"]
+zhidao.baidu.com##.businessvip-wrapper,.jump-top-box,#selectsearch-icon,.task-list-button,.question-number-text-chain
+zhidao.baidu.com##.wgt-target-mask,.wgt-answers-mask,.wgt-best-mask
+zhidao.baidu.com##.wgt-union-bottom.line.last.mod-shadow.wgt-bottom-union
+zhidao.baidu.com###wgt-ad-sou,.wgt-ads,#wgt-ad-right-fixed
+zhidao.baidu.com###wgt-lvlin-form,.aria-div
+zhidao.baidu.com##div[id^="answer-content-"]:style(height: initial !important;)
+zhidao.baidu.com##div[id^="best-content-"]:style(height: initial !important;)
+zhidao.baidu.com##div[id^="target-content-"]:style(height: initial !important;)
+
+||api.pinterest.com/v1/urls/count.json
+||cdn.polarbyte.com/$from=dictionary.cambridge.org
+||dictionary.cambridge.org/auth/info
+||dictionaryblog.cambridge.org/wp-content/plugins/jetpack/_inc/build/sharedaddy/
+||pixel.wp.com/boom.gif
+||pixel.wp.com/g.gif
+||static.ads-twitter.com/
+||static.hotjar.com/$from=dictionary.cambridge.org
+||widgets.wp.com/likes/$frame
+dictionary.cambridge.org##.hfr-m.ltab.lp-m_l-15:remove-class(ltab)
+dictionary.cambridge.org##.lmr-10.lp-5.i-facebook.i.hdib.pr
+dictionary.cambridge.org##.lmr-10.lp-5.i-twitter.i.hdib.pr
+dictionary.cambridge.org###ad_btmslot,#ad_rightslot,#ad_mpuslot,#ad_houseslot_b,#ad_houseslot_a
+dictionary.cambridge.org###rightcol-above-sticky > div:first-of-type
+dictionary.cambridge.org##div[data-iaw="container"]
+dictionaryblog.cambridge.org##.sharedaddy,.widget_twitter_timeline,.widget_wpcom_social_media_icons_widget
+
+||ads-static.conde.digital/
+||api.avo.app/$from=www.newyorker.com
+||cdn.keywee.co/dist/analytics
+||condenastdigital.com/$from=www.newyorker.com
+||d1z2jf7jlzjs58.cloudfront.net/p.js
+||player.cnevids.com/$from=www.newyorker.com
+||segment-data.zqtk.net/condenast-amp
+||static.adsafeprotected.com/
+||tag.bounceexchange.com/
+||www.newyorker.com/$method=post
+||www.wnyc.org/$from=www.newyorker.com
+||z-na.associates-amazon.com/onetag/
+www.newyorker.com##.ad-stickyhero,.ad-stickyhero--standard,.ad-stickyhero-enable-mobile,.ad-container
+www.newyorker.com##.consumer-marketing-unit--nav-left,.consumer-marketing-unit--nav-cta,.consumer-marketing-unit--cm-footer
+www.newyorker.com##.journey-unit__container,.ticker-view
+www.newyorker.com##.newsletter-subscribe-form,.ad-height-hold,.full-bleed-ad,row-mid-content-ad,.ad.ad--footer
+www.newyorker.com##[alt="ad image placeholder"]
+www.newyorker.com##[class^="ActionBarWrapperContent"]
+www.newyorker.com##[class^="MainHeader__subscribeLink"]
+www.newyorker.com##[class^="Navigation__subscribe"]
+www.newyorker.com##[class^="SoloPromoSection__promoWrapper"]
+www.newyorker.com##[data-journey-hook="persistent-bottom"]:has(.paywall-bar)
+
+||a1.cnblogs.com/
+||analytics.cnblogs.com/
+||anymind360.com/js/*/ats.js
+||count.cnblogs.com/blog/post/
+||g.cn.miaozhen.com/
+||res.wx.qq.com/open/js/jweixin-*.js
+||www.cnblogs.com/*/ajax/sideColumnAd
+||www.cnblogs.com/aggsite/bh
+www.cnblogs.com###blog_post_info,#side_right,a[onclick^="countCreativeClicks"]
+
+||discord.com/api/v*/science
+||discord.com/api/v*/track/
+||discord.com/assets/oneTrust/
+||sentry.io/api/*/store/
+
+||apm.zhihu.com/collector/
+||crash2.zhihu.com/
+||da.dun.163.com/sn.gif
+||sugar.zhihu.com/plutus_adreaper
+||unpkg.zhimg.com/@cfe/sentry-script@*/dist/init.js
+||unpkg.zhimg.com/za-js-sdk@*/dist/zap.js
+||www.zhihu.com/commercial_api/banners_v3/
+||www.zhihu.com/qrcode?url=
+||www.zhihu.com/sc-profiler
+||zhihu-web-analytics.zhihu.com/
+www.zhihu.com##.AppBanner
+www.zhihu.com###QuestionAnswers-answers .List-item ~ .Pc-word
+www.zhihu.com##body > div:has(.signFlowModal)
+www.zhihu.com##body > div:has(button:has-text(立即登录/注册))
+www.zhihu.com##html:style(overflow: auto !important;)
