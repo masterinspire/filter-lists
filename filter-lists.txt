@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, September 10, 2023
+! Last modified: Sunday, September 17, 2023
 ! Title: Custom Filter Lists
-! Version: 20230910
+! Version: 20230917
 !
 !
 !
@@ -151,7 +151,6 @@
 ||datum.jsdelivr.com/api/event
 ||img6.wsimg.com/utag/utag.min.js$from=www.godaddy.com
 ||img6.wsimg.com/wrhs/*/tcc.min.js$from=www.godaddy.com
-||snowplow.trx.gitlab.net/com.snowplowanalytics.snowplow/
 ||stats.minetest.net/
 ||utteranc.es/$from=hackingcpp.com
 ||www.autohotkey.com/cdn-cgi/apps/head/
@@ -176,11 +175,11 @@ search.brave.com###search-elsewhere
 
 ||embed.typeform.com/$from=www.theregister.com
 ||go.theregister.com/k/abt_bb
-||nir.theregister.com/?$from=www.theregister.com|devclass.com
+||nir.theregister.com/?$from=theregister.com|devclass.com
 devclass.com##.social_wrapper
-forums.theregister.com##div.adun
+theregister.com##.adun
 www.theregister.com##.floating_bar:has(.sharing_widget_story_desktop)
-www.theregister.com##div.adun,.sharing_block
+www.theregister.com##.sharing_block
 www.theregister.com##div[data-tf-widget]
 
 ||askubuntu.com/posts/*/ivc/*?prg=
@@ -190,13 +189,14 @@ www.theregister.com##div[data-tf-widget]
 ||stackexchange.com/posts/*/ivc/*?prg=
 ||stackoverflow.com/posts/*/ivc/*?prg=
 ||superuser.com/posts/*/ivc/*?prg=
-stackexchange.com##.hero-box
-stackexchange.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 askubuntu.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 mathoverflow.net##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 serverfault.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 stackapps.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
+stackexchange.com##.hero-box
+stackexchange.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 stackoverflow.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
+stackoverflow.com###js-ai-search-alpha-popover
 superuser.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 
 ||mvnrepository.com/assets/images/p.gif
@@ -253,13 +253,16 @@ www.typescriptlang.org###like-dislike-subnav,#page-helpful-popup
 ||w.usabilla.com/$from=microsoft.com
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
 ||www.microsoft.com/store/buy/cartcount$frame
+||www.surveymonkey.com/$from=devblogs.microsoft.com
 answers.microsoft.com###smcTeachingCalloutPopover
 blogs.microsoft.com##.c-social,.social-footer-wrap,.widget_blog_subscription
 code.visualstudio.com##.feedback
 devblogs.microsoft.com##.back-comment-buttons,#cookie-banner
 devblogs.microsoft.com##.social-icon-bar,#colophon,.social-links,.sidebar-banner.sidebar-links
 devblogs.microsoft.com###main > .alert-banner
-learn.microsoft.com###user-feedback,#article-header-page-actions,.feedback-section,#banner-holder
+learn.microsoft.com###site-user-feedback-footer
+learn.microsoft.com###survey-popover,#article-header-page-actions,#banner-holder
+learn.microsoft.com###user-feedback,.feedback-section
 microsoft.com###usabilla-button
 support.microsoft.com###supWrapperToPreventFeedbackFlickering,.ocArticleFooterShareContainer,.ocArticleFooterFeedPickerContainer,.ocArticleFooterSection.articleSupportBridge,#rail-column
 www.microsoft.com##.socialfollow
@@ -463,6 +466,7 @@ wpf-tutorial.com###divArticleAvailableLanguages,.ad,.adsbygoogle
 @@||www.reddit.com/svc/shreddit/experiences
 @@||www.reddit.com/svc/shreddit/feeds
 @@||www.reddit.com/svc/shreddit/home-more-posts
+@@||www.reddit.com/svc/shreddit/left-nav-recent-section
 @@||www.reddit.com/svc/shreddit/more-comments
 @@||www.reddit.com/svc/shreddit/pdp-right-rail
 @@||www.reddit.com/svc/shreddit/popular-more-posts
@@ -560,12 +564,16 @@ urllib3.readthedocs.io##.announcement
 ||www.statcounter.com/counter/counter.js$from=www.man7.org
 
 ||ads.pro-market.net/$3p
+||channelmaker.pushbullet.com/$from=www.apkmirror.com
 ||instant.page/$3p
 ||js.memberful.com/embed.js$3p
 ||tag.crsspxl.com/s1.js$3p
+||www.apkmirror.com/beardeddragon/
 ||www.apkmirror.com/detroitchicago/
 ||www.apkmirror.com/edmontonalberta/
+||www.apkmirror.com/parsonsmaize/
 ||www.apkmirror.com/porpoiseant/
+||www.apkmirror.com/tardisrocinante/
 ||www.ezojs.com/ezoic/sa.min.js$3p
 www.apkmirror.com##.downloadButton:remove-class(/^(?!btn)[a-zA-Z]{3}$/)
 www.apkmirror.com##[id^="adtester-container-"],.promotedAppListing,#bottom-slider,.ains-apkm_outbrain_ad
@@ -575,12 +583,17 @@ www.apkmirror.com###file > .t-height
 www.apkmirror.com###sidebar > .listWidget:has(>.widgetHeader:has-text(Follow APK Mirror))
 
 ||*$from=www.learncpp.com,3p,script,frame
+||g.ezoic.net/ezqlog
+||www.learncpp.com/beardeddragon/
 ||www.learncpp.com/blog/wp-admin/admin-ajax.php?action=ajax-checkclicks
 ||www.learncpp.com/blog/wp-content/plugins/cfmonitor/
 ||www.learncpp.com/blog/wp-content/plugins/wp-google-search/
 ||www.learncpp.com/detroitchicago/
 ||www.learncpp.com/edmontonalberta/
+||www.learncpp.com/ezoic/anchorfix.js
+||www.learncpp.com/parsonsmaize/
 ||www.learncpp.com/porpoiseant/
+||www.learncpp.com/tardisrocinante/
 www.learncpp.com##.sidey.widget-area,.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-ad-placeholder"]
 
 ||*$from=thewindowsclub.com,3p
@@ -595,6 +608,7 @@ www.learncpp.com##.sidey.widget-area,.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-
 ||thewindowsclub.com/detroitchicago/
 ||thewindowsclub.com/edmontonalberta/
 ||thewindowsclub.com/ezais/
+||thewindowsclub.com/ezoic/anchorfix.js
 ||thewindowsclub.com/parsonsmaize/
 ||thewindowsclub.com/porpoiseant/
 ||thewindowsclub.com/tardisrocinante/
@@ -607,32 +621,44 @@ thewindowsclub.com###genesis-sidebar-primary > .widget.widget_text
 thewindowsclub.com##+js(set-attr, img.ezlazyload, src, [data-ezsrc])
 
 ||*$from=zetcode.com,3p
+||zetcode.com/beardeddragon/
 ||zetcode.com/detroitchicago/
 ||zetcode.com/edmontonalberta/
+||zetcode.com/ezoic/anchorfix.js
+||zetcode.com/parsonsmaize/
 ||zetcode.com/porpoiseant/
+||zetcode.com/tardisrocinante/
 zetcode.com##.ezo_ad,.ezoic-adpicker-ad,.ezoic-ad,.ezoic-outstream,.ezoic-autoinsert-ad,[id^="ez-clearholder"]
 zetcode.com##form[action^="https://www.paypal.com/"]
 zetcode.com##+js(set-attr, img.ezlazyload, src, [data-ezsrc])
 
-||m2d.m2.ai/$3p
+||go.ezodn.com/detroitchicago/
 ||go.ezodn.com/hb/dall.js$3p
+||go.ezodn.com/porpoiseant/
 ||live.primis.tech/live/liveView.php$3p
+||m2d.m2.ai/$3p
+||www.tutorialsteacher.com/beardeddragon/
 ||www.tutorialsteacher.com/cdn-cgi/apps/head/
 ||www.tutorialsteacher.com/detroitchicago/
 ||www.tutorialsteacher.com/edmontonalberta/
 ||www.tutorialsteacher.com/ezais/
+||www.tutorialsteacher.com/parsonsmaize/
 ||www.tutorialsteacher.com/porpoiseant/
+||www.tutorialsteacher.com/tardisrocinante/
 www.tutorialsteacher.com##.ezoic-ad,.videoAd,.lb-ad,[data-ez-ph-id],.ezoic-adpicker-ad
 www.tutorialsteacher.com###social-platforms,.mailing-widget,#navbarSupportedContent
 
 ||cdn.pubguru.com/fb.js$3p
+||www.entityframeworktutorial.net/beardeddragon/
 ||www.entityframeworktutorial.net/cdn-cgi/apps/head/
 ||www.entityframeworktutorial.net/detroitchicago/
 ||www.entityframeworktutorial.net/edmontonalberta/
 ||www.entityframeworktutorial.net/ezais/
 ||www.entityframeworktutorial.net/images/ef-ext-lb.jpg
 ||www.entityframeworktutorial.net/images/ef-ext-sr.jpg
+||www.entityframeworktutorial.net/parsonsmaize/
 ||www.entityframeworktutorial.net/porpoiseant/
+||www.entityframeworktutorial.net/tardisrocinante/
 www.entityframeworktutorial.net##.ezoic-adpicker-ad,.ezoic-videopicker-video,[data-ez-ph-id]
 www.entityframeworktutorial.net##.lb-ad,.inart-ad,.rightSidebar,.mailing-widget
 
@@ -684,6 +710,7 @@ zzzprojects.com###site-footer-popup-newsletter
 ||www.google.com/images/icons/product/cloud_storage-32.png$from=commondatastorage.googleapis.com
 ||www.google.com/images/icons/product/sites-16.ico$from=sites.google.com
 ||www.google.com/js/$from=chrome.google.com,script
+||www.google.com/js/gweb/analytics/autotrack.js
 ||www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js$from=www.chromium.org|blog.google
 blog.chromium.org##.share
 blog.google##.uni-newsletter-toast
@@ -769,7 +796,6 @@ stackoverflow.blog###wrapper > aside.mx-auto.p-wrapper
 dev.mysql.com##.social-icons
 
 ! https://doc.qt.io/qtforpython-6/tutorials/index.html
-||dev.visualwebsiteoptimizer.com/$from=www.qt.io
 ||hsforms.com/embed/v3/counters.gif$from=www.qt.io
 ||js.hs-analytics.net/$from=www.qt.io
 ||js.hs-banner.com/$from=www.qt.io
@@ -821,6 +847,7 @@ www.pcgamer.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newslett
 www.pcgamer.com##.listingResults>.listingResult:has(.sponsored-post)
 www.pcgamer.com###slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
 www.techradar.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
+www.techradar.com##.widget-ads,.sponsored-post
 www.techradar.com###slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
 www.tomshardware.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
 www.tomshardware.com##.listingResults>.listingResult:has(.sponsored-post)
@@ -1110,7 +1137,10 @@ gtaforums.com##div[style="min-height:250px;margin-bottom:10px"]:has(>#pwDeskLbAt
 users.rust-lang.org##.quote-button
 
 ||fundingchoicesmessages.google.com/$from=www.tenforums.com
+||www.eightforums.com/jc/gtm.js
+||www.eightforums.com/styles/default/xenforo/add_to_home.gif
 ||www.elevenforum.com/jc/gtm.js
+www.eightforums.com##.notice--cookie,.shareButtons,.had1
 www.elevenforum.com##.gads
 www.elevenforum.com##div[style="width:300px;padding-bottom:10px;text-align:center;height:600px;margin-bottom:15px;"]:has(>.adsbygoogle)
 www.elevenforum.com##div[style="width:300px;padding-bottom:10px;text-align:center;height:600px;margin-bottom:15px;"]:has(>div[id^="div-gpt-ad-"])
@@ -1321,7 +1351,6 @@ zhidao.baidu.com##div[id^="target-content-"]:style(height: initial !important;)
 ||pixel.wp.com/boom.gif
 ||pixel.wp.com/g.gif
 ||static.ads-twitter.com/
-||static.hotjar.com/$from=dictionary.cambridge.org
 ||widgets.wp.com/likes/$frame
 dictionary.cambridge.org##.hfr-m.ltab.lp-m_l-15:remove-class(ltab)
 dictionary.cambridge.org##.lmr-10.lp-5.i-facebook.i.hdib.pr
@@ -1372,6 +1401,7 @@ www.cnblogs.com###blog_post_info,#side_right,a[onclick^="countCreativeClicks"]
 ||apm.zhihu.com/collector/
 ||crash2.zhihu.com/
 ||da.dun.163.com/sn.gif
+||mcs.volceapplog.com/$3p
 ||sugar.zhihu.com/plutus_adreaper
 ||unpkg.zhimg.com/@cfe/sentry-script@*/dist/init.js
 ||unpkg.zhimg.com/za-js-sdk@*/dist/zap.js
@@ -1381,6 +1411,68 @@ www.cnblogs.com###blog_post_info,#side_right,a[onclick^="countCreativeClicks"]
 ||zhihu-web-analytics.zhihu.com/
 www.zhihu.com##.AppBanner
 www.zhihu.com###QuestionAnswers-answers .List-item ~ .Pc-word
-www.zhihu.com##body > div:has(.signFlowModal)
-www.zhihu.com##body > div:has(button:has-text(立即登录/注册))
-www.zhihu.com##html:style(overflow: auto !important;)
+zhihu.com##body > div:has(.signFlowModal)
+zhihu.com##body > div:has(button:has-text(立即登录/注册))
+zhihu.com##html:style(overflow: auto !important;)
+
+! https://www.docker.com/
+! https://www.qt.io
+||dev.visualwebsiteoptimizer.com/j.php$3p
+
+! https://dictionary.cambridge.org
+! https://docs.docker.com/desktop/
+||static.hotjar.com/c/hotjar-*.js$3p
+
+||analytics-service.swiftype.com/webeat_analytics.js
+||mktoresp.com/webevents/
+||sjs.bizographics.com/insight.min.js
+||snowplow.trx.gitlab.net/com.snowplowanalytics.snowplow/
+gitlab.com##.js-autodevops-banner.gl-banner,#promote_repository_features
+
+@@||www.ctrl.blog/assets/script/entry-*.js$1p,script
+@@||www.ctrl.blog/assets/script/page-*.js$1p,script
+||comment.ctrl.blog/assets/log.js
+||l.ctrl.blog/visit
+||www.ctrl.blog/assets/script/$1p,script
+
+||counter.theconversation.com/content/*/count.gif
+||js.trendmd.com/trendmd.amp.html$3p
+||sciencex.com/api/location/$3p
+phys.org##.ads-336x280,.adsbygoogle
+phys.org##.embed-responsive-trendmd.embed-responsive
+phys.org###js-popup-donate,#js-popup-nwletter,#js-popup-cookies
+phys.org###js-soc-panel,.article-interaction__social
+
+||afd8.t4m.cn/applink.js
+||api.sixthtone.com/config/web/getApkInfo
+||waplog.thepaper.cn/log
+www.sixthtone.com##.newsletter_detail_inset_wrap,div[class^="index_activeShareWrap__"],div[class^="index_subscribeBox__"]
+
+||cdn.mediatradecraft.com/the-drive/
+||launcher.spot.im/$script,3p
+||s.skimresources.com/js/*.skimlinks.js
+www.thedrive.com##.NewsLetter
+www.thedrive.com##div.container:has(> div > a[aria-label^="Share on"])
+
+||cdn.viafoura.net/vf-v2.js
+||docs.unity.com/gtm-data-layer.js
+||docs.unity.com/gtm-script.js
+||docs.unity3d.com/StaticFilesConfig/feedback/
+||forum.unity.com/styles/UnitySkin/onetrust-unity.js
+||kameleoon.eu/kameleoon.js
+||store.unity.com/themes/contrib/unity_base/js/unity-cdp.js
+
+||js.driftt.com/$from=www.redhat.com
+||static.redhat.com/libs/redhat/marketing/latest/trustarc/
+www.redhat.com##.rh-social-icon--component,.rh-social-share--component
+
+||www.wikihow.com/*?events=
+||www.wikihow.com/extensions/min/f/_ads/gads.js
+||www.wikihow.com/x/collect
+www.wikihow.com##.addTipElement,.wh_ad_active.wh_ad_inner
+www.wikihow.com###promopair_container,#trust_banner,#article_courses_banner,#article_rating_mobile
+
+www.pinvoke.net##a[href="https://mindfiretech.com"]
+www.pinvoke.net##h3:has-text(Mindfire Tech is proficient)
+
+www.codeproject.com##div[aria-label="cookieconsent"]
