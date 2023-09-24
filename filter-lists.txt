@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, September 17, 2023
+! Last modified: Sunday, September 24, 2023
 ! Title: Custom Filter Lists
-! Version: 20230917
+! Version: 20230924
 !
 !
 !
@@ -34,7 +34,9 @@
 ||sb.scorecardresearch.com/$3p
 ||sentry.io/api/*/envelope/$method=post
 ||stats.wp.com/$3p,script
+||taboola.com$3p
 ||tagan.adlightning.com/$3p,script
+||www.facebook.com/plugins/like.php$3p
 ||www.googleoptimize.com/$3p,script
 ||www.googletagmanager.com/$3p,script
 ||www.googletagservices.com/$3p,script
@@ -163,6 +165,7 @@ github1s.com##.github1s-notification
 helgeklein.com##.page__meta--sharing
 riptutorial.com##.add-z
 winscp.net##.promo-block
+woshub.com##.adsbygoogle,#custom_html-6
 www.tutorialkart.com##.centerad
 www.tutorialrepublic.com##.rightcolumn,.leaderboard,.bottom-ad,.snippets,.appeal
 www.wpftutorial.net##a[href^="http://www.snippetsource.net"]
@@ -249,6 +252,8 @@ www.typescriptlang.org###like-dislike-subnav,#page-helpful-popup
 ||learn.microsoft.com/static/third-party/adobe-target/
 ||marketplace.visualstudio.com/_apis/ClientTrace/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/stats?statType=pageview
+||techcommunity.microsoft.com/beacon/*.gif
+||techcommunity.microsoft.com/t5/forums/v5/forumtopicpage.liabase.basebody.valuesurveylauncher.valuesurveylauncher
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/vscom-usabilla-a11y.js
 ||w.usabilla.com/$from=microsoft.com
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
@@ -265,8 +270,17 @@ learn.microsoft.com###survey-popover,#article-header-page-actions,#banner-holder
 learn.microsoft.com###user-feedback,.feedback-section
 microsoft.com###usabilla-button
 support.microsoft.com###supWrapperToPreventFeedbackFlickering,.ocArticleFooterShareContainer,.ocArticleFooterFeedPickerContainer,.ocArticleFooterSection.articleSupportBridge,#rail-column
+techcommunity.microsoft.com##.custom-social-share-component
+techcommunity.microsoft.com###valueSurveyLauncher:remove()
 www.microsoft.com##.socialfollow
-www.microsoft.com##section.container[aria-label="download center details page banner - Internet Explorer"]
+www.microsoft.com##section.container[aria-label^="download center details page banner -"]
+
+||c.microsoft.com/ms.js
+||fpt.dfp.microsoft.com/Clear.HTML
+||ov-df.microsoft.com/Images/Clear.PNG
+||ov-df.microsoft.com/mdt.js
+||vlscppe.microsoft.com/fp/tags.js
+||vlscppe.microsoft.com/tags
 
 ||3lift.com/$from=outlook.live.com
 ||adnxs-simple.com/$from=outlook.live.com
@@ -275,7 +289,6 @@ www.microsoft.com##section.container[aria-label="download center details page ba
 ||c.live.com/c.gif
 ||criteo.com/$from=outlook.live.com
 ||dnxs.com/$from=outlook.live.com
-||taboola.com$from=outlook.live.com
 
 ! www.tutorialspoint.com
 ||bat.bing.com/bat.js
@@ -348,7 +361,8 @@ v2ex.com##.adsbygoogle,.wwads-cn
 v2ex.com###Rightbar > div.box:has(img[alt="OneKey"])
 
 ||revboostprocdnadsprod.azureedge.net/$from=www.robtex.com
-www.robtex.com###cookienotice
+www.robtex.com###cookienotice,.adsbygoogle
+www.robtex.com##header > div[style*="height:250px;"]
 
 ! https://palletsprojects.com/
 ! https://pipenv.pypa.io/en/latest/
@@ -371,11 +385,13 @@ github.blog###newsletter
 @@||www.jetbrains.com/_assets/common.
 @@||www.jetbrains.com/_assets/default-page.
 ||data.services.jetbrains.com/geo
+||jbssales.zendesk.com/frontendevents
 ||kotlinlang.org/docs/static/v3/analytics.js
 ||plugins.jetbrains.com/plugin/index?xmlId$removeparam=/^utm_/
 ||www.jetbrains.com/_assets/
 ||youtrack.jetbrains.com/api/analytics
 ||youtrack.jetbrains.com/api/users/me/profiles/analytics
+account.jetbrains.com##.jba-agreement-panel
 blog.jetbrains.com##.social,.form-subscribe
 kotlinlang.org##.kt-app__feedback-wrapper
 ktor.io##.feedback
@@ -711,7 +727,7 @@ zzzprojects.com###site-footer-popup-newsletter
 ||www.google.com/images/icons/product/sites-16.ico$from=sites.google.com
 ||www.google.com/js/$from=chrome.google.com,script
 ||www.google.com/js/gweb/analytics/autotrack.js
-||www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js$from=www.chromium.org|blog.google
+||www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js$from=www.chromium.org|blog.google|pki.goog
 blog.chromium.org##.share
 blog.google##.uni-newsletter-toast
 chrome.google.com##div[aria-labelledby="promo-header"]
@@ -824,7 +840,6 @@ www.ip-secrets.com##a[href="r.php"]
 ||bordeaux.futurecdn.net/bordeaux.js
 ||cdn.onesignal.com/sdks/OneSignalSDK.js
 ||cdn.parsely.com/keys/*/p.js
-||cdn.taboola.com/libtrc/futureplc-network/loader.js
 ||edge.permutive.app/
 ||hawk.gamesradar.com/hl/es6/hawklinks.js
 ||hawk.gamesradar.com/translations.php
@@ -1167,7 +1182,6 @@ www.nature.com##aside.c-article-extras > .js-context-bar-sticky-point-desktop
 ||cdn.arstechnica.net/wp-content/themes/ars/assets/js/ars-*.ads.us.js
 ||cdn.mediavoice.com/nativeads/
 ||cdn.memo.co/js/memo.js$from=arstechnica.com
-||cdn.taboola.com/libtrc/condenast1-network/loader.js
 ||player.cnevids.com/interlude/arstechnica.js$from=arstechnica.com
 ||s.skimresources.com/js/*.skimlinks.js$from=arstechnica.com
 ||shiverscissors.com/$from=arstechnica.com
@@ -1462,9 +1476,12 @@ www.thedrive.com##div.container:has(> div > a[aria-label^="Share on"])
 ||kameleoon.eu/kameleoon.js
 ||store.unity.com/themes/contrib/unity_base/js/unity-cdp.js
 
-||js.driftt.com/$from=www.redhat.com
+||js.driftt.com/$from=www.redhat.com|www.grammarly.com
+
 ||static.redhat.com/libs/redhat/marketing/latest/trustarc/
 www.redhat.com##.rh-social-icon--component,.rh-social-share--component
+
+||gnar.grammarly.com/events
 
 ||www.wikihow.com/*?events=
 ||www.wikihow.com/extensions/min/f/_ads/gads.js
@@ -1476,3 +1493,54 @@ www.pinvoke.net##a[href="https://mindfiretech.com"]
 www.pinvoke.net##h3:has-text(Mindfire Tech is proficient)
 
 www.codeproject.com##div[aria-label="cookieconsent"]
+
+||blog.csdn.net/phoenix/web/v1/promotion-info
+||csdnimg.cn/release/blogv2/dist/pc/js/detail-*.min.js
+||devpress-api.csdn.net/api/internal/blog/nsInfo/blog/
+||dup.baidustatic.com/js/ds.js
+||g-api.csdn.net/community/toolbar-api/v1/get-activity-list
+||g.csdnimg.cn/??sharewx/
+||g.csdnimg.cn/ads/ads.gif
+||g.csdnimg.cn/asdf/
+||g.csdnimg.cn/baidu-search/
+||g.csdnimg.cn/common/csdn-report/
+||g.csdnimg.cn/tingyun/
+||img-home.csdnimg.cn/data_json/jsconfig/redPacket.json
+||kunpeng-sc.csdnimg.cn/?timestamp=
+||kunpeng.csdn.net/ad/
+||kunyu.csdn.net/1.png
+||redisdatarecall.csdn.net/recommend/get_head_word
+||res.cdn.openinstall.io/openinstall.js
+||s3a.pstatp.com/toutiao/push.js
+||silkroad.csdn.net/api/v2/assemble/list/channel/pc_hot_word
+||silkroad.csdn.net/api/v2/assemble/list/channel/search_hot_word
+||statistic.csdn.net/adblock
+||www.csdn.net/$removeparam=ydreferer
+blog.csdn.net##.blog-slide-ad-box,.passport-auto-tip-login-container,#kp_box_blog_cont
+blog.csdn.net##.box-shadow.mb8:has(>[id^="cpro_"])
+blog.csdn.net##.hljs-button.signin,.hide-article-pos.hide-article-box
+blog.csdn.net###content_views pre code:style(user-select: unset !important;)
+blog.csdn.net###content_views pre:style(user-select: unset !important;)
+blog.csdn.net###rightAside,#asideWriteGuide,#articleSearchTip
+csdn.net##.csdn-side-toolbar
+www.csdn.net##.csdn-toolbar-creative-mp-bg
+
+||www.countok.de/cgi-bin/cnt.pl
+www.softwareok.com###cookiebar
+
+||ubistatic-a.ubisoft.com/*/prod/global/tracking/analyticssdk.js
+
+||alb.reddit.com/rp.gif
+||cmp.osano.com/*/osano.js
+||static.klaviyo.com/onsite/js/klaviyo.js$from=steelseries.com
+||steelseries.com/gtm-script
+||steelseries.com/segment/identify
+||steelseries.com/segment/page
+||tagging.steelseries.com/
+
+||toplist.cz/count.asp
+wutils.com##.adsbygoogle
+
+! https://www.elim.app/eng/home
+||eu.posthog.com/static/array.js
+||cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js
