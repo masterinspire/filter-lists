@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, August 30, 2023
+! Last modified: Sunday, October 8, 2023
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20230830
+! Version: 20231008
 !
 !
 !
@@ -24,7 +24,12 @@ cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
 cn.bing.com###est_switch,#b_results > li.b_msg.b_canvas
 community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/jackett"])
 community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/kmymoney"])
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/microsoft-edge-insider-dev"])
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/microsoft-edge-insider"])
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/microsoft-edge"])
 community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/oh-my-posh"])
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/selenium-chromium-edge-driver"])
+community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/webview2-runtime"])
 devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/dotnet-ch"])
 devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/java-ch"])
 devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/java"])
@@ -47,5 +52,6 @@ v2ex.com##.cell.item:has(.topic_info > strong > a[href="/member/Casbin"])
 www.tapd.cn##.comment_content .comments-for-view-new .editor-content:style(padding: 2rem 1rem !important; overflow:auto !important;)
 www.tapd.cn###new_nav_avatar_div
 
+||*$from=localhost|127.0.0.1,3p
 ||marketplace.visualstudio.com/_apis/customerintelligence/Events
 ||public-ubiservices.ubi.com/v2/profiles/me/iplocation

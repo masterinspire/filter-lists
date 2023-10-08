@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, September 24, 2023
+! Last modified: Sunday, October 8, 2023
 ! Title: Custom Filter Lists Breaking 1
-! Version: 20230924
+! Version: 20231008
 !
 !
 !
@@ -33,4 +33,6 @@ firebase.google.com##.video-wrapper:has(devsite-video)
 firebase.google.com##devsite-video
 gamerant.com##.w-youtube.w-rich
 screenrant.com##.w-youtube.w-rich
+www.ifixit.com##figure.wp-block-embed-youtube
+www.theregister.com##.reg_video_iframe:has(>iframe[src^="https://www.youtube.com/embed/"])
 www.xda-developers.com##.w-youtube.w-rich

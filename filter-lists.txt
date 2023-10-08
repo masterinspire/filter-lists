@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, September 24, 2023
+! Last modified: Sunday, October 8, 2023
 ! Title: Custom Filter Lists
-! Version: 20230924
+! Version: 20231008
 !
 !
 !
@@ -127,9 +127,12 @@
 ! https://chakra-ui.com/getting-started
 ! https://currency.world/
 ! https://docs.python.org/3/library/index.html
+! https://godotforums.org/d/15500-once-and-for-all-how-do-you-really-pronounce-godot/12
 ! https://python-poetry.org/docs/
 ||plausible.io/js/plausible.js$strict3p
+||plausible.io/js/script.hash.outbound-links.js$strict3p
 ||plausible.io/js/script.js$strict3p
+||plausible.io/js/script.tagged-events.js$strict3p
 
 ! https://currency.world/
 ! https://dnschecker.org/
@@ -150,10 +153,15 @@
 ||cdn.paddle.com/paddle/paddle.js$from=www.questpdf.com
 ||cdn.topsy.com/topsy.js$from=peter.sh
 ||codidact.com/community-assets//analytics.codidact.org/matomo.js
+||crystaldoc-info.goatcounter.com/count
 ||datum.jsdelivr.com/api/event
+||flux.faloo.com/pvdata.aspx
+||gnar.grammarly.com/events
 ||img6.wsimg.com/utag/utag.min.js$from=www.godaddy.com
 ||img6.wsimg.com/wrhs/*/tcc.min.js$from=www.godaddy.com
+||s3.amazonaws.com/github/ribbons/forkme_*.png$3p
 ||stats.minetest.net/
+||tracking.unrealengine.com/tracking.js
 ||utteranc.es/$from=hackingcpp.com
 ||www.autohotkey.com/cdn-cgi/apps/head/
 ||www.os2museum.com/wp/wp-content/plugins/wp-simple-firewall/resources/js/shield/notbot.js
@@ -166,6 +174,9 @@ helgeklein.com##.page__meta--sharing
 riptutorial.com##.add-z
 winscp.net##.promo-block
 woshub.com##.adsbygoogle,#custom_html-6
+www.codeproject.com##div[aria-label="cookieconsent"]
+www.pinvoke.net##a[href="https://mindfiretech.com"]
+www.pinvoke.net##h3:has-text(Mindfire Tech is proficient)
 www.tutorialkart.com##.centerad
 www.tutorialrepublic.com##.rightcolumn,.leaderboard,.bottom-ad,.snippets,.appeal
 www.wpftutorial.net##a[href^="http://www.snippetsource.net"]
@@ -265,9 +276,9 @@ code.visualstudio.com##.feedback
 devblogs.microsoft.com##.back-comment-buttons,#cookie-banner
 devblogs.microsoft.com##.social-icon-bar,#colophon,.social-links,.sidebar-banner.sidebar-links
 devblogs.microsoft.com###main > .alert-banner
-learn.microsoft.com###site-user-feedback-footer
+dotnet.microsoft.com##.feedback-container,.social-icons
+learn.microsoft.com###site-user-feedback-footer,#user-feedback,.feedback-section,section[data-bi-name="open-source-feedback-section"]
 learn.microsoft.com###survey-popover,#article-header-page-actions,#banner-holder
-learn.microsoft.com###user-feedback,.feedback-section
 microsoft.com###usabilla-button
 support.microsoft.com###supWrapperToPreventFeedbackFlickering,.ocArticleFooterShareContainer,.ocArticleFooterFeedPickerContainer,.ocArticleFooterSection.articleSupportBridge,#rail-column
 techcommunity.microsoft.com##.custom-social-share-component
@@ -333,20 +344,23 @@ community.chocolatey.org###cookieNoticeAlert,#callout-package-warning
 community.chocolatey.org###mc_embed_signup
 
 ||cn.cdnbye.com/v1/channel
-||d.dosre12.xyz/$from=www.88dyyw.com
-||js.users.51.la/$from=www.88dyyw.com|www.88dyw.com
-||pro.ip-api.com/json$from=www.88dyyw.com|www.88dyw.com
+||js.users.51.la/$from=www.88dyw.com|www.88dyww.com
+||open.thunderurl.com/thunder-link.js$from=www.88dyww.com
+||pro.ip-api.com/json$from=www.88dyw.com
 ||www.88dyw.com/comment.php
 ||www.88dyw.com/include/ajax.php
 ||www.88dyw.com/pic/shoucang.png
 ||www.88dyw.com/pic/shoucangwap.png
 ||www.88dyw.com/static/api/js/share.js
 ||www.88dyw.com/templets/88ys/images/wxewm.png
-bbcc.fby2.com###ac_tips
+||www.88dyww.com/index.php/ajax/hits
+||www.88dyww.com/index.php/user/ajax_ulog/
+||www.yck1.com/$from=www.88dyww.com
 www.88dyw.com##.gotop,.pfstyle,.pfplayer
-www.88dyyw.com##.light_switch,#topcontrol
+www.88dyww.com##+js(aopw, document.onkeydown)
 
 ||*.com/lv/esnk/*/code.js$from=missav.com
+||*.com/lvesnk.html$from=missav.com
 ||cdn.tsyndicate.com/$from=missav.com
 ||creative.live.missav.com/widgets/
 ||hartattenuate.com/$from=missav.com
@@ -354,6 +368,10 @@ www.88dyyw.com##.light_switch,#topcontrol
 ||partwithner.com/$from=missav.com
 missav.com##.text-nord14.list-disc.ml-4.mb-4.space-y-2
 missav.com##+js(window.open-defuser,/pop?url=)
+missav.com##div[style="width: 300px; height: 100px;"]:has(a[rel^="sponsored"])
+missav.com##div[style="width: 300px; height: 100px;"]:has(iframe)
+missav.com##div[style="width: 300px; height: 250px;"]:has(iframe)
+missav.com##div[style="width: 728px; height: 90px;"]:has(a[rel^="sponsored"])
 
 ||cdn.wwads.cn/$from=v2ex.com
 ||v2ex.com/b/i/
@@ -388,6 +406,7 @@ github.blog###newsletter
 ||jbssales.zendesk.com/frontendevents
 ||kotlinlang.org/docs/static/v3/analytics.js
 ||plugins.jetbrains.com/plugin/index?xmlId$removeparam=/^utm_/
+||resources.jetbrains.com/storage/help-app/v6/analytics.js
 ||www.jetbrains.com/_assets/
 ||youtrack.jetbrains.com/api/analytics
 ||youtrack.jetbrains.com/api/users/me/profiles/analytics
@@ -398,6 +417,7 @@ ktor.io##.feedback
 plugins.jetbrains.com##.acceptance-popup
 www.jetbrains.com###social-footer
 youtrack.jetbrains.com##div[data-test="alert-container"]:has(span:has-text(User Agreement))
+
 
 ||analytics.cloud.coveo.com/$from=vmware.com
 ||analytics.kaltura.com$from=vmware.com
@@ -479,13 +499,12 @@ wpf-tutorial.com###divArticleAvailableLanguages,.ad,.adsbygoogle
 
 @@||www.reddit.com/svc/shreddit/accountmanager-iframe
 @@||www.reddit.com/svc/shreddit/comments
+@@||www.reddit.com/svc/shreddit/*-more-posts
 @@||www.reddit.com/svc/shreddit/experiences
 @@||www.reddit.com/svc/shreddit/feeds
-@@||www.reddit.com/svc/shreddit/home-more-posts
 @@||www.reddit.com/svc/shreddit/left-nav-recent-section
 @@||www.reddit.com/svc/shreddit/more-comments
 @@||www.reddit.com/svc/shreddit/pdp-right-rail
-@@||www.reddit.com/svc/shreddit/popular-more-posts
 @@||www.reddit.com/svc/shreddit/user-hover-card
 ||alb.reddit.com/i.gif
 ||events.reddit.com/
@@ -549,6 +568,8 @@ sass-lang.com##body > header > .sl-c-alert--special.sl-c-alert
 ||cryptography.io/_/static/javascript/readthedocs-analytics.js
 ||docs.automapper.org/_/api/v2/analytics/
 ||docs.automapper.org/_/static/javascript/readthedocs-analytics.js
+||docs.godotengine.org/_/api/v2/analytics/
+||docs.godotengine.org/_/static/javascript/readthedocs-analytics.js
 ||docs.pytest.org/_/api/v2/analytics/
 ||docs.pytest.org/_/static/javascript/readthedocs-analytics.js
 ||docs.scrapy.org/_/api/v2/analytics/
@@ -565,7 +586,6 @@ sass-lang.com##body > header > .sl-c-alert--special.sl-c-alert
 ||readthedocs.io/_/api/v2/analytics/
 ||readthedocs.io/_/static/javascript/readthedocs-analytics.js
 ||readthedocs.org/api/v2/sustainability/data/
-||s3.amazonaws.com/github/ribbons/forkme_right_darkblue_*.png$from=requests.readthedocs.io
 ||widget.uservoice.com/$from=pipenv.pypa.io
 docs.xlwings.org##.back-to-top,.announcement
 palletsprojects.com##.version-warning
@@ -574,13 +594,15 @@ urllib3.readthedocs.io##.announcement
 ||app.satismeter.com/satismeter.js$from=docs.gradle.org
 ||go.gradle.com/$from=docs.gradle.org
 ||gradle.org/cdn-cgi/apps/head/
-||pi.pardot.com/$from=gradle.org
+
+||pi.pardot.com/$from=gradle.org|fossa.com
 
 ! https://www.man7.org/linux/man-pages/man5/ssh_config.5.html
 ||www.statcounter.com/counter/counter.js$from=www.man7.org
 
 ||ads.pro-market.net/$3p
 ||channelmaker.pushbullet.com/$from=www.apkmirror.com
+||go.ezodn.com/utilcave_com/ezoic.png$3p
 ||instant.page/$3p
 ||js.memberful.com/embed.js$3p
 ||tag.crsspxl.com/s1.js$3p
@@ -592,6 +614,7 @@ urllib3.readthedocs.io##.announcement
 ||www.apkmirror.com/tardisrocinante/
 ||www.ezojs.com/ezoic/sa.min.js$3p
 www.apkmirror.com##.downloadButton:remove-class(/^(?!btn)[a-zA-Z]{3}$/)
+www.apkmirror.com##.ezo_ad
 www.apkmirror.com##[id^="adtester-container-"],.promotedAppListing,#bottom-slider,.ains-apkm_outbrain_ad
 www.apkmirror.com###content > .listWidget:has(>.widgetHeader:has-text(Comments))
 www.apkmirror.com###content > article > .listWidget:has(>.widgetHeader:has-text(Comments))
@@ -630,11 +653,22 @@ www.learncpp.com##.sidey.widget-area,.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-
 ||thewindowsclub.com/tardisrocinante/
 thewindowsclub.com##.entry-content > .widget:has([id^="ezoic-pub-ad-placeholder-"])
 thewindowsclub.com##.entry-footer > .widget
-thewindowsclub.com##.ezoic-ad,.ez-sidebar-wall,.ezo_ad,.ezoic-adpicker-ad,span[data-ez-ph-id]
+thewindowsclub.com##.ezoic-ad,.ez-sidebar-wall,.ezo_ad,.ezoic-adpicker-ad,[data-ez-ph-id]
 thewindowsclub.com##.ss-inline-share-wrapper
 thewindowsclub.com###genesis-content > .post > .widget:has(a[rel="nofollow sponsored"])
 thewindowsclub.com###genesis-sidebar-primary > .widget.widget_text
 thewindowsclub.com##+js(set-attr, img.ezlazyload, src, [data-ezsrc])
+
+||www.winhelponline.com/beardeddragon/
+||www.winhelponline.com/detroitchicago/
+||www.winhelponline.com/edmontonalberta/
+||www.winhelponline.com/ezais/
+||www.winhelponline.com/parsonsmaize/
+||www.winhelponline.com/porpoiseant/
+||www.winhelponline.com/tardisrocinante/
+www.winhelponline.com##.ezoic-ad,.ez-sidebar-wall,.ezo_ad,.ezoic-adpicker-ad,[data-ez-ph-id]
+www.winhelponline.com##.swp_social_panel
+www.winhelponline.com##+js(set-attr, img.ezlazyload, src, [data-ezsrc])
 
 ||*$from=zetcode.com,3p
 ||zetcode.com/beardeddragon/
@@ -1073,6 +1107,7 @@ www.w3schools.com###right
 
 ||cdn.adpushup.com/$from=www.tutorialspoint.com
 ||shop.pe/widget/widget_async.js$from=www.tutorialspoint.com
+www.tutorialspoint.com##.library-cta
 www.tutorialspoint.com###footer > .bg-white.py-4,#google-bottom-ads,#adp_top_ads,#privacy-banner
 
 ||*$from=www.javatpoint.com,3p
@@ -1290,6 +1325,7 @@ httptoolkit.com##div:has( > div > form[action^="https://tech.us18.list-manage.co
 ||baike.baidu.com/api/wikiad/
 ||baike.baidu.com/api/wikiui/directad
 ||baike.baidu.com/api/wikiui/guesslike
+||bdimg.share.baidu.com/static/api/js/share.js
 ||bkssl.bdimg.com/static/wiki-home/widget/picAds/
 ||bkssl.bdimg.com/static/wiki-home/widget/textAds/
 ||bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/
@@ -1481,18 +1517,11 @@ www.thedrive.com##div.container:has(> div > a[aria-label^="Share on"])
 ||static.redhat.com/libs/redhat/marketing/latest/trustarc/
 www.redhat.com##.rh-social-icon--component,.rh-social-share--component
 
-||gnar.grammarly.com/events
-
 ||www.wikihow.com/*?events=
 ||www.wikihow.com/extensions/min/f/_ads/gads.js
 ||www.wikihow.com/x/collect
 www.wikihow.com##.addTipElement,.wh_ad_active.wh_ad_inner
 www.wikihow.com###promopair_container,#trust_banner,#article_courses_banner,#article_rating_mobile
-
-www.pinvoke.net##a[href="https://mindfiretech.com"]
-www.pinvoke.net##h3:has-text(Mindfire Tech is proficient)
-
-www.codeproject.com##div[aria-label="cookieconsent"]
 
 ||blog.csdn.net/phoenix/web/v1/promotion-info
 ||csdnimg.cn/release/blogv2/dist/pc/js/detail-*.min.js
@@ -1544,3 +1573,77 @@ wutils.com##.adsbygoogle
 ! https://www.elim.app/eng/home
 ||eu.posthog.com/static/array.js
 ||cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js
+
+||retcode.alicdn.com/retcode/bl.js
+||static-ssl.mediav.com/mvl.js$from=www.dji.com
+||static.djicdn.com/sentry-sdk/sentry-react-*.min.js
+
+||assets.repair.org/widget.js
+||d3nevzfk7ii3be.cloudfront.net/*.standard
+||minerva.ifixit.com/js/minerva.js
+||minerva.ifixit.com/js/tagmanager/
+||ping.ifixit.com/pp/tick.gif
+||www.googlecommerce.com/trustedstores/api/js
+
+forum.kerbalspaceprogram.com##.ipsComment_inlineQuoteTooltip.ipsTooltip
+||back20.keycaptcha.com/swfs/gjs$from=forum.kerbalspaceprogram.com
+||cdn.jsdelivr.net/npm/@widgetbot/html-embed$from=forum.kerbalspaceprogram.com
+
+||s.adroll.com/*/roundtrip.js
+fossa.com##.post-content > .kg-image-card.kg-card
+fossa.com##.subscribe-form
+
+@@||www.ibm.com/_sec/$1p,script
+@@||www.ibm.com/common/$1p,script
+@@||www.ibm.com/etc.clientlibs/$1p,script
+@@||www.ibm.com/ibm/$1p,script
+||1.www.s81c.com/i/c.gif
+||tags.tiqcdn.cn/$3p
+||www.ibm.com/common/stats/stats.js$1p,important
+||www.ibm.com/ibm100/$1p,script
+||www.ibm.com$1p,script
+
+||exmail.qq.com/cgi-bin/getinvestigate
+||exmail.qq.com/qy_mng_logic/logKVAuto
+||exmail.qq.com/qy_mng_logic/reportKV
+
+||a.vdo.ai/$from=gamertweak.com
+gamertweak.com##.active.more-stories
+gamertweak.com##.adsbygoogle
+
+||anchor.digitalocean.com/js/forms2/js/forms2.min.js$from=www.digitalocean.com
+||segment.digitalocean.com/$from=www.digitalocean.com
+||tracking.digitalocean.com/
+www.digitalocean.com##div[class^="QuestionSearchFooterStyles__StyledQuestionSearchFooterContent"]
+www.digitalocean.com##div[class^="WasThisHelpfulStyles__StyledHelpfulContainer"]
+www.digitalocean.com##nav[aria-label="Top Hat"]
+
+! https://godotshaders.com/shader/2d-wind-sway/
+||sp.tinymce.com/i?
+
+||assets.context.ly/$from=www.404media.co
+||assets.outpost.pub/$from=www.404media.co
+||js.stripe.com/v3/$3p
+www.404media.co##.js-popup.popup,.subscribe
+
+||cdn.jsdelivr.net/gh/orestbida/cookieconsent@$3p
+||vitals.vercel-insights.com/
+||www.goodrequest.com/_vercel/insights/view
+
+||cdn.cookie-script.com/$3p
+||godottutorials.com/js/subscription.min.js
+godottutorials.com##.social-line,.subscribe-line
+
+||coveralls.io/repos/github/SCons/scons/badge.svg$from=scons.org
+||github.com/SCons/scons/actions/workflows/scons-package.yml/badge.svg$from=scons.org
+
+||dcf.espn.com/TWDC-DTCI/$from=abcnews.go.com
+||disney.demdex.net/id$from=abcnews.go.com
+||fastcast.semfs.engsvc.go.com/public/websockethost$from=abcnews.go.com
+||micro.rubiconproject.com/prebid/$from=abcnews.go.com
+||scripts.webcontentassessor.com/$from=abcnews.go.com
+||sw88.go.com/id$from=abcnews.go.com
+||tags.bkrtx.com/js/bk-coretag.js
+||tt.omtrdc.net/rest/v1/delivery
+abcnews.go.com##.taboola
+abcnews.go.com##[data-testid="prism-ad-wrapper"],[data-testid="prism-share"]
