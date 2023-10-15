@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, October 8, 2023
+! Last modified: Sunday, October 15, 2023
 ! Title: Custom Filter Lists
-! Version: 20231008
+! Version: 20231015
 !
 !
 !
@@ -40,6 +40,14 @@
 ||www.googleoptimize.com/$3p,script
 ||www.googletagmanager.com/$3p,script
 ||www.googletagservices.com/$3p,script
+
+||ads-static.conde.digital/$3p
+||cdn.permutive.app/$3p
+||edge.permutive.app/$3p
+||martech.condenastdigital.com/$3p
+||player-frontend.cnevids.com/$3p
+||player.cnevids.com/$3p
+||vulcan.condenastdigital.com/$3p
 
 ! https://maxpayne.fandom.com/wiki/Max_Payne_Wiki
 ! https://seg.ad.gt/api/v1/s/158
@@ -150,6 +158,7 @@
 ! https://www.looper.com/
 ||secure.quantserve.com/quant.js
 
+||adv.aisino.cn:7443/
 ||cdn.paddle.com/paddle/paddle.js$from=www.questpdf.com
 ||cdn.topsy.com/topsy.js$from=peter.sh
 ||codidact.com/community-assets//analytics.codidact.org/matomo.js
@@ -159,7 +168,9 @@
 ||gnar.grammarly.com/events
 ||img6.wsimg.com/utag/utag.min.js$from=www.godaddy.com
 ||img6.wsimg.com/wrhs/*/tcc.min.js$from=www.godaddy.com
+||kenney.nl/*/counter-pixel
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$3p
+||stats.kde.org/
 ||stats.minetest.net/
 ||tracking.unrealengine.com/tracking.js
 ||utteranc.es/$from=hackingcpp.com
@@ -170,6 +181,7 @@ devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
 devdocs.io##._notice,._notif._in
 dnschecker.org###cookie-box,.side_menu
 github1s.com##.github1s-notification
+go.dev##.Cookie-notice
 helgeklein.com##.page__meta--sharing
 riptutorial.com##.add-z
 winscp.net##.promo-block
@@ -177,11 +189,13 @@ woshub.com##.adsbygoogle,#custom_html-6
 www.codeproject.com##div[aria-label="cookieconsent"]
 www.pinvoke.net##a[href="https://mindfiretech.com"]
 www.pinvoke.net##h3:has-text(Mindfire Tech is proficient)
+www.trustedfirmware.org###gdpr-cookie-message
 www.tutorialkart.com##.centerad
 www.tutorialrepublic.com##.rightcolumn,.leaderboard,.bottom-ad,.snippets,.appeal
 www.wpftutorial.net##a[href^="http://www.snippetsource.net"]
 www.wxwidgets.org##.logos.mb-4.border-primary.card
 
+||analytics.brave.com/
 ||cdn.search.brave.com/ks.json
 ||search.brave.com/api/ads/homepage
 ||search.brave.com/api/suggest
@@ -210,13 +224,14 @@ stackapps.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 stackexchange.com##.hero-box
 stackexchange.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 stackoverflow.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
-stackoverflow.com###js-ai-search-alpha-popover
+stackoverflow.com###js-ai-search-alpha-popover,#notice-sidebar-popover
 superuser.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
 
 ||mvnrepository.com/assets/images/p.gif
 mvnrepository.com##div.im:has(> div > .adsbygoogle)
 
 ||cdn.fundraiseup.com/widget/$from=foundation.mozilla.org
+||developer.mozilla.org/$removeparam=/^utm_/
 ||developer.mozilla.org/api/v1/whoami
 ||developer.mozilla.org/pong/get
 ||developer.mozilla.org/static/js/ga.js
@@ -226,6 +241,7 @@ foundation.mozilla.org##body > .wrapper > .tw-container
 foundation.mozilla.org##footer > .tw-bg-blue-40
 searchfox.org###context-menu
 support.mozilla.org##.sumo-page-section,.document-vote--sidebar-wrap
+support.mozilla.org###announcements,#cta_survey_banner
 
 ! https://www.nuget.org/
 ||az416426.vo.msecnd.net/scripts/a/ai.0.js$3p
@@ -256,6 +272,8 @@ www.typescriptlang.org###like-dislike-subnav,#page-helpful-popup
 ||code.visualstudio.com/assets/github-button.html
 ||devblogs.microsoft.com/*/wp-content/themes/understrap-child-master/*/alert-banner.min.
 ||dotnet.microsoft.com/static/js/analytics.min.js
+||dotnet.microsoft.com/static/js/at-config.*.js
+||dotnet.microsoft.com/static/js/at.js
 ||dotnet.microsoft.com/static/js/cda-tracker.min.js
 ||dotnet.microsoft.com/static/js/cookie-consent.min.js
 ||in.applicationinsights.azure.com/$3p
@@ -263,6 +281,7 @@ www.typescriptlang.org###like-dislike-subnav,#page-helpful-popup
 ||learn.microsoft.com/static/third-party/adobe-target/
 ||marketplace.visualstudio.com/_apis/ClientTrace/Events
 ||marketplace.visualstudio.com/_apis/public/gallery/publishers/*/extensions/*/stats?statType=pageview
+||support.microsoft.com/lib/oneds/dist/ms.analytics-web-*.min.js
 ||techcommunity.microsoft.com/beacon/*.gif
 ||techcommunity.microsoft.com/t5/forums/v5/forumtopicpage.liabase.basebody.valuesurveylauncher.valuesurveylauncher
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/vscom-usabilla-a11y.js
@@ -343,21 +362,16 @@ community.chocolatey.org##.btn-announcement-notifications.btn-collapsing-right-s
 community.chocolatey.org###cookieNoticeAlert,#callout-package-warning
 community.chocolatey.org###mc_embed_signup
 
-||cn.cdnbye.com/v1/channel
-||js.users.51.la/$from=www.88dyw.com|www.88dyww.com
-||open.thunderurl.com/thunder-link.js$from=www.88dyww.com
-||pro.ip-api.com/json$from=www.88dyw.com
+||cn.cdnbye.com/v1/channel$3p
+||js.users.51.la/$3p
+||pro.ip-api.com/$3p
 ||www.88dyw.com/comment.php
 ||www.88dyw.com/include/ajax.php
 ||www.88dyw.com/pic/shoucang.png
 ||www.88dyw.com/pic/shoucangwap.png
 ||www.88dyw.com/static/api/js/share.js
 ||www.88dyw.com/templets/88ys/images/wxewm.png
-||www.88dyww.com/index.php/ajax/hits
-||www.88dyww.com/index.php/user/ajax_ulog/
-||www.yck1.com/$from=www.88dyww.com
 www.88dyw.com##.gotop,.pfstyle,.pfplayer
-www.88dyww.com##+js(aopw, document.onkeydown)
 
 ||*.com/lv/esnk/*/code.js$from=missav.com
 ||*.com/lvesnk.html$from=missav.com
@@ -497,20 +511,12 @@ php5-tutorial.com###divArticleAvailableLanguages,.ad,.adsbygoogle
 wpf-tutorial.com##.chapter:has(#genDownloadPdf)
 wpf-tutorial.com###divArticleAvailableLanguages,.ad,.adsbygoogle
 
-@@||www.reddit.com/svc/shreddit/accountmanager-iframe
-@@||www.reddit.com/svc/shreddit/comments
-@@||www.reddit.com/svc/shreddit/*-more-posts
-@@||www.reddit.com/svc/shreddit/experiences
-@@||www.reddit.com/svc/shreddit/feeds
-@@||www.reddit.com/svc/shreddit/left-nav-recent-section
-@@||www.reddit.com/svc/shreddit/more-comments
-@@||www.reddit.com/svc/shreddit/pdp-right-rail
-@@||www.reddit.com/svc/shreddit/user-hover-card
 ||alb.reddit.com/i.gif
 ||events.reddit.com/
 ||w3-reporting.reddit.com/
+||www.reddit.com/$removeparam=rdt
 ||www.reddit.com/errors
-||www.reddit.com/svc/shreddit/
+||www.reddit.com/svc/shreddit/perfMetrics
 ||www.redditstatic.com/shreddit/en-US/ad-event-tracker-*.js
 ||www.redditstatic.com/shreddit/en-US/pdp-ad-client-js-*.js
 ||www.redditstatic.com/shreddit/en-US/shreddit-sidebar-ad-*.js
@@ -576,7 +582,6 @@ sass-lang.com##body > header > .sl-c-alert--special.sl-c-alert
 ||docs.scrapy.org/_/static/javascript/readthedocs-analytics.js
 ||docs.xlwings.org/_/api/v2/analytics/
 ||docs.xlwings.org/_/static/javascript/readthedocs-analytics.js
-||m.servedby-buysellads.com/monetization.js$from=requests.readthedocs.io
 ||palletsprojects.com/_/api/v2/analytics/
 ||palletsprojects.com/_/static/javascript/readthedocs-analytics.js
 ||pyinstaller.org/_/api/v2/analytics/
@@ -587,9 +592,12 @@ sass-lang.com##body > header > .sl-c-alert--special.sl-c-alert
 ||readthedocs.io/_/static/javascript/readthedocs-analytics.js
 ||readthedocs.org/api/v2/sustainability/data/
 ||widget.uservoice.com/$from=pipenv.pypa.io
+||www.sphinx-doc.org/_/api/v2/analytics/
+||www.sphinx-doc.org/_/static/javascript/readthedocs-analytics.js
 docs.xlwings.org##.back-to-top,.announcement
 palletsprojects.com##.version-warning
 urllib3.readthedocs.io##.announcement
+www.sphinx-doc.org##.pageheader:style(padding: 10px 0 !important;)
 
 ||app.satismeter.com/satismeter.js$from=docs.gradle.org
 ||go.gradle.com/$from=docs.gradle.org
@@ -737,26 +745,22 @@ www.learndapper.com##.add-z,.box-newsletter
 www.learnentityframeworkcore.com##.add-z,.box-newsletter
 zzzprojects.com###site-footer-popup-newsletter
 
+/_/*Ui/browserinfo$from=google.com,method=post
+/_/*Ui/jserror$from=google.com,method=post
 ||chrome.google.com/webstore/*/undefined
 ||chrome.google.com/webstore/$removeparam=gl,method=post
 ||chrome.google.com/webstore/ajax/eventlog
-||chrome.google.com/webstore/jserror
 ||cloud.google.com/__/pingz
-||cloud.google.com/_/GoogleCloudUxWebAppCgcUi/jserror
 ||cloud.google.com/log
 ||csi.gstatic.com/csi$3p
 ||developers.google.com/_d/analytics-iframe$frame
 ||gg.google.com/csi$from=sites.google.com
-||issuetracker.google.com/jserror
 ||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent
 ||maps.googleapis.com/maps/api/mapsjs/gen_204
-||news.google.com/_/DotsSplashUi/browserinfo
 ||play.google.com/log
 ||scone-pa.clients6.google.com/static/proxy.html$frame
 ||shared-storage-demo-content-producer.web.app/paa/scripts/private-aggregation-test.js$from=developer.chrome.com|web.dev
 ||source.chromium.org/v1/logging
-||translate.google.com/_/TranslateWebserverUi/browserinfo
-||translate.google.com/_/TranslateWebserverUi/jserror
 ||www.google.com/images/icons/product/cloud_storage-32.png$from=commondatastorage.googleapis.com
 ||www.google.com/images/icons/product/sites-16.ico$from=sites.google.com
 ||www.google.com/js/$from=chrome.google.com,script
@@ -786,7 +790,6 @@ www.tensorflow.org##devsite-thumb-rating,.devsite-banner.devsite-banner-announce
 ! https://www.techspot.com/
 ||static.chartbeat.com/js/chartbeat.js$3p
 
-||cdn.permutive.com/$from=bbc.com
 ||edigitalsurvey.com/$from=bbc.com
 ||imasdk.googleapis.com/js/$from=bbc.com
 ||mybbc-analytics.files.bbci.co.uk/$from=bbc.com
@@ -874,7 +877,6 @@ www.ip-secrets.com##a[href="r.php"]
 ||bordeaux.futurecdn.net/bordeaux.js
 ||cdn.onesignal.com/sdks/OneSignalSDK.js
 ||cdn.parsely.com/keys/*/p.js
-||edge.permutive.app/
 ||hawk.gamesradar.com/hl/es6/hawklinks.js
 ||hawk.gamesradar.com/translations.php
 ||hawk.techradar.com/hl/es6/hawklinks.js
@@ -1190,6 +1192,7 @@ users.rust-lang.org##.quote-button
 ||www.eightforums.com/jc/gtm.js
 ||www.eightforums.com/styles/default/xenforo/add_to_home.gif
 ||www.elevenforum.com/jc/gtm.js
+||www.elevenforum.com/job.php
 www.eightforums.com##.notice--cookie,.shareButtons,.had1
 www.elevenforum.com##.gads
 www.elevenforum.com##div[style="width:300px;padding-bottom:10px;text-align:center;height:600px;margin-bottom:15px;"]:has(>.adsbygoogle)
@@ -1212,7 +1215,6 @@ www.nature.com##.js-jobs-career-wrapper,.c-article-social-list,article.recommend
 www.nature.com###access-options,section[class^=BuyBoxSection-]
 www.nature.com##aside.c-article-extras > .js-context-bar-sticky-point-desktop
 
-||ads-static.conde.digital/production/cns/builds/ars-technica/ars-technica.min.js
 ||api.cnevids.com/v1/video_groups$from=arstechnica.com
 ||cdn.arstechnica.net/wp-content/themes/ars/assets/js/ars-*.ads.us.js
 ||cdn.mediavoice.com/nativeads/
@@ -1225,9 +1227,11 @@ arstechnica.com##.ad,.ad_xrail,.ad_wrapper
 ||www.foldnfly.com/ads/
 www.foldnfly.com###references
 
+||interact.f5.com/rs/653-SMC-783/images/munchkinxd-*.js$from=www.nginx.com
 ||mktg.tags.f5.com/$from=www.nginx.com
 ||us.gimp.zeronaught.com/$from=www.nginx.com
 nginx.org###banner
+www.nginx.com##.social,.custom_blog_cta_ebook
 
 ||telemetry.art19.com/
 ||www.merriam-webster.com/lapi/v1/mwol-search/stats/lookup
@@ -1280,8 +1284,11 @@ www.insider.com###formContainer,.headline-regular.category-wrapper,.social,.shar
 @@||www.dell.com/cdn/$from=www.dell.com
 @@||www.dell.com/support/staticcdn/$from=www.dell.com
 ||*$from=www.dell.com,strict1p,script
+||afcs.dellcdn.com/boomerang/latest/boomerang-nonspaWithClicks.min.js
 ||boomerang.dell.com/api/beacon
 ||cdn-prod.eu.securiti.ai/$3p
+||prod-tier2-live-chat.sprinklr.com/api/livechat/logging/
+||prod-tier2-live-chat.sprinklr.com/api/livechat/prompt/browse/event
 ||sm.dell.com/$from=www.dell.com
 ||www.dell.com/support/components/detectproduct/sadetectfailure
 ||www.dell.com/support/driver/en-us/api/driver/surveylistpage
@@ -1289,10 +1296,6 @@ www.insider.com###formContainer,.headline-regular.category-wrapper,.social,.shar
 ||www.dell.com/support/onlineapi/scan-download-log/
 ||www.dellcdn.com/support/staticcdn/external/js/
 www.dell.com###consent-button-div
-
-||stats.kde.org/
-
-go.dev##.Cookie-notice
 
 ||events.httptoolkit.tech/
 httptoolkit.com##div:has( > a[title^="Share this post"])
@@ -1410,12 +1413,9 @@ dictionary.cambridge.org###rightcol-above-sticky > div:first-of-type
 dictionary.cambridge.org##div[data-iaw="container"]
 dictionaryblog.cambridge.org##.sharedaddy,.widget_twitter_timeline,.widget_wpcom_social_media_icons_widget
 
-||ads-static.conde.digital/
 ||api.avo.app/$from=www.newyorker.com
 ||cdn.keywee.co/dist/analytics
-||condenastdigital.com/$from=www.newyorker.com
 ||d1z2jf7jlzjs58.cloudfront.net/p.js
-||player.cnevids.com/$from=www.newyorker.com
 ||segment-data.zqtk.net/condenast-amp
 ||static.adsafeprotected.com/
 ||tag.bounceexchange.com/
@@ -1505,12 +1505,15 @@ www.thedrive.com##.NewsLetter
 www.thedrive.com##div.container:has(> div > a[aria-label^="Share on"])
 
 ||cdn.viafoura.net/vf-v2.js
+||cts.businesswire.com/ct/CT$from=investors.unity.com
 ||docs.unity.com/gtm-data-layer.js
 ||docs.unity.com/gtm-script.js
 ||docs.unity3d.com/StaticFilesConfig/feedback/
 ||forum.unity.com/styles/UnitySkin/onetrust-unity.js
+||investors.unity.com/$method=post,xhr
 ||kameleoon.eu/kameleoon.js
 ||store.unity.com/themes/contrib/unity_base/js/unity-cdp.js
+||widgets.q4app.com/widgets/$from=investors.unity.com
 
 ||js.driftt.com/$from=www.redhat.com|www.grammarly.com
 
@@ -1647,3 +1650,38 @@ godottutorials.com##.social-line,.subscribe-line
 ||tt.omtrdc.net/rest/v1/delivery
 abcnews.go.com##.taboola
 abcnews.go.com##[data-testid="prism-ad-wrapper"],[data-testid="prism-share"]
+
+www.wired.com##.full-bleed-ad,.ad-stickyhero,.ad-height-hold,.ad,.consumer-marketing-unit
+www.wired.com##.newsletter-subscribe-form
+www.wired.com##[data-journey-hook="persistent-bottom"]:has(.paywall-bar)
+www.wired.com##div[class^="InterstitialWrapper-"]:has(.paywall-modal)
+
+||app.posthog.com/decide/$from=fontawesome.com
+||beacon-v2.helpscout.net/$from=fontawesome.com
+||m.servedby-buysellads.com/monetization.js$3p
+fontawesome.com##.wrap-carbon-ad.wrap-ad
+
+||hubble.netease.com/track/
+||hubble-js-bucket.nosdn.127.net/DATracker.globals.*.js
+
+||ced-ns.sascdn.com/$from=imgur.com
+||ced.sascdn.com/$from=imgur.com
+||d3c8j8snkzfr1n.cloudfront.net/script.js$from=imgur.com
+||js.media-lab.ai/$from=imgur.com
+||p.imgur.com/albumview.gif
+||stretchsquirrel.com/$from=imgur.com
+||t.imgur.com/$from=imgur.com,method=post
+||t.picsart.com/$from=imgur.com
+
+||a.fsdn.com/con/js/adgenerator.js$from=sourceforge.net
+||a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js$from=sourceforge.net
+||analytics.slashdotmedia.com
+||c.sf-syn.com/conversion_outbound_tracker/$from=sourceforge.net
+||ml314.com/tag.aspx
+||sourceforge.net/directory/tp3/
+sourceforge.net###nels
+
+||assets.mailerlite.com/js/universal.js
+||www.gdquest.com/jslibs/instantpage/instantpage.min.*.js
+
+||cdnjs.buymeacoffee.com/$3p,script
