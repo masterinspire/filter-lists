@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, October 15, 2023
+! Last modified: Sunday, October 29, 2023
 ! Title: Custom Filter Lists
-! Version: 20231015
+! Version: 20231029
 !
 !
 !
@@ -17,9 +17,11 @@
 ||adservice.google.com/$strict3p
 ||adtechvideo.s3.amazonaws.com/$3p,script
 ||amazon-adsystem.com/$3p
+||analytics.blender.org/$strict3p
 ||btloader.com/tag$3p,script
 ||cdn.adsafeprotected.com/$3p
 ||cdn.adsninja.ca/$3p
+||cdnjs.buymeacoffee.com/$3p,script
 ||connect.facebook.net/$3p,script
 ||g.doubleclick.net/$3p
 ||google-analytics.com/$3p
@@ -152,7 +154,6 @@
 ||cmp.quantcast.com/choice/*/choice.js$strict3p
 
 ! https://www.xda-developers.com/
-! https://www.howtogeek.com/
 ||quantcast.mgr.consensu.org/choice/*/choice.js
 
 ! https://www.looper.com/
@@ -168,7 +169,6 @@
 ||gnar.grammarly.com/events
 ||img6.wsimg.com/utag/utag.min.js$from=www.godaddy.com
 ||img6.wsimg.com/wrhs/*/tcc.min.js$from=www.godaddy.com
-||kenney.nl/*/counter-pixel
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$3p
 ||stats.kde.org/
 ||stats.minetest.net/
@@ -184,6 +184,7 @@ github1s.com##.github1s-notification
 go.dev##.Cookie-notice
 helgeklein.com##.page__meta--sharing
 riptutorial.com##.add-z
+rufus.ie###cookie-notice,.adsbygoogle
 winscp.net##.promo-block
 woshub.com##.adsbygoogle,#custom_html-6
 www.codeproject.com##div[aria-label="cookieconsent"]
@@ -207,7 +208,7 @@ search.brave.com###search-elsewhere
 devclass.com##.social_wrapper
 theregister.com##.adun
 www.theregister.com##.floating_bar:has(.sharing_widget_story_desktop)
-www.theregister.com##.sharing_block
+www.theregister.com##.sharing_block,.ad-eagle.bird
 www.theregister.com##div[data-tf-widget]
 
 ||askubuntu.com/posts/*/ivc/*?prg=
@@ -376,10 +377,13 @@ www.88dyw.com##.gotop,.pfstyle,.pfplayer
 ||*.com/lv/esnk/*/code.js$from=missav.com
 ||*.com/lvesnk.html$from=missav.com
 ||cdn.tsyndicate.com/$from=missav.com
+||chat.missav.com/embed/
 ||creative.live.missav.com/widgets/
 ||hartattenuate.com/$from=missav.com
 ||missav.com/api/items/*/view
+||nr.static.mmcdn.com/$from=missav.com
 ||partwithner.com/$from=missav.com
+||static-assets.highwebmedia.com/$from=missav.com
 missav.com##.text-nord14.list-disc.ml-4.mb-4.space-y-2
 missav.com##+js(window.open-defuser,/pop?url=)
 missav.com##div[style="width: 300px; height: 100px;"]:has(a[rel^="sponsored"])
@@ -839,9 +843,10 @@ helpx.adobe.com##.feedback
 ||content.pivotal.io/$from=www.rabbitmq.com
 ||www.rabbitmq.com/js/gtm.js
 
-||secure.gaug.es/track.js
+||analytics.twitter.com/
+||bat.bing.com/$from=stackoverflow.blog
 ||snap.licdn.com/li.lms-analytics/insight.min.js
-stackoverflow.blog###wrapper > aside.mx-auto.p-wrapper
+||t.co/$from=stackoverflow.blog
 
 ||c.oracleinfinity.io/acs/account/*/js/mysql/odc.js
 ||consent.truste.com/notice
@@ -887,10 +892,12 @@ www.ip-secrets.com##a[href="r.php"]
 ||hawky.pcgamer.com/translations.php
 ||search-api.fie.futurecdn.net/hl/es6/hawklinks.js
 ||search-api.fie.futurecdn.net/translations.php
+forums.androidcentral.com###header_leaderboard
 forums.tomshardware.com###rightcol_top,.shareButtons,#header_leaderboard,#footer_leaderboard,div[data-widget-key="forum_overview_share_page"]
 www.androidcentral.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
 www.androidcentral.com###slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
 www.gamesradar.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
+www.gamesradar.com##.listingResults>.listingResult:has(.sponsored-post)
 www.gamesradar.com###slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
 www.livescience.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
 www.livescience.com###slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
@@ -908,8 +915,11 @@ www.windowscentral.com##.hawk-nest
 www.windowscentral.com###slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
 
 ||cmpsp.vg247.com/unified/wrapperMessagingWithoutDetection.js
+||static.kueezrtb.com/latest.js
 www.vg247.com##.advert_container,.disclaimer,.footer-newsletter,.jobs-widget
 www.vg247.com##.merch_component,.mypop-tags,.signup-promo,.social_icons
+www.vg247.com##.smart-slot[data-mode="signup"]
+www.vg247.com##aside.recommendation,.coverage_header
 
 ||scripts.mediavine.com/$from=www.gtabase.com
 www.gtabase.com###ja-contentsl2>.module:has(.custom)
@@ -923,21 +933,20 @@ www.gtabase.com##.article-social-buttons,.wbl-social-buttons
 dev.to##.crayons-story__billboard.billboard.js-billboard
 dev.to##.js-billboard-container
 
-@@||gamerantimages.com/$from=gamerant.com
-@@||srcdn.com/$from=screenrant.com
-@@||unpkg.com/$from=screenrant.com|gamerant.com|www.xda-developers.com
-@@||xdaimages.com/$from=www.xda-developers.com
-||*$from=gamerant.com|screenrant.com|www.xda-developers.com,3p
-||gamerant.com/strpixel.png
-||k.intellitxt.com/$from=forum.xda-developers.com
-||screenrant.com/strpixel.png
-||www.xda-developers.com/strpixel.png
-forum.xda-developers.com##div[data-freestar-ad]
-gamerant.com##.adzone-above-latest,.adsninja-ad-zone,.article-footer-newsletter,.sharing.bottom
-gamerant.com##body>div:has(h3:has-text(Please disable your blocker on Game Rant)):remove()
+@@||succeedscene.com/*/ads.load.js$from=gamerant.com|screenrant.com|www.xda-developers.com|www.howtogeek.com
+||*$from=gamerant.com|screenrant.com|www.xda-developers.com|www.howtogeek.com,3p,script
+||/strpixel.png$from=gamerant.com|screenrant.com|www.xda-developers.com|www.howtogeek.com
+||mbid.marfeelrev.com/static/cookie-sync.html
+||speechify-api-dot-speechifymobile.uc.r.appspot.com/track-analytics-event
+||unpkg.com/web-vitals@*/dist/web-vitals.attribution.iife.js
+gamerant.com##.adzone-above-latest,.adsninja-ad-zone,.sharing.bottom
+gamerant.com##section.w-newsletter-in_article
 screenrant.com##.adzone-above-latest,.adsninja-ad-zone,.article-footer-newsletter,.sharing.bottom
+www.howtogeek.com##.adzone-above-latest,.adsninja-ad-zone,.sharing.bottom
+www.howtogeek.com##.affiliate-sponsored,section.w-newsletter-in_article
 www.xda-developers.com##.adzone-above-latest,.adsninja-ad-zone,.article-footer-newsletter,.sharing.bottom
-www.xda-developers.com##.wrapper.w-affiliate,.affiliate-sponsored
+www.xda-developers.com##.affiliate-sponsored
+xdaforums.com##div[data-freestar-ad],#xdadevelopers_leaderboard_atf
 
 ! https://www.looper.com
 ! https://www.ghacks.net
@@ -1022,31 +1031,14 @@ toolslick.com###cookie-consent,#tool-top-right-ad
 www.red-gate.com##.cookie-consent
 ||www.gartner.com/$from=www.red-gate.com
 
-! https://www.howtogeek.com/903218/what-is-google-go-on-android/
 ! https://www.apkmirror.com/
 ||widgets.outbrain.com/outbrain.js
 
-! https://www.howtogeek.com/
-! https://www.reviewgeek.com/
-! https://www.theverge.com
-||static.narrativ.com/tags/$3p
-
-||applets.ebxcdn.com/$from=www.howtogeek.com|www.reviewgeek.com
-||px1.lifesavvy.com/$from=www.howtogeek.com|www.reviewgeek.com
-||www.howtogeek.com/emv2/inpage
-||www.howtogeek.com/lambda-uploads/*/blank.gif
-||www.howtogeek.com/pagespeed_static/
-||www.reviewgeek.com/emv2/inpage
-||www.reviewgeek.com/lambda-uploads/*/blank.gif
-||www.reviewgeek.com/pagespeed_static/
-www.howtogeek.com##.adslot,.OUTBRAIN,.v2campaignmidpage
-www.howtogeek.com###post-networkbox,.header-commission-statement,.product-share-links
-www.reviewgeek.com##.adslot,.OUTBRAIN,.v2campaignmidpage
-www.reviewgeek.com###post-networkbox,.header-commission-statement,.product-share-links
-
 ||ak.sail-horizon.com/$from=www.theverge.com
+||api.parsely.com$from=www.theverge.com
 ||cdn.concert.io/$from=www.theverge.com
 ||d35xxde4fgg0cx.cloudfront.net/assets/embedded.js$from=www.theverge.com
+||static.narrativ.com/tags/$3p
 ||theverge.coral.coralproject.net/assets/js/count.js$from=www.theverge.com
 ||z.moatads.com/
 www.theverge.com##.duet--article--share-buttons,.duet--article--disclaimer,.duet--cta--newsletter
@@ -1171,8 +1163,13 @@ duckduckgo.com##[class^="home_minimalContentWrap_"] > p
 ||www.startpage.com/sp/jst
 ||www.startpage.com/sp/adsense/
 
+||a.blendernation.com/json/json-friends-of-ba.php
+||blenderartists.org/logs/report_js_error
 ||cdn.intergient.com/$from=gtaforums.com
 ||community.cloudflare.com/discourse-interstitial/my_interstitials.json
+||stats.blendernation.com/piwik.js
+blenderartists.org##.widget-connector:has(.google-adsense)
+blenderartists.org##div[aria-label="cookieconsent"],#banner,.discourse-adplugin,.quote-button
 community.brave.com##.quote-button
 community.ccleaner.com###elGuestTerms,#elFooterSocialLinks,.ipsD154966,.cTopicPostArea_noSize.cTopicPostArea
 community.cloudflare.com##.quote-button,.discourse-adplugin
@@ -1512,6 +1509,7 @@ www.thedrive.com##div.container:has(> div > a[aria-label^="Share on"])
 ||forum.unity.com/styles/UnitySkin/onetrust-unity.js
 ||investors.unity.com/$method=post,xhr
 ||kameleoon.eu/kameleoon.js
+||prd-lender.cdp.internal.unity3d.com/v1/events
 ||store.unity.com/themes/contrib/unity_base/js/unity-cdp.js
 ||widgets.q4app.com/widgets/$from=investors.unity.com
 
@@ -1621,21 +1619,29 @@ www.digitalocean.com##div[class^="QuestionSearchFooterStyles__StyledQuestionSear
 www.digitalocean.com##div[class^="WasThisHelpfulStyles__StyledHelpfulContainer"]
 www.digitalocean.com##nav[aria-label="Top Hat"]
 
-! https://godotshaders.com/shader/2d-wind-sway/
-||sp.tinymce.com/i?
-
 ||assets.context.ly/$from=www.404media.co
 ||assets.outpost.pub/$from=www.404media.co
 ||js.stripe.com/v3/$3p
 www.404media.co##.js-popup.popup,.subscribe
 
+! https://godotshaders.com/shader/2d-wind-sway/
+||cdn.cookie-script.com/$3p
 ||cdn.jsdelivr.net/gh/orestbida/cookieconsent@$3p
 ||vitals.vercel-insights.com/
-||www.goodrequest.com/_vercel/insights/view
+||sp.tinymce.com/i?
 
-||cdn.cookie-script.com/$3p
+||assets.flodesk.com/universal.mjs$from=thebookofshaders.com
+||by2.uservoice.com/*/track.js$from=free3d.com
 ||godottutorials.com/js/subscription.min.js
+||kenney.nl/*/counter-pixel
+||openframe.io/hub.html$from=thebookofshaders.com
+||physicallybased.info/api/event
+||polyhaven.com/api/dlTrack
+||www.goodrequest.com/_vercel/insights/view
+godotforums.org##.Post-quoteButtonContainer
 godottutorials.com##.social-line,.subscribe-line
+polyhaven.com##.CookieConsent,div[class^="AssetPage_sidebarAd__"],div[class^="NewsCard_wrapper__"],div[class^="Sidebar_footerWrapper"]
+www.shadertoy.com###compliance
 
 ||coveralls.io/repos/github/SCons/scons/badge.svg$from=scons.org
 ||github.com/SCons/scons/actions/workflows/scons-package.yml/badge.svg$from=scons.org
@@ -1684,4 +1690,32 @@ sourceforge.net###nels
 ||assets.mailerlite.com/js/universal.js
 ||www.gdquest.com/jslibs/instantpage/instantpage.min.*.js
 
-||cdnjs.buymeacoffee.com/$3p,script
+||*-kickstarter.siteintercept.qualtrics.com/WRSiteInterceptEngine/$from=www.kickstarter.com
+||cdn.siftscience.com/s.js$from=www.kickstarter.com
+||cdn.transcend.io/cm/*/airgap.js$from=www.kickstarter.com
+||evs.icy-lake.kickstarter.com/$from=www.kickstarter.com
+||t.kck.st/devices$from=www.kickstarter.com
+||www.kickstarter.com/*/init.js
+
+||reflect-server.net/api/logs/
+||reflect-server.net/api/metrics/
+||reflect.net/api/get-location
+
+||sc.lfeeder.com/$from=evergine.com
+evergine.com###cmplz-cookiebanner-container
+
+! https://yarnpkg.com/
+||www.datadoghq-browser-agent.com/$3p
+
+||g.alicdn.com/aes/??tracker/$3p
+||g.alicdn.com/aes/tracker-plugin-survey-ui/$3p
+||g.alicdn.com/alilog/mlog/$3p
+||g.alicdn.com/platform/xdomain-storage/*/frame.html$3p
+||g.alicdn.com/retcode/log/$3p
+||mmstat.com/$3p
+||s13.cnzz.com/z_stat.php
+||xux-web-config.oss-accelerate.aliyuncs.com/aes-config/*/qnrForm.json$3p
+open.dingtalk.com##.introjs-overlay,.introjs-tooltipReferenceLayer,.introjs-helperLayer
+open.dingtalk.com##.star-wrapper
+open.dingtalk.com##body > div.styles-float
+open.dingtalk.com##p.shortdesc > .note-note.note

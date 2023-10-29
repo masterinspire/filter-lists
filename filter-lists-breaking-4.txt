@@ -2,15 +2,21 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, October 8, 2023
+! Last modified: Sunday, October 29, 2023
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20231008
+! Version: 20231029
 !
 !
 !
-english.stackexchange.com##body:style(--theme-post-body-font-family: var(--ff-sans) !important; --theme-post-title-font-family: var(--ff-sans) !important;)
-physics.stackexchange.com##body:style(--theme-post-body-font-family: var(--ff-sans) !important; --theme-post-title-font-family: var(--ff-sans) !important;)
-rpg.stackexchange.com##body:style(--theme-post-body-font-family: var(--ff-sans) !important; --theme-post-title-font-family: var(--ff-sans) !important;)
+english.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
+english.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
+english.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
+physics.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
+physics.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
+physics.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
+rpg.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
+rpg.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
+rpg.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
 
 docs.pytest.org##body:style(font-family: initial !important)
 palletsprojects.com##body:style(font-family: initial !important)
@@ -42,6 +48,9 @@ search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://github.com/q
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://pjchender.dev/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://tsejx.github.io/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://www.zhihu.com/"])
+search.brave.com###summarizer .summarizer-content > .content > .fade
+search.brave.com###summarizer .summarizer-content > .content:style(height: initial !important; max-height: initial !important;)
+search.brave.com###summarizer > footer > .action-wrapper
 stackexchange.com###question-list > div.question-container[data-sid="chinese.stackexchange.com"]
 stackexchange.com###question-list > div.question-container[data-sid="japanese.stackexchange.com"]
 www.robtex.com##.rtfragc:style(overflow: auto !important;)
