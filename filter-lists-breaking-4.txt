@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, October 29, 2023
+! Last modified: Sunday, November 26, 2023
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20231029
+! Version: 20231126
 !
 !
 !
@@ -42,6 +42,9 @@ devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.m
 devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/dotnet-ch/"])
 devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/java-ch/"])
 devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/java/"])
+gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/choco-bot"])
+gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/forkyau"])
+gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/GrahamcOfBorg"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.csdn.net/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.fundebug.com/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://github.com/quickjs-zh/"])
@@ -53,13 +56,15 @@ search.brave.com###summarizer .summarizer-content > .content:style(height: initi
 search.brave.com###summarizer > footer > .action-wrapper
 stackexchange.com###question-list > div.question-container[data-sid="chinese.stackexchange.com"]
 stackexchange.com###question-list > div.question-container[data-sid="japanese.stackexchange.com"]
+v2ex.com##.cell.item:has(.topic_info > strong > a[href="/member/Casbin"])
 www.robtex.com##.rtfragc:style(overflow: auto !important;)
 www.robtex.com###rtfragc_dnst, #rtfragc_dnsbl, #rtfragc_ohistory, #rtfragc_owhois:style(height: initial !important;)
 www.robtex.com###rtfrage_dnsbl, #rtfrage_seo, #rtfrage_reverse, #rtfrage_wot, #rtfrage_threatminer, #rtfrage_ipio, #rtfrage_visgraph, #rtfrage_ograph, #rtfrage_ohistory, #rtfrage_owhois, #rtfrage_alexa
-
-v2ex.com##.cell.item:has(.topic_info > strong > a[href="/member/Casbin"])
 www.tapd.cn##.comment_content .comments-for-view-new .editor-content:style(padding: 2rem 1rem !important; overflow:auto !important;)
 www.tapd.cn###new_nav_avatar_div
+
+free3d.com##.search-results-container .premium.search-result
+localhost##.wy-nav-content:style(max-width: initial !important;)
 
 ||*$from=localhost|127.0.0.1,3p
 ||marketplace.visualstudio.com/_apis/customerintelligence/Events

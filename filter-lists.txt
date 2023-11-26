@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, October 29, 2023
+! Last modified: Sunday, November 26, 2023
 ! Title: Custom Filter Lists
-! Version: 20231029
+! Version: 20231126
 !
 !
 !
@@ -35,6 +35,7 @@
 ||s7.addthis.com/$3p,script
 ||sb.scorecardresearch.com/$3p
 ||sentry.io/api/*/envelope/$method=post
+||statcounter.com/counter/counter.js$3p
 ||stats.wp.com/$3p,script
 ||taboola.com$3p
 ||tagan.adlightning.com/$3p,script
@@ -159,6 +160,11 @@
 ! https://www.looper.com/
 ||secure.quantserve.com/quant.js
 
+! www.gtabase.com
+! artisticrender.com
+||scripts.mediavine.com/$3p
+
+||*/$from=www.clipconverter.cc,3p
 ||adv.aisino.cn:7443/
 ||cdn.paddle.com/paddle/paddle.js$from=www.questpdf.com
 ||cdn.topsy.com/topsy.js$from=peter.sh
@@ -175,19 +181,25 @@
 ||tracking.unrealengine.com/tracking.js
 ||utteranc.es/$from=hackingcpp.com
 ||www.autohotkey.com/cdn-cgi/apps/head/
+||www.devexpress.com/api/dxvisitor
 ||www.os2museum.com/wp/wp-content/plugins/wp-simple-firewall/resources/js/shield/notbot.js
 ||www.rarlab.com/js/ckrule.js
+community.inc/cdn-cgi/zaraz/
 devdocs.io##._notice ~ ._container:style(padding-bottom: 0 !important;)
 devdocs.io##._notice,._notif._in
 dnschecker.org###cookie-box,.side_menu
+get.videolan.org###uecookies
 github1s.com##.github1s-notification
 go.dev##.Cookie-notice
 helgeklein.com##.page__meta--sharing
 riptutorial.com##.add-z
 rufus.ie###cookie-notice,.adsbygoogle
+ubuntu.com##.cookie-policy
 winscp.net##.promo-block
 woshub.com##.adsbygoogle,#custom_html-6
 www.codeproject.com##div[aria-label="cookieconsent"]
+www.gtabase.com##.article-social-buttons,.wbl-social-buttons
+www.gtabase.com###ja-contentsl2>.module:has(.custom)
 www.pinvoke.net##a[href="https://mindfiretech.com"]
 www.pinvoke.net##h3:has-text(Mindfire Tech is proficient)
 www.trustedfirmware.org###gdpr-cookie-message
@@ -334,10 +346,20 @@ www.microsoft.com##section.container[aria-label^="download center details page b
 ||ups.analytics.yahoo.com/$from=query.prod.cms.rt.microsoft.com
 ||www.facebook.com/$from=query.prod.cms.rt.microsoft.com
 
-||badjs2.qq.com/badjs$from=www.tapd.cn
+||aegis.qq.com/$3p
+||badjs2.qq.com/badjs$from=3p
 ||bqq.gtimg.com/qidian/src/wpav2/dist/*/pk1.js$from=www.tapd.cn
+||exmail.qq.com/cgi-bin/getinvestigate
+||exmail.qq.com/qy_mng_logic/logKVAuto
+||exmail.qq.com/qy_mng_logic/reportKV
+||localhost.work.weixin.qq.com
+||open.work.weixin.qq.com/wwopen/monoApi/report/
 ||static-fe.tapd.cn/images/log.gif
 ||tdl.tapd.cn/tbl/apis/tracker.php
+developer.work.weixin.qq.com##.ep_popPanel
+
+||sentry.d.xiaomi.net/
+||tracking.miui.com/
 
 ||cdnads.geeksforgeeks.org/$from=www.geeksforgeeks.org
 ||j.6sc.co/$from=www.geeksforgeeks.org
@@ -374,6 +396,7 @@ community.chocolatey.org###mc_embed_signup
 ||www.88dyw.com/templets/88ys/images/wxewm.png
 www.88dyw.com##.gotop,.pfstyle,.pfplayer
 
+/preview.mp4$from=missav.com
 ||*.com/lv/esnk/*/code.js$from=missav.com
 ||*.com/lvesnk.html$from=missav.com
 ||cdn.tsyndicate.com/$from=missav.com
@@ -560,6 +583,7 @@ cn.bing.com###mfa_root
 support.opendns.com##.article-votes
 
 ||material.io/api/country_code
+angular.dev##docs-cookie-popup
 angular.io##aio-cookies-popup
 m2.material.io##mio-communication-banner
 m3.material.io##mio-cookie-notice
@@ -606,18 +630,40 @@ www.sphinx-doc.org##.pageheader:style(padding: 10px 0 !important;)
 ||app.satismeter.com/satismeter.js$from=docs.gradle.org
 ||go.gradle.com/$from=docs.gradle.org
 ||gradle.org/cdn-cgi/apps/head/
-
 ||pi.pardot.com/$from=gradle.org|fossa.com
 
-! https://www.man7.org/linux/man-pages/man5/ssh_config.5.html
-||www.statcounter.com/counter/counter.js$from=www.man7.org
+||app.slickstream.com/$from=linuxhint.com
+||cafemedia-com.videoplayerhub.com/galleryplayer.js$from=linuxhint.com
+||cdn.fuseplatform.net/$from=linuxconfig.org
+linuxconfig.org##.steps > .incontent_ads
+linuxhint.com##.adthrive-ad,.adthrive
 
+||g.ezoic.net/$3p
+||ads.pubmatic.com/$3p
+||api.fouanalytics.com/$3p
+||g.ezodn.com/$3p
+||get.s-onetag.com/$3p
+||onetag-sys.com/$3p
 ||ads.pro-market.net/$3p
-||channelmaker.pushbullet.com/$from=www.apkmirror.com
-||go.ezodn.com/utilcave_com/ezoic.png$3p
+||go.ezodn.com/$3p
 ||instant.page/$3p
 ||js.memberful.com/embed.js$3p
 ||tag.crsspxl.com/s1.js$3p
+
+||cds.connatix.com$from=itslinuxfoss.com
+||f.convertkit.com/ckjs/$3p
+||itslinuxfoss.com/beardeddragon/
+||itslinuxfoss.com/detroitchicago/
+||itslinuxfoss.com/edmontonalberta/
+||itslinuxfoss.com/ezoic/anchorfix.js
+||itslinuxfoss.com/parsonsmaize/
+||itslinuxfoss.com/porpoiseant/
+||itslinuxfoss.com/tardisrocinante/
+itslinuxfoss.com##.saboxplugin-socials
+itslinuxfoss.com##+js(set-attr, img.ezlazyload, src, [data-ezsrc])
+itslinuxfoss.com##.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-ad-placeholder"],.ez-video-wrap
+
+||channelmaker.pushbullet.com/$from=www.apkmirror.com
 ||www.apkmirror.com/beardeddragon/
 ||www.apkmirror.com/detroitchicago/
 ||www.apkmirror.com/edmontonalberta/
@@ -634,7 +680,7 @@ www.apkmirror.com###file > .t-height
 www.apkmirror.com###sidebar > .listWidget:has(>.widgetHeader:has-text(Follow APK Mirror))
 
 ||*$from=www.learncpp.com,3p,script,frame
-||g.ezoic.net/ezqlog
+||capi.connatix.com/$from=www.learncpp.com
 ||www.learncpp.com/beardeddragon/
 ||www.learncpp.com/blog/wp-admin/admin-ajax.php?action=ajax-checkclicks
 ||www.learncpp.com/blog/wp-content/plugins/cfmonitor/
@@ -642,17 +688,13 @@ www.apkmirror.com###sidebar > .listWidget:has(>.widgetHeader:has-text(Follow APK
 ||www.learncpp.com/detroitchicago/
 ||www.learncpp.com/edmontonalberta/
 ||www.learncpp.com/ezoic/anchorfix.js
+||www.learncpp.com/ezvideo/
 ||www.learncpp.com/parsonsmaize/
 ||www.learncpp.com/porpoiseant/
 ||www.learncpp.com/tardisrocinante/
-www.learncpp.com##.sidey.widget-area,.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-ad-placeholder"]
+www.learncpp.com##.sidey.widget-area,.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-ad-placeholder"],.ez-video-wrap
 
 ||*$from=thewindowsclub.com,3p
-||ads.pubmatic.com/AdServer/js/pwt/$3p
-||api.fouanalytics.com/$3p
-||g.ezodn.com/cmp/v2/v.js$3p
-||get.s-onetag.com/$3p
-||onetag-sys.com/usync/$frame
 ||thewindowsclub.com/beardeddragon/
 ||thewindowsclub.com/cdn-cgi/apps/head/
 ||thewindowsclub.com/cdn-cgi/zaraz/
@@ -819,6 +861,7 @@ conan.io###signUp
 ||stats.ballensiefen.net/piwik.js$from=jqueryvalidation.org
 ||jqueryvalidation.org/wp-content/plugins/google-analyticator/external-tracking.min.js
 
+||errortracking.deepl.com/
 ||s.deepl.com/web/statistics
 ||static.deepl.com/js/cookieBanner.min
 ||static.deepl.com/js/sentry.min
@@ -853,11 +896,11 @@ helpx.adobe.com##.feedback
 ||labs.mysql.com/common/js/metrics/
 dev.mysql.com##.social-icons
 
-! https://doc.qt.io/qtforpython-6/tutorials/index.html
 ||hsforms.com/embed/v3/counters.gif$from=www.qt.io
 ||js.hs-analytics.net/$from=www.qt.io
 ||js.hs-banner.com/$from=www.qt.io
 ||js.hsadspixel.net/$from=www.qt.io
+bugreports.qt.io/rest/analytics/
 doc.qt.io##.sidebar-container, .toc-drawer:style(width: 20rem !important; min-width: 15rem !important; padding-right: 0rem !important;)
 doc.qt.io##.sidebar-drawer,.content:style(width: unset !important;)
 www.qt.io##.b-article__share-footer,.c-footer-subscribe,.c-sidebar-newsletter
@@ -896,7 +939,7 @@ forums.androidcentral.com###header_leaderboard
 forums.tomshardware.com###rightcol_top,.shareButtons,#header_leaderboard,#footer_leaderboard,div[data-widget-key="forum_overview_share_page"]
 www.androidcentral.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
 www.androidcentral.com###slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
-www.gamesradar.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
+www.gamesradar.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup,.newsletter-form-container
 www.gamesradar.com##.listingResults>.listingResult:has(.sponsored-post)
 www.gamesradar.com###slice-container-affiliateDisclaimerBar,#slice-container-newsletterForm-articleInbodyContent,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
 www.livescience.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
@@ -920,10 +963,6 @@ www.vg247.com##.advert_container,.disclaimer,.footer-newsletter,.jobs-widget
 www.vg247.com##.merch_component,.mypop-tags,.signup-promo,.social_icons
 www.vg247.com##.smart-slot[data-mode="signup"]
 www.vg247.com##aside.recommendation,.coverage_header
-
-||scripts.mediavine.com/$from=www.gtabase.com
-www.gtabase.com###ja-contentsl2>.module:has(.custom)
-www.gtabase.com##.article-social-buttons,.wbl-social-buttons
 
 ||api.honeybadger.io/$from=dev.to
 ||dev.to/ahoy/visits
@@ -1604,10 +1643,6 @@ fossa.com##.subscribe-form
 ||www.ibm.com/ibm100/$1p,script
 ||www.ibm.com$1p,script
 
-||exmail.qq.com/cgi-bin/getinvestigate
-||exmail.qq.com/qy_mng_logic/logKVAuto
-||exmail.qq.com/qy_mng_logic/reportKV
-
 ||a.vdo.ai/$from=gamertweak.com
 gamertweak.com##.active.more-stories
 gamertweak.com##.adsbygoogle
@@ -1632,15 +1667,19 @@ www.404media.co##.js-popup.popup,.subscribe
 
 ||assets.flodesk.com/universal.mjs$from=thebookofshaders.com
 ||by2.uservoice.com/*/track.js$from=free3d.com
+||geniuslinkcdn.com/snippet.min.js$from=www.blender3darchitect.com
 ||godottutorials.com/js/subscription.min.js
 ||kenney.nl/*/counter-pixel
 ||openframe.io/hub.html$from=thebookofshaders.com
 ||physicallybased.info/api/event
 ||polyhaven.com/api/dlTrack
 ||www.goodrequest.com/_vercel/insights/view
+artisticrender.com###section-26-4934,#div_block-11-4933,#link-144-4933
+finepointcgi.io##.ct-share-box
 godotforums.org##.Post-quoteButtonContainer
 godottutorials.com##.social-line,.subscribe-line
 polyhaven.com##.CookieConsent,div[class^="AssetPage_sidebarAd__"],div[class^="NewsCard_wrapper__"],div[class^="Sidebar_footerWrapper"]
+www.blender3darchitect.com##div[class*="snp-pop-"]
 www.shadertoy.com###compliance
 
 ||coveralls.io/repos/github/SCons/scons/badge.svg$from=scons.org
@@ -1649,7 +1688,7 @@ www.shadertoy.com###compliance
 ||dcf.espn.com/TWDC-DTCI/$from=abcnews.go.com
 ||disney.demdex.net/id$from=abcnews.go.com
 ||fastcast.semfs.engsvc.go.com/public/websockethost$from=abcnews.go.com
-||micro.rubiconproject.com/prebid/$from=abcnews.go.com
+||micro.rubiconproject.com/prebid/$3p
 ||scripts.webcontentassessor.com/$from=abcnews.go.com
 ||sw88.go.com/id$from=abcnews.go.com
 ||tags.bkrtx.com/js/bk-coretag.js
@@ -1663,9 +1702,10 @@ www.wired.com##[data-journey-hook="persistent-bottom"]:has(.paywall-bar)
 www.wired.com##div[class^="InterstitialWrapper-"]:has(.paywall-modal)
 
 ||app.posthog.com/decide/$from=fontawesome.com
-||beacon-v2.helpscout.net/$from=fontawesome.com
+||beacon-v2.helpscout.net/$3p
 ||m.servedby-buysellads.com/monetization.js$3p
 fontawesome.com##.wrap-carbon-ad.wrap-ad
+fontawesome.com##.wrap-monetization-ad.wrap-ad
 
 ||hubble.netease.com/track/
 ||hubble-js-bucket.nosdn.127.net/DATracker.globals.*.js
@@ -1707,15 +1747,76 @@ evergine.com###cmplz-cookiebanner-container
 ! https://yarnpkg.com/
 ||www.datadoghq-browser-agent.com/$3p
 
+||developer.aliyun.com/js/baidu_push.js
 ||g.alicdn.com/aes/??tracker/$3p
 ||g.alicdn.com/aes/tracker-plugin-survey-ui/$3p
 ||g.alicdn.com/alilog/mlog/$3p
 ||g.alicdn.com/platform/xdomain-storage/*/frame.html$3p
 ||g.alicdn.com/retcode/log/$3p
+||log.aliyuncs.com/
 ||mmstat.com/$3p
+||page.aliyun.com/delivery/plan/list$xhr
+||query.aliyun.com/rest/delivery.service.engine$xhr
 ||s13.cnzz.com/z_stat.php
+||www.aliyun.com/smarter-engine$frame
 ||xux-web-config.oss-accelerate.aliyuncs.com/aes-config/*/qnrForm.json$3p
 open.dingtalk.com##.introjs-overlay,.introjs-tooltipReferenceLayer,.introjs-helperLayer
 open.dingtalk.com##.star-wrapper
 open.dingtalk.com##body > div.styles-float
 open.dingtalk.com##p.shortdesc > .note-note.note
+
+||translate.google.com/translate_a/element.js$3p
+||www.google.com/coop/cse/brand$3p
+||www.paypal.com/en_US/i/btn/x-click-but04.gif$from=www.getpaint.net
+forums.getpaint.net##.adsbygoogle
+www.getpaint.net###adcontainer
+
+||cdn.shareaholic.net/assets/pub/shareaholic.js
+||dsms0mj1bbhn4.cloudfront.net/$from=www.cambridge.org
+||static.site24x7rum.eu/beacon/site24x7rum-min.js$3p
+||www.cambridge.org/core/page-component/api/v2/usage
+||www.cambridge.org/core/vanilla/public/js/sentry.min.js
+www.cambridge.org##.cookie-message
+www.cambridge.org##+js(set-attr, img.aop-lazy-load-image, src, [data-src])
+
+||browser.sentry-cdn.com/$from=www.3dshaker.com|www.cadsketcher.com
+||chimpstatic.com/mcjs-connected/$3p
+||consent.cookiebot.com/
+||engage.wixapps.net/chat-widget-server/renderChatWidget/index
+||frog.wix.com/$from=www.3dshaker.com|www.cadsketcher.com
+||makertales.gumroad.com/links/rfoow/increment_views
+||my.hellobar.com/$from=blendermarket.com|cgcookie.com
+||siteassets.parastorage.com/pages/pages/thunderbolt
+||www.3dshaker.com/_api/tag-manager/
+||www.cadsketcher.com/_api/tag-manager/
+blenderbim.org##.back-to-top
+www.katsbits.com##.social-icons-menu,.widget_email-subscribers-form,.the_champ_sharing_container
+www.katsbits.com###custom_html-6,#custom_html-4
+
+||js.maxmind.com/js/apis/geoip2/$3p
+||www.counter-strike.net/ingest
+
+/tracker/socket$from=peertube.tv|video.blender.org|peertube.nz
+||peertube.nz/api/v1/metrics/
+||peertube.nz/api/v1/server/logs/
+||peertube.nz/api/v1/videos/*/views
+||peertube.tv/api/v1/metrics/
+||peertube.tv/api/v1/server/logs/
+||peertube.tv/api/v1/videos/*/views
+||stats.framasoft.org/$3p
+||video.blender.org/api/v1/metrics/
+||video.blender.org/api/v1/server/logs/
+||video.blender.org/api/v1/videos/*/views
+peertube.tv##my-privacy-concerns,.broadcast-message
+video.blender.org##my-privacy-concerns,.broadcast-message
+
+||cdn.announcekit.app/$from=docs.jwplayer.com
+||docs.jwplayer.com/platform/pageview
+
+||experience-eu.piano.io/$from=unherd.com
+||servedbyadbutler.com/$from=unherd.com
+||teads.tv/$from=unherd.com
+||unherd.com/wp-content/themes/unherdv3/js/prebid*.js
+unherd.com##.ai-viewport-1.code-block-4.code-block
+unherd.com##.comment-break,div.ref-ar
+unherd.com##.d-none.d-lg-block.col-sm-3.col-lg-3:has(>.fixed-sidebar)
