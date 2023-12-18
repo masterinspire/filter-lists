@@ -2,18 +2,27 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, November 26, 2023
+! Last modified: Monday, December 18, 2023
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20231126
+! Version: 20231218
 !
 !
 !
+english.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
+english.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
+english.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
 english.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
 english.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
 english.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
+physics.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
+physics.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
+physics.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
 physics.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
 physics.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
 physics.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
+rpg.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
+rpg.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
+rpg.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
 rpg.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
 rpg.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
 rpg.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
