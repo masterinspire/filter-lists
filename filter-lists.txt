@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, December 18, 2023
+! Last modified: Monday, January 1, 2024
 ! Title: Custom Filter Lists
-! Version: 20231218
+! Version: 20240101
 !
 !
 !
@@ -17,7 +17,6 @@
 ||adservice.google.com/$strict3p
 ||adtechvideo.s3.amazonaws.com/$3p,script
 ||amazon-adsystem.com/$3p
-||analytics.blender.org/$strict3p
 ||btloader.com/tag$3p,script
 ||cdn.adsafeprotected.com/$3p
 ||cdn.adsninja.ca/$3p
@@ -367,7 +366,9 @@ developer.work.weixin.qq.com##.ep_popPanel
 ||tracking.miui.com/
 
 ||cdnads.geeksforgeeks.org/$from=www.geeksforgeeks.org
+||communityapi.geeksforgeeks.org/api/geo/analytics/
 ||j.6sc.co/$from=www.geeksforgeeks.org
+||matomo.geeksforgeeks.org/matomo.js
 ||sp.tinymce.com/i?$from=practice.geeksforgeeks.org
 ||util.geeksforgeeks.org/profileLink.php
 practice.geeksforgeeks.org##.CookieConsent
@@ -720,6 +721,7 @@ www.apkmirror.com###sidebar > .listWidget:has(>.widgetHeader:has-text(Follow APK
 ||www.learncpp.com/porpoiseant/
 ||www.learncpp.com/tardisrocinante/
 www.learncpp.com##.sidey.widget-area,.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-ad-placeholder"],.ez-video-wrap
+www.learncpp.com##+js(set-attr, img.ezlazyload, src, [data-ezsrc])
 
 ||*$from=thewindowsclub.com,3p
 ||thewindowsclub.com/beardeddragon/
@@ -874,7 +876,9 @@ www.tensorflow.org##devsite-thumb-rating,.devsite-banner.devsite-banner-announce
 www.bbc.com##.dotcom-ad
 www.bbc.com###onwardJourneysExperimental-label-aside-content
 
+||analytics-cf.bigcrunch.com/
 ||htlbid.com/v3/tvtropes.org/htlbid.js
+||test.bigcrunch.com/tvtropes.main.js
 ||vi.ml314.com/get
 tvtropes.org##.sb-fad-unit.sidebar-item,.fad
 
@@ -1568,10 +1572,13 @@ gitlab.com##.js-autodevops-banner.gl-banner,#promote_repository_features
 ||counter.theconversation.com/content/*/count.gif
 ||js.trendmd.com/trendmd.amp.html$3p
 ||sciencex.com/api/location/$3p
+||semetricmedia.com/$from=www.science.org
 phys.org##.ads-336x280,.adsbygoogle
 phys.org##.embed-responsive-trendmd.embed-responsive
 phys.org###js-popup-donate,#js-popup-nwletter,#js-popup-cookies
 phys.org###js-soc-panel,.article-interaction__social
+www.science.org##.alert-donation,.news-article__share-content,.news-article__newsletter
+www.science.org##.pb-ad,.adplaceholder
 
 ||afd8.t4m.cn/applink.js
 ||api.sixthtone.com/config/web/getApkInfo
@@ -1840,6 +1847,9 @@ www.getpaint.net###adcontainer
 www.cambridge.org##.cookie-message
 www.cambridge.org##+js(set-attr, img.aop-lazy-load-image, src, [data-src])
 
+||js.maxmind.com/js/apis/geoip2/$3p
+||www.counter-strike.net/ingest
+
 ||browser.sentry-cdn.com/$from=www.3dshaker.com|www.cadsketcher.com
 ||chimpstatic.com/mcjs-connected/$3p
 ||consent.cookiebot.com/
@@ -1854,10 +1864,9 @@ blenderbim.org##.back-to-top
 www.katsbits.com##.social-icons-menu,.widget_email-subscribers-form,.the_champ_sharing_container
 www.katsbits.com###custom_html-6,#custom_html-4
 
-||js.maxmind.com/js/apis/geoip2/$3p
-||www.counter-strike.net/ingest
-
 /tracker/socket$from=peertube.tv|video.blender.org|peertube.nz
+||analytics.blender.org/$strict3p
+||fund.blender.org/static/fetch-donation-box.js
 ||peertube.nz/api/v1/metrics/
 ||peertube.nz/api/v1/server/logs/
 ||peertube.nz/api/v1/videos/*/views
