@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, December 18, 2023
+! Last modified: Sunday, February 11, 2024
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20231218
+! Version: 20240211
 !
 !
 !
@@ -14,6 +14,12 @@ english.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(-
 english.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
 english.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
 english.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
+philosophy.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
+philosophy.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
+philosophy.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
+philosophy.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
+philosophy.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
+philosophy.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)
 physics.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-body-font-family: var(--ff-sans) !important;)
 physics.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-body-font-family: var(--ff-sans) !important;)
 physics.meta.stackexchange.com##body.unified-theme, body.unified-theme *:style(--theme-post-title-font-family: var(--ff-sans) !important;)

@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, January 14, 2024
+! Last modified: Sunday, February 11, 2024
 ! Title: Custom Filter Lists
-! Version: 20240114
+! Version: 20240211
 !
 !
 !
@@ -12,6 +12,7 @@
 ||127.0.0.1:*/$3p
 ||localhost:*/$3p
 
+/_vercel/insights/view
 ||ad.doubleclick.net/$3p
 ||ads.adthrive.com/$3p
 ||adservice.google.com/$strict3p
@@ -39,6 +40,7 @@
 ||stats.wp.com/$3p,script
 ||taboola.com$3p
 ||tagan.adlightning.com/$3p,script
+||vitals.vercel-analytics.com/
 ||www.facebook.com/plugins/like.php$3p
 ||www.googleoptimize.com/$3p,script
 ||www.googletagmanager.com/$3p,script
@@ -306,6 +308,7 @@ www.typescriptlang.org###like-dislike-subnav,#page-helpful-popup
 ||visualstudio.microsoft.com/wp-content/themes/Avada-Child-Theme/assets/js/vscom-usabilla-a11y.js
 ||w.usabilla.com/$from=microsoft.com
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
+||www.catalog.update.microsoft.com/home.aspx/NonActiveXUserLog
 ||www.microsoft.com/store/buy/cartcount$frame
 ||www.surveymonkey.com/$from=devblogs.microsoft.com
 answers.microsoft.com###smcTeachingCalloutPopover
@@ -407,6 +410,8 @@ community.chocolatey.org###mc_embed_signup
 www.88dyw.com##.gotop,.pfstyle,.pfplayer
 
 /preview.mp4$from=missav.com
+/solid.gif$from=missav.to,3p
+||*.com/$from=missav.to,script,3p
 ||*.com/lv/esnk/*/code.js$from=missav.com|missav.to
 ||*.com/lvesnk.html$from=missav.com|missav.to
 ||*.com/widgets/$from=missav.com
@@ -503,6 +508,7 @@ youtrack.jetbrains.com##div[data-test="alert-container"]:has(span:has-text(User 
 @@||docs.vmware.com/uicontent/
 @@||kb.vmware.com/resource/$script
 @@||kb.vmware.com/s/sfsites/$script
+@@||www.vmware.com/content/
 @@||www.vmware.com/etc.clientlibs/$script
 ||customerconnect.vmware.com/ui/connect-ai-widget/connectai.js$important
 ||docs.vmware.com/uicontent/scripts/analytics/$important,1p
@@ -726,12 +732,14 @@ www.apkmirror.com##+js(noeval-if, error-report.com/report)
 ||www.learncpp.com/detroitchicago/
 ||www.learncpp.com/edmontonalberta/
 ||www.learncpp.com/ezoic/anchorfix.js
+||www.learncpp.com/ezoimgfmt/go.ezodn.com/utilcave_com/ezoic.png
 ||www.learncpp.com/ezvideo/
 ||www.learncpp.com/parsonsmaize/
 ||www.learncpp.com/porpoiseant/
 ||www.learncpp.com/tardisrocinante/
 www.learncpp.com##.sidey.widget-area,.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-ad-placeholder"],.ez-video-wrap
 www.learncpp.com##+js(set-attr, img.ezlazyload, src, [data-ezsrc])
+www.learncpp.com##span[data-ez-ph-id]
 
 ||*$from=thewindowsclub.com,3p
 ||thewindowsclub.com/beardeddragon/
@@ -828,6 +836,7 @@ html-agility-pack.net###footer-button-contact-us,#site-footer-popup-newsletter,.
 nmemory.net###footer-button-contact-us,#site-footer-popup-newsletter,.page-header-calltoaction
 www.learndapper.com##.add-z,.box-newsletter
 www.learnentityframeworkcore.com##.add-z,.box-newsletter
+zzzcode.ai##.share-our-page,#support-zzzcode
 zzzprojects.com###site-footer-popup-newsletter
 
 /_/*Ui/browserinfo$from=google.com,method=post
@@ -880,7 +889,6 @@ www.tensorflow.org##devsite-thumb-rating,.devsite-banner.devsite-banner-announce
 ||imasdk.googleapis.com/js/$from=bbc.com
 ||mybbc-analytics.files.bbci.co.uk/$from=bbc.com
 ||prebid.the-ozone-project.com/$from=bbc.com
-||scripts.webcontentassessor.com/$from=bbc.com
 ||www.bbc.com/wc-data/container/consent-banner
 ||xproxy.api.bbc.com/zephr/features
 www.bbc.com##.dotcom-ad
@@ -905,12 +913,10 @@ conan.io###signUp
 ||stats.ballensiefen.net/piwik.js$from=jqueryvalidation.org
 ||jqueryvalidation.org/wp-content/plugins/google-analyticator/external-tracking.min.js
 
+/PHP/backend/privacy.php$from=www.deepl.com
 ||errortracking.deepl.com/
 ||s.deepl.com/web/statistics
-||static.deepl.com/js/cookieBanner.min
-||static.deepl.com/js/sentry.min
-||static.deepl.com/js/webVitals.min
-||www.deepl.com/PHP/backend/privacy.php
+www.deepl.com###cookieBanner
 
 ||adobe.tt.omtrdc.net/rest/v1/delivery
 ||assets.adobedtm.com/$script,3p
@@ -969,6 +975,7 @@ www.ip-secrets.com##a[href="r.php"]
 ||bordeaux.futurecdn.net/bordeaux.js
 ||cdn.onesignal.com/sdks/OneSignalSDK.js
 ||cdn.parsely.com/keys/*/p.js
+||eventsproxy.gargantuan.futureplc.com/future.adtech
 ||hawk.gamesradar.com/hl/es6/hawklinks.js
 ||hawk.gamesradar.com/translations.php
 ||hawk.techradar.com/hl/es6/hawklinks.js
@@ -986,6 +993,7 @@ www.androidcentral.com###slice-container-affiliateDisclaimerBar,.slice-container
 www.gamesradar.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup,.newsletter-form-container
 www.gamesradar.com##.listingResults>.listingResult:has(.sponsored-post)
 www.gamesradar.com###slice-container-affiliateDisclaimerBar,.slice-container-newsletterForm,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
+www.gamesradar.com##div[data-widget-type="ads"]
 www.livescience.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
 www.livescience.com###slice-container-affiliateDisclaimerBar,.slice-container-newsletterForm,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
 www.pcgamer.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
@@ -1040,10 +1048,14 @@ www.xda-developers.com###articleNewsletterForm
 www.xda-developers.com##+js(cookie-remover, articlesRead)
 xdaforums.com##div[data-freestar-ad],#xdadevelopers_leaderboard_atf
 
+||boot.pbstck.com/v1/tag/$3p
+||cdn.pbxai.com/*.js$3p
 ||cdn.viglink.com/api/vglnk.js
-||constellation.networknmedia.com/external/dist/manifest.json
-||kumo.network-n.com/dist/app.js
+||consent.pcgamesn.com/unified/wrapperMessagingWithoutDetection.js
+||constellation.networknmedia.com/external/dist/manifest.json$3p
+||kumo.network-n.com/dist/app.js$3p
 ||snippet.affilimate.io/affilimate-sm.js$from=www.pcgamesn.com
+||static.anonymised.io/light/loader.js$3p
 ||www.pcgamesn.com/cdn-cgi/trace$1p,xhr
 www.pcgamesn.com##.legion_primiswrapper,.nn_mobile_mpu_wrapper,.static_mpu_wrap,#nn_astro_wrapper
 www.pcgamesn.com##.text-widget-small.sidebar-text-widget
@@ -1217,10 +1229,12 @@ www.w3adda.com###colophon,.googleads,.bottom-ads
 www.w3adda.com##body:style(padding-bottom: initial !important;)
 
 ||cadmus.script.ac/$3p
+||cmp.inmobi.com/choice/$3p
 ||distillery.wistia.com/$from=exceljet.net
 ||fast.wistia.com/assets/images/blank.gif$from=exceljet.net
 ||hb-exceljet.s3.us-east-2.amazonaws.com/asc_prebid.js$3p
 ||pipedream.wistia.com/$from=exceljet.net
+||scripts.webcontentassessor.com/$3p
 exceljet.net##.block-block-ad-ic-video,.block-block-ad-leaderboard,.block-block-ad-rr1,.block-block-ad-ic1
 exceljet.net##.block-block-excel-functions-pdf.download-block,.block-block-excel-shortcuts-pdf.download-block
 exceljet.net##.l-bottom,.newsletter-signup
@@ -1745,7 +1759,6 @@ www.404media.co##.js-popup.popup,.subscribe
 ||openframe.io/hub.html$from=thebookofshaders.com
 ||physicallybased.info/api/event
 ||polyhaven.com/api/dlTrack
-||www.goodrequest.com/_vercel/insights/
 artisticrender.com###section-26-4934,#div_block-11-4933,#link-144-4933,#section-163-4934
 finepointcgi.io##.ct-share-box
 godotforums.org##.Post-quoteButtonContainer
@@ -1761,7 +1774,6 @@ www.shadertoy.com###compliance
 ||disney.demdex.net/id$from=abcnews.go.com
 ||fastcast.semfs.engsvc.go.com/public/websockethost$from=abcnews.go.com
 ||micro.rubiconproject.com/prebid/$3p
-||scripts.webcontentassessor.com/$from=abcnews.go.com
 ||sw88.go.com/id$from=abcnews.go.com
 ||tags.bkrtx.com/js/bk-coretag.js
 ||tt.omtrdc.net/rest/v1/delivery
@@ -1855,6 +1867,8 @@ open.dingtalk.com##p.shortdesc > .note-note.note
 ||metric.nuonuo.com/
 ||nnfp.jss.com.cn/sapi/invoice/scan/queryInvoiceToAdvertisement.do
 ||nnfw.jss.com.cn/countly.min.js
+||www.bwjf.cn/undefined
+||www.bwjf.cn/v1/userEventTrans
 
 ||translate.google.com/translate_a/element.js$3p
 ||www.google.com/coop/cse/brand$3p
@@ -1924,9 +1938,6 @@ all3dp.com##.share-list,.ad-layout__ad,.horizontal-ad-layout,.ad-container.ad-co
 ||static.klaviyo.com/$from=www.skillademia.com
 ||views.scientific-python.org/js/script.js$from=matplotlib.org
 
-||svg-tutorial.com/_vercel/insights/
-||vitals.vercel-analytics.com/
-
 ||d2v02itv0y9u9t.cloudfront.net/dist/*/v6s.js$from=twitch.tv
 ||k.twitchcdn.net/*/p.js
 www.twitch.tv###twilight-sticky-footer-root
@@ -1940,3 +1951,11 @@ gitee.com##.register-guide,#user-no-license-message
 ||analytics.archive.org/
 ||archive.org/includes/analytics.js
 ||sentry.archive.org/
+
+www.tecmint.com##center[style="padding-bottom: 45px;padding-top:35px;"]
+www.tecmint.com##center[style="padding-bottom:20px;padding-top:40px;"]
+www.tecmint.com##.tecmint-float-social-wrapper
+
+||api.amplitude.com/$from=everything.curl.dev
+||api.gitbook.com/*/insights/track_view
+||cdn.iframe.ly/embed.js$3p
