@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, February 11, 2024
+! Last modified: Monday, March 4, 2024
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20240211
+! Version: 20240304
 !
 !
 !
@@ -57,6 +57,7 @@ devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.m
 devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/dotnet-ch/"])
 devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/java-ch/"])
 devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/java/"])
+developer.android.com##.devsite-page-bookmark-tooltip
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/choco-bot"])
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/forkyau"])
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/GrahamcOfBorg"])
@@ -66,9 +67,6 @@ search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://github.com/q
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://pjchender.dev/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://tsejx.github.io/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://www.zhihu.com/"])
-search.brave.com###summarizer .summarizer-content > .content > .fade
-search.brave.com###summarizer .summarizer-content > .content:style(height: initial !important; max-height: initial !important;)
-search.brave.com###summarizer > footer > .action-wrapper
 stackexchange.com###question-list > div.question-container[data-sid="chinese.stackexchange.com"]
 stackexchange.com###question-list > div.question-container[data-sid="japanese.stackexchange.com"]
 v2ex.com##.cell.item:has(.topic_info > strong > a[href="/member/Casbin"])

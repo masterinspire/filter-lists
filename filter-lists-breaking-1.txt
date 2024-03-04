@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, October 29, 2023
+! Last modified: Monday, March 4, 2024
 ! Title: Custom Filter Lists Breaking 1
-! Version: 20231029
+! Version: 20240304
 !
 !
 !
@@ -21,6 +21,7 @@
 ||raw.githubusercontent.com/mui/material-ui/master/docs/notifications.json$domain=mui.com
 ||stackblitz.com$domain=ng.ant.design
 ||tensorflow-dot-devsite-v2-prod-3p.appspot.com/$domain=www.tensorflow.org
+||www.dropbox.com/$3p,script
 ||www.google.com/$from=bugs.python.org
 ||www.google.com/favicon.ico$strict3p
 ||www.youtube-nocookie.com/$third-party

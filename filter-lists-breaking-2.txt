@@ -2,13 +2,13 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, November 26, 2023
+! Last modified: Monday, March 4, 2024
 ! Title: Custom Filter Lists Breaking 2
-! Version: 20231126
+! Version: 20240304
 !
 !
 !
-||cdn.jwplayer.com/libraries/$3p
+||cdn.jwplayer.com/$3p
 ||disqus.com/embed.js$3p
 ||duckduckgo.com/$domain=janet-lang.org
 ||f4n3x6c5.stackpathcdn.com/$from=www.c-sharpcorner.com
