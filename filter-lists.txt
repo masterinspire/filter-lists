@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, March 4, 2024
+! Last modified: Tuesday, April 9, 2024
 ! Title: Custom Filter Lists
-! Version: 20240304
+! Version: 20240409
 !
 !
 !
@@ -209,6 +209,7 @@ www.gtabase.com##.article-social-buttons,.wbl-social-buttons
 www.gtabase.com###ja-contentsl2>.module:has(.custom)
 www.pinvoke.net##a[href="https://mindfiretech.com"]
 www.pinvoke.net##h3:has-text(Mindfire Tech is proficient)
+www.sqlservercentral.com##.cookie-consent
 www.trustedfirmware.org###gdpr-cookie-message
 www.tutorialkart.com##.centerad
 www.tutorialrepublic.com##.rightcolumn,.leaderboard,.bottom-ad,.snippets,.appeal
@@ -225,7 +226,7 @@ search.brave.com###searchbar-home > .download-button
 
 ||embed.typeform.com/$from=www.theregister.com
 ||go.theregister.com/k/abt_bb
-||nir.theregister.com/?$from=theregister.com|devclass.com
+||nir.theregister.com/?$strict3p
 devclass.com##.social_wrapper
 theregister.com##.adun
 www.theregister.com##.floating_bar:has(.sharing_widget_story_desktop)
@@ -368,6 +369,7 @@ www.microsoft.com##section.container[aria-label^="download center details page b
 ||localhost.work.weixin.qq.com
 ||open.work.weixin.qq.com/wwopen/monoApi/report/
 ||otheve.beacon.qq.com/
+||sentry.pot.tencent.com/
 ||sj.qq.com/api/beaconReport
 ||static-fe.tapd.cn/images/log.gif
 ||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
@@ -439,7 +441,7 @@ www.88dyw.com##.gotop,.pfstyle,.pfplayer
 ||static-assets.highwebmedia.com/$from=missav.com
 ||trafficfactory.biz/$from=www.xvideos.com
 ||via.placeholder.com/$from=missav.to
-||whos.amung.us/pingjs/$from=missav.to
+||whos.amung.us/pingjs/
 ||www.gstatic.com/cast/sdk/libs/sender/$from=missav.to
 ||www.gstatic.com/cv/js/sender/$from=missav.to
 ||www.xvideos.com/lvcsm/abck-banners/
@@ -870,11 +872,13 @@ zzzprojects.com###site-footer-popup-newsletter
 ||scone-pa.clients6.google.com/static/proxy.html$frame
 ||shared-storage-demo-content-producer.web.app/paa/scripts/private-aggregation-test.js$from=developer.chrome.com|web.dev
 ||source.chromium.org/v1/logging
+||tools.google.com/service/update2/dlpageping
 ||www.google.com/images/icons/product/cloud_storage-32.png$from=commondatastorage.googleapis.com
 ||www.google.com/images/icons/product/sites-16.ico$from=sites.google.com
 ||www.google.com/js/$from=chrome.google.com,script
 ||www.google.com/js/gweb/analytics/autotrack.js
 ||www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js$from=www.chromium.org|blog.google|pki.goog
+||www.gstatic.com/glue/cookienotificationbar/
 blog.chromium.org##.share
 blog.google##.uni-newsletter-toast
 chrome.google.com##div[aria-labelledby="promo-header"]
@@ -901,6 +905,8 @@ www.tensorflow.org##devsite-thumb-rating,.devsite-banner.devsite-banner-announce
 
 ||edigitalsurvey.com/$from=bbc.com
 ||emp.bbc.com/emp/SMPj/*/iframe.html
+||federated-id.stage.api.bbc.co.uk/encryptdeviceid
+||federated-id.stage.api.bbc.co.uk/getdeviceid
 ||imasdk.googleapis.com/js/$from=bbc.com
 ||mybbc-analytics.files.bbci.co.uk/$from=bbc.com
 ||prebid.the-ozone-project.com/$from=bbc.com
@@ -1028,6 +1034,7 @@ www.windowscentral.com##.hawk-nest
 www.windowscentral.com###slice-container-affiliateDisclaimerBar,.slice-container-newsletterForm,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
 
 ||cmpsp.vg247.com/unified/wrapperMessagingWithoutDetection.js
+||rxreedpop.containers.piwik.pro/$from=www.vg247.com
 ||static.kueezrtb.com/latest.js
 ||www.vg247.com/poll/next
 www.vg247.com##.advert_container,.disclaimer,.footer-newsletter,.jobs-widget
@@ -1318,6 +1325,7 @@ gtaforums.com###elGuestTerms
 gtaforums.com##div[style="min-height:250px;margin-bottom:10px"]:has(>#pwDeskLbAtf)
 users.rust-lang.org##.quote-button
 
+||cdn.fuseplatform.net/publift/tags/*/fuse.js
 ||fundingchoicesmessages.google.com/$3p
 ||www.eightforums.com/jc/gtm.js
 ||www.eightforums.com/styles/default/xenforo/add_to_home.gif
@@ -1330,14 +1338,9 @@ www.elevenforum.com##div[style="width:300px;padding-bottom:10px;text-align:cente
 www.elevenforum.com##div[style="width:300px;padding-bottom:10px;text-align:center;height:600px;margin-bottom:15px;"]:has(>div[id^="div-gpt-ad-"])
 www.sevenforums.com##.body_wrapper > .chill:has(>.adsbygoogle)
 www.sevenforums.com##.postbitlegacy.postbitim.postcontainer:has(>.adsbygoogle)
-www.tenforums.com##.body_wrapper > .chill:has(>.adsbygoogle)
-www.tenforums.com##.garsearch,.sticky-content
-www.tenforums.com##.postbitlegacy.postbitim.postcontainer:has(>.adsbygoogle)
-www.tenforums.com###newreplylink_top1
-www.tenforums.com##div[style="height:125px;"]:has(>.adsbygoogle)
-www.tenforums.com##div[style="height:280px !important;"]:has(>.adsbygoogle)
-www.tenforums.com##div[style="height:280px;"]:has(>.adsbygoogle)
-www.tenforums.com##div[style="min-height:250px;"]:has(>.adsbygoogle)
+www.tenforums.com##.body_wrapper > .chill:has(>[data-fuse])
+www.tenforums.com##[data-fuse]
+www.tenforums.com###yui-gen0,#yui-gen1,#yui-gen2,#yui-gen3
 
 ||content.readcube.com/ping$from=www.nature.com
 ||wayf.springernature.com/seamless-access.js$from=www.nature.com
@@ -1581,6 +1584,7 @@ zhihu.com##html:style(overflow: auto !important;)
 ||kunpeng-sc.csdnimg.cn/?timestamp=
 ||kunpeng.csdn.net/ad/
 ||kunyu.csdn.net/1.png
+||mp-activity.csdn.net/activity/report
 ||redisdatarecall.csdn.net/recommend/get_head_word
 ||res.cdn.openinstall.io/openinstall.js
 ||s3a.pstatp.com/toutiao/push.js
@@ -1590,6 +1594,7 @@ zhihu.com##html:style(overflow: auto !important;)
 ||www.csdn.net/$removeparam=ydreferer
 blog.csdn.net##.blog-slide-ad-box,.passport-auto-tip-login-container,#kp_box_blog_cont
 blog.csdn.net##.box-shadow.mb8:has(>[id^="cpro_"])
+blog.csdn.net##.false.passport-login-tip-container
 blog.csdn.net##.hljs-button.signin,.hide-article-pos.hide-article-box
 blog.csdn.net###content_views pre code:style(user-select: unset !important;)
 blog.csdn.net###content_views pre:style(user-select: unset !important;)
@@ -1869,6 +1874,7 @@ evergine.com###cmplz-cookiebanner-container
 ! https://yarnpkg.com/
 ||www.datadoghq-browser-agent.com/$3p
 
+||alioth.alicdn.com/adPlan-default-position-
 ||arms-retcode.aliyuncs.com/r.png
 ||assets.customer.io/assets/track.js
 ||cnzz.com/z_stat.php
@@ -1888,12 +1894,14 @@ evergine.com###cmplz-cookiebanner-container
 ||page.aliyun.com/delivery/plan/list$xhr
 ||px.effirst.com/
 ||query.aliyun.com/rest/delivery.service.engine$xhr
+||report-xmonitor-wsjivmrcns.cn-zhangjiakou.fcapp.run/
 ||tracert.alipay.com/cross.html$frame
 ||tracert.alipay.com/iframe.js
 ||track.customer.io/
 ||www.aliyun.com/smarter-engine$frame
 ||xux-web-config.oss-accelerate.aliyuncs.com/aes-config/*/qnrForm.json$3p
 docs.aliwork.com##.feedback
+help.aliyun.com###help-doc-feedback,#selection-feedback-tooltip
 nhjjud.aliwork.com###yida-admin-common
 open.dingtalk.com##.introjs-overlay,.introjs-tooltipReferenceLayer,.introjs-helperLayer
 open.dingtalk.com##.star-wrapper
@@ -2022,3 +2030,6 @@ thepiratebay.org##div.adblock,.ad120,.ad468
 
 ||cdn.adapex.io/$from=www.shotcut.org
 ||www.paypal.com/en_US/i/scr/pixel.gif$3p
+
+||piwik.vandyke.com/piwik.js
+||www.vandyke.com/css/vds_gdpr.js

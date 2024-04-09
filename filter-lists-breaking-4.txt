@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Monday, March 4, 2024
+! Last modified: Tuesday, April 9, 2024
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20240304
+! Version: 20240409
 !
 !
 !
@@ -37,10 +37,6 @@ docs.pytest.org##body:style(font-family: initial !important)
 palletsprojects.com##body:style(font-family: initial !important)
 pipenv.pypa.io##body:style(font-family: initial !important)
 
-!github.com##+js(rpnt, title, /[\u4e00-\u9fa5]+/, ???, stay, 1)
-!github.com##body:not(.full-width) div.application-main #repository-container-header:style(background-color: unset !important; max-width: 1280px !important; margin-right: auto !important; margin-left: auto !important; padding-top: 32px !important; )
-!github.com##div.header-menu-wrapper > nav
-
 cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
 cn.bing.com###est_switch,#b_results > li.b_msg.b_canvas
 community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/jackett"])
@@ -61,6 +57,7 @@ developer.android.com##.devsite-page-bookmark-tooltip
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/choco-bot"])
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/forkyau"])
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/GrahamcOfBorg"])
+ping.pe###main-div:style(max-width: unset !important; margin: unset !important;)
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.csdn.net/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.fundebug.com/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://github.com/quickjs-zh/"])
@@ -73,8 +70,13 @@ v2ex.com##.cell.item:has(.topic_info > strong > a[href="/member/Casbin"])
 www.robtex.com##.rtfragc:style(overflow: auto !important;)
 www.robtex.com###rtfragc_dnst, #rtfragc_dnsbl, #rtfragc_ohistory, #rtfragc_owhois:style(height: initial !important;)
 www.robtex.com###rtfrage_dnsbl, #rtfrage_seo, #rtfrage_reverse, #rtfrage_wot, #rtfrage_threatminer, #rtfrage_ipio, #rtfrage_visgraph, #rtfrage_ograph, #rtfrage_ohistory, #rtfrage_owhois, #rtfrage_alexa
-www.tapd.cn##.comment_content .comments-for-view-new .editor-content:style(padding: 2rem 1rem !important; overflow:auto !important;)
-www.tapd.cn###new_nav_avatar_div
+
+||www.tapd.cn/*/users/avatar/
+www.tapd.cn##.avatar-nav.avatar
+www.tapd.cn##.comment_content.comment_content_comment:remove-attr(style)
+www.tapd.cn##.comment_type_text:remove-attr(style)
+www.tapd.cn##.title-input__link--clickable:remove-attr(target)
+www.tapd.cn##.top-alert
 
 free3d.com##.search-results-container .premium.search-result
 localhost##.wy-nav-content:style(max-width: initial !important;)
