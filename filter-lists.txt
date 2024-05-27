@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, April 9, 2024
+! Last modified: Monday, May 27, 2024
 ! Title: Custom Filter Lists
-! Version: 20240409
+! Version: 20240527
 !
 !
 !
@@ -41,6 +41,7 @@
 ||taboola.com$3p
 ||tagan.adlightning.com/$3p,script
 ||vitals.vercel-analytics.com/
+||www.clarity.ms/tag/
 ||www.facebook.com/plugins/like.php$3p
 ||www.googleoptimize.com/$3p,script
 ||www.googletagmanager.com/$3p,script
@@ -111,6 +112,7 @@
 
 ! https://www.88dyw.com/
 ! https://www.w3schools.com/
+||zz.bdsstatic.com/linksubmit/push.js$3p
 ||zz.bdstatic.com/linksubmit/push.js$3p
 
 ! https://curl.se/windows/
@@ -130,7 +132,7 @@
 ! https://beautiful-soup-4.readthedocs.io/en/latest/
 ! https://flask.palletsprojects.com/en/latest/
 ! https://www.python.org/
-||media.ethicalads.io/media/client/*/ethicalads.min.js$3p
+||media.ethicalads.io/media/*/ethicalads.min.js$3p
 
 ! https://api.jquery.com/
 ! https://helpx.adobe.com/acrobat/kb/acrobat-dc-downloads.html
@@ -169,6 +171,7 @@
 ||scripts.mediavine.com/$3p
 
 ||*/$from=www.clipconverter.cc,3p
+||account.battle.net/recovery/static/js/account-recovery/liveengage-monitor.js
 ||cdn.paddle.com/paddle/paddle.js$from=www.questpdf.com
 ||cdn.topsy.com/topsy.js$from=peter.sh
 ||codidact.com/community-assets//analytics.codidact.org/matomo.js
@@ -221,11 +224,13 @@ www.wxwidgets.org##.logos.mb-4.border-primary.card
 ||cdn.search.brave.com/ks.json
 ||search.brave.com/api/ads/homepage
 ||search.brave.com/api/suggest
+search.brave.com##.promo-tooltip
 search.brave.com###search-elsewhere
 search.brave.com###searchbar-home > .download-button
 
 ||embed.typeform.com/$from=www.theregister.com
 ||go.theregister.com/k/abt_bb
+||go.theregister.com/k/abt_to
 ||nir.theregister.com/?$strict3p
 devclass.com##.social_wrapper
 theregister.com##.adun
@@ -235,21 +240,22 @@ www.theregister.com##div[data-tf-widget]
 
 ||askubuntu.com/posts/*/ivc/*?prg=
 ||mathoverflow.com/posts/*/ivc/*?prg=
+||pub.doubleverify.com/dvtag/$3p,script
 ||serverfault.com/posts/*/ivc/*?prg=
 ||stackapps.com/posts/*/ivc/*?prg=
 ||stackexchange.com/posts/*/ivc/*?prg=
 ||stackoverflow.com/posts/*/ivc/*?prg=
 ||superuser.com/posts/*/ivc/*?prg=
-askubuntu.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
-mathoverflow.net##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
-serverfault.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
-stackapps.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
+askubuntu.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner
+mathoverflow.net##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner
+serverfault.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner
+stackapps.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner
 stackexchange.com##.hero-box
-stackexchange.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
+stackexchange.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner
 stackoverflow.com##.js-collectives-navcta-toggle,.js-create-team-cta
-stackoverflow.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
+stackoverflow.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner
 stackoverflow.com###js-ai-search-alpha-popover,#notice-sidebar-popover
-superuser.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero
+superuser.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner
 
 ||mvnrepository.com/assets/images/p.gif
 mvnrepository.com##div.im:has(> div > .adsbygoogle)
@@ -359,6 +365,7 @@ www.microsoft.com##section.container[aria-label^="download center details page b
 ||ups.analytics.yahoo.com/$from=query.prod.cms.rt.microsoft.com
 ||www.facebook.com/$from=query.prod.cms.rt.microsoft.com
 
+||admin.qidian.qq.com/qbf/aBTest/
 ||aegis.qq.com/
 ||badjs2.qq.com/badjs
 ||beacon.cdn.qq.com/
@@ -369,12 +376,15 @@ www.microsoft.com##section.container[aria-label^="download center details page b
 ||localhost.work.weixin.qq.com
 ||open.work.weixin.qq.com/wwopen/monoApi/report/
 ||otheve.beacon.qq.com/
+||rumt-zh.com/collect
+||rumt-zh.com/speed
 ||sentry.pot.tencent.com/
 ||sj.qq.com/api/beaconReport
 ||static-fe.tapd.cn/images/log.gif
 ||support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb
 ||tdl.tapd.cn/tbl/apis/tracker.php
 ||trace.qq.com/
+||v.qidian.qq.com/events/trace
 developer.work.weixin.qq.com##.ep_popPanel
 sj.qq.com##div[class*="BrandBanner_brandBanner"]
 sj.qq.com##div[class*="GameDetail_showGreyBrand"]
@@ -390,6 +400,7 @@ sj.qq.com##div[class^="Header_downloadQRCode__"]
 ||sp.tinymce.com/i?$from=practice.geeksforgeeks.org
 ||util.geeksforgeeks.org/profileLink.php
 practice.geeksforgeeks.org##.CookieConsent
+www.geeksforgeeks.org##.article_bottom_text
 www.geeksforgeeks.org##.article-page_flex .leftBar:style(flex-basis: inherit !important; max-width: inherit !important; min-width: inherit !important; )
 www.geeksforgeeks.org##.cookie-consent
 www.geeksforgeeks.org##.rightBar,.widget-area,div[id^="GFG_AD_"]
@@ -420,7 +431,11 @@ community.chocolatey.org###mc_embed_signup
 ||www.88dyw.com/pic/shoucangwap.png
 ||www.88dyw.com/static/api/js/share.js
 ||www.88dyw.com/templets/88ys/images/wxewm.png
+||www.yzbaoda.com/index.php/ajax/hits
+||www.yzbaoda.com/index.php/user/ajax_ulog/
+||www.yzbaoda.com/statics/api/js/share.js
 www.88dyw.com##.gotop,.pfstyle,.pfplayer
+www.yzbaoda.com##.stui-pannel-side.col-xs-1.col-lg-wide-25
 
 /preview.mp4$from=missav.com
 /solid.gif$from=missav.to,3p
@@ -433,7 +448,9 @@ www.88dyw.com##.gotop,.pfstyle,.pfplayer
 ||chat.missav.com/embed/
 ||hartattenuate.com/$from=missav.com
 ||missav.com/api/items/*/view
+||missav.to/js/app_origin.js
 ||missav.to/js/app.js
+||missav.to/page/300.html$frame
 ||nr.static.mmcdn.com/$from=missav.com
 ||orbsrv.com/$from=www.xvideos.com
 ||partwithner.com/$from=missav.com
@@ -683,7 +700,6 @@ www.sphinx-doc.org##.pageheader:style(padding: 10px 0 !important;)
 
 ||app.slickstream.com/$from=linuxhint.com
 ||cafemedia-com.videoplayerhub.com/galleryplayer.js$from=linuxhint.com
-||cdn.fuseplatform.net/$from=linuxconfig.org
 linuxconfig.org##.steps > .incontent_ads
 linuxhint.com##.adthrive-ad,.adthrive
 
@@ -753,6 +769,7 @@ www.apkmirror.com##+js(noeval-if, error-report.com/report)
 ||www.learncpp.com/parsonsmaize/
 ||www.learncpp.com/porpoiseant/
 ||www.learncpp.com/tardisrocinante/
+www.learncpp.com##.cf_monitor
 www.learncpp.com##.sidey.widget-area,.ezoic-ad,#ezmobfooter,span[id^="ezoic-pub-ad-placeholder"],.ez-video-wrap
 www.learncpp.com##+js(set-attr, img.ezlazyload, src, [data-ezsrc])
 www.learncpp.com##span[data-ez-ph-id]
@@ -884,7 +901,7 @@ blog.google##.uni-newsletter-toast
 chrome.google.com##div[aria-labelledby="promo-header"]
 cloud.google.com##devsite-feedback,devsite-thumb-rating
 developer.android.com##devsite-thumb-rating,devsite-snackbar,devsite-footer-promos
-developer.chrome.com##announcement-banner
+developer.chrome.com##announcement-banner,devsite-thumb-rating
 developers.google.com##devsite-feedback,devsite-thumb-rating,devsite-footer-promos
 firebase.google.com##devsite-feedback,devsite-thumb-rating,.devsite-banner.devsite-banner-announcement
 opensource.google##devsite-thumb-rating,.devsite-banner.devsite-banner-announcement
@@ -1175,6 +1192,7 @@ www.red-gate.com##.cookie-consent
 ||api.parsely.com$from=www.theverge.com
 ||cdn.concert.io/$from=www.theverge.com
 ||d35xxde4fgg0cx.cloudfront.net/assets/embedded.js$from=www.theverge.com
+||monacobeatles.com/$from=www.theverge.com
 ||static.narrativ.com/tags/$3p
 ||theverge.coral.coralproject.net/assets/js/count.js$from=www.theverge.com
 ||z.moatads.com/
@@ -1230,11 +1248,14 @@ www.pythontutorial.net##.donation,#back-to-top,.ad,.helpful-block-content
 www.sqlitetutorial.net##.donation,#back-to-top,.ad,.helpful-block-content
 www.typescripttutorial.net##.donation,#back-to-top,.ad,.helpful-block-content
 
-||www.runoob.com/wp-content/themes/runoob/option/alisearch/*/hot_hint.php
-www.runoob.com##.fixed-btn,.adsbygoogle,.article-heading-ad
-
 ||cdn.snigelweb.com/$from=www.w3schools.com
-www.w3schools.com###right
+||cdn.staticfile.org/cookieconsent2/
+||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/
+||www.runoob.com/wp-content/themes/runoob/option/alisearch/*/hot_hint.php
+||www.w3resource.com/*/job-history-text.php$frame
+www.runoob.com##.fixed-btn,.adsbygoogle,.article-heading-ad
+www.w3resource.com###bottom_ad_zero_google,#h1_banner_block
+www.w3schools.com###right,#mainLeaderboard,#user-profile-bottom-wrapper
 
 ||cdn.adpushup.com/$from=www.tutorialspoint.com
 ||shop.pe/widget/widget_async.js$from=www.tutorialspoint.com
@@ -1328,19 +1349,21 @@ users.rust-lang.org##.quote-button
 ||cdn.fuseplatform.net/publift/tags/*/fuse.js
 ||fundingchoicesmessages.google.com/$3p
 ||www.eightforums.com/jc/gtm.js
+||www.eightforums.com/job.php
 ||www.eightforums.com/styles/default/xenforo/add_to_home.gif
 ||www.elevenforum.com/jc/gtm.js
 ||www.elevenforum.com/job.php
 ||www.sevenforums.com/cdn-cgi/zaraz/
-www.eightforums.com##.notice--cookie,.shareButtons,.had1
+www.eightforums.com##.shareButtons
+www.elevenforum.com##.block-container:has(>[data-fuse])
 www.elevenforum.com##.gads
-www.elevenforum.com##div[style="width:300px;padding-bottom:10px;text-align:center;height:600px;margin-bottom:15px;"]:has(>.adsbygoogle)
-www.elevenforum.com##div[style="width:300px;padding-bottom:10px;text-align:center;height:600px;margin-bottom:15px;"]:has(>div[id^="div-gpt-ad-"])
+www.elevenforum.com##.p-body-sidebar > [style="width:300px;padding-bottom:10px;text-align:center;height:600px;margin-bottom:15px;"]:has(>[data-fuse])
+www.elevenforum.com##.p-body-sidebar > [style="width:302px;padding-bottom:10px;text-align:center;height:265px;margin-bottom:15px;"]:has(>[data-fuse])
 www.sevenforums.com##.body_wrapper > .chill:has(>.adsbygoogle)
 www.sevenforums.com##.postbitlegacy.postbitim.postcontainer:has(>.adsbygoogle)
 www.tenforums.com##.body_wrapper > .chill:has(>[data-fuse])
 www.tenforums.com##[data-fuse]
-www.tenforums.com###yui-gen0,#yui-gen1,#yui-gen2,#yui-gen3
+www.tenforums.com###posts > [id^="yui-gen"]
 
 ||content.readcube.com/ping$from=www.nature.com
 ||wayf.springernature.com/seamless-access.js$from=www.nature.com
@@ -1601,6 +1624,8 @@ blog.csdn.net###content_views pre:style(user-select: unset !important;)
 blog.csdn.net###rightAside,#asideWriteGuide,#articleSearchTip
 csdn.net##.csdn-side-toolbar
 www.csdn.net##.csdn-toolbar-creative-mp-bg
+
+||ask.dcloud.net.cn/home/ajax/adv/adv-ask_adv_right_
 
 ||gitee.com/*/*/access/add_access_log
 ||haveaniceday.gitee.com:3443/sa.gif
@@ -2033,3 +2058,8 @@ thepiratebay.org##div.adblock,.ad120,.ad468
 
 ||piwik.vandyke.com/piwik.js
 ||www.vandyke.com/css/vds_gdpr.js
+
+||learnsql.com/blog/js/blog-banners.js
+||learnsql.com/blog/js/flashsale.js
+
+||gc.zgo.at/count.js$from=raymii.org

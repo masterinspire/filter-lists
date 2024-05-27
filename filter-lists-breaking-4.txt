@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Tuesday, April 9, 2024
+! Last modified: Monday, May 27, 2024
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20240409
+! Version: 20240527
 !
 !
 !
@@ -50,20 +50,22 @@ community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/webvie
 devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/dotnet-ch"])
 devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/java-ch"])
 devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/java"])
-devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/dotnet-ch/"])
-devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/java-ch/"])
-devblogs.microsoft.com##.landing-content-wrapper.landing-site > article[id^="post-"]:has(.entry-title > a[href^="https://devblogs.microsoft.com/java/"])
+devblogs.microsoft.com##.landing-site > article:has(.entry-title > a[href^="https://devblogs.microsoft.com/dotnet-ch/"])
+devblogs.microsoft.com##.landing-site > article:has(.entry-title > a[href^="https://devblogs.microsoft.com/java-ch/"])
+devblogs.microsoft.com##.landing-site > article:has(.entry-title > a[href^="https://devblogs.microsoft.com/java/"])
 developer.android.com##.devsite-page-bookmark-tooltip
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/choco-bot"])
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/forkyau"])
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/GrahamcOfBorg"])
 ping.pe###main-div:style(max-width: unset !important; margin: unset !important;)
+search.brave.com##.inline-qa-answer:style(max-height: 100% !important;)
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.csdn.net/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.fundebug.com/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://github.com/quickjs-zh/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://pjchender.dev/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://tsejx.github.io/"])
 search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://www.zhihu.com/"])
+search.brave.com##.wrapper:has(>#chatllm):style(height: 100% !important; max-height: 100% !important;)
 stackexchange.com###question-list > div.question-container[data-sid="chinese.stackexchange.com"]
 stackexchange.com###question-list > div.question-container[data-sid="japanese.stackexchange.com"]
 v2ex.com##.cell.item:has(.topic_info > strong > a[href="/member/Casbin"])
