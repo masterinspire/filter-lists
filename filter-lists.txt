@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Wednesday, June 19, 2024
+! Last modified: Friday, June 28, 2024
 ! Title: Custom Filter Lists
-! Version: 20240619
+! Version: 20240628
 !
 !
 !
@@ -110,10 +110,9 @@
 ! https://mvnrepository.com
 ||static.cloudflareinsights.com/beacon.min.js$3p
 
-! https://www.88dyw.com/
-! https://www.w3schools.com/
 ||zz.bdsstatic.com/linksubmit/push.js$3p
 ||zz.bdstatic.com/linksubmit/push.js$3p
+||push.zhanzhang.baidu.com/push.js$3p
 
 ! https://curl.se/windows/
 ||www.fastly-insights.com/insights.js$strict3p
@@ -1083,6 +1082,7 @@ dev.to##.js-billboard-container
 ||*$from=gamerant.com|screenrant.com|www.xda-developers.com|www.howtogeek.com,3p,script
 ||/strpixel.png$from=gamerant.com|screenrant.com|www.xda-developers.com|www.howtogeek.com
 ||mbid.marfeelrev.com/static/cookie-sync.html
+||sentinelbi.com/$3p
 ||speechify-api-dot-speechifymobile.uc.r.appspot.com/track-analytics-event
 ||unpkg.com/web-vitals@*/dist/$3p
 gamerant.com##.adzone-above-latest,.adsninja-ad-zone,.sharing.bottom
@@ -1639,9 +1639,14 @@ csdn.net##.csdn-side-toolbar
 www.csdn.net##.csdn-toolbar-creative-mp-bg
 
 ||ask.dcloud.net.cn/home/ajax/adv/adv-ask_adv_right_
+||restapi.amap.com/v3/log/
+||www.ttshitu.com/js/baidu.js
 
+||furiondata.myhuaweicloud.com/$from=gitcode.com
 ||gitee.com/*/*/access/add_access_log
 ||haveaniceday.gitee.com:3443/sa.gif
+||sentry.gitcode.com/
+||web-api.gitcode.com/api/v*/report
 gitee.com##.register-guide,#user-no-license-message
 
 ||fanruanclub.com/login/cas/monitor
@@ -1697,7 +1702,7 @@ www.newyorker.com##[data-journey-hook="persistent-bottom"]:has(.paywall-bar)
 
 ! https://www.docker.com/
 ! https://www.qt.io
-||dev.visualwebsiteoptimizer.com/j.php$3p
+||dev.visualwebsiteoptimizer.com/$3p
 
 ! https://dictionary.cambridge.org
 ! https://docs.docker.com/desktop/
@@ -1824,7 +1829,7 @@ www.digitalocean.com##nav[aria-label="Top Hat"]
 ||assets.context.ly/$from=www.404media.co
 ||assets.outpost.pub/$from=www.404media.co
 ||js.stripe.com/v3/$3p
-www.404media.co##.js-popup.popup,.subscribe
+www.404media.co##.js-popup.popup,.subscribe,.post-hero__ad,.ad-fixed__wrapper
 
 ! https://godotshaders.com/shader/2d-wind-sway/
 ||cdn.cookie-script.com/$3p
@@ -1939,10 +1944,12 @@ evergine.com###cmplz-cookiebanner-container
 ||tracert.alipay.com/cross.html$frame
 ||tracert.alipay.com/iframe.js
 ||track.customer.io/
+||www.aliyun.com/api/log/
 ||www.aliyun.com/smarter-engine$frame
 ||xux-web-config.oss-accelerate.aliyuncs.com/aes-config/*/qnrForm.json$3p
 docs.aliwork.com##.feedback
 help.aliyun.com###help-doc-feedback,#selection-feedback-tooltip
+help.aliyun.com##body > header:has(.aliyun-service-contact-us-widget-wrapper)
 nhjjud.aliwork.com###yida-admin-common
 open.dingtalk.com##.introjs-overlay,.introjs-tooltipReferenceLayer,.introjs-helperLayer
 open.dingtalk.com##.star-wrapper
@@ -1985,6 +1992,7 @@ www.cambridge.org##+js(set-attr, img.aop-lazy-load-image, src, [data-src])
 ||www.3dshaker.com/_api/tag-manager/
 ||www.cadsketcher.com/_api/tag-manager/
 blenderbim.org##.back-to-top
+www.blenderplay.com##.ce-banner,#cookie-law-info-bar
 www.katsbits.com##.social-icons-menu,.widget_email-subscribers-form,.the_champ_sharing_container
 www.katsbits.com###custom_html-6,#custom_html-4
 
@@ -2079,6 +2087,24 @@ thepiratebay.org##div.adblock,.ad120,.ad468
 ||learnsql.com/blog/js/flashsale.js
 
 ||gc.zgo.at/count.js$from=raymii.org
+||cleverstaginc.firebaseio.com/$from=wallsmash.com
 
 ||stat.u.sb/js/script.js
 ||smms.app/assets/js/cookiebar-latest.min.js
+
+||hub.docker.com/v2/feature-flags/proxy/client/metrics
+||sessions-bugsnag.docker.com/
+||widget.kapa.ai/kapa-widget.bundle.js$from=docker.com
+
+||a.omappapi.com/app/js/api.min.js
+||applets.ebxcdn.com/ebx.js
+||c2-eu.piano.io/xbuilder/experience/load
+||cdn-eu.piano.io/api/tinypass.min.js
+||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js
+||js.zi-scripts.com/zi-tag.js
+||www.newstatesman.com/wp-content/plugins/july22-nsmg-newsletter-settings/
+||www.newstatesman.com/wp-content/plugins/nsmg-campaigns/
+||www.newstatesman.com/wp-content/plugins/nsmg-polls/
+||www.newstatesman.com/wp-content/plugins/nsmg-tracking/
+www.newstatesman.com##.july22-newsletter
+www.newstatesman.com##.stream-item-above-header.ad
