@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, June 28, 2024
+! Last modified: Friday, July 5, 2024
 ! Title: Custom Filter Lists
-! Version: 20240628
+! Version: 20240705
 !
 !
 !
@@ -149,6 +149,7 @@
 ||plausible.io/js/script.hash.outbound-links.js$strict3p
 ||plausible.io/js/script.js$strict3p
 ||plausible.io/js/script.tagged-events.js$strict3p
+||plausible.io/js/script.tagged-events.outbound-links.js$3p
 
 ! https://currency.world/
 ! https://dnschecker.org/
@@ -176,6 +177,7 @@
 ||codidact.com/community-assets//analytics.codidact.org/matomo.js
 ||crystaldoc-info.goatcounter.com/count
 ||datum.jsdelivr.com/api/event
+||engine.adzerk.net/ados.js$from=lwn.net
 ||flux.faloo.com/pvdata.aspx
 ||gnar.grammarly.com/events
 ||img6.wsimg.com/utag/utag.min.js$from=www.godaddy.com
@@ -1034,6 +1036,7 @@ www.ip-secrets.com##a[href="r.php"]
 ||hawky.pcgamer.com/translations.php
 ||search-api.fie.futurecdn.net/hl/es6/hawklinks.js
 ||search-api.fie.futurecdn.net/translations.php
+||sr.studiostack.com/v3/services
 forums.androidcentral.com###header_leaderboard
 forums.tomshardware.com###rightcol_top,.shareButtons,#header_leaderboard,#footer_leaderboard,div[data-widget-key="forum_overview_share_page"]
 www.androidcentral.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
@@ -1048,6 +1051,8 @@ www.livescience.com##div[data-widget-type="ads"]
 www.pcgamer.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
 www.pcgamer.com##.listingResults>.listingResult:has(.sponsored-post)
 www.pcgamer.com###slice-container-affiliateDisclaimerBar,.slice-container-newsletterForm,#taboola-below-article-thumbnails,#slice-container-regionRedirectBanner
+www.pcgamer.com##+js(set, window.bordeaux.getExperimentId, noopFunc, complete)
+www.pcgamer.com##+js(set, window.disableBordeaux, true)
 www.pcgamer.com##div[data-widget-type="ads"]
 www.techradar.com##.dfp-leaderboard-container,.ad-unit,.socialite-widget,.newsletter-signup
 www.techradar.com##.widget-ads,.sponsored-post
@@ -1409,6 +1414,7 @@ www.nginx.com##.social,.custom_blog_cta_ebook
 
 ||analyze-*.m-w.com/js/script.manual.js
 ||telemetry.art19.com/
+||www.merriam-webster.com/at-*/at.js
 ||www.merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 www.merriam-webster.com##.footer-mast,#subscribe-unabridged,.active-subscribe
 www.merriam-webster.com##.wotd-promo__subscribe,.wotd-side__subscribe,#social-links,.art-social-share
@@ -1839,18 +1845,21 @@ www.404media.co##.js-popup.popup,.subscribe,.post-hero__ad,.ad-fixed__wrapper
 
 ||assets.flodesk.com/universal.mjs$from=thebookofshaders.com
 ||by2.uservoice.com/*/track.js$from=free3d.com
+||clanker-events.squarespace.com/$from=www.blendersecrets.org
 ||geniuslinkcdn.com/snippet.min.js$from=www.blender3darchitect.com
 ||godottutorials.com/js/subscription.min.js
 ||kenney.nl/*/counter-pixel
 ||openframe.io/hub.html$from=thebookofshaders.com
 ||physicallybased.info/api/event
 ||polyhaven.com/api/dlTrack
+||www.blendersecrets.org/api/census/
 artisticrender.com###section-26-4934,#div_block-11-4933,#link-144-4933,#section-163-4934
 finepointcgi.io##.ct-share-box
 godotforums.org##.Post-quoteButtonContainer
 godottutorials.com##.social-line,.subscribe-line
 polyhaven.com##.CookieConsent,div[class^="AssetPage_sidebarAd__"],div[class^="NewsCard_wrapper__"],div[class^="Sidebar_footerWrapper"]
 www.blender3darchitect.com##div[class*="snp-pop-"]
+www.blendersecrets.org##.sqs-cookie-banner-v2
 www.shadertoy.com###compliance
 
 ||coveralls.io/repos/github/SCons/scons/badge.svg$from=scons.org
@@ -1886,11 +1895,16 @@ fontawesome.com##.wrap-monetization-ad.wrap-ad
 ||ced-ns.sascdn.com/$from=imgur.com
 ||ced.sascdn.com/$from=imgur.com
 ||d3c8j8snkzfr1n.cloudfront.net/script.js$from=imgur.com
+||js.assemblyexchange.com/$from=imgur.com
 ||js.media-lab.ai/$from=imgur.com
+||mp.imgur.com/track/
 ||p.imgur.com/albumview.gif
+||s.imgur.com/min/px.js
 ||stretchsquirrel.com/$from=imgur.com
 ||t.imgur.com/$from=imgur.com,method=post
 ||t.picsart.com/$from=imgur.com
+||zrk.imgur.com/api/v2
+imgur.com##.Overlay:has(>.AdblockDialog)
 
 ||a.fsdn.com/con/js/adgenerator.js$from=sourceforge.net
 ||a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js$from=sourceforge.net
@@ -2108,3 +2122,50 @@ thepiratebay.org##div.adblock,.ad120,.ad468
 ||www.newstatesman.com/wp-content/plugins/nsmg-tracking/
 www.newstatesman.com##.july22-newsletter
 www.newstatesman.com##.stream-item-above-header.ad
+
+||olytics.omeda.com/olytics/
+||s.dpmsrv.com/dpm_*.min.js
+||validate.onecount.net/js/oc.min.js
+visualstudiomagazine.com##.ad,#youtubesubscribe,#omedaDynamicForm
+visualstudiomagazine.com##.socialshare__wrapper
+
+! https://www.ag-grid.com/
+||secure.inventiveinspired7.com/$3p
+||secure.sharpinspiration-instinct.com/$3p
+
+||analytics.datatables.net/api/event
+||datatables.net/media/js/dynamic.php
+||datatables.net/media/feeds/err-log.php
+
+||abtestvm.bytedance.com/
+||api.feelgood.cn/athena/survey/platform/action/report/
+||apm.pinduoduo.com/api/pmm/$method=post
+||fp.vip.com/web/report
+||fxg.jinritemai.com/byteshop/helpdesk/
+||fxg.jinritemai.com/byteshop/shop_util/mertrics
+||fxg.jinritemai.com/report/submit_fe_barrier
+||lf-c-flwb.bytetos.com/obj/rc-client-security/web/glue/*/sdk-glue.js
+||lf3-short.bytegoofy.com/slardar/
+||lf3-short.ibytedapm.com/slardar/
+||localhost.bytedance.com
+||mar.vip.com/a?
+||mar.vip.com/c?
+||mar.vip.com/p?
+||mcs.zijieapi.com/
+||mercury.jd.com/log.gif
+||mms.pinduoduo.com/newjersy_popup/api/event/popup/show/submit
+||mms.pinduoduo.com/newjersy/api/mms/floatWindowV2
+||mms.pinduoduo.com/newjersy/api/mms/popup
+||mmstk.pinduoduo.com/t.gif
+||mon.zijieapi.com/
+||sc.appvipshop.com/vips-mobile-tracker/
+||secure.mediav.com/t?
+||sgm-static.jd.com/sgm-web-*.js
+||verify.snssdk.com/captcha/reportFrontend
+||wl.jd.com/joya.js
+||xg.pinduoduo.com/xg/pfb/
+fin.shop.jd.com##+js(set, window.log, noopFunc)
+mms.pinduoduo.com###umd_kits_home_entry
+passport.shop.jd.com##+js(set, window.log, noopFunc)
+
+||m1.openfpcdn.io/$from=bmbi.bamatea.com
