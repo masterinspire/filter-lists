@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, July 20, 2024
+! Last modified: Sunday, July 28, 2024
 ! Title: Custom Filter Lists
-! Version: 20240720
+! Version: 20240728
 !
 !
 !
@@ -183,6 +183,7 @@
 ||img6.wsimg.com/utag/utag.min.js$from=www.godaddy.com
 ||img6.wsimg.com/wrhs/*/tcc.min.js$from=www.godaddy.com
 ||jenkins-matomo.do.g4v.dev/matomo.js
+||m1.openfpcdn.io/$from=bmbi.bamatea.com
 ||matomo.ping.pe/
 ||pixel.ipinfo.io/analytics/log
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$3p
@@ -259,7 +260,7 @@ stackexchange.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#ann
 stackoverflow.com##.js-collectives-navcta-toggle,.js-create-team-cta
 stackoverflow.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner,.js-overflowai-cta
 stackoverflow.com###js-ai-search-alpha-popover,#notice-sidebar-popover
-superuser.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner
+superuser.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announcement-banner,.js-overflowai-cta
 
 ||mvnrepository.com/assets/images/p.gif
 mvnrepository.com##div.im:has(> div > .adsbygoogle)
@@ -381,6 +382,7 @@ www.microsoft.com##section.container[aria-label^="download center details page b
 ||exmail.qq.com/qy_mng_logic/logKVAuto
 ||exmail.qq.com/qy_mng_logic/reportKV
 ||localhost.work.weixin.qq.com
+||m.yyb.qq.com/access/v3/get_md_dynamic_pkg
 ||open.work.weixin.qq.com/wwopen/monoApi/report/
 ||otheve.beacon.qq.com/
 ||rumt-zh.com/collect
@@ -2019,6 +2021,7 @@ www.katsbits.com###custom_html-6,#custom_html-4
 
 /tracker/socket$from=peertube.tv|video.blender.org|peertube.nz
 ||analytics.blender.org/$strict3p
+||blender.org/$removeparam=/^utm_/
 ||fund.blender.org/static/fetch-donation-box.js
 ||peertube.nz/api/v1/metrics/
 ||peertube.nz/api/v1/server/logs/
@@ -2030,6 +2033,7 @@ www.katsbits.com###custom_html-6,#custom_html-4
 ||video.blender.org/api/v1/metrics/
 ||video.blender.org/api/v1/server/logs/
 ||video.blender.org/api/v1/videos/*/views
+docs.blender.org##.back-to-top
 peertube.tv##my-privacy-concerns,.broadcast-message
 video.blender.org##my-privacy-concerns,.broadcast-message
 
@@ -2067,6 +2071,7 @@ www.twitch.tv###twilight-sticky-footer-root
 ||web.archive.org/web/*/https://cdn.carbonads.com/
 ||web.archive.org/web/*/https://www.google-analytics.com/
 ||web.archive.org/web/*/https://www.googletagmanager.com/
+web.archive.org###donate_banner
 
 www.tecmint.com##center[style="padding-bottom: 45px;padding-top:35px;"]
 www.tecmint.com##center[style="padding-bottom:20px;padding-top:40px;"]
@@ -2144,19 +2149,35 @@ visualstudiomagazine.com##.socialshare__wrapper
 ||datatables.net/media/js/dynamic.php
 ||datatables.net/media/feeds/err-log.php
 
+! https://alasql.org/
+||mc.yandex.ru/metrika/tag.js
+||static.tildacdn.com/js/tilda-errors-*.js
+||static.tildacdn.com/js/tilda-stat-*.js
+
+||hm.woozooo.com/hm.js
+||statics.woozooo.com/img/hm.js
+eassos.lanzoue.com###jingshi
+
 ||abtestvm.bytedance.com/
 ||api.feelgood.cn/athena/survey/platform/action/report/
 ||apm.pinduoduo.com/api/pmm/$method=post
 ||blackhole.m.jd.com/bypass
 ||cactus.jd.com/error_report
 ||fp.vip.com/web/report
+||fxg.jinritemai.com/b/a/api/v1/pinpoint/pagepinpoint/get
+||fxg.jinritemai.com/b/a/api/v1/reach/list
+||fxg.jinritemai.com/broadcast/tbroadcast/
+||fxg.jinritemai.com/byteshop/broadcast/
 ||fxg.jinritemai.com/byteshop/helpdesk/
 ||fxg.jinritemai.com/byteshop/shop_util/mertrics
+||fxg.jinritemai.com/ffa/modern/service-worker.js
 ||fxg.jinritemai.com/report/submit_fe_barrier
+||fxg.jinritemai.com/sif/sif_js
 ||h5speed.m.jd.com/
 ||jcm.jd.com/pre
 ||knicks.jd.com/log/
-||lf-c-flwb.bytetos.com/obj/rc-client-security/web/glue/*/sdk-glue.js
+||lf-c-flwb.bytetos.com/obj/rc-client-security/
+||lf3-cdn-tos.bytescm.com/obj/static/log-sdk/
 ||lf3-short.bytegoofy.com/slardar/
 ||lf3-short.ibytedapm.com/slardar/
 ||localhost.bytedance.com
@@ -2168,6 +2189,10 @@ visualstudiomagazine.com##.socialshare__wrapper
 ||mms.pinduoduo.com/newjersy/api/mms/popup
 ||mmstk.pinduoduo.com/t.gif
 ||mon.zijieapi.com/
+||mssdk.bytedance.com/websdk/v1/getInfo
+||myseller.taobao.com/sw.js
+||qn.taobao.com/sw.js
+||retcode.alicdn.com/retcode/pro/log.js
 ||sc.appvipshop.com/vips-mobile-tracker/
 ||secure.mediav.com/t?
 ||sff.jd.com/api?*&api=dsm.jmSurvey.service.JmSurveyProxy.jmSurveyQuestionPull
@@ -2180,9 +2205,14 @@ fin.shop.jd.com##+js(set, window.log, noopFunc)
 mms.pinduoduo.com###umd_kits_home_entry
 passport.shop.jd.com##+js(set, window.log, noopFunc)
 
-||m1.openfpcdn.io/$from=bmbi.bamatea.com
+||assets.giocdn.com/*/gio.js
+||www.textin.com/api/ipsearch
+||www.textin.com/js/GrowingIO.js
+||www.textin.com/js/nps.js
+||www.textin.com/js/zhugeIO.js
+www.textin.com###__next > div[style="bottom:80px"]
 
-! https://alasql.org/
-||mc.yandex.ru/metrika/tag.js
-||static.tildacdn.com/js/tilda-errors-*.js
-||static.tildacdn.com/js/tilda-stat-*.js
+||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetMultipleLinkAds
+||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleAd
+||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleLargeAd
+platform.uno###cookie-law-info-bar
