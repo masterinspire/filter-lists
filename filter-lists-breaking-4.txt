@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, July 5, 2024
+! Last modified: Saturday, August 3, 2024
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20240705
+! Version: 20240803
 !
 !
 !
@@ -59,13 +59,12 @@ gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="us
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/GrahamcOfBorg"])
 ping.pe###main-div:style(max-width: unset !important; margin: unset !important;)
 search.brave.com##.inline-qa-answer:style(max-height: 100% !important;)
-search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.csdn.net/"])
-search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://blog.fundebug.com/"])
-search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://github.com/quickjs-zh/"])
-search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://pjchender.dev/"])
-search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://tsejx.github.io/"])
-search.brave.com##.snippet.fdb:has(> a.result-header[href^="https://www.zhihu.com/"])
-search.brave.com##.wrapper:has(>#chatllm):style(height: 100% !important; max-height: 100% !important;)
+search.brave.com###results > .snippet:has(> a.h[href^="https://blog.csdn.net/"])
+search.brave.com###results > .snippet:has(> a.h[href^="https://blog.fundebug.com/"])
+search.brave.com###results > .snippet:has(> a.h[href^="https://github.com/quickjs-zh/"])
+search.brave.com###results > .snippet:has(> a.h[href^="https://pjchender.dev/"])
+search.brave.com###results > .snippet:has(> a.h[href^="https://tsejx.github.io/"])
+search.brave.com###results > .snippet:has(> a.h[href^="https://www.zhihu.com/"])
 stackexchange.com###question-list > div.question-container[data-sid="chinese.stackexchange.com"]
 stackexchange.com###question-list > div.question-container[data-sid="japanese.stackexchange.com"]
 v2ex.com##.cell.item:has(.topic_info > strong > a[href="/member/Casbin"])

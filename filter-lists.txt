@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, July 28, 2024
+! Last modified: Saturday, August 3, 2024
 ! Title: Custom Filter Lists
-! Version: 20240728
+! Version: 20240803
 !
 !
 !
@@ -189,11 +189,13 @@
 ||s3.amazonaws.com/github/ribbons/forkme_*.png$3p
 ||stats.kde.org/
 ||stats.minetest.net/
+||telemetry.orama.run/
 ||tracking.unrealengine.com/tracking.js
 ||utteranc.es/$from=hackingcpp.com
 ||workers.dev/$from=www.maxon.net
 ||www.autohotkey.com/cdn-cgi/apps/head/
 ||www.devexpress.com/api/dxvisitor
+||www.intel.com/akam/
 ||www.os2museum.com/wp/wp-content/plugins/wp-simple-firewall/resources/js/shield/notbot.js
 ||www.rarlab.com/js/ckrule.js
 community.inc/cdn-cgi/zaraz/
@@ -382,7 +384,6 @@ www.microsoft.com##section.container[aria-label^="download center details page b
 ||exmail.qq.com/qy_mng_logic/logKVAuto
 ||exmail.qq.com/qy_mng_logic/reportKV
 ||localhost.work.weixin.qq.com
-||m.yyb.qq.com/access/v3/get_md_dynamic_pkg
 ||open.work.weixin.qq.com/wwopen/monoApi/report/
 ||otheve.beacon.qq.com/
 ||rumt-zh.com/collect
@@ -1653,14 +1654,17 @@ csdn.net##.csdn-side-toolbar
 www.csdn.net##.csdn-toolbar-creative-mp-bg
 
 ||ask.dcloud.net.cn/home/ajax/adv/adv-ask_adv_right_
-||restapi.amap.com/v3/log/
-||www.ttshitu.com/js/baidu.js
-
 ||furiondata.myhuaweicloud.com/$from=gitcode.com
+||fxsjcj2.kaipuyun.cn/
 ||gitee.com/*/*/access/add_access_log
+||guangxi.chinatax.gov.cn/js/busuanzi.pure.mini.js
 ||haveaniceday.gitee.com:3443/sa.gif
+||metrics-drcn.dt.hicloud.com/
+||restapi.amap.com/v3/log/
 ||sentry.gitcode.com/
 ||web-api.gitcode.com/api/v*/report
+||www.ttshitu.com/js/baidu.js
+developer.huawei.com##.feedbackBtn
 gitee.com##.register-guide,#user-no-license-message
 
 ||fanruanclub.com/login/cas/monitor
@@ -2169,7 +2173,10 @@ eassos.lanzoue.com###jingshi
 ||fxg.jinritemai.com/broadcast/tbroadcast/
 ||fxg.jinritemai.com/byteshop/broadcast/
 ||fxg.jinritemai.com/byteshop/helpdesk/
+||fxg.jinritemai.com/byteshop/m/ab_experiment/
 ||fxg.jinritemai.com/byteshop/shop_util/mertrics
+||fxg.jinritemai.com/ffa-micro-config/helper/doudian/index.html
+||fxg.jinritemai.com/ffa-micro-config/ws-arrival/index.html
 ||fxg.jinritemai.com/ffa/modern/service-worker.js
 ||fxg.jinritemai.com/report/submit_fe_barrier
 ||fxg.jinritemai.com/sif/sif_js
@@ -2202,6 +2209,9 @@ eassos.lanzoue.com###jingshi
 ||wl.jd.com/joya.js
 ||xg.pinduoduo.com/xg/pfb/
 fin.shop.jd.com##+js(set, window.log, noopFunc)
+fxg.jinritemai.com##body > div > div.auxo-modal-root:has-text(您当前使用的浏览器可能存在兼容性问题)
+fxg.jinritemai.com##body > div > div.auxo-modal-root:has-text(您当前使用的浏览器可能存在兼容性问题):upward(2):remove-attr(class)
+fxg.jinritemai.com##body > div > div.auxo-modal-root:has-text(您当前使用的浏览器可能存在兼容性问题):upward(2):remove-attr(style)
 mms.pinduoduo.com###umd_kits_home_entry
 passport.shop.jd.com##+js(set, window.log, noopFunc)
 
