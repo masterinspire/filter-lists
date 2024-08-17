@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, August 3, 2024
+! Last modified: Saturday, August 17, 2024
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20240803
+! Version: 20240817
 !
 !
 !
@@ -54,6 +54,7 @@ devblogs.microsoft.com##.landing-site > article:has(.entry-title > a[href^="http
 devblogs.microsoft.com##.landing-site > article:has(.entry-title > a[href^="https://devblogs.microsoft.com/java-ch/"])
 devblogs.microsoft.com##.landing-site > article:has(.entry-title > a[href^="https://devblogs.microsoft.com/java/"])
 developer.android.com##.devsite-page-bookmark-tooltip
+eslint.org##a.rule__name::after:style(height: unset !important; width: unset !important;)
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/choco-bot"])
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/forkyau"])
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/GrahamcOfBorg"])

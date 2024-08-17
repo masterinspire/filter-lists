@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, August 3, 2024
+! Last modified: Saturday, August 17, 2024
 ! Title: Custom Filter Lists
-! Version: 20240803
+! Version: 20240817
 !
 !
 !
@@ -145,6 +145,7 @@
 ! https://docs.python.org/3/library/index.html
 ! https://godotforums.org/d/15500-once-and-for-all-how-do-you-really-pronounce-godot/12
 ! https://python-poetry.org/docs/
+||plausible.io/api/event
 ||plausible.io/js/plausible.js$strict3p
 ||plausible.io/js/script.hash.outbound-links.js$strict3p
 ||plausible.io/js/script.js$strict3p
@@ -177,6 +178,7 @@
 ||codidact.com/community-assets//analytics.codidact.org/matomo.js
 ||crystaldoc-info.goatcounter.com/count
 ||datum.jsdelivr.com/api/event
+||dbeaver.io/wp-content/plugins/cookie-law-info/
 ||engine.adzerk.net/ados.js$from=lwn.net
 ||flux.faloo.com/pvdata.aspx
 ||gnar.grammarly.com/events
@@ -194,6 +196,9 @@
 ||utteranc.es/$from=hackingcpp.com
 ||workers.dev/$from=www.maxon.net
 ||www.autohotkey.com/cdn-cgi/apps/head/
+||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetMultipleLinkAds
+||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleAd
+||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleLargeAd
 ||www.devexpress.com/api/dxvisitor
 ||www.intel.com/akam/
 ||www.os2museum.com/wp/wp-content/plugins/wp-simple-firewall/resources/js/shield/notbot.js
@@ -207,6 +212,7 @@ get.videolan.org###uecookies
 github1s.com##.github1s-notification
 go.dev##.Cookie-notice
 helgeklein.com##.page__meta--sharing
+platform.uno###cookie-law-info-bar
 riptutorial.com##.add-z
 rufus.ie###cookie-notice,.adsbygoogle
 ubuntu.com##.cookie-policy
@@ -217,6 +223,7 @@ wss://app.tuta.com/ws-stats
 www.codeproject.com##div[aria-label="cookieconsent"]
 www.gtabase.com##.article-social-buttons,.wbl-social-buttons
 www.gtabase.com###ja-contentsl2>.module:has(.custom)
+www.navicat.com##.consent-banner-background
 www.pinvoke.net##a[href="https://mindfiretech.com"]
 www.pinvoke.net##h3:has-text(Mindfire Tech is proficient)
 www.sqlservercentral.com##.cookie-consent
@@ -231,9 +238,9 @@ www.wxwidgets.org##.logos.mb-4.border-primary.card
 ||cdn.search.brave.com/ks.json
 ||search.brave.com/api/ads/homepage
 ||search.brave.com/api/suggest
+search.brave.com##.download-cta
 search.brave.com##.promo-tooltip
 search.brave.com###search-elsewhere
-search.brave.com###searchbar-home > .download-button
 
 ||embed.typeform.com/$from=www.theregister.com
 ||go.theregister.com/k/abt_bb
@@ -329,6 +336,7 @@ www.typescriptlang.org###like-dislike-subnav,#page-helpful-popup
 ||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js
 ||widget.surveymonkey.com/$3p
 ||www.catalog.update.microsoft.com/home.aspx/NonActiveXUserLog
+||www.microsoft.com/aemapi/geoSelectorApi.geoSelectorData.json
 ||www.microsoft.com/store/buy/cartcount$frame
 ||www.surveymonkey.com/$from=devblogs.microsoft.com
 answers.microsoft.com###smcTeachingCalloutPopover
@@ -435,6 +443,7 @@ community.chocolatey.org###mc_embed_signup
 ||cn.cdnbye.com/v1/channel$3p
 ||js.users.51.la/$3p
 ||pro.ip-api.com/$3p
+||sdk.51.la/$script,3p
 ||union.maccms.la/html/prestrain.html
 ||www.88dyw.com/comment.php
 ||www.88dyw.com/include/ajax.php
@@ -446,6 +455,8 @@ community.chocolatey.org###mc_embed_signup
 ||www.yzbaoda.com/index.php/ajax/hits
 ||www.yzbaoda.com/index.php/user/ajax_ulog/
 ||www.yzbaoda.com/statics/api/js/share.js
+||yxhengwei.com/mip/iframeaaa.js
+||yxhengwei.com/seo/index.php
 www.88dyw.com##.gotop,.pfstyle,.pfplayer
 www.yzbaoda.com##.stui-pannel-side.col-xs-1.col-lg-wide-25
 
@@ -667,13 +678,20 @@ m2.material.io##mio-communication-banner
 m3.material.io##mio-cookie-notice
 material.angular.io##app-cookie-popup
 
+||col.csbops.io/data/sandpack$method=POST
+||nextjs.org/_stream/external/
+||nextjs.org/_vercel/insights/
+||nextjs.org/_vercel/speed-insights/
+||nextjs.org/api/show-consent-banner
+||nextjs.org/api/stream/internal
 create-react-app.dev##div[class^="announcementBar_"]
 docs.avaloniaui.net##div[class^="announcementBar_"]
-www.electronjs.org##div[class^="announcementBar_"]
 jestjs.io##div[class^="announcementBar_"]
 mui.com##a:has-text(MUI stands in solidarity with Ukraine)
 mui.com##span[data-ga-event-category="ad"]
+react.dev##.hidden.bottom-0.fixed:has-text(Is this page useful?)
 sass-lang.com##body > header > .sl-c-alert--special.sl-c-alert
+www.electronjs.org##div[class^="announcementBar_"]
 
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 ||cryptography.io/_/api/v2/analytics/
@@ -893,6 +911,7 @@ zzzprojects.com###site-footer-popup-newsletter
 
 /_/*Ui/browserinfo$from=google.com,method=post
 /_/*Ui/jserror$from=google.com,method=post
+||apis.google.com/js/plusone.js
 ||chrome.google.com/webstore/*/undefined
 ||chrome.google.com/webstore/$removeparam=gl,method=post
 ||chrome.google.com/webstore/ajax/eventlog
@@ -1281,6 +1300,7 @@ www.runoob.com##.fixed-btn,.adsbygoogle,.article-heading-ad
 www.w3resource.com###bottom_ad_zero_google,#h1_banner_block
 www.w3schools.com##.trytopnav ~ #container:style(top: 54px !important;)
 www.w3schools.com##.trytopnav:style(top: 0px !important;)
+www.w3schools.com###main > div[style]:has(>a[href="https://shop.w3schools.com/collections/course-catalog"])
 www.w3schools.com###right,#mainLeaderboard,#user-profile-bottom-wrapper
 www.w3schools.com###tryitLeaderboard,#getwebsitebtn
 
@@ -1545,6 +1565,7 @@ httptoolkit.com##div:has( > div > form[action^="https://tech.us18.list-manage.co
 ||m.baidu.com/rec?
 ||m.baidu.com/sugrec
 ||m.baidu.com/tc
+||mbd.baidu.com/ztbox?action=zpblog
 ||miao.baidu.com/abdr
 ||miaowu.baidu.com/sdk/heicha/
 ||miaowu.baidu.com/slim/abdr
@@ -1654,6 +1675,7 @@ csdn.net##.csdn-side-toolbar
 www.csdn.net##.csdn-toolbar-creative-mp-bg
 
 ||ask.dcloud.net.cn/home/ajax/adv/adv-ask_adv_right_
+||dppt.shenzhen.chinatax.gov.cn:8443/static_res/znhdsdk/
 ||furiondata.myhuaweicloud.com/$from=gitcode.com
 ||fxsjcj2.kaipuyun.cn/
 ||gitee.com/*/*/access/add_access_log
@@ -1959,6 +1981,7 @@ min.io###cookie
 ||g.alicdn.com/platform/common/s/*/monitor/
 ||g.alicdn.com/platform/xdomain-storage/*/frame.html$3p
 ||g.alicdn.com/retcode/log/
+||g.alicdn.com/tb/tracker/index.js
 ||gta.teambition.net/v1/track
 ||log.aliyuncs.com/
 ||login.dingtalk.com/oauth2/send_verify_code/_____tmd_____/report
@@ -2206,6 +2229,7 @@ eassos.lanzoue.com###jingshi
 ||sgm-static.jd.com/sgm-web-*.js
 ||store-gw.vip.com/news/list
 ||verify.snssdk.com/captcha/reportFrontend
+||web.jackyun.com/loginmedia/
 ||wl.jd.com/joya.js
 ||xg.pinduoduo.com/xg/pfb/
 fin.shop.jd.com##+js(set, window.log, noopFunc)
@@ -2213,6 +2237,9 @@ fxg.jinritemai.com##body > div > div.auxo-modal-root:has-text(您当前使用的
 fxg.jinritemai.com##body > div > div.auxo-modal-root:has-text(您当前使用的浏览器可能存在兼容性问题):upward(2):remove-attr(class)
 fxg.jinritemai.com##body > div > div.auxo-modal-root:has-text(您当前使用的浏览器可能存在兼容性问题):upward(2):remove-attr(style)
 mms.pinduoduo.com###umd_kits_home_entry
+myseller.taobao.com##+js(set, window.AES, {})
+myseller.taobao.com##+js(set, window.AES.before, noopFunc)
+myseller.taobao.com##+js(set, window.AES.setConfig, noopFunc)
 passport.shop.jd.com##+js(set, window.log, noopFunc)
 
 ||assets.giocdn.com/*/gio.js
@@ -2222,7 +2249,6 @@ passport.shop.jd.com##+js(set, window.log, noopFunc)
 ||www.textin.com/js/zhugeIO.js
 www.textin.com###__next > div[style="bottom:80px"]
 
-||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetMultipleLinkAds
-||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleAd
-||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleLargeAd
-platform.uno###cookie-law-info-bar
+||www.developer-tech.com/wp-content/plugins/complianz-gdpr/cookiebanner/
+||www.developer-tech.com/wp-json/wordpress-popular-posts/v2/views/
+www.developer-tech.com##.the_champ_sharing_container

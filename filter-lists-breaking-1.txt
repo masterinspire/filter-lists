@@ -2,21 +2,22 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, August 3, 2024
+! Last modified: Saturday, August 17, 2024
 ! Title: Custom Filter Lists Breaking 1
-! Version: 20240803
+! Version: 20240817
 !
 !
 !
-||accounts.google.com/$third-party
-||blogger.com$third-party
-||bp.blogspot.com/$third-party
+||accounts.google.com/$3p
+||blogger.com/$3p
+||bp.blogspot.com/$3p
 ||cefsharp.github.io/images/top-header.png
 ||codesandbox.io$domain=mui.com
 ||embed.runkit.com$domain=lodash.com
 ||feedburner.google.com$domain=chocolatey.org
 ||firebase-dot-devsite-v2-prod.appspot.com/$domain=firebase.google.com
 ||graph.facebook.com/*/picture$3p
+||i.ytimg.com/$3p
 ||mail.google.com/mail/$domain=www.erlang.org
 ||raw.githubusercontent.com/mui/material-ui/master/docs/notifications.json$domain=mui.com
 ||stackblitz.com$domain=ng.ant.design
@@ -26,9 +27,9 @@
 ||www.google.com/$from=bugs.python.org
 ||www.google.com/coop/intl/en/images/google_custom_search_watermark.gif$from=ruby-lang.org
 ||www.google.com/favicon.ico$strict3p
-||www.youtube-nocookie.com/$third-party
-||youtube.com/$third-party
-||z2c2b4z9.stackpathcdn.com/$3p,image
+||www.google.com/js/bg/*.js$3p
+||www.youtube-nocookie.com/$3p
+||youtube.com/$3p
 blog.pcrisk.com##.embed-container:has(>iframe[src^="https://www.youtube.com/"])
 developer.android.com##.video-wrapper:has(devsite-video)
 developer.android.com##devsite-video
