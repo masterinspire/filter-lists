@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Saturday, August 17, 2024
+! Last modified: Sunday, August 25, 2024
 ! Title: Custom Filter Lists
-! Version: 20240817
+! Version: 20240825
 !
 !
 !
@@ -42,7 +42,7 @@
 ||tagan.adlightning.com/$3p,script
 ||vitals.vercel-analytics.com/
 ||www.clarity.ms/tag/
-||www.facebook.com/plugins/like.php$3p
+||www.facebook.com/plugins/*.php$3p
 ||www.googleoptimize.com/$3p,script
 ||www.googletagmanager.com/$3p,script
 ||www.googletagservices.com/$3p,script
@@ -679,11 +679,15 @@ m3.material.io##mio-cookie-notice
 material.angular.io##app-cookie-popup
 
 ||col.csbops.io/data/sandpack$method=POST
+||demo.medama.io/script.js$from=fontsource.org
+||lit.dev/js/litdev-cookie-banner.js
 ||nextjs.org/_stream/external/
 ||nextjs.org/_vercel/insights/
 ||nextjs.org/_vercel/speed-insights/
 ||nextjs.org/api/show-consent-banner
 ||nextjs.org/api/stream/internal
+||staticdocs.thefacebook.com/$from=lexical.dev
+||t.arcade.show/api/ingest/
 create-react-app.dev##div[class^="announcementBar_"]
 docs.avaloniaui.net##div[class^="announcementBar_"]
 jestjs.io##div[class^="announcementBar_"]
@@ -691,6 +695,7 @@ mui.com##a:has-text(MUI stands in solidarity with Ukraine)
 mui.com##span[data-ga-event-category="ad"]
 react.dev##.hidden.bottom-0.fixed:has-text(Is this page useful?)
 sass-lang.com##body > header > .sl-c-alert--special.sl-c-alert
+vitejs.dev##.VPDocAsideCarbonAds,.VPDocAsideSponsors,.viteconf
 www.electronjs.org##div[class^="announcementBar_"]
 
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
@@ -1298,11 +1303,11 @@ www.typescripttutorial.net##.donation,#back-to-top,.ad,.helpful-block-content
 ||www.w3resource.com/*/job-history-text.php$frame
 www.runoob.com##.fixed-btn,.adsbygoogle,.article-heading-ad
 www.w3resource.com###bottom_ad_zero_google,#h1_banner_block
+www.w3schools.com##.ga-featured.spaces-tryit
 www.w3schools.com##.trytopnav ~ #container:style(top: 54px !important;)
 www.w3schools.com##.trytopnav:style(top: 0px !important;)
-www.w3schools.com###main > div[style]:has(>a[href="https://shop.w3schools.com/collections/course-catalog"])
 www.w3schools.com###right,#mainLeaderboard,#user-profile-bottom-wrapper
-www.w3schools.com###tryitLeaderboard,#getwebsitebtn
+www.w3schools.com###tryitLeaderboard,#getwebsitebtn,#getdiploma
 
 ||cdn.adpushup.com/$from=www.tutorialspoint.com
 ||shop.pe/widget/widget_async.js$from=www.tutorialspoint.com
@@ -1392,6 +1397,7 @@ gtaforums.com###comments > div[style="margin-top: 10px"]:has(#pwDeskLbAtf)
 gtaforums.com###elGuestTerms
 gtaforums.com##div[style="min-height:250px;margin-bottom:10px"]:has(>#pwDeskLbAtf)
 users.rust-lang.org##.quote-button
+web3auth.io##.quote-button
 
 ||cdn.fuseplatform.net/publift/tags/*/fuse.js
 ||fundingchoicesmessages.google.com/$3p
@@ -1917,6 +1923,7 @@ www.wired.com##div[class^="InterstitialWrapper-"]:has(.paywall-modal)
 
 ||app.posthog.com/decide/$from=fontawesome.com
 ||beacon-v2.helpscout.net/$3p
+||cdn.segment.com/analytics.js
 ||e.fontawesome.com/decide/
 ||insights.algolia.io/$3p
 ||m.servedby-buysellads.com/monetization.js$3p
@@ -2187,7 +2194,6 @@ eassos.lanzoue.com###jingshi
 
 ||abtestvm.bytedance.com/
 ||api.feelgood.cn/athena/survey/platform/action/report/
-||apm.pinduoduo.com/api/pmm/$method=post
 ||blackhole.m.jd.com/bypass
 ||cactus.jd.com/error_report
 ||fp.vip.com/web/report
@@ -2196,7 +2202,6 @@ eassos.lanzoue.com###jingshi
 ||fxg.jinritemai.com/broadcast/tbroadcast/
 ||fxg.jinritemai.com/byteshop/broadcast/
 ||fxg.jinritemai.com/byteshop/helpdesk/
-||fxg.jinritemai.com/byteshop/m/ab_experiment/
 ||fxg.jinritemai.com/byteshop/shop_util/mertrics
 ||fxg.jinritemai.com/ffa-micro-config/helper/doudian/index.html
 ||fxg.jinritemai.com/ffa-micro-config/ws-arrival/index.html
@@ -2217,10 +2222,12 @@ eassos.lanzoue.com###jingshi
 ||mms.pinduoduo.com/newjersy_popup/api/event/popup/show/submit
 ||mms.pinduoduo.com/newjersy/api/mms/floatWindowV2
 ||mms.pinduoduo.com/newjersy/api/mms/popup
+||mms.pinduoduo.com/rivendell/api/marketingTools/cards/tracker
 ||mmstk.pinduoduo.com/t.gif
 ||mon.zijieapi.com/
 ||mssdk.bytedance.com/websdk/v1/getInfo
 ||myseller.taobao.com/sw.js
+||pinduoduo.com/api/pmm/$method=post
 ||qn.taobao.com/sw.js
 ||retcode.alicdn.com/retcode/pro/log.js
 ||sc.appvipshop.com/vips-mobile-tracker/
@@ -2241,6 +2248,9 @@ myseller.taobao.com##+js(set, window.AES, {})
 myseller.taobao.com##+js(set, window.AES.before, noopFunc)
 myseller.taobao.com##+js(set, window.AES.setConfig, noopFunc)
 passport.shop.jd.com##+js(set, window.log, noopFunc)
+qn.taobao.com##+js(set, window.AES, {})
+qn.taobao.com##+js(set, window.AES.before, noopFunc)
+qn.taobao.com##+js(set, window.AES.setConfig, noopFunc)
 
 ||assets.giocdn.com/*/gio.js
 ||www.textin.com/api/ipsearch
