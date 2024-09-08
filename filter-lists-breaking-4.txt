@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, August 25, 2024
+! Last modified: Sunday, September 8, 2024
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20240825
+! Version: 20240908
 !
 !
 !
@@ -59,6 +59,10 @@ gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="us
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/forkyau"])
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/GrahamcOfBorg"])
 ping.pe###main-div:style(max-width: unset !important; margin: unset !important;)
+pypi.org##ul[aria-label="Search results"] > li:has( > a[href="/project/openpyxl-2-6-1-zhongwen-wendang/"])
+pypi.org##ul[aria-label="Search results"] > li:has( > a[href="/project/openpyxl-autofill/"])
+pypi.org##ul[aria-label="Search results"] > li:has( > a[href="/project/pywin10/"])
+pypi.org##ul[aria-label="Search results"] > li:has( > a[href="/project/pywin10ui/"])
 search.brave.com##.inline-qa-answer:style(max-height: 100% !important;)
 search.brave.com###results > .snippet:has(> a.h[href^="https://blog.csdn.net/"])
 search.brave.com###results > .snippet:has(> a.h[href^="https://blog.fundebug.com/"])

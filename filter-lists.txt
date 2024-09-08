@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, August 25, 2024
+! Last modified: Sunday, September 8, 2024
 ! Title: Custom Filter Lists
-! Version: 20240825
+! Version: 20240908
 !
 !
 !
@@ -21,6 +21,7 @@
 ||btloader.com/tag$3p,script
 ||cdn.adsafeprotected.com/$3p
 ||cdn.adsninja.ca/$3p
+||cdn.polyfill.io/
 ||cdnjs.buymeacoffee.com/$3p,script
 ||connect.facebook.net/$3p,script
 ||g.doubleclick.net/$3p
@@ -145,6 +146,8 @@
 ! https://docs.python.org/3/library/index.html
 ! https://godotforums.org/d/15500-once-and-for-all-how-do-you-really-pronounce-godot/12
 ! https://python-poetry.org/docs/
+! https://tqdm.github.io/
+||plausible.cdcl.ml/js/script.js
 ||plausible.io/api/event
 ||plausible.io/js/plausible.js$strict3p
 ||plausible.io/js/script.hash.outbound-links.js$strict3p
@@ -201,6 +204,7 @@
 ||www.c-sharpcorner.com/WebServices/CommonServices.asmx/GetNewsArticleLargeAd
 ||www.devexpress.com/api/dxvisitor
 ||www.intel.com/akam/
+||www.intel.com/content/dam/www/global/wap/cdn/wap.gif
 ||www.os2museum.com/wp/wp-content/plugins/wp-simple-firewall/resources/js/shield/notbot.js
 ||www.rarlab.com/js/ckrule.js
 community.inc/cdn-cgi/zaraz/
@@ -413,7 +417,7 @@ sj.qq.com##div[class^="Header_downloadQRCode__"]
 
 ||cdnads.geeksforgeeks.org/$from=www.geeksforgeeks.org
 ||communityapi.geeksforgeeks.org/api/geo/analytics/
-||j.6sc.co/$from=www.geeksforgeeks.org
+||j.6sc.co/$3p,script
 ||matomo.geeksforgeeks.org/matomo.js
 ||sp.tinymce.com/i?$from=practice.geeksforgeeks.org
 ||util.geeksforgeeks.org/profileLink.php
@@ -440,11 +444,14 @@ community.chocolatey.org##.btn-announcement-notifications.btn-collapsing-right-s
 community.chocolatey.org###cookieNoticeAlert,#callout-package-warning
 community.chocolatey.org###mc_embed_signup
 
+||api.511a.co/common.js$3p
 ||cn.cdnbye.com/v1/channel$3p
 ||js.users.51.la/$3p
 ||pro.ip-api.com/$3p
 ||sdk.51.la/$script,3p
 ||union.maccms.la/html/prestrain.html
+||uv60.cn/tj/tongji.js
+||v1.cnzz.com/z.js$3p
 ||www.88dyw.com/comment.php
 ||www.88dyw.com/include/ajax.php
 ||www.88dyw.com/js/ads/
@@ -452,12 +459,15 @@ community.chocolatey.org###mc_embed_signup
 ||www.88dyw.com/pic/shoucangwap.png
 ||www.88dyw.com/static/api/js/share.js
 ||www.88dyw.com/templets/88ys/images/wxewm.png
+||www.njsxpx.com/$3p
+||www.yunyaocun.com/index.php/ajax/hits
 ||www.yzbaoda.com/index.php/ajax/hits
 ||www.yzbaoda.com/index.php/user/ajax_ulog/
 ||www.yzbaoda.com/statics/api/js/share.js
 ||yxhengwei.com/mip/iframeaaa.js
 ||yxhengwei.com/seo/index.php
 www.88dyw.com##.gotop,.pfstyle,.pfplayer
+www.yxhengwei.com##.hidden-xs.hidden-sm.stui-pannel-side.col-xs-1.col-lg-wide-25
 www.yzbaoda.com##.stui-pannel-side.col-xs-1.col-lg-wide-25
 
 /preview.mp4$from=missav.com
@@ -692,6 +702,7 @@ create-react-app.dev##div[class^="announcementBar_"]
 docs.avaloniaui.net##div[class^="announcementBar_"]
 jestjs.io##div[class^="announcementBar_"]
 mui.com##a:has-text(MUI stands in solidarity with Ukraine)
+mui.com##div.MuiStack-root:has(>a[data-ga-event-category="sponsor"])
 mui.com##span[data-ga-event-category="ad"]
 react.dev##.hidden.bottom-0.fixed:has-text(Is this page useful?)
 sass-lang.com##body > header > .sl-c-alert--special.sl-c-alert
@@ -701,6 +712,7 @@ www.electronjs.org##div[class^="announcementBar_"]
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 ||cryptography.io/_/api/v2/analytics/
 ||cryptography.io/_/static/javascript/readthedocs-analytics.js
+||docs.aiohttp.org/_/api/v2/analytics/
 ||docs.automapper.org/_/api/v2/analytics/
 ||docs.automapper.org/_/static/javascript/readthedocs-analytics.js
 ||docs.godotengine.org/_/api/v2/analytics/
@@ -975,10 +987,10 @@ www.tensorflow.org##devsite-thumb-rating,.devsite-banner.devsite-banner-announce
 www.bbc.com##.dotcom-ad
 www.bbc.com###onwardJourneysExperimental-label-aside-content
 
-||analytics-cf.bigcrunch.com/
+||bigcrunch.com/$from=tvtropes.org
 ||htlbid.com/v3/tvtropes.org/htlbid.js
-||test.bigcrunch.com/tvtropes.main.js
 ||vi.ml314.com/get
+||www.redditstatic.com/ads/pixel.js
 tvtropes.org##.sb-fad-unit.sidebar-item,.fad
 
 ||static.mailerlite.com/js/universal.js$from=tkdocs.com
@@ -1208,7 +1220,8 @@ www.thurrott.com##div[data-thurrott-section-article-section="share"],div[data-th
 ||www.ign.com/static/pv_candidate.html
 
 ||api.enthusiastgaming.net/$from=fextralife.com
-||player.twitch.tv/$from=fextralife.com
+||cdn.intergient.com/$from=fextralife.com
+||fextralife.minnit.org/cdn-cgi/trace
 ||widget.gleamjs.io/$from=fextralife.com
 wiki.fextralife.com###sidebar-wrapper
 wiki.fextralife.com###wrapper:style(padding-left: initial !important;)
@@ -1633,12 +1646,14 @@ www.cnblogs.com###blog_post_info,#side_right,a[onclick^="countCreativeClicks"]
 ||apm.zhihu.com/collector/
 ||crash2.zhihu.com/
 ||da.dun.163.com/sn.gif
+||datahub.zhihu.com/collector/
 ||mcs.volceapplog.com/$3p
 ||sugar.zhihu.com/plutus_adreaper
 ||unpkg.zhimg.com/@cfe/sentry-script@*/dist/init.js
 ||unpkg.zhimg.com/za-js-sdk@*/dist/zap.js
 ||www.zhihu.com/commercial_api/banners_v3/
 ||www.zhihu.com/qrcode?url=
+||www.zhihu.com/sc-assets-tracker
 ||www.zhihu.com/sc-profiler
 ||zhihu-web-analytics.zhihu.com/
 www.zhihu.com##.AppBanner
@@ -2196,6 +2211,8 @@ eassos.lanzoue.com###jingshi
 ||api.feelgood.cn/athena/survey/platform/action/report/
 ||blackhole.m.jd.com/bypass
 ||cactus.jd.com/error_report
+||channels.weixin.qq.com/shop-faas/mmchannelstradecommonreport/cgi/commonReport
+||cube.weixinbridge.com/cube/report/reportbizdata
 ||fp.vip.com/web/report
 ||fxg.jinritemai.com/b/a/api/v1/pinpoint/pagepinpoint/get
 ||fxg.jinritemai.com/b/a/api/v1/reach/list
@@ -2211,11 +2228,11 @@ eassos.lanzoue.com###jingshi
 ||h5speed.m.jd.com/
 ||jcm.jd.com/pre
 ||knicks.jd.com/log/
-||lf-c-flwb.bytetos.com/obj/rc-client-security/
 ||lf3-cdn-tos.bytescm.com/obj/static/log-sdk/
 ||lf3-short.bytegoofy.com/slardar/
 ||lf3-short.ibytedapm.com/slardar/
 ||localhost.bytedance.com
+||log-sdk.ksapisrv.com/
 ||mar.vip.com/
 ||mcs.zijieapi.com/
 ||mercury.jd.com/log.gif
@@ -2225,6 +2242,7 @@ eassos.lanzoue.com###jingshi
 ||mms.pinduoduo.com/rivendell/api/marketingTools/cards/tracker
 ||mmstk.pinduoduo.com/t.gif
 ||mon.zijieapi.com/
+||mssdk.bytedance.com/web/report
 ||mssdk.bytedance.com/websdk/v1/getInfo
 ||myseller.taobao.com/sw.js
 ||pinduoduo.com/api/pmm/$method=post
@@ -2236,6 +2254,7 @@ eassos.lanzoue.com###jingshi
 ||sgm-static.jd.com/sgm-web-*.js
 ||store-gw.vip.com/news/list
 ||verify.snssdk.com/captcha/reportFrontend
+||web-trace.ksapisrv.com/
 ||web.jackyun.com/loginmedia/
 ||wl.jd.com/joya.js
 ||xg.pinduoduo.com/xg/pfb/
@@ -2251,6 +2270,7 @@ passport.shop.jd.com##+js(set, window.log, noopFunc)
 qn.taobao.com##+js(set, window.AES, {})
 qn.taobao.com##+js(set, window.AES.before, noopFunc)
 qn.taobao.com##+js(set, window.AES.setConfig, noopFunc)
+s.kwaixiaodian.com###kpro-tool-box-tools-containner
 
 ||assets.giocdn.com/*/gio.js
 ||www.textin.com/api/ipsearch
@@ -2262,3 +2282,21 @@ www.textin.com###__next > div[style="bottom:80px"]
 ||www.developer-tech.com/wp-content/plugins/complianz-gdpr/cookiebanner/
 ||www.developer-tech.com/wp-json/wordpress-popular-posts/v2/views/
 www.developer-tech.com##.the_champ_sharing_container
+
+||apm-proxy.app.elstc.co/intake/v2/rum/events
+||global.ketchcdn.com/web/v2/config/ngrok/ngrok_ketch_tag/boot.js
+||www.elastic.co/gdpr-data
+
+||geoip-js.com/js/apis/geoip2/
+||staging.logrocket.com/logger.js
+||storage.googleapis.com/lr-marketing-js/lr-web-analytics/
+blog.logrocket.com##.footer-cta-container
+blog.logrocket.com##.show.post-popup[data-popup-name="dev-cab"]
+blog.logrocket.com###nav-bar-container > .code-block
+blog.logrocket.com###post-toc ~ .code-block
+blog.logrocket.com###the-content-container > .lr-content > .code-block
+
+||fourier.alibaba.com/ts
+||scrm-wx.weiling.cn/marketing_track/
+||sentry.oray.com/
+||tk.oray.com/track
