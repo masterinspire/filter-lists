@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, September 8, 2024
+! Last modified: Friday, October 4, 2024
 ! Title: Custom Filter Lists
-! Version: 20240908
+! Version: 20241004
 !
 !
 !
@@ -101,9 +101,6 @@
 
 ! https://holdings.panasonic/global/support.html
 ||cdn-apac.onetrust.com/$3p,script
-
-! https://practice.geeksforgeeks.org/explore
-||www.clarity.ms/$3p,script
 
 ! https://cdnjs.com/
 ! https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
@@ -279,12 +276,14 @@ superuser.com##.js-consent-banner,.js-freemium-cta,.js-dismissable-hero,#announc
 mvnrepository.com##div.im:has(> div > .adsbygoogle)
 
 ||cdn.fundraiseup.com/widget/$from=foundation.mozilla.org|commonvoice.mozilla.org
+||connect.mozilla.org/beacon/*.gif
 ||developer.mozilla.org/$removeparam=/^utm_/
 ||developer.mozilla.org/api/v1/whoami
 ||developer.mozilla.org/pong/get
 ||developer.mozilla.org/static/js/ga.js
 ||developer.mozilla.org/static/js/gtag.js
 ||developer.mozilla.org/submit/mdn-yari/
+connect.mozilla.org##.lia-cookie-banner-alert
 developer.mozilla.org##.top-banner
 foundation.mozilla.org##.share-button-group-wrapper
 foundation.mozilla.org##body > .wrapper > .tw-container
@@ -422,11 +421,13 @@ sj.qq.com##div[class^="Header_downloadQRCode__"]
 ||sp.tinymce.com/i?$from=practice.geeksforgeeks.org
 ||util.geeksforgeeks.org/profileLink.php
 ||utilapi.geeksforgeeks.org/api/vcs/fetchpostad/
+||www.clarity.ms/$3p,script
 practice.geeksforgeeks.org##.CookieConsent
 www.geeksforgeeks.org##.article_bottom_text
 www.geeksforgeeks.org##.article-page_flex .leftBar:style(flex-basis: inherit !important; max-width: inherit !important; min-width: inherit !important; )
 www.geeksforgeeks.org##.cookie-consent
 www.geeksforgeeks.org##.rightBar,.widget-area,div[id^="GFG_AD_"]
+www.geeksforgeeks.org##.wkSummaryMainWrapper
 www.geeksforgeeks.org###hslider > li > [href^="https://www.geeksforgeeks.org/courses"]
 
 @@||hlsmedia.gannett-cdn.com/$from=www.usatoday.com
@@ -530,6 +531,7 @@ www.robtex.com##header > div[style*="height:250px;"]
 ||api.github.com/_private/browser/stats
 ||collector.github.com/
 ||collector.githubapp.com/
+||ghcc.githubassets.com/ghcc.min.js
 gist.github.com##.gist-banner.gist-detail-intro
 github.blog##.post__social,.post__sidebar > div
 github.blog###newsletter
@@ -540,11 +542,13 @@ github.blog###newsletter
 @@||www.jetbrains.com/_assets/common.
 @@||www.jetbrains.com/_assets/default-page.
 @@||www.jetbrains.com/_assets/f-block.
+||cdn3.optimizely.com/js/geo4.js
 ||data.services.jetbrains.com/geo
 ||jbssales.zendesk.com/frontendevents
 ||kotlinlang.org/docs/static/v3/analytics.js
 ||plugins.jetbrains.com/plugin/index?xmlId$removeparam=/^utm_/
 ||resources.jetbrains.com/storage/help-app/v6/analytics.js
+||resources.jetbrains.com/storage/optly/
 ||www.jetbrains.com/_assets/
 ||youtrack.jetbrains.com/api/analytics
 ||youtrack.jetbrains.com/api/users/me/profiles/analytics
@@ -563,7 +567,6 @@ youtrack.jetbrains.com##div[data-test="alert-container"]:has(span:has-text(User 
 ||api.company-target.com/$from=vmware.com
 ||api.demandbase.com/$from=vmware.com
 ||feedback.esp.vmware.com/$from=vmware.com,script
-||searchunify.broadcom.com/analytics/suanlytics.png
 ||tags.tiqcdn.com/$from=vmware.com|www.rabbitmq.com
 
 ||customerconnect.vmware.com/$script,1p
@@ -593,13 +596,21 @@ youtrack.jetbrains.com##div[data-test="alert-container"]:has(span:has-text(User 
 docs.vmware.com##.social-media-icons-container
 kb.vmware.com##c-km_-global-search-feedback-component,c-kb-article-feedback,#RightMenu
 
+||chat-widget.imi.chat/logevent
+||searchunify.broadcom.com/analytics/suanlytics.png
+||searchunify.broadcom.com/resources/Allow/an.js
+
 ||api.radar.cloudflare.com/beacon.js
 ||blog.cloudflare.com/content/images/oneTrust_production/
+||blog.cloudflare.com/static/z/*.js
 ||cdn.bizible.com/scripts/bizible.js
-||developers.cloudflare.com/cdn-cgi/zaraz/i.js
+||developers.cloudflare.com/cdn-cgi/zaraz/
 ||feedback.developers.cloudflare.com/sdk.js
 ||munchkin.marketo.net/$from=blog.cloudflare.com
+||ot.www.cloudflare.com/public/vendor/onetrust/
+||performance.radar.cloudflare.com/beacon.js
 ||platform.linkedin.com/in.js$3p
+||radar.cloudflare.com/api/analytics
 ||tr.www.cloudflare.com/gtm.js
 ||trk.techtarget.com/tracking.js$3p
 ||wwwcloudflare.cloudflareaccess.com/$from=blog.cloudflare.com
@@ -707,6 +718,7 @@ mui.com##span[data-ga-event-category="ad"]
 react.dev##.hidden.bottom-0.fixed:has-text(Is this page useful?)
 sass-lang.com##body > header > .sl-c-alert--special.sl-c-alert
 vitejs.dev##.VPDocAsideCarbonAds,.VPDocAsideSponsors,.viteconf
+vitest.dev##.VPDocAsideCarbonAds,.viteconf
 www.electronjs.org##div[class^="announcementBar_"]
 
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js
@@ -945,6 +957,7 @@ zzzprojects.com###site-footer-popup-newsletter
 ||shared-storage-demo-content-producer.web.app/paa/scripts/private-aggregation-test.js$from=developer.chrome.com|web.dev
 ||source.chromium.org/v1/logging
 ||tools.google.com/service/update2/dlpageping
+||www.google.com/adsense/search/ads.js
 ||www.google.com/images/icons/product/cloud_storage-32.png$from=commondatastorage.googleapis.com
 ||www.google.com/images/icons/product/sites-16.ico$from=sites.google.com
 ||www.google.com/js/$from=chrome.google.com,script
@@ -966,15 +979,11 @@ web.dev##web-devrel-ribbon,.flow-space-base.flow.docked-actions
 web.dev##web-snackbar-container:has(a[href="https://policies.google.com/technologies/cookies"])
 www.tensorflow.org##devsite-thumb-rating,.devsite-banner.devsite-banner-announcement
 
-! https://www.bbc.com/
-! https://www.techradar.com/phones/iphone/please-apple-let-these-iphone-15-pro-thunderbolt-rumors-be-true
 ||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$3p
 ||cdn.tinypass.com/api/tinypass.min.js$3p
-
-! https://www.bbc.com/
-! https://www.techspot.com/
 ||static.chartbeat.com/js/chartbeat.js$3p
 
+||cdn.brandmetrics.com/tag/*/BBC_GLOBAL.js
 ||edigitalsurvey.com/$from=bbc.com
 ||emp.bbc.com/emp/SMPj/*/iframe.html
 ||federated-id.stage.api.bbc.co.uk/encryptdeviceid
@@ -1037,13 +1046,14 @@ helpx.adobe.com##.feedback
 ||c.oracleinfinity.io/acs/account/*/js/mysql/odc.js
 ||consent.truste.com/notice
 ||labs.mysql.com/common/js/metrics/
-dev.mysql.com##.social-icons
+dev.mysql.com##.social-icons,#eed-banner
 
 ||bugreports.qt.io/rest/analytics/
+||exceptions.hubspot.com/
 ||hsforms.com/embed/v3/counters.gif
-||js.hs-analytics.net/$from=www.qt.io
-||js.hs-banner.com/$from=www.qt.io
-||js.hsadspixel.net/$from=www.qt.io
+||js.hs-analytics.net/
+||js.hs-banner.com/
+||js.hsadspixel.net/
 ||www.qt.io/_hcms/perf/v2
 doc.qt.io##.sidebar-container, .toc-drawer:style(width: 20rem !important; min-width: 15rem !important; padding-right: 0rem !important;)
 doc.qt.io##.sidebar-drawer,.content:style(width: unset !important;)
@@ -1449,7 +1459,7 @@ www.nature.com##aside.c-article-extras > .js-context-bar-sticky-point-desktop
 ||player.cnevids.com/interlude/arstechnica.js$from=arstechnica.com
 ||s.skimresources.com/js/*.skimlinks.js$from=arstechnica.com
 ||shiverscissors.com/$from=arstechnica.com
-arstechnica.com##.ad,.ad_xrail,.ad_wrapper
+arstechnica.com##.ad,.ad_xrail,.ad_wrapper,.ad-wrapper
 
 ||www.foldnfly.com/ads/
 www.foldnfly.com###references
@@ -1901,8 +1911,10 @@ www.404media.co##.js-popup.popup,.subscribe,.post-hero__ad,.ad-fixed__wrapper
 ||assets.flodesk.com/universal.mjs$from=thebookofshaders.com
 ||by2.uservoice.com/*/track.js$from=free3d.com
 ||clanker-events.squarespace.com/$from=www.blendersecrets.org
+||forum.freecad.org/assets/cookieconsent/
 ||geniuslinkcdn.com/snippet.min.js$from=www.blender3darchitect.com
 ||godottutorials.com/js/subscription.min.js
+||itch.io/ca.gif
 ||kenney.nl/*/counter-pixel
 ||openframe.io/hub.html$from=thebookofshaders.com
 ||physicallybased.info/api/event
@@ -1912,9 +1924,11 @@ artisticrender.com###section-26-4934,#div_block-11-4933,#link-144-4933,#section-
 finepointcgi.io##.ct-share-box
 godotforums.org##.Post-quoteButtonContainer
 godottutorials.com##.social-line,.subscribe-line
+kenney.nl##a.no-select.warning[href="https://kenney.nl/donate"]
 polyhaven.com##.CookieConsent,div[class^="AssetPage_sidebarAd__"],div[class^="NewsCard_wrapper__"],div[class^="Sidebar_footerWrapper"]
 www.blender3darchitect.com##div[class*="snp-pop-"]
 www.blendersecrets.org##.sqs-cookie-banner-v2
+www.materialmaker.org###cookiesCompliance
 www.shadertoy.com###compliance
 
 ||coveralls.io/repos/github/SCons/scons/badge.svg$from=scons.org
@@ -2115,7 +2129,9 @@ www.twitch.tv###twilight-sticky-footer-root
 
 ||analytics.archive.org/
 ||archive.org/includes/analytics.js
+||archive.org/includes/athena.js
 ||archive.org/includes/donate.php
+||athena.archive.org/
 ||sentry.archive.org/
 ||web.archive.org/web/*/https://cdn.carbonads.com/
 ||web.archive.org/web/*/https://www.google-analytics.com/
@@ -2258,6 +2274,7 @@ eassos.lanzoue.com###jingshi
 ||web.jackyun.com/loginmedia/
 ||wl.jd.com/joya.js
 ||xg.pinduoduo.com/xg/pfb/
+b.alipay.com###bportal > div[class^="ie11_"]
 fin.shop.jd.com##+js(set, window.log, noopFunc)
 fxg.jinritemai.com##body > div > div.auxo-modal-root:has-text(您当前使用的浏览器可能存在兼容性问题)
 fxg.jinritemai.com##body > div > div.auxo-modal-root:has-text(您当前使用的浏览器可能存在兼容性问题):upward(2):remove-attr(class)
@@ -2300,3 +2317,6 @@ blog.logrocket.com###the-content-container > .lr-content > .code-block
 ||scrm-wx.weiling.cn/marketing_track/
 ||sentry.oray.com/
 ||tk.oray.com/track
+
+||softonic.com/revamp/
+softonic.com###top-leaderboard-1-wrapper

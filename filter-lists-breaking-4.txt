@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Sunday, September 8, 2024
+! Last modified: Friday, October 4, 2024
 ! Title: Custom Filter Lists Breaking 4
-! Version: 20240908
+! Version: 20241004
 !
 !
 !
@@ -37,6 +37,7 @@ docs.pytest.org##body:style(font-family: initial !important)
 palletsprojects.com##body:style(font-family: initial !important)
 pipenv.pypa.io##body:style(font-family: initial !important)
 
+blog.jetbrains.com##.latest_posts_section .col:has(.card__footer>.author>.avatar[alt="Sue"])
 cn.bing.com###b_header .b_searchboxForm:style(border-radius: 6px !important;)
 cn.bing.com###est_switch,#b_results > li.b_msg.b_canvas
 community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/jackett"])
@@ -47,12 +48,9 @@ community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/micros
 community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/oh-my-posh"])
 community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/selenium-chromium-edge-driver"])
 community.chocolatey.org##ul.package-list-view > li:has(a[href="/packages/webview2-runtime"])
-devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/dotnet-ch"])
-devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/java-ch"])
-devblogs.microsoft.com##.devblogs-all-blogs > li:has(a[href^="https://devblogs.microsoft.com/java"])
-devblogs.microsoft.com##.landing-site > article:has(.entry-title > a[href^="https://devblogs.microsoft.com/dotnet-ch/"])
-devblogs.microsoft.com##.landing-site > article:has(.entry-title > a[href^="https://devblogs.microsoft.com/java-ch/"])
-devblogs.microsoft.com##.landing-site > article:has(.entry-title > a[href^="https://devblogs.microsoft.com/java/"])
+devblogs.microsoft.com##.masonry-card:has(> h3 > a[href^="https://devblogs.microsoft.com/dotnet-ch/"]):remove()
+devblogs.microsoft.com##.masonry-card:has(> h3 > a[href^="https://devblogs.microsoft.com/java-ch/"]):remove()
+devblogs.microsoft.com##.masonry-card:has(> h3 > a[href^="https://devblogs.microsoft.com/java/"]):remove()
 developer.android.com##.devsite-page-bookmark-tooltip
 eslint.org##a.rule__name::after:style(height: unset !important; width: unset !important;)
 gist.github.com##.gist-snippet:has(>.gist-snippet-meta a[data-hovercard-type="user"][href="/choco-bot"])
