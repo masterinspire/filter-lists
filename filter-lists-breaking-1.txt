@@ -2,9 +2,9 @@
 ! Author: Master Inspire
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/masterinspire/filter-lists
-! Last modified: Friday, October 4, 2024
+! Last modified: Wednesday, December 11, 2024
 ! Title: Custom Filter Lists Breaking 1
-! Version: 20241004
+! Version: 20241211
 !
 !
 !
@@ -17,7 +17,9 @@
 ||feedburner.google.com$domain=chocolatey.org
 ||firebase-dot-devsite-v2-prod.appspot.com/$domain=firebase.google.com
 ||graph.facebook.com/*/picture$3p
+||graph.instagram.com/$3p
 ||i.ytimg.com/$3p
+||ig.instant-tokens.com/$3p
 ||mail.google.com/mail/$domain=www.erlang.org
 ||raw.githubusercontent.com/mui/material-ui/master/docs/notifications.json$domain=mui.com
 ||stackblitz.com$domain=ng.ant.design
